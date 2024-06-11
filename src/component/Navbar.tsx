@@ -54,6 +54,10 @@ export function Navbar(){
         {
             key: "activities",
             label: "活動 Activities"
+        },
+        {
+            key: "rule",
+            label: "實驗室進場規則 Rules"
         }
     ]
     return (
