@@ -31,7 +31,7 @@ export function Alumni(){
             status: "準備畢業中..."
         }
     ]
-    const alumniColumns: ColumnType<any>[] = [
+    const masterAlumniColumns: ColumnType<any>[] = [
         {
             key: 'name',
             dataIndex: 'name',
@@ -170,7 +170,7 @@ export function Alumni(){
         <div className="w-100">
             <div className="overflow-x-auto">
                 <h4 className="text-center fw-bold">碩士生（Master students）</h4>
-                <Table columns={alumniColumns} dataSource={masterAlumniDatas} pagination={false}></Table>
+                <Table columns={masterAlumniColumns} dataSource={masterAlumniDatas} pagination={false}></Table>
             </div>
             <hr />
             <div className="overflow-x-auto">
