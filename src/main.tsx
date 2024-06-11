@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { HashRouter, Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
+import { Route, RouterProvider, createHashRouter, createRoutesFromElements } from 'react-router-dom'
 import { RootLayout } from './layout/RootLayout.tsx'
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import "../src/index.css"
@@ -8,14 +8,12 @@ import { Home } from './page/Home.tsx'
 import { ConfigProvider } from 'antd'
 import { Member } from './page/Member.tsx'
 
-const router = createBrowserRouter(
+const router = createHashRouter(
   createRoutesFromElements(
-    <HashRouter>
       <Route element={<RootLayout></RootLayout>}>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/Member' element={<Member></Member>}></Route>
       </Route>
-    </HashRouter>
   )
 )
 
