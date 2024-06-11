@@ -7,12 +7,14 @@ import "../src/index.css"
 import { Home } from './page/Home.tsx'
 import { ConfigProvider } from 'antd'
 import { Member } from './page/Member.tsx'
+import { Alumni } from './page/Alumni.tsx'
 
 const router = createHashRouter(
   createRoutesFromElements(
       <Route element={<RootLayout></RootLayout>}>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/Member' element={<Member></Member>}></Route>
+        <Route path='/Alumni' element={<Alumni></Alumni>}></Route>
       </Route>
   )
 )

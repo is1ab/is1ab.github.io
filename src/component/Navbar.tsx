@@ -15,7 +15,8 @@ export function Navbar(){
                 },
                 {
                     key: "alumni",
-                    label: "畢業成員 Alumni"
+                    label: "畢業成員 Alumni",
+                    onClick: () => navigate("/Alumni")
                 },
                 {
                     key: "partner",

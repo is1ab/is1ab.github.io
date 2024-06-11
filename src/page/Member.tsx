@@ -21,7 +21,7 @@ export function Member(){
             joinDate: "2022.12",
             role: "碩一，資安碩士",
             coAdvisor: '',
-            experience: "臺灣積體電路 - 資訊安全部實習生、前動力安全資訊股份有限公司實習生",
+            experience: "臺積電 - 資訊安全部實習生、前動力安全資訊股份有限公司實習生",
             certificate: "iPAS 資訊安全工程師檢定（初級）"
         },
         {
@@ -435,7 +435,6 @@ export function Member(){
     ]
     return (
         <div className="member">
-            <hr></hr>
             <>
                 <h4 className="text-center fw-bold">博士生（Ph.D. students）</h4>
                 <Table columns={tableColumns} dataSource={phdUserTableItem} pagination={false}></Table>

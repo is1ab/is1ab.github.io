@@ -13,7 +13,7 @@ export function RootLayout(){
             <hr className="bg-white m-0" style={{padding: "0.05rem"}}></hr>
             <Container>
                 <Navbar></Navbar>
-                <Row className="w-100 d-flex flex-column flex-md-row">
+                <Row className="w-100 d-flex flex-column flex-md-row py-5">
                     <Col sm={12} lg={9}>
                         <Outlet></Outlet>
                     </Col>
