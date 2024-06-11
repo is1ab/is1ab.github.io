@@ -30,8 +30,8 @@ export function Navbar(){
             label: "指導教授 About Dr. Sun",
             children: [
                 {
-                    key: "CV",
-                    label: "簡歷 CV"
+                    key: "Profile",
+                    label: "簡介 Profile"
                 },
                 {
                     key: "publication",
