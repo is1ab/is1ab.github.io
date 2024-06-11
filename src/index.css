@@ -34,7 +34,7 @@ h6, p {
 }
 
 .member p, td, th {
-    font-size: 1rem !important;
+    font-size: calc(0.7rem + .3vw) !important;
 }
 
 .ant-menu-selected .ant-menu-submenu-selected {
