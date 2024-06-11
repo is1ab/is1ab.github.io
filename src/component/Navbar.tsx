@@ -1,4 +1,4 @@
-import { Button, Menu, MenuProps } from "antd";
+import { Menu, MenuProps } from "antd";
 import { useNavigate } from "react-router-dom";
 
 export function Navbar(){
