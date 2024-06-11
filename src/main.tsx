@@ -8,6 +8,7 @@ import { Home } from './page/Home.tsx'
 import { ConfigProvider } from 'antd'
 import { Member } from './page/Member.tsx'
 import { Alumni } from './page/Alumni.tsx'
+import { Partner } from './page/Partner.tsx'
 
 const router = createHashRouter(
   createRoutesFromElements(
@@ -15,6 +16,7 @@ const router = createHashRouter(
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/Member' element={<Member></Member>}></Route>
         <Route path='/Alumni' element={<Alumni></Alumni>}></Route>
+        <Route path='/Partner' element={<Partner></Partner>}></Route>
       </Route>
   )
 )

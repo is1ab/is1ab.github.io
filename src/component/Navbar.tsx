@@ -20,7 +20,8 @@ export function Navbar(){
                 },
                 {
                     key: "partner",
-                    label: "合作成員 Partner"
+                    label: "合作成員 Partner",
+                    onClick: () => navigate("/Partner")
                 }
             ]
         },
