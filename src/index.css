@@ -1,0 +1,55 @@
+:root {
+    font-family: 'Poppins', sans-serif !important;
+    line-height: 2;
+    font-weight: 400;
+  
+    color-scheme: light dark;
+    color: rgba(0, 0, 0, 0.87);
+    background-color: #242424;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #cf2e2e !important
+}
+
+h6, p {
+    color: white;
+    margin: 0;
+}
+
+.introduction p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 2;
+    margin: 0;
+}
+
+.member p, td, th {
+    font-size: 1rem !important;
+}
+
+.ant-menu-selected .ant-menu-submenu-selected {
+    color: #cf2e2e !important;
+}
+
+.alert {
+    font-size: 1.5rem;
+}
+
+a {
+    color: #cf2e2e !important;
+}
+
+.bold-red {
+    color: #cf2e2e;
+    font-weight: 800;
+}
