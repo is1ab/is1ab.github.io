@@ -31,7 +31,8 @@ export function Navbar(){
             children: [
                 {
                     key: "Profile",
-                    label: "簡介 Profile"
+                    label: "簡介 Profile",
+                    onClick: () => navigate("/Profile")
                 },
                 {
                     key: "publication",
