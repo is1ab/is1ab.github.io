@@ -332,7 +332,7 @@ export function Member(){
             title: "姓名",
             dataIndex: 'name',
             key: "name",
-            width: '5%',
+            width: '15%',
             render: (_text: string, render: any, _index: number) => {
                 return (
                     <>
@@ -353,7 +353,7 @@ export function Member(){
                     </>
                 )
             },
-            width: '11%'
+            width: '25%'
         },
         {
             title: "特殊經歷、專長與資安證照",
@@ -374,6 +374,7 @@ export function Member(){
             key: 'group',
             dataIndex: 'group',
             title: "組別",
+            width: "10%"
         },
         {
             key: 'name',
@@ -381,13 +382,16 @@ export function Member(){
             title: "姓名",
             render: (_text: string, render: any, _index: number) => {
                 return (
-                    <div className="d-flex flex-column">
+                    <div className="d-flex flex-column gap-2">
                         { 
                             render.members.map((member: any) => {
                                 return (
-                                    <div>
-                                        <p>{member.name}
-                                        {member.intern !== "" ? <span style={{color: "#0693e3"}}> {member.intern}</span> : null}
+                                    <div className="d-flex flex-column flex-md-row">
+                                        <p>
+                                            {member.name} &nbsp;
+                                        </p>
+                                        <p>
+                                            {member.intern !== "" ? <span style={{color: "#0693e3"}}>{member.intern}</span> : null}
                                         </p>
                                     </div>
                                 )
@@ -396,11 +400,13 @@ export function Member(){
                     </div>
                 )
             },
+            width: "30%"
         },
         {
             key: 'note',
             dataIndex: 'note',
             title: "備註",
+            width: "30%"
         },
         {
             key: 'progress',
@@ -409,19 +415,22 @@ export function Member(){
             render: (_text: string, render: any, _index: number) => {
                 const progress = render.progress
                 return <p>{"█ ".repeat(progress)}{"░ ".repeat(10-progress)}</p>
-            }
+            },
+            width: "30%"
         }
     ]
     const otherStudentTableColumns: ColumnType<any>[] = [
         {
             key: 'name',
             dataIndex: 'name',
-            title: "姓名"
+            title: "姓名",
+            width: "25%"
         },
         {
             key: 'note',
             dataIndex: 'note',
-            title: "備註"
+            title: "備註",
+            width: "75%"
         }
     ]
     return (
