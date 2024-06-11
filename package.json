@@ -2,7 +2,7 @@
   "name": "is1ab-web",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://ntut-xuan.github.io/is1ab-website",
+  "homepage": "https://ntut-xuan.github.io/is1ab-website/#",
   "type": "module",
   "scripts": {
     "dev": "vite",
