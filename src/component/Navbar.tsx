@@ -28,6 +28,10 @@ export function Navbar(){
             label: "指導教授 About Dr. Sun",
             children: [
                 {
+                    key: "CV",
+                    label: "簡歷 CV"
+                },
+                {
                     key: "publication",
                     label: "著作 Publication"
                 },
