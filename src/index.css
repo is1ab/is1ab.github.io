@@ -84,6 +84,15 @@ td, li {
     margin: 0;
 }
 
+.rule ul li {
+    color: white;
+    margin: 0;
+    font-size: calc(0.8rem + .3vw);
+    font-weight: 300;
+    line-height: 2;
+    margin: 0;
+}
+
 .member p, td, th {
     font-size: calc(0.7rem + .3vw) !important;
 }
