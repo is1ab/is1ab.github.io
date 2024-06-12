@@ -36,7 +36,8 @@ export function Navbar(){
                 },
                 {
                     key: "publication",
-                    label: "著作 Publication"
+                    label: "著作 Publication",
+                    onClick: () => navigate("/Publication")
                 },
                 {
                     key: "experience",

@@ -13,7 +13,7 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
+p, h1, h2, h3, h4, h5, h6, ul, li {
     font-family: 'Poppins', sans-serif !important;
 }
 
@@ -26,11 +26,35 @@ h6, p {
     margin: 0;
 }
 
+li {
+    color: white;
+}
+
+
 .introduction p {
     font-size: 1.25rem;
     font-weight: 300;
     line-height: 2;
     margin: 0;
+}
+
+.publication ol li {
+    color: white;
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2;
+    margin: 0;
+}
+
+.sci {
+    color: #fcb900;
+    font-weight: 700;
+}
+
+.co-first-auther {
+    color: #0693e3;
+    font-weight: 700;
 }
 
 .partner ul li {
