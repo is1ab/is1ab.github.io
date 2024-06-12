@@ -9,7 +9,7 @@ export function News(){
         return (
             <tr>
                 <td className="border border-1">
-                    <span className="title">賀！</span>
+                    <span className="title">👑賀！</span>
                     <strong>{props.people}</strong>&nbsp;
                     <span>{props.description}</span>
                     {props.extraDescription === undefined ? null : <span className="extra-description">{props.extraDescription}</span>}

@@ -125,6 +125,7 @@ a {
 
 .news td {
     font-size: calc(0.8rem + .3vw) !important;
+    line-height: 2;
 }
 
 .news .title {
