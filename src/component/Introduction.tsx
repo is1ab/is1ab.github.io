@@ -16,7 +16,7 @@ export function Introduction(){
             </ul>
             <p> We welcome students with <span className="bold-red">research passion</span> and <span className="bold-red">crazy ideas</span> to join us and expect our research projects can have great protection on improving computer security. </p>
             <br></br>
-            <p> 欲加入實驗室之同學，請先行閱讀《本實驗室入場手冊》，再與《我》聯繫。 </p>
+            <p> 欲加入實驗室之同學，請先行閱讀《<a className="text-decoration-underline" style={{cursor: 'pointer'}} onClick={() => navigate("/rules")}>本實驗室入場手冊</a>》，再與《<a href="mailto:cysun@ntut.edu.tw">我</a>》聯繫。 </p>
         </div>
     )
 }
