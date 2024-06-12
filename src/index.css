@@ -142,3 +142,12 @@ a {
 .news .extra-description {
     color: #0693e3;
 }
+
+.activities td {
+    font-size: calc(0.8rem + .3vw) !important;
+    line-height: 2;
+}
+
+.activities td {
+    padding: 1.25rem;
+}
