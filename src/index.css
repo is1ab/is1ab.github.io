@@ -32,7 +32,7 @@ td, li {
 
 
 .introduction p {
-    font-size: 1.25rem;
+    font-size: calc(0.8rem + .3vw) !important;
     font-weight: 300;
     line-height: 2;
     margin: 0;
