@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Cryptography",
+        "description": "Encryption/Decription, Digital signatures, Authentication schemes, and Privacy issues." 
+    },
+    {
+        "title": "Network security",
+        "description": "Intrusion Detection/Prevention System (IPS/IDS), Secure network protocols, and Hacking techniques." 
+    },
+    {
+        "title": "Hardware security",
+        "description": "Cache side-channel attach, Memory protection, Logic locking, and Physically Unclonable Function (PUF)."
+    },
+    {
+        "title": "Applied cryptography",
+        "description": "Security/Privacy issues on E-commerce, Blockchain, Machine/Deep learning, and Fintech."
+    },
+    {
+        "title": "Quantum cryptography",
+        "description": "Quantum Key Distribution protocols (QKD), Quantum Key Agreement (QKA), Quantum Secret Sharing (QSS), and Quantum Direct Communication (QDC)."
+    }
+]
