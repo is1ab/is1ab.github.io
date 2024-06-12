@@ -41,7 +41,8 @@ export function Navbar(){
                 },
                 {
                     key: "experience",
-                    label: "經歷 Experience"
+                    label: "經歷 Experience",
+                    onClick: () => navigate("/Experience")
                 },
                 {
                     key: "records",

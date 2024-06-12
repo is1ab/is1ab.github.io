@@ -47,6 +47,15 @@ li {
     margin: 0;
 }
 
+.experience ul li {
+    color: white;
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2;
+    margin: 0;
+}
+
 .sci {
     color: #fcb900;
     font-weight: 700;
@@ -84,5 +93,19 @@ a {
 
 .bold-red {
     color: #cf2e2e;
+    font-weight: 800;
+}
+
+.project-passed {
+    color: #fcb900;
+    font-weight: 800;
+}
+
+.project-progressing {
+    font-weight: 800;
+}
+
+.project-finished {
+    color: #00d084;
     font-weight: 800;
 }
