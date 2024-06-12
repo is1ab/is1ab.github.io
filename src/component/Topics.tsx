@@ -4,8 +4,7 @@ export function Topics(props: {
 }){
     return (
         <p>
-            <span className="bold-red">{props.topic}</span>: 
-            <span className="fst-italic">{props.description}</span>
+            <span className="bold-red">{props.topic}</span>: <span className="fst-italic">{props.description}</span>
         </p>
     )
 }

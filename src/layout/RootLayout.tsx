@@ -3,6 +3,7 @@ import { Outlet } from "react-router-dom";
 import { Header } from "../component/Header";
 import { Navbar } from "../component/Navbar";
 import Logo from "../assets/logo.png"
+import { Marquee } from "../component/Marquee";
 
 export function RootLayout(){
     return (
@@ -21,8 +22,9 @@ export function RootLayout(){
                         <div className="border border-1 w-100 p-3" style={{borderColor: "#ffffff33"}}>
                             <img className="w-100 h-auto" src={Logo}></img>
                         </div>
-                        <div className="border border-1 w-100 p-3">
-                            <h6 className="fw-bold">公告</h6>
+                        <div className="border border-1 w-100 p-4">
+                            <h6 className="fw-bold mb-3">公告</h6>
+                            <Marquee />
                         </div>
                     </Col>
                 </Row>

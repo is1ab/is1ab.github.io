@@ -151,3 +151,35 @@ a {
 .activities td {
     padding: 1.25rem;
 }
+
+.marquee-container {
+    height: 100%; /* Adjust this to fit your desired height */
+    overflow: hidden;
+    position: relative;
+}
+
+.marquee-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    animation: scroll 150s linear infinite;
+}
+
+.marquee-container:hover .marquee-content {
+    animation-play-state: paused;
+}
+
+.marquee-content p {
+    font-size: calc(0.6rem + .3vw) !important;
+    color: #cf2e2e
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateY(0%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
