@@ -46,7 +46,8 @@ export function Navbar(){
                 },
                 {
                     key: "records",
-                    label: "紀錄 Records"
+                    label: "紀錄 Records",
+                    onClick: () => navigate("/Record")
                 }
             ]
         },

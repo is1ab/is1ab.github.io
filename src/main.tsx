@@ -12,6 +12,7 @@ import { Partner } from './page/Partner.tsx'
 import { Profile } from './page/Profile.tsx'
 import { Publication } from './page/Publication.tsx'
 import { Experience } from './page/Experience.tsx'
+import { Record } from './page/Records.tsx'
 
 const router = createHashRouter(
   createRoutesFromElements(
@@ -23,6 +24,7 @@ const router = createHashRouter(
         <Route path='/Profile' element={<Profile></Profile>}></Route>
         <Route path='/Publication' element={<Publication></Publication>}></Route>
         <Route path='/Experience' element={<Experience></Experience>}></Route>
+        <Route path='/Record' element={<Record></Record>}></Route>
       </Route>
   )
 )
