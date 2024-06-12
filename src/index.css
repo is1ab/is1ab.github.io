@@ -120,6 +120,8 @@ a {
 }
 
 .news small {
+    font-size: calc(0.5rem + .3vw) !important;
+    line-height: 2;
     color: white
 }
 
