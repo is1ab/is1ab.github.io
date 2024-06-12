@@ -26,7 +26,7 @@ h6, p {
     margin: 0;
 }
 
-li {
+td, li {
     color: white;
 }
 
@@ -117,4 +117,25 @@ a {
 .project-finished {
     color: #00d084;
     font-weight: 800;
+}
+
+.news small {
+    color: white
+}
+
+.news td {
+    font-size: calc(0.8rem + .3vw) !important;
+}
+
+.news .title {
+    color: #cf2e2e;
+    font-weight: 800;
+}
+
+.news td {
+    padding: 1.25rem;
+}
+
+.news .extra-description {
+    color: #0693e3;
 }

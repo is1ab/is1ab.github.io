@@ -53,15 +53,18 @@ export function Navbar(){
         },
         {
             key: "news",
-            label: "消息 News"
+            label: "消息 News",
+            onClick: () => navigate("/News")
         },
         {
             key: "activities",
-            label: "活動 Activities"
+            label: "活動 Activities",
+            onClick: () => navigate("/Activities")
         },
         {
             key: "rule",
-            label: "實驗室進場規則 Rules"
+            label: "實驗室進場規則 Rules",
+            onClick: () => navigate("/Rules")
         }
     ]
     return (
