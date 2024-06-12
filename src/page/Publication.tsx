@@ -213,7 +213,7 @@ export function Publication(){
             </>
             <hr></hr>
             <>
-            <h4 className="text-center fw-bold">Pending</h4>
+                <h4 className="text-center fw-bold">Pending</h4>
                 <ol>
                     <li>
                         <Author>
