@@ -43,7 +43,7 @@ export function Activities(){
                     descriptionItem={
                         <div>
                             <p>實驗室尾牙：旭集和食集錦 SUNRISE</p>
-                            <a href="www.google.com.tw" target="_blank">活動照片</a>
+                            <a href="https://drive.google.com/drive/folders/1U6XlB5iYi8IZ_zxsanV-Ddvi7Ho-hQbj?usp=sharing" target="_blank">活動照片</a>
                         </div>
                     }
                 ></ActivitiesItem>
@@ -52,7 +52,7 @@ export function Activities(){
                     descriptionItem={
                         <div>
                             <p>參與第四屆的奧義學院實習生發表會＆AI 資安社群論壇</p>
-                            <a href="www.google.com.tw" target="_blank">活動照片</a>
+                            <a href="https://drive.google.com/drive/folders/1K5nFV4XaeNVoBWK7AJVirJAATYlWYBrQ?usp=sharing" target="_blank">活動照片</a>
                         </div>
                     }
                 ></ActivitiesItem>
@@ -63,7 +63,7 @@ export function Activities(){
                             <p>參與 2023 ICCE-TW 會議</p>
                             <p>＊Next Generation Cyberseucrity – Session Chair</p>
                             <p>＊學生論文發表</p>
-                            <a href="www.google.com.tw" target="_blank">活動照片</a>
+                            <a href="https://drive.google.com/drive/folders/1apLzvp0RNLh24v1aRKKM7y7BSnIm6jIH?usp=sharing" target="_blank">活動照片</a>
                         </div>
                     }
                 ></ActivitiesItem>
@@ -73,7 +73,7 @@ export function Activities(){
                         <div>
                             <p>2023 尋找資安女婕思（決賽）</p>
                             <p>＊地點：臺南工業局沙崙資安服務基地</p>
-                            <a href="www.google.com.tw" target="_blank">活動照片</a>
+                            <a href="https://drive.google.com/drive/folders/1oGpl4CE0QH2zLfNcTmrRPu7aN0PcFdbs?usp=sharing" target="_blank">活動照片</a>
                         </div>
                     }
                 ></ActivitiesItem>
@@ -93,7 +93,7 @@ export function Activities(){
                     descriptionItem={
                         <div>
                             <p>實驗室尾牙：豐 Food 海陸百匯</p>
-                            <a href="www.google.com.tw" target="_blank">活動照片</a>
+                            <a href="https://drive.google.com/drive/folders/1wpcEuu9HB1LHrLiRWxqnrK6kG41wP-no?usp=sharing" target="_blank">活動照片</a>
                         </div>
                     }
                 ></ActivitiesItem>
