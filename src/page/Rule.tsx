@@ -33,7 +33,7 @@ export function Rule(){
             <hr></hr>
             <h4 className="text-center fw-bold">老師重視</h4>
             <ul>
-                <li>學術論理</li>
+                <li>學術倫理</li>
                 <li>誠實（嚴禁考試作弊、作業抄襲、論文報告造假...等）</li>
                 <li>實驗室相關安全與衛生規範（用電安全、環境安全、整潔）</li>
                 <li>實驗室參與度*</li>
