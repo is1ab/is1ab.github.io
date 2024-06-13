@@ -21,7 +21,7 @@ export function Member(){
             joinDate: "2022.12",
             role: "碩一，資安碩士",
             coAdvisor: '',
-            experience: "臺積電 - 資訊安全部實習生、前動力安全資訊股份有限公司實習生",
+            experience: "台積電 - 資訊安全部實習生、前動力安全資訊股份有限公司實習生",
             certificate: "iPAS 資訊安全工程師檢定（初級）"
         },
         {
