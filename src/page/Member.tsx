@@ -84,7 +84,7 @@ export function Member(){
             joinDate: "2023.12",
             role: "碩零，資安碩士",
             coAdvisor: '',
-            experience: "保華資安股份有限公司",
+            experience: "保華資安股份有限公司實習生",
             certificate: ""
         },
         {
