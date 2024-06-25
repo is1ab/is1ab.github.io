@@ -230,7 +230,7 @@ export function Member(){
                     intern: ""
                 }
             ],
-            note: "基於 API 呼叫序列的深度學習模型用於勒索病毒偵測",
+            note: "基於 API 呼叫序列的深度學習模型用於勒索病毒偵測（大專生計畫編號:113-2813-C-027-054-E）",
             progress: 7
         },
         {
