@@ -84,7 +84,7 @@ export function Member(){
             joinDate: "2023.12",
             role: "碩零，資安碩士",
             coAdvisor: '',
-            experience: "",
+            experience: "保華資安股份有限公司",
             certificate: ""
         },
         {
@@ -138,6 +138,15 @@ export function Member(){
             joinDate: "2024.04",
             role: "碩零，資工碩士",
             coAdvisor: '',
+            experience: "",
+            certificate: ""
+        },
+        {
+            key: '15',
+            name: "陳泰吉",
+            joinDate: "2024.06",
+            role: "碩零，資工碩士",
+            coAdvisor: '郭忠義',
             experience: "",
             certificate: ""
         }
