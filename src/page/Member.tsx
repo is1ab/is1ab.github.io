@@ -58,7 +58,7 @@ export function Member(){
             role: "碩一，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: ""
+            certificate: "iPAS 資訊安全工程師檢定（初級）"
         },
         {
             key: '6',
@@ -76,7 +76,7 @@ export function Member(){
             role: "碩一，資安碩士",
             coAdvisor: '林敬皇',
             experience: "",
-            certificate: ""
+            certificate: "iPAS 資訊安全工程師檢定（初級）"
         },
         {
             key: '8',
@@ -85,7 +85,7 @@ export function Member(){
             role: "碩零，資安碩士",
             coAdvisor: '',
             experience: "保華資安股份有限公司實習生",
-            certificate: ""
+            certificate: "iPAS 資訊安全工程師檢定（初級）"
         },
         {
             key: '9',
@@ -147,6 +147,15 @@ export function Member(){
             joinDate: "2024.06",
             role: "碩零，資工碩士",
             coAdvisor: '郭忠義',
+            experience: "",
+            certificate: ""
+        },
+        {
+            key: '16',
+            name: "黃奕評",
+            joinDate: "2024.06",
+            role: "碩零，資安碩士",
+            coAdvisor: '',
             experience: "",
             certificate: ""
         }
