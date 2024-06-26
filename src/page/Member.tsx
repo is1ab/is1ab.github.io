@@ -209,7 +209,7 @@ export function Member(){
             members: [
                 {
                     name: "陳思群",
-                    intern: ""
+                    intern: "博仲法律事務所"
                 },
                 {
                     name: "顏睿寬",
@@ -217,7 +217,7 @@ export function Member(){
                 },
                 {
                     name: "許宸瑋",
-                    intern: ""
+                    intern: "博仲法律事務所"
                 }
             ],
             note: "結合語言模型與特徵機制之整合式網路入侵偵測告警系統",
@@ -228,7 +228,7 @@ export function Member(){
             members: [
                 {
                     name: "吳奕萱",
-                    intern: "叡揚資訊實習生"
+                    intern: "叡揚資訊股份有限公司"
                 },
                 {
                     name: "程邦博",
@@ -247,15 +247,15 @@ export function Member(){
             members: [
                 {
                     name: "黃政",
-                    intern: "庫柏資訊實習生"
+                    intern: "智安數據科技股份有限公司"
                 },
                 {
                     name: "劉硯皓",
-                    intern: "中央研究院實習生"
+                    intern: "中央研究院"
                 },
                 {
                     name: "張庭偉",
-                    intern: "庫柏資訊實習生"
+                    intern: "智安數據科技股份有限公司"
                 }
             ],
             note: "Practice Tools for Simple Design",
@@ -266,7 +266,7 @@ export function Member(){
             members: [
                 {
                     name: "林蔚",
-                    intern: ""
+                    intern: "起而行綠能股份有限公司"
                 },
                 {
                     name: "許恩誠",
