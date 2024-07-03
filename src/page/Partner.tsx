@@ -28,12 +28,13 @@ export function Partner(){
             ]
         },
         {
-            organization: "新北市立三重商工 資料處理科/教育部 商業與管理群科中心委員",
+            organization: "新北市立三重商工 資料處理科",
             name: "林易民",
             title: "老師",
             website: "https://www.scvs.ntpc.edu.tw/p/404-1000-802.php",
             descriptions: [
-                "網頁安全、系統安全強化、資安事件分析、培訓網路安全職類選手"
+                "網頁安全、系統安全強化、資安事件分析、培訓網路安全職類選手",
+                "教育部 商業與管理群科中心委員"
             ]
         },
         {
