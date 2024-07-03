@@ -169,6 +169,13 @@ export function Publication(){
                 <ol>
                     <li>
                         <Author>
+                            Chia-Hsien Liao and <Professor star/>
+                        </Author>
+                        <Title title="Note on “Learning with error-based key agreement and authentication scheme for satellite communication"/>
+                        Accepted by <Journal name="Taiwan Conference on Software Engineering (TCSE 2024)"/>, June 2024.
+                    </li>
+                    <li>
+                        <Author>
                             Sheng-Shan Chen, Ren-Hung Hwang*, <Professor star/>, Ying-Dar Lin, and Tun-Wen Pai
                         </Author>
                         <Title title="Enhancing Cyber Threat Intelligence with Named Entity Recognition using BERT-CRF,"/>
@@ -215,13 +222,6 @@ export function Publication(){
             <>
                 <h4 className="text-center fw-bold">Pending</h4>
                 <ol>
-                    <li>
-                        <Author>
-                            Chia-Hsien Liao and <Professor star/>
-                        </Author>
-                        <Title title="Note on “Learning with error-based key agreement and authentication scheme for satellite communication"/>
-                        Submitted to <Journal name="Taiwan Conference on Software Engineering (TCSE 2024)"/>, June 2024.
-                    </li>
                     <li>
                         <Author>
                             Sheng-Shan Chen, Yi-Hsien Chen, Tun-Wen Pai, Chung-Kuan Chen, Keisuke Furumoto, Takeshi Takahashi, and <Professor star/>
