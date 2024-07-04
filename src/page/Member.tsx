@@ -143,15 +143,6 @@ export function Member(){
         },
         {
             key: '15',
-            name: "陳泰吉",
-            joinDate: "2024.06",
-            role: "碩零，資工碩士",
-            coAdvisor: '郭忠義',
-            experience: "",
-            certificate: ""
-        },
-        {
-            key: '16',
             name: "黃奕評",
             joinDate: "2024.06",
             role: "碩零，資安碩士",
