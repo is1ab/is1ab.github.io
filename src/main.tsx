@@ -52,7 +52,9 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
           colorTextDescription: "white",
           colorText: "white",
           colorBorder: "white",
-          headerColor: "white"
+          headerColor: "white",
+          borderColor: "white",
+          headerBorderRadius: 0
         }
       }
     }}>

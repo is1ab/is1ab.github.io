@@ -446,27 +446,27 @@ export function Member(){
         <div className="member">
             <>
                 <h4 className="text-center fw-bold">博士生（Ph.D. students）</h4>
-                <Table columns={tableColumns} dataSource={phdUserTableItem} pagination={false}></Table>
+                <Table columns={tableColumns} dataSource={phdUserTableItem} pagination={false} bordered></Table>
             </>
             <hr></hr>
             <>
                 <h4 className="text-center fw-bold">碩士生（Master students）</h4>
-                <Table columns={tableColumns} dataSource={masterUserTableItem} pagination={false}></Table>
+                <Table columns={tableColumns} dataSource={masterUserTableItem} pagination={false} bordered></Table>
             </>
             <hr></hr>
             <>
                 <h4 className="text-center fw-bold">顧問團隊（Consultant）</h4>
-                <Table columns={tableColumns} dataSource={consultantUserTableItem} pagination={false}></Table>
+                <Table columns={tableColumns} dataSource={consultantUserTableItem} pagination={false} bordered></Table>
             </>
             <hr></hr>
             <>
                 <h4 className="text-center fw-bold">專題生（Undergraduate students）</h4>
-                <Table columns={undergraduatedStudentTableColumns} dataSource={undergraduateStudentTableItem} pagination={false}></Table>
+                <Table columns={undergraduatedStudentTableColumns} dataSource={undergraduateStudentTableItem} pagination={false} bordered></Table>
             </>
             <hr></hr>
             <>
                 <h4 className="text-center fw-bold">合作學生（Others）</h4>
-                <Table columns={otherStudentTableColumns} dataSource={otherStudentTableItem} pagination={false}></Table>
+                <Table columns={otherStudentTableColumns} dataSource={otherStudentTableItem} pagination={false} bordered></Table>
             </>
         </div>
     )
