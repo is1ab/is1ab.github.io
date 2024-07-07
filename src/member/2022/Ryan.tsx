@@ -217,7 +217,7 @@ export const RyanMemberPage = () => {
             zhName="陳勝舢"
             enName="Sheng-Shan Chen"
             institutes={["國立臺北科技大學 資訊工程所"]}
-            bio={""}
+            bio={"Sheng-Shan Chen is a Ph.D. student in Computer Science and Information Engineering at the National Taipei University of Technology (NTUT) and a cybersecurity researcher with Cycraft. His research primarily focuses on applying machine learning techniques to analyze cyber threats and cyber threat intelligence (CTI). He is currently involved in an academic research project under Taiwan's National Institute of Cyber Security (NICS), focusing on using a Large Language Model (LLM) to analyze CTI.  His scholarly work has been featured in notable publications and conferences, including the Computers & Security Journal, IEEE Global Communications Conference (GLOBECOM), International Conference on Medical and Health Informatics (ICMHI), International Conference on Industrial, Engineering & Other Applications of Applied Intelligent Systems (IEA/AIE), and the Hacks In Taiwan Conference (HITCON). Additionally, Sheng-Shan achieved second place in cybersecurity at Taiwan's 50th National Skills Competition, coached students to a third-place finish at the 52nd National Skills Competition, and served as the Technical Consultant for Cybersecurity at the 53rd and 54th National Skills Competition."}
             experiences={raceExperiences}
             certificates={certificates}
             participates={participates}
