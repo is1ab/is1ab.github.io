@@ -94,17 +94,21 @@ export const Sample = (props: {
     }
     return (
         <div className="d-flex flex-column" style={{gap: "3rem"}}>
-            <Row className="w-100">
-                 <div className="d-flex flex-row justify-content-center" style={{gap: "3rem"}}>
-                    <img src={props.avatar === undefined ? Logo : props.avatar} className="rounded" width={"128px"} height={"128px"} style={{objectFit: "cover"}}></img>
-                    <div className="my-auto">
-                        <h1 className="text-white"><TitleName></TitleName></h1>
-                        {props.institutes.map((institute) => {
-                            return <p className="mb-1">{institute}</p>
-                        })}
+            <div className="w-100 d-flex flex-row">
+                <div className="w-100">
+                    <div className="p-3 d-flex flex-column flex-xl-row justify-content-center" style={{gap: "1rem"}}>
+                        <div className="w-50 d-flex flex-row justify-content-center">
+                            <img src={props.avatar === undefined ? Logo : props.avatar} className="rounded" width={"128px"} height={"128px"} style={{objectFit: "cover"}}></img>
+                        </div>
+                        <div className="w-100 my-auto">
+                            <h1 className="text-white"><TitleName></TitleName></h1>
+                            {props.institutes.map((institute) => {
+                                return <p className="mb-1">{institute}</p>
+                            })}
+                        </div>
                     </div>
                 </div>
-            </Row>
+            </div>
             <div className="w-100 d-flex flex-row" style={{gap: "3rem"}}>
                 <div className="w-100">
                     <div className="p-3 w-100" style={{backgroundColor: "#7a1b1b"}}>
