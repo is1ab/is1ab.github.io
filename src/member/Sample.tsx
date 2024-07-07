@@ -166,13 +166,13 @@ export const Sample = (props: {
                         </div>
                 </div>
             }
-            { props.journals.length > 0 || props.conferences.length > 0 || props.techConfs.length > 0 &&
+            { (props.journals.length > 0 || props.conferences.length > 0 || props.techConfs.length > 0) &&
                 <div className="w-100 d-flex flex-row" style={{gap: "3rem"}}>
                     <div className="w-100">
                         <div className="p-3 w-100" style={{backgroundColor: "#7a1b1b"}}>
                             <h5 className="fw-bold text-white m-0">論文發表</h5>
                         </div>
-                        { props.journals.length > 0 &&
+                        { (props.journals.length > 0) &&
                             <div className="p-3 w-100">
                                 <h5 className="text-center">期刊論文</h5>
                                 <ol>
@@ -186,7 +186,7 @@ export const Sample = (props: {
                                 </ol>
                             </div>
                         }
-                        { props.conferences.length > 0 &&
+                        { (props.conferences.length > 0) &&
                             <div className="p-3 w-100">
                                 <h5 className="text-center">會議論文</h5>
                                 <ol>
@@ -200,7 +200,7 @@ export const Sample = (props: {
                                 </ol>
                             </div>
                         }
-                        { props.techConfs.length > 0 &&
+                        { (props.techConfs.length > 0) &&
                             <div className="p-3 w-100">
                                 <h5 className="text-center">技術會議</h5>
                                 <ol>
