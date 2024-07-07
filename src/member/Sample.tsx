@@ -1,4 +1,3 @@
-import { Row } from "react-bootstrap"
 import Logo from "../assets/logo.png"
 import { Table } from "antd"
 import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberRaceExperienceType } from "../type/MemberCertificateType"
