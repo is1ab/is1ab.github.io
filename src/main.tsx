@@ -16,12 +16,16 @@ import { Record } from './page/Records.tsx'
 import { News } from './page/News.tsx'
 import { Activities } from './page/Activities.tsx'
 import { Rule } from './page/Rule.tsx'
+import { UriahMemberPage } from './member/2023/Uriah.tsx'
+import { SeanMemberPage } from './member/2022/Sean.tsx'
 
 const router = createHashRouter(
   createRoutesFromElements(
       <Route element={<RootLayout></RootLayout>}>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/Member' element={<Member></Member>}></Route>
+        <Route path='/Member/2023/Uriah' element={<UriahMemberPage />}></Route>
+        <Route path='/Member/2022/Sean' element={<SeanMemberPage />}></Route>
         <Route path='/Alumni' element={<Alumni></Alumni>}></Route>
         <Route path='/Partner' element={<Partner></Partner>}></Route>
         <Route path='/Profile' element={<Profile></Profile>}></Route>
