@@ -11,7 +11,7 @@ export function Member(){
             coAdvisor: '白敦文',
             experience: "奧義智慧科技股份有限公司實習生",
             certificate: "CEH",
-            website: "https://sectools.tw/%e5%80%8b%e4%ba%ba%e9%a0%81%e9%9d%a2/author-ryan/"
+            website: "/#/Member/2022/Ryan"
         }
     ]
     const masterUserTableItem = [
@@ -345,7 +345,7 @@ export function Member(){
             render: (_text: string, render: any, _index: number) => {
                 return (
                     <>
-                        {render.website === undefined ? <p>{render.name}</p> : <a href={render.website} target="_blank">{render.name}</a>}
+                        {render.website === undefined ? <p>{render.name}</p> : <a href={render.website}>{render.name}</a>}
                     </>
                 )
             }

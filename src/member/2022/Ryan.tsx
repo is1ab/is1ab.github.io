@@ -1,7 +1,7 @@
 import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberRaceExperienceType } from "../../type/MemberCertificateType"
 import { Sample } from "../Sample"
 
-export const SeanMemberPage = () => {
+export const RyanMemberPage = () => {
     const certificates: MemberCertificateType[] = [
         {
             title: "iPAS 資訊安全工程師-初級能力鑑定",
