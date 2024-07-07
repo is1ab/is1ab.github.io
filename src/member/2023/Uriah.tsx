@@ -7,16 +7,20 @@ export const UriahMemberPage = () => {
     const certificates: MemberCertificateType[] = []
     const raceExperiences: MemberRaceExperienceType[] = []
     const participates: MemberParticipateType[] = []
-    const internExperiences: MemberInternType[] = []
+    const internExperiences: MemberInternType[] = [{
+        company: "財團法人電腦技能基金會",
+        info: "擔任實習工程師，維護 CodeJudger 專案與 TQC+ 轉骨計畫新網站全端，引入 PR 機制與 CI/CD 開發流程，協助修復 CVSS 高嚴重漏洞。",
+        datetime: "2023.07-2024.02"
+    }]
     const journals: MemberArticleType[] = []
     const conferences: MemberArticleType[] = []
     const techConfs: MemberArticleType[] = []
     return (
         <Sample
             zhName="黃漢軒"
-            enName="Uriah"
+            enName="Huang, Han-Xuan"
             avatar={Uriah}
-            institutes={["國立臺北科技大學 資訊工程系 資訊安全實驗室", "國立陽明交通大學 資訊安全研究所 網路與系統實驗室"]}
+            institutes={["國立臺北科技大學 資訊工程系 資訊安全實驗室顧問", "國立陽明交通大學 資訊安全研究所 網路與系統實驗室"]}
             bio={bio}
             experiences={raceExperiences}
             certificates={certificates}

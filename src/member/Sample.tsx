@@ -117,89 +117,106 @@ export const Sample = (props: {
                     }
                 </div>
             </div>
-            <div className="w-100 d-flex flex-row" style={{gap: "3rem"}}>
-                <div className="w-100">
-                    <div className="p-3 w-100" style={{backgroundColor: "#7a1b1b"}}>
-                        <h5 className="fw-bold text-white m-0">比賽經歷</h5>
-                    </div>
-                    <div className="p-3 w-100">
-                        <Table columns={experienceColumns} dataSource={props.experiences} bordered pagination={false}></Table>
-                    </div>
-                </div>
-            </div>
-            <div className="w-100 d-flex flex-row" style={{gap: "3rem"}}>
-                <div className="w-100">
-                    <div className="p-3 w-100" style={{backgroundColor: "#7a1b1b"}}>
-                        <h5 className="fw-bold text-white m-0">資安證照／檢定</h5>
-                    </div>
-                    <div className="p-3 w-100">
-                        <Table columns={titleDateTimeColumns} dataSource={props.certificates} bordered pagination={false}></Table>
-                    </div>
-                </div>
-            </div>
-            <div className="w-100 d-flex flex-row" style={{gap: "3rem"}}>
-                <div className="w-100">
-                    <div className="p-3 w-100" style={{backgroundColor: "#7a1b1b"}}>
-                        <h5 className="fw-bold text-white m-0">活動參與</h5>
-                    </div>
-                    <div className="p-3 w-100">
-                        <Table columns={titleDateTimeColumns} dataSource={props.participates} bordered pagination={false}></Table>
-                    </div>
-                </div>
-            </div>
-            <div className="w-100 d-flex flex-row" style={{gap: "3rem"}}>
-                <div className="w-100">
-                    <div className="p-3 w-100" style={{backgroundColor: "#7a1b1b"}}>
-                        <h5 className="fw-bold text-white m-0">實習經歷</h5>
-                    </div>
-                    <div className="p-3 w-100">
-                            <Table columns={internColumns} dataSource={props.intern} bordered pagination={false}></Table>
+            { props.experiences.length > 0 &&
+                <div className="w-100 d-flex flex-row" style={{gap: "3rem"}}>
+                    
+                        <div className="w-100">
+                            <div className="p-3 w-100" style={{backgroundColor: "#7a1b1b"}}>
+                                <h5 className="fw-bold text-white m-0">比賽經歷</h5>
+                            </div>
+                            <div className="p-3 w-100">
+                                <Table columns={experienceColumns} dataSource={props.experiences} bordered pagination={false}></Table>
+                            </div>
                         </div>
                 </div>
-            </div>
-            <div className="w-100 d-flex flex-row" style={{gap: "3rem"}}>
-                <div className="w-100">
-                    <div className="p-3 w-100" style={{backgroundColor: "#7a1b1b"}}>
-                        <h5 className="fw-bold text-white m-0">論文發表</h5>
-                    </div>
-                    <div className="p-3 w-100">
-                        <h5 className="text-center">期刊論文</h5>
-                        <ol>
-                        { props.journals.map((journal) => {
-                            return (
-                                <li>
-                                    <Article authors={journal.authors} title={journal.title} target={journal.target} details={journal.details} doi={journal.doi} />
-                                </li>
-                            )
-                        })}
-                        </ol>
-                    </div>
-                    <div className="p-3 w-100">
-                        <h5 className="text-center">會議論文</h5>
-                        <ol>
-                            { props.conferences.map((conference) => {
-                                return (
-                                    <li>
-                                        <Article authors={conference.authors} title={conference.title} target={conference.target} details={conference.details} doi={conference.doi} />
-                                    </li>
-                                )
-                            })}
-                        </ol>
-                    </div>
-                    <div className="p-3 w-100">
-                        <h5 className="text-center">技術會議</h5>
-                        <ol>
-                            { props.techConfs.map((conference) => {
-                                return (
-                                    <li>
-                                        <Article authors={conference.authors} title={conference.title} target={conference.target} details={conference.details} doi={conference.doi} />
-                                    </li>
-                                )
-                            })}
-                        </ol>
+            }
+            { props.certificates.length > 0 &&
+                <div className="w-100 d-flex flex-row" style={{gap: "3rem"}}>
+                        <div className="w-100">
+                            <div className="p-3 w-100" style={{backgroundColor: "#7a1b1b"}}>
+                                <h5 className="fw-bold text-white m-0">資安證照／檢定</h5>
+                            </div>
+                            <div className="p-3 w-100">
+                                <Table columns={titleDateTimeColumns} dataSource={props.certificates} bordered pagination={false}></Table>
+                            </div>
+                        </div>
+                </div>
+            }
+            { props.participates.length > 0 &&
+                <div className="w-100 d-flex flex-row" style={{gap: "3rem"}}>
+                        <div className="w-100">
+                            <div className="p-3 w-100" style={{backgroundColor: "#7a1b1b"}}>
+                                <h5 className="fw-bold text-white m-0">活動參與</h5>
+                            </div>
+                            <div className="p-3 w-100">
+                                <Table columns={titleDateTimeColumns} dataSource={props.participates} bordered pagination={false}></Table>
+                            </div>
+                        </div>
+                </div>
+            }
+            { props.intern.length > 0 &&
+                <div className="w-100 d-flex flex-row" style={{gap: "3rem"}}>
+                        <div className="w-100">
+                            <div className="p-3 w-100" style={{backgroundColor: "#7a1b1b"}}>
+                                <h5 className="fw-bold text-white m-0">實習經歷</h5>
+                            </div>
+                            <div className="p-3 w-100">
+                                    <Table columns={internColumns} dataSource={props.intern} bordered pagination={false}></Table>
+                                </div>
+                        </div>
+                </div>
+            }
+            { props.journals.length > 0 || props.conferences.length > 0 || props.techConfs.length > 0 &&
+                <div className="w-100 d-flex flex-row" style={{gap: "3rem"}}>
+                    <div className="w-100">
+                        <div className="p-3 w-100" style={{backgroundColor: "#7a1b1b"}}>
+                            <h5 className="fw-bold text-white m-0">論文發表</h5>
+                        </div>
+                        { props.journals.length > 0 &&
+                            <div className="p-3 w-100">
+                                <h5 className="text-center">期刊論文</h5>
+                                <ol>
+                                { props.journals.map((journal) => {
+                                    return (
+                                        <li>
+                                            <Article authors={journal.authors} title={journal.title} target={journal.target} details={journal.details} doi={journal.doi} />
+                                        </li>
+                                    )
+                                })}
+                                </ol>
+                            </div>
+                        }
+                        { props.conferences.length > 0 &&
+                            <div className="p-3 w-100">
+                                <h5 className="text-center">會議論文</h5>
+                                <ol>
+                                    { props.conferences.map((conference) => {
+                                        return (
+                                            <li>
+                                                <Article authors={conference.authors} title={conference.title} target={conference.target} details={conference.details} doi={conference.doi} />
+                                            </li>
+                                        )
+                                    })}
+                                </ol>
+                            </div>
+                        }
+                        { props.techConfs.length > 0 &&
+                            <div className="p-3 w-100">
+                                <h5 className="text-center">技術會議</h5>
+                                <ol>
+                                    { props.techConfs.map((conference) => {
+                                        return (
+                                            <li>
+                                                <Article authors={conference.authors} title={conference.title} target={conference.target} details={conference.details} doi={conference.doi} />
+                                            </li>
+                                        )
+                                    })}
+                                </ol>
+                            </div>
+                        }
                     </div>
                 </div>
-            </div>
+            }
         </div>
     )
 }
