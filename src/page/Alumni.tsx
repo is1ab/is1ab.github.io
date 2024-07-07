@@ -170,17 +170,17 @@ export function Alumni(){
         <div className="w-100">
             <div className="overflow-x-auto">
                 <h4 className="text-center fw-bold">碩士生（Master students）</h4>
-                <Table columns={masterAlumniColumns} dataSource={masterAlumniDatas} pagination={false}></Table>
+                <Table columns={masterAlumniColumns} dataSource={masterAlumniDatas} pagination={false} bordered></Table>
             </div>
             <hr />
             <div className="overflow-x-auto">
                 <h4 className="text-center fw-bold">專題生（Undergraduate students）</h4>
-                <Table columns={undergraduatedAlumniStudentTableColumns} dataSource={undergraduateAlumniStudentTableDatas} pagination={false}></Table>
+                <Table columns={undergraduatedAlumniStudentTableColumns} dataSource={undergraduateAlumniStudentTableDatas} pagination={false} bordered></Table>
             </div>
             <hr />
             <div className="overflow-x-auto">
                 <h4 className="text-center fw-bold">合作學生（Others）</h4>
-                <Table columns={othersStudentTableColumns} dataSource={othersStudentTableDatas} pagination={false}></Table>
+                <Table columns={othersStudentTableColumns} dataSource={othersStudentTableDatas} pagination={false} bordered></Table>
             </div>
         </div>
     )
