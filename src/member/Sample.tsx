@@ -68,6 +68,10 @@ export const Sample = (props: {
     conferences: MemberArticleType[]
     techConfs: MemberArticleType[]
 }) => {
+    const experiences = props.experiences.sort((a, b) => b.datetime.toString().localeCompare(a.datetime.toString()))
+    const certificates = props.certificates.sort((a, b) => b.datetime.toString().localeCompare(a.datetime.toString()))
+    const participates = props.participates.sort((a, b) => b.datetime.toString().localeCompare(a.datetime.toString()))
+    const interns = props.intern.sort((a, b) => b.datetime.toString().localeCompare(a.datetime.toString()))
     const TitleName = () => {
         if(props.enName === undefined){
             return <h1 className="text-white">{props.zhName}</h1>
@@ -117,7 +121,7 @@ export const Sample = (props: {
                     }
                 </div>
             </div>
-            { props.experiences.length > 0 &&
+            { experiences.length > 0 &&
                 <div className="w-100 d-flex flex-row" style={{gap: "3rem"}}>
                     
                         <div className="w-100">
@@ -125,44 +129,64 @@ export const Sample = (props: {
                                 <h5 className="fw-bold text-white m-0">比賽經歷</h5>
                             </div>
                             <div className="p-3 w-100">
-                                <Table columns={experienceColumns} dataSource={props.experiences} bordered pagination={false}></Table>
+                                <Table 
+                                    columns={experienceColumns} 
+                                    dataSource={experiences} 
+                                    bordered 
+                                    pagination={false}
+                                ></Table>
                             </div>
                         </div>
                 </div>
             }
-            { props.certificates.length > 0 &&
+            { certificates.length > 0 &&
                 <div className="w-100 d-flex flex-row" style={{gap: "3rem"}}>
                         <div className="w-100">
                             <div className="p-3 w-100" style={{backgroundColor: "#7a1b1b"}}>
                                 <h5 className="fw-bold text-white m-0">資安證照／檢定</h5>
                             </div>
                             <div className="p-3 w-100">
-                                <Table columns={titleDateTimeColumns} dataSource={props.certificates} bordered pagination={false}></Table>
+                                <Table 
+                                    columns={titleDateTimeColumns} 
+                                    dataSource={certificates} 
+                                    bordered 
+                                    pagination={false}
+                                ></Table>
                             </div>
                         </div>
                 </div>
             }
-            { props.participates.length > 0 &&
+            { participates.length > 0 &&
                 <div className="w-100 d-flex flex-row" style={{gap: "3rem"}}>
                         <div className="w-100">
                             <div className="p-3 w-100" style={{backgroundColor: "#7a1b1b"}}>
                                 <h5 className="fw-bold text-white m-0">活動參與</h5>
                             </div>
                             <div className="p-3 w-100">
-                                <Table columns={titleDateTimeColumns} dataSource={props.participates} bordered pagination={false}></Table>
+                                <Table 
+                                    columns={titleDateTimeColumns} 
+                                    dataSource={participates} 
+                                    bordered 
+                                    pagination={false}
+                                ></Table>
                             </div>
                         </div>
                 </div>
             }
-            { props.intern.length > 0 &&
+            { interns.length > 0 &&
                 <div className="w-100 d-flex flex-row" style={{gap: "3rem"}}>
                         <div className="w-100">
                             <div className="p-3 w-100" style={{backgroundColor: "#7a1b1b"}}>
                                 <h5 className="fw-bold text-white m-0">實習經歷</h5>
                             </div>
                             <div className="p-3 w-100">
-                                    <Table columns={internColumns} dataSource={props.intern} bordered pagination={false}></Table>
-                                </div>
+                                <Table 
+                                    columns={internColumns} 
+                                    dataSource={interns} 
+                                    bordered 
+                                    pagination={false}
+                                ></Table>
+                            </div>
                         </div>
                 </div>
             }
