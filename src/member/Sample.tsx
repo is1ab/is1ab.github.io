@@ -67,10 +67,10 @@ export const Sample = (props: {
     conferences: MemberArticleType[]
     techConfs: MemberArticleType[]
 }) => {
-    const experiences = props.experiences.sort((a, b) => b.datetime.toString().localeCompare(a.datetime.toString()))
-    const certificates = props.certificates.sort((a, b) => b.datetime.toString().localeCompare(a.datetime.toString()))
-    const participates = props.participates.sort((a, b) => b.datetime.toString().localeCompare(a.datetime.toString()))
-    const interns = props.intern.sort((a, b) => b.datetime.toString().localeCompare(a.datetime.toString()))
+    const experiences = props.experiences.sort((a, b) => b.datetime.toString().includes("now") ? 1 : b.datetime.toString().localeCompare(a.datetime.toString()))
+    const certificates = props.certificates.sort((a, b) =>  b.datetime.toString().includes("now") ? 1 : b.datetime.toString().localeCompare(a.datetime.toString()))
+    const participates = props.participates.sort((a, b) =>  b.datetime.toString().includes("now") ? 1 : b.datetime.toString().localeCompare(a.datetime.toString()))
+    const interns = props.intern.sort((a, b) =>  b.datetime.toString().includes("now") ? 1 : b.datetime.toString().localeCompare(a.datetime.toString()))
     const TitleName = () => {
         if(props.enName === undefined){
             return <h1 className="text-white">{props.zhName}</h1>
