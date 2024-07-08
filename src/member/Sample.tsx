@@ -1,4 +1,3 @@
-import { Row } from "react-bootstrap"
 import Logo from "../assets/logo.png"
 import { Table } from "antd"
 import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberRaceExperienceType } from "../type/MemberCertificateType"
@@ -98,17 +97,21 @@ export const Sample = (props: {
     }
     return (
         <div className="d-flex flex-column" style={{gap: "3rem"}}>
-            <Row className="w-100">
-                 <div className="d-flex flex-row justify-content-center" style={{gap: "3rem"}}>
-                    <img src={props.avatar === undefined ? Logo : props.avatar} className="rounded" width={"128px"} height={"128px"} style={{objectFit: "cover"}}></img>
-                    <div className="my-auto">
-                        <h1 className="text-white"><TitleName></TitleName></h1>
-                        {props.institutes.map((institute) => {
-                            return <p className="mb-1">{institute}</p>
-                        })}
+            <div className="w-100 d-flex flex-row">
+                <div className="w-100">
+                    <div className="p-3 d-flex flex-column flex-xl-row justify-content-center" style={{gap: "1rem"}}>
+                        <div className="w-50 d-flex flex-row justify-content-center">
+                            <img src={props.avatar === undefined ? Logo : props.avatar} className="rounded" width={"128px"} height={"128px"} style={{objectFit: "cover"}}></img>
+                        </div>
+                        <div className="w-100 my-auto">
+                            <h1 className="text-white"><TitleName></TitleName></h1>
+                            {props.institutes.map((institute) => {
+                                return <p className="mb-1">{institute}</p>
+                            })}
+                        </div>
                     </div>
                 </div>
-            </Row>
+            </div>
             <div className="w-100 d-flex flex-row" style={{gap: "3rem"}}>
                 <div className="w-100">
                     <div className="p-3 w-100" style={{backgroundColor: "#7a1b1b"}}>
@@ -190,13 +193,13 @@ export const Sample = (props: {
                         </div>
                 </div>
             }
-            { props.journals.length > 0 || props.conferences.length > 0 || props.techConfs.length > 0 &&
+            { (props.journals.length > 0 || props.conferences.length > 0 || props.techConfs.length > 0) &&
                 <div className="w-100 d-flex flex-row" style={{gap: "3rem"}}>
                     <div className="w-100">
                         <div className="p-3 w-100" style={{backgroundColor: "#7a1b1b"}}>
                             <h5 className="fw-bold text-white m-0">論文發表</h5>
                         </div>
-                        { props.journals.length > 0 &&
+                        { (props.journals.length > 0) &&
                             <div className="p-3 w-100">
                                 <h5 className="text-center">期刊論文</h5>
                                 <ol>
@@ -210,7 +213,7 @@ export const Sample = (props: {
                                 </ol>
                             </div>
                         }
-                        { props.conferences.length > 0 &&
+                        { (props.conferences.length > 0) &&
                             <div className="p-3 w-100">
                                 <h5 className="text-center">會議論文</h5>
                                 <ol>
@@ -224,7 +227,7 @@ export const Sample = (props: {
                                 </ol>
                             </div>
                         }
-                        { props.techConfs.length > 0 &&
+                        { (props.techConfs.length > 0) &&
                             <div className="p-3 w-100">
                                 <h5 className="text-center">技術會議</h5>
                                 <ol>

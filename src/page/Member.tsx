@@ -130,7 +130,8 @@ export function Member(){
             role: "碩零，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: ""
+            certificate: "",
+            website: "/#/Member/2024/WIFI"
         },
         {
             key: '14',
@@ -223,7 +224,7 @@ export function Member(){
                 },
                 {
                     name: "程邦博",
-                    intern: ""
+                    intern: "微鋒自動科技股份有限公司"
                 },
                 {
                     name: "何穎宣",
