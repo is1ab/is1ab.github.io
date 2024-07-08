@@ -223,7 +223,7 @@ export function Member(){
                 },
                 {
                     name: "程邦博",
-                    intern: ""
+                    intern: "微鋒自動科技股份有限公司"
                 },
                 {
                     name: "何穎宣",
