@@ -1,11 +1,11 @@
 import { Sample } from "../Sample"
 import Adb2 from "../../assets/member/Adb2.jpg"
-import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberRaceExperienceType } from "../../type/MemberCertificateType"
+import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../../type/MemberCertificateType"
 
 export const Adb2MemberPage = () => {
     const bio = "Hello，我是陳彥宇，大學期間也是就讀臺北科技大學，現在是資安新手，請大家多多指教。"
     const certificates: MemberCertificateType[] = []
-    const competitionExperiences: MemberRaceExperienceType[] = [
+    const competitionExperiences: MemberCompetitionExperienceType[] = [
         {
             title: "AIS3 Pre-exam 2024",
             result: "79/493",
