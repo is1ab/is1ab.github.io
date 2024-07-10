@@ -122,7 +122,8 @@ export function Member(){
             role: "碩零，資工碩士",
             coAdvisor: '',
             experience: "",
-            certificate: ""
+            certificate: "",
+            website: "/#/Member/2024/Adb2"
         },
         {
             key: '13',

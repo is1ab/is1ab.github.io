@@ -18,6 +18,7 @@ import { Activities } from './page/Activities.tsx'
 import { Rule } from './page/Rule.tsx'
 import { UriahMemberPage } from './member/2023/Uriah.tsx'
 import { RyanMemberPage } from './member/2022/Ryan.tsx'
+import { Adb2MemberPage } from './member/2024/Adb2.tsx'
 import { WIFIMemberPage } from './member/2024/WIFI.tsx'
 import { YPPMemberPage } from './member/2024/ypp.tsx'
 import { JasonMemberPage } from './member/2024/Jason.tsx'
@@ -30,6 +31,7 @@ const router = createHashRouter(
         <Route path='/Member' element={<Member></Member>}></Route>
         <Route path='/Member/2023/Uriah' element={<UriahMemberPage />}></Route>
         <Route path='/Member/2022/Ryan' element={<RyanMemberPage />}></Route>
+        <Route path='/Member/2024/Adb2' element={<Adb2MemberPage />}></Route>
         <Route path='/Member/2024/WIFI' element={<WIFIMemberPage />}></Route>
         <Route path='/Member/2024/ypp' element={<YPPMemberPage />}></Route>
         <Route path='/Member/2024/Jason' element={<JasonMemberPage />}></Route>
