@@ -1,6 +1,6 @@
 import Logo from "../assets/logo.png"
 import { Table } from "antd"
-import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberRaceExperienceType } from "../type/MemberCertificateType"
+import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../type/MemberCertificateType"
 
 export type SampleConfig = {
     zhName: string
@@ -59,7 +59,7 @@ export const Sample = (props: {
     avatar?: string | undefined
     bio?: string
     institutes: string[]
-    experiences: MemberRaceExperienceType[]
+    experiences: MemberCompetitionExperienceType[]
     certificates: MemberCertificateType[]
     participates: MemberParticipateType[]
     intern: MemberInternType[]
