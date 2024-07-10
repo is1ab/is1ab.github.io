@@ -103,7 +103,8 @@ export function Member(){
             role: "碩零，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: ""
+            certificate: "",
+            website: "/#/Member/2024/Jason"
         },
         {
             key: '11',
