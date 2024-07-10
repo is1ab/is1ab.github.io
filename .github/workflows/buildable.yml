@@ -7,6 +7,11 @@ on:
     branches: 
       - '*'
       - '!main'
+  pull_request:
+    branches: 
+      - '*'
+      - '!main'
+
 
 jobs:
   # Single deploy job since we're just deploying
