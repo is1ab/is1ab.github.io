@@ -7,7 +7,7 @@ export const YPPMemberPage = () => {
     const certificates: MemberCertificateType[] = [
 
     ]
-    const raceExperiences: MemberRaceExperienceType[] = [
+    const competitionExperiences: MemberRaceExperienceType[] = [
 
     ]
     const participates: MemberParticipateType[] = [
@@ -24,7 +24,7 @@ export const YPPMemberPage = () => {
             avatar={ypp}
             institutes={["國立臺北科技大學 資訊安全碩士學位學程 碩零"]}
             bio={bio}
-            experiences={raceExperiences}
+            experiences={competitionExperiences}
             certificates={certificates}
             participates={participates}
             intern={internExperiences}
