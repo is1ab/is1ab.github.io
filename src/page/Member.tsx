@@ -359,7 +359,7 @@ export function Member(){
                         <p>{render.joinDate}
                         { render.role !== "" ? <span>（{render.role}）</span> : null}
                         </p>
-                        { render.coAdvisor == "" ? null : <p>－與 <span style={{ fontWeight: "800" }}>{render.coAdvisor}</span> 老師共同指導</p> }
+                        { render.coAdvisor == "" ? null : <p>－與 <span style={{fontWeight: "800"}}>{render.coAdvisor}</span> 老師共同指導</p> }
                     </>
                 )
             },
@@ -401,7 +401,7 @@ export function Member(){
                                             {member.name} &nbsp;
                                         </p>
                                         <p>
-                                        {member.intern !== "" ? <span style={{color: "#0693e3"}}>{member.intern}</span> : null}
+                                            {member.intern !== "" ? <span style={{color: "#0693e3"}}>{member.intern}</span> : null}
                                         </p>
                                     </div>
                                 )
