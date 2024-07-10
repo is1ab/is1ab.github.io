@@ -3,7 +3,7 @@ import Adb2 from "../../assets/member/Adb2.jpg"
 import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberRaceExperienceType } from "../../type/MemberCertificateType"
 
 export const Adb2MemberPage = () => {
-    const bio = "Hello, 我是陳彥宇, 大學期間也是就讀臺北科技大學，現在是資安新手，請大家多多指教。"
+    const bio = "Hello，我是陳彥宇，大學期間也是就讀臺北科技大學，現在是資安新手，請大家多多指教。"
     const certificates: MemberCertificateType[] = []
     const competitionExperiences: MemberRaceExperienceType[] = [
         {
@@ -39,7 +39,7 @@ export const Adb2MemberPage = () => {
     return (
         <Sample
             zhName="陳彥宇"
-            enName="Chen, Yan-Yu"
+            enName="Yan-Yu, Chen"
             avatar={Adb2}
             institutes={["國立臺北科技大學 資訊工程所 碩零"]}
             bio={bio}
