@@ -18,24 +18,26 @@ import { Activities } from './page/Activities.tsx'
 import { Rule } from './page/Rule.tsx'
 import { UriahMemberPage } from './member/2023/Uriah.tsx'
 import { RyanMemberPage } from './member/2022/Ryan.tsx'
+import { Adb2MemberPage } from './member/2024/Adb2.tsx'
 
 const router = createHashRouter(
   createRoutesFromElements(
-      <Route element={<RootLayout></RootLayout>}>
-        <Route path='/' element={<Home></Home>}></Route>
-        <Route path='/Member' element={<Member></Member>}></Route>
-        <Route path='/Member/2023/Uriah' element={<UriahMemberPage />}></Route>
-        <Route path='/Member/2022/Ryan' element={<RyanMemberPage />}></Route>
-        <Route path='/Alumni' element={<Alumni></Alumni>}></Route>
-        <Route path='/Partner' element={<Partner></Partner>}></Route>
-        <Route path='/Profile' element={<Profile></Profile>}></Route>
-        <Route path='/Publication' element={<Publication></Publication>}></Route>
-        <Route path='/Experience' element={<Experience></Experience>}></Route>
-        <Route path='/Record' element={<Record></Record>}></Route>
-        <Route path='/News' element={<News></News>}></Route>
-        <Route path='/Activities' element={<Activities></Activities>}></Route>
-        <Route path='/Rules' element={<Rule></Rule>}></Route>
-      </Route>
+    <Route element={<RootLayout></RootLayout>}>
+      <Route path='/' element={<Home></Home>}></Route>
+      <Route path='/Member' element={<Member></Member>}></Route>
+      <Route path='/Member/2023/Uriah' element={<UriahMemberPage />}></Route>
+      <Route path='/Member/2022/Ryan' element={<RyanMemberPage />}></Route>
+      <Route path='/Member/2024/Adb2' element={<Adb2MemberPage />}></Route>
+      <Route path='/Alumni' element={<Alumni></Alumni>}></Route>
+      <Route path='/Partner' element={<Partner></Partner>}></Route>
+      <Route path='/Profile' element={<Profile></Profile>}></Route>
+      <Route path='/Publication' element={<Publication></Publication>}></Route>
+      <Route path='/Experience' element={<Experience></Experience>}></Route>
+      <Route path='/Record' element={<Record></Record>}></Route>
+      <Route path='/News' element={<News></News>}></Route>
+      <Route path='/Activities' element={<Activities></Activities>}></Route>
+      <Route path='/Rules' element={<Rule></Rule>}></Route>
+    </Route>
   )
 )
 
