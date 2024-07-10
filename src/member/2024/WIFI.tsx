@@ -1,6 +1,6 @@
 import { Sample } from "../Sample"
 import WIFI from "../../assets/member/WIFI.gif"
-import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberRaceExperienceType } from "../../type/MemberCertificateType"
+import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../../type/MemberCertificateType"
 
 export const WIFIMemberPage = () => {
     const bio = "嗨伊，大家可以喊我「WIFI」就好，因為這個名字比較好記(*‘ v`*) 後面我再想想寫些什麼...(施工中)"
@@ -14,7 +14,7 @@ export const WIFIMemberPage = () => {
             datetime: "2024.06.24"
         }
     ]
-    const raceExperiences: MemberRaceExperienceType[] = [
+    const competitionExperiences: MemberCompetitionExperienceType[] = [
         {
             title: "第28屆 Innoserve 資訊應用服務創新競賽 ",
             result: "資安創新技術組 第二名",
@@ -43,7 +43,7 @@ export const WIFIMemberPage = () => {
             avatar={WIFI}
             institutes={["國立臺北科技大學 資訊安全碩士學位學程 碩零"]}
             bio={bio}
-            experiences={raceExperiences}
+            experiences={competitionExperiences}
             certificates={certificates}
             participates={participates}
             intern={internExperiences}
