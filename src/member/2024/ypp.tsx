@@ -1,13 +1,13 @@
 import { Sample } from "../Sample"
 import ypp from "../../assets/member/ypp.png"
-import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberRaceExperienceType } from "../../type/MemberCertificateType"
+import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../../type/MemberCertificateType"
 
 export const YPPMemberPage = () => {
     const bio = "目前什麼都沒有"
     const certificates: MemberCertificateType[] = [
 
     ]
-    const competitionExperiences: MemberRaceExperienceType[] = [
+    const competitionExperiences: MemberCompetitionExperienceType[] = [
 
     ]
     const participates: MemberParticipateType[] = [

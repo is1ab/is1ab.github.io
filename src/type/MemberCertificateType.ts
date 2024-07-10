@@ -3,7 +3,7 @@ export type MemberCertificateType = {
     datetime: string | JSX.Element
 }
 
-export type MemberRaceExperienceType = {
+export type MemberCompetitionExperienceType = {
     title: string | JSX.Element
     result: string | JSX.Element
     datetime: string | JSX.Element

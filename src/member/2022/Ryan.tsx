@@ -1,4 +1,4 @@
-import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberRaceExperienceType } from "../../type/MemberCertificateType"
+import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../../type/MemberCertificateType"
 import { Sample } from "../Sample"
 
 export const RyanMemberPage = () => {
@@ -36,7 +36,7 @@ export const RyanMemberPage = () => {
             datetime: "2016.07.27"
         }
     ]
-    const competitionExperiences: MemberRaceExperienceType[] = [
+    const competitionExperiences: MemberCompetitionExperienceType[] = [
         {
             title: "AIS3 新型態資安暑期課程",
             result: "最佳專題",
