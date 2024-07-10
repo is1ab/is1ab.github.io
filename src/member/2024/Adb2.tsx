@@ -2,7 +2,7 @@ import { Sample } from "../Sample"
 import Adb2 from "../../assets/member/Adb2.jpg"
 import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberRaceExperienceType } from "../../type/MemberCertificateType"
 
-export const TimMemberPage = () => {
+export const Adb2MemberPage = () => {
     const bio = "Hello, 我是陳彥宇, 大學期間也是就讀臺北科技大學，現在是資安新手，請大家多多指教。"
     const certificates: MemberCertificateType[] = []
     const competitionExperiences: MemberRaceExperienceType[] = [
@@ -30,7 +30,7 @@ export const TimMemberPage = () => {
     ]
     const internExperiences: MemberInternType[] = [{
         company: "HourLoop 飛輪電商有限公司",
-        info: "擔任實習全端工程師，負責維護後端，新增使用者需求功能。",
+        info: "負責維護系統前後端，新增使用者需求功能。",
         datetime: "2024.02.19-2024.06.30"
     }]
     const journals: MemberArticleType[] = []
