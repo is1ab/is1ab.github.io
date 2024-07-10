@@ -1,7 +1,7 @@
 import { Table } from "antd";
 import { ColumnType } from "antd/es/table";
 
-export function Member(){
+export function Member() {
     const phdUserTableItem = [
         {
             key: '1',
@@ -121,7 +121,8 @@ export function Member(){
             role: "碩零，資工碩士",
             coAdvisor: '',
             experience: "",
-            certificate: ""
+            certificate: "",
+            website: "/#/Member/2024/Adb2"
         },
         {
             key: '13',
@@ -356,9 +357,9 @@ export function Member(){
                 return (
                     <>
                         <p>{render.joinDate}
-                        { render.role !== "" ? <span>（{render.role}）</span> : null}
+                            {render.role !== "" ? <span>（{render.role}）</span> : null}
                         </p>
-                        { render.coAdvisor == "" ? null : <p>－與 <span style={{fontWeight: "800"}}>{render.coAdvisor}</span> 老師共同指導</p> }
+                        {render.coAdvisor == "" ? null : <p>－與 <span style={{ fontWeight: "800" }}>{render.coAdvisor}</span> 老師共同指導</p>}
                     </>
                 )
             },
@@ -369,11 +370,11 @@ export function Member(){
             render: (_text: string, render: any, _index: number) => {
                 return (
                     <div className="d-flex flex-column">
-                        { render.ability == '' ? null : <p>{render.ability}</p> }
-                        { render.experience == '' ? null : <p className="fst-italic" style={{color: "#0693e3"}}>{render.experience}</p> }
-                        { render.certificate == '' ? null : <p style={{color: "lightgreen"}}>{render.certificate}</p> }
-                    </div> 
-                )  
+                        {render.ability == '' ? null : <p>{render.ability}</p>}
+                        {render.experience == '' ? null : <p className="fst-italic" style={{ color: "#0693e3" }}>{render.experience}</p>}
+                        {render.certificate == '' ? null : <p style={{ color: "lightgreen" }}>{render.certificate}</p>}
+                    </div>
+                )
             },
             width: '25%'
         }
@@ -392,7 +393,7 @@ export function Member(){
             render: (_text: string, render: any, _index: number) => {
                 return (
                     <div className="d-flex flex-column gap-2">
-                        { 
+                        {
                             render.members.map((member: any) => {
                                 return (
                                     <div className="d-flex flex-column flex-md-row">
@@ -400,7 +401,7 @@ export function Member(){
                                             {member.name} &nbsp;
                                         </p>
                                         <p>
-                                            {member.intern !== "" ? <span style={{color: "#0693e3"}}>{member.intern}</span> : null}
+                                            {member.intern !== "" ? <span style={{ color: "#0693e3" }}>{member.intern}</span> : null}
                                         </p>
                                     </div>
                                 )
@@ -423,7 +424,7 @@ export function Member(){
             title: "進度",
             render: (_text: string, render: any, _index: number) => {
                 const progress = render.progress
-                return <p>{"█ ".repeat(progress)}{"░ ".repeat(10-progress)}</p>
+                return <p>{"█ ".repeat(progress)}{"░ ".repeat(10 - progress)}</p>
             },
             width: "30%"
         }
