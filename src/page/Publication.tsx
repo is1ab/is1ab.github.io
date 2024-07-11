@@ -172,7 +172,7 @@ export function Publication(){
                             Chia-Hsien Liao and <Professor star/>
                         </Author>
                         <Title title="Note on “Learning with error-based key agreement and authentication scheme for satellite communication"/>
-                        Accepted by <Journal name="Taiwan Conference on Software Engineering (TCSE 2024)"/>, June 2024.
+                        In Proceedings of <Journal name="20th Taiwan Conference on Software Engineering (TCSE 2024)"/>, pp. 354-358, Taipei, Taiwan, July 2024.
                     </li>
                     <li>
                         <Author>
