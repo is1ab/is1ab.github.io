@@ -57,7 +57,7 @@ export const Sample = (props: {
     zhName: string
     enName?: string | undefined
     avatar?: string | undefined
-    bio?: string
+    bio?: string | JSX.Element
     institutes: string[]
     experiences: MemberCompetitionExperienceType[]
     certificates: MemberCertificateType[]
