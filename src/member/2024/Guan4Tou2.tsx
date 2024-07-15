@@ -106,7 +106,7 @@ export const Guan4Tou2MemberPage = () => {
             title: (
             <div>
                 
-                <a herf="https://zeroday.hitcon.org/vulnerability/ZD-2024-00018">ZD-2024-00018</a> 
+                <a href="https://zeroday.hitcon.org/vulnerability/ZD-2024-00018">ZD-2024-00018</a> 
                 &nbsp;
                 臺南市私立長榮高級中學資料庫注入漏洞
             </div>
