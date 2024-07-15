@@ -7,33 +7,83 @@ export const EasonMemberPage = () => {
         <p>我是許貽昇，可以叫我 Eason</p>
         
     </div>
-    const certificates: MemberCertificateType[] = []
+    const certificates: MemberCertificateType[] = [
+        {
+            title: "iPAS 資訊安全工程師-初級能力鑑定",
+            datetime: "2023.12.06"
+        },
+        {
+            title: "Cisco Certified Network Associate",
+            datetime: "2022.1.20"
+        },
+        {
+            title: "Microsoft Technology Associate Networking",
+            datetime: "2021.06.10"
+        },
+        {
+            title: "Techficiency Quotient Certification LINUX System Administration",
+            datetime: "2020.12.29"
+        },
+        {
+            title: "Techficiency Quotient Certification JAVA8",
+            datetime: "2020.12.28"
+        }
+    ]
     const competitionExperiences: MemberCompetitionExperienceType[] = [
-        /*{
+        {
+            title: "Secure Code Warrior - 線上資安戰士挑戰賽",
+            result: "377/6957 Team(Name:PaLuPaLu)",
+            datetime: "2024.06.14-2024.06.17"
+        },
+        {
+            title: "AIS3 Pre-exam 2024",
+            result: "34/493",
+            datetime: "2024.05.25-2024.05.27"
+        },
+        {
+            title: "My First CTF 2024",
+            result: "隊名:大頭番薯衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝",
+            datetime: "2024.05.25"
+        },
+        {
             title: "picoCTF 2024",
-            result: "299/69579 (<5%) SOLO",
-            datetime: "2024.03-2024.03"
-        }*/
+            result: "377/6957 Team(Name:PaLuPaLu)",
+            datetime: "2024.03.13-2024.03.27"
+        },
+        {
+            title: "T 貓盃",
+            result: "",
+            datetime: "2023.11.10-2023.11.13"
+        },
+        {
+            title: "CGGC CTF",
+            result: "",
+            datetime: "2023.12.1-2023.12.2"
+        },
+        {
+            title: "Asian Robotic Athletic Competition",
+            result: "佳作",
+            datetime: "2020.11.21"
+        }
     ]
     const participates: MemberParticipateType[] = [
-        /*
+        
         {
-            title: "參與「基於 API 呼叫序列的深度學習模型用於勒索病毒偵測（大專生計畫編號:113-2813-C-027-054-E）」大學部專題擔任顧問一職",
-            datetime: "2023.09-now"
+            title: "DEVCORE CONFERENCE 2024",
+            datetime: "2024/03/16"
         },
         {
-            title: "參與「Practice Tools for Simple Design」大學部專題擔任顧問一職",
-            datetime: "2023.09-now"
+            title: "CYBERSEC 2024",
+            datetime: "2024.04.15-2024.04.17"
         },
         {
-            title: "參與維護實驗室新網頁",
-            datetime: "2024.06-2024.06"
+            title: "2023神盾盃資安論壇",
+            datetime: "2023/11/02"
         },
         {
-            title: "參與維護實驗室新系統",
-            datetime: "2024.02-2024.06"
-        },
-        */
+            title: "CYBERSEC 2022",
+            datetime: "2022.09.20-2022.09.22"
+        }
     ]
     const internExperiences: MemberInternType[] = [
 
