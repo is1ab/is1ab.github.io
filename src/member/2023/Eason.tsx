@@ -13,6 +13,10 @@ export const EasonMemberPage = () => {
             datetime: "2023.12.06"
         },
         {
+            title: "Certiport Information Technology Specialist",
+            datetime: ""
+        },
+        {
             title: "Cisco Certified Network Associate",
             datetime: "2022.1.20"
         },
@@ -31,8 +35,8 @@ export const EasonMemberPage = () => {
     ]
     const competitionExperiences: MemberCompetitionExperienceType[] = [
         {
-            title: "Secure Code Warrior",
-            result: "線上資安戰士挑戰賽",
+            title: "Secure Code Warrior - 線上資安戰士挑戰賽",
+            result: "",
             datetime: "2024.06.14-2024.06.17"
         },
         {
