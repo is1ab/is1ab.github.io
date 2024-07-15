@@ -1,5 +1,5 @@
 import { Sample } from "../Sample"
-import Uriah from "../../assets/member/uriah.jpg"
+//import Uriah from "../../assets/member/uriah.jpg"
 import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../../type/MemberCertificateType"
 
 export const EasonMemberPage = () => {
