@@ -13,6 +13,10 @@ export const EasonMemberPage = () => {
             datetime: "2023.12.06"
         },
         {
+            title: "Certiport Information Technology Specialist",
+            datetime: ""
+        },
+        {
             title: "Cisco Certified Network Associate",
             datetime: "2022.1.20"
         },
@@ -32,12 +36,12 @@ export const EasonMemberPage = () => {
     const competitionExperiences: MemberCompetitionExperienceType[] = [
         {
             title: "Secure Code Warrior - 線上資安戰士挑戰賽",
-            result: "377/6957 Team(Name:PaLuPaLu)",
+            result: "",
             datetime: "2024.06.14-2024.06.17"
         },
         {
             title: "AIS3 Pre-exam 2024",
-            result: "34/493",
+            result: "隊名 : Eason ; 排名 : 34/493",
             datetime: "2024.05.25-2024.05.27"
         },
         {
@@ -47,7 +51,7 @@ export const EasonMemberPage = () => {
         },
         {
             title: "picoCTF 2024",
-            result: "377/6957 Team(Name:PaLuPaLu)",
+            result: "隊名 : PaLuPaLu ; 排名 : 377/6957",
             datetime: "2024.03.13-2024.03.27"
         },
         {
