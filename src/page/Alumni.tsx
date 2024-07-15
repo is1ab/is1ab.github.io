@@ -10,7 +10,7 @@ export function Alumni(){
             ability: "密碼學、硬體安全",
             experience: "",
             certificate: "iPAS 資訊安全工程師檢定（初級）",
-            status: "準備畢業中..."
+            status: "2024.07.18-口試"
         },
         {
             name: "李昆積",
@@ -19,7 +19,7 @@ export function Alumni(){
             ability: "Web 攻防",
             experience: "",
             certificate: "iPAS 資訊安全工程師檢定（初級）",
-            status: "準備畢業中..."
+            status: "2024.07.18-口試"
         },
         {
             name: "陳丹妮",
@@ -28,7 +28,7 @@ export function Alumni(){
             ability: "人工智慧",
             experience: "美國德州大學阿靈頓分校 雙聯學位",
             certificate: "",
-            status: "準備畢業中..."
+            status: "2024.07.18-口試"
         }
     ]
     const masterAlumniColumns: ColumnType<any>[] = [
@@ -82,7 +82,7 @@ export function Alumni(){
             year: "112",
             name: "張洸銘",
             title: "CVE-2023-35936發現以及0-day",
-            note: "通過"
+            note: "與陳彥霖老師合作指導"
         }
     ]
     const undergraduatedAlumniStudentTableColumns: ColumnType<any>[] = [
