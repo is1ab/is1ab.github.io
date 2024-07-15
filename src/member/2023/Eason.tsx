@@ -13,8 +13,8 @@ export const EasonMemberPage = () => {
             datetime: "2023.12.06"
         },
         {
-            title: "Certiport Information Technology Specialist",
-            datetime: ""
+            title: "Certiport Information Technology Specialist Network Security",
+            datetime: "2022"
         },
         {
             title: "Cisco Certified Network Associate",
