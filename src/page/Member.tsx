@@ -86,7 +86,8 @@ export function Member(){
             role: "碩零，資安碩士",
             coAdvisor: '',
             experience: "保華資安股份有限公司實習生",
-            certificate: "iPAS 資訊安全工程師檢定（初級）"
+            certificate: "iPAS 資訊安全工程師檢定（初級）",
+            website: "/#/Member/2024/Guan4Tou2"
         },
         {
             key: '9',
