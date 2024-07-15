@@ -421,7 +421,7 @@ export function Member(){
             key: 'note',
             dataIndex: 'note',
             title: "備註",
-            width: "35%"
+            width: "30%"
         },
         {
             key: 'progress',
@@ -431,7 +431,7 @@ export function Member(){
                 const progress = render.progress
                 return <p>{"█ ".repeat(progress)}{"░ ".repeat(10-progress)}</p>
             },
-            width: "20%"
+            width: "25%"
         }
     ]
     const otherStudentTableColumns: ColumnType<any>[] = [
