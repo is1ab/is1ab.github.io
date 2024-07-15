@@ -49,7 +49,8 @@ export function Member(){
             role: "碩一，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "iPAS 資訊安全工程師檢定（初級）"
+            certificate: "iPAS 資訊安全工程師檢定（初級）",
+            website: "/#/Member/2023/Eason"
         },
         {
             key: '5',
@@ -104,7 +105,8 @@ export function Member(){
             role: "碩零，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: ""
+            certificate: "",
+            website: "/#/Member/2024/Jason"
         },
         {
             key: '11',
@@ -113,7 +115,8 @@ export function Member(){
             role: "碩零，資工碩士",
             coAdvisor: '',
             experience: "",
-            certificate: ""
+            certificate: "",
+            website: "/#/Member/2024/Joe"
         },
         {
             key: '12',
@@ -122,7 +125,8 @@ export function Member(){
             role: "碩零，資工碩士",
             coAdvisor: '',
             experience: "",
-            certificate: ""
+            certificate: "",
+            website: "/#/Member/2024/Adb2"
         },
         {
             key: '13',
@@ -141,7 +145,8 @@ export function Member(){
             role: "碩零，資工碩士",
             coAdvisor: '',
             experience: "",
-            certificate: ""
+            certificate: "",
+            website: "/#/Member/2024/PaulWang"
         },
         {
             key: '15',
@@ -412,7 +417,7 @@ export function Member(){
                     </div>
                 )
             },
-            width: "30%"
+            width: "35%"
         },
         {
             key: 'note',
@@ -428,7 +433,7 @@ export function Member(){
                 const progress = render.progress
                 return <p>{"█ ".repeat(progress)}{"░ ".repeat(10-progress)}</p>
             },
-            width: "30%"
+            width: "25%"
         }
     ]
     const otherStudentTableColumns: ColumnType<any>[] = [

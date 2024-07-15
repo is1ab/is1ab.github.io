@@ -18,9 +18,14 @@ import { Activities } from './page/Activities.tsx'
 import { Rule } from './page/Rule.tsx'
 import { UriahMemberPage } from './member/2023/Uriah.tsx'
 import { RyanMemberPage } from './member/2022/Ryan.tsx'
+import { Adb2MemberPage } from './member/2024/Adb2.tsx'
 import { WIFIMemberPage } from './member/2024/WIFI.tsx'
 import { YPPMemberPage } from './member/2024/ypp.tsx'
 import { YoungMemberPage } from './member/2024/Young.tsx'
+import { PaulWangMemberPage } from './member/2024/PaulWang.tsx'
+import { JasonMemberPage } from './member/2024/Jason.tsx'
+import { JoeMemberPage } from './member/2024/Joe.tsx'
+import { EasonMemberPage } from './member/2023/Eason.tsx'
 
 const router = createHashRouter(
   createRoutesFromElements(
@@ -29,9 +34,14 @@ const router = createHashRouter(
         <Route path='/Member' element={<Member></Member>}></Route>
         <Route path='/Member/2023/Uriah' element={<UriahMemberPage />}></Route>
         <Route path='/Member/2022/Ryan' element={<RyanMemberPage />}></Route>
+        <Route path='/Member/2024/Adb2' element={<Adb2MemberPage />}></Route>
         <Route path='/Member/2024/WIFI' element={<WIFIMemberPage />}></Route>
+        <Route path='/Member/2023/Eason' element={<EasonMemberPage />}></Route>
         <Route path='/Member/2024/ypp' element={<YPPMemberPage />}></Route>
         <Route path='/Member/2024/Young' element={<YoungMemberPage />}></Route>
+        <Route path='/Member/2024/Jason' element={<JasonMemberPage />}></Route>
+        <Route path='/Member/2024/PaulWang' element={<PaulWangMemberPage />}></Route>
+        <Route path='/Member/2024/Joe' element={<JoeMemberPage />}></Route>
         <Route path='/Alumni' element={<Alumni></Alumni>}></Route>
         <Route path='/Partner' element={<Partner></Partner>}></Route>
         <Route path='/Profile' element={<Profile></Profile>}></Route>
