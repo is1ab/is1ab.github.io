@@ -10,7 +10,7 @@ export const EasonMemberPage = () => {
     const certificates: MemberCertificateType[] = [
         {
             title: "iPAS 資訊安全工程師-初級能力鑑定",
-            datetime: "2023.12.06"
+            datetime: "2023.12.31"
         },
         {
             title: "Certiport Information Technology Specialist Network Security",
@@ -50,6 +50,11 @@ export const EasonMemberPage = () => {
             datetime: "2024.05.25"
         },
         {
+            title: "資安大會 CyberRange	",
+            result: "",
+            datetime: "2024.05.16"
+        },
+        {
             title: "picoCTF 2024",
             result: "隊名 : PaLuPaLu ; 排名 : 377/6957",
             datetime: "2024.03.13-2024.03.27"
@@ -72,6 +77,10 @@ export const EasonMemberPage = () => {
     ]
     const participates: MemberParticipateType[] = [
         
+        {
+            title: "CraftCon Taiwan 奧義AI資安年會",
+            datetime: "2024/07/12"
+        },
         {
             title: "DEVCORE CONFERENCE 2024",
             datetime: "2024/03/16"
