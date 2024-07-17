@@ -59,7 +59,8 @@ export function Member(){
             role: "碩一，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "iPAS 資訊安全工程師檢定（初級）"
+            certificate: "iPAS 資訊安全工程師檢定（初級）",
+            website: "/#/Member/2023/Bobo"
         },
         {
             key: '6',
