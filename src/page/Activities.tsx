@@ -19,6 +19,15 @@ export function Activities(){
         <div className="activities">
             <h4 className="text-center fw-bold">歷史活動</h4>
             <table className="w-100 table-bordered">
+                 <ActivitiesItem
+                    time="2024.07.12"
+                    descriptionItem={
+                        <div>
+                            <p>參與CraftCon Taiwan</p>
+                            <p>＊地點：格萊天漾大飯店</p>
+                        </div>
+                    }
+                ></ActivitiesItem>
                 <ActivitiesItem
                     time="2024.04.27"
                     descriptionItem={
