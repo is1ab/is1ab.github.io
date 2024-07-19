@@ -122,8 +122,15 @@ export const Guan4Tou2MemberPage = () => {
             datetime: "2024.06 - now"
         },
     ]
-    const journals: MemberArticleType[] = []
-    const conferences: MemberArticleType[] = []
+    const journals: MemberArticleType[] = []        
+    const conferences: MemberArticleType[] = [
+        {
+            authors: "Guan-Ting Wu",
+            title: "Lightweight-network-attack-and-defense-learning-simulation-environment",
+            target: "The Twelfth National Conference on Web Intelligence and Applications",
+            details: "Taiwan, 2022"
+        }
+    ]
     const techConfs: MemberArticleType[] = []
 
     return (
