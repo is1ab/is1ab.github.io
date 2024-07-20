@@ -122,7 +122,7 @@ export function Alumni(){
         {
             name: "葉子多",
             joinTime: "2022.09-2023.08",
-            title: "",
+            title: "聯邦式學習上抗個體資料集成員推理攻擊之防禦強化技術",
             status: "美國賓州州立大學 雙聯學位",
             note: "與楊士萱老師合作指導"
         },
