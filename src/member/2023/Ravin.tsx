@@ -2,7 +2,7 @@ import { Sample } from "../Sample"
 import logo from "../../assets/member/ravin.jpg"
 import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../../type/MemberCertificateType"
 
-export const BoboMemberPage = () => {
+export const RavinMemberPage = () => {
     const bio = <div className="d-flex flex-column gap-3">
         <p>我是林幸慧</p>
         
