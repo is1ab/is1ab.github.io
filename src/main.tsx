@@ -28,7 +28,7 @@ import { JoeMemberPage } from './member/2024/Joe.tsx'
 import { EasonMemberPage } from './member/2023/Eason.tsx'
 import { BoboMemberPage } from './member/2023/Bobo.tsx'
 import { Guan4Tou2MemberPage } from './member/2024/Guan4Tou2.tsx'
-import { RavinMemberPage } from './member/2023/Ravin.tsx'
+///import { RavinMemberPage } from './member/2023/Ravin.tsx'
 
 const router = createHashRouter(
   createRoutesFromElements(
