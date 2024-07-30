@@ -201,9 +201,16 @@ export const RyanMemberPage = () => {
     const techConfs: MemberArticleType[] = [
         {
             authors: "Sheng-Shan Chen*, Shing-Li Hung",
+            title: "Using Language Models and Knowledge Graph Techniques to Construct High-Credibility Intelligence Chains: A Case Study on Analyzing Data Leakage Incidents",
+            target: "Hack In Taiwan Conference (HITCON 2024)",
+            details: "Taipei, Taiwan, Aug 23-24, 2024"
+            
+        },
+        {
+            authors: "Sheng-Shan Chen*, Shing-Li Hung",
             title: "Applying Retrieval-Augmented Generation Techniques in Cybersecurity Incident Investigation: A Case Study on Data Breach Incidents",
-            target: "Accepted to PyCon 2024",
-            details: "April 2024"
+            target: "PyCon 2024",
+            details: "Kaohsiung, Taiwan, Sep. 21-22, 2024"
         },
         {
             authors: "Sheng-Shan Chen*, Shing-Li Hung",
