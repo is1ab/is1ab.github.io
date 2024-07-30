@@ -78,7 +78,8 @@ export function Member(){
             role: "碩一，資安碩士",
             coAdvisor: '林敬皇',
             experience: "",
-            certificate: "iPAS 資訊安全工程師檢定（初級）"
+            certificate: "iPAS 資訊安全工程師檢定（初級）",
+            website: "/#/Member/2023/Salt"
         },
         {
             key: '8',
