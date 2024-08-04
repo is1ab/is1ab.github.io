@@ -22,7 +22,8 @@ export function Member(){
             role: "碩一，資安碩士",
             coAdvisor: '',
             experience: "台積電 - 資訊安全部實習生、前動力安全資訊股份有限公司實習生",
-            certificate: "iPAS 資訊安全工程師檢定（初級）"
+            certificate: "iPAS 資訊安全工程師檢定（初級）",
+            website: "/#/Member/2023/CHW"
         },
         {
             key: '2',
@@ -79,7 +80,8 @@ export function Member(){
             role: "碩一，資安碩士",
             coAdvisor: '林敬皇',
             experience: "",
-            certificate: "iPAS 資訊安全工程師檢定（初級）"
+            certificate: "iPAS 資訊安全工程師檢定（初級）",
+            website: "/#/Member/2023/Salt"
         },
         {
             key: '8',
