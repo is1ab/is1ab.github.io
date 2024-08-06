@@ -64,3 +64,30 @@ const router = createHashRouter(
       </Route>
   )
 )
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
+    <ConfigProvider theme={{
+      components: {
+        Menu: {
+          darkItemColor: "white",
+          darkItemSelectedBg: "black",
+          darkItemBg: "black",
+          darkSubMenuItemBg: "black",
+          subMenuItemBg: "black",
+          darkItemSelectedColor: "#cf2e2e"
+        },
+        Table: {
+          colorBgContainer: "black",
+          colorTextDescription: "white",
+          colorText: "white",
+          colorBorder: "white",
+          headerColor: "white",
+          borderColor: "white",
+          headerBorderRadius: 0
+        }
+      }
+    }}>
+      <RouterProvider router={router}></RouterProvider>
+    </ConfigProvider>
+  </React.StrictMode>,
+)
