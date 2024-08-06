@@ -64,6 +64,7 @@ const router = createHashRouter(
       </Route>
   )
 )
+
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <ConfigProvider theme={{
