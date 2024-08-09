@@ -32,7 +32,8 @@ export function Member(){
             role: "碩一，資安碩士",
             coAdvisor: '',
             experience: "果核數位實習生，前中華資安國際股份有限公司實習生",
-            certificate: "iPAS 資訊安全工程師檢定（初級）"
+            certificate: "iPAS 資訊安全工程師檢定（初級）",
+            website: "/#/Member/2023/Ravin"
         },
         {
             key: '3',
