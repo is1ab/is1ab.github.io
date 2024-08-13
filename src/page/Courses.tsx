@@ -1,6 +1,6 @@
-export function Record(){
+export function Course(){
     return (
-        <div className="record">
+        <div className="course">
             <>
                 <h4 className="text-center fw-bold">演講 Speech</h4>
                 <ul>
