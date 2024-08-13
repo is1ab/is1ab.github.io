@@ -42,13 +42,13 @@ export function Alumni(){
             key: 'joinDate',
             dataIndex: 'joinDate',
             title: "參與時間",
-            width: "5%"
+            width: "10%"
         },
         {
             key: 'title',
             dataIndex: 'title',
             title: "題目",
-            width: "30%"
+            width: "25%"
         },
         {
             key: 'ability',
