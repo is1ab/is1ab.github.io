@@ -28,7 +28,7 @@ export function Alumni(){
             ability: "人工智慧",
             experience: "美國德州大學阿靈頓分校 雙聯學位",
             certificate: "",
-            status: "離校辦理中"
+            status: "訊能集思智能科技股份有限公司-產品經理"
         }
     ]
     const masterAlumniColumns: ColumnType<any>[] = [
