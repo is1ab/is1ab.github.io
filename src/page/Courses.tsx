@@ -1,4 +1,4 @@
-export function Courses(){
+export function Course(){
     return (
         <div className="course">
             <>

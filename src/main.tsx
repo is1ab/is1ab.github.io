@@ -12,7 +12,7 @@ import { Partner } from './page/Partner.tsx'
 import { Profile } from './page/Profile.tsx'
 import { Publication } from './page/Publication.tsx'
 import { Experience } from './page/Experience.tsx'
-import { Courses } from './page/Courses.tsx'
+import { Course } from './page/Courses.tsx'
 import { Record } from './page/Records.tsx'
 import { News } from './page/News.tsx'
 import { Activities } from './page/Activities.tsx'
@@ -60,7 +60,7 @@ const router = createHashRouter(
         <Route path='/Profile' element={<Profile></Profile>}></Route>
         <Route path='/Publication' element={<Publication></Publication>}></Route>
         <Route path='/Experience' element={<Experience></Experience>}></Route>
-        <Route path='/Courses' element={<Courses></Courses>}></Route>
+        <Route path='/Course' element={<Course></Course>}></Route>
         <Route path='/Record' element={<Record></Record>}></Route>
         <Route path='/News' element={<News></News>}></Route>
         <Route path='/Activities' element={<Activities></Activities>}></Route>
