@@ -60,6 +60,7 @@ const router = createHashRouter(
         <Route path='/Profile' element={<Profile></Profile>}></Route>
         <Route path='/Publication' element={<Publication></Publication>}></Route>
         <Route path='/Experience' element={<Experience></Experience>}></Route>
+        <Route path='/Courses' element={<Courses></Courses>}></Route>
         <Route path='/Record' element={<Record></Record>}></Route>
         <Route path='/News' element={<News></News>}></Route>
         <Route path='/Activities' element={<Activities></Activities>}></Route>
