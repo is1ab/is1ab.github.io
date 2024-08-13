@@ -10,7 +10,7 @@ export function Alumni(){
             ability: "密碼學、硬體安全",
             experience: "",
             certificate: "iPAS 資訊安全工程師檢定（初級）",
-            status: "2024.07.18-口試"
+            status: "離校辦理中"
         },
         {
             name: "李昆積",
@@ -19,7 +19,7 @@ export function Alumni(){
             ability: "Web 攻防",
             experience: "",
             certificate: "iPAS 資訊安全工程師檢定（初級）",
-            status: "2024.07.18-口試"
+            status: "離校辦理中"
         },
         {
             name: "陳丹妮",
@@ -28,7 +28,7 @@ export function Alumni(){
             ability: "人工智慧",
             experience: "美國德州大學阿靈頓分校 雙聯學位",
             certificate: "",
-            status: "2024.07.18-口試"
+            status: "離校辦理中"
         }
     ]
     const masterAlumniColumns: ColumnType<any>[] = [
@@ -42,7 +42,7 @@ export function Alumni(){
             key: 'joinDate',
             dataIndex: 'joinDate',
             title: "參與時間",
-            width: "10%"
+            width: "15%"
         },
         {
             key: 'title',
@@ -74,7 +74,7 @@ export function Alumni(){
             key: 'status',
             dataIndex: 'status',
             title: "狀態",
-            width: "15%"
+            width: "10%"
         }
     ]
     const undergraduateAlumniStudentTableDatas = [
