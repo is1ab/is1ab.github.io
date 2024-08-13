@@ -47,7 +47,7 @@ export function Navbar(){
                 {
                     key: "Courses",
                     label: "課程 Courses",
-                    onClick: () => navigate("/Courses")
+                    onClick: () => navigate("/Course")
                 },
                 {
                     key: "records",
