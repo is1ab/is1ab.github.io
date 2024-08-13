@@ -54,7 +54,7 @@ export function Alumni(){
             key: 'ability',
             dataIndex: 'ability',
             title: "專長",
-            width: "15%"
+            width: "12%"
         },
         {
             key: 'note',
@@ -74,7 +74,7 @@ export function Alumni(){
             key: 'status',
             dataIndex: 'status',
             title: "狀態",
-            width: "15%"
+            width: "18%"
         }
     ]
     const undergraduateAlumniStudentTableDatas = [
