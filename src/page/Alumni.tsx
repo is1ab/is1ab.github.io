@@ -42,7 +42,7 @@ export function Alumni(){
             key: 'joinDate',
             dataIndex: 'joinDate',
             title: "參與時間",
-            width: "10%"
+            width: "12%"
         },
         {
             key: 'title',
@@ -60,7 +60,7 @@ export function Alumni(){
             key: 'note',
             dataIndex: 'note',
             title: "備註",
-            width: "25%",
+            width: "23%",
             render: (_text: string, record: any, _index: number) => {
                 return (
                     <>
