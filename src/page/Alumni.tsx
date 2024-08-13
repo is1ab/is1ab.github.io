@@ -42,7 +42,7 @@ export function Alumni(){
             key: 'joinDate',
             dataIndex: 'joinDate',
             title: "參與時間",
-            width: "15%"
+            width: "10%"
         },
         {
             key: 'title',
@@ -74,7 +74,7 @@ export function Alumni(){
             key: 'status',
             dataIndex: 'status',
             title: "狀態",
-            width: "10%"
+            width: "15%"
         }
     ]
     const undergraduateAlumniStudentTableDatas = [
