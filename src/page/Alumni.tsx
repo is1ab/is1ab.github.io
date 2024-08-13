@@ -8,7 +8,7 @@ export function Alumni(){
             joinDate: "2022.09-2024.08",
             title: "使用生成式模型於公開來源情報去識別化技術之應用",
             ability: "密碼學、硬體安全",
-            experience: "國立臺北科技大學 資訊工程系 碩士學位",
+            experience: "資訊工程系 碩士學位",
             certificate: "",
             status: "離校辦理中"
         },
@@ -17,7 +17,7 @@ export function Alumni(){
             joinDate: "2022.09-2024.08",
             title: "Prompt Injection 分析與緩解策略之研究 – 以大語言模型聊天機器人為例",
             ability: "Web 攻防",
-            experience: "國立臺北科技大學 資訊工程系 碩士學位",
+            experience: "資訊工程系 碩士學位",
             certificate: "",
             status: "離校辦理中"
         },
