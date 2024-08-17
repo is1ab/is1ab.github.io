@@ -186,7 +186,7 @@ export const RyanMemberPage = () => {
             details: "PingTung, Taiwan, 2023, pp. 207-208"
         },
         {
-            authors: "Sheng-Shan Chen, Chin-Yu Sun, and Tun-Wen Pai*",
+            authors: "Sheng-Shan Chen, Tun-Wen Pai, and Chin-Yu Sun*",
             title: "Applying the Diamond Model of Intrusion Analysis with Generative Pre-trained Transformer 3",
             target: "2023 International Conference on Consumer Electronics - Taiwan (ICCE-Taiwan)",
             details: "PingTung, Taiwan, 2023, pp. 289-290"
@@ -217,6 +217,18 @@ export const RyanMemberPage = () => {
             title: "Elk on Sesame Street - Cybersecurity Analysis in Action with ELK and BERT",
             target: "Hack In Taiwan Conference (HITCON 2023)",
             details: "Taipei, Taiwan, Aug 18, 2023"
+        }, 
+        {
+            authors: "Sheng-Shan Chen, Chin-Yu Sun, Hou-Tsan Lee, Yu-Chih Wei, Tun-Wen Pai*",
+            title: "Using Cyber Threat Intelligence to Defend Healthcare Security Threats",
+            target: "2023 7th International Conference on Medical and Health Informatics (ICMHI 2023)",
+            details: "Kyoto, Japan. May 12-14, 2023"
+        }, 
+         {
+            authors: "Sheng-Shan Chen, Yu-Chih Wei, Hou-Tsan Lee, Tun-Wen Pai*",
+            title: "Attack Pattern Classification Of Medical Institution Based On Open Source Intelligence",
+            target: "2022 5th International Conference on Healthcare Service Management (ICHSM 2022)",
+            details: "Taipei, Taiwan, May 2022."
         }, 
     ]
     return (
