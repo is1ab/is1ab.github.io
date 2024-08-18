@@ -65,6 +65,10 @@ export const RyanMemberPage = () => {
     ]
     const participates: MemberParticipateType[] = [
         {
+            title: "第八屆臺灣好厲駭高階培訓-表現優異獎",
+            datetime: "2024.09.01"
+        },
+        {
             title: "擔任 AIS3 2024 威脅運用與防禦組講師",
             datetime: "2024.08.24"
         },
