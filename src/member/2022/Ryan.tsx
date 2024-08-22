@@ -65,7 +65,7 @@ export const RyanMemberPage = () => {
     ]
     const participates: MemberParticipateType[] = [
         {
-            title: "第八屆臺灣好厲駭高階培訓-表現優異獎",
+            title: "第八屆臺灣好厲駭高階導師培訓-表現優異獎",
             datetime: "2024.09.01"
         },
         {
