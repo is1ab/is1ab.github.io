@@ -69,6 +69,10 @@ export const RyanMemberPage = () => {
             datetime: "2024.09.01"
         },
         {
+            title: "擔任 HITCON 2024 台灣駭客年會議程講者",
+            datetime: "2024.08.23"
+        },
+        {
             title: "擔任 AIS3 2024 威脅運用與防禦組講師",
             datetime: "2024.08.24"
         },
