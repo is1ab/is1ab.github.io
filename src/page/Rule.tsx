@@ -48,6 +48,7 @@ export function Rule(){
                 <li>參加資安相關活動</li>
                 <li>知識傳承（協助學弟妹）</li>
                 <li>參與 Group Meeting（每週固定）及個人進度約談（非固定）</li>
+                <li>is1abCTF&#123;is1ab讚!!&#125;</li>
             </ul>
         </div>
     )
