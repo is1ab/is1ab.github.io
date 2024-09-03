@@ -169,6 +169,13 @@ export function Publication(){
                 <ol>
                     <li>
                         <Author>
+                            李昆積，陳勝舢，孫勤昱
+                        </Author>
+                        <Title title="大語言模型中的提示注入攻擊分析與緩解策略"/>
+                        In Proceedings of <Journal name="Communications of the CCISA"/>, vol.30, no.3.
+                    </li>
+                    <li>
+                        <Author>
                             Chia-Hsien Liao and <Professor star/>
                         </Author>
                         <Title title="Note on “Learning with error-based key agreement and authentication scheme for satellite communication"/>
