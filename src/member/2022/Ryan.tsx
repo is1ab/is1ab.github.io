@@ -65,6 +65,10 @@ export const RyanMemberPage = () => {
     ]
     const participates: MemberParticipateType[] = [
         {
+            title: "臺灣師範大學資工系碩士班「高等資安攻防演練」課程講師",
+            datetime: "2024.11.22"
+        },
+        {
             title: "第八屆臺灣好厲駭高階導師培訓-表現優異獎",
             datetime: "2024.09.01"
         },
@@ -73,7 +77,7 @@ export const RyanMemberPage = () => {
             datetime: "2024.08.23"
         },
         {
-            title: "擔任 AIS3 2024 威脅運用與防禦組講師",
+            title: "擔任 AIS3 2024 威脅運用與防禦組講師 (學生超過百人)",
             datetime: "2024.08.24"
         },
         {
