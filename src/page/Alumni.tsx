@@ -10,7 +10,7 @@ export function Alumni(){
             ability: "密碼學、硬體安全",
             experience: "資訊工程系 碩士學位",
             certificate: "",
-            status: "離校辦理中",
+            status: "畢業",
             website: "/#/Member/2022/Cliff"
         },
         {
@@ -20,7 +20,7 @@ export function Alumni(){
             ability: "Web 攻防",
             experience: "資訊工程系 碩士學位",
             certificate: "",
-            status: "離校辦理中",
+            status: "兵役",
             website: "/#/Member/2022/kunjili"
         },
         {
