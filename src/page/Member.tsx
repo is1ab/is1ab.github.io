@@ -80,7 +80,7 @@ export function Member(){
             joinDate: "2023.08",
             role: "碩二，資安碩士",
             coAdvisor: '林敬皇',
-            experience: "",
+            experience: "台灣圖靈鏈股份有限公司實習生",
             certificate: "iPAS 資訊安全工程師檢定（初級）",
             website: "/#/Member/2023/Salt"
         },
