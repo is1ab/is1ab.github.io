@@ -236,7 +236,7 @@ export function Member(){
                 }
             ],
             note: "結合語言模型與特徵機制之整合式網路入侵偵測告警系統",
-            progress: 7
+            progress: 9
         },
         {
             group: "112#2",
@@ -255,7 +255,7 @@ export function Member(){
                 }
             ],
             note: "基於 API 呼叫序列的深度學習模型用於勒索病毒偵測（大專生計畫編號:113-2813-C-027-054-E）",
-            progress: 7
+            progress: 9
         },
         {
             group: "112#3",
@@ -293,7 +293,7 @@ export function Member(){
                 }
             ],
             note: "網路攻防教學用平台之設計",
-            progress: 6
+            progress: 9
         },
         {
             group: "113#1",
@@ -316,7 +316,7 @@ export function Member(){
                 }
             ],
             note: "-",
-            progress: 1
+            progress: 3
         },
         {
             group: "113#2",
@@ -339,7 +339,7 @@ export function Member(){
                 }
             ],
             note: "-",
-            progress: 1
+            progress: 3
         }
     ]
     const otherStudentTableItem = [
