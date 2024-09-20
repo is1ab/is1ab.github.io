@@ -46,7 +46,7 @@ export function Course(){
             </>
             
             <>
-                <h4 className="text-center fw-bold">111學年 第2學期</h4>
+                <h4 className="text-center fw-bold">111學年 第1學期</h4>
                 <ul>
                     <li>作業系統 [教學評鑑：4.94/5]</li>
                     <li>網路安全 [教學評鑑：4.64/5]</li>
