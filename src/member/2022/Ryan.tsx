@@ -166,7 +166,7 @@ export const RyanMemberPage = () => {
     const internExperiences: MemberInternType[] = [
         {
             company: "奧義智慧科技股份有限公司",
-            info: "應用人工智慧於網路威脅情資分析",
+            info: "應用人工智慧技術於網路威脅情資分析",
             datetime: "2023.05 - now"
         },
         {
