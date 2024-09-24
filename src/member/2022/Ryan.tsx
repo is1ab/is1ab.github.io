@@ -178,10 +178,10 @@ export const RyanMemberPage = () => {
     const journals: MemberArticleType[] = [
         {
             authors: "Kunji Li、Sheng-Shan Chen, Chin-Yu Sun*",
-            title: "大語言模型中的提示注入攻擊分析與緩解策略",
+            title: "Analysis and Mitigation Strategies for Prompt Injection Attacks",
             target: "Communications of the CCISA",
             details: "Vol. 30 No. 3 Aug. 2024",
-            doi: "https://cccisa.ccisa.org.tw/article/download/3084/3108"
+            doi: "https://scholar.google.com.tw/citations?view_op=view_citation&hl=zh-TW&user=lgOY-SoAAAAJ&citation_for_view=lgOY-SoAAAAJ:zYLM7Y9cAGgC"
         },
         {
             authors: "Sheng-Shan Chen, Ren-Hung Hwang*, Asad Ali, Ying-Dar Lin, Yu-Chih Wei, Tun-Wen Pai*",
