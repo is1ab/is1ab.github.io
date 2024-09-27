@@ -1,5 +1,4 @@
 import { Sample } from "../Sample"
-<<<<<<< HEAD
 import WIFI from "../../assets/member/WIFI.jpg"
 import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberRaceExperienceType } from "../../type/MemberCertificateType"
 export const WIFIMemberPage = () => {
@@ -8,42 +7,22 @@ export const WIFIMemberPage = () => {
         {
             title: "iPAS 資訊安全工程師-初級能力鑑定",
             datetime: "2023/06/21"
-=======
-import WIFI from "../../assets/member/WIFI.gif"
-import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberRaceExperienceType } from "../../type/MemberCertificateType"
-
-export const WIFIMemberPage = () => {
-    const bio = "嗨伊，大家可以喊我「WIFI」就好，因為這個名字比較好記(*‘ v`*) 後面我再想想寫些什麼...(施工中)"
-    const certificates: MemberCertificateType[] = [
-        {
-            title: "iPAS 資訊安全工程師-初級能力鑑定",
-            datetime: "2023.06.21"
-        },
-        {
-            title: "Microsoft Certified: Azure AI Fundamentals",
-            datetime: "2024.06.24"
->>>>>>> b0b00f909ec0f5e0de438673645096a614840e14
         }
     ]
     const raceExperiences: MemberRaceExperienceType[] = [
         {
             title: "第28屆 Innoserve 資訊應用服務創新競賽 ",
             result: "資安創新技術組 第二名",
-<<<<<<< HEAD
             datetime: "2023/11/04"
         },
         {
             title: "picoCTF 2024",
             result: "排名: 461/69574",
             datetime: "2024/03/13-2024/3/27"
-=======
-            datetime: "2023.11.04"
->>>>>>> b0b00f909ec0f5e0de438673645096a614840e14
         },
         {
             title: "GICS 尋找資安女捷思",
             result: "資安闖天關 佳作",
-<<<<<<< HEAD
             datetime: "2024/04/27"
         },
         {
@@ -55,14 +34,10 @@ export const WIFIMemberPage = () => {
             title: "AEGIS CTF 神盾盃預賽",
             result: "",
             datetime: "2024/09/14"
-=======
-            datetime: "2024.04.27"
->>>>>>> b0b00f909ec0f5e0de438673645096a614840e14
         }
     ]
     const participates: MemberParticipateType[] = [
         {
-<<<<<<< HEAD
             title: "9th AIS3 情資運用與惡意程式分析",
             datetime: "2023/07/24-2023/07/30"
         },
@@ -110,26 +85,13 @@ export const WIFIMemberPage = () => {
             doi: ""
         }
     ]
-=======
-            title: "AIS3 情資運用與惡意程式分析",
-            datetime: "2023.07.31"
-        }
-    ]
-    const internExperiences: MemberInternType[] = []
-    const journals: MemberArticleType[] = []
-    const conferences: MemberArticleType[] = []
->>>>>>> b0b00f909ec0f5e0de438673645096a614840e14
     const techConfs: MemberArticleType[] = []
     return (
         <Sample
             zhName="李佳軒"
             enName="Lee, Chia-Hsuan"
             avatar={WIFI}
-<<<<<<< HEAD
             institutes={["國立臺北科技大學 資訊安全碩士學位學程 碩一"]}
-=======
-            institutes={["國立臺北科技大學 資訊安全碩士學位學程 碩零"]}
->>>>>>> b0b00f909ec0f5e0de438673645096a614840e14
             bio={bio}
             experiences={raceExperiences}
             certificates={certificates}
@@ -140,9 +102,4 @@ export const WIFIMemberPage = () => {
             techConfs={techConfs}
         ></Sample>
     )
-<<<<<<< HEAD
 }
-=======
-}
-
->>>>>>> b0b00f909ec0f5e0de438673645096a614840e14
