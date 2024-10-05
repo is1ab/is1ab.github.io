@@ -1,6 +1,6 @@
 import { Sample } from "../Sample"
 import WIFI from "../../assets/member/WIFI.jpg"
-import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberRaceExperienceType } from "../../type/MemberCertificateType"
+import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../../type/MemberCertificateType"
 export const WIFIMemberPage = () => {
     const bio = "嗨伊，我是 WIFI。"
     const certificates: MemberCertificateType[] = [
@@ -9,7 +9,7 @@ export const WIFIMemberPage = () => {
             datetime: "2023/06/21"
         }
     ]
-    const raceExperiences: MemberRaceExperienceType[] = [
+    const raceExperiences: MemberCompetitionExperienceType[] = [
         {
             title: "第28屆 Innoserve 資訊應用服務創新競賽 ",
             result: "資安創新技術組 第二名",
