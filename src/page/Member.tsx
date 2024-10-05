@@ -7,7 +7,7 @@ export function Member(){
             key: '1',
             name: "陳勝舢",
             joinDate: "2022.07",
-            role: "博二",
+            role: "博三",
             coAdvisor: '白敦文',
             experience: "奧義智慧科技股份有限公司實習生",
             certificate: "CEH",
@@ -19,25 +19,27 @@ export function Member(){
             key: '1',
             name: "張家維",
             joinDate: "2022.12",
-            role: "碩一，資安碩士",
+            role: "碩二，資安碩士",
             coAdvisor: '',
-            experience: "台積電 - 資訊安全部實習生、前動力安全資訊股份有限公司實習生",
-            certificate: "iPAS 資訊安全工程師檢定（初級）"
+            experience: "Cymetrics 實習生、前台積電-資訊安全部暑期實習生、前動力安全資訊股份有限公司",
+            certificate: "iPAS 資訊安全工程師檢定（初級）",
+            website: "/#/Member/2023/CHW"
         },
         {
             key: '2',
             name: "林幸慧",
             joinDate: "2022.12",
-            role: "碩一，資安碩士",
+            role: "碩二，資安碩士",
             coAdvisor: '',
             experience: "果核數位實習生，前中華資安國際股份有限公司實習生",
-            certificate: "iPAS 資訊安全工程師檢定（初級）"
+            certificate: "iPAS 資訊安全工程師檢定（初級）",
+            website: "/#/Member/2023/Ravin"
         },
         {
             key: '3',
             name: "陳荷文",
             joinDate: "2022.12",
-            role: "碩一，資安碩士",
+            role: "碩二，資安碩士",
             coAdvisor: '',
             experience: "",
             certificate: ""
@@ -46,110 +48,131 @@ export function Member(){
             key: '4',
             name: "許貽昇",
             joinDate: "2023.03",
-            role: "碩一，資安碩士",
+            role: "碩二，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "iPAS 資訊安全工程師檢定（初級）"
+            certificate: "iPAS 資訊安全工程師檢定（初級）",
+            website: "/#/Member/2023/Eason"
         },
         {
             key: '5',
             name: "曹凱翔",
             joinDate: "2023.03",
-            role: "碩一，資安碩士",
+            role: "碩二，資安碩士",
             coAdvisor: '',
-            experience: "",
-            certificate: "iPAS 資訊安全工程師檢定（初級）"
+            experience: "中華資安國際股份有限公司實習生",
+            certificate: "iPAS 資訊安全工程師檢定（初級）",
+            website: "/#/Member/2023/Bobo"
         },
         {
             key: '6',
             name: "顏柏耀",
             joinDate: "2023.03",
-            role: "碩一，資安碩士",
+            role: "碩二，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "iPAS 資訊安全工程師檢定（初級）"
+            certificate: "iPAS 資訊安全工程師檢定（初級）",
+            website: "/#/Member/2023/Y"
         },
         {
             key: '7',
             name: "廖家賢",
             joinDate: "2023.08",
-            role: "碩一，資安碩士",
+            role: "碩二，資安碩士",
             coAdvisor: '林敬皇',
-            experience: "",
-            certificate: "iPAS 資訊安全工程師檢定（初級）"
+            experience: "台灣圖靈鏈股份有限公司實習生",
+            certificate: "iPAS 資訊安全工程師檢定（初級）",
+            website: "/#/Member/2023/Salt"
         },
         {
             key: '8',
             name: "吳冠廷",
             joinDate: "2023.12",
-            role: "碩零，資安碩士",
+            role: "碩一，資安碩士",
             coAdvisor: '',
             experience: "保華資安股份有限公司實習生",
-            certificate: "iPAS 資訊安全工程師檢定（初級）"
+            certificate: "iPAS 資訊安全工程師檢定（初級）",
+            website: "/#/Member/2024/Guan4Tou2"
         },
         {
             key: '9',
             name: "李宇揚",
             joinDate: "2023.12",
-            role: "碩零，資安碩士",
+            role: "碩一，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: ""
+            certificate: "iPAS 資訊安全工程師檢定（初級）",
+            website: "/#/Member/2024/Young"
         },
         {
             key: '10',
             name: "黃廷翰",
             joinDate: "2023.12",
-            role: "碩零，資安碩士",
+            role: "碩一，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: ""
+            certificate: "",
+            website: "/#/Member/2024/Jason"
         },
         {
             key: '11',
             name: "楊閔恩",
             joinDate: "2023.12",
-            role: "碩零，資工碩士",
+            role: "碩一，資工碩士",
             coAdvisor: '',
             experience: "",
-            certificate: ""
+            certificate: "",
+            website: "/#/Member/2024/Joe"
         },
         {
             key: '12',
             name: "陳彥宇",
             joinDate: "2024.01",
-            role: "碩零，資工碩士",
+            role: "碩一，資工碩士",
             coAdvisor: '',
             experience: "",
-            certificate: ""
+            certificate: "",
+            website: "/#/Member/2024/Adb2"
         },
         {
             key: '13',
             name: "李佳軒",
             joinDate: "2024.01",
-            role: "碩零，資安碩士",
+            role: "碩一，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "",
+            certificate: "iPAS 資訊安全工程師檢定（初級）",
             website: "/#/Member/2024/WIFI"
         },
         {
             key: '14',
             name: "王立翔",
             joinDate: "2024.04",
-            role: "碩零，資工碩士",
+            role: "碩一，資工碩士",
             coAdvisor: '',
             experience: "",
-            certificate: ""
+            certificate: "",
+            website: "/#/Member/2024/PaulWang"
         },
         {
             key: '15',
             name: "黃奕評",
             joinDate: "2024.06",
-            role: "碩零，資安碩士",
+            role: "碩一，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: ""
+            certificate: "",
+            website: "/#/Member/2024/ypp"
+        },
+        {
+            key: '16',
+            name: "廖哲霈",
+            joinDate: "2024.08",
+            role: "碩一，資工碩士",
+            coAdvisor: '郭忠義',
+            experience: "",
+            certificate: "",
+            website: ""
         }
     ]
     const consultantUserTableItem = [
@@ -213,7 +236,7 @@ export function Member(){
                 }
             ],
             note: "結合語言模型與特徵機制之整合式網路入侵偵測告警系統",
-            progress: 7
+            progress: 9
         },
         {
             group: "112#2",
@@ -232,7 +255,7 @@ export function Member(){
                 }
             ],
             note: "基於 API 呼叫序列的深度學習模型用於勒索病毒偵測（大專生計畫編號:113-2813-C-027-054-E）",
-            progress: 7
+            progress: 9
         },
         {
             group: "112#3",
@@ -270,7 +293,7 @@ export function Member(){
                 }
             ],
             note: "網路攻防教學用平台之設計",
-            progress: 6
+            progress: 9
         },
         {
             group: "113#1",
@@ -293,7 +316,7 @@ export function Member(){
                 }
             ],
             note: "-",
-            progress: 1
+            progress: 3
         },
         {
             group: "113#2",
@@ -316,7 +339,7 @@ export function Member(){
                 }
             ],
             note: "-",
-            progress: 1
+            progress: 3
         }
     ]
     const otherStudentTableItem = [
@@ -410,7 +433,7 @@ export function Member(){
                     </div>
                 )
             },
-            width: "30%"
+            width: "35%"
         },
         {
             key: 'note',
@@ -426,7 +449,7 @@ export function Member(){
                 const progress = render.progress
                 return <p>{"█ ".repeat(progress)}{"░ ".repeat(10-progress)}</p>
             },
-            width: "30%"
+            width: "25%"
         }
     ]
     const otherStudentTableColumns: ColumnType<any>[] = [

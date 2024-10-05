@@ -9,7 +9,9 @@ export const WIFIMemberPage = () => {
             datetime: "2023/06/21"
         }
     ]
-    const raceExperiences: MemberCompetitionExperienceType[] = [
+
+    const competitionExperiences: MemberCompetitionExperienceType[] = [
+
         {
             title: "第28屆 Innoserve 資訊應用服務創新競賽 ",
             result: "資安創新技術組 第二名",
@@ -93,7 +95,7 @@ export const WIFIMemberPage = () => {
             avatar={WIFI}
             institutes={["國立臺北科技大學 資訊安全碩士學位學程 碩一"]}
             bio={bio}
-            experiences={raceExperiences}
+            experiences={competitionExperiences}
             certificates={certificates}
             participates={participates}
             intern={internExperiences}

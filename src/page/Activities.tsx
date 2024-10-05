@@ -19,7 +19,7 @@ export function Activities(){
         <div className="activities">
             <h4 className="text-center fw-bold">歷史活動</h4>
             <table className="w-100 table-bordered">
-                <ActivitiesItem
+                 <ActivitiesItem
                     time="2024.04.27"
                     descriptionItem={
                         <div>

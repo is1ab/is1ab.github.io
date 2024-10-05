@@ -1,6 +1,8 @@
 import Logo from "../assets/logo.png"
 import { Table } from "antd"
-import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberRaceExperienceType } from "../type/MemberCertificateType"
+import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../type/MemberCertificateType"
+import { useLocation } from "react-router-dom"
+import { useEffect } from "react"
 
 export type SampleConfig = {
     zhName: string
@@ -57,9 +59,9 @@ export const Sample = (props: {
     zhName: string
     enName?: string | undefined
     avatar?: string | undefined
-    bio?: string
+    bio?: string | JSX.Element
     institutes: string[]
-    experiences: MemberRaceExperienceType[]
+    experiences: MemberCompetitionExperienceType[]
     certificates: MemberCertificateType[]
     participates: MemberParticipateType[]
     intern: MemberInternType[]
@@ -67,6 +69,11 @@ export const Sample = (props: {
     conferences: MemberArticleType[]
     techConfs: MemberArticleType[]
 }) => {
+    const { pathname } = useLocation()
+    const experiences = props.experiences.sort((a, b) => b.datetime.toString().includes("now") ? 1 : b.datetime.toString().localeCompare(a.datetime.toString()))
+    const certificates = props.certificates.sort((a, b) =>  b.datetime.toString().includes("now") ? 1 : b.datetime.toString().localeCompare(a.datetime.toString()))
+    const participates = props.participates.sort((a, b) =>  b.datetime.toString().includes("now") ? 1 : b.datetime.toString().localeCompare(a.datetime.toString()))
+    const interns = props.intern.sort((a, b) =>  b.datetime.toString().includes("now") ? 1 : b.datetime.toString().localeCompare(a.datetime.toString()))
     const TitleName = () => {
         if(props.enName === undefined){
             return <h1 className="text-white">{props.zhName}</h1>
@@ -91,6 +98,9 @@ export const Sample = (props: {
             </>
         )
     }
+    useEffect(() => {
+        window.scroll({top: 0, left: 0, behavior: "instant"})
+    }, [pathname])
     return (
         <div className="d-flex flex-column" style={{gap: "3rem"}}>
             <div className="w-100 d-flex flex-row">
@@ -120,7 +130,7 @@ export const Sample = (props: {
                     }
                 </div>
             </div>
-            { props.experiences.length > 0 &&
+            { experiences.length > 0 &&
                 <div className="w-100 d-flex flex-row" style={{gap: "3rem"}}>
                     
                         <div className="w-100">
@@ -128,44 +138,64 @@ export const Sample = (props: {
                                 <h5 className="fw-bold text-white m-0">比賽經歷</h5>
                             </div>
                             <div className="p-3 w-100">
-                                <Table columns={experienceColumns} dataSource={props.experiences} bordered pagination={false}></Table>
+                                <Table 
+                                    columns={experienceColumns} 
+                                    dataSource={experiences} 
+                                    bordered 
+                                    pagination={false}
+                                ></Table>
                             </div>
                         </div>
                 </div>
             }
-            { props.certificates.length > 0 &&
+            { certificates.length > 0 &&
                 <div className="w-100 d-flex flex-row" style={{gap: "3rem"}}>
                         <div className="w-100">
                             <div className="p-3 w-100" style={{backgroundColor: "#7a1b1b"}}>
                                 <h5 className="fw-bold text-white m-0">資安證照／檢定</h5>
                             </div>
                             <div className="p-3 w-100">
-                                <Table columns={titleDateTimeColumns} dataSource={props.certificates} bordered pagination={false}></Table>
+                                <Table 
+                                    columns={titleDateTimeColumns} 
+                                    dataSource={certificates} 
+                                    bordered 
+                                    pagination={false}
+                                ></Table>
                             </div>
                         </div>
                 </div>
             }
-            { props.participates.length > 0 &&
+            { participates.length > 0 &&
                 <div className="w-100 d-flex flex-row" style={{gap: "3rem"}}>
                         <div className="w-100">
                             <div className="p-3 w-100" style={{backgroundColor: "#7a1b1b"}}>
                                 <h5 className="fw-bold text-white m-0">活動參與</h5>
                             </div>
                             <div className="p-3 w-100">
-                                <Table columns={titleDateTimeColumns} dataSource={props.participates} bordered pagination={false}></Table>
+                                <Table 
+                                    columns={titleDateTimeColumns} 
+                                    dataSource={participates} 
+                                    bordered 
+                                    pagination={false}
+                                ></Table>
                             </div>
                         </div>
                 </div>
             }
-            { props.intern.length > 0 &&
+            { interns.length > 0 &&
                 <div className="w-100 d-flex flex-row" style={{gap: "3rem"}}>
                         <div className="w-100">
                             <div className="p-3 w-100" style={{backgroundColor: "#7a1b1b"}}>
                                 <h5 className="fw-bold text-white m-0">實習經歷</h5>
                             </div>
                             <div className="p-3 w-100">
-                                    <Table columns={internColumns} dataSource={props.intern} bordered pagination={false}></Table>
-                                </div>
+                                <Table 
+                                    columns={internColumns} 
+                                    dataSource={interns} 
+                                    bordered 
+                                    pagination={false}
+                                ></Table>
+                            </div>
                         </div>
                 </div>
             }

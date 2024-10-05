@@ -39,6 +39,13 @@ export function Publication(){
                 <h4 className="text-center fw-bold">期刊論文 Journal Paper</h4>
                 <ol>
                     <li>
+                        <Author>
+                            李昆積，陳勝舢，孫勤昱
+                        </Author>
+                        <Title title="大語言模型中的提示注入攻擊分析與緩解策略"/>
+                        Accepted by <Journal name="Communications of the CCISA"/>, September 2024.
+                    </li>
+                    <li>
                         Shih-Jung Lin, <Professor coAuther/>, Dan-Ni Chen, Yi-No Kang, Nai Ming Lai, Kee-Hsin Chen, Chiehfeng Chen, 
                         <Title title="Perioperative Application of Chatbots: A Systematic Review and Meta-Analysis,"/>
                         Accepted by <Journal name="BMJ Health & Care Informatics"/>, April 2024. 
@@ -172,7 +179,7 @@ export function Publication(){
                             Chia-Hsien Liao and <Professor star/>
                         </Author>
                         <Title title="Note on “Learning with error-based key agreement and authentication scheme for satellite communication"/>
-                        Accepted by <Journal name="Taiwan Conference on Software Engineering (TCSE 2024)"/>, June 2024.
+                        In Proceedings of <Journal name="20th Taiwan Conference on Software Engineering (TCSE 2024)"/>, pp. 354-358, Taipei, Taiwan, July 2024.
                     </li>
                     <li>
                         <Author>
