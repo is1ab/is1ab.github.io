@@ -137,7 +137,7 @@ export function Alumni(){
         },
         {
             name: "蔡峻傑",
-            joinTime: "2022.09-",
+            joinTime: "2022.09-2024.08",
             title: "含加權要項可驗證分散式聚合函數之低隱私預算差分隱私方案",
             status: "N/A",
             note: "與楊士萱老師合作指導"
