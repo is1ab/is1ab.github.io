@@ -15,6 +15,7 @@ import { Experience } from './page/Experience.tsx'
 import { Course } from './page/Courses.tsx'
 import { Record } from './page/Records.tsx'
 import { News } from './page/News.tsx'
+import { Meeting } from './page/Meeting.tsx'
 import { Activities } from './page/Activities.tsx'
 import { Rule } from './page/Rule.tsx'
 import { UriahMemberPage } from './member/2023/Uriah.tsx'
@@ -67,6 +68,7 @@ const router = createHashRouter(
         <Route path='/Course' element={<Course></Course>}></Route>
         <Route path='/Record' element={<Record></Record>}></Route>
         <Route path='/News' element={<News></News>}></Route>
+        <Route path='/Meeting' element={<Meeting></Meeting>}></Route>
         <Route path='/Activities' element={<Activities></Activities>}></Route>
         <Route path='/Rules' element={<Rule></Rule>}></Route>
       </Route>
