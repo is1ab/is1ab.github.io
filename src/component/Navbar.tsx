@@ -70,6 +70,11 @@ export function Navbar(){
             key: "rule",
             label: "實驗室進場規則 Rules",
             onClick: () => navigate("/Rules")
+        },
+        {
+            key: "meeting",
+            label: "報告日程 Meeting",
+            onClick: () => navigate("/Meeting")
         }
     ]
     return (

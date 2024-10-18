@@ -10,7 +10,8 @@ export function Alumni(){
             ability: "密碼學、硬體安全",
             experience: "資訊工程系 碩士學位",
             certificate: "",
-            status: "離校辦理中"
+            status: "畢業",
+            website: "/#/Member/2022/Cliff"
         },
         {
             name: "李昆積",
@@ -19,7 +20,8 @@ export function Alumni(){
             ability: "Web 攻防",
             experience: "資訊工程系 碩士學位",
             certificate: "",
-            status: "離校辦理中"
+            status: "兵役",
+            website: "/#/Member/2022/kunjili"
         },
         {
             name: "陳丹妮",
@@ -36,7 +38,14 @@ export function Alumni(){
             key: 'name',
             dataIndex: 'name',
             title: "姓名",
-            width: "10%"
+            width: "10%",
+            render: (_text: string, render: any, _index: number) => {
+                return (
+                    <>
+                        {render.website === undefined ? <p>{render.name}</p> : <a href={render.website}>{render.name}</a>}
+                    </>
+                )
+            }
         },
         {
             key: 'joinDate',
@@ -128,9 +137,9 @@ export function Alumni(){
         },
         {
             name: "蔡峻傑",
-            joinTime: "2022.09-",
+            joinTime: "2022.09-2024.08",
             title: "含加權要項可驗證分散式聚合函數之低隱私預算差分隱私方案",
-            status: "畢業準備中…",
+            status: "N/A",
             note: "與楊士萱老師合作指導"
         }
     ]

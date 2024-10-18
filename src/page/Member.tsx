@@ -21,7 +21,7 @@ export function Member(){
             joinDate: "2022.12",
             role: "碩二，資安碩士",
             coAdvisor: '',
-            experience: "台積電 - 資訊安全部實習生、前動力安全資訊股份有限公司實習生",
+            experience: "Cymetrics 實習生、前台積電-資訊安全部暑期實習生、前動力安全資訊股份有限公司",
             certificate: "iPAS 資訊安全工程師檢定（初級）",
             website: "/#/Member/2023/CHW"
         },
@@ -60,7 +60,7 @@ export function Member(){
             joinDate: "2023.03",
             role: "碩二，資安碩士",
             coAdvisor: '',
-            experience: "",
+            experience: "中華資安國際股份有限公司實習生",
             certificate: "iPAS 資訊安全工程師檢定（初級）",
             website: "/#/Member/2023/Bobo"
         },
@@ -80,7 +80,7 @@ export function Member(){
             joinDate: "2023.08",
             role: "碩二，資安碩士",
             coAdvisor: '林敬皇',
-            experience: "",
+            experience: "台灣圖靈鏈股份有限公司實習生",
             certificate: "iPAS 資訊安全工程師檢定（初級）",
             website: "/#/Member/2023/Salt"
         },
@@ -316,7 +316,7 @@ export function Member(){
                 }
             ],
             note: "-",
-            progress: 1
+            progress: 3
         },
         {
             group: "113#2",
@@ -339,7 +339,7 @@ export function Member(){
                 }
             ],
             note: "-",
-            progress: 1
+            progress: 3
         }
     ]
     const otherStudentTableItem = [

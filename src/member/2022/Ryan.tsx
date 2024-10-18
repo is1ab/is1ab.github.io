@@ -65,7 +65,19 @@ export const RyanMemberPage = () => {
     ]
     const participates: MemberParticipateType[] = [
         {
-            title: "擔任 AIS3 2024 威脅運用與防禦組講師",
+            title: "臺灣師範大學資工系碩士班「高等資安攻防演練」課程講師",
+            datetime: "2024.11.22"
+        },
+        {
+            title: "第八屆臺灣好厲駭高階導師培訓-表現優異獎",
+            datetime: "2024.09.01"
+        },
+        {
+            title: "擔任 HITCON 2024 台灣駭客年會議程講者",
+            datetime: "2024.08.23"
+        },
+        {
+            title: "擔任 AIS3 2024 威脅運用與防禦組講師 (學生超過百人)",
             datetime: "2024.08.24"
         },
         {
@@ -154,7 +166,7 @@ export const RyanMemberPage = () => {
     const internExperiences: MemberInternType[] = [
         {
             company: "奧義智慧科技股份有限公司",
-            info: "應用人工智慧於網路威脅情資分析",
+            info: "應用人工智慧技術於網路威脅情資分析",
             datetime: "2023.05 - now"
         },
         {
@@ -164,6 +176,13 @@ export const RyanMemberPage = () => {
         },
     ]
     const journals: MemberArticleType[] = [
+        {
+            authors: "Kunji Li、Sheng-Shan Chen, Chin-Yu Sun*",
+            title: "Analysis and Mitigation Strategies for Prompt Injection Attacks",
+            target: "Communications of the CCISA",
+            details: "Vol. 30 No. 3 Aug. 2024",
+            doi: "https://scholar.google.com.tw/citations?view_op=view_citation&hl=zh-TW&user=lgOY-SoAAAAJ&citation_for_view=lgOY-SoAAAAJ:zYLM7Y9cAGgC"
+        },
         {
             authors: "Sheng-Shan Chen, Ren-Hung Hwang*, Asad Ali, Ying-Dar Lin, Yu-Chih Wei, Tun-Wen Pai*",
             title: "Improving quality of indicators of compromise using STIX graphs",
@@ -186,7 +205,7 @@ export const RyanMemberPage = () => {
             details: "PingTung, Taiwan, 2023, pp. 207-208"
         },
         {
-            authors: "Sheng-Shan Chen, Chin-Yu Sun, and Tun-Wen Pai*",
+            authors: "Sheng-Shan Chen, Tun-Wen Pai, and Chin-Yu Sun*",
             title: "Applying the Diamond Model of Intrusion Analysis with Generative Pre-trained Transformer 3",
             target: "2023 International Conference on Consumer Electronics - Taiwan (ICCE-Taiwan)",
             details: "PingTung, Taiwan, 2023, pp. 289-290"
@@ -218,13 +237,25 @@ export const RyanMemberPage = () => {
             target: "Hack In Taiwan Conference (HITCON 2023)",
             details: "Taipei, Taiwan, Aug 18, 2023"
         }, 
+        {
+            authors: "Sheng-Shan Chen, Chin-Yu Sun, Hou-Tsan Lee, Yu-Chih Wei, Tun-Wen Pai*",
+            title: "Using Cyber Threat Intelligence to Defend Healthcare Security Threats",
+            target: "2023 7th International Conference on Medical and Health Informatics (ICMHI 2023)",
+            details: "Kyoto, Japan. May 12-14, 2023"
+        }, 
+         {
+            authors: "Sheng-Shan Chen, Yu-Chih Wei, Hou-Tsan Lee, Tun-Wen Pai*",
+            title: "Attack Pattern Classification Of Medical Institution Based On Open Source Intelligence",
+            target: "2022 5th International Conference on Healthcare Service Management (ICHSM 2022)",
+            details: "Taipei, Taiwan, May 2022."
+        }, 
     ]
     return (
         <Sample
             zhName="陳勝舢"
             enName="Sheng-Shan Chen"
-            institutes={["國立臺北科技大學 資訊工程所"]}
-            bio={"Sheng-Shan Chen is a Ph.D. student in Computer Science and Information Engineering at the National Taipei University of Technology (NTUT) and a cybersecurity researcher at Cycraft (the unique company selected by Gartner as a representation AI security company in Asia-pacific area). His research primarily focuses on applying machine learning techniques to analyze cyber threat intelligence (CTI). He is currently involved in an academic research project under Taiwan National Institute of Cyber Security (NICS), focusing on using a Large Language Model (LLM) to analyze CTI. He has published several notable publications and conferences, including the Computers & Security Journal, IEEE Global Communications Conference (GLOBECOM), International Conference on Medical and Health Informatics (ICMHI), International Conference on Industrial, Engineering & Other Applications of Applied Intelligent Systems (IEA/AIE), and the Hacks In Taiwan Conference (HITCON). He has earned the second place from the 50th National Skills Competition in the Cybersecurity category in Taiwan (2020). Besides, he has coached junior students to obtain the third rank in the 52nd competition event (2022) and served as one of the Technical Consultant Members for the 53rd and 54th competitions (2023/2024). He also shares knowledge on https://sectools.tw."}
+            institutes={["國立臺北科技大學 資訊工程系"]}
+            bio={"Sheng-Shan Chen is a Ph.D. student in Computer Science and Information Engineering at the National Taipei University of Technology (NTUT) and a cybersecurity researcher at Cycraft (the unique company selected by Gartner as a representation AI security company in Asia-pacific area). His research primarily focuses on applying machine learning techniques to analyze cyber threat intelligence (CTI). He is currently involved in an academic research project under Taiwan National Institute of Cyber Security (NICS), focusing on using a Large Language Model (LLM) to analyze CTI. He has published several notable publications and conferences, including the Computers & Security Journal, IEEE Global Communications Conference (GLOBECOM), International Conference on Medical and Health Informatics (ICMHI), International Conference on Industrial, Engineering & Other Applications of Applied Intelligent Systems (IEA/AIE), and the Hacks In Taiwan Conference (HITCON). He has earned the second place from the 50th National Skills Competition in the Cybersecurity category in Taiwan (2020). Besides, he has coached junior students to obtain the third rank in the 52nd competition event (2022) and served as one of the Technical Consultant Members for the 53rd and 54th competitions (2023/2024). Sheng-Shan was awarded the TaiwanHolyHigh Performance Excellence Award (2022/2023). He received the Best Project Award at AIS3 (2021/2022), served as a teaching assistant (2023/2024), and was a lecturer for threat intelligence and security awareness (2024). He also shares knowledge on https://sectools.tw."}
             experiences={competitionExperiences}
             certificates={certificates}
             participates={participates}

@@ -15,6 +15,7 @@ import { Experience } from './page/Experience.tsx'
 import { Course } from './page/Courses.tsx'
 import { Record } from './page/Records.tsx'
 import { News } from './page/News.tsx'
+import { Meeting } from './page/Meeting.tsx'
 import { Activities } from './page/Activities.tsx'
 import { Rule } from './page/Rule.tsx'
 import { UriahMemberPage } from './member/2023/Uriah.tsx'
@@ -33,6 +34,8 @@ import { BoboMemberPage } from './member/2023/Bobo.tsx'
 import { Guan4Tou2MemberPage } from './member/2024/Guan4Tou2.tsx'
 import { CHWMemberPage } from './member/2023/CHW.tsx'
 import { RavinMemberPage } from './member/2023/Ravin.tsx'
+import { KunjiliMemberPage } from './member/2022/Kunjili.tsx'
+import { CliffMemberPage } from './member/2022/Cliff.tsx'
 
 const router = createHashRouter(
   createRoutesFromElements(
@@ -55,6 +58,8 @@ const router = createHashRouter(
         <Route path='/Member/2024/Guan4Tou2' element={<Guan4Tou2MemberPage />}></Route>
         <Route path='/Member/2023/CHW' element={<CHWMemberPage />}></Route>
         <Route path='/Member/2023/Ravin' element={<RavinMemberPage />}></Route>
+        <Route path='/Member/2022/Kunjili' element={<KunjiliMemberPage />}></Route>
+        <Route path='/Member/2022/Cliff' element={<CliffMemberPage />}></Route>
         <Route path='/Alumni' element={<Alumni></Alumni>}></Route>
         <Route path='/Partner' element={<Partner></Partner>}></Route>
         <Route path='/Profile' element={<Profile></Profile>}></Route>
@@ -63,6 +68,7 @@ const router = createHashRouter(
         <Route path='/Course' element={<Course></Course>}></Route>
         <Route path='/Record' element={<Record></Record>}></Route>
         <Route path='/News' element={<News></News>}></Route>
+        <Route path='/Meeting' element={<Meeting></Meeting>}></Route>
         <Route path='/Activities' element={<Activities></Activities>}></Route>
         <Route path='/Rules' element={<Rule></Rule>}></Route>
       </Route>
