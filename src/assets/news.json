@@ -1,5 +1,27 @@
 [
     {
+        "people": "黃政、劉硯皓、張庭偉",
+        "description": "榮獲 2024 北科實務專題競賽 佳作",
+        "extraDescription": "（實務專題：Practice Tools for Simple Design）",
+        "time": "2024.10.17"
+    },
+    {
+        "people": "吳奕萱、何穎宣、程邦博",
+        "description": "榮獲 2024 北科實務專題競賽 佳作",
+        "extraDescription": "（實務專題：基於 API 呼叫序列的深度學習模型用於勒索病毒偵測）",
+        "time": "2024.10.17"
+    },
+    {
+        "people": "陳勝舢、曹凱翔、張家維、許貽昇、吳冠廷、李佳軒、陳彥宇",
+        "description": "錄取 臺灣好厲駭-高階培訓課程（第九屆）",
+        "time": "2024.08.19"
+    },
+    {
+        "people": "曹凱翔",
+        "description": "榮獲 AIS3 新型態資安暑期課程最佳專題獎",
+        "time": "2024.08.04"
+    },
+    {
         "people": "陳勝舢",
         "description": "榮任第 54 屆全國技能競賽「網路安全」職類解說技術顧問",
         "time": "2023.07.02"

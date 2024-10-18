@@ -221,7 +221,7 @@ export function Member(){
                 }
             ],
             note: "結合語言模型與特徵機制之整合式網路入侵偵測告警系統",
-            progress: 7
+            progress: 10
         },
         {
             group: "112#2",
@@ -240,7 +240,7 @@ export function Member(){
                 }
             ],
             note: "基於 API 呼叫序列的深度學習模型用於勒索病毒偵測（大專生計畫編號:113-2813-C-027-054-E）",
-            progress: 7
+            progress: 10
         },
         {
             group: "112#3",
@@ -251,7 +251,7 @@ export function Member(){
                 },
                 {
                     name: "劉硯皓",
-                    intern: "中央研究院"
+                    intern: "中央研究院、智安數據科技股份有限公司"
                 },
                 {
                     name: "張庭偉",
@@ -259,7 +259,7 @@ export function Member(){
                 }
             ],
             note: "Practice Tools for Simple Design",
-            progress: 9
+            progress: 10
         },
         {
             group: "112#4",
@@ -278,7 +278,7 @@ export function Member(){
                 }
             ],
             note: "網路攻防教學用平台之設計",
-            progress: 6
+            progress: 10
         },
         {
             group: "113#1",
@@ -418,7 +418,7 @@ export function Member(){
                     </div>
                 )
             },
-            width: "35%"
+            width: "45%"
         },
         {
             key: 'note',
