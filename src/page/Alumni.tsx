@@ -5,30 +5,30 @@ export function Alumni(){
     const masterAlumniDatas = [
         {
             name: "何亞翰",
-            joinDate: "2022.09-",
+            joinDate: "2022.09-2024.08",
             title: "使用生成式模型於公開來源情報去識別化技術之應用",
             ability: "密碼學、硬體安全",
-            experience: "",
-            certificate: "iPAS 資訊安全工程師檢定（初級）",
-            status: "2024.07.18-口試"
+            experience: "資訊工程系 碩士學位",
+            certificate: "",
+            status: "離校辦理中"
         },
         {
             name: "李昆積",
-            joinDate: "2022.09-",
+            joinDate: "2022.09-2024.08",
             title: "Prompt Injection 分析與緩解策略之研究 – 以大語言模型聊天機器人為例",
             ability: "Web 攻防",
-            experience: "",
-            certificate: "iPAS 資訊安全工程師檢定（初級）",
-            status: "2024.07.18-口試"
+            experience: "資訊工程系 碩士學位",
+            certificate: "",
+            status: "離校辦理中"
         },
         {
             name: "陳丹妮",
-            joinDate: "2022.09-",
+            joinDate: "2022.09-2024.08",
             title: "輔助乳癌術後重建病人醫病共同決策之人工智慧聊天機器人",
             ability: "人工智慧",
             experience: "美國德州大學阿靈頓分校 雙聯學位",
             certificate: "",
-            status: "2024.07.18-口試"
+            status: "訊能集思智能科技股份有限公司 - 產品經理"
         }
     ]
     const masterAlumniColumns: ColumnType<any>[] = [
@@ -42,25 +42,25 @@ export function Alumni(){
             key: 'joinDate',
             dataIndex: 'joinDate',
             title: "參與時間",
-            width: "5%"
+            width: "12%"
         },
         {
             key: 'title',
             dataIndex: 'title',
             title: "題目",
-            width: "30%"
+            width: "25%"
         },
         {
             key: 'ability',
             dataIndex: 'ability',
             title: "專長",
-            width: "15%"
+            width: "12%"
         },
         {
             key: 'note',
             dataIndex: 'note',
             title: "備註",
-            width: "25%",
+            width: "23%",
             render: (_text: string, record: any, _index: number) => {
                 return (
                     <>
@@ -74,7 +74,7 @@ export function Alumni(){
             key: 'status',
             dataIndex: 'status',
             title: "狀態",
-            width: "15%"
+            width: "18%"
         }
     ]
     const undergraduateAlumniStudentTableDatas = [
@@ -122,7 +122,7 @@ export function Alumni(){
         {
             name: "葉子多",
             joinTime: "2022.09-2023.08",
-            title: "",
+            title: "聯邦式學習上抗個體資料集成員推理攻擊之防禦強化技術",
             status: "美國賓州州立大學 雙聯學位",
             note: "與楊士萱老師合作指導"
         },

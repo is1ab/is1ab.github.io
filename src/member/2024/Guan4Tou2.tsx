@@ -110,10 +110,13 @@ export const Guan4Tou2MemberPage = () => {
                 &nbsp;
                 臺南市私立長榮高級中學資料庫注入漏洞
             </div>
-            )
-            ,
+            ),
             datetime: "2024.04.18"
-        }
+        },
+        {
+            title: "教育體系資安攻防演練 攻防檢測員",
+            datetime: "2024.07.23"
+        },
     ]
     const internExperiences: MemberInternType[] = [
         {
@@ -122,8 +125,15 @@ export const Guan4Tou2MemberPage = () => {
             datetime: "2024.06 - now"
         },
     ]
-    const journals: MemberArticleType[] = []
-    const conferences: MemberArticleType[] = []
+    const journals: MemberArticleType[] = []        
+    const conferences: MemberArticleType[] = [
+        {
+            authors: "Guan-Ting Wu",
+            title: "Lightweight-network-attack-and-defense-learning-simulation-environment",
+            target: "The Twelfth National Conference on Web Intelligence and Applications",
+            details: "Taiwan, 2022"
+        }
+    ]
     const techConfs: MemberArticleType[] = []
 
     return (

@@ -1,6 +1,8 @@
 import Logo from "../assets/logo.png"
 import { Table } from "antd"
 import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../type/MemberCertificateType"
+import { useLocation } from "react-router-dom"
+import { useEffect } from "react"
 
 export type SampleConfig = {
     zhName: string
@@ -67,6 +69,7 @@ export const Sample = (props: {
     conferences: MemberArticleType[]
     techConfs: MemberArticleType[]
 }) => {
+    const { pathname } = useLocation()
     const experiences = props.experiences.sort((a, b) => b.datetime.toString().includes("now") ? 1 : b.datetime.toString().localeCompare(a.datetime.toString()))
     const certificates = props.certificates.sort((a, b) =>  b.datetime.toString().includes("now") ? 1 : b.datetime.toString().localeCompare(a.datetime.toString()))
     const participates = props.participates.sort((a, b) =>  b.datetime.toString().includes("now") ? 1 : b.datetime.toString().localeCompare(a.datetime.toString()))
@@ -95,6 +98,9 @@ export const Sample = (props: {
             </>
         )
     }
+    useEffect(() => {
+        window.scroll({top: 0, left: 0, behavior: "instant"})
+    }, [pathname])
     return (
         <div className="d-flex flex-column" style={{gap: "3rem"}}>
             <div className="w-100 d-flex flex-row">

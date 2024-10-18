@@ -45,6 +45,11 @@ export function Navbar(){
                     onClick: () => navigate("/Experience")
                 },
                 {
+                    key: "Courses",
+                    label: "課程 Courses",
+                    onClick: () => navigate("/Course")
+                },
+                {
                     key: "records",
                     label: "紀錄 Records",
                     onClick: () => navigate("/Record")
