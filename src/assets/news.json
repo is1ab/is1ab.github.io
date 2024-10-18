@@ -1,5 +1,17 @@
 [
     {
+        "people": "黃政、劉硯皓、張庭偉",
+        "description": "榮獲 2024 北科實務專題競賽 佳作",
+        "extraDescription": "（實務專題：Practice Tools for Simple Design）",
+        "time": "2024.10.17"
+    },
+    {
+        "people": "吳奕萱、何穎宣、程邦博",
+        "description": "榮獲 2024 北科實務專題競賽 佳作",
+        "extraDescription": "（實務專題：基於 API 呼叫序列的深度學習模型用於勒索病毒偵測）",
+        "time": "2024.10.17"
+    },
+    {
         "people": "張家維",
         "description": "榮獲 TSMC 2024 DNA Internship Final Competition Honorable Mention of the Supporting - IT Group",
         "time": "2024.09.02"
