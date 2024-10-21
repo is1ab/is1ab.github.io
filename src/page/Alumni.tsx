@@ -98,6 +98,24 @@ export function Alumni(){
             name: "陳思群、顏睿寬、許宸瑋",
             title: "結合語言模型與特徵機制之整合式網路入侵偵測告警系統",
             note: "通過"
+        },
+        {
+            year: "113",
+            name: "吳奕萱、程邦博、何穎宣",
+            title: "基於 API 呼叫序列的深度學習模型用於勒索病毒偵測",
+            note: "通過大專生計畫編號:113-2813-C-027-054-E、榮獲 2024 北科實務專題競賽 佳作"
+        },
+        {
+            year: "113",
+            name: "黃政、劉硯皓、張庭偉",
+            title: "Practice Tools for Simple Design",
+            note: "榮獲 2024 北科實務專題競賽 佳作"
+        },
+        {
+            year: "113",
+            name: "林蔚、許恩誠、魏名宏",
+            title: "透過模擬駭客行為來學習網路攻防觀念之教學用軟體設計",
+            note: "榮獲 2024 北科實務專題競賽 佳作"
         }
     ]
     const undergraduatedAlumniStudentTableColumns: ColumnType<any>[] = [
@@ -111,13 +129,13 @@ export function Alumni(){
             key: 'name',
             dataIndex: 'name',
             title: "姓名",
-            width: "10%"
+            width: "15%"
         },
         {
             key: 'title',
             dataIndex: 'title',
             title: "專題名稱",
-            width: "60%"
+            width: "55%"
         },
         {
             key: 'note',
