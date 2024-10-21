@@ -89,15 +89,15 @@ export function Alumni(){
     const undergraduateAlumniStudentTableDatas = [
         {
             year: "113",
-            name: "陳思群、<p style={{color: "blue"}}>顏睿寬</p>、許宸瑋",
+            name: "陳思群、顏睿寬、許宸瑋",
             title: "結合語言模型與特徵機制之整合式網路入侵偵測告警系統",
-            note: "通過"
+            note: "通過、顏睿寬尚未完成實習"
         },
         {
             year: "113",
-            name: "吳奕萱、程邦博、<p style={{color: "blue"}}>何穎宣</p>",
+            name: "吳奕萱、程邦博、何穎宣",
             title: "基於 API 呼叫序列的深度學習模型用於勒索病毒偵測",
-            note: "通過大專生計畫編號:113-2813-C-027-054-E、榮獲 2024 北科實務專題競賽 佳作"
+            note: "通過大專生計畫編號:113-2813-C-027-054-E、榮獲 2024 北科實務專題競賽 佳作、何穎宣尚未完成實習"
         },
         {
             year: "113",
@@ -107,9 +107,9 @@ export function Alumni(){
         },
         {
             year: "113",
-            name: "林蔚、許恩誠、<p style={{color: "blue"}}>魏名宏</p>",
+            name: "林蔚、許恩誠、魏名宏",
             title: "透過模擬駭客行為來學習網路攻防觀念之教學用軟體設計",
-            note: "通過"
+            note: "通過、魏名宏尚未完成實習"
         },
         {
             year: "112",
