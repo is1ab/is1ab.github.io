@@ -115,7 +115,7 @@ export function Alumni(){
             year: "113",
             name: "林蔚、許恩誠、魏名宏",
             title: "透過模擬駭客行為來學習網路攻防觀念之教學用軟體設計",
-            note: "榮獲 2024 北科實務專題競賽 佳作"
+            note: "通過"
         }
     ]
     const undergraduatedAlumniStudentTableColumns: ColumnType<any>[] = [
