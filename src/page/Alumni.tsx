@@ -92,6 +92,12 @@ export function Alumni(){
             name: "張洸銘",
             title: "CVE-2023-35936發現以及0-day",
             note: "與陳彥霖老師合作指導"
+        },
+        {
+            year: "113",
+            name: "陳思群、顏睿寬、許宸瑋",
+            title: "結合語言模型與特徵機制之整合式網路入侵偵測告警系統",
+            note: "通過"
         }
     ]
     const undergraduatedAlumniStudentTableColumns: ColumnType<any>[] = [
