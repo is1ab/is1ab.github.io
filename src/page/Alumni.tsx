@@ -148,9 +148,9 @@ export function Alumni(){
         {
             name: "李子儀",
             joinTime: "2022.11-2023.11",
-            title: "<大學部>",
+            title: "國科會計畫執行、研究討論<大學部>",
             status: "萬芳醫院",
-            note: "-"
+            note: "N/A"
         },
         {
             name: "葉子多",
