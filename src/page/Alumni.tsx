@@ -88,12 +88,6 @@ export function Alumni(){
     ]
     const undergraduateAlumniStudentTableDatas = [
         {
-            year: "112",
-            name: "張洸銘",
-            title: "CVE-2023-35936發現以及0-day",
-            note: "與陳彥霖老師合作指導"
-        },
-        {
             year: "113",
             name: "陳思群、顏睿寬、許宸瑋",
             title: "結合語言模型與特徵機制之整合式網路入侵偵測告警系統",
@@ -116,6 +110,12 @@ export function Alumni(){
             name: "林蔚、許恩誠、魏名宏",
             title: "透過模擬駭客行為來學習網路攻防觀念之教學用軟體設計",
             note: "通過"
+        },
+        {
+            year: "112",
+            name: "張洸銘",
+            title: "CVE-2023-35936發現以及0-day",
+            note: "與陳彥霖老師合作指導"
         }
     ]
     const undergraduatedAlumniStudentTableColumns: ColumnType<any>[] = [
@@ -123,25 +123,25 @@ export function Alumni(){
             key: 'year',
             dataIndex: 'year',
             title: "學年",
-            width: "10%"
+            width: "8%"
         },
         {
             key: 'name',
             dataIndex: 'name',
             title: "姓名",
-            width: "15%"
+            width: "8%"
         },
         {
             key: 'title',
             dataIndex: 'title',
             title: "專題名稱",
-            width: "55%"
+            width: "50%"
         },
         {
             key: 'note',
             dataIndex: 'note',
             title: "備註",
-            width: "20%"
+            width: "34%"
         },
     ]
     const othersStudentTableDatas = [
