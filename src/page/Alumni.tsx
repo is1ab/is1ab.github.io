@@ -129,7 +129,7 @@ export function Alumni(){
             key: 'name',
             dataIndex: 'name',
             title: "姓名",
-            width: "8%"
+            width: "9%"
         },
         {
             key: 'title',
@@ -141,7 +141,7 @@ export function Alumni(){
             key: 'note',
             dataIndex: 'note',
             title: "備註",
-            width: "34%"
+            width: "33%"
         },
     ]
     const othersStudentTableDatas = [
