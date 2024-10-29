@@ -116,16 +116,6 @@ export function Member(){
         },
         {
             key: '11',
-            name: "楊閔恩",
-            joinDate: "2023.12",
-            role: "碩一，資工碩士",
-            coAdvisor: '',
-            experience: "",
-            certificate: "",
-            website: "/#/Member/2024/Joe"
-        },
-        {
-            key: '12',
             name: "陳彥宇",
             joinDate: "2024.01",
             role: "碩一，資工碩士",
@@ -135,7 +125,7 @@ export function Member(){
             website: "/#/Member/2024/Adb2"
         },
         {
-            key: '13',
+            key: '12',
             name: "李佳軒",
             joinDate: "2024.01",
             role: "碩一，資安碩士",
@@ -145,7 +135,7 @@ export function Member(){
             website: "/#/Member/2024/WIFI"
         },
         {
-            key: '14',
+            key: '13',
             name: "王立翔",
             joinDate: "2024.04",
             role: "碩一，資工碩士",
@@ -155,7 +145,7 @@ export function Member(){
             website: "/#/Member/2024/PaulWang"
         },
         {
-            key: '15',
+            key: '14',
             name: "黃奕評",
             joinDate: "2024.06",
             role: "碩一，資安碩士",
@@ -165,7 +155,7 @@ export function Member(){
             website: "/#/Member/2024/ypp"
         },
         {
-            key: '16',
+            key: '15',
             name: "廖哲霈",
             joinDate: "2024.08",
             role: "碩一，資工碩士",
