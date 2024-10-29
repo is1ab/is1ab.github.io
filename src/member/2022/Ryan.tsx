@@ -65,7 +65,7 @@ export const RyanMemberPage = () => {
     ]
     const participates: MemberParticipateType[] = [
         {
-            title: "臺灣師範大學資工系碩士班「高等資安攻防演練」課程講師",
+            title: "臺灣師範大學資工系碩士班「 113-1 高等資安攻防演練 」課程講師",
             datetime: "2024.11.22"
         },
         {
