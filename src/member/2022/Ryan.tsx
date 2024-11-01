@@ -212,10 +212,23 @@ export const RyanMemberPage = () => {
         },
         {
             authors: "Sheng-Shan Chen, Hou-Tsan Lee, Tun-Wen Pai*, Chao-Hung Wang",
-            title: "Intelligent Medical Interactive Educational System for Cardiovascular Disease.",
+            title: "Intelligent Medical Interactive Educational System for Cardiovascular Disease",
             target: "Advances and Trends in Artificial Intelligence. Theory and Practices in Artificial Intelligence: 35th International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems, IEA/AIE 2022",
             details: "Kitakyushu, Japan, July 19–22, 2022, Proceedings. Springer-Verlag, Berlin, Heidelberg, 101–111"
-        }
+        },
+        {
+            authors: "李宗儒, 張光文, 陳勝舢, 林偉川*",
+            title: "應用多功能感測器於車內安全系統",
+            target: "2020 Taiwan Academic Network Conference (TANET)",
+            details: "Taipei, Taiwan, Oct 28-30, 2020."
+        },
+        {
+            authors: "陳勝舢, 李後燦, 王兆弘, 白敦文*",
+            title: "心血管疾病之智慧醫療教育互動系統",
+            target: "2020 Taiwan Academic Network Conference (TANET)",
+            details: "Taipei, Taiwan, Oct 28-30, 2020."
+        },
+        
     ]
     const techConfs: MemberArticleType[] = [
         {
