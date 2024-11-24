@@ -13,16 +13,21 @@ export const UriahMemberPage = () => {
             title: "picoCTF 2024",
             result: "299/69579 (<5%) SOLO",
             datetime: "2024.03-2024.03"
+        },
+        {
+            title: "動態資料服務節點與 AI 智慧導流技術 - AI/ML 運用於 B5G 智慧導流技術",
+            result: "資策會軟體院前瞻技術獎 STI A* Awards",
+            datetime: "2024.06-2024.11"
         }
     ]
     const participates: MemberParticipateType[] = [
         {
             title: "參與「基於 API 呼叫序列的深度學習模型用於勒索病毒偵測（大專生計畫編號:113-2813-C-027-054-E）」大學部專題擔任顧問一職",
-            datetime: "2023.09-now"
+            datetime: "2023.09-2024.06"
         },
         {
             title: "參與「Practice Tools for Simple Design」大學部專題擔任顧問一職",
-            datetime: "2023.09-now"
+            datetime: "2023.09-2024.06"
         },
         {
             title: "參與維護實驗室新網頁",
