@@ -3,7 +3,7 @@ export function Rule(){
         <div className="rule">
             <h4 className="text-center fw-bold">名額限制（114 年）</h4>
             <ul>
-                <li>4 位資安碩士學位（招募中）</li>
+                <li>4 位資安碩士學位（已滿）</li>
                 <li>2 位資訊工程系（招募中）</li>
                 <li>2 組專題大學生（招募中）</li>
             </ul>
