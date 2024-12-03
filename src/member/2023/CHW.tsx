@@ -4,18 +4,31 @@ import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParti
 
 export const CHWMemberPage = () => {
     const bio = <div className="d-flex flex-column gap-3">
-        <p>嗨，我是張家維，可以叫我也可以不要叫我。CHW#41</p>
+        <blockquote style={{ fontStyle: 'italic', color: 'gray', margin: '10px 0', padding: '5px', borderLeft: '10px solid #ccc' }}>
+            <p>&nbsp;Roses are red, Violets are blue<br/>
+            &nbsp;My botnet is huge, How about you?</p>
+             <footer style={{ textAlign: 'right', fontSize: '1em', color: '#bcbcbc' }}>
+                — “沒人說過”
+            </footer>
+        </blockquote>
+        <p>嗨，我是 CHW，可以叫我也可以不要叫我。</p>
         <p>我只有 Github 沒有 Tinder </p>
-        <p>Hey, I'm 張家維, but you don't have to call me that if you don't want to. My username is CHW#41.</p>
+        <p>Hey, I'm CHW, but you don't have to call me that if you don't want to. My username is chw41.</p>
         <p> I only have a GitHub account, no Tinder.</p>
         <p>Github：<a href="https://github.com/Chw41" target="_blank">github.com/Chw41</a></p>
         <p>Linkedin：<a href="https://tw.linkedin.com/in/chw41" target="_blank">linkedin.com/chw41</a></p>
+        <div style={{ marginTop: '20px' }}> <img src="https://raw.githubusercontent.com/Chw41/Chw41/d28284aca3245575b3222eb8bd3532d49a23afbc/github-contribution-grid-snake.svg" alt="CHW snake"/></div>
         <form>
-            <button type="button" onClick={() => alert('W3lc0m3 CHW !')}>DON'T click</button>
+            <button type="button" onClick={() => { alert('W3lc0m3 CHW !'); window.location.href = 'https://github.com/Chw41';}}> DON'T click </button>
         </form>
     </div>
     const certificates: MemberCertificateType[] = []
     const competitionExperiences: MemberCompetitionExperienceType[] = [
+        {
+            title: "2024 AEGIS 神盾盃 Qual",
+            result: " Team : I'm down QQ ; Rank : 3 ",
+            datetime: "2024.09"
+        },
         {
             title: "2024 TSMC DNA Internship Final Competition",
             result: " Honorable Mention of the Supporting - IT Group ",
@@ -54,12 +67,16 @@ export const CHWMemberPage = () => {
     ]
     const participates: MemberParticipateType[] = [
         {
+            title: "國家資通安全研究院 電商產業外網資安檢測服務攻擊手",
+            datetime: "2024.12 - now"
+        }, 
+        {
             title: "第九屆臺灣好厲駭 (高階培訓 & 導師深度輔導)",
             datetime: "2024.08 - now"
         },
         {
             title: "Google 資安人才培育計畫",
-            datetime: "2024.07 - now"
+            datetime: "2024.07 - 2024.12"
         },
         {
             title: "HITCON CMT 2024",
@@ -117,7 +134,7 @@ export const CHWMemberPage = () => {
             zhName="張家維"
             enName="Chang, Chia-Wei"
             avatar={Uriah}
-            institutes={["國立臺北科技大學 資訊安全碩士學位學程", "Web, Pentesting"]}
+            institutes={["國立臺北科技大學 資訊安全碩士學位學程", "Security Research @Cymetrics @TSMC | M.S. NTUT is1ab"]}
             bio={bio}
             intern={internExperiences}
             experiences={competitionExperiences}
