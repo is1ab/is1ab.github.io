@@ -23,7 +23,7 @@ export const Adb2MemberPage = () => {
         },
         {
             title: "CGGC 2024",
-            result: "3/64 Team(Name: NTUT_Computer Graphics Garbage Collection)",
+            result: "13/64 Team(Name: NTUT_Computer Graphics Garbage Collection)",
             datetime: "2024.11.02-2024.11.03"
         },
         {
