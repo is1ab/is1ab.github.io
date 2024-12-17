@@ -1,11 +1,11 @@
 export function Rule(){
     return (
         <div className="rule">
-            <h4 className="text-center fw-bold">名額限制（113 年）</h4>
+            <h4 className="text-center fw-bold">名額限制（114 年）</h4>
             <ul>
-                <li>4 位資安碩士學位（已額滿）</li>
-                <li>2 位資訊工程系（已額滿）</li>
-                <li>2 組專題大學生</li>
+                <li>4 位資安碩士學位（已滿）</li>
+                <li>2 位資訊工程系（招募中）</li>
+                <li>2 組專題大學生（招募中）</li>
             </ul>
             <hr></hr>
             <h4 className="text-center fw-bold">預先具備能力（加入前）</h4>
@@ -28,7 +28,7 @@ export function Rule(){
             <ul>
                 <li>（主）國科會計畫</li>
                 <li>（輔）產學合作案、課程獎助金</li>
-                <li>（私人）證照補助、參賽補助</li>
+                <li>（輔）校內證照補助、參賽補助</li>
             </ul>
             <hr></hr>
             <h4 className="text-center fw-bold">老師重視</h4>

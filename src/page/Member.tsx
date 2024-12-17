@@ -116,26 +116,16 @@ export function Member(){
         },
         {
             key: '11',
-            name: "楊閔恩",
-            joinDate: "2023.12",
-            role: "碩一，資工碩士",
-            coAdvisor: '',
-            experience: "",
-            certificate: "",
-            website: "/#/Member/2024/Joe"
-        },
-        {
-            key: '12',
             name: "陳彥宇",
             joinDate: "2024.01",
             role: "碩一，資工碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "",
+            certificate: "iPAS 資訊安全工程師檢定（初級）",
             website: "/#/Member/2024/Adb2"
         },
         {
-            key: '13',
+            key: '12',
             name: "李佳軒",
             joinDate: "2024.01",
             role: "碩一，資安碩士",
@@ -145,7 +135,7 @@ export function Member(){
             website: "/#/Member/2024/WIFI"
         },
         {
-            key: '14',
+            key: '13',
             name: "王立翔",
             joinDate: "2024.04",
             role: "碩一，資工碩士",
@@ -155,7 +145,7 @@ export function Member(){
             website: "/#/Member/2024/PaulWang"
         },
         {
-            key: '15',
+            key: '14',
             name: "黃奕評",
             joinDate: "2024.06",
             role: "碩一，資安碩士",
@@ -165,7 +155,7 @@ export function Member(){
             website: "/#/Member/2024/ypp"
         },
         {
-            key: '16',
+            key: '15',
             name: "廖哲霈",
             joinDate: "2024.08",
             role: "碩一，資工碩士",
@@ -173,6 +163,26 @@ export function Member(){
             experience: "",
             certificate: "",
             website: ""
+        },
+        {
+            key: '16',
+            name: "李宜鴻",
+            joinDate: "2024.11",
+            role: "碩一，資安碩士",
+            coAdvisor: '陳昱圻',
+            experience: "",
+            certificate: "iPAS 資訊安全工程師檢定（初級）",
+            website: "/#/Member/2024/Rock"
+        },
+        {
+            key: '17',
+            name: "林鈺翔",
+            joinDate: "2024.11",
+            role: "碩一，資工碩士",
+            coAdvisor: '',
+            experience: "",
+            certificate: "",
+            website: "/#/Member/2024/Ian"
         }
     ]
     const consultantUserTableItem = [
@@ -219,82 +229,6 @@ export function Member(){
         },
     ]
     const undergraduateStudentTableItem = [
-        {
-            group: "112#1",
-            members: [
-                {
-                    name: "陳思群",
-                    intern: "博仲法律事務所"
-                },
-                {
-                    name: "顏睿寬",
-                    intern: ""
-                },
-                {
-                    name: "許宸瑋",
-                    intern: "博仲法律事務所"
-                }
-            ],
-            note: "結合語言模型與特徵機制之整合式網路入侵偵測告警系統",
-            progress: 10
-        },
-        {
-            group: "112#2",
-            members: [
-                {
-                    name: "吳奕萱",
-                    intern: "叡揚資訊股份有限公司"
-                },
-                {
-                    name: "程邦博",
-                    intern: "微鋒自動科技股份有限公司"
-                },
-                {
-                    name: "何穎宣",
-                    intern: ""
-                }
-            ],
-            note: "基於 API 呼叫序列的深度學習模型用於勒索病毒偵測（大專生計畫編號:113-2813-C-027-054-E）",
-            progress: 10
-        },
-        {
-            group: "112#3",
-            members: [
-                {
-                    name: "黃政",
-                    intern: "智安數據科技股份有限公司"
-                },
-                {
-                    name: "劉硯皓",
-                    intern: "中央研究院、智安數據科技股份有限公司"
-                },
-                {
-                    name: "張庭偉",
-                    intern: "智安數據科技股份有限公司"
-                }
-            ],
-            note: "Practice Tools for Simple Design",
-            progress: 10
-        },
-        {
-            group: "112#4",
-            members: [
-                {
-                    name: "林蔚",
-                    intern: "起而行綠能股份有限公司"
-                },
-                {
-                    name: "許恩誠",
-                    intern: ""
-                },
-                {
-                    name: "魏名宏",
-                    intern: ""
-                }
-            ],
-            note: "網路攻防教學用平台之設計",
-            progress: 10
-        },
         {
             group: "113#1",
             members: [

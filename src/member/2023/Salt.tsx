@@ -4,17 +4,24 @@ import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParti
 
 export const SaltMemberPage = () => {
     const bio = <div className="d-flex flex-column gap-3">
-        <p>大家好我叫家賢，可以叫我「鹽」或「Salt」🧂  </p>
-        <p style={{ color: 'black' }}> 隱寫術不是密碼學 !!!!! </p>
+        <p>大家好我叫家賢，可以叫我「鹽」或「Salt」🧂 　 <a href="https://github.com/HeyMrSalt" target="_blank"><span style={{ color: 'white' }}>Welcome to My Github </span> </a></p>
+        <p style={{ color: 'black' }}> 恭喜！你目前的方向對了！</p>
+        <p style={{ color: 'black' }}> 這個挑戰 攸關於 密碼學 編碼 隱寫術 雜湊函數！難度為適合新手！</p>
         <p>現為 is1ab攻防組「BT組」於 2024/06 成立並加入 ; 原為 is1ab攻防組「Crypto組」<span style={{ color: 'black' }}> 🔒但可以用 隱寫術 來隱匿 金鑰</span> <span style={{ backgroundColor: 'transparent', color: 'transparent' }}>🔑</span> </p>
         <p>現為 is1ab學術組「低軌衛星組」屬於「國科會TACC研究計劃」並於 2024/06 完成一篇會議論文</p>
-        <p style={{ color: 'black' }}> 你現在這個動作也是隱寫術 </p>
-        <p>碩一期間接觸 : 密碼學 身份驗證 零知識 PPSC 後量子加密LWE</p>
-        <p>碩二預計接觸 : iPAS中級 滲透 OSCP Random-Oracle 後量子數位簽章 後量子加密Kyber</p>
-        <p style={{ color: 'black' }}> 另外編碼也不是加密 </p>
-        <p>踏上資安之旅不久 自認還是新手一枚 覺得資安的路很長 歡迎交流指教 一起精進學習</p>
+        <p style={{ color: 'black' }}> 你要知道 隱寫術不是密碼學 !!!!! </p>
+        <p style={{ color: 'black' }}> 你現在這個動作也是一種 隱寫術 </p>
+        <p>碩一期間接觸 : 密碼學 PPSC 零知識 BlockChain 後量子加密LWE LEO身份驗證</p>
+        <p>碩二期間接觸 : iPAS中級 OSCP 滲透Skill PQC-數位簽章 PQC-Kyber Random-Oracle 數位憑證 OID4VC</p>
+        <p style={{ color: 'black' }}> 然後你還得知道 雜湊函數與加密無關 </p>
+        <p style={{ color: 'black' }}> 具有固定長度 雪崩效應 單向 等特性 你也能解讀成不可逆的編碼/映射 </p>
+        <p>個性上屬於假E人一枚 51%的E 算喜歡聊天 這能讓我充電 但偶爾也享受安靜時光 變成角落生物</p>
+        <p>喜歡數理的我 也喜歡哈利波特的魔法世界🪄 邏輯很魅力 但想像力能走向無限可能 討厭死框架</p>
+        <p>踏上資安之旅不久 認為這條路很長 歡迎交流指教 一起精進學習 🛐</p>
+        <p style={{ color: 'black' }}> 最後 編碼也不是加密 </p>
         <p style={{ color: 'black' }}> aHR0cHM6Ly9naXRodWIuY29tL0hleU1yU2FsdC9pczFhYkNURi0yMDI0LUNoYWxsZW5nZXMvdHJlZS9tYWluL2NyeXB0by9zdGVLZ2Fub0VncmFwaFl5 </p>
         <p>最後很高興認識你 請多多指教 😊 </p>
+        <p style={{ color: 'gray' }}> 另外 我在這個人簡介頁面 藏了一道CTF挑戰 歡迎挑戰</p>
     </div>
     const certificates: MemberCertificateType[] = [
         {
@@ -23,6 +30,41 @@ export const SaltMemberPage = () => {
         }
     ]
     const competitionExperiences: MemberCompetitionExperienceType[] = [
+        {
+            title: "HTB : University CTF 2024",
+            result: "隊名 : NTUTis1ab",
+            datetime: "2024.12.13 - 2024.12.15 (UTC)"
+        },
+        {
+            title: "CTF種子培訓工作坊 NICSCTF 2024",
+            result: "隊名 : Team04 ; 排名 : 1/12",
+            datetime: "2024.11.23"
+        },
+        {
+            title: "網路守護者挑戰賽 CGGC 2024",
+            result: "隊名 : x北科F4x",
+            datetime: "2024.11.02"
+        },
+        {
+            title: "Hack The Boo 2024",
+            result: "隊名 : NTUTis1ab ; 排名 : 2748/8152",
+            datetime: "2024.10.21 - 2024.10.26 (UTC)"
+        },
+        {
+            title: "資安技能金盾獎競賽 2024 初賽",
+            result: "隊名 : x北科三劍客x",
+            datetime: "2024.10.12"
+        },
+        {
+            title: "神盾盃資安競賽 AEGIS 2024 預賽",
+            result: "隊名 : 被PWN的你又Blue了嗎?",
+            datetime: "2024.09.14"
+        },
+        {
+            title: "idekCTF 2024",
+            result: "",
+            datetime: "2024.08.17 - 2024.08.19 (UTC)"
+        },
         {
             title: "CRYPTO CTF 2024",
             result: "隊名 : SaltShaker ; 排名 : 213/371",
@@ -71,6 +113,34 @@ export const SaltMemberPage = () => {
     ]
     const participates: MemberParticipateType[] = [
         {
+            title: "參與 CTF種子培訓工作坊 台北場",
+            datetime: "2024.11.23"
+        },
+        {
+            title: "參與 工研院後量子密碼技術人才培育系列課程【進階】後量子密碼學導論",
+            datetime: "2024.11.06"
+        },
+        {
+            title: "參與 HITCON ENTERPTRISE 2024",
+            datetime: "2024.10.30"
+        },
+        {
+            title: "參與 後量子創新應用推廣說明會",
+            datetime: "2024.10.30"
+        },
+        {
+            title: "參與 後量子密碼偵測與遷移工作坊",
+            datetime: "2024.10.14"
+        },
+        {
+            title: "參與 工研院後量子密碼技術人才培育系列課程【中階】後量子密碼學導論",
+            datetime: "2024.09.25"
+        },
+        {
+            title: "出題 is1abCTF 2024 2-Crypto 2-Misc 協助比賽出題",
+            datetime: "2024.09.02 - 2024.09.09"
+        },
+        {
             title: "擔任 第三十四屆全國資訊安全會議 CISC 2024 工作人員",
             datetime: "2024.08.29 - 2024.08.30"
         },
@@ -87,7 +157,7 @@ export const SaltMemberPage = () => {
             datetime: "2024.07.29 - 2024.08.04"
         },
         {
-            title: "參與 工研院後量子密碼技術人才培育系列課程 【初階】後量子密碼學導論",
+            title: "參與 工研院後量子密碼技術人才培育系列課程【初階】後量子密碼學導論",
             datetime: "2024.07.26"
         },
         {
@@ -115,7 +185,13 @@ export const SaltMemberPage = () => {
             datetime: "2023.08.18 - 2023.08.19"
         }
     ]
-    const internExperiences: MemberInternType[] = []
+    const internExperiences: MemberInternType[] = [
+        {
+            company: "Turing Space 美商圖靈 - \n 台灣圖靈鏈股份有限公司",
+            info: "Tech Researcher Intern: OID4VC , DID/VC",
+            datetime: "2024.09 - now"
+        }
+    ]
     const journals: MemberArticleType[] = []
     const conferences: MemberArticleType[] = [
         {

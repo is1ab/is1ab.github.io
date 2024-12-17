@@ -88,6 +88,30 @@ export function Alumni(){
     ]
     const undergraduateAlumniStudentTableDatas = [
         {
+            year: "113",
+            name: "陳思群、顏睿寬、許宸瑋",
+            title: "結合語言模型與特徵機制之整合式網路入侵偵測告警系統",
+            note: "尚未完成實習：顏睿寬"
+        },
+        {
+            year: "113",
+            name: "吳奕萱、程邦博、何穎宣",
+            title: "基於 API 呼叫序列的深度學習模型用於勒索病毒偵測",
+            note: "通過大專生計畫編號:113-2813-C-027-054-E、榮獲 2024 北科實務專題競賽 佳作、尚未完成實習：何穎宣"
+        },
+        {
+            year: "113",
+            name: "黃政、劉硯皓、張庭偉",
+            title: "Practice Tools for Simple Design",
+            note: "榮獲 2024 北科實務專題競賽 佳作"
+        },
+        {
+            year: "113",
+            name: "林蔚、許恩誠、魏名宏",
+            title: "透過模擬駭客行為來學習網路攻防觀念之教學用軟體設計",
+            note: "尚未完成實習：魏名宏"
+        },
+        {
             year: "112",
             name: "張洸銘",
             title: "CVE-2023-35936發現以及0-day",
@@ -99,34 +123,34 @@ export function Alumni(){
             key: 'year',
             dataIndex: 'year',
             title: "學年",
-            width: "10%"
+            width: "8%"
         },
         {
             key: 'name',
             dataIndex: 'name',
             title: "姓名",
-            width: "10%"
+            width: "11%"
         },
         {
             key: 'title',
             dataIndex: 'title',
             title: "專題名稱",
-            width: "60%"
+            width: "50%"
         },
         {
             key: 'note',
             dataIndex: 'note',
             title: "備註",
-            width: "20%"
+            width: "31%"
         },
     ]
     const othersStudentTableDatas = [
         {
             name: "李子儀",
             joinTime: "2022.11-2023.11",
-            title: "<大學部>",
+            title: "國科會計畫執行、研究討論<大學部>",
             status: "萬芳醫院",
-            note: "-"
+            note: "N/A"
         },
         {
             name: "葉子多",
