@@ -1,194 +1,209 @@
 :root {
-    font-family: 'Poppins', sans-serif !important;
-    line-height: 2;
-    font-weight: 400;
-  
-    color-scheme: light dark;
-    color: rgba(0, 0, 0, 0.87);
-    background-color: #242424;
-  
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  font-family: "Poppins", sans-serif !important;
+  line-height: 2;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-p, h1, h2, h3, h4, h5, h6, ul, li {
-    font-family: 'Poppins', sans-serif !important;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li {
+  font-family: "Poppins", sans-serif !important;
 }
 
-h1, h2, h3, h4, h5 {
-    color: #cf2e2e !important
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #cf2e2e !important;
 }
 
-h6, p {
-    color: white;
-    margin: 0;
+h6,
+p {
+  color: white;
+  margin: 0;
 }
 
-td, li {
-    color: white;
+td,
+li {
+  color: white;
 }
-
 
 .introduction p {
-    font-size: calc(0.8rem + .3vw) !important;
-    font-weight: 300;
-    line-height: 2;
-    margin: 0;
+  font-size: calc(0.8rem + 0.3vw) !important;
+  font-weight: 300;
+  line-height: 2;
+  margin: 0;
 }
 
 .publication ol li {
-    color: white;
-    margin: 0;
-    font-size: calc(0.8rem + .3vw) !important;
-    font-weight: 400;
-    line-height: 2;
-    margin: 0;
+  color: white;
+  margin: 0;
+  font-size: calc(0.8rem + 0.3vw) !important;
+  font-weight: 400;
+  line-height: 2;
+  margin: 0;
 }
 
 .experience ul li {
-    color: white;
-    margin: 0;
-    font-size: calc(0.8rem + .3vw) !important;
-    font-weight: 400;
-    line-height: 2;
-    margin: 0;
+  color: white;
+  margin: 0;
+  font-size: calc(0.8rem + 0.3vw) !important;
+  font-weight: 400;
+  line-height: 2;
+  margin: 0;
 }
 
 .sci {
-    color: #fcb900;
-    font-weight: 700;
+  color: #fcb900;
+  font-weight: 700;
 }
 
 .co-first-auther {
-    color: #0693e3;
-    font-weight: 700;
+  color: #0693e3;
+  font-weight: 700;
 }
 
 .partner ul li {
-    color: white;
-    margin: 0;
-    font-size: calc(0.8rem + .3vw) !important;
-    font-weight: 300;
-    line-height: 2;
-    margin: 0;
+  color: white;
+  margin: 0;
+  font-size: calc(0.8rem + 0.3vw) !important;
+  font-weight: 300;
+  line-height: 2;
+  margin: 0;
 }
 
 .record ul li {
-    color: white;
-    margin: 0;
-    font-size: calc(0.8rem + .3vw) !important;
-    font-weight: 300;
-    line-height: 2;
-    margin: 0;
+  color: white;
+  margin: 0;
+  font-size: calc(0.8rem + 0.3vw) !important;
+  font-weight: 300;
+  line-height: 2;
+  margin: 0;
 }
 
 .rule ul li {
-    color: white;
-    margin: 0;
-    font-size: calc(0.8rem + .3vw);
-    font-weight: 300;
-    line-height: 2;
-    margin: 0;
+  color: white;
+  margin: 0;
+  font-size: calc(0.8rem + 0.3vw);
+  font-weight: 300;
+  line-height: 2;
+  margin: 0;
 }
 
-.member p, td, th {
-    font-size: calc(0.7rem + .3vw) !important;
+.member p,
+td,
+th {
+  font-size: calc(0.7rem + 0.3vw) !important;
 }
 
 .ant-menu-selected .ant-menu-submenu-selected {
-    color: #cf2e2e !important;
+  color: #cf2e2e !important;
 }
 
 .alert {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 a {
-    color: #cf2e2e !important;
+  color: #cf2e2e !important;
 }
 
 .bold-red {
-    color: #cf2e2e;
-    font-weight: 800;
+  color: #cf2e2e;
+  font-weight: 800;
 }
 
 .project-passed {
-    color: #fcb900;
-    font-weight: 800;
+  color: #fcb900;
+  font-weight: 800;
 }
 
 .project-progressing {
-    font-weight: 800;
+  font-weight: 800;
 }
 
 .project-finished {
-    color: #00d084;
-    font-weight: 800;
+  color: #00d084;
+  font-weight: 800;
 }
 
 .news small {
-    font-size: calc(0.5rem + .3vw) !important;
-    line-height: 2;
-    color: white
+  font-size: calc(0.5rem + 0.3vw) !important;
+  line-height: 2;
+  color: white;
 }
 
 .news td {
-    font-size: calc(0.8rem + .3vw) !important;
-    line-height: 2;
+  font-size: calc(0.8rem + 0.3vw) !important;
+  line-height: 2;
 }
 
 .news .title {
-    color: #cf2e2e;
-    font-weight: 800;
+  color: #cf2e2e;
+  font-weight: 800;
 }
 
 .news td {
-    padding: 1.25rem;
+  padding: 1.25rem;
 }
 
 .news .extra-description {
-    color: #0693e3;
+  color: #0693e3;
 }
 
 .activities td {
-    font-size: calc(0.8rem + .3vw) !important;
-    line-height: 2;
+  font-size: calc(0.8rem + 0.3vw) !important;
+  line-height: 2;
 }
 
 .activities td {
-    padding: 1.25rem;
+  padding: 1.25rem;
 }
 
 .marquee-container {
-    height: 100%; /* Adjust this to fit your desired height */
-    overflow: hidden;
-    position: relative;
+  height: 100%; /* Adjust this to fit your desired height */
+  overflow: hidden;
+  position: relative;
 }
 
 .marquee-content {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 100%;
-    animation: scroll 150s linear infinite;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  animation: scroll 150s linear infinite;
 }
 
 .marquee-container:hover .marquee-content {
-    animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 .marquee-content p {
-    font-size: calc(0.6rem + .3vw) !important;
-    color: #cf2e2e
+  font-size: calc(0.6rem + 0.3vw) !important;
+  color: #cf2e2e;
 }
 
 @keyframes scroll {
-    0% {
-        transform: translateY(0%);
-    }
-    100% {
-        transform: translateY(-100%);
-    }
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
 }
