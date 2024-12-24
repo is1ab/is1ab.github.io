@@ -183,6 +183,26 @@ export function Member(){
             experience: "",
             certificate: "",
             website: "/#/Member/2024/Ian"
+        },
+        {
+            key: '18',
+            name: "連羿婷",
+            joinDate: "2024.12",
+            role: "碩零，資安碩士",
+            coAdvisor: '',
+            experience: "",
+            certificate: "",
+            website: ""
+        },
+        {
+            key: '19',
+            name: "沈柏安",
+            joinDate: "2024.12",
+            role: "碩零，資安碩士",
+            coAdvisor: '',
+            experience: "",
+            certificate: "",
+            website: ""
         }
     ]
     const consultantUserTableItem = [
@@ -284,10 +304,6 @@ export function Member(){
         {
             name: "郭思彤",
             note: "三重商工 - 與林易民主任共同指導"
-        },
-        {
-            name: "劉毅",
-            note: "德明財金科技大學資科系"
         },
         {
             name: "劉宜蓁",
