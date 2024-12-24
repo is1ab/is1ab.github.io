@@ -31,7 +31,7 @@ export function Member(){
             joinDate: "2022.12",
             role: "碩二，資安碩士",
             coAdvisor: '',
-            experience: "果核數位實習生，前中華資安國際股份有限公司實習生",
+            experience: "前果核數位實習生，前中華資安國際股份有限公司實習生",
             certificate: "iPAS 資訊安全工程師檢定（初級）",
             website: "/#/Member/2023/Ravin"
         },
@@ -50,7 +50,7 @@ export function Member(){
             joinDate: "2023.03",
             role: "碩二，資安碩士",
             coAdvisor: '',
-            experience: "",
+            experience: "奧義智慧科技股份有限公司實習生",
             certificate: "iPAS 資訊安全工程師檢定（初級）",
             website: "/#/Member/2023/Eason"
         },
@@ -80,7 +80,7 @@ export function Member(){
             joinDate: "2023.08",
             role: "碩二，資安碩士",
             coAdvisor: '林敬皇',
-            experience: "台灣圖靈鏈股份有限公司實習生",
+            experience: "前台灣圖靈鏈股份有限公司實習生",
             certificate: "iPAS 資訊安全工程師檢定（初級）",
             website: "/#/Member/2023/Salt"
         },
