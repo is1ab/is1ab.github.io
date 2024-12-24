@@ -208,27 +208,6 @@ export function Member(){
     const consultantUserTableItem = [
         {
             key: '1',
-            name: "張洸銘",
-            joinDate: "2022.11",
-            role: "",
-            coAdvisor: '',
-            ability: "網頁攻防技術、網路安全技術、安全程式設計 TA",
-            experience: "如梭 ZUSO 實習生、前 DEVCORE 實習生",
-            certificate: ""
-        },
-        {
-            key: '2',
-            name: "黃漢軒",
-            joinDate: "2023.04",
-            role: "",
-            coAdvisor: '',
-            ability: "系統安全、程式能力、物件導向程式設計 TA",
-            experience: "前中華民國電腦技能基金會實習生",
-            certificate: "",
-            website: "/#/Member/2023/Uriah"
-        },
-        {
-            key: '3',
             name: "黃政",
             joinDate: "2023.04",
             role: "",
@@ -238,12 +217,32 @@ export function Member(){
             certificate: ""
         },
         {
-            key: '4',
+            key: '2',
             name: "林妍蓁",
             joinDate: "2024.06",
             role: "",
             coAdvisor: '',
             ability: "網頁攻防技術",
+            experience: "",
+            certificate: ""
+        },
+         {
+            key: '3',
+            name: "陳世昂",
+            joinDate: "2024.09",
+            role: "",
+            coAdvisor: '',
+            ability: "程式能力、物件導向程式設計TA",
+            experience: "",
+            certificate: ""
+        },
+        {
+            key: '4',
+            name: "張意昌",
+            joinDate: "2024.09",
+            role: "",
+            coAdvisor: '',
+            ability: "程式能力、物件導向程式設計TA",
             experience: "",
             certificate: ""
         },
