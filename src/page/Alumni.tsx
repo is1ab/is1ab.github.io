@@ -146,8 +146,16 @@ export function Alumni(){
     ]
     const othersStudentTableDatas = [
         {
+            name: "黃漢軒",
+            joinTime: "2023.04-pres.",
+            title: "系統安全、程式能力、物件導向程式設計TA",
+            status: "國立陽明交通大學 資訊安全研究所",
+            note: "實習經驗：前中華民國電腦技能基金會實習生"
+            //website: "/#/Member/2023/Uriah"
+        },
+        {
             name: "張洸銘",
-            joinTime: "2022.11-2024.11 <大學部>",
+            joinTime: "2022.11-pres.",
             title: "網頁攻防技術、網路安全技術、安全程式設計TA",
             status: "兵役",
             note: "實習經驗：如梭世代股份有限公司、DEVCORE戴夫寇爾"
@@ -168,7 +176,7 @@ export function Alumni(){
         },
         {
             name: "李子儀",
-            joinTime: "2022.11-2023.11 <大學部>",
+            joinTime: "2022.11-2023.11",
             title: "國科會計畫執行、研究討論",
             status: "萬芳醫院",
             note: "N/A"
