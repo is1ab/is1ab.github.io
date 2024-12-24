@@ -146,11 +146,11 @@ export function Alumni(){
     ]
     const othersStudentTableDatas = [
         {
-            name: "李子儀",
-            joinTime: "2022.11-2023.11",
-            title: "國科會計畫執行、研究討論<大學部>",
-            status: "萬芳醫院",
-            note: "N/A"
+            name: "蔡峻傑",
+            joinTime: "2022.09-2024.08",
+            title: "含加權要項可驗證分散式聚合函數之低隱私預算差分隱私方案",
+            status: "N/A",
+            note: "與楊士萱老師合作指導"
         },
         {
             name: "葉子多",
@@ -160,10 +160,10 @@ export function Alumni(){
             note: "與楊士萱老師合作指導"
         },
         {
-            name: "蔡峻傑",
-            joinTime: "2022.09-2024.08",
-            title: "含加權要項可驗證分散式聚合函數之低隱私預算差分隱私方案",
-            status: "N/A",
+            name: "葉子多",
+            joinTime: "2022.09-2023.08",
+            title: "聯邦式學習上抗個體資料集成員推理攻擊之防禦強化技術",
+            status: "美國賓州州立大學 雙聯學位",
             note: "與楊士萱老師合作指導"
         }
     ]
