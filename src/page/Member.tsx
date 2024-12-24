@@ -170,7 +170,7 @@ export function Member(){
             joinDate: "2024.11",
             role: "碩一，資安碩士",
             coAdvisor: '陳昱圻',
-            experience: "",
+            experience: "叡揚資訊股份有限公司實習生",
             certificate: "iPAS 資訊安全工程師檢定（初級）",
             website: "/#/Member/2024/Rock"
         },
