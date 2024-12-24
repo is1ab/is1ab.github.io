@@ -4,14 +4,13 @@ import { ColumnType } from "antd/es/table";
 export function Alumni(){
     const masterAlumniDatas = [
         {
-            name: "何亞翰",
+            name: "陳丹妮",
             joinDate: "2022.09-2024.08",
-            title: "使用生成式模型於公開來源情報去識別化技術之應用",
-            ability: "密碼學、硬體安全",
-            experience: "資訊工程系 碩士學位",
+            title: "輔助乳癌術後重建病人醫病共同決策之人工智慧聊天機器人",
+            ability: "人工智慧",
+            experience: "美國德州大學阿靈頓分校 雙聯學位",
             certificate: "",
-            status: "畢業",
-            website: "/#/Member/2022/Cliff"
+            status: "訊能集思智能科技股份有限公司 - 產品經理"
         },
         {
             name: "李昆積",
@@ -24,14 +23,15 @@ export function Alumni(){
             website: "/#/Member/2022/kunjili"
         },
         {
-            name: "陳丹妮",
+            name: "何亞翰",
             joinDate: "2022.09-2024.08",
-            title: "輔助乳癌術後重建病人醫病共同決策之人工智慧聊天機器人",
-            ability: "人工智慧",
-            experience: "美國德州大學阿靈頓分校 雙聯學位",
+            title: "使用生成式模型於公開來源情報去識別化技術之應用",
+            ability: "密碼學、硬體安全",
+            experience: "資訊工程系 碩士學位",
             certificate: "",
-            status: "訊能集思智能科技股份有限公司 - 產品經理"
-        }
+            status: "畢業",
+            website: "/#/Member/2022/Cliff"
+        },
     ]
     const masterAlumniColumns: ColumnType<any>[] = [
         {
@@ -146,6 +146,13 @@ export function Alumni(){
     ]
     const othersStudentTableDatas = [
         {
+            name: "張洸銘",
+            joinTime: "2022.11-2024.11 <大學部>",
+            title: "網頁攻防技術、網路安全技術、安全程式設計TA",
+            status: "兵役",
+            note: "實習經驗：如梭世代股份有限公司、DEVCORE戴夫寇爾"
+        },
+        {
             name: "蔡峻傑",
             joinTime: "2022.09-2024.08",
             title: "含加權要項可驗證分散式聚合函數之低隱私預算差分隱私方案",
@@ -161,8 +168,8 @@ export function Alumni(){
         },
         {
             name: "李子儀",
-            joinTime: "2022.11-2023.11",
-            title: "國科會計畫執行、研究討論<大學部>",
+            joinTime: "2022.11-2023.11 <大學部>",
+            title: "國科會計畫執行、研究討論",
             status: "萬芳醫院",
             note: "N/A"
         }
