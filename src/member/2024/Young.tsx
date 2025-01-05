@@ -10,8 +10,39 @@ export const YoungMemberPage = () => {
             datetime: "2024.06.21"
         }
     ]
-    const competitionExperiences: MemberCompetitionExperienceType[] = []
-    const participates: MemberParticipateType[] = []
+    const competitionExperiences: MemberCompetitionExperienceType[] = [
+        {
+            title: "Platypwn 2024",
+            result: "195/328 Team(Name: NTUT_Is1ab)",
+            datetime: "2024.12.07-2024.12.08"
+        },
+        {
+            title: "CTF 種子培訓工作坊",
+            result: "金獎",
+            datetime: "2024.11.23"
+        },
+        {
+            title: "N1CTF 2024",
+            result: "199/260",
+            datetime: "2024/11/09"
+        },
+        {
+            title: "CGGC 2024",
+            result: "19/64 Team(Name: CGGC一日遊)",
+            datetime: "2024.11.02-2024.11.03"
+        },
+        {
+            title: "2024 AEGIS 神盾盃",
+            result: "N/A",
+            datetime: "2024.09"
+        },
+    ]
+    const participates: MemberParticipateType[] = [
+        {
+            title: "HITCON Carnival 2023",
+            datetime: "2023.11.14 - 2023.11.15"
+        },
+    ]
     const internExperiences: MemberInternType[] = [
         {
             company: "凌群電腦股份有限公司",
@@ -27,7 +58,7 @@ export const YoungMemberPage = () => {
             zhName="李宇揚"
             enName="Li, Yu-Yang"
             avatar={Young}
-            institutes={["國立臺北科技大學 資訊安全碩士學位學程 碩零"]}
+            institutes={["國立臺北科技大學 資訊安全碩士學位學程 碩一"]}
             bio={bio}
             experiences={competitionExperiences}
             certificates={certificates}
