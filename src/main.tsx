@@ -43,6 +43,7 @@ import { CHWMemberPage } from "./member/2023/CHW.tsx";
 import { RavinMemberPage } from "./member/2023/Ravin.tsx";
 import { KunjiliMemberPage } from "./member/2022/Kunjili.tsx";
 import { CliffMemberPage } from "./member/2022/Cliff.tsx";
+import { JunAnMemberPage } from "./member/2025/JunAn.tsx";
 
 const router = createHashRouter(
   createRoutesFromElements(
@@ -78,6 +79,7 @@ const router = createHashRouter(
         element={<KunjiliMemberPage />}
       ></Route>
       <Route path="/Member/2022/Cliff" element={<CliffMemberPage />}></Route>
+      <Route path="/Member/2025/JunAn" element={ <JunAnMemberPage />}></Route>
       <Route path="/Alumni" element={<Alumni></Alumni>}></Route>
       <Route path="/Partner" element={<Partner></Partner>}></Route>
       <Route path="/Profile" element={<Profile></Profile>}></Route>
