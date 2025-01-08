@@ -213,6 +213,16 @@ export function Member(){
             experience: "",
             certificate: "",
             website: "/#/member/2025/JunAn"
+        },
+        {
+            key: '21',
+            name: "劉章佑",
+            joinDate: "2025.01",
+            role: "碩零，資安碩士",
+            coAdvisor: '',
+            experience: "",
+            certificate: "",
+            website: "/#/member/2025/Yueric"
         }
     ]
     const consultantUserTableItem = [
