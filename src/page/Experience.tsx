@@ -22,6 +22,7 @@ export function Experience(){
                         </ul>
                     </li>
                     <li>宋恭源獎學金 關懷導師（2024/6 - pres.）</li>
+                    <li>中華民國資訊安全學會 北區副秘書長（2024/12 - pres.）</li>
                 </ul>
             </>
             <hr></hr>
