@@ -10,9 +10,7 @@ export function Introduction(){
             <p> <span style={{fontWeight: 800}}>Information Security Laboratory</span> (ISLab@NTUT) was founded in August 2022 in the Department of Computert Science and Information Engineering, National Taipei University of Technology. Led by professor <a className="text-decoration-underline" onClick={() => navigate("/Profile")} style={{cursor: 'pointer'}}>Chin-Yu Sun</a>, our team aims to design original methodologies and develop practical security systems to meet the different demands of clients.</p>
             <p> Our research topics include: </p>
             
-                <li className="text-white">
-                    { topics.map((topic) => <Topics topic={topic.title} description={topic.description}></Topics>) }
-                </li>
+                topics.map((topic) => <Topics topic={topic.title} description={topic.description}></Topics>)
             
             <p> We welcome students with <span className="bold-red">research passion</span> and <span className="bold-red">crazy ideas</span> to join us and expect our research projects can have great protection on improving computer security. </p>
             <br></br>
