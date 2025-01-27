@@ -176,6 +176,13 @@ export function Publication(){
                 <ol>
                     <li>
                         <Author>
+                            Sheng-Shan Chen, Yi-Xuan Wu, Ying-Xuan Ho, Pang-Po Cheng, and <Professor star/>
+                        </Author>
+                        <Title title="RANsomCheck: A CNN-Transformer Model for Malware Detection Based on API Call Sequences"/>
+                        Submitted to <Journal name="38th International Conference on Industrial, Engineering & Other Applications of Applied Intelligent Systems (IEAAIE 2025)"/>, January 2025.
+                    </li>
+                    <li>
+                        <Author>
                             Chia-Hsien Liao and <Professor star/>
                         </Author>
                         <Title title="Note on “Learning with error-based key agreement and authentication scheme for satellite communication"/>
