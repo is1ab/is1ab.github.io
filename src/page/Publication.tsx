@@ -245,13 +245,6 @@ export function Publication(){
                     </li>
                     <li>
                         <Author>
-                            Sheng-Shan Chen, Ren-Hung Hwang, Ying-Dar Lin, Tun-Wen Pai, and <Professor star/>
-                        </Author>
-                        <Title title="SE-BERT: Integrating Sentence Embeddings in BERT for Advanced TTP Extraction and Mitigation Report Generation"/>
-                        Submitted to <Journal name="Globalcom 2024"/>, April 2024.
-                    </li>
-                    <li>
-                        <Author>
                             Sheng-Shan Chen, Tun-Wen Pai, and <Professor star/>
                         </Author>
                         <Title title="Enhance Cyber Threat Intelligence with Weighted Similarity Method for Healthcare Security"/>
