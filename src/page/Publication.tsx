@@ -231,6 +231,13 @@ export function Publication(){
                 <ol>
                     <li>
                         <Author>
+                            Sheng-Shan Chen, Tun-Wen Pai, and <Professor star/>
+                        </Author>
+                        <Title title="EnhanceCTI: An Enhanced Semantic Filtering and Feature Extraction Framework for Industry-Specific Cyber Threat Intelligence"/>
+                        Submitted to <Journal name="IEEE Transactions on Network and Service Management"/>, February 2025.                        
+                    </li>
+                    <li>
+                        <Author>
                             Sheng-Shan Chen, Yi-Xuan Wu, Ying-Xuan Ho, Pang-Po Cheng, and <Professor star/>
                         </Author>
                         <Title title="RANsomCheck: A CNN-Transformer Model for Malware Detection Based on API Call Sequences"/>
@@ -242,13 +249,6 @@ export function Publication(){
                         </Author>
                         <Title title="CTI-KG: A Structured Threat Information Expression-Based Knowledge Graph Construction for Cyber Threat Intelligence Analysts"/>
                         Submitted to <Journal name="Computers & Security"/>, April 2024.
-                    </li>
-                    <li>
-                        <Author>
-                            Sheng-Shan Chen, Tun-Wen Pai, and <Professor star/>
-                        </Author>
-                        <Title title="Enhance Cyber Threat Intelligence with Weighted Similarity Method for Healthcare Security"/>
-                        Pending...
                     </li>
                     <li>
                         <Author>
