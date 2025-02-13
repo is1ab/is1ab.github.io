@@ -4,8 +4,8 @@ export function Course(){
             <>
                 <h4 className="text-center fw-bold">113學年 第1學期</h4>
                 <ul>
-                    <li>作業系統 [教學評鑑：?/5]</li>
-                    <li>物件導向程式設計 [教學評鑑：?/5]</li>
+                    <li>作業系統 [教學評鑑：4.6/5]</li>
+                    <li>物件導向程式設計 [教學評鑑：4.43/5]</li>
                 </ul>
             </>
 
