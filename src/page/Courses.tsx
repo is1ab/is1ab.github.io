@@ -2,6 +2,14 @@ export function Course(){
     return (
         <div className="course">
             <>
+                <h4 className="text-center fw-bold">113學年 第2學期</h4>
+                <ul>
+                    <li>安全程式設計 [教學評鑑：Pending...]</li>
+                    <li>物件導向程式設計實習 [教學評鑑：Pending...]</li>
+                </ul>
+            </>
+            
+            <>
                 <h4 className="text-center fw-bold">113學年 第1學期</h4>
                 <ul>
                     <li>作業系統 [教學評鑑：4.6/5]</li>
