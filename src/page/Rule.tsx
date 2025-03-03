@@ -3,12 +3,11 @@ export function Rule(){
         <div className="rule">
             <h4 className="text-center fw-bold">名額限制（114 年）</h4>
             <ul>
-                <li>4 位資安碩士學位（已滿）</li>
-                <li>2 位資訊工程系（招募中）</li>
+                <li>4 位資安碩士學位（已滿）+ 2 位資訊工程系（招募中）</li>
                 <li>2 組專題大學生（招募中）</li>
             </ul>
             <hr></hr>
-            <h4 className="text-center fw-bold">預先具備能力（加入前）</h4>
+            <h4 className="text-center fw-bold">預先具備能力</h4>
             <ul>
                 <li>具資安比賽經驗者或資安證照者佳</li>
                 <li>具程式競賽經驗者佳</li>
@@ -16,12 +15,12 @@ export function Rule(){
                 <li>若無上述經驗，須具備「積極、學習熱忱」特質</li>
             </ul>
             <hr></hr>
-            <h4 className="text-center fw-bold">預先具備能力（加入後）</h4>
+            <h4 className="text-center fw-bold">畢業資格</h4>
             <ul>
-                <li>滿足國立臺北科技大學資訊工程系修課及畢業門檻</li>
-                <li>至少完成「一篇」國際研討會論文並完成「投稿」動作</li>
-                <li>校內補助的資安證照取得</li>
-                <li>參加資安競賽與相關培訓計畫</li>
+                <li>滿足國立臺北科技大學資訊工程系（以及資安學位學程）之畢業門檻（當屆）</li>
+                <li>完成「一篇」國際研討會論文並完成「投稿」動作</li>
+                <li>取得校內補助的資安證照</li>
+                <li>參加資安競賽、資安活動、與培訓計畫</li>
             </ul>
             <hr></hr>
             <h4 className="text-center fw-bold">獎助金相關</h4>
@@ -31,13 +30,13 @@ export function Rule(){
                 <li>（輔）校內證照補助、參賽補助</li>
             </ul>
             <hr></hr>
-            <h4 className="text-center fw-bold">老師重視</h4>
+            <h4 className="text-center fw-bold">指導教授重視</h4>
             <ul>
                 <li>學術倫理</li>
-                <li>誠實（嚴禁考試作弊、作業抄襲、論文報告造假...等）</li>
+                <li>誠信（嚴禁考試作弊、作業抄襲、論文報告造假...等）</li>
                 <li>實驗室相關安全與衛生規範（用電安全、環境安全、整潔）</li>
                 <li>實驗室參與度*</li>
-                <li>學校以及實驗室嚴禁挖礦。</li>
+                <li>學校以及實驗室嚴禁挖礦</li>
             </ul>
             <hr></hr>
             <h4 className="text-center fw-bold">實驗室參與度之定義</h4>
