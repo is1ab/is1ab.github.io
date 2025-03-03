@@ -288,8 +288,8 @@ export function Member(){
                     intern: ""
                 }
             ],
-            note: "-",
-            progress: 3
+            note: "專案型評測系統設計方法",
+            progress: 5
         },
         {
             group: "113#2",
@@ -311,8 +311,8 @@ export function Member(){
                     intern: ""
                 }
             ],
-            note: "-",
-            progress: 3
+            note: "輕量化本地程式碼生成模型之設計與優化",
+            progress: 5
         }
     ]
     const otherStudentTableItem = [
