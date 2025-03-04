@@ -4,7 +4,7 @@ export function Rule(){
             <h4 className="text-center fw-bold">名額限制（114 年）</h4>
             <ul>
                 <li>4 位資安碩士學位（已滿）+ 2 位資訊工程系（招募中）</li>
-                <li>2 組專題大學生（招募中）</li>
+                <li>2 組專題大學生（招募中，剩一組額度）</li>
             </ul>
             <hr></hr>
             <h4 className="text-center fw-bold">預先具備能力</h4>
