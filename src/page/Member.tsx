@@ -269,6 +269,17 @@ export function Member(){
     ]
     const undergraduateStudentTableItem = [
         {
+            group: "114#1",
+            members: [
+                {
+                    name: "林妍蓁",
+                    intern: ""
+                }
+            ],
+            note: "保留",
+            progress: 0
+        },
+        {
             group: "113#1",
             members: [
                 {
