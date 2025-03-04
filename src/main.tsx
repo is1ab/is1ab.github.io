@@ -45,6 +45,7 @@ import { KunjiliMemberPage } from "./member/2022/Kunjili.tsx";
 import { CliffMemberPage } from "./member/2022/Cliff.tsx";
 import { JunAnMemberPage } from "./member/2025/JunAn.tsx";
 import { YuericMemberPage } from "./member/2025/Yueric.tsx";
+import { RobertLiaoMemberPage } from "./member/2024/RobertLiao.tsx";
 
 const router = createHashRouter(
   createRoutesFromElements(
@@ -81,7 +82,8 @@ const router = createHashRouter(
       ></Route>
       <Route path="/Member/2022/Cliff" element={<CliffMemberPage />}></Route>
       <Route path="/Member/2025/JunAn" element={ <JunAnMemberPage />}></Route>
-      <Route path="/Member/2025/Yueric" element={ <YuericMemberPage />}></Route>
+      <Route path="/Member/2025/Yueric" element={<YuericMemberPage />}></Route>
+      <Route path="/Member/2024/RobertLiao" element={<RobertLiaoMemberPage />}></Route>
       <Route path="/Alumni" element={<Alumni></Alumni>}></Route>
       <Route path="/Partner" element={<Partner></Partner>}></Route>
       <Route path="/Profile" element={<Profile></Profile>}></Route>
