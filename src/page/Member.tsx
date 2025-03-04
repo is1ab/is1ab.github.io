@@ -162,7 +162,7 @@ export function Member(){
             coAdvisor: '郭忠義',
             experience: "",
             certificate: "",
-            website: ""
+            website: "/#/Member/2024/RobertLiao"
         },
         {
             key: '16',
