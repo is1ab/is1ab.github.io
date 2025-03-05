@@ -1,7 +1,17 @@
 import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../../type/MemberCertificateType"
 import { Sample } from "../Sample"
+import Uriah from "../../assets/member/Sean.png"
 
 export const RyanMemberPage = () => {
+
+    const bio = (
+        <div className="d-flex flex-column gap-3">
+            <p>陳勝舢現為國立臺北科技大學資訊工程系博士候選人，並擔任奧義智慧科技 (CyCraft) 的實習資安研究員。他的研究專注於語言模型、網路威脅情資分析、醫療大數據，以及 AI 技術在資訊安全領域的應用。他曾參與多項大型專案，包括與國家資通安全研究院(NICS)、日本情報通信研究院(NICT)、國家衛生研究院(NHRI)及多家大型醫院的合作，並協助指導超過十五位碩士生投入研究。教學經歷包括教育部 AIS3 情資與分析講師、師大資工碩士班高等資安攻防課程講師及三重商工資料處理科培訓講師。目前，他獲國家科學及技術委員會補助，於澳洲蒙納許大學（ranked #37 in QS World University Rankings 2025）軟體系統與網路安全系進行訪問研究。</p>
+            <p>更多資訊（著作、專案）請參閱：<a href="https://sectools.tw/about/sean">SecTools.tw</a></p>
+        </div>
+      );
+      
+
     const certificates: MemberCertificateType[] = [
         {
             title: "iPAS 資訊安全工程師-初級能力鑑定",
@@ -267,8 +277,9 @@ export const RyanMemberPage = () => {
         <Sample
             zhName="陳勝舢"
             enName="Sheng-Shan Chen"
-            institutes={["國立臺北科技大學 資訊工程系"]}
-            bio={"Sheng-Shan Chen is a Ph.D. student in Computer Science and Information Engineering at the National Taipei University of Technology (NTUT) and a cybersecurity researcher at Cycraft (the unique company selected by Gartner as a representation AI security company in Asia-pacific area). His research primarily focuses on applying machine learning techniques to analyze cyber threat intelligence (CTI). He is currently involved in an academic research project under Taiwan National Institute of Cyber Security (NICS), focusing on using a Large Language Model (LLM) to analyze CTI. He has published several notable publications and conferences, including the Computers & Security Journal, IEEE Global Communications Conference (GLOBECOM), International Conference on Medical and Health Informatics (ICMHI), International Conference on Industrial, Engineering & Other Applications of Applied Intelligent Systems (IEA/AIE), and the Hacks In Taiwan Conference (HITCON). He has earned the second place from the 50th National Skills Competition in the Cybersecurity category in Taiwan (2020). Besides, he has coached junior students to obtain the third rank in the 52nd competition event (2022) and served as one of the Technical Consultant Members for the 53rd and 54th competitions (2023/2024). Sheng-Shan was awarded the TaiwanHolyHigh Performance Excellence Award (2022/2023). He received the Best Project Award at AIS3 (2021/2022), served as a teaching assistant (2023/2024), and was a lecturer for threat intelligence and security awareness (2024). He also shares knowledge on https://sectools.tw."}
+            avatar={Uriah}
+            institutes={["國立臺北科技大學 資訊工程系 博士候選人"]}
+            bio={bio}
             experiences={competitionExperiences}
             certificates={certificates}
             participates={participates}

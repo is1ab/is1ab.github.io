@@ -4,14 +4,13 @@ import { ColumnType } from "antd/es/table";
 export function Alumni(){
     const masterAlumniDatas = [
         {
-            name: "何亞翰",
+            name: "陳丹妮",
             joinDate: "2022.09-2024.08",
-            title: "使用生成式模型於公開來源情報去識別化技術之應用",
-            ability: "密碼學、硬體安全",
-            experience: "資訊工程系 碩士學位",
+            title: "輔助乳癌術後重建病人醫病共同決策之人工智慧聊天機器人",
+            ability: "人工智慧",
+            experience: "美國德州大學阿靈頓分校 雙聯學位",
             certificate: "",
-            status: "畢業",
-            website: "/#/Member/2022/Cliff"
+            status: "訊能集思智能科技股份有限公司 - 產品經理"
         },
         {
             name: "李昆積",
@@ -24,14 +23,15 @@ export function Alumni(){
             website: "/#/Member/2022/kunjili"
         },
         {
-            name: "陳丹妮",
+            name: "何亞翰",
             joinDate: "2022.09-2024.08",
-            title: "輔助乳癌術後重建病人醫病共同決策之人工智慧聊天機器人",
-            ability: "人工智慧",
-            experience: "美國德州大學阿靈頓分校 雙聯學位",
+            title: "使用生成式模型於公開來源情報去識別化技術之應用",
+            ability: "密碼學、硬體安全",
+            experience: "資訊工程系 碩士學位",
             certificate: "",
-            status: "訊能集思智能科技股份有限公司 - 產品經理"
-        }
+            status: "畢業",
+            website: "/#/Member/2022/Cliff"
+        },
     ]
     const masterAlumniColumns: ColumnType<any>[] = [
         {
@@ -97,7 +97,7 @@ export function Alumni(){
             year: "113",
             name: "吳奕萱、程邦博、何穎宣",
             title: "基於 API 呼叫序列的深度學習模型用於勒索病毒偵測",
-            note: "通過大專生計畫編號:113-2813-C-027-054-E、榮獲 2024 北科實務專題競賽 佳作、尚未完成實習：何穎宣"
+            note: "通過大專生計畫編號:113-2813-C-027-054-E、榮獲 2024 北科實務專題競賽 佳作"
         },
         {
             year: "113",
@@ -146,11 +146,26 @@ export function Alumni(){
     ]
     const othersStudentTableDatas = [
         {
-            name: "李子儀",
-            joinTime: "2022.11-2023.11",
-            title: "國科會計畫執行、研究討論<大學部>",
-            status: "萬芳醫院",
-            note: "N/A"
+            name: "黃漢軒",
+            joinTime: "2023.04-pres.",
+            title: "系統安全、程式能力、物件導向程式設計TA",
+            status: "國立陽明交通大學 資訊安全研究所",
+            note: "實習經驗：前中華民國電腦技能基金會實習生"
+            //website: "/#/Member/2023/Uriah"
+        },
+        {
+            name: "張洸銘",
+            joinTime: "2022.11-pres.",
+            title: "網頁攻防技術、網路安全技術、安全程式設計TA",
+            status: "兵役",
+            note: "實習經驗：如梭世代股份有限公司、DEVCORE戴夫寇爾"
+        },
+        {
+            name: "蔡峻傑",
+            joinTime: "2022.09-2024.08",
+            title: "含加權要項可驗證分散式聚合函數之低隱私預算差分隱私方案",
+            status: "N/A",
+            note: "與楊士萱老師合作指導"
         },
         {
             name: "葉子多",
@@ -160,11 +175,11 @@ export function Alumni(){
             note: "與楊士萱老師合作指導"
         },
         {
-            name: "蔡峻傑",
-            joinTime: "2022.09-2024.08",
-            title: "含加權要項可驗證分散式聚合函數之低隱私預算差分隱私方案",
-            status: "N/A",
-            note: "與楊士萱老師合作指導"
+            name: "李子儀",
+            joinTime: "2022.11-2023.11",
+            title: "國科會計畫執行、研究討論",
+            status: "萬芳醫院",
+            note: "N/A"
         }
     ]
     const othersStudentTableColumns: ColumnType<any>[] = [

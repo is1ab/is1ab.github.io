@@ -31,7 +31,7 @@ export function Member(){
             joinDate: "2022.12",
             role: "碩二，資安碩士",
             coAdvisor: '',
-            experience: "果核數位實習生，前中華資安國際股份有限公司實習生",
+            experience: "前果核數位實習生，前中華資安國際股份有限公司實習生",
             certificate: "iPAS 資訊安全工程師檢定（初級）",
             website: "/#/Member/2023/Ravin"
         },
@@ -50,7 +50,7 @@ export function Member(){
             joinDate: "2023.03",
             role: "碩二，資安碩士",
             coAdvisor: '',
-            experience: "",
+            experience: "奧義智慧科技股份有限公司實習生",
             certificate: "iPAS 資訊安全工程師檢定（初級）",
             website: "/#/Member/2023/Eason"
         },
@@ -80,7 +80,7 @@ export function Member(){
             joinDate: "2023.08",
             role: "碩二，資安碩士",
             coAdvisor: '林敬皇',
-            experience: "台灣圖靈鏈股份有限公司實習生",
+            experience: "前台灣圖靈鏈股份有限公司實習生",
             certificate: "iPAS 資訊安全工程師檢定（初級）",
             website: "/#/Member/2023/Salt"
         },
@@ -162,7 +162,7 @@ export function Member(){
             coAdvisor: '郭忠義',
             experience: "",
             certificate: "",
-            website: ""
+            website: "/#/Member/2024/RobertLiao"
         },
         {
             key: '16',
@@ -170,7 +170,7 @@ export function Member(){
             joinDate: "2024.11",
             role: "碩一，資安碩士",
             coAdvisor: '陳昱圻',
-            experience: "",
+            experience: "叡揚資訊股份有限公司實習生",
             certificate: "iPAS 資訊安全工程師檢定（初級）",
             website: "/#/Member/2024/Rock"
         },
@@ -183,32 +183,51 @@ export function Member(){
             experience: "",
             certificate: "",
             website: "/#/Member/2024/Ian"
+        },
+        {
+            key: '18',
+            name: "連羿婷",
+            joinDate: "2024.12",
+            role: "碩零，資安碩士",
+            coAdvisor: '',
+            experience: "",
+            certificate: "",
+            website: ""
+        },
+        {
+            key: '19',
+            name: "沈柏安",
+            joinDate: "2024.12",
+            role: "碩零，資安碩士",
+            coAdvisor: '',
+            experience: "",
+            certificate: "",
+            website: ""
+        },
+        {
+            key: '20',
+            name: "郭竣安",
+            joinDate: "2025.01",
+            role: "碩零，資安碩士",
+            coAdvisor: '',
+            experience: "",
+            certificate: "",
+            website: "/#/member/2025/JunAn"
+        },
+        {
+            key: '21',
+            name: "劉章佑",
+            joinDate: "2025.01",
+            role: "碩零，資安碩士",
+            coAdvisor: '',
+            experience: "",
+            certificate: "",
+            website: "/#/member/2025/Yueric"
         }
     ]
     const consultantUserTableItem = [
         {
             key: '1',
-            name: "張洸銘",
-            joinDate: "2022.11",
-            role: "",
-            coAdvisor: '',
-            ability: "網頁攻防技術、網路安全技術、安全程式設計 TA",
-            experience: "如梭 ZUSO 實習生、前 DEVCORE 實習生",
-            certificate: ""
-        },
-        {
-            key: '2',
-            name: "黃漢軒",
-            joinDate: "2023.04",
-            role: "",
-            coAdvisor: '',
-            ability: "系統安全、程式能力、物件導向程式設計 TA",
-            experience: "前中華民國電腦技能基金會實習生",
-            certificate: "",
-            website: "/#/Member/2023/Uriah"
-        },
-        {
-            key: '3',
             name: "黃政",
             joinDate: "2023.04",
             role: "",
@@ -218,7 +237,7 @@ export function Member(){
             certificate: ""
         },
         {
-            key: '4',
+            key: '2',
             name: "林妍蓁",
             joinDate: "2024.06",
             role: "",
@@ -227,8 +246,39 @@ export function Member(){
             experience: "",
             certificate: ""
         },
+         {
+            key: '3',
+            name: "陳世昂",
+            joinDate: "2024.09",
+            role: "",
+            coAdvisor: '',
+            ability: "程式能力、物件導向程式設計TA",
+            experience: "",
+            certificate: ""
+        },
+        {
+            key: '4',
+            name: "張意昌",
+            joinDate: "2024.09",
+            role: "",
+            coAdvisor: '',
+            ability: "程式能力、物件導向程式設計TA",
+            experience: "",
+            certificate: ""
+        },
     ]
     const undergraduateStudentTableItem = [
+        {
+            group: "114#1",
+            members: [
+                {
+                    name: "林妍蓁",
+                    intern: ""
+                }
+            ],
+            note: "保留",
+            progress: 0
+        },
         {
             group: "113#1",
             members: [
@@ -249,8 +299,8 @@ export function Member(){
                     intern: ""
                 }
             ],
-            note: "-",
-            progress: 3
+            note: "專案型評測系統設計方法",
+            progress: 5
         },
         {
             group: "113#2",
@@ -272,8 +322,8 @@ export function Member(){
                     intern: ""
                 }
             ],
-            note: "-",
-            progress: 3
+            note: "輕量化本地程式碼生成模型之設計與優化",
+            progress: 5
         }
     ]
     const otherStudentTableItem = [
@@ -284,10 +334,6 @@ export function Member(){
         {
             name: "郭思彤",
             note: "三重商工 - 與林易民主任共同指導"
-        },
-        {
-            name: "劉毅",
-            note: "德明財金科技大學資科系"
         },
         {
             name: "劉宜蓁",
