@@ -43,7 +43,7 @@ import { CHWMemberPage } from "./member/2023/CHW.tsx";
 import { RavinMemberPage } from "./member/2023/Ravin.tsx";
 import { KunjiliMemberPage } from "./member/2022/Kunjili.tsx";
 import { CliffMemberPage } from "./member/2022/Cliff.tsx";
-import { SP_2023 } from "./course/2023_SP.tsx";
+import { SP_2022 } from "./course/2022_SP.tsx";
 import { SP_2024 } from "./course/2024_SP.tsx";
 import { SP_2025 } from "./course/2025_SP.tsx";
 import { JunAnMemberPage } from "./member/2025/JunAn.tsx";
@@ -98,7 +98,7 @@ const router = createHashRouter(
       <Route path="/Calendar" element={<Meeting></Meeting>}></Route>
       <Route path="/Activities" element={<Activities></Activities>}></Route>
       <Route path="/Rules" element={<Rule></Rule>}></Route>
-      <Route path="/Course/2023/SP" element={<SP_2023></SP_2023>}></Route>
+      <Route path="/Course/2022/SP" element={<SP_2022></SP_2022>}></Route>
       <Route path="/Course/2024/SP" element={<SP_2024></SP_2024>}></Route>
       <Route path="/Course/2025/SP" element={<SP_2025></SP_2025>}></Route>
     </Route>
