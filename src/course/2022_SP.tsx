@@ -20,7 +20,7 @@ export function SP_2022() {
         ></img>
       </div>
       <div className="py-3">
-        <p>{"is1abCTF{We1comeT0Jo!nSP2O2S}"}</p>
+        <p>{"is1abCTF{不用怕，還來得及期中退選}"}</p>
       </div>
     </div>
   );
