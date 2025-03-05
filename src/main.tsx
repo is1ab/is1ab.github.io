@@ -86,10 +86,7 @@ const router = createHashRouter(
       <Route path="/Member/2022/Cliff" element={<CliffMemberPage />}></Route>
       <Route path="/Member/2025/JunAn" element={<JunAnMemberPage />}></Route>
       <Route path="/Member/2025/Yueric" element={<YuericMemberPage />}></Route>
-      <Route
-        path="/Member/2024/RobertLiao"
-        element={<RobertLiaoMemberPage />}
-      ></Route>
+      <Route path="/Member/2024/RobertLiao" element={<RobertLiaoMemberPage />}></Route>
       <Route path="/Alumni" element={<Alumni></Alumni>}></Route>
       <Route path="/Partner" element={<Partner></Partner>}></Route>
       <Route path="/Profile" element={<Profile></Profile>}></Route>
