@@ -26,6 +26,15 @@ export function SP_2024() {
         </p>
       </div>
       <div className="p-3 w-100" style={{ backgroundColor: "#7a1b1b" }}>
+        <h5 className="fw-bold text-white m-0">其他相關教學資源</h5>
+      </div>
+      <div className="py-3 d-flex flex-column gap-3">
+        <li>[Book] Secure Coding: Principles and Practices</li>
+        <li>[Book] Secure Coding in C and C++</li>
+        <li>[Book] Secure Programming Cookbook for C and C++</li>
+      </div>
+    </div>
+      <div className="p-3 w-100" style={{ backgroundColor: "#7a1b1b" }}>
         <h5 className="fw-bold text-white m-0">IPAS 證照通過率</h5>
       </div>
       <div className="py-3 d-flex flex-column gap-3">
@@ -37,14 +46,5 @@ export function SP_2024() {
       <div className="py-3 d-flex flex-column gap-3">
         <li>教學評鑑：4.65/5</li>
       </div>
-      <div className="p-3 w-100" style={{ backgroundColor: "#7a1b1b" }}>
-        <h5 className="fw-bold text-white m-0">其他相關教學資源</h5>
-      </div>
-      <div className="py-3 d-flex flex-column gap-3">
-        <li>[Book] Secure Coding: Principles and Practices</li>
-        <li>[Book] Secure Coding in C and C++</li>
-        <li>[Book] Secure Programming Cookbook for C and C++</li>
-      </div>
-    </div>
   );
 }
