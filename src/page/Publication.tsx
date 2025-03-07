@@ -176,6 +176,13 @@ export function Publication(){
                 <ol>
                     <li>
                         <Author>
+                            Sheng-Shan Chen, Yi-Xuan Wu, Ying-Xuan Ho, Pang-Po Cheng, and <Professor star/>
+                        </Author>
+                        <Title title="RANsomCheck: A CNN-Transformer Model for Malware Detection Based on API Call Sequences"/>
+                        Accepted by <Journal name="38th International Conference on Industrial, Engineering & Other Applications of Applied Intelligent Systems (IEAAIE 2025)"/>, March 2025.
+                    </li>
+                    <li>
+                        <Author>
                             Chia-Hsien Liao and <Professor star/>
                         </Author>
                         <Title title="Note on “Learning with error-based key agreement and authentication scheme for satellite communication"/>
@@ -235,13 +242,6 @@ export function Publication(){
                         </Author>
                         <Title title="EnhanceCTI: An Enhanced Semantic Filtering and Feature Extraction Framework for Industry-Specific Cyber Threat Intelligence"/>
                         Submitted to <Journal name="IEEE Transactions on Network and Service Management"/>, February 2025.                        
-                    </li>
-                    <li>
-                        <Author>
-                            Sheng-Shan Chen, Yi-Xuan Wu, Ying-Xuan Ho, Pang-Po Cheng, and <Professor star/>
-                        </Author>
-                        <Title title="RANsomCheck: A CNN-Transformer Model for Malware Detection Based on API Call Sequences"/>
-                        Submitted to <Journal name="38th International Conference on Industrial, Engineering & Other Applications of Applied Intelligent Systems (IEAAIE 2025)"/>, January 2025.
                     </li>
                     <li>
                         <Author>
