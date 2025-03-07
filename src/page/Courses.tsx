@@ -5,9 +5,9 @@ export function Course() {
         <h4 className="text-center fw-bold">113學年 第2學期</h4>
         <ul>
           <li>
-            <a href="#/Course/2025/SP">安全程式設計 [教學評鑑：Pending...]</a>
+            <a href="#/Course/2025/SP">安全程式設計</a>
           </li>
-          <li>物件導向程式設計實習 [教學評鑑：Pending...]</li>
+          <li>物件導向程式設計實習</li>
         </ul>
       </>
 
@@ -30,7 +30,7 @@ export function Course() {
         <h4 className="text-center fw-bold">112學年 第2學期</h4>
         <ul>
           <li>
-            <a href="#/Course/2024/SP">安全程式設計 [教學評鑑：4.65/5]</a>
+            <a href="#/Course/2024/SP">安全程式設計</a>
           </li>
           <li>物件導向程式設計實習 [教學評鑑：4.52/5]</li>
           <li>實務專題(二) [教學評鑑：N/A]</li>
