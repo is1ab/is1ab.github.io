@@ -54,7 +54,8 @@ export function SP_2024() {
       </div>
       
       <div className="py-3 d-flex flex-column gap-3">
-        <li>[Pending]</li>
+        <li>評量分數: 4.65/5 分</li>
+        <li>填答率: 89 %</li>
       </div>
             
     </div>
