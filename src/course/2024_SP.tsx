@@ -2,9 +2,11 @@ export function SP_2024() {
   return (
     <div className="d-flex flex-column gap-3">
       <h4 className="text-center">112-2 安全程式設計</h4>
+      
       <div className="p-3 w-100" style={{ backgroundColor: "#7a1b1b" }}>
         <h5 className="fw-bold text-white m-0">課程簡介</h5>
       </div>
+      
       <div className="py-3 d-flex flex-column gap-3">
         <p>
           安全程式設計是資訊安全領域中的關鍵技術。不良的「程式設計習慣」和「不考慮安全保護的程式設計」很容易導致可有心人士所利用。
@@ -24,29 +26,27 @@ export function SP_2024() {
           technical reports, the students can obtain the newest and complete
           domain knowledge in their research stage.
         </p>
-    </div>
-
-    <div className="p-3 w-100" style={{ backgroundColor: "#7a1b1b" }}>
-      <h5 className="fw-bold text-white m-0">其他相關教學資源</h5>
-    </div>
+      </div>
+      <div className="p-3 w-100" style={{ backgroundColor: "#7a1b1b" }}>
+        <h5 className="fw-bold text-white m-0">IPAS 證照通過率</h5>
+      </div>
+      <div className="py-3 d-flex flex-column gap-3">
+        <li>[Pending]</li>
+      </div>
+      <div className="p-3 w-100" style={{ backgroundColor: "#7a1b1b" }}>
+        <h5 className="fw-bold text-white m-0">教學評鑑</h5>
+      </div>
+      <div className="py-3 d-flex flex-column gap-3">
+        <li>[Pending]</li>
+      </div>
+      <div className="p-3 w-100" style={{ backgroundColor: "#7a1b1b" }}>
+        <h5 className="fw-bold text-white m-0">其他相關教學資源</h5>
+      </div>
       <div className="py-3 d-flex flex-column gap-3">
         <li>[Book] Secure Coding: Principles and Practices</li>
         <li>[Book] Secure Coding in C and C++</li>
         <li>[Book] Secure Programming Cookbook for C and C++</li>
       </div>
-      
-    <div className="p-3 w-100" style={{ backgroundColor: "#7a1b1b" }}>
-      <h5 className="fw-bold text-white m-0">IPAS 證照通過率</h5>
     </div>
-      <div className="py-3 d-flex flex-column gap-3">
-        <li>課程同學通過率 19/22 = 86%</li>
-      </div>
-      
-    <div className="p-3 w-100" style={{ backgroundColor: "#7a1b1b" }}>
-      <h5 className="fw-bold text-white m-0">教學評鑑</h5>
-    </div>
-      <div className="py-3 d-flex flex-column gap-3">
-        <li>教學評鑑：4.65/5</li>
-      </div>
   );
 }
