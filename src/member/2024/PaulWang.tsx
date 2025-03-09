@@ -5,11 +5,21 @@ import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParti
 export const PaulWangMemberPage = () => {
     const bio = "大家好，我是王立翔，研究逆向工程，最近對於行動安全蠻有興趣的，請大家多多指教！"
     const certificates: MemberCertificateType[] = []
-    const competitionExperiences: MemberCompetitionExperienceType[] = []
+    const competitionExperiences: MemberCompetitionExperienceType[] = [
+        {
+            title: "TSCCTF 2025",
+            result: "排名: 137/509",
+            datetime: "2025/01/13-2025/01/16"
+        }
+    ]
     const participates: MemberParticipateType[] = [
         {
-            title: "HITCON CTF Ｘ 菁英人才交流活動",
+            title: "HITCON CTF x 菁英人才交流活動",
             datetime: "2024.11.09-2024.11.10"
+        },
+        {
+            title: "SITCON 2025 學生計算機年會",
+            datetime: "2025/03/08"
         }
     ]
     const internExperiences: MemberInternType[] = []
