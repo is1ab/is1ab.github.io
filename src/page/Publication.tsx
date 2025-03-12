@@ -200,7 +200,7 @@ export function Publication(){
                             Yuan-Tai Lin, <Professor star/>, and TingTing Hwang
                         </Author>
                         <Title title="M-parties partitioning: A Secure Dynamic Cache Partitioning by More Than Two Parties,"/>
-                        Accepted by <Journal name="IEEE 36th International System-on-Chip Conference (SOOC 2023) - Design for Secure and Reliable System"/>, June.
+                        Accepted by <Journal name="IEEE 36th International System-on-Chip Conference (SOCC 2023) - Design for Secure and Reliable System"/>, June.
                     </li>
                     <li>
                         <Author>
