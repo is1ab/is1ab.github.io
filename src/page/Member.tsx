@@ -176,16 +176,6 @@ export function Member(){
         },
         {
             key: '17',
-            name: "林鈺翔",
-            joinDate: "2024.11",
-            role: "碩一，資工碩士",
-            coAdvisor: '',
-            experience: "",
-            certificate: "",
-            website: "/#/Member/2024/Ian"
-        },
-        {
-            key: '18',
             name: "連羿婷",
             joinDate: "2024.12",
             role: "碩零，資安碩士",
@@ -195,7 +185,7 @@ export function Member(){
             website: ""
         },
         {
-            key: '19',
+            key: '18',
             name: "沈柏安",
             joinDate: "2024.12",
             role: "碩零，資安碩士",
@@ -205,7 +195,7 @@ export function Member(){
             website: ""
         },
         {
-            key: '20',
+            key: '19',
             name: "郭竣安",
             joinDate: "2025.01",
             role: "碩零，資安碩士",
@@ -215,7 +205,7 @@ export function Member(){
             website: "/#/member/2025/JunAn"
         },
         {
-            key: '21',
+            key: '20',
             name: "劉章佑",
             joinDate: "2025.01",
             role: "碩零，資安碩士",
