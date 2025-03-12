@@ -19,7 +19,7 @@ export function Alumni(){
             ability: "Web 攻防",
             experience: "資訊工程系 碩士學位",
             certificate: "",
-            status: "兵役",
+            status: "安碁資訊股份有限公司",
             website: "/#/Member/2022/kunjili"
         },
         {
