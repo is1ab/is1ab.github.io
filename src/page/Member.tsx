@@ -222,7 +222,7 @@ export function Member(){
             coAdvisor: '',
             experience: "",
             certificate: "",
-            website: "/#/member/2025/Yueric"
+            website: "/#/member/2025/-"
         },
         {
             key: '22',
@@ -232,7 +232,7 @@ export function Member(){
             coAdvisor: '',
             experience: "",
             certificate: "",
-            website: "/#/member/2025/Yueric"
+            website: "/#/member/2025/-"
         }
     ]
     const consultantUserTableItem = [
