@@ -221,8 +221,7 @@ export function Member(){
             role: "碩零，資工碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "",
-            website: "/#/member/2025/-"
+            certificate: ""
         },
         {
             key: '22',
@@ -231,8 +230,7 @@ export function Member(){
             role: "碩零，資工碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "",
-            website: "/#/member/2025/-"
+            certificate: ""
         }
     ]
     const consultantUserTableItem = [
