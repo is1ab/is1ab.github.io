@@ -49,6 +49,7 @@ import { SP_2025 } from "./course/2025_SP.tsx";
 import { JunAnMemberPage } from "./member/2025/JunAn.tsx";
 import { YuericMemberPage } from "./member/2025/Yueric.tsx";
 import { RobertLiaoMemberPage } from "./member/2024/RobertLiao.tsx";
+import { WillyMemberPage } from "./member/2025/Willy.tsx";
 
 const router = createHashRouter(
   createRoutesFromElements(
@@ -66,27 +67,19 @@ const router = createHashRouter(
       <Route path="/Member/2024/Young" element={<YoungMemberPage />}></Route>
       <Route path="/Member/2024/Jason" element={<JasonMemberPage />}></Route>
       <Route path="/Member/2023/Bobo" element={<BoboMemberPage />}></Route>
-      <Route
-        path="/Member/2024/PaulWang"
-        element={<PaulWangMemberPage />}
-      ></Route>
+      <Route path="/Member/2024/PaulWang" element={<PaulWangMemberPage />}></Route>
       <Route path="/Member/2024/Joe" element={<JoeMemberPage />}></Route>
-      <Route
-        path="/Member/2024/Guan4Tou2"
-        element={<Guan4Tou2MemberPage />}
-      ></Route>
+      <Route path="/Member/2024/Guan4Tou2" element={<Guan4Tou2MemberPage />}></Route>
       <Route path="/Member/2024/Ian" element={<IanMemberPage />}></Route>
       <Route path="/Member/2024/Rock" element={<RockMemberPage />}></Route>
       <Route path="/Member/2023/CHW" element={<CHWMemberPage />}></Route>
       <Route path="/Member/2023/Ravin" element={<RavinMemberPage />}></Route>
-      <Route
-        path="/Member/2022/Kunjili"
-        element={<KunjiliMemberPage />}
-      ></Route>
+      <Route path="/Member/2022/Kunjili" element={<KunjiliMemberPage />}></Route>
       <Route path="/Member/2022/Cliff" element={<CliffMemberPage />}></Route>
       <Route path="/Member/2025/JunAn" element={ <JunAnMemberPage />}></Route>
       <Route path="/Member/2025/Yueric" element={<YuericMemberPage />}></Route>
       <Route path="/Member/2024/RobertLiao" element={<RobertLiaoMemberPage />}></Route>
+      <Route path="/Member/2025/Willy" element={<WillyMemberPage />}></Route>
       <Route path="/Alumni" element={<Alumni></Alumni>}></Route>
       <Route path="/Partner" element={<Partner></Partner>}></Route>
       <Route path="/Profile" element={<Profile></Profile>}></Route>
