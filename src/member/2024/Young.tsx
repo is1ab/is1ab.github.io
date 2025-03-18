@@ -12,6 +12,31 @@ export const YoungMemberPage = () => {
     ]
     const competitionExperiences: MemberCompetitionExperienceType[] = [
         {
+            title: "PwnMe CTF Quals 2025",
+            result: "349/955 Team(Name: NTUT_Is1ab)",
+            datetime: "2025.02.28-2025.03.02"
+        },
+        {
+            title: "TUCTF 2024",
+            result: "153/485 Team(Name: NTUT_Is1ab)",
+            datetime: "2025.01.24-2025.01.26"
+        },
+        {
+            title: "x3CTF 2025 (feat. mvm)",
+            result: "320/527 Team(Name: NTUT_Is1ab)",
+            datetime: "2025.01.24-2025.01.26"
+        },
+        {
+            title: "Srdnlen CTF 2025",
+            result: "117/847 Team(Name: NTUT_Is1ab)",
+            datetime: "2025.01.18-2025.01.19"
+        },
+        {
+            title: "TSCCTF 2025",
+            result: "37th Name: Young_Lee",
+            datetime: "2025.01.13-2025.01.16"
+        },
+        {
             title: "Platypwn 2024",
             result: "195/328 Team(Name: NTUT_Is1ab)",
             datetime: "2024.12.07-2024.12.08"
@@ -38,6 +63,14 @@ export const YoungMemberPage = () => {
         },
     ]
     const participates: MemberParticipateType[] = [
+        {
+            title: "DEVCORE CONFERENCE 2025",
+            datetime: "2025.03.15"
+        },
+        {
+            title: "SITCON 2025",
+            datetime: "2025.03.08"
+        },
         {
             title: "HITCON Carnival 2023",
             datetime: "2023.11.14 - 2023.11.15"
