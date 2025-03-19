@@ -231,6 +231,16 @@ export function Member(){
             coAdvisor: '',
             experience: "",
             certificate: ""
+        },
+        {
+            key: '23',
+            name: "趙尉丞",
+            joinDate: "2025.03",
+            role: "碩零，資安碩士",
+            coAdvisor: '',
+            experience: "",
+            certificate: "",
+            website: "/#/member/2025/Willy"
         }
     ]
     const consultantUserTableItem = [
