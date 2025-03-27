@@ -21,8 +21,13 @@ export const PaulWangMemberPage = () => {
         },
         {
             title: "picoCTF 2025",
-            result: "隊伍排名: 1287/10460 (Team: NTUT_Is1ab)",
+            result: "隊伍排名: 1287/10460 (隊伍: NTUT_Is1ab)",
             datetime: "2025/03/08-2025/03/18"
+        },
+        {
+            title: "Cyber Apocalypse CTF 2025: Tales from Eldoria",
+            result: "隊伍排名: 715/8130 (隊伍: NTUT_Is1ab)",
+            datetime: "2025/03/21-2025/03/26"
         }
     ]
     const participates: MemberParticipateType[] = [
