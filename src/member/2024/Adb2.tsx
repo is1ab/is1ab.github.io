@@ -16,6 +16,21 @@ export const Adb2MemberPage = () => {
     ]
     const competitionExperiences: MemberCompetitionExperienceType[] = [
         {
+            title: "squ1rrel CTF 2025",
+            result: "227/611 Team(Name: NTUT_Is1ab)",
+            datetime: "2025.04.05 - 2025.04.07"
+        },
+        {
+            title: "SwampCTF 2025",
+            result: "219/751 Team(Name: NTUT_Is1ab)",
+            datetime: "2025.03.29 - 2025.03.31"
+        },
+        {
+            title: "Cyber Apocalypse CTF 2025: Tales from Eldoria",
+            result: "715/8129 Team(Name: NTUT_Is1ab)",
+            datetime: "2025.03.21 - 2025.03.26"
+        },
+        {
             title: "picoCTF 2025",
             result: "305/10460 Team(Name: NTUT Is1ab)",
             datetime: "2025.03.08 - 2025.03.18"
@@ -89,10 +104,10 @@ export const Adb2MemberPage = () => {
     const participates: MemberParticipateType[] = [
         {
             title: "SITCON 2025",
-            datetime: "2024.03.08"
+            datetime: "2025.03.08"
         },
         {
-            title: "第九屆臺灣好厲駭 ( 高階培訓 & 導師深度輔導 )",
+            title: "第九屆臺灣好厲駭 ( 高階培訓 )",
             datetime: "2024.08 - now"
         },
         {
