@@ -21,7 +21,7 @@ export function Member(){
             joinDate: "2022.12",
             role: "碩二，資安碩士",
             coAdvisor: '',
-            experience: "Cymetrics 實習生、前台積電-資訊安全部暑期實習生、前動力安全資訊股份有限公司",
+            experience: "前 Cymetrics 實習生、前台積電-資訊安全部暑期實習生、前動力安全資訊股份有限公司",
             certificate: "iPAS 資訊安全工程師檢定（初級）",
             website: "/#/Member/2023/CHW"
         },
@@ -90,7 +90,7 @@ export function Member(){
             joinDate: "2023.12",
             role: "碩一，資安碩士",
             coAdvisor: '',
-            experience: "保華資安股份有限公司實習生",
+            experience: "前保華資安股份有限公司實習生",
             certificate: "iPAS 資訊安全工程師檢定（初級）",
             website: "/#/Member/2024/Guan4Tou2"
         },

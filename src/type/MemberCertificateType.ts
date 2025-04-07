@@ -27,3 +27,9 @@ export type MemberArticleType = {
     details: string
     doi?: string
 }
+
+export type MemberZeroDayType = {
+    id: string|JSX.Element
+    title: string | JSX.Element
+    datetime: string | JSX.Element
+}

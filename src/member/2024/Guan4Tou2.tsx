@@ -1,6 +1,6 @@
 import { Sample } from "../Sample"
 import logo from "../../assets/member/Guan4Tou2.png"
-import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../../type/MemberCertificateType"
+import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType,MemberZeroDayType } from "../../type/MemberCertificateType"
 
 export const Guan4Tou2MemberPage = () => {
     const bio = "我超弱"
@@ -55,6 +55,11 @@ export const Guan4Tou2MemberPage = () => {
             title: "TFCCTF",
             result: "",
             datetime: "2022.07.29 - 2022.07.31"
+        },
+                {
+            title: "AIS3 EOF",
+            result: "",
+            datetime: "2025.02.07 - 2025.02.08"
         }
     ]
     const participates: MemberParticipateType[] = [
@@ -63,7 +68,7 @@ export const Guan4Tou2MemberPage = () => {
             datetime: "2022.07.25 - 2022.07.31"
         },
         {
-            title: "錄取 2023 AIS3  新型態資安暑期課程",
+            title: "錄取 2023 AIS3 新型態資安暑期課程",
             datetime: "2023.07.24 - 2023.07.30"
         },
         {
@@ -103,26 +108,27 @@ export const Guan4Tou2MemberPage = () => {
             datetime: "2024.03.16"
         },
         {
-            title: (
-            <div>
-                
-                <a href="https://zeroday.hitcon.org/vulnerability/ZD-2024-00018">ZD-2024-00018</a> 
-                &nbsp;
-                臺南市私立長榮高級中學資料庫注入漏洞
-            </div>
-            ),
-            datetime: "2024.04.18"
-        },
-        {
             title: "教育體系資安攻防演練 攻防檢測員",
             datetime: "2024.07.23"
+        },
+        {
+            title: "電商產業外網資安檢測服務攻擊手",
+            datetime: "2025.02 - 2025.03"
+        },
+        {
+            title: "DEVCORE CONFERENCE 2025 會眾",
+            datetime: "2025.03.15"
+        },
+        {
+            title: "第九屆台灣好厲駭-高階培訓模式",
+            datetime: "2024.08.31"
         },
     ]
     const internExperiences: MemberInternType[] = [
         {
             company: "保華資安股份有限公司",
             info: "資安實習生",
-            datetime: "2024.06 - now"
+            datetime: "2024.06 - 2025.02"
         },
     ]
     const journals: MemberArticleType[] = []        
@@ -135,6 +141,53 @@ export const Guan4Tou2MemberPage = () => {
         }
     ]
     const techConfs: MemberArticleType[] = []
+    const zeroday: MemberZeroDayType[] = [
+            {
+                id: ( 
+                    <div>
+                        <a href="https://zeroday.hitcon.org/vulnerability/ZD-2024-00018">ZD-2024-00018</a> 
+                    </div>
+                ),
+                title: "臺南市私立長榮高級中學資料庫注入漏洞",
+                datetime: "2024.04.18"
+            },
+            {
+                id: ( 
+                    <div>
+                        <a href="https://zeroday.hitcon.org/vulnerability/ZD-2024-00807">ZD-2024-00807</a> 
+                    </div>
+                ),
+                title: "聯和趨動官網 .env leak",
+                datetime: "2024.09.19"
+            },
+            {
+                id: ( 
+                    <div>
+                        <a href="https://zeroday.hitcon.org/vulnerability/ZD-2024-00830">ZD-2024-00830</a> 
+                    </div>
+                ),
+                title: "富佰客 公司資料庫注入漏洞",
+                datetime: "2024.09.27"
+            },
+            {
+                id: ( 
+                    <div>
+                        <a href="https://zeroday.hitcon.org/vulnerability/ZD-2024-01468">ZD-2024-01468</a> 
+                    </div>
+                ),
+                title: "國立中山大學 密碼查詢資料庫注入",
+                datetime: "2024.12.19"
+            },
+            {
+                id: ( 
+                    <div>
+                        <a href="https://zeroday.hitcon.org/vulnerability/ZD-2024-01476">ZD-2024-01476</a> 
+                    </div>
+                ),
+                title: "台灣奇茂資訊有限公司 官網 git leak",
+                datetime: "2025.01.06"
+            },
+    ]
 
     return (
         <Sample
@@ -150,6 +203,7 @@ export const Guan4Tou2MemberPage = () => {
             journals={journals}
             conferences={conferences}
             techConfs={techConfs}
+            zeroday={zeroday}
         ></Sample>
     )
 }
