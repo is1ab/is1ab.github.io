@@ -83,7 +83,7 @@ export const Sample = (props: {
     journals: MemberArticleType[]
     conferences: MemberArticleType[]
     techConfs: MemberArticleType[]
-    zeroday: MemberZeroDayType[]
+    zeroday?: MemberZeroDayType[]
 }) => {
     const { pathname } = useLocation()
     const experiences = props.experiences.sort((a, b) => b.datetime.toString().includes("now") ? 1 : b.datetime.toString().localeCompare(a.datetime.toString()))
