@@ -165,7 +165,7 @@ export const Sample = (props: {
                 </div>
             }
             {
-                props.zeroday.length > 0 &&
+                props.zeroday && props.zeroday.length > 0 &&
                 <div className="w-100 d-flex flex-row" style={{gap: "3rem"}}>
                     <div className="w-100">
                         <div className="p-3 w-100" style={{backgroundColor: "#7a1b1b"}}>
@@ -174,7 +174,7 @@ export const Sample = (props: {
                         <div className="p-3 w-100">
                             <Table 
                                 columns={zerodayColumns} 
-                                dataSource={props.zeroday} 
+                                dataSource={props.zeroday!} 
                                 bordered 
                                 pagination={false}
                             ></Table>
