@@ -238,6 +238,13 @@ export function Publication(){
                 <ol>
                     <li>
                         <Author>
+                            Yi-Hsien Chen, Sheng-Shan Chen, Chun-Chia Huang, Sian-Yao Huang, <Professor star/>, Hsu-Chun Hsiao, Chung-Kuan Chen, Cheng-Lin Yang, Chun-Ying Huang
+                        </Author>
+                        <Title title="BASGen: An Automated Breach and Attack Simulation Script Generator based on Cyber Threat Intelligence Reports"/>
+                        Submitted to <Journal name="the 32nd ACM Conference on Computer and Communications Security (CCS 2025)"/>, April 2025.                        
+                    </li>
+                    <li>
+                        <Author>
                             Sheng-Shan Chen, Tun-Wen Pai, and <Professor star/>
                         </Author>
                         <Title title="EnhanceCTI: An Enhanced Semantic Filtering and Feature Extraction Framework for Industry-Specific Cyber Threat Intelligence"/>
