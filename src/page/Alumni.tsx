@@ -146,6 +146,13 @@ export function Alumni(){
     ]
     const othersStudentTableDatas = [
         {
+            name: "林星主",
+            joinTime: "2023.07-pres",
+            title: "女婕思選手、藍隊技能、安全程式設計",
+            status: "國立清華大學 資訊安全研究所",
+            note: "N/A"
+        },
+        {
             name: "黃漢軒",
             joinTime: "2023.04-pres.",
             title: "系統安全、程式能力、物件導向程式設計TA",
