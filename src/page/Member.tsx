@@ -356,7 +356,11 @@ export function Member(){
         {
             name: "劉宜蓁",
             note: "國立臺北科技大學 - 智慧自動化工程科（專四）"
-        }
+        },
+        {
+            name: "陳昱臻",
+            note: "國立東華大學 - 資訊工程學系"
+        },
     ]
     const tableColumns: ColumnType<any>[] = [
         {
