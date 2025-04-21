@@ -29,7 +29,7 @@ export function Alumni(){
             ability: "密碼學、硬體安全",
             experience: "資訊工程系 碩士學位",
             certificate: "",
-            status: "畢業",
+            status: "財團法人資訊工業策進會 - 資安科技研究所/資安維運鑑識組",
             website: "/#/Member/2022/Cliff"
         },
     ]
