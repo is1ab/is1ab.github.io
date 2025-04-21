@@ -6,13 +6,29 @@ export const YPPMemberPage = () => {
     const bio = <div className="d-flex flex-column gap-3">
         <p>大學讀 EE，不會 Fourier ; 碩士唸資安，密碼都用 123 </p>
         <p>如果蒐集 flag 的叫 CTFer，那喜歡蒐集 ちいかわ 的是叫 CYSun, Professor 嗎</p>
+        <p></p>
+
     </div>
     const certificates: MemberCertificateType[] = [
 
     ]
     const competitionExperiences: MemberCompetitionExperienceType[] = [
+               
         {
-            title: "	SwampCTF 2025",
+            title: "DawgCTF 2025",
+            result: "223/760 Team(Name: NTUT_Is1ab)",
+            datetime: "2025.04.18 - 2025.04.20"
+        },
+        
+        {
+            title: "DEFCON CTF Qualifier 2025",
+            result: "31/195 Team(Name: 星爆牛炒竹狐)",
+            datetime: "2025.04.12 - 2025.04.14"
+        },
+        
+        
+        {
+            title: "SwampCTF 2025",
             result: "219/751 Team(Name: NTUT_Is1ab)",
             datetime: "2025.03.29 - 2025.03.31"
         },
