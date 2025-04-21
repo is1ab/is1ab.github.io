@@ -6,7 +6,6 @@ export const YPPMemberPage = () => {
     const bio = <div className="d-flex flex-column gap-3">
         <p>大學讀 EE，不會 Fourier ; 碩士唸資安，密碼都用 123 </p>
         <p>如果蒐集 flag 的叫 CTFer，那喜歡蒐集 ちいかわ 的是叫 CYSun, Professor 嗎</p>
-        <p></p>
 
     </div>
     const certificates: MemberCertificateType[] = [
