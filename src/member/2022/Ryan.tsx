@@ -191,7 +191,7 @@ export const RyanMemberPage = () => {
             title: "Analysis and Mitigation Strategies for Prompt Injection Attacks",
             target: "Communications of the CCISA",
             details: "Vol. 30 No. 3 Aug. 2024",
-            doi: "https://scholar.google.com.tw/citations?view_op=view_citation&hl=zh-TW&user=lgOY-SoAAAAJ&citation_for_view=lgOY-SoAAAAJ:zYLM7Y9cAGgC"
+            doi: "https://cccisa.ccisa.org.tw/article/view/3084"
         },
         {
             authors: "Sheng-Shan Chen, Ren-Hung Hwang*, Asad Ali, Ying-Dar Lin, Yu-Chih Wei, Tun-Wen Pai*",
