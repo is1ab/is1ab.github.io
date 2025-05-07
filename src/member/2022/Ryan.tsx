@@ -205,7 +205,7 @@ export const RyanMemberPage = () => {
         {
             authors: "Sheng-Shan Chen, Yi-Xuan Wu, Ying-Xuan Ho, Pang-Po Cheng, and Chin-Yu Sun*",
             title: "RANsomCheck: A CNN-Transformer Model for Malware Detection Based on API Call Sequences",
-            target: Accepted by 38th International Conference on Industrial, Engineering & Other Applications of Applied Intelligent Systems (IEAAIE 2025)",
+            target: "Accepted by 38th International Conference on Industrial, Engineering & Other Applications of Applied Intelligent Systems (IEAAIE 2025)",
             details: "March 2025"
         },
         {
