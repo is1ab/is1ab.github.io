@@ -90,6 +90,7 @@ export const Sample = (props: {
     const certificates = props.certificates.sort((a, b) =>  b.datetime.toString().includes("now") ? 1 : b.datetime.toString().localeCompare(a.datetime.toString()))
     const participates = props.participates.sort((a, b) =>  b.datetime.toString().includes("now") ? 1 : b.datetime.toString().localeCompare(a.datetime.toString()))
     const interns = props.intern.sort((a, b) =>  b.datetime.toString().includes("now") ? 1 : b.datetime.toString().localeCompare(a.datetime.toString()))
+    const zerodays = props.zeroday?.sort((a, b) =>  b.datetime.toString().includes("now") ? 1 : b.datetime.toString().localeCompare(a.datetime.toString()))
     const TitleName = () => {
         if(props.enName === undefined){
             return <h1 className="text-white">{props.zhName}</h1>
@@ -165,7 +166,7 @@ export const Sample = (props: {
                 </div>
             }
             {
-                props.zeroday && props.zeroday.length > 0 &&
+                zerodays && zerodays.length > 0 &&
                 <div className="w-100 d-flex flex-row" style={{gap: "3rem"}}>
                     <div className="w-100">
                         <div className="p-3 w-100" style={{backgroundColor: "#7a1b1b"}}>
@@ -174,7 +175,7 @@ export const Sample = (props: {
                         <div className="p-3 w-100">
                             <Table 
                                 columns={zerodayColumns} 
-                                dataSource={props.zeroday!} 
+                                dataSource={zerodays!} 
                                 bordered 
                                 pagination={false}
                             ></Table>
