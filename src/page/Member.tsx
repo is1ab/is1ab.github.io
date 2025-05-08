@@ -176,6 +176,16 @@ export function Member(){
         },
         {
             key: '17',
+            name: "黃昱翔",
+            joinDate: "2025.05",
+            role: "碩一，資安碩士",
+            coAdvisor: '',
+            experience: "Cymetrics 實習生",
+            certificate: "iPAS 資訊安全工程師檢定（初級）",
+            website: "/#/member/2024/Marco"
+        },
+        {
+            key: '18',
             name: "連羿婷",
             joinDate: "2024.12",
             role: "碩零，資安碩士",
@@ -185,7 +195,7 @@ export function Member(){
             website: ""
         },
         {
-            key: '18',
+            key: '19',
             name: "沈柏安",
             joinDate: "2024.12",
             role: "碩零，資安碩士",
@@ -195,7 +205,7 @@ export function Member(){
             website: ""
         },
         {
-            key: '19',
+            key: '20',
             name: "郭竣安",
             joinDate: "2025.01",
             role: "碩零，資安碩士",
@@ -205,7 +215,7 @@ export function Member(){
             website: "/#/member/2025/JunAn"
         },
         {
-            key: '20',
+            key: '21',
             name: "劉章佑",
             joinDate: "2025.01",
             role: "碩零，資安碩士",
@@ -215,7 +225,7 @@ export function Member(){
             website: "/#/member/2025/Yueric"
         },
         {
-            key: '21',
+            key: '22',
             name: "廖棻俞",
             joinDate: "2025.01",
             role: "碩零，資工碩士",
@@ -224,7 +234,7 @@ export function Member(){
             certificate: ""
         },
         {
-            key: '22',
+            key: '23',
             name: "劉業閎",
             joinDate: "2025.03",
             role: "碩零，資工碩士",
@@ -233,7 +243,7 @@ export function Member(){
             certificate: ""
         },
         {
-            key: '23',
+            key: '24',
             name: "趙尉丞",
             joinDate: "2025.03",
             role: "碩零，資安碩士",
@@ -241,7 +251,7 @@ export function Member(){
             experience: "",
             certificate: "",
             website: "/#/member/2025/Willy"
-        }
+        },
     ]
     const consultantUserTableItem = [
         {
