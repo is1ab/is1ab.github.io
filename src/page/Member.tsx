@@ -252,6 +252,16 @@ export function Member(){
             certificate: "",
             website: "/#/member/2025/Willy"
         },
+        {
+            key: '25',
+            name: "鄭羽農",
+            joinDate: "2025.04",
+            role: "碩零，資工碩士",
+            coAdvisor: '郭忠義',
+            experience: "",
+            certificate: "",
+            website: ""
+        },
     ]
     const consultantUserTableItem = [
         {
