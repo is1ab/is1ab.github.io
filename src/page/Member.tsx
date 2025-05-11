@@ -96,6 +96,16 @@ export function Member(){
         },
         {
             key: '9',
+            name: "李宜鴻",
+            joinDate: "2024.11",
+            role: "碩二，資安碩士",
+            coAdvisor: '陳昱圻',
+            experience: "叡揚資訊股份有限公司實習生",
+            certificate: "iPAS 資訊安全工程師檢定（初級）",
+            website: "/#/Member/2024/Rock"
+        },
+        {
+            key: '10',
             name: "李宇揚",
             joinDate: "2023.12",
             role: "碩一，資安碩士",
@@ -105,7 +115,7 @@ export function Member(){
             website: "/#/Member/2024/Young"
         },
         {
-            key: '10',
+            key: '11',
             name: "黃廷翰",
             joinDate: "2023.12",
             role: "碩一，資安碩士",
@@ -115,7 +125,7 @@ export function Member(){
             website: "/#/Member/2024/Jason"
         },
         {
-            key: '11',
+            key: '12',
             name: "陳彥宇",
             joinDate: "2024.01",
             role: "碩一，資工碩士",
@@ -125,7 +135,7 @@ export function Member(){
             website: "/#/Member/2024/Adb2"
         },
         {
-            key: '12',
+            key: '13',
             name: "李佳軒",
             joinDate: "2024.01",
             role: "碩一，資安碩士",
@@ -135,7 +145,7 @@ export function Member(){
             website: "/#/Member/2024/WIFI"
         },
         {
-            key: '13',
+            key: '14',
             name: "王立翔",
             joinDate: "2024.04",
             role: "碩一，資工碩士",
@@ -145,7 +155,7 @@ export function Member(){
             website: "/#/Member/2024/PaulWang"
         },
         {
-            key: '14',
+            key: '15',
             name: "黃奕評",
             joinDate: "2024.06",
             role: "碩一，資安碩士",
@@ -155,7 +165,7 @@ export function Member(){
             website: "/#/Member/2024/ypp"
         },
         {
-            key: '15',
+            key: '16',
             name: "廖哲霈",
             joinDate: "2024.08",
             role: "碩一，資工碩士",
@@ -163,16 +173,6 @@ export function Member(){
             experience: "",
             certificate: "",
             website: "/#/Member/2024/RobertLiao"
-        },
-        {
-            key: '16',
-            name: "李宜鴻",
-            joinDate: "2024.11",
-            role: "碩一，資安碩士",
-            coAdvisor: '陳昱圻',
-            experience: "叡揚資訊股份有限公司實習生",
-            certificate: "iPAS 資訊安全工程師檢定（初級）",
-            website: "/#/Member/2024/Rock"
         },
         {
             key: '17',
