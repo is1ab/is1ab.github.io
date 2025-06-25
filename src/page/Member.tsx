@@ -318,6 +318,25 @@ export function Member(){
             progress: 0
         },
         {
+            group: "114#2",
+            members: [
+                {
+                    name: "林希芸",
+                    intern: ""
+                },
+                {
+                    name: "潘雙永",
+                    intern: ""
+                },
+                {
+                    name: "李馥亘",
+                    intern: ""
+                }
+            ],
+            note: "參與SunBird計畫（dcTrack 組）",
+            progress: 0
+        },
+        {
             group: "113#1",
             members: [
                 {
