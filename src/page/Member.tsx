@@ -337,7 +337,7 @@ export function Member(){
                     intern: ""
                 }
             ],
-            note: "專案型評測系統設計方法",
+            note: "專案型評測系統設計方法（通過大專生計畫 - 編號:114-2813-C-027-053-E）",
             progress: 5
         },
         {
