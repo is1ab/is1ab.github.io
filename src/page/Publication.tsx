@@ -238,6 +238,13 @@ export function Publication(){
                 <ol>
                     <li>
                         <Author>
+                            <Professor star/>, Sheng-Shan Chen, Ya-Han Ho
+                        </Author>
+                        <Title title="De-Identification of Open-Source Intelligence Using Finetuned LLaMA-3"/>
+                        Submitted to <Journal name="High-Confidence Computing"/>, June 2025.                        
+                    </li>
+                    <li>
+                        <Author>
                             Yi-Hsien Chen, Sheng-Shan Chen, Chun-Chia Huang, Sian-Yao Huang, <Professor/>, Hsu-Chun Hsiao, Chung-Kuan Chen, Cheng-Lin Yang, Chun-Ying Huang
                         </Author>
                         <Title title="BASGen: An Automated Breach and Attack Simulation Script Generator based on Cyber Threat Intelligence Reports"/>
