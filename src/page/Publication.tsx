@@ -255,7 +255,7 @@ export function Publication(){
                             Sheng-Shan Chen, Tun-Wen Pai, and <Professor star/>
                         </Author>
                         <Title title="EnhanceCTI: An Enhanced Semantic Filtering and Feature Extraction Framework for Industry-Specific Cyber Threat Intelligence"/>
-                        Submitted to <Journal name="IEEE Transactions on Network and Service Management"/>, February 2025.                        
+                        Submitted to <Journal name="Computers & Security"/>, April 2025.                        
                     </li>
                     <li>
                         <Author>
