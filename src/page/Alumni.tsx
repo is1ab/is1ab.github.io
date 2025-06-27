@@ -9,7 +9,6 @@ export function Alumni(){
             title: "基於檢索增強生成技術於網路威脅情資之攻擊識別",
             ability: "Web 攻防",
             experience: "資訊安全碩士學位學程",
-            certificate: "iPAS 資訊安全工程師檢定（初級）",
             status: "口試準備中",
             website: "/#/Member/2023/Bobo"
         },
