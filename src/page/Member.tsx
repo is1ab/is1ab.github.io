@@ -65,16 +65,6 @@ export function Member(){
             website: "/#/Member/2023/Y"
         },
         {
-            key: '7',
-            name: "廖家賢",
-            joinDate: "2023.08",
-            role: "碩二，資安碩士",
-            coAdvisor: '林敬皇',
-            experience: "前台灣圖靈鏈股份有限公司實習生",
-            certificate: "iPAS 資訊安全工程師檢定（初級）",
-            website: "/#/Member/2023/Salt"
-        },
-        {
             key: '8',
             name: "吳冠廷",
             joinDate: "2023.12",
