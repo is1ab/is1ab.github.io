@@ -13,6 +13,16 @@ export function Alumni(){
             website: "/#/Member/2023/Bobo"
         },
         {
+            name: "廖家賢",
+            joinDate: "2023.08-pres.",
+            title: "基於Kyber-KEM技術之安全身份認證協定於低軌衛星通訊系統",
+            ability: "密碼學",
+            experience: "資訊安全碩士學位學程",
+            status: "口試準備中",
+            certificate: "與 林敬皇 老師共同指導",
+            website: "/#/Member/2023/Salt"
+        },
+        {
             name: "陳丹妮",
             joinDate: "2022.09-2024.08",
             title: "輔助乳癌術後重建病人醫病共同決策之人工智慧聊天機器人",
