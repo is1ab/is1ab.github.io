@@ -55,16 +55,6 @@ export function Member(){
             website: "/#/Member/2023/Eason"
         },
         {
-            key: '5',
-            name: "曹凱翔",
-            joinDate: "2023.03",
-            role: "碩二，資安碩士",
-            coAdvisor: '',
-            experience: "中華資安國際股份有限公司實習生",
-            certificate: "iPAS 資訊安全工程師檢定（初級）",
-            website: "/#/Member/2023/Bobo"
-        },
-        {
             key: '6',
             name: "顏柏耀",
             joinDate: "2023.03",
