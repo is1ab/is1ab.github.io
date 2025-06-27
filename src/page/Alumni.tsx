@@ -65,6 +65,7 @@ export function Alumni(){
             ability: "人工智慧",
             experience: "資訊安全碩士學位學程",
             status: "口試準備中",
+            certificate: "與 陳昱圻 老師共同指導",
             website: "/#/Member/2024/Rock"
         },
         {
