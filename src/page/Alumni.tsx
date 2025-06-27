@@ -4,6 +4,16 @@ import { ColumnType } from "antd/es/table";
 export function Alumni(){
     const masterAlumniDatas = [
         {
+            name: "曹凱翔",
+            joinDate: "2023.03-pres.",
+            title: "基於檢索增強生成技術於網路威脅情資之攻擊識別",
+            ability: "Web 攻防",
+            experience: "資訊安全碩士學位學程",
+            certificate: "iPAS 資訊安全工程師檢定（初級）",
+            status: "口試準備中",
+            website: "/#/Member/2022/kunjili"
+        },
+        {
             name: "陳丹妮",
             joinDate: "2022.09-2024.08",
             title: "輔助乳癌術後重建病人醫病共同決策之人工智慧聊天機器人",
