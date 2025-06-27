@@ -11,7 +11,7 @@ export function Alumni(){
             experience: "資訊安全碩士學位學程",
             certificate: "iPAS 資訊安全工程師檢定（初級）",
             status: "口試準備中",
-            website: "/#/Member/2022/kunjili"
+            website: "/#/Member/2023/Bobo"
         },
         {
             name: "陳丹妮",
