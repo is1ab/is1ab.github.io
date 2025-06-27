@@ -23,6 +23,51 @@ export function Alumni(){
             website: "/#/Member/2023/Salt"
         },
         {
+            name: "林幸慧",
+            joinDate: "2022.12-pres.",
+            title: "評估低軌衛星環境中電磁脈衝攻擊與其緩解機制之設計",
+            ability: "藍隊技術",
+            experience: "資訊安全碩士學位學程",
+            status: "口試準備中",
+            website: "/#/Member/2023/Ravin"
+        },
+        {
+            name: "張家維",
+            joinDate: "2022.12-pres.",
+            title: "應用對抗式樣本於 XSS 模糊測試之防禦研究",
+            ability: "Web 攻防技術",
+            experience: "資訊安全碩士學位學程",
+            status: "口試準備中",
+            website: "/#/Member/2023/CHW"
+        },
+        {
+            name: "顏柏耀",
+            joinDate: "2023.03-pres.",
+            title: "應用機器學習技術偵測 EDoS 攻擊於雲端微服務成本分析",
+            ability: "Reverse 技術",
+            experience: "資訊安全碩士學位學程",
+            status: "口試準備中",
+            website: "/#/Member/2023/Y"
+        },
+        {
+            name: "許貽昇",
+            joinDate: "2023.03-pres.",
+            title: "使用程式碼屬性圖萃取技術於自動化漏洞挖掘與風險路徑分析",
+            ability: "PWN 技術",
+            experience: "資訊安全碩士學位學程",
+            status: "口試準備中",
+            website: "/#/Member/2023/Eason"
+        },
+        {
+            name: "李宜鴻",
+            joinDate: "2024.11-pres.",
+            title: "基於 Transformer 模型於程式碼漏洞自動修復之研究",
+            ability: "人工智慧",
+            experience: "資訊安全碩士學位學程",
+            status: "口試準備中",
+            website: "/#/Member/2024/Rock"
+        },
+        {
             name: "陳丹妮",
             joinDate: "2022.09-2024.08",
             title: "輔助乳癌術後重建病人醫病共同決策之人工智慧聊天機器人",
@@ -35,7 +80,7 @@ export function Alumni(){
             name: "李昆積",
             joinDate: "2022.09-2024.08",
             title: "Prompt Injection 分析與緩解策略之研究 – 以大語言模型聊天機器人為例",
-            ability: "Web 攻防",
+            ability: "Web 攻防技術",
             experience: "資訊工程系 碩士學位",
             certificate: "",
             status: "安碁資訊股份有限公司 - 滲透測試工程師",
