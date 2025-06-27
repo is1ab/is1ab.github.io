@@ -17,55 +17,6 @@ export function Member(){
     const masterUserTableItem = [
         {
             key: '1',
-            name: "張家維",
-            joinDate: "2022.12",
-            role: "碩二，資安碩士",
-            coAdvisor: '',
-            experience: "前 Cymetrics 實習生、前台積電-資訊安全部暑期實習生、前動力安全資訊股份有限公司",
-            certificate: "iPAS 資訊安全工程師檢定（初級）",
-            website: "/#/Member/2023/CHW"
-        },
-        {
-            key: '2',
-            name: "林幸慧",
-            joinDate: "2022.12",
-            role: "碩二，資安碩士",
-            coAdvisor: '',
-            experience: "前果核數位實習生，前中華資安國際股份有限公司實習生",
-            certificate: "iPAS 資訊安全工程師檢定（初級）",
-            website: "/#/Member/2023/Ravin"
-        },
-        {
-            key: '3',
-            name: "陳荷文",
-            joinDate: "2022.12",
-            role: "碩二，資安碩士",
-            coAdvisor: '',
-            experience: "",
-            certificate: ""
-        },
-        {
-            key: '4',
-            name: "許貽昇",
-            joinDate: "2023.03",
-            role: "碩二，資安碩士",
-            coAdvisor: '',
-            experience: "奧義智慧科技股份有限公司實習生",
-            certificate: "iPAS 資訊安全工程師檢定（初級）",
-            website: "/#/Member/2023/Eason"
-        },
-        {
-            key: '6',
-            name: "顏柏耀",
-            joinDate: "2023.03",
-            role: "碩二，資安碩士",
-            coAdvisor: '',
-            experience: "",
-            certificate: "iPAS 資訊安全工程師檢定（初級）",
-            website: "/#/Member/2023/Y"
-        },
-        {
-            key: '8',
             name: "吳冠廷",
             joinDate: "2023.12",
             role: "碩一，資安碩士",
@@ -75,17 +26,7 @@ export function Member(){
             website: "/#/Member/2024/Guan4Tou2"
         },
         {
-            key: '9',
-            name: "李宜鴻",
-            joinDate: "2024.11",
-            role: "碩二，資安碩士",
-            coAdvisor: '陳昱圻',
-            experience: "叡揚資訊股份有限公司實習生",
-            certificate: "iPAS 資訊安全工程師檢定（初級）",
-            website: "/#/Member/2024/Rock"
-        },
-        {
-            key: '10',
+            key: '2',
             name: "李宇揚",
             joinDate: "2023.12",
             role: "碩一，資安碩士",
@@ -95,7 +36,7 @@ export function Member(){
             website: "/#/Member/2024/Young"
         },
         {
-            key: '11',
+            key: '3',
             name: "黃廷翰",
             joinDate: "2023.12",
             role: "碩一，資安碩士",
@@ -105,7 +46,7 @@ export function Member(){
             website: "/#/Member/2024/Jason"
         },
         {
-            key: '12',
+            key: '4',
             name: "陳彥宇",
             joinDate: "2024.01",
             role: "碩一，資工碩士",
@@ -115,7 +56,7 @@ export function Member(){
             website: "/#/Member/2024/Adb2"
         },
         {
-            key: '13',
+            key: '5',
             name: "李佳軒",
             joinDate: "2024.01",
             role: "碩一，資安碩士",
@@ -125,7 +66,7 @@ export function Member(){
             website: "/#/Member/2024/WIFI"
         },
         {
-            key: '14',
+            key: '6',
             name: "王立翔",
             joinDate: "2024.04",
             role: "碩一，資工碩士",
@@ -135,7 +76,7 @@ export function Member(){
             website: "/#/Member/2024/PaulWang"
         },
         {
-            key: '15',
+            key: '7',
             name: "黃奕評",
             joinDate: "2024.06",
             role: "碩一，資安碩士",
@@ -145,7 +86,7 @@ export function Member(){
             website: "/#/Member/2024/ypp"
         },
         {
-            key: '16',
+            key: '8',
             name: "廖哲霈",
             joinDate: "2024.08",
             role: "碩一，資工碩士",
@@ -155,7 +96,7 @@ export function Member(){
             website: "/#/Member/2024/RobertLiao"
         },
         {
-            key: '17',
+            key: '9',
             name: "黃昱翔",
             joinDate: "2025.05",
             role: "碩一，資安碩士",
@@ -165,7 +106,7 @@ export function Member(){
             website: "/#/member/2024/Marco"
         },
         {
-            key: '18',
+            key: '10',
             name: "連羿婷",
             joinDate: "2024.12",
             role: "碩零，資安碩士",
@@ -175,7 +116,7 @@ export function Member(){
             website: ""
         },
         {
-            key: '19',
+            key: '11',
             name: "沈柏安",
             joinDate: "2024.12",
             role: "碩零，資安碩士",
@@ -185,7 +126,7 @@ export function Member(){
             website: ""
         },
         {
-            key: '20',
+            key: '12',
             name: "郭竣安",
             joinDate: "2025.01",
             role: "碩零，資安碩士",
@@ -195,7 +136,7 @@ export function Member(){
             website: "/#/member/2025/JunAn"
         },
         {
-            key: '21',
+            key: '13',
             name: "劉章佑",
             joinDate: "2025.01",
             role: "碩零，資安碩士",
@@ -205,7 +146,7 @@ export function Member(){
             website: "/#/member/2025/Yueric"
         },
         {
-            key: '22',
+            key: '14',
             name: "廖棻俞",
             joinDate: "2025.01",
             role: "碩零，資工碩士",
@@ -214,7 +155,7 @@ export function Member(){
             certificate: ""
         },
         {
-            key: '23',
+            key: '15',
             name: "劉業閎",
             joinDate: "2025.03",
             role: "碩零，資工碩士",
@@ -223,7 +164,7 @@ export function Member(){
             certificate: ""
         },
         {
-            key: '24',
+            key: '16',
             name: "趙尉丞",
             joinDate: "2025.03",
             role: "碩零，資安碩士",
@@ -233,7 +174,7 @@ export function Member(){
             website: "/#/member/2025/Willy"
         },
         {
-            key: '25',
+            key: '17',
             name: "鄭羽農",
             joinDate: "2025.04",
             role: "碩零，資工碩士",
