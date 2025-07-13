@@ -7,19 +7,22 @@ export const WIFIMemberPage = () => {
         {
             title: "iPAS 資訊安全工程師-初級能力鑑定",
             datetime: "2023/06/21"
+        },
+        {
+            title: "iPAS 資訊安全工程師-中級能力鑑定",
+            datetime: "2025/04/24"
+        },
+        {
+            title: "Google Cybersecurity Certificate",
+            datetime: "2025/06/21"
         }
     ]
 
     const competitionExperiences: MemberCompetitionExperienceType[] = [
 
         {
-            title: "第28屆 Innoserve 資訊應用服務創新競賽 ",
-            result: "資安創新技術組 第二名",
-            datetime: "2023/11/04"
-        },
-        {
             title: "picoCTF 2024",
-            result: "排名: 461/69574",
+            result: "461/69574",
             datetime: "2024/03/13-2024/3/27"
         },
         {
@@ -29,13 +32,73 @@ export const WIFIMemberPage = () => {
         },
         {
             title: "AIS3 Pre-exam CTF 2024",
-            result: "排名: 61/493",
-            datetime: "2024/05/25-2024/05/27"
+            result: "61/493",
+            datetime: "2024/05/25 - 2024/05/27"
         },
         {
             title: "AEGIS CTF 神盾盃預賽",
-            result: "",
+            result: "N/A",
             datetime: "2024/09/14"
+        },
+        {
+            title: "成大資安社 2024 期初 CTF",
+            result: "29/106",
+            datetime: "2024/10/07 - 2024/10/12"
+        },
+        {
+            title: "資安技能金盾獎競賽 2024 初賽",
+            result: "N/A",
+            datetime: "2024/10/12"
+        },
+        {
+            title: "CGGC 2024",
+            result: "13/64 Team(Name: NTUT_Computer Graphics Garbage Collection)",
+            datetime: "2024/11/02 - 2024/11/03"
+        },
+        {
+            title: "NHNC 2024",
+            result: "All: 111/287, Student: 25/61",
+            datetime: "2024/11/16 - 2024/11/17"
+        },
+        {
+            title: "Platypwn 2024",
+            result: "195/328 Team(Name: NTUT_Is1ab)",
+            datetime: "2024/12/07 - 2024/12/08"
+        },
+        {
+            title: "TSCCTF 2025",
+            result: "65/509",
+            datetime: "2025/01/13 - 2025/01/16"
+        },
+        {
+            title: "Srdnlen CTF 2025",
+            result: "117/848 Team(Name: NTUT_Is1ab)",
+            datetime: "2025/01/19 - 2025/01/20"
+        },
+        {
+            title: "TUCTF 2024",
+            result: "153/485 Team(Name: NTUT_Is1ab)",
+            datetime: "2025/01/25 - 2025/01/27"
+        },
+        {
+            title: "picoCTF 2025",
+            result: "305/10460 Team(Name: NTUT Is1ab)",
+            datetime: "2025/03/08 - 2025/03/18"
+        },
+        {
+            title: "Cyber Apocalypse CTF 2025: Tales from Eldoria",
+            result: "715/8129 Team(Name: NTUT_Is1ab)",
+            datetime: "2025/03/21 - 2025/03/26"
+        },
+        {
+            title: "Dawg CTF 2025",
+            result: "451/760 Team(Name: _WIFI)",
+            datetime: "2025/04/18 - 2025/04/20"
+        },
+        {
+            title: "NHNC 2025",
+            result: "53/473 Team(Name: _WIFI)",
+            datetime: "2025/07/05 - 2025/07/07"
         }
     ]
     const participates: MemberParticipateType[] = [
@@ -57,15 +120,39 @@ export const WIFIMemberPage = () => {
         },
         {
             title: "10th AIS3 進階資安攻防競技",
-            datetime: "2024/07/29-2024/08/04"
+            datetime: "2024/07/29 - 2024/08/04"
         },
         {
             title: "HITCON CMT 2024",
-            datetime: "2024/08/23-2024/08/24"
+            datetime: "2024/08/23 - 2024/08/24"
         },
         {
-            title: "第九屆臺灣好厲駭 ( 高階培訓 & 導師深度輔導 )",
+            title: "第九屆臺灣好厲駭 (高階培訓)",
             datetime: "2024.08 - now"
+        },
+        {
+            title: "CYBERDAY 2024 資安產業日 (大專校院資安社團互動體驗區展攤)",
+            datetime: "2024/11/22"
+        },
+        {
+            title: "vLAB ICT 社群 2025 藍隊線上活動",
+            datetime: "2025/01/12 - 2025/01/18"
+        },
+        {
+            title: "SITCON 2025",
+            datetime: "2025/03/08"
+        },
+        {
+            title: "DEVCORE CONFERENCE 2025",
+            datetime: "2025/03/15"
+        },
+        {
+            title: "CYBERSEC 2025 臺灣資安大會",
+            datetime: "2025/04/15 - 2024/04/17"
+        },
+        {
+            title: "2025 AIS3 Club 北區高中職程式安全黑客松工作坊 - 助教",
+            datetime: "2025/05/03 - 2025/05/04"
         }
     ]
     const internExperiences: MemberInternType[] = []
