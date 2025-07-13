@@ -98,7 +98,7 @@ export const YoungMemberPage = () => {
             datetime: "2025.07.04"
         },
         {
-            title: "113 年度教育體系資安攻防演練 - 攻擊手",
+            title: "114 年度教育體系資安攻防演練 - 攻擊手",
             datetime: "2025"
         },
         {

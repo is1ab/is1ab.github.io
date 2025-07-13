@@ -16,6 +16,21 @@ export const Adb2MemberPage = () => {
     ]
     const competitionExperiences: MemberCompetitionExperienceType[] = [
         {
+            title: "AIS3 Pre-exam 2025",
+            result: "14/344",
+            datetime: "2025.05.24 - 2025.05.26"
+        },
+        {
+            title: "BYUCTF 2025",
+            result: "477/1074 Team(Name: NTUT_Is1ab)",
+            datetime: "2025.05.17 - 2025.05.18"
+        },
+        {
+            title: " DEF CON CTF Qualifier 2025",
+            result: "31/195 Team(Name: 星爆牛炒竹狐)",
+            datetime: "2025.04.12 - 2025.04.14"
+        },
+        {
             title: "squ1rrel CTF 2025",
             result: "227/611 Team(Name: NTUT_Is1ab)",
             datetime: "2025.04.05 - 2025.04.07"
@@ -77,12 +92,12 @@ export const Adb2MemberPage = () => {
         },
         {
             title: "資安技能金盾獎競賽 2024 初賽",
-            result: "NA",
+            result: "N/A",
             datetime: "2024.10.12"
         },
         {
             title: "AEGIS CTF 神盾盃預賽",
-            result: "NA",
+            result: "N/A",
             datetime: "2024.09.14"
         },
         {
@@ -102,40 +117,56 @@ export const Adb2MemberPage = () => {
         }
     ]
     const participates: MemberParticipateType[] = [
+        { 
+            title: "HITCON CMT 2025 - 會眾",
+            datetime: "2025.08.15 - 2025.08.16"
+        },
         {
-            title: "SITCON 2025",
+            title: "114 年度教育體系資安攻防演練 - 攻擊手",
+            datetime: "2025.07.01 - 2025.09.11"
+        },
+        {
+            title: "AIS3 CLUB 北區黑客松 2025 - 工作人員",
+            datetime: "2025.05.03 - 2025.05.04"
+        },
+        {
+            title: "114 年度國家資通安全研究院攻防演練 - 攻擊手",
+            datetime: "2025.04.21 - 2025.07.30"
+        },
+        {
+            title: "SITCON 2025 - 會眾",
             datetime: "2025.03.08"
         },
         {
-            title: "第九屆臺灣好厲駭 ( 高階培訓 )",
+            title: "第九屆臺灣好厲駭 ( 高階培訓 ) - 學員",
             datetime: "2024.08 - now"
         },
         {
-            title: "Google 資安人才培育計畫",
+            title: "Google 資安人才培育計畫 - 學員",
             datetime: "2024.07.01 - 2024.12.31"
         },
         {
-            title: "第三十四屆全國資訊安全會議 CISC 2024 工作人員",
+            title: "第三十四屆全國資訊安全會議 CISC 2024 - 工作人員",
             datetime: "2024.08.29 - 2024.08.30"
         },
         {
-            title: "HITCON CMT 2024",
+            title: "HITCON CMT 2024 - 會眾",
             datetime: "2024.08.23 - 2024.08.24"
         },
         {
-            title: "資安科技沙龍 : 與 Google 資訊安全副總裁對談",
+            title: "資安科技沙龍 : 與 Google 資訊安全副總裁對談 - 會眾",
             datetime: "2024.08.22"
         },
         {
-            title: "10th AIS3 進階資安攻防競技",
+            title: "10th AIS3 進階資安攻防競技 - 學員",
             datetime: "2024.07.29 - 2024.08.04"
         },
         {
-            title: "CYBERSEC 2024 臺灣資安大會",
+            title: "CYBERSEC 2024 臺灣資安大會 - 會眾",
             datetime: "2024.05.14"
         },
         {
-            title: "SITCON 2024",
+            title: "SITCON 2024 - 會眾",
             datetime: "2024.03.09"
         }
     ]
