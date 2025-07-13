@@ -21,6 +21,11 @@ export const Adb2MemberPage = () => {
             datetime: "2024.05.25 - 2024.05.27"
         },
         {
+            title: "BYUCTF 2025",
+            result: "477/1074 Team(Name: NTUT_Is1ab)",
+            datetime: "2025.05.17 - 2025.05.18"
+        },
+        {
             title: " DEF CON CTF Qualifier 2025",
             result: "31/195 Team(Name: 星爆牛炒竹狐)",
             datetime: "2025.04.12 - 2025.04.14"
