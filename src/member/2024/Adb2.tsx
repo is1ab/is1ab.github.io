@@ -18,7 +18,7 @@ export const Adb2MemberPage = () => {
         {
             title: "AIS3 Pre-exam 2025",
             result: "14/344",
-            datetime: "2024.05.25 - 2024.05.27"
+            datetime: "2025.05.24 - 2025.05.26"
         },
         {
             title: "BYUCTF 2025",
