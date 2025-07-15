@@ -179,7 +179,7 @@ export function Publication(){
                             Sheng-Shan Chen, Yi-Xuan Wu, Ying-Xuan Ho, Pang-Po Cheng, and <Professor star/>
                         </Author>
                         <Title title="RANsomCheck: A CNN-Transformer Model for Malware Detection Based on API Call Sequences"/>
-                        Accepted by <Journal name="38th International Conference on Industrial, Engineering & Other Applications of Applied Intelligent Systems (IEAAIE 2025)"/>, March 2025.
+                        Accepted by <Journal name="38th International Conference on Industrial, Engineering & Other Applications of Applied Intelligent Systems (IEA/AIE 2025)"/>, pp. 116-127, Kitakyushu, Japan, July 1–4, 2025.
                     </li>
                     <li>
                         <Author>
@@ -238,10 +238,24 @@ export function Publication(){
                 <ol>
                     <li>
                         <Author>
+                            <Professor star/>, Sheng-Shan Chen, Ya-Han Ho
+                        </Author>
+                        <Title title="De-Identification of Open-Source Intelligence Using Finetuned LLaMA-3"/>
+                        Submitted to <Journal name="High-Confidence Computing"/>, June 2025.                        
+                    </li>
+                    <li>
+                        <Author>
+                            Yi-Hsien Chen, Sheng-Shan Chen, Chun-Chia Huang, Sian-Yao Huang, <Professor/>, Hsu-Chun Hsiao, Chung-Kuan Chen, Cheng-Lin Yang, Chun-Ying Huang
+                        </Author>
+                        <Title title="BASGen: An Automated Breach and Attack Simulation Script Generator based on Cyber Threat Intelligence Reports"/>
+                        Submitted to <Journal name="the 32nd ACM Conference on Computer and Communications Security (CCS 2025)"/>, April 2025.                        
+                    </li>
+                    <li>
+                        <Author>
                             Sheng-Shan Chen, Tun-Wen Pai, and <Professor star/>
                         </Author>
                         <Title title="EnhanceCTI: An Enhanced Semantic Filtering and Feature Extraction Framework for Industry-Specific Cyber Threat Intelligence"/>
-                        Submitted to <Journal name="IEEE Transactions on Network and Service Management"/>, February 2025.                        
+                        Submitted to <Journal name="Computers & Security"/>, April 2025.                        
                     </li>
                     <li>
                         <Author>

@@ -12,6 +12,36 @@ export const YoungMemberPage = () => {
     ]
     const competitionExperiences: MemberCompetitionExperienceType[] = [
         {
+            title: "AIS3 Pre-exam 2025",
+            result: "44/344 Team(Name: Young_Lee)",
+            datetime: "2025.05.24 - 2025.05.26"
+        },
+        {
+            title: "MyFirst CTF 2025",
+            result: "4/80 Team 銀獎(Name: Young_Lee)",
+            datetime: "2025.05.24"
+        },
+        {
+            title: "Dawg CTF 2025",
+            result: "223/760 Team(Name: NTUT_Is1ab)",
+            datetime: "2025.04.18 - 2025.04.20"
+        },
+        {
+            title: "squ1rrel CTF 2025",
+            result: "227/611 Team(Name: NTUT_Is1ab)",
+            datetime: "2025.04.05 - 2025.04.07"
+        },
+        {
+            title: "SwampCTF 2025",
+            result: "219/751 Team(Name: NTUT_Is1ab)",
+            datetime: "2025.03.29 - 2025.03.31"
+        },
+        {
+            title: "Cyber Apocalypse CTF 2025: Tales from Eldoria",
+            result: "715/8129 Team(Name: NTUT_Is1ab)",
+            datetime: "2025.03.21 - 2025.03.26"
+        },
+        {
             title: "PwnMe CTF Quals 2025",
             result: "349/955 Team(Name: NTUT_Is1ab)",
             datetime: "2025.02.28-2025.03.02"
@@ -63,6 +93,22 @@ export const YoungMemberPage = () => {
         },
     ]
     const participates: MemberParticipateType[] = [
+        {
+            title: "CraftCon Taiwan 2025",
+            datetime: "2025.07.04"
+        },
+        {
+            title: "114 年度教育體系資安攻防演練 - 攻擊手",
+            datetime: "2025"
+        },
+        {
+            title: "2025 AIS3 Club 北區高中職程式安全黑客松工作坊 - 助教",
+            datetime: "2025.05.03 - 2025.05.04"
+        },
+        {
+            title: "CyCraft C++ 讀書會 2025",
+            datetime: "2025.03.22"
+        },
         {
             title: "DEVCORE CONFERENCE 2025",
             datetime: "2025.03.15"

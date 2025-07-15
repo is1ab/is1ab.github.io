@@ -1,6 +1,6 @@
 import Logo from "../assets/logo.png"
 import { Table } from "antd"
-import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../type/MemberCertificateType"
+import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType,MemberZeroDayType } from "../type/MemberCertificateType"
 import { useLocation } from "react-router-dom"
 import { useEffect } from "react"
 
@@ -38,6 +38,21 @@ const experienceColumns = [
         className: "text-center"
     }
 ]
+const zerodayColumns = [
+    {
+        title: "標題",
+        dataIndex: "title"
+    },
+    {
+        title: "編號",
+        dataIndex: "id"
+    },
+    {
+        title: "時間",
+        dataIndex: "datetime",
+        className: "text-center"
+    }
+]
 
 const internColumns = [
     {
@@ -68,12 +83,14 @@ export const Sample = (props: {
     journals: MemberArticleType[]
     conferences: MemberArticleType[]
     techConfs: MemberArticleType[]
+    zeroday?: MemberZeroDayType[]
 }) => {
     const { pathname } = useLocation()
     const experiences = props.experiences.sort((a, b) => b.datetime.toString().includes("now") ? 1 : b.datetime.toString().localeCompare(a.datetime.toString()))
     const certificates = props.certificates.sort((a, b) =>  b.datetime.toString().includes("now") ? 1 : b.datetime.toString().localeCompare(a.datetime.toString()))
     const participates = props.participates.sort((a, b) =>  b.datetime.toString().includes("now") ? 1 : b.datetime.toString().localeCompare(a.datetime.toString()))
     const interns = props.intern.sort((a, b) =>  b.datetime.toString().includes("now") ? 1 : b.datetime.toString().localeCompare(a.datetime.toString()))
+    const zerodays = props.zeroday?.sort((a, b) =>  b.datetime.toString().includes("now") ? 1 : b.datetime.toString().localeCompare(a.datetime.toString()))
     const TitleName = () => {
         if(props.enName === undefined){
             return <h1 className="text-white">{props.zhName}</h1>
@@ -146,6 +163,24 @@ export const Sample = (props: {
                                 ></Table>
                             </div>
                         </div>
+                </div>
+            }
+            {
+                zerodays && zerodays.length > 0 &&
+                <div className="w-100 d-flex flex-row" style={{gap: "3rem"}}>
+                    <div className="w-100">
+                        <div className="p-3 w-100" style={{backgroundColor: "#7a1b1b"}}>
+                            <h5 className="fw-bold text-white m-0">ZeroDay</h5>
+                        </div>
+                        <div className="p-3 w-100">
+                            <Table 
+                                columns={zerodayColumns} 
+                                dataSource={zerodays!} 
+                                bordered 
+                                pagination={false}
+                            ></Table>
+                        </div>
+                    </div>
                 </div>
             }
             { certificates.length > 0 &&

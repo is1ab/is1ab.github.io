@@ -1,6 +1,6 @@
 import { Sample } from "../Sample"
 import Uriah from "../../assets/member/CHW.jpg"
-import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../../type/MemberCertificateType"
+import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType,MemberZeroDayType } from "../../type/MemberCertificateType"
 
 export const CHWMemberPage = () => {
     const bio = <div className="d-flex flex-column gap-3">
@@ -15,15 +15,42 @@ export const CHWMemberPage = () => {
         <p>我只有 Github 沒有 Tinder </p>
         <p>Hey, I'm CHW, but you don't have to call me that if you don't want to. My username is chw41.</p>
         <p> I only have a GitHub account, no Tinder.</p>
-        <p>Github：<a href="https://github.com/Chw41" target="_blank">github.com/Chw41</a></p>
-        <p>Linkedin：<a href="https://tw.linkedin.com/in/chw41" target="_blank">linkedin.com/chw41</a></p>
-        <div style={{ marginTop: '20px' }}> <img src="https://raw.githubusercontent.com/Chw41/Chw41/d28284aca3245575b3222eb8bd3532d49a23afbc/github-contribution-grid-snake.svg" alt="CHW snake"/></div>
+        <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt6DXuvit57V1DmjnlLcwst4O-sTL5D37gIQ&s" alt="GitHub" width="25" style={{ verticalAlign: 'text-bottom', marginRight: '10px' }} />
+            Github：<a href="https://github.com/Chw41" target="_blank" rel="noopener noreferrer">github.com/Chw41</a>
+        </p>
+        <p><img src="https://hackmd.io/favicon.ico" alt="HackMD" width="25" style={{ verticalAlign: 'text-bottom', marginRight: '10px' }} />
+            HackMD：<a href="https://hackmd.io/@CHW" target="_blank" rel="noopener noreferrer">hackmd.io/@CHW</a>
+        </p>
+        <p><img src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" alt="LinkedIn" width="25" style={{ verticalAlign: 'text-bottom', marginRight: '10px' }} />
+            LinkedIn：<a href="https://tw.linkedin.com/in/chw41" target="_blank" rel="noopener noreferrer">linkedin.com/chw41</a>
+        </p>
+        <img src="https://raw.githubusercontent.com/Chw41/Chw41/output/github-contribution-grid-snake-dark.svg?palette=github-dark" alt="GitHub Contribution Snake" width="900" height="200" />
         <form>
             <button type="button" onClick={() => { alert('W3lc0m3 CHW !'); window.location.href = 'https://github.com/Chw41';}}> DON'T click </button>
         </form>
     </div>
     const certificates: MemberCertificateType[] = []
     const competitionExperiences: MemberCompetitionExperienceType[] = [
+        {
+            title: "DEF CON CTF Qualifier 2025",
+            result: " Team : Starburst Beef Stir-Fried BambooFox ; Rank : 31 ",
+            datetime: "2025.04"
+        },
+        {
+            title: "Cyber Apocalypse CTF 2025: Tales from Eldoria",
+            result: " Team : TakeKitsune ; Rank : 752/8129 ",
+            datetime: "2025.03"
+        },
+        {
+            title: "Kashi CTF 2025",
+            result: " Team : TakeKitsune ; Rank : 48/1174 ",
+            datetime: "2025.02"
+        },
+        {
+            title: "AIS3 EOF CTF 2025 final",
+            result: " Team : I'm down QQ ; Rank : 6 ",
+            datetime: "2024.09"
+        },
         {
             title: "2024 AEGIS 神盾盃 Qual",
             result: " Team : I'm down QQ ; Rank : 3 ",
@@ -67,8 +94,20 @@ export const CHWMemberPage = () => {
     ]
     const participates: MemberParticipateType[] = [
         {
+            title: "行政院國家資通安全網路攻防演練攻擊手",
+            datetime: "2025.04 - now"
+        },
+        {
+            title: "CYBERSEC 2025 臺灣資安大會",
+            datetime: "2025.04"
+        }, 
+        {
+            title: "DEVCORE CONFERENCE 2025",
+            datetime: "2025.03"
+        }, 
+        {
             title: "國家資通安全研究院 電商產業外網資安檢測服務攻擊手",
-            datetime: "2024.12 - now"
+            datetime: "2024.12 - 2025.03"
         }, 
         {
             title: "第九屆臺灣好厲駭 (高階培訓 & 導師深度輔導)",
@@ -103,7 +142,7 @@ export const CHWMemberPage = () => {
         {
             company: "Cymetrics 新加坡商甯寶數位科技有限公司台灣分公司",
             info: "Security Engineering Intern: Pentesting & Vulnerability scanning",
-            datetime: "2024.09 - now"
+            datetime: "2024.09 - 2025.02"
             },
         {
         company: "TSMC 台灣積體電路製造股份有限公司",
@@ -128,6 +167,26 @@ export const CHWMemberPage = () => {
     ]
     const journals: MemberArticleType[] = []
     const conferences: MemberArticleType[] = []
+    const zeroday: MemberZeroDayType[] = [
+        {
+            id: ( 
+                <div>
+                    <a href="https://zeroday.hitcon.org/vulnerability/ZD-2024-00674">ZD-2024-00674</a> 
+                </div>
+            ),
+            title: "KFC 數位智能未來店 取餐權限漏洞 🍗",
+            datetime: "2024.08.12"
+        },
+        {
+            id: ( 
+                <div>
+                    <a href="https://zeroday.hitcon.org/vulnerability/ZD-2024-00320">ZD-2024-00320</a> 
+                </div>
+            ),
+            title: "非常機車官網 SQL Injection 🛵 ",
+            datetime: "2024.06.05"
+        }
+]
     const techConfs: MemberArticleType[] = []
     return (
         <Sample
@@ -140,6 +199,7 @@ export const CHWMemberPage = () => {
             experiences={competitionExperiences}
             participates={participates}
             certificates={certificates}
+            zeroday={zeroday}
             journals={journals}
             conferences={conferences}
             techConfs={techConfs}

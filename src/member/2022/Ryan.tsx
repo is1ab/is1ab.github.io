@@ -190,8 +190,8 @@ export const RyanMemberPage = () => {
             authors: "Kunji Li、Sheng-Shan Chen, Chin-Yu Sun*",
             title: "Analysis and Mitigation Strategies for Prompt Injection Attacks",
             target: "Communications of the CCISA",
-            details: "Vol. 30 No. 3 Aug. 2024",
-            doi: "https://scholar.google.com.tw/citations?view_op=view_citation&hl=zh-TW&user=lgOY-SoAAAAJ&citation_for_view=lgOY-SoAAAAJ:zYLM7Y9cAGgC"
+            details: "Vol. 30 No. 3 Aug. 2024. https://cccisa.ccisa.org.tw/article/view/3084",
+            doi: ""
         },
         {
             authors: "Sheng-Shan Chen, Ren-Hung Hwang*, Asad Ali, Ying-Dar Lin, Yu-Chih Wei, Tun-Wen Pai*",
@@ -203,8 +203,14 @@ export const RyanMemberPage = () => {
     ]
     const conferences: MemberArticleType[] = [
         {
+            authors: "Sheng-Shan Chen, Yi-Xuan Wu, Ying-Xuan Ho, Pang-Po Cheng, and Chin-Yu Sun*",
+            title: "RANsomCheck: A CNN-Transformer Model for Malware Detection Based on API Call Sequences",
+            target: "Accepted by 38th International Conference on Industrial, Engineering & Other Applications of Applied Intelligent Systems (IEAAIE 2025)",
+            details: "March 2025"
+        },
+        {
             authors: "Sheng-Shan Chen, Ren-Hung Hwang, Chin-Yu Sun, Ying-Dar Lin, Tun-Wen Pai*",
-            title: "Enhancing Cyber Threat Intelligence with Named Entity Recognition Using BERT-CRF,",
+            title: "Enhancing Cyber Threat Intelligence with Named Entity Recognition Using BERT-CRF",
             target: "GLOBECOM 2023 - 2023 IEEE Global Communications Conference",
             details: "Kuala Lumpur, Malaysia, 2023, pp. 7532-7537"
         },

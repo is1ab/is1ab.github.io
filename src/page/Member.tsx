@@ -17,85 +17,16 @@ export function Member(){
     const masterUserTableItem = [
         {
             key: '1',
-            name: "張家維",
-            joinDate: "2022.12",
-            role: "碩二，資安碩士",
-            coAdvisor: '',
-            experience: "Cymetrics 實習生、前台積電-資訊安全部暑期實習生、前動力安全資訊股份有限公司",
-            certificate: "iPAS 資訊安全工程師檢定（初級）",
-            website: "/#/Member/2023/CHW"
-        },
-        {
-            key: '2',
-            name: "林幸慧",
-            joinDate: "2022.12",
-            role: "碩二，資安碩士",
-            coAdvisor: '',
-            experience: "前果核數位實習生，前中華資安國際股份有限公司實習生",
-            certificate: "iPAS 資訊安全工程師檢定（初級）",
-            website: "/#/Member/2023/Ravin"
-        },
-        {
-            key: '3',
-            name: "陳荷文",
-            joinDate: "2022.12",
-            role: "碩二，資安碩士",
-            coAdvisor: '',
-            experience: "",
-            certificate: ""
-        },
-        {
-            key: '4',
-            name: "許貽昇",
-            joinDate: "2023.03",
-            role: "碩二，資安碩士",
-            coAdvisor: '',
-            experience: "奧義智慧科技股份有限公司實習生",
-            certificate: "iPAS 資訊安全工程師檢定（初級）",
-            website: "/#/Member/2023/Eason"
-        },
-        {
-            key: '5',
-            name: "曹凱翔",
-            joinDate: "2023.03",
-            role: "碩二，資安碩士",
-            coAdvisor: '',
-            experience: "中華資安國際股份有限公司實習生",
-            certificate: "iPAS 資訊安全工程師檢定（初級）",
-            website: "/#/Member/2023/Bobo"
-        },
-        {
-            key: '6',
-            name: "顏柏耀",
-            joinDate: "2023.03",
-            role: "碩二，資安碩士",
-            coAdvisor: '',
-            experience: "",
-            certificate: "iPAS 資訊安全工程師檢定（初級）",
-            website: "/#/Member/2023/Y"
-        },
-        {
-            key: '7',
-            name: "廖家賢",
-            joinDate: "2023.08",
-            role: "碩二，資安碩士",
-            coAdvisor: '林敬皇',
-            experience: "前台灣圖靈鏈股份有限公司實習生",
-            certificate: "iPAS 資訊安全工程師檢定（初級）",
-            website: "/#/Member/2023/Salt"
-        },
-        {
-            key: '8',
             name: "吳冠廷",
             joinDate: "2023.12",
             role: "碩一，資安碩士",
             coAdvisor: '',
-            experience: "保華資安股份有限公司實習生",
+            experience: "前保華資安股份有限公司實習生",
             certificate: "iPAS 資訊安全工程師檢定（初級）",
             website: "/#/Member/2024/Guan4Tou2"
         },
         {
-            key: '9',
+            key: '2',
             name: "李宇揚",
             joinDate: "2023.12",
             role: "碩一，資安碩士",
@@ -105,7 +36,7 @@ export function Member(){
             website: "/#/Member/2024/Young"
         },
         {
-            key: '10',
+            key: '3',
             name: "黃廷翰",
             joinDate: "2023.12",
             role: "碩一，資安碩士",
@@ -115,7 +46,7 @@ export function Member(){
             website: "/#/Member/2024/Jason"
         },
         {
-            key: '11',
+            key: '4',
             name: "陳彥宇",
             joinDate: "2024.01",
             role: "碩一，資工碩士",
@@ -125,17 +56,17 @@ export function Member(){
             website: "/#/Member/2024/Adb2"
         },
         {
-            key: '12',
+            key: '5',
             name: "李佳軒",
             joinDate: "2024.01",
             role: "碩一，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "iPAS 資訊安全工程師檢定（初級）",
+            certificate: "iPAS 資訊安全工程師檢定（中級）",
             website: "/#/Member/2024/WIFI"
         },
         {
-            key: '13',
+            key: '6',
             name: "王立翔",
             joinDate: "2024.04",
             role: "碩一，資工碩士",
@@ -145,7 +76,7 @@ export function Member(){
             website: "/#/Member/2024/PaulWang"
         },
         {
-            key: '14',
+            key: '7',
             name: "黃奕評",
             joinDate: "2024.06",
             role: "碩一，資安碩士",
@@ -155,7 +86,7 @@ export function Member(){
             website: "/#/Member/2024/ypp"
         },
         {
-            key: '15',
+            key: '8',
             name: "廖哲霈",
             joinDate: "2024.08",
             role: "碩一，資工碩士",
@@ -165,17 +96,17 @@ export function Member(){
             website: "/#/Member/2024/RobertLiao"
         },
         {
-            key: '16',
-            name: "李宜鴻",
-            joinDate: "2024.11",
+            key: '9',
+            name: "黃昱翔",
+            joinDate: "2025.05",
             role: "碩一，資安碩士",
-            coAdvisor: '陳昱圻',
-            experience: "叡揚資訊股份有限公司實習生",
+            coAdvisor: '',
+            experience: "Cymetrics 實習生",
             certificate: "iPAS 資訊安全工程師檢定（初級）",
-            website: "/#/Member/2024/Rock"
+            website: "/#/member/2024/Marco"
         },
         {
-            key: '17',
+            key: '10',
             name: "連羿婷",
             joinDate: "2024.12",
             role: "碩零，資安碩士",
@@ -185,7 +116,7 @@ export function Member(){
             website: ""
         },
         {
-            key: '18',
+            key: '11',
             name: "沈柏安",
             joinDate: "2024.12",
             role: "碩零，資安碩士",
@@ -195,7 +126,7 @@ export function Member(){
             website: ""
         },
         {
-            key: '19',
+            key: '12',
             name: "郭竣安",
             joinDate: "2025.01",
             role: "碩零，資安碩士",
@@ -205,7 +136,7 @@ export function Member(){
             website: "/#/member/2025/JunAn"
         },
         {
-            key: '20',
+            key: '13',
             name: "劉章佑",
             joinDate: "2025.01",
             role: "碩零，資安碩士",
@@ -215,7 +146,7 @@ export function Member(){
             website: "/#/member/2025/Yueric"
         },
         {
-            key: '21',
+            key: '14',
             name: "廖棻俞",
             joinDate: "2025.01",
             role: "碩零，資工碩士",
@@ -224,7 +155,7 @@ export function Member(){
             certificate: ""
         },
         {
-            key: '22',
+            key: '15',
             name: "劉業閎",
             joinDate: "2025.03",
             role: "碩零，資工碩士",
@@ -233,7 +164,7 @@ export function Member(){
             certificate: ""
         },
         {
-            key: '23',
+            key: '16',
             name: "趙尉丞",
             joinDate: "2025.03",
             role: "碩零，資安碩士",
@@ -241,7 +172,17 @@ export function Member(){
             experience: "",
             certificate: "",
             website: "/#/member/2025/Willy"
-        }
+        },
+        {
+            key: '17',
+            name: "鄭羽農",
+            joinDate: "2025.04",
+            role: "碩零，資工碩士",
+            coAdvisor: '郭忠義',
+            experience: "",
+            certificate: "",
+            website: ""
+        },
     ]
     const consultantUserTableItem = [
         {
@@ -298,6 +239,25 @@ export function Member(){
             progress: 0
         },
         {
+            group: "114#2",
+            members: [
+                {
+                    name: "林希芸",
+                    intern: ""
+                },
+                {
+                    name: "潘雙永",
+                    intern: ""
+                },
+                {
+                    name: "李馥亘",
+                    intern: ""
+                }
+            ],
+            note: "參與SunBird計畫（dcTrack 組）",
+            progress: 0
+        },
+        {
             group: "113#1",
             members: [
                 {
@@ -317,7 +277,7 @@ export function Member(){
                     intern: ""
                 }
             ],
-            note: "專案型評測系統設計方法",
+            note: "專案型評測系統設計方法（通過大專生計畫 - 編號:114-2813-C-027-053-E）",
             progress: 5
         },
         {
@@ -356,7 +316,11 @@ export function Member(){
         {
             name: "劉宜蓁",
             note: "國立臺北科技大學 - 智慧自動化工程科（專四）"
-        }
+        },
+        {
+            name: "陳昱臻",
+            note: "國立東華大學 - 資訊工程學系"
+        },
     ]
     const tableColumns: ColumnType<any>[] = [
         {
