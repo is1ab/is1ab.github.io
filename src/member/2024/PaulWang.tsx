@@ -12,7 +12,12 @@ export const PaulWangMemberPage = () => {
                     <p>- <a href="https://github.com/paulwang19/ctf-writeups" target="_blank" rel="noopener noreferrer">我的競賽 CTF</a></p>
                     <p>- <a href="https://github.com/paulwang19/crackmes-writeups" target="_blank" rel="noopener noreferrer">我的 Crackmes</a></p>
                 </div>
-    const certificates: MemberCertificateType[] = []
+    const certificates: MemberCertificateType[] = [
+        {
+            title: "iPAS 資訊安全工程師-初級能力鑑定",
+            datetime: "2025.06.10"
+        }
+    ]
     const competitionExperiences: MemberCompetitionExperienceType[] = [
         {
             title: "TSCCTF 2025",
