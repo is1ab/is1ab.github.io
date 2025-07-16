@@ -27,6 +27,16 @@ export function Member(){
         },
         {
             key: '2',
+            name: "李宜鴻",
+            joinDate: "2024.11",
+            role: "碩一，資安碩士",
+            coAdvisor: '陳昱圻',
+            experience: "",
+            certificate: "iPAS 資訊安全工程師檢定（初級）",
+            website: "/#/Member/2024/Rock"
+        },
+        {
+            key: '3',
             name: "李宇揚",
             joinDate: "2023.12",
             role: "碩一，資安碩士",
@@ -36,7 +46,7 @@ export function Member(){
             website: "/#/Member/2024/Young"
         },
         {
-            key: '3',
+            key: '4',
             name: "黃廷翰",
             joinDate: "2023.12",
             role: "碩一，資安碩士",
@@ -46,7 +56,7 @@ export function Member(){
             website: "/#/Member/2024/Jason"
         },
         {
-            key: '4',
+            key: '5',
             name: "陳彥宇",
             joinDate: "2024.01",
             role: "碩一，資工碩士",
@@ -56,17 +66,17 @@ export function Member(){
             website: "/#/Member/2024/Adb2"
         },
         {
-            key: '5',
+            key: '6',
             name: "李佳軒",
             joinDate: "2024.01",
             role: "碩一，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "iPAS 資訊安全工程師檢定（中級）",
+            certificate: "iPAS 資訊安全工程師檢定（中級）、iPAS 資訊安全工程師檢定（初級）",
             website: "/#/Member/2024/WIFI"
         },
         {
-            key: '6',
+            key: '7',
             name: "王立翔",
             joinDate: "2024.04",
             role: "碩一，資工碩士",
@@ -76,7 +86,7 @@ export function Member(){
             website: "/#/Member/2024/PaulWang"
         },
         {
-            key: '7',
+            key: '8',
             name: "黃奕評",
             joinDate: "2024.06",
             role: "碩一，資安碩士",
@@ -86,7 +96,7 @@ export function Member(){
             website: "/#/Member/2024/ypp"
         },
         {
-            key: '8',
+            key: '9',
             name: "廖哲霈",
             joinDate: "2024.08",
             role: "碩一，資工碩士",
@@ -96,7 +106,7 @@ export function Member(){
             website: "/#/Member/2024/RobertLiao"
         },
         {
-            key: '9',
+            key: '10',
             name: "黃昱翔",
             joinDate: "2025.05",
             role: "碩一，資安碩士",
@@ -106,7 +116,7 @@ export function Member(){
             website: "/#/member/2024/Marco"
         },
         {
-            key: '10',
+            key: '11',
             name: "連羿婷",
             joinDate: "2024.12",
             role: "碩零，資安碩士",
@@ -116,7 +126,7 @@ export function Member(){
             website: ""
         },
         {
-            key: '11',
+            key: '12',
             name: "沈柏安",
             joinDate: "2024.12",
             role: "碩零，資安碩士",
@@ -126,7 +136,7 @@ export function Member(){
             website: ""
         },
         {
-            key: '12',
+            key: '13',
             name: "郭竣安",
             joinDate: "2025.01",
             role: "碩零，資安碩士",
@@ -136,7 +146,7 @@ export function Member(){
             website: "/#/member/2025/JunAn"
         },
         {
-            key: '13',
+            key: '14',
             name: "劉章佑",
             joinDate: "2025.01",
             role: "碩零，資安碩士",
@@ -146,7 +156,7 @@ export function Member(){
             website: "/#/member/2025/Yueric"
         },
         {
-            key: '14',
+            key: '15',
             name: "廖棻俞",
             joinDate: "2025.01",
             role: "碩零，資工碩士",
@@ -155,7 +165,7 @@ export function Member(){
             certificate: ""
         },
         {
-            key: '15',
+            key: '16',
             name: "劉業閎",
             joinDate: "2025.03",
             role: "碩零，資工碩士",
@@ -164,7 +174,7 @@ export function Member(){
             certificate: ""
         },
         {
-            key: '16',
+            key: '17',
             name: "趙尉丞",
             joinDate: "2025.03",
             role: "碩零，資安碩士",
@@ -174,7 +184,7 @@ export function Member(){
             website: "/#/member/2025/Willy"
         },
         {
-            key: '17',
+            key: '18',
             name: "鄭羽農",
             joinDate: "2025.04",
             role: "碩零，資工碩士",
