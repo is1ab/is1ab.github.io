@@ -211,7 +211,7 @@ export function Alumni(){
             name: "陳世昂",
             joinTime: "2024.09-2025.08",
             title: "程式能力、物件導向程式設計TA",
-            status: "北科資工系（大學部）",
+            status: "國立臺北科技大學資訊工程系（大學部）",
             note: "N/A"
         },
         {
