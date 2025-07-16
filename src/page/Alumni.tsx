@@ -59,16 +59,6 @@ export function Alumni(){
             website: "/#/Member/2023/Eason"
         },
         {
-            name: "李宜鴻",
-            joinDate: "2024.11-pres.",
-            title: "基於 Transformer 模型於程式碼漏洞自動修復之研究",
-            ability: "人工智慧",
-            experience: "資訊安全碩士學位學程",
-            status: "口試準備中",
-            certificate: "與 陳昱圻 老師共同指導",
-            website: "/#/Member/2024/Rock"
-        },
-        {
             name: "陳丹妮",
             joinDate: "2022.09-2024.08",
             title: "輔助乳癌術後重建病人醫病共同決策之人工智慧聊天機器人",
