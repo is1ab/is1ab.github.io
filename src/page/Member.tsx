@@ -197,16 +197,6 @@ export function Member(){
     const consultantUserTableItem = [
         {
             key: '1',
-            name: "黃政",
-            joinDate: "2023.04",
-            role: "",
-            coAdvisor: '',
-            ability: "程式能力、物件導向程式設計 TA",
-            experience: "",
-            certificate: ""
-        },
-        {
-            key: '2',
             name: "林妍蓁",
             joinDate: "2024.06",
             role: "",
@@ -215,18 +205,8 @@ export function Member(){
             experience: "",
             certificate: ""
         },
-         {
-            key: '3',
-            name: "陳世昂",
-            joinDate: "2024.09",
-            role: "",
-            coAdvisor: '',
-            ability: "程式能力、物件導向程式設計TA",
-            experience: "",
-            certificate: ""
-        },
         {
-            key: '4',
+            key: '2',
             name: "張意昌",
             joinDate: "2024.09",
             role: "",
