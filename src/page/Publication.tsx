@@ -40,10 +40,11 @@ export function Publication(){
                 <ol>
                     <li>
                         <Author>
-                            李昆積，陳勝舢，孫勤昱
+                            Kun-Ji Li, Sheng-Shan Chen, and <Professor coAuther/>
                         </Author>
-                        <Title title="大語言模型中的提示注入攻擊分析與緩解策略"/>
-                        Accepted by <Journal name="Communications of the CCISA"/>, September 2024.
+                        <Title title="Analysis and Mitigation Strategies for Prompt Injection Attacks"/>
+                        Accepted by <Journal name="Communications of the CCISA"/>, 30(3), pp. 1-19, September 2024.
+                        
                     </li>
                     <li>
                         Shih-Jung Lin, <Professor coAuther/>, Dan-Ni Chen, Yi-No Kang, Nai Ming Lai, Kee-Hsin Chen, Chiehfeng Chen, 
