@@ -187,6 +187,13 @@ export const RyanMemberPage = () => {
     ]
     const journals: MemberArticleType[] = [
         {
+            authors: "Nai-Hsuan Hwang, Sheng-Shan Chen, Tun-Wen Pai*, Mary Hsin-Ju Ko, Ya-Lan Yu, and Hui-Ju Chen*",
+            title: "Automatic assessment of fine motor development in children through hand-drawn shape images",
+            target: "Pediatrics & Neonatology",
+            details: "2025, ISSN 1875-9572",
+            doi: "https://doi.org/10.1016/j.pedneo.2025.04.001"
+        },
+        {
             authors: "Kunji Li、Sheng-Shan Chen, Chin-Yu Sun*",
             title: "Analysis and Mitigation Strategies for Prompt Injection Attacks",
             target: "Communications of the CCISA",
