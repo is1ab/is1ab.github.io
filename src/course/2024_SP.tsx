@@ -27,7 +27,26 @@ export function SP_2024() {
           domain knowledge in their research stage.
         </p>
       </div>
-
+      
+      <div className="p-3 w-100" style={{ backgroundColor: "#7a1b1b" }}>
+        <h5 className="fw-bold text-white m-0">課程內容</h5>
+      </div>
+      
+      <div className="py-3 d-flex flex-column gap-3">
+        <li>軟體及程式安全簡介</li>
+        <li>程式碼安全設計原則</li>
+        <li>SSDLC</li>
+        <li>靜態分析與程式碼審查</li>
+        <li>版本控制</li>
+        <li>GDB</li>
+        <li>字串安全</li>
+        <li>整數安全</li>
+        <li>指標安全</li>
+        <li>加殼技術</li>
+        <li>Testing</li>
+        <li>Fuzzing</li>
+      </div>
+      
       <div className="p-3 w-100" style={{ backgroundColor: "#7a1b1b" }}>
         <h5 className="fw-bold text-white m-0">其他相關教學資源</h5>
       </div>
