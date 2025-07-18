@@ -1,10 +1,9 @@
 export function SP_2025() {
   return (
     <div className="d-flex flex-column gap-3">
-      <h4 className="text-center">113-2 安全程式設計</h4>
+      <h4 className="text-center">112-2 安全程式設計</h4>
+      
       <div className="p-3 w-100" style={{ backgroundColor: "#7a1b1b" }}>
-
-        <div className="p-3 w-100" style={{ backgroundColor: "#7a1b1b" }}>
         <h5 className="fw-bold text-white m-0">課程簡介</h5>
       </div>
       
