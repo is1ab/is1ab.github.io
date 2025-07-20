@@ -75,11 +75,15 @@ export const RyanMemberPage = () => {
     ]
     const participates: MemberParticipateType[] = [
         {
+            title: "榮獲第九屆臺灣好厲駭高階導師培訓-表現優異獎",
+            datetime: "2025.07.19"
+        },
+        {
             title: "臺灣師範大學資工系碩士班「 113-1 高等資安攻防演練 」課程講師",
             datetime: "2024.11.22"
         },
         {
-            title: "第八屆臺灣好厲駭高階導師培訓-表現優異獎",
+            title: "榮獲第八屆臺灣好厲駭高階導師培訓-表現優異獎",
             datetime: "2024.09.01"
         },
         {
@@ -95,23 +99,11 @@ export const RyanMemberPage = () => {
             datetime: "2024.07.02"
         },
         {
-            title: "參加 AWS - Machine Learning for Pipeline",
-            datetime: "2024.06.27"
-        },
-        {
             title: "擔任第 53 屆全國技能競賽暨國手選拔賽青年組「網路安全」職類解說技術顧問",
             datetime: "2024.06.17"
         },
         {
-            title: "參加 AWS - Architecting on AWS",
-            datetime: "2024.03.12"
-        },
-        {
-            title: "參與資安院「建構威脅情資知識圖及攻擊事件自動化辨識技術」產學案",
-            datetime: "2023.10.18"
-        },
-        {
-            title: "榮獲 DEVCORE 戴夫寇爾 獎學金資格",
+            title: "榮獲DEVCORE戴夫寇爾獎學金",
             datetime: "2024.06.17"
         },
         {
@@ -119,20 +111,8 @@ export const RyanMemberPage = () => {
             datetime: "2023.09.01"
         },
         {
-            title: "擔任 HITCON CMT 2023 志工",
-            datetime: "2023.08.18"
-        },
-        {
             title: "擔任 AIS3 2023 跨領域資安組助教",
             datetime: "2023.07.30"
-        },
-        {
-            title: "參加 Trend Micro 2022 Experience Day",
-            datetime: "2022.12.10"
-        },
-        {
-            title: "第七屆臺灣好厲駭高階培訓",
-            datetime: "2022.09.01"
         },
         {
             title: (
@@ -142,10 +122,6 @@ export const RyanMemberPage = () => {
                 </div>
             ),
             datetime: "2022.08.07"
-        },
-        {
-            title: "參與 CCoE 資安卓越計畫-博碩論文定題 網路威脅情資組",
-            datetime: "2022.08.01"
         },
         {
             title: "錄取 2021 AIS3 新型態資安暑期課程",
@@ -169,7 +145,7 @@ export const RyanMemberPage = () => {
             datetime: "2022.04.23"
         },
         {
-            title: "第六屆臺灣好厲駭高階培訓",
+            title: "錄取第六屆臺灣好厲駭高階培訓",
             datetime: "2021.09.01"
         },
     ]
