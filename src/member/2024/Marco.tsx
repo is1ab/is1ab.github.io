@@ -15,6 +15,16 @@ export const MarcoMemberPage = () => {
     ]
     const raceExperiences: MemberCompetitionExperienceType[] = [
         {
+            title: "InfoSec Taiwan CTF 2025 / 隊名：Archetype",
+            result: "第 26 名（48%）",
+            datetime: "2025"
+        },
+        {
+            title: "Hack The Tainan - 紅藍軍攻防資安競賽 / 隊名：高端的注入攻擊",
+            result: "第 8 名（32%）",
+            datetime: "2025"
+        },
+        {
             title: "AIS3 EOF CTF 進階資安攻防演練 / 隊名：隊名為 20 個字元以內",
             result: "第 7 名（63%）",
             datetime: "2025"
@@ -66,6 +76,10 @@ export const MarcoMemberPage = () => {
         }
     ]
     const participates: MemberParticipateType[] = [
+    {
+        "title": "教育部資訊及科技教育司 - 114年度教育體系資安攻防演練 攻防檢測員",
+        "datetime": "2025"
+    },
     {
         "title": "國家資通安全研究院 - 網路攻防演練 攻擊手",
         "datetime": "2025"
@@ -123,7 +137,7 @@ export const MarcoMemberPage = () => {
     const internExperiences: MemberInternType[] = [
         {
             company: "AIFT (OneDegree)",
-            info: "Security Research Engineering Intern, Cymetrics",
+            info: "Security Engineering Intern, Cymetrics",
             datetime: "2025.03 - Present",
         },
     ]
@@ -327,7 +341,7 @@ export const MarcoMemberPage = () => {
             zhName="黃昱翔"
             enName="Marco"
             avatar={logo}
-            institutes={["國立臺北科技大學 資訊安全碩士學位學程 碩一"]}
+            institutes={["國立臺北科技大學 資訊安全碩士學位學程 碩二"]}
             bio={bio}
             experiences={raceExperiences}
             certificates={certificates}
