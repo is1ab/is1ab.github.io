@@ -8,6 +8,10 @@ export const YoungMemberPage = () => {
         {
             title: "iPAS 資訊安全工程師-初級能力鑑定",
             datetime: "2024.06.21"
+        },
+        {
+            title: "Google Cybersecurity Certificate",
+            datetime: "2025.06.26"
         }
     ]
     const competitionExperiences: MemberCompetitionExperienceType[] = [
@@ -25,6 +29,11 @@ export const YoungMemberPage = () => {
             title: "Dawg CTF 2025",
             result: "223/760 Team(Name: NTUT_Is1ab)",
             datetime: "2025.04.18 - 2025.04.20"
+        },
+        {
+            title: "DEF CON CTF Qualifier 2025",
+            result: "31/195 Team(Name: 星爆牛炒竹狐)",
+            datetime: "2025.04.12 - 2025.04.14"
         },
         {
             title: "squ1rrel CTF 2025",
@@ -99,7 +108,7 @@ export const YoungMemberPage = () => {
         },
         {
             title: "114 年度教育體系資安攻防演練 - 攻擊手",
-            datetime: "2025"
+            datetime: "2025.07.01 - 2025.09.11"
         },
         {
             title: "2025 AIS3 Club 北區高中職程式安全黑客松工作坊 - 助教",
@@ -137,7 +146,7 @@ export const YoungMemberPage = () => {
             zhName="李宇揚"
             enName="Li, Yu-Yang"
             avatar={Young}
-            institutes={["國立臺北科技大學 資訊安全碩士學位學程 碩一"]}
+            institutes={["國立臺北科技大學 資訊安全碩士學位學程 碩二"]}
             bio={bio}
             experiences={competitionExperiences}
             certificates={certificates}
