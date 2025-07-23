@@ -341,7 +341,7 @@ export const MarcoMemberPage = () => {
             zhName="黃昱翔"
             enName="Marco"
             avatar={logo}
-            institutes={["國立臺北科技大學 資訊安全碩士學位學程 碩一"]}
+            institutes={["國立臺北科技大學 資訊安全碩士學位學程 碩二"]}
             bio={bio}
             experiences={raceExperiences}
             certificates={certificates}
