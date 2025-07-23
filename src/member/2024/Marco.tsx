@@ -123,7 +123,7 @@ export const MarcoMemberPage = () => {
     const internExperiences: MemberInternType[] = [
         {
             company: "AIFT (OneDegree)",
-            info: "Security Research Engineering Intern, Cymetrics",
+            info: "Security Engineering Intern, Cymetrics",
             datetime: "2025.03 - Present",
         },
     ]
