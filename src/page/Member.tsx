@@ -123,7 +123,7 @@ export function Member(){
             coAdvisor: '',
             experience: "",
             certificate: "",
-            website: ""
+            website: "/#/member/2025/Ting"
         },
         {
             key: '12',
