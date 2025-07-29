@@ -171,7 +171,8 @@ export function Member(){
             role: "碩零，資工碩士",
             coAdvisor: '',
             experience: "",
-            certificate: ""
+            certificate: "",
+            website: "/#/member/2025/Yeyeye",
         },
         {
             key: '17',
