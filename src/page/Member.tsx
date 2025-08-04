@@ -312,6 +312,10 @@ export function Member(){
             name: "陳昱臻",
             note: "國立東華大學 - 資訊工程學系"
         },
+        {
+            name: "江赫霆",
+            note: "-"
+        }
     ]
     const tableColumns: ColumnType<any>[] = [
         {
