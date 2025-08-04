@@ -30,6 +30,11 @@ export const YuericMemberPage = () => {
 			result: "Player Name: Yueric, Rank: 215/344",
 			datetime: "2025/05/24 ~ 2025/05/26",
 		},
+        {
+			title: "Just CTF 2025",
+			result: "Player Name: Yueric, Rank: 181/1592",
+			datetime: "2025/08/02 ~ 2025/08/03",
+		},
     ]
     const participates: MemberParticipateType[] = [
         {
