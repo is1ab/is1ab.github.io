@@ -6,8 +6,9 @@ export const RyanMemberPage = () => {
 
     const bio = (
         <div className="d-flex flex-column gap-3">
-            <p>陳勝舢現為國立臺北科技大學資訊工程系博士候選人，並擔任奧義智慧科技 (CyCraft) 的實習資安研究員。他的研究專注於語言模型、網路威脅情資分析、醫療大數據，以及 AI 技術在資訊安全領域的應用。他曾參與多項大型專案，包括與國家資通安全研究院(NICS)、日本情報通信研究院(NICT)、國家衛生研究院(NHRI)及多家大型醫院的合作，並協助指導超過十五位碩士生投入研究。教學經歷包括教育部 AIS3 情資與分析講師、師大資工碩士班高等資安攻防課程講師及三重商工資料處理科培訓講師。目前，他獲國家科學及技術委員會補助，預計前往澳洲蒙納許大學（ranked #37 in QS World University Rankings 2025）軟體系統與網路安全系進行訪問研究。</p>
+            <p>陳勝舢現為國立臺北科技大學資訊工程系博士候選人，並擔任奧義智慧科技 (CyCraft) 的實習資安研究員。他的研究專注於語言模型、網路威脅情資分析、醫療大數據，以及 AI 技術在資訊安全領域的應用。他曾參與多項大型專案，包括與國家資通安全研究院(NICS)、日本情報通信研究院(NICT)、國家衛生研究院(NHRI)及多家大型醫院的合作，並協助指導超過十五位碩士生投入研究。教學經歷包括教育部 AIS3 情資與分析講師、師大資工碩士班高等資安攻防課程講師及三重商工資料處理科培訓講師。</p>
             <p>更多資訊（著作、專案）請參閱：<a href="https://sectools.tw/about/sean">SecTools.tw</a></p>
+            <p><a href="https://sectools.tw" target="_blank"><img src="https://img.shields.io/badge/Visit-SecTools.tw-blue" alt="Visit SecTools.tw" /></a></p>
         </div>
       );
       
@@ -75,11 +76,15 @@ export const RyanMemberPage = () => {
     ]
     const participates: MemberParticipateType[] = [
         {
+            title: "榮獲第九屆臺灣好厲駭高階導師培訓-表現優異獎",
+            datetime: "2025.07.19"
+        },
+        {
             title: "臺灣師範大學資工系碩士班「 113-1 高等資安攻防演練 」課程講師",
             datetime: "2024.11.22"
         },
         {
-            title: "第八屆臺灣好厲駭高階導師培訓-表現優異獎",
+            title: "榮獲第八屆臺灣好厲駭高階導師培訓-表現優異獎",
             datetime: "2024.09.01"
         },
         {
@@ -95,23 +100,11 @@ export const RyanMemberPage = () => {
             datetime: "2024.07.02"
         },
         {
-            title: "參加 AWS - Machine Learning for Pipeline",
-            datetime: "2024.06.27"
-        },
-        {
             title: "擔任第 53 屆全國技能競賽暨國手選拔賽青年組「網路安全」職類解說技術顧問",
             datetime: "2024.06.17"
         },
         {
-            title: "參加 AWS - Architecting on AWS",
-            datetime: "2024.03.12"
-        },
-        {
-            title: "參與資安院「建構威脅情資知識圖及攻擊事件自動化辨識技術」產學案",
-            datetime: "2023.10.18"
-        },
-        {
-            title: "榮獲 DEVCORE 戴夫寇爾 獎學金資格",
+            title: "榮獲DEVCORE戴夫寇爾獎學金",
             datetime: "2024.06.17"
         },
         {
@@ -119,20 +112,8 @@ export const RyanMemberPage = () => {
             datetime: "2023.09.01"
         },
         {
-            title: "擔任 HITCON CMT 2023 志工",
-            datetime: "2023.08.18"
-        },
-        {
             title: "擔任 AIS3 2023 跨領域資安組助教",
             datetime: "2023.07.30"
-        },
-        {
-            title: "參加 Trend Micro 2022 Experience Day",
-            datetime: "2022.12.10"
-        },
-        {
-            title: "第七屆臺灣好厲駭高階培訓",
-            datetime: "2022.09.01"
         },
         {
             title: (
@@ -142,10 +123,6 @@ export const RyanMemberPage = () => {
                 </div>
             ),
             datetime: "2022.08.07"
-        },
-        {
-            title: "參與 CCoE 資安卓越計畫-博碩論文定題 網路威脅情資組",
-            datetime: "2022.08.01"
         },
         {
             title: "錄取 2021 AIS3 新型態資安暑期課程",
@@ -169,7 +146,7 @@ export const RyanMemberPage = () => {
             datetime: "2022.04.23"
         },
         {
-            title: "第六屆臺灣好厲駭高階培訓",
+            title: "錄取第六屆臺灣好厲駭高階培訓",
             datetime: "2021.09.01"
         },
     ]
@@ -186,6 +163,13 @@ export const RyanMemberPage = () => {
         },
     ]
     const journals: MemberArticleType[] = [
+        {
+            authors: "Nai-Hsuan Hwang, Sheng-Shan Chen, Tun-Wen Pai*, Mary Hsin-Ju Ko, Ya-Lan Yu, and Hui-Ju Chen*",
+            title: "Automatic assessment of fine motor development in children through hand-drawn shape images",
+            target: "Pediatrics & Neonatology",
+            details: "2025, ISSN 1875-9572",
+            doi: "https://doi.org/10.1016/j.pedneo.2025.04.001"
+        },
         {
             authors: "Kunji Li、Sheng-Shan Chen, Chin-Yu Sun*",
             title: "Analysis and Mitigation Strategies for Prompt Injection Attacks",
