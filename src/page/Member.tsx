@@ -191,8 +191,8 @@ export function Member(){
             role: "碩零，資工碩士",
             coAdvisor: '郭忠義',
             experience: "",
-            certificate: "",
-            website: ""
+            certificate: "iPAS 資訊安全工程師檢定（初級）",
+            website: "/#/member/2025/Yunung"
         },
     ]
     const consultantUserTableItem = [
