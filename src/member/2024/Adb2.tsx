@@ -1,6 +1,6 @@
 import { Sample } from "../Sample"
 import Adb2 from "../../assets/member/Adb2.jpg"
-import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../../type/MemberCertificateType"
+import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType, MemberZeroDayType } from "../../type/MemberCertificateType"
 
 export const Adb2MemberPage = () => {
     const bio = "SGVsbG8sIEknbSBBZGIyLg=="
