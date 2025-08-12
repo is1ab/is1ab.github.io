@@ -17,7 +17,7 @@ export const Adb2MemberPage = () => {
     const competitionExperiences: MemberCompetitionExperienceType[] = [
         {
             title: "WHYCTF 2025",
-            result: "188/1806",
+            result: "188/1806 Team(Name: NTUT_Is1ab)",
             datetime: "2025.08.09 - 2025.08.12"
         },
         {
