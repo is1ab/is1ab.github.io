@@ -5,7 +5,7 @@ export function Alumni(){
     const masterAlumniDatas = [
         {
             name: "曹凱翔",
-            joinDate: "2023.03-pres.",
+            joinDate: "2023.03-2025.08",
             title: "基於檢索增強生成技術於網路威脅情資之攻擊識別",
             ability: "Web 攻防",
             experience: "資訊安全碩士學位學程",
@@ -14,7 +14,7 @@ export function Alumni(){
         },
         {
             name: "廖家賢",
-            joinDate: "2023.08-pres.",
+            joinDate: "2023.08-2025.08",
             title: "基於Kyber-KEM技術之安全身份認證協定於低軌衛星通訊系統",
             ability: "密碼學",
             experience: "資訊安全碩士學位學程",
@@ -24,7 +24,7 @@ export function Alumni(){
         },
         {
             name: "林幸慧",
-            joinDate: "2022.12-pres.",
+            joinDate: "2022.12-2025.08",
             title: "評估低軌衛星環境中電磁脈衝攻擊與其緩解機制之設計",
             ability: "藍隊技術",
             experience: "資訊安全碩士學位學程",
@@ -33,14 +33,14 @@ export function Alumni(){
         },
         {
             name: "張家維",
-            joinDate: "2022.12-pres.",
+            joinDate: "2022.12-2025.08",
             title: "應用對抗式樣本於 XSS 模糊測試之防禦研究",
             ability: "Web 攻防技術",
             experience: "資訊安全碩士學位學程",
             status: "口試通過",
             website: "/#/Member/2023/CHW"
         },
-        {
+        /*{
             name: "顏柏耀",
             joinDate: "2023.03-pres.",
             title: "應用機器學習技術偵測 EDoS 攻擊於雲端微服務成本分析",
@@ -57,7 +57,7 @@ export function Alumni(){
             experience: "資訊安全碩士學位學程",
             status: "口試通過",
             website: "/#/Member/2023/Eason"
-        },
+        },*/
         {
             name: "陳丹妮",
             joinDate: "2022.09-2024.08",
