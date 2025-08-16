@@ -51,7 +51,7 @@ export function Member(){
             joinDate: "2024.11",
             role: "碩二，資安碩士",
             coAdvisor: '陳昱圻',
-            experience: "",
+            experience: "美國辛辛那提大學 雙聯學位",
             certificate: "iPAS 資訊安全工程師檢定（初級）",
             website: "/#/Member/2024/Rock"
         },
