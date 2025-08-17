@@ -5,16 +5,29 @@ export const JunAnMemberPage = () => {
     const bio = "我是郭竣安。"
     const certificates: MemberCertificateType[] = []
     const competitionExperiences: MemberCompetitionExperienceType[] = [
+		{
+			title: "DownUnder CTF 2025",
+			result: "隊名：NTUT_Is1ab，排名: 508/1667",
+			datetime: "2025/07/18 ~ 2025/07/20"
+		},
         {
             title: "AIS3 Pre-exam CTF 2024",
             result: "隊名：4153_nu11ptr，排名 : 60/493",
             datetime: "2024.05.25 ~ 2024.05.27"
-        },
+        }
     ]
     const participates: MemberParticipateType[] = [
         {
+            title: "HITCON CMT 2025",
+            datetime: "2025.08.15 ~ 2025.08.16"
+        },
+        {
+            title: "DEVCORE CONFERENCE 2025",
+            datetime: "2025.03.15"
+        },
+        {
             title: "第九屆臺灣好厲駭 高階學員培訓",
-            datetime: "2024.08 ~ now"
+            datetime: "2024.09 ~ 2025.08"
         },
         {
             title: "HITCON CMT 2024",
