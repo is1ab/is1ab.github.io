@@ -68,11 +68,6 @@ export const _483MemberPage = () => {
 			datetime: "2025/08/09 ~ 2025/08/11",
 		},
 		{
-			title: "WHY CTF 2025",
-			result: "Team Name: NTUT_Is1ab, Rank: 188/1806",
-			datetime: "2025/08/09 ~ 2025/08/11",
-		},
-		{
 			title: "Sekai CTF 2025",
 			result: "Team Name: NTUT_Is1ab, Rank: 200/1060",
 			datetime: "2025/08/16 ~ 2025/08/18",
