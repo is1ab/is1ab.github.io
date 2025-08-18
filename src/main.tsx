@@ -50,7 +50,10 @@ import { _483MemberPage } from "./member/2025/483.tsx";
 import { JunAnMemberPage } from "./member/2025/JunAn.tsx";
 import { YuericMemberPage } from "./member/2025/Yueric.tsx";
 import { RobertLiaoMemberPage } from "./member/2024/RobertLiao.tsx";
+import { YeyeyeMemberPage } from "./member/2025/Yeyeye.tsx";
 import { WillyMemberPage } from "./member/2025/Willy.tsx";
+import { YunungMemberPage } from "./member/2025/Yunung.tsx";
+
 import { MarcoMemberPage } from "./member/2024/Marco.tsx";
 import { TingMemberPage } from "./member/2025/Ting.tsx";
 
@@ -92,9 +95,12 @@ const router = createHashRouter(
       <Route path="/Member/2025/JunAn" element={ <JunAnMemberPage />}></Route>
       <Route path="/Member/2025/Yueric" element={<YuericMemberPage />}></Route>
       <Route path="/Member/2024/RobertLiao" element={<RobertLiaoMemberPage />}></Route>
+      <Route path="/Member/2025/Yeyeye" element={<YeyeyeMemberPage />}></Route>
       <Route path="/Member/2025/Willy" element={<WillyMemberPage />}></Route>
       <Route path="/Member/2024/Marco" element={<MarcoMemberPage />}></Route>
       <Route path="/Member/2025/Ting" element={<TingMemberPage />}></Route>
+      <Route path="/Member/2025/Yunung" element={<YunungMemberPage />}></Route>
+
       <Route path="/Alumni" element={<Alumni></Alumni>}></Route>
       <Route path="/Partner" element={<Partner></Partner>}></Route>
       <Route path="/Profile" element={<Profile></Profile>}></Route>
