@@ -9,7 +9,7 @@ import {
 } from "../../type/MemberCertificateType";
 
 export const _483MemberPage = () => {
-	const bio = "我是沈柏安";
+	const bio = "我是沈柏安，你可以稱呼我為 483 。 CTF 比賽 Player Name 通常是 pudding483";
 	const certificates: MemberCertificateType[] = [
 		{
 			title: "iPAS 資訊安全工程師-初級能力鑑定",
@@ -62,6 +62,16 @@ export const _483MemberPage = () => {
 			result: "Team Name: NTUT_Is1ab, Rank: 508/1667",
 			datetime: "2025/07/18 ~ 2025/07/20",
 		},
+		{
+			title: "WHY CTF 2025",
+			result: "Team Name: NTUT_Is1ab, Rank: 188/1806",
+			datetime: "2025/08/09 ~ 2025/08/11",
+		},
+		{
+			title: "Sekai CTF 2025",
+			result: "Team Name: NTUT_Is1ab, Rank: 200/1060",
+			datetime: "2025/08/16 ~ 2025/08/18",
+		},
 	];
 	const participates: MemberParticipateType[] = [
 		{
@@ -71,6 +81,10 @@ export const _483MemberPage = () => {
 		{
 			title: "CYBERSEC 2025 臺灣資安大會",
 			datetime: "2025/04/15 - 2024/04/17",
+		},
+		{
+			title: "HITCON 2025",
+			datetime: "2025/08/15 - 2024/08/16",
 		},
 	];
 	const internExperiences: MemberInternType[] = [];
