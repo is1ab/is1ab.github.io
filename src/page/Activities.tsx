@@ -26,7 +26,7 @@ export function Activities(){
                             <p>尋找資安女婕思（決賽）</p>
                             <p>＊地點：臺南工業局沙崙資安服務基地</p>
                             <img 
-                                src="https://drive.google.com/uc?export=view&id=1FcJH_kx1cIelQZSTpiktyDXBf-8go7sj" 
+                                src="https://drive.google.com/uc?export=view&id=1cCYXbABWN5iwEQAzlUE3T_m4TKTev4C8" 
                                 alt="第二名"
                                 style={{ maxWidth: "100%", borderRadius: "8px" }}
                               />
