@@ -29,10 +29,16 @@ export function Activities(){
                                 src="https://drive.google.com/thumbnail?id=1cCYXbABWN5iwEQAzlUE3T_m4TKTev4C8&sz=w550" 
                               />
                             <img 
-                                src="https://drive.google.com/thumbnail?id=1nNHcaqCG09UlzrngE_V3EpYwTyZ8rd-U&sz=w500" 
+                                src="https://drive.google.com/thumbnail?id=1nNHcaqCG09UlzrngE_V3EpYwTyZ8rd-U&sz=w450" 
                               />
                             <img 
                                 src="https://drive.google.com/thumbnail?id=1GmBs6XNTuTnJDPUIyOjZSGo45nLDM7lJ&sz=w550" 
+                              />
+                            <img 
+                                src="https://drive.google.com/thumbnail?id=1uf6vptHMCvgUr1XoQrRgIoNNW-8K4loi&sz=w550" 
+                              />
+                            <img 
+                                src="https://drive.google.com/thumbnail?id=1yKOkoovnrws5AKuXma7cTLJ1bJyXHpQ4&sz=w550" 
                               />
                         </div>
                     }
