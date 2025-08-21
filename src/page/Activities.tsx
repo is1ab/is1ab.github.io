@@ -82,10 +82,10 @@ export function Activities(){
                             <p>＊Next Generation Cyberseucrity – Session Chair</p>
                             <p>＊學生論文發表</p>
                             <img 
-                                src="https://drive.google.com/thumbnail?id=1yiEEUdSiLAN3KWsShPzjtmp7QDmSfik7&sz=w550" 
+                                src="https://drive.google.com/thumbnail?id=1yiEEUdSiLAN3KWsShPzjtmp7QDmSfik7&sz=w450" 
                               />
                             <img 
-                                src="https://drive.google.com/thumbnail?id=10oIneb4zj9dSslUC33p902vGavLlZNWc&sz=w550" 
+                                src="https://drive.google.com/thumbnail?id=10oIneb4zj9dSslUC33p902vGavLlZNWc&sz=w450" 
                               />
                         </div>
                     }
@@ -96,7 +96,9 @@ export function Activities(){
                         <div>
                             <p>2023 尋找資安女婕思（決賽）</p>
                             <p>＊地點：臺南工業局沙崙資安服務基地</p>
-                            <a href="https://drive.google.com/drive/folders/1oGpl4CE0QH2zLfNcTmrRPu7aN0PcFdbs?usp=sharing" target="_blank">活動照片</a>
+                            <img 
+                                src="https://drive.google.com/thumbnail?id=15TaJYXuUWz28ksNQIgD4OX33T-Lv_sOn&sz=w550" 
+                              />
                         </div>
                     }
                 ></ActivitiesItem>
@@ -105,7 +107,15 @@ export function Activities(){
                     descriptionItem={
                         <div>
                             <p>實驗室尾牙：豐 Food 海陸百匯</p>
-                            <a href="https://drive.google.com/drive/folders/1wpcEuu9HB1LHrLiRWxqnrK6kG41wP-no?usp=sharing" target="_blank">活動照片</a>
+                            <img 
+                                src="https://drive.google.com/thumbnail?id=1K8KTOhV-obkkhd5sZl8q5w2V_Z_2J2Qa&sz=w550" 
+                              />
+                            <img 
+                                src="https://drive.google.com/thumbnail?id=1J8OgQPHjn9lR9XzgtfCQQoJfR6MG-Pk5&sz=w550" 
+                              />
+                            <img 
+                                src="https://drive.google.com/thumbnail?id=15WvGOpe1sUNYyK9zjRgQJaH3Ers1RSnu&sz=w550" 
+                              />
                         </div>
                     }
                 ></ActivitiesItem>
