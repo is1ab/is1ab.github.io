@@ -1,22 +1,22 @@
 [
     {
-        "title": "Cryptography",
-        "description": "Encryption/Decription, Digital signatures, Authentication schemes, and Privacy issues." 
+        "title": "網路安全",
+        "description": "入侵偵測／防禦系統（IPS/IDS）、安全網路協定、與駭客攻擊技術。" 
     },
     {
-        "title": "Network security",
-        "description": "Intrusion Detection/Prevention System (IPS/IDS), Secure network protocols, and Hacking techniques." 
+        "title": "密碼學",
+        "description": "加解密技術、數位簽章、認證機制、以及隱私議題。" 
     },
     {
-        "title": "Hardware security",
-        "description": "Cache side-channel attach, Memory protection, Logic locking, and Physically Unclonable Function (PUF)."
+        "title": "硬體安全",
+        "description": "快取旁通道攻擊、記憶體防護、邏輯加密技術，以及物理不可複製功能。"
     },
     {
-        "title": "Applied cryptography",
-        "description": "Security/Privacy issues on E-commerce, Blockchain, Machine/Deep learning, and Fintech."
+        "title": "應用密碼學",
+        "description": "電子商務、區塊鏈、機器學習／深度學習、金融科技中的安全與隱私問題。"
     },
     {
-        "title": "Quantum cryptography",
-        "description": "Quantum Key Distribution protocols (QKD), Quantum Key Agreement (QKA), Quantum Secret Sharing (QSS), and Quantum Direct Communication (QDC)."
+        "title": "量子密碼學",
+        "description": "量子金鑰分配協定、量子金鑰協議、量子秘密分享。"
     }
 ]
