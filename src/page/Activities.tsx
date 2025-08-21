@@ -108,10 +108,10 @@ export function Activities(){
                         <div>
                             <p>實驗室尾牙：豐 Food 海陸百匯</p>
                             <img 
-                                src="https://drive.google.com/thumbnail?id=1K8KTOhV-obkkhd5sZl8q5w2V_Z_2J2Qa&sz=w550" 
+                                src="https://drive.google.com/thumbnail?id=1K8KTOhV-obkkhd5sZl8q5w2V_Z_2J2Qa&sz=w450" 
                               />
                             <img 
-                                src="https://drive.google.com/thumbnail?id=1J8OgQPHjn9lR9XzgtfCQQoJfR6MG-Pk5&sz=w550" 
+                                src="https://drive.google.com/thumbnail?id=1J8OgQPHjn9lR9XzgtfCQQoJfR6MG-Pk5&sz=w450" 
                               />
                             <img 
                                 src="https://drive.google.com/thumbnail?id=15WvGOpe1sUNYyK9zjRgQJaH3Ers1RSnu&sz=w550" 
