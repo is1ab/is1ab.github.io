@@ -15,7 +15,7 @@ export function Introduction(){
             {topics.map((topic) => <Topics topic={topic.title} description={topic.description}></Topics>)}
             
             <br></br>
-            <p> 欲加入實驗室之同學，請先行閱讀《<a className="text-decoration-underline" style={{cursor: 'pointer'}} onClick={() => navigate("/rules")}>實驗室入場手冊</a>》，再與《<a href="mailto:cysun@ntut.edu.tw">我</a>》聯繫。 </p>
+            <p> 欲加入實驗室之同學，請先行閱讀《<a className="text-decoration-underline" style={{cursor: 'pointer'}} onClick={() => navigate("/rules")}>實驗室規則</a>》，再與《<a href="mailto:cysun@ntut.edu.tw">我</a>》聯繫。 </p>
         </div>
     )
 }
