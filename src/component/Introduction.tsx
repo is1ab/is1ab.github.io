@@ -7,7 +7,7 @@ export function Introduction(){
     return (
         <div className="p-3 py-4 introduction">
             <h4 className="text-center fw-bold mb-3">簡介</h4>
-            <p> <span style={{fontWeight: 800}}>Information Security Laboratory</span> (ISLab@NTUT) was founded in August 2022 in the Department of Computert Science and Information Engineering, National Taipei University of Technology. Led by professor <a className="text-decoration-underline" onClick={() => navigate("/Profile")} style={{cursor: 'pointer'}}>Chin-Yu Sun</a>, our team aims to design original methodologies and develop practical security systems to meet the different demands of clients.</p>
+            <p> 國立臺北科技大學資訊工程系<span style={{fontWeight: 800}}>資訊安全實驗室</span> (is1ab@NTUT) 於 2022 年 8 月成立，. 由 <a className="text-decoration-underline" onClick={() => navigate("/Profile")} style={{cursor: 'pointer'}}>孫勤昱</a>教授領導, our team aims to design original methodologies and develop practical security systems to meet the different demands of clients.</p>
             <p> Our research topics include: </p>
             
             {topics.map((topic) => <Topics topic={topic.title} description={topic.description}></Topics>)}
