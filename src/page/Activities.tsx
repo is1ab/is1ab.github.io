@@ -44,21 +44,19 @@ export function Activities(){
                     }
                 ></ActivitiesItem>
                 <ActivitiesItem
-                    time="2024.03.18"
-                    descriptionItem={
-                        <div>
-                            <p>邀請演講（線上會議）</p>
-                            <p>逢甲資工系 劉新惠（idk）：資安女婕思 參賽經驗分享</p>
-                            <p>＊2023資安女婕思第一名</p>
-                        </div>
-                    }
-                ></ActivitiesItem>
-                <ActivitiesItem
                     time="2024.01.21"
                     descriptionItem={
                         <div>
                             <p>實驗室尾牙：旭集和食集錦 SUNRISE</p>
-                            <a href="https://drive.google.com/drive/folders/1U6XlB5iYi8IZ_zxsanV-Ddvi7Ho-hQbj?usp=sharing" target="_blank">活動照片</a>
+                            <img 
+                                src="https://drive.google.com/thumbnail?id=1vFuyeIm8p5VD4k4cv1sTfhU6X9J7i8lh&sz=w550" 
+                              />
+                            <img 
+                                src="https://drive.google.com/thumbnail?id=1tFaOtpgW44YZR_KTg8VIqkAbVSmdLuVx&sz=w550" 
+                              />
+                            <img 
+                                src="https://drive.google.com/thumbnail?id=1z9d2b27Myzkm8qCHuvhtOtysF9N5oTzp&sz=w550" 
+                              />
                         </div>
                     }
                 ></ActivitiesItem>
