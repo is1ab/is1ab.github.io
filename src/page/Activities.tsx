@@ -64,8 +64,13 @@ export function Activities(){
                     time="2023.07.22"
                     descriptionItem={
                         <div>
-                            <p>參與第四屆的奧義學院實習生發表會＆AI 資安社群論壇</p>
-                            <a href="https://drive.google.com/drive/folders/1K5nFV4XaeNVoBWK7AJVirJAATYlWYBrQ?usp=sharing" target="_blank">活動照片</a>
+                            <p>第四屆的奧義學院實習生發表會＆AI 資安社群論壇</p>
+                            <img 
+                                src="https://drive.google.com/thumbnail?id=1U-tNyCVfOmSYE04DhK0_N3ldPQRTUwCJ&sz=w550" 
+                              />
+                            <img 
+                                src="https://drive.google.com/thumbnail?id=1d9m8BnlOPMjzwVASp8uefOHr2lsiSoOy&sz=w550" 
+                              />
                         </div>
                     }
                 ></ActivitiesItem>
@@ -73,10 +78,15 @@ export function Activities(){
                     time="2023.07.17"
                     descriptionItem={
                         <div>
-                            <p>參與 2023 ICCE-TW 會議</p>
+                            <p> 2023 ICCE-TW 會議</p>
                             <p>＊Next Generation Cyberseucrity – Session Chair</p>
                             <p>＊學生論文發表</p>
-                            <a href="https://drive.google.com/drive/folders/1apLzvp0RNLh24v1aRKKM7y7BSnIm6jIH?usp=sharing" target="_blank">活動照片</a>
+                            <img 
+                                src="https://drive.google.com/thumbnail?id=1yiEEUdSiLAN3KWsShPzjtmp7QDmSfik7&sz=w550" 
+                              />
+                            <img 
+                                src="https://drive.google.com/thumbnail?id=10oIneb4zj9dSslUC33p902vGavLlZNWc&sz=w550" 
+                              />
                         </div>
                     }
                 ></ActivitiesItem>
@@ -91,36 +101,11 @@ export function Activities(){
                     }
                 ></ActivitiesItem>
                 <ActivitiesItem
-                    time="2023.03.30"
-                    descriptionItem={
-                        <div>
-                            <p>邀請演講（線上會議）</p>
-                            <p>臺大資工系 陳妍姍：資安女婕思 參賽經驗分享</p>
-                            <p>＊2022資安女婕思第一名</p>
-                            <p>奧義實習生</p>
-                        </div>
-                    }
-                ></ActivitiesItem>
-                <ActivitiesItem
                     time="2023.01.21"
                     descriptionItem={
                         <div>
                             <p>實驗室尾牙：豐 Food 海陸百匯</p>
                             <a href="https://drive.google.com/drive/folders/1wpcEuu9HB1LHrLiRWxqnrK6kG41wP-no?usp=sharing" target="_blank">活動照片</a>
-                        </div>
-                    }
-                ></ActivitiesItem>
-                <ActivitiesItem
-                    time="2022.12.02"
-                    descriptionItem={
-                        <div>
-                            <p>課程邀請演講</p>
-                            <p>1. 杜浦數位安全 廖子慶（DuckLL）：你想成為駭客嗎？</p>
-                            <p>＊威脅情資研究員／逆向工程</p>
-                            <p>＊講師: AIS3／台灣好厲駭／HITCON／Black Hat Asia／Code Blue</p>
-                            <p>2. 杜浦數位安全 （Turkey）：競無止境 – 找出你的特等席</p>
-                            <p>＊漏洞研究／情資威脅／資安緊急應變小組 PM</p>
-                            <p>＊HITCON GIRLS 共同創辦人</p>
                         </div>
                     }
                 ></ActivitiesItem>
