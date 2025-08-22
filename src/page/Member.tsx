@@ -72,7 +72,7 @@ export function Member(){
             role: "碩二，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "",
+            certificate: "iPAS 資訊安全工程師檢定（初級）",
             website: "/#/Member/2024/Jason"
         },
         {
