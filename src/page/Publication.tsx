@@ -43,7 +43,8 @@ export function Publication(){
                             Sheng-Shan Chen, Tun-Wen Pai, and <Professor/>
                         </Author>
                         <Title title="EnhanceCTI: An Enhanced Semantic Filtering and Feature Extraction Framework for Industry-Specific Cyber Threat Intelligence"/>
-                        Accepted by <Journal name="Computers & Security"/>, August 2025.                        
+                        Accepted by <Journal name="Computers & Security"/>, August 2025.
+                        <SCI/>
                     </li>
                     <li>
                         <Author>
@@ -51,7 +52,6 @@ export function Publication(){
                         </Author>
                         <Title title="Analysis and Mitigation Strategies for Prompt Injection Attacks"/>
                         Accepted by <Journal name="Communications of the CCISA"/>, 30(3), pp. 1-19, September 2024.
-                        
                     </li>
                     <li>
                         Shih-Jung Lin, <Professor coAuther/>, Dan-Ni Chen, Yi-No Kang, Nai Ming Lai, Kee-Hsin Chen, Chiehfeng Chen, 
