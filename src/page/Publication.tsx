@@ -40,6 +40,13 @@ export function Publication(){
                 <ol>
                     <li>
                         <Author>
+                            Sheng-Shan Chen, Tun-Wen Pai, and <Professor/>
+                        </Author>
+                        <Title title="EnhanceCTI: An Enhanced Semantic Filtering and Feature Extraction Framework for Industry-Specific Cyber Threat Intelligence"/>
+                        Accepted by <Journal name="Computers & Security"/>, August 2025.                        
+                    </li>
+                    <li>
+                        <Author>
                             Kun-Ji Li, Sheng-Shan Chen, and <Professor coAuther/>
                         </Author>
                         <Title title="Analysis and Mitigation Strategies for Prompt Injection Attacks"/>
@@ -250,13 +257,6 @@ export function Publication(){
                         </Author>
                         <Title title="BASGen: An Automated Breach and Attack Simulation Script Generator based on Cyber Threat Intelligence Reports"/>
                         Submitted to <Journal name="the 32nd ACM Conference on Computer and Communications Security (CCS 2025)"/>, April 2025.                        
-                    </li>
-                    <li>
-                        <Author>
-                            Sheng-Shan Chen, Tun-Wen Pai, and <Professor star/>
-                        </Author>
-                        <Title title="EnhanceCTI: An Enhanced Semantic Filtering and Feature Extraction Framework for Industry-Specific Cyber Threat Intelligence"/>
-                        Submitted to <Journal name="Computers & Security"/>, April 2025.                        
                     </li>
                     <li>
                         <Author>
