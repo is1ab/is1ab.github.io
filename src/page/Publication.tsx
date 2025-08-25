@@ -40,10 +40,11 @@ export function Publication(){
                 <ol>
                     <li>
                         <Author>
-                            Sheng-Shan Chen, Tun-Wen Pai, and <Professor coAuther/>
+                            Sheng-Shan Chen, Tun-Wen Pai, and <Professor/>
                         </Author>
                         <Title title="EnhanceCTI: An Enhanced Semantic Filtering and Feature Extraction Framework for Industry-Specific Cyber Threat Intelligence"/>
                         Accepted by <Journal name="Computers & Security"/>, August 2025.
+                        <SCI/>
                     </li>
                     <li>
                         <Author>
