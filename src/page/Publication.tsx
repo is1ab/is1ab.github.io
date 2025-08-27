@@ -40,7 +40,7 @@ export function Publication(){
                 <ol>
                     <li>
                         <Author>
-                            Sheng-Shan Chen, Tun-Wen Pai, and <Professor/>
+                            Sheng-Shan Chen, Tun-Wen Pai, and <Professor star/>
                         </Author>
                         <Title title="EnhanceCTI: An Enhanced Semantic Filtering and Feature Extraction Framework for Industry-Specific Cyber Threat Intelligence"/>
                         Accepted by <Journal name="Computers & Security"/>, August 2025.
@@ -48,7 +48,7 @@ export function Publication(){
                     </li>
                     <li>
                         <Author>
-                            Kun-Ji Li, Sheng-Shan Chen, and <Professor coAuther/>
+                            Kun-Ji Li, Sheng-Shan Chen, and <Professor star/>
                         </Author>
                         <Title title="Analysis and Mitigation Strategies for Prompt Injection Attacks"/>
                         Accepted by <Journal name="Communications of the CCISA"/>, vol. 30, no. 3, pp. 1-19, September 2024.
@@ -71,7 +71,7 @@ export function Publication(){
                     </li>
                     <li>
                         <Author>
-                            <Professor/>, Allen C.-H. Wu, and TingTing Hwang
+                            <Professor star/>, Allen C.-H. Wu, and TingTing Hwang
                         </Author>
                         <Title title="A Novel Privacy-Preserving Deep Learning Scheme without a Cryptography Component,"/>
                         <Journal name="Computers & Electrical Engineering" />, vol. 94, pp.1-15, September 2021. 
@@ -212,7 +212,7 @@ export function Publication(){
                     </li>
                     <li>
                         <Author>
-                            Chun-Chieh Tsai, <Professor star/>
+                            Chun-Chieh Tsai, <Professor star/>, Shih-Hsuan Yang
                         </Author>
                         <Title title="Note on “RAKS: robust authentication and key agreement scheme for satellite infrastructure"/>
                         Accepted by <Journal name="IEEE ICCE-TW 2023"/>, May.
