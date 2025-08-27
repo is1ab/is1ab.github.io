@@ -1,10 +1,13 @@
 export function Rule(){
     return (
         <div className="rule">
-            <h4 className="text-center fw-bold">名額限制（114 年）</h4>
+            <h4 className="text-center fw-bold">名額限制（115 年）</h4>
             <ul>
-                <li>4 位資安碩士學位（已滿）+ 2 位資訊工程系（已滿）</li>
-                <li>2 組專題大學生（已滿）</li>
+                <li>2 位資訊工程系碩士班 </li>
+                <li>2 位資安碩士學位 </li>
+                <li>1 位 SunBird 計畫 (碩士級) </li>
+                <li>3 位 SunBird 計畫 (大學部專題生) </li>
+                <li>1 組資訊工程系大學部專題生</li>
             </ul>
             <hr></hr>
             <h4 className="text-center fw-bold">預先具備能力</h4>
