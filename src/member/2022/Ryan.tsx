@@ -76,6 +76,10 @@ export const RyanMemberPage = () => {
     ]
     const participates: MemberParticipateType[] = [
         {
+            title: "擔任 AIS3 2025 典範轉移:AI時代的情資運用及防禦講師 (學生超過百人)",
+            datetime: "2024.08.04"
+        },
+        {
             title: "榮獲第九屆臺灣好厲駭高階導師培訓-表現優異獎",
             datetime: "2025.07.19"
         },
