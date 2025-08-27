@@ -175,7 +175,7 @@ export function Member(){
             certificate: "",
             website: "/#/member/2025/Yueric"
         },
-        {
+        /*{
             key: '15',
             name: "廖棻俞",
             joinDate: "2025.01",
@@ -183,7 +183,7 @@ export function Member(){
             coAdvisor: '',
             experience: "",
             certificate: ""
-        },
+        },*/
         {
             key: '16',
             name: "劉業閎",
@@ -194,7 +194,7 @@ export function Member(){
             certificate: "",
             website: "/#/member/2025/Yeyeye",
         },
-        {
+        /*{
             key: '17',
             name: "趙尉丞",
             joinDate: "2025.03",
@@ -203,7 +203,7 @@ export function Member(){
             experience: "",
             certificate: "",
             website: "/#/member/2025/Willy"
-        },
+        },*/
         {
             key: '18',
             name: "鄭羽農",
