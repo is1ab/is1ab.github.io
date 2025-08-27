@@ -56,7 +56,7 @@ export function Publication(){
                     <li>
                         Shih-Jung Lin, <Professor coAuther/>, Dan-Ni Chen, Yi-No Kang, Nai Ming Lai, Kee-Hsin Chen, Chiehfeng Chen, 
                         <Title title="Perioperative Application of Chatbots: A Systematic Review and Meta-Analysis,"/>
-                        Accepted by <Journal name="BMJ Health & Care Informatics"/>, vol. 30, no. 1, e100985, July 2024. (2024, JCR IF: 4.4, HEALTH CARE SCIENCES & SERVICES, 23/185 Q1)
+                        <Journal name="BMJ Health & Care Informatics"/>, vol. 30, no. 1, e100985, July 2024. (2024, JCR IF: 4.4, HEALTH CARE SCIENCES & SERVICES, 23/185 Q1)
                         <SCI/>
                         <CoFirstAuther/> 
                     </li>
@@ -65,7 +65,7 @@ export function Publication(){
                             Yunjhen Su, <Professor coAuther/>, Wen-Kuan Chiu, Yi-No Kang, Chiehfeng Chen, 
                         </Author>
                         <Title title="Patient Decision Aids for Breast Cancer Reconstruction: A Systematic Review and Network Meta-Analysis of Randomized Controlled Trials,"/>
-                        Accepted by <Journal name="Plastic and Reconstructive Surgery"/>, vol. 154, no. 5, pp. 929-940, January 2024. (2024, JCR IF: 3.4, SURGERY, 41/312 Q1)
+                        <Journal name="Plastic and Reconstructive Surgery"/>, vol. 154, no. 5, pp. 929-940, January 2024. (2024, JCR IF: 3.4, SURGERY, 41/312 Q1)
                         <SCI/>
                         <CoFirstAuther/> 
                     </li>
