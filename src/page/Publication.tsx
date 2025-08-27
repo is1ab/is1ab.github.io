@@ -51,7 +51,7 @@ export function Publication(){
                             Kun-Ji Li, Sheng-Shan Chen, and <Professor star/>
                         </Author>
                         <Title title="Analysis and Mitigation Strategies for Prompt Injection Attacks"/>
-                        Accepted by <Journal name="Communications of the CCISA"/>, vol. 30, no. 3, pp. 1-19, September 2024.
+                        <Journal name="Communications of the CCISA"/>, vol. 30, no. 3, pp. 1-19, September 2024.
                     </li>
                     <li>
                         Shih-Jung Lin, <Professor coAuther/>, Dan-Ni Chen, Yi-No Kang, Nai Ming Lai, Kee-Hsin Chen, Chiehfeng Chen, 
