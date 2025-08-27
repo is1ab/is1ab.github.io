@@ -168,7 +168,7 @@ export const RyanMemberPage = () => {
     ]
     const journals: MemberArticleType[] = [
         {
-            authors: Sheng-Shan Chen, Tun-Wen Pai, Chin-Yu Sun*",
+            authors: "Sheng-Shan Chen, Tun-Wen Pai, Chin-Yu Sun*",
             title: "EnhanceCTI: Enhanced semantic filtering and feature extraction framework for industry-specific cyber threat intelligence",
             target: "Computers & Security",
             details: "Accepted by Computers & Security, August 2025",
@@ -200,7 +200,7 @@ export const RyanMemberPage = () => {
         {
             authors: "Sheng-Shan Chen, Yi-Xuan Wu, Ying-Xuan Ho, Pang-Po Cheng, and Chin-Yu Sun*",
             title: "RANsomCheck: A CNN-Transformer Model for Malware Detection Based on API Call Sequences",
-            target: "In International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems. Singapore: Springer Nature Singapore.",
+            target: "In International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems. Singapore: Springer Nature Singapore",
             details: "Fukuoka, Japan, 2025, pp.116-127"
         },
         {
