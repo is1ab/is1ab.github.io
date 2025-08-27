@@ -51,12 +51,12 @@ export function Publication(){
                             Kun-Ji Li, Sheng-Shan Chen, and <Professor coAuther/>
                         </Author>
                         <Title title="Analysis and Mitigation Strategies for Prompt Injection Attacks"/>
-                        Accepted by <Journal name="Communications of the CCISA"/>, 30(3), pp. 1-19, September 2024.
+                        Accepted by <Journal name="Communications of the CCISA"/>, vol. 30, no. 3, pp. 1-19, September 2024.
                     </li>
                     <li>
                         Shih-Jung Lin, <Professor coAuther/>, Dan-Ni Chen, Yi-No Kang, Nai Ming Lai, Kee-Hsin Chen, Chiehfeng Chen, 
                         <Title title="Perioperative Application of Chatbots: A Systematic Review and Meta-Analysis,"/>
-                        Accepted by <Journal name="BMJ Health & Care Informatics"/>, April 2024. 
+                        Accepted by <Journal name="BMJ Health & Care Informatics"/>, vol. 30, no. 1, e100985, July 2024. 
                         <SCI/> 
                         <CoFirstAuther/> 
                     </li>
@@ -65,7 +65,7 @@ export function Publication(){
                             Yunjhen Su, <Professor coAuther/>, Wen-Kuan Chiu, Yi-No Kang, Chiehfeng Chen, 
                         </Author>
                         <Title title="Patient Decision Aids for Breast Cancer Reconstruction: A Systematic Review and Network Meta-Analysis of Randomized Controlled Trials,"/>
-                        Accepted by <Journal name="Plastic and Reconstructive Surgery"/>, January 2024. 
+                        Accepted by <Journal name="Plastic and Reconstructive Surgery"/>, vol. 154, no. 5, pp. 929-940, January 2024. 
                         <SCI/>
                         <CoFirstAuther/> 
                     </li>
@@ -74,7 +74,7 @@ export function Publication(){
                             <Professor/>, Allen C.-H. Wu, and TingTing Hwang
                         </Author>
                         <Title title="A Novel Privacy-Preserving Deep Learning Scheme without a Cryptography Component,"/>
-                        <Journal name="Computers & Electrical Engineering" />, Vol. 94, pp.1-15, September 2021. 
+                        <Journal name="Computers & Electrical Engineering" />, vol. 94, pp.1-15, September 2021. 
                         <SCI/>
                     </li>
                     <li>
@@ -82,7 +82,7 @@ export function Publication(){
                             <Professor/>, Hsiao-Ling Wu, Hung-Min Sun, and TingTing Hwang
                         </Author>
                         <Title title="A New Attack to Self-Certified Digital Signature for E-commerce Applications,"/>
-                        <Journal name="Journal of Information Science and Engineering" />, Vol. 37 No. 6, pp. 1449-1466, June 2021.
+                        <Journal name="Journal of Information Science and Engineering" />, vol. 37, no. 6, pp. 1449-1466, June 2021.
                         <SCI/>
                     </li>
                     <li>
@@ -90,7 +90,7 @@ export function Publication(){
                             Chin-Chen Chang, Hsiao-Ling Wu, and <Professor/>
                         </Author>
                         <Title title="Notes on “Secure authentication scheme for IoT and cloud servers”"/>
-                        <Journal name="Pervasive and Mobile Computing" />, Vol. 38, pp.275-278, July 2017.
+                        <Journal name="Pervasive and Mobile Computing" />, vol. 38, pp.275-278, July 2017.
                         <SCI/>
                     </li>
                     <li>
@@ -98,14 +98,14 @@ export function Publication(){
                             Yanjun Liu, Chin-Chen Chang, and <Professor/>
                         </Author>
                         <Title title="Notes on “An Anonymous Multi-server Authenticated Key Agreement Scheme Based on Trust Computing Using Smart Card and Biometrics”"/>
-                        <Journal name="International Journal of Network Security" />, Vol.18, No.5, September 2016, pp.997-1000.
+                        <Journal name="International Journal of Network Security" />, vol.18, no.5, pp.997-1000, September 2016.
                     </li>
                     <li>
                         <Author>
                             Hsiao-Ling Wu, Chin-Chen Chang, and <Professor/>
                         </Author>
                         <Title title="A secure authentication scheme with provable correctness for pay-TV systems"/>
-                        <Journal name="Security and Communication Networks" />, Vol.9, No. 11, pp.1577-1588, February 2016.
+                        <Journal name="Security and Communication Networks" />, vol.9, no. 11, pp.1577-1588, February 2016.
                         <SCI/>
                     </li>
                     <li>
@@ -113,35 +113,35 @@ export function Publication(){
                             <Professor/> and Ching-Chun Chang 
                         </Author>
                         <Title title="Cryptanalysis of a Secure and Efficient Authentication Scheme for Access Control in Mobile Pay-TV Systems"/>
-                        <Journal name="International Journal of Network Security" />, Vol.18, No.3, pp.594-596, May 2016.
+                        <Journal name="International Journal of Network Security" />, vol.18, no.3, pp.594-596, May 2016.
                     </li>
                     <li>
                         <Author>
                             Chin-Chen Chang, <Professor/>, and Shih-Chang Chang
                         </Author>
                         <Title title="A Strong RSA-based and Certificateless-based Signature Scheme"/>
-                        <Journal name="International Journal of Network Security" />, Vol.18, No.2, pp.201-208, March 2016.
+                        <Journal name="International Journal of Network Security" />, vol.18, no.2, pp.201-208, March 2016.
                     </li>
                     <li>
                         <Author>
                             Yanjun Liu, Chin-Chen Chang, and <Professor/>
                         </Author>
                         <Title title="A Novel Three-party Authenticated Key Exchange Protocol Based on Secret Sharing"/>
-                        <Journal name="Journal of Information Hiding and Multimedia Signal Processing" />, Vol.7, No.4, pp.741-753, July 2016.
+                        <Journal name="Journal of Information Hiding and Multimedia Signal Processing" />, vol.7, no.4, pp.741-753, July 2016.
                     </li>
                     <li>
                         <Author>
                             Yanjun Liu, Chin-Chen Chang, and <Professor/>
                         </Author>
                         <Title title="A Secure and Efficient Scheme for Digital Gift Certificates"/>
-                        <Journal name="Journal of Information Hiding and Multimedia Signal Processing" />, Vol.6, No.3, pp.416-429, May 2015.
+                        <Journal name="Journal of Information Hiding and Multimedia Signal Processing" />, vol.6, no.3, pp.416-429, May 2015.
                     </li>
                     <li>
                         <Author>
                             Chin-Chen Chang, <Professor/>, and Ting-Fang Cheng
                         </Author>
                         <Title title="A dependable storage service system in cloud environment"/>
-                        <Journal name="Security and Communication Networks" />, Vol.8, No. 4, pp.574-588, March 2015.
+                        <Journal name="Security and Communication Networks" />, vol.8, no. 4, pp.574-588, March 2015.
                         <SCI/>
                     </li>
                     <li>
@@ -149,7 +149,7 @@ export function Publication(){
                             Chin-Chen Chang, Yeh-Chieh Chou, and <Professor/>
                         </Author>
                         <Title title="Novel and practical scheme based on secret sharing for laptop data protection"/>
-                        <Journal name="IET Information Security" />, Vol.9, No.2, pp.100-107, February 2015.
+                        <Journal name="IET Information Security" />, vol.9, no.2, pp.100-107, February 2015.
                         <SCI/>
                     </li>
                     <li>
@@ -157,7 +157,7 @@ export function Publication(){
                             Chin-Chen Chang, <Professor/>, and Shih-Chang Chang
                         </Author>
                         <Title title="Practical secure and high efficient authentication scheme in global mobility networks"/>
-                        <Journal name="Journal of Internet Technology" />, Vol.15, No.7, pp.1091-1100, December 2014.
+                        <Journal name="Journal of Internet Technology" />, vol.15, no.7, pp.1091-1100, December 2014.
                         <SCI/>
                     </li>
                     <li>
@@ -165,7 +165,7 @@ export function Publication(){
                             Chin-Chen Chang and <Professor/>
                         </Author>
                         <Title title="A Secure and Efficient Authentication Scheme for E-coupon Systems"/>
-                        <Journal name="Wireless Personal Communications" />, Vol.77, No.4, pp.2981-2996, August 2014.
+                        <Journal name="Wireless Personal Communications" />, vol.77, no.4, pp.2981-2996, August 2014.
                         <SCI/>
                     </li>
                     <li>
@@ -173,7 +173,7 @@ export function Publication(){
                             Cheng Guo, Chin-Chen Chang, and <Professor/>
                         </Author>
                         <Title title="Chaotic Maps-Based Mutual Authentication and Key Agreement using Smart Cards for Wireless Communications"/>
-                        <Journal name="Journal of Information Hiding and Multimedia Signal Processing" />, Vol.4, No.2, pp.99-109, April 2013.
+                        <Journal name="Journal of Information Hiding and Multimedia Signal Processing" />, vol.4, no.2, pp.99-109, April 2013.
                         <SCI/>
                     </li>
                 </ol>
