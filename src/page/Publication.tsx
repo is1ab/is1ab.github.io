@@ -62,7 +62,9 @@ export function Publication() {
                         <Journal name="Communications of the CCISA" />, vol. 30, no. 3, pp. 1-19, September 2024.
                     </li>
                     <li>
+                        <Author>
                         Shih-Jung Lin, <Professor coAuther />, Dan-Ni Chen, Yi-No Kang, Nai Ming Lai, Kee-Hsin Chen, and Chiehfeng Chen
+                        </Author>
                         <Title title="Perioperative Application of Chatbots: A Systematic Review and Meta-Analysis," />
                         <Journal name="BMJ Health & Care Informatics" />, vol. 30, no. 1, e100985, July 2024.
                         <AlternativeJournal name="[2024, JCR IF: 4.4, HEALTH CARE SCIENCES & SERVICES, 23/185, Q1]"></AlternativeJournal>
