@@ -51,7 +51,7 @@ export function Publication() {
                         </Author>
                         <Title title="EnhanceCTI: An Enhanced Semantic Filtering and Feature Extraction Framework for Industry-Specific Cyber Threat Intelligence" />
                         Accepted by <Journal name="Computers & Security" />, August 2025. 
-                         <AlternativeJournal name="(2024, JCR IF: 5.4, COMPUTER SCIENCE, INFORMATION SYSTEMS, 42/258 Q1)"></AlternativeJournal>
+                         <AlternativeJournal name="[2024, JCR IF: 5.4, COMPUTER SCIENCE, INFORMATION SYSTEMS, 42/258, Q1]"></AlternativeJournal>
                         <SCI />
                     </li>
                     <li>
@@ -62,20 +62,20 @@ export function Publication() {
                         <Journal name="Communications of the CCISA" />, vol. 30, no. 3, pp. 1-19, September 2024.
                     </li>
                     <li>
-                        Shih-Jung Lin, <Professor coAuther />, Dan-Ni Chen, Yi-No Kang, Nai Ming Lai, Kee-Hsin Chen, Chiehfeng Chen,
+                        Shih-Jung Lin, <Professor coAuther />, Dan-Ni Chen, Yi-No Kang, Nai Ming Lai, Kee-Hsin Chen, Chiehfeng Chen
                         <Title title="Perioperative Application of Chatbots: A Systematic Review and Meta-Analysis," />
                         <Journal name="BMJ Health & Care Informatics" />, vol. 30, no. 1, e100985, July 2024.
-                        <AlternativeJournal name="(2024, JCR IF: 4.4, HEALTH CARE SCIENCES & SERVICES, 23/185 Q1)"></AlternativeJournal>
+                        <AlternativeJournal name="[2024, JCR IF: 4.4, HEALTH CARE SCIENCES & SERVICES, 23/185, Q1]"></AlternativeJournal>
                         <SCI />
                         <CoFirstAuther />
                     </li>
                     <li>
                         <Author>
-                            Yunjhen Su, <Professor coAuther />, Wen-Kuan Chiu, Yi-No Kang, Chiehfeng Chen,
+                            Yunjhen Su, <Professor coAuther />, Wen-Kuan Chiu, Yi-No Kang, Chiehfeng Chen
                         </Author>
                         <Title title="Patient Decision Aids for Breast Cancer Reconstruction: A Systematic Review and Network Meta-Analysis of Randomized Controlled Trials," />
                         <Journal name="Plastic and Reconstructive Surgery" />, vol. 154, no. 5, pp. 929-940, January 2024. 
-                        <AlternativeJournal name="(2024, JCR IF: 3.4, SURGERY, 41/312 Q1)"></AlternativeJournal>
+                        <AlternativeJournal name="[2024, JCR IF: 3.4, SURGERY, 41/312, Q1]"></AlternativeJournal>
                         <SCI />
                         <CoFirstAuther />
                     </li>
