@@ -50,7 +50,8 @@ export function Publication() {
                             Sheng-Shan Chen, Tun-Wen Pai, and <Professor star />
                         </Author>
                         <Title title="EnhanceCTI: An Enhanced Semantic Filtering and Feature Extraction Framework for Industry-Specific Cyber Threat Intelligence" />
-                        Accepted by <Journal name="Computers & Security" />, August 2025. (2024, JCR IF: 5.4, COMPUTER SCIENCE, INFORMATION SYSTEMS, 42/258 Q1)
+                        Accepted by <Journal name="Computers & Security" />, August 2025. 
+                         <AlternativeJournal name="(2024, JCR IF: 5.4, COMPUTER SCIENCE, INFORMATION SYSTEMS, 42/258 Q1)"></AlternativeJournal>
                         <SCI />
                     </li>
                     <li>
@@ -73,7 +74,8 @@ export function Publication() {
                             Yunjhen Su, <Professor coAuther />, Wen-Kuan Chiu, Yi-No Kang, Chiehfeng Chen,
                         </Author>
                         <Title title="Patient Decision Aids for Breast Cancer Reconstruction: A Systematic Review and Network Meta-Analysis of Randomized Controlled Trials," />
-                        <Journal name="Plastic and Reconstructive Surgery" />, vol. 154, no. 5, pp. 929-940, January 2024. (2024, JCR IF: 3.4, SURGERY, 41/312 Q1)
+                        <Journal name="Plastic and Reconstructive Surgery" />, vol. 154, no. 5, pp. 929-940, January 2024. 
+                        <AlternativeJournal name="(2024, JCR IF: 3.4, SURGERY, 41/312 Q1)"></AlternativeJournal>
                         <SCI />
                         <CoFirstAuther />
                     </li>
