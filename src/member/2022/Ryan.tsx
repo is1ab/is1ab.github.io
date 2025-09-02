@@ -178,7 +178,7 @@ export const RyanMemberPage = () => {
             authors: "Sheng-Shan Chen, Tun-Wen Pai, Chin-Yu Sun*",
             title: "EnhanceCTI: Enhanced semantic filtering and feature extraction framework for industry-specific cyber threat intelligence",
             target: "Computers & Security",
-            details: "2025",
+            details: "2025, 104649, ISSN 0167-4048",
             doi: "https://doi.org/10.1016/j.cose.2025.104649"
         },
         {
