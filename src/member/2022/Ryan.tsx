@@ -6,7 +6,7 @@ export const RyanMemberPage = () => {
 
     const bio = (
         <div className="d-flex flex-column gap-3">
-            <p>陳勝舢現為國立臺北科技大學資訊工程系博士候選人，並擔任奧義智慧科技 (CyCraft) 的實習資安研究員。他的研究專注於語言模型、網路威脅情資分析、醫療大數據，以及 AI 技術在資訊安全領域的應用。他曾參與多項大型專案，包括與國家資通安全研究院(NICS)、日本情報通信研究院(NICT)、國家衛生研究院(NHRI)及多家大型醫院的合作，並協助指導超過十五位碩士生投入研究。教學經歷包括教育部 AIS3 情資與分析講師、師大資工碩士班高等資安攻防課程講師及三重商工資料處理科培訓講師。</p>
+            <p>陳勝舢現為國立臺北科技大學資訊工程系博士候選人，並擔任奧義智慧科技 (CyCraft) 的實習資安研究員。他的研究專注於深度學習、網路安全、威脅情資分析及醫療資訊等。他曾參與多項大型專案，包括與國家資通安全研究院(NICS)、日本情報通信研究院(NICT)、國家衛生研究院(NHRI)及多家大型醫院的合作，並協助指導超過十五位碩士生投入研究。教學經歷包括教育部 AIS3 情資與分析講師、師大資工碩士班高等資安攻防課程講師及三重商工資料處理科培訓講師。</p>
             <p>更多資訊（著作、專案）請參閱：<a href="https://sectools.tw/about/sean">SecTools.tw</a></p>
             <p><a href="https://sectools.tw" target="_blank"><img src="https://img.shields.io/badge/Visit-SecTools.tw-blue" alt="Visit SecTools.tw" /></a></p>
         </div>
@@ -168,11 +168,18 @@ export const RyanMemberPage = () => {
     ]
     const journals: MemberArticleType[] = [
         {
-            authors: "Sheng-Shan Chen, Tun-Wen Pai, Chin-Yu Sun*",
-            title: "EnhanceCTI: Enhanced semantic filtering and feature extraction framework for industry-specific cyber threat intelligence",
-            target: "Accepted by Computers & Security, August 2025",
+            authors: "Chin-Yu Sun*, Sheng-Shan Chen, Ya-Han Ho",
+            title: "De-Identification of Open-Source Intelligence Using Finetuned LLaMA-3",
+            target: "Accepted by High-Confidence Computing, September 2025",
             details: "",
             doi: ""
+        },
+        {
+            authors: "Sheng-Shan Chen, Tun-Wen Pai, Chin-Yu Sun*",
+            title: "EnhanceCTI: Enhanced semantic filtering and feature extraction framework for industry-specific cyber threat intelligence",
+            target: "Computers & Security",
+            details: "2025",
+            doi: "https://doi.org/10.1016/j.cose.2025.104649"
         },
         {
             authors: "Nai-Hsuan Hwang, Sheng-Shan Chen, Tun-Wen Pai*, Mary Hsin-Ju Ko, Ya-Lan Yu, and Hui-Ju Chen*",
