@@ -47,6 +47,16 @@ export function Publication() {
                 <ol>
                     <li>
                         <Author>
+                            <Professor star />, Sheng-Shan Chen, and Ya-Han Ho
+                        </Author>
+                        <Title title="De-Identification of Open-Source Intelligence Using Finetuned LLaMA-3" />
+                        Accepted by <Journal name="High-Confidence Computing" />, September 2025.
+                        <AlternativeJournal name="[2025, JCR IF:- ]"></AlternativeJournal>
+                        <AlternativeJournal name="[2025, SJR: - ]"></AlternativeJournal>
+                        <SCI />
+                    </li>
+                    <li>
+                        <Author>
                             Sheng-Shan Chen, Tun-Wen Pai, and <Professor star />
                         </Author>
                         <Title title="EnhanceCTI: An Enhanced Semantic Filtering and Feature Extraction Framework for Industry-Specific Cyber Threat Intelligence" />
@@ -259,13 +269,6 @@ export function Publication() {
             <>
                 <h4 className="text-center fw-bold">Pending</h4>
                 <ol>
-                    <li>
-                        <Author>
-                            <Professor star />, Sheng-Shan Chen, Ya-Han Ho
-                        </Author>
-                        <Title title="De-Identification of Open-Source Intelligence Using Finetuned LLaMA-3" />
-                        Submitted to <Journal name="High-Confidence Computing" />, June 2025.
-                    </li>
                     <li>
                         <Author>
                             Yi-Hsien Chen, Sheng-Shan Chen, Chun-Chia Huang, Sian-Yao Huang, <Professor />, Hsu-Chun Hsiao, Chung-Kuan Chen, Cheng-Lin Yang, Chun-Ying Huang
