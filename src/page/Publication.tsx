@@ -49,7 +49,7 @@ export function Publication() {
                         <Author>
                             <Professor star />, Sheng-Shan Chen, and Ya-Han Ho
                         </Author>
-                        <Title title="De-Identification of Open-Source Intelligence Using Finetuned LLaMA-3" />
+                        <Title title="De-Identification of Open-Source Intelligence using Finetuned LLaMA-3" />
                         Accepted by <Journal name="High-Confidence Computing" />, September 2025.
                         <AlternativeJournal name="[2025, JCR IF:- ]"></AlternativeJournal>
                         <AlternativeJournal name="[2025, SJR: - ]"></AlternativeJournal>
