@@ -170,8 +170,8 @@ export const RyanMemberPage = () => {
         {
             authors: "Chin-Yu Sun*, Sheng-Shan Chen, Ya-Han Ho",
             title: "De-Identification of Open-Source Intelligence Using Finetuned LLaMA-3",
-            target: "Accepted by High-Confidence Computing, September 2025",
-            details: "",
+            target: "Accepted by High-Confidence Computing",
+            details: "September 2025",
             doi: ""
         },
         {
