@@ -31,6 +31,31 @@ export const SaltMemberPage = () => {
     ]
     const competitionExperiences: MemberCompetitionExperienceType[] = [
         {
+            title: "CRYPTO CTF 2025",
+            result: "隊名 : NTUT is1ab ; 排名 : 185/364",
+            datetime: "2025.07.12 - 2025.07.13 (UTC)"
+        },
+        {
+            title: "AIS3 Pre-exam 2025",
+            result: "",
+            datetime: "2025.05.24 - 2025.05.26"
+        },
+        {
+            title: "臺灣資安大會 CyberRange 2025 初賽 Day1",
+            result: "排名 : 4",
+            datetime: "2025.04.15"
+        },
+        {
+            title: "DEFCON CTF Qual 2025",
+            result: "隊名 : 星爆牛炒竹狐",
+            datetime: "2025.04.12 - 2025.04.14"
+        },
+        {
+            title: "AIS3 EOF CTF 2025 Final",
+            result: "",
+            datetime: "2025.02.07 - 2025.02.08"
+        },
+        {
             title: "HTB : University CTF 2024",
             result: "隊名 : NTUTis1ab",
             datetime: "2024.12.13 - 2024.12.15 (UTC)"
@@ -113,6 +138,18 @@ export const SaltMemberPage = () => {
     ]
     const participates: MemberParticipateType[] = [
         {
+            title: "HITCOM CMT 2025",
+            datetime: "2025.08.15 - 2023.08.16"
+        },
+        {
+            title: "參與 114 年度教育體系資安攻防演練 - 攻擊手",
+            datetime: "2025.07.01 - 2025.09.11"
+        },
+        {
+            title: "參與 臺灣資安大會 CyberSec 2025",
+            datetime: "2025.04.15 - 2025.04.17"
+        },
+        {
             title: "參與 CTF種子培訓工作坊 台北場",
             datetime: "2024.11.23"
         },
@@ -189,7 +226,7 @@ export const SaltMemberPage = () => {
         {
             company: "Turing Space 美商圖靈 - \n 台灣圖靈鏈股份有限公司",
             info: "Tech Researcher Intern: OID4VC , DID/VC",
-            datetime: "2024.09 - now"
+            datetime: "2024.09 - 2024.12"
         }
     ]
     const journals: MemberArticleType[] = []

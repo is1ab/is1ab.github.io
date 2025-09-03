@@ -19,6 +19,76 @@ export function Activities(){
         <div className="activities">
             <h4 className="text-center fw-bold">歷史活動</h4>
             <table className="w-100 table-bordered">
+                <ActivitiesItem
+                    time="2025.08.15"
+                    descriptionItem={
+                        <div>
+                            <p>HITCON CMT 2025</p>
+                            <img 
+                                src="https://drive.google.com/thumbnail?id=1AdZbm0KkppfzooqJ2jp-tMBRVeINB-R7&sz=w550" 
+                              />
+                            <img 
+                                src="https://drive.google.com/thumbnail?id=1A6JBMKkfNFeQfLssvF5DmFajsfNaVMTK&sz=w550" 
+                              />
+                            <img 
+                                src="https://drive.google.com/thumbnail?id=1u_O3Kii-NsOE_6bF19IUiiK3L21L0foO&sz=w550" 
+                              />
+                        </div>
+                    }
+                ></ActivitiesItem>
+                <ActivitiesItem
+                    time="2025.07.28"
+                    descriptionItem={
+                        <div>
+                            <p>2025 AIS3 新型態資安暑期課程</p>
+                            <img 
+                                src="https://drive.google.com/thumbnail?id=1nW4NGygr_16Y93etH7l6-mMz8dyfmPMB&sz=w550" 
+                              />
+                            <img 
+                                src="https://drive.google.com/thumbnail?id=1d133d1uNoMwPjv2am-L5vdohhj9XuYfs&sz=w550" 
+                              />
+                        </div>
+                    }
+                ></ActivitiesItem>
+                <ActivitiesItem
+                    time="2025.02.07"
+                    descriptionItem={
+                        <div>
+                            <p>AIS3 EOF CTF 2025 final</p>
+                            <img 
+                                src="https://drive.google.com/thumbnail?id=1xw2zg76QZGzFgUaNnbrb-X_mZ4blyKm2&sz=w550" 
+                              />
+                            <img 
+                                src="https://drive.google.com/thumbnail?id=1qmqxe37jXBu-f9Z1j1FiU1s2oatEUgRk&sz=w550" 
+                              />
+                        </div>
+                    }
+                ></ActivitiesItem>
+                <ActivitiesItem
+                    time="2024.11.23"
+                    descriptionItem={
+                        <div>
+                            <p>CTF 種子培訓工作坊 獲金獎</p>
+                            <img 
+                                src="https://drive.google.com/thumbnail?id=1PaI1q2ZsJ-ZYb9Bny_qC0wldeI28XipR&sz=w550" 
+                              />
+                        </div>
+                    }
+                ></ActivitiesItem>
+                <ActivitiesItem
+                    time="2024.10.12"
+                    descriptionItem={
+                        <div>
+                            <p>資安技能金盾獎競賽 2024 初賽</p>
+                            <img 
+                                src="https://drive.google.com/thumbnail?id=1SgKriQhuqAJcFEwTkiPYwfiHP0lnAukt&sz=w550" 
+                              />
+                            <img 
+                                src="https://drive.google.com/thumbnail?id=1k4FmtOMN7ZarHTWcO21Yub3mhFHJIvFJ&sz=w450" 
+                              />
+                        </div>
+                    }
+                ></ActivitiesItem>
                  <ActivitiesItem
                     time="2024.04.27"
                     descriptionItem={
