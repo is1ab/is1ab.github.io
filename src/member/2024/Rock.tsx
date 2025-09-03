@@ -2,7 +2,10 @@ import { Sample } from "../Sample"
 import Rock from "../../assets/member/Rock.jpg"
 import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../../type/MemberCertificateType"
 export const RockMemberPage = () => {
- const bio = "Hi, I'm Rock. 以前大學讀外語系，碩士鬼轉資安，正在練功累積實力，希望大家多多交流指教，想練英文或日文也可以隨時來找我聊聊!"
+  const bio = <div className="d-flex flex-column gap-3">
+    <p>"Hi, I'm Rock. 以前大學讀外語系，碩士鬼轉資安，正在練功累積實力，希望大家多多交流指教，想練英文或日文也可以隨時來找我聊聊!"</p>
+    <p><span style={{ color: 'black' }}> 我其實很敢 </span> <span className="secret-text"></span> </p>
+  </div>
  const certificates: MemberCertificateType[] = [
      {
          title: "iPAS 資訊安全工程師-初級能力鑑定",
