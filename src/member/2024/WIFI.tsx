@@ -164,7 +164,7 @@ export const WIFIMemberPage = () => {
             datetime: "2025.08.15 - 2025.08.16"
         },
         {
-            title: "第九屆臺灣好厲駭 (高階培訓)",
+            title: "第十屆 AIS3 好厲駭 (高階培訓)",
             datetime: "2025.08 - now"
         }
     ]
@@ -193,7 +193,7 @@ export const WIFIMemberPage = () => {
             zhName="李佳軒"
             enName="Lee, Chia-Hsuan"
             avatar={WIFI}
-            institutes={["國立臺北科技大學 資訊安全碩士學位學程"]}
+            institutes={["國立臺北科技大學 資訊安全碩士學位學程 碩二"]}
             bio={bio}
             experiences={competitionExperiences}
             certificates={certificates}
