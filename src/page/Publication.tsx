@@ -271,6 +271,13 @@ export function Publication() {
                 <ol>
                     <li>
                         <Author>
+                            Sheng-Shan Chen, Kai-Siang Cao, Chung-Kuan Chen, and <Professor star />
+                        </Author>
+                        <Title title="Retrieval-Augmented Generation for Identifying ATT&CK Technique" />
+                        Submitted to <Journal name="Communications of the CCISA" />, September 2025.
+                    </li>
+                    <li>
+                        <Author>
                             Yi-Hsien Chen, Sheng-Shan Chen, Chun-Chia Huang, Sian-Yao Huang, <Professor />, Hsu-Chun Hsiao, Chung-Kuan Chen, Cheng-Lin Yang, Chun-Ying Huang
                         </Author>
                         <Title title="BASGen: An Automated Breach and Attack Simulation Script Generator based on Cyber Threat Intelligence Reports" />
