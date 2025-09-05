@@ -92,7 +92,7 @@ export const WIFIMemberPage = () => {
         },
         {
             title: "Dawg CTF 2025",
-            result: "451/760 Team(Name: NTUT Is1ab)",
+            result: "451/760 Team(Name: NTUT_Is1ab)",
             datetime: "2025/04/18 - 2025/04/20"
         },
         {
