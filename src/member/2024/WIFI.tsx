@@ -103,7 +103,7 @@ export const WIFIMemberPage = () => {
         {
             title: "WHYCTF 2025",
             result: "188/1806 Team(Name: NTUT_Is1ab)",
-            datetime: "2025.08.09 - 2025.08.12"
+            datetime: "2025/08/09 - 2025/08/12"
         }
     ]
     const participates: MemberParticipateType[] = [
@@ -133,7 +133,7 @@ export const WIFIMemberPage = () => {
         },
         {
             title: "第九屆臺灣好厲駭 (高階培訓)",
-            datetime: "2024.08 - 2025.08"
+            datetime: "2024/08 - 2025/08"
         },
         {
             title: "CYBERDAY 2024 資安產業日 (大專校院資安社團互動體驗區展攤)",
@@ -161,11 +161,11 @@ export const WIFIMemberPage = () => {
         },
         { 
             title: "HITCON CMT 2025 - 會眾",
-            datetime: "2025.08.15 - 2025.08.16"
+            datetime: "2025/08/15 - 2025/08/16"
         },
         {
             title: "第十屆 AIS3 好厲駭 (高階培訓)",
-            datetime: "2025.08 - now"
+            datetime: "2025/08 - now"
         }
     ]
     const internExperiences: MemberInternType[] = []
