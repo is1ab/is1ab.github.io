@@ -52,7 +52,7 @@ export function Publication() {
                         <Title title="De-Identification of Open-Source Intelligence using Finetuned LLaMA-3" />
                         Accepted by <Journal name="High-Confidence Computing" />, September 2025.
                         <AlternativeJournal name="[2025, JCR IF:- ]"></AlternativeJournal>
-                        <AlternativeJournal name="[2025, SJR: - ]"></AlternativeJournal>
+                        <AlternativeJournal name="[2024, SJR: 0.894, Computer Networks and Communications, Q1]"></AlternativeJournal>
                         <SCI />
                     </li>
                     <li>
@@ -62,7 +62,7 @@ export function Publication() {
                         <Title title="EnhanceCTI: An Enhanced Semantic Filtering and Feature Extraction Framework for Industry-Specific Cyber Threat Intelligence" />
                         Accepted by <Journal name="Computers & Security" />, August 2025. 
                         <AlternativeJournal name="[2025, JCR IF:- ]"></AlternativeJournal>
-                        <AlternativeJournal name="[2025, SJR: - ]"></AlternativeJournal>
+                        <AlternativeJournal name="[2024, SJR: 1.445, Computer Science, Q1]"></AlternativeJournal>
                         <SCI />
                     </li>
                     <li>
@@ -79,7 +79,7 @@ export function Publication() {
                         <Title title="Perioperative Application of Chatbots: A Systematic Review and Meta-Analysis," />
                         <Journal name="BMJ Health & Care Informatics" />, vol. 30, no. 1, e100985, July 2024.
                         <AlternativeJournal name="[2024, JCR IF: 4.4, HEALTH CARE SCIENCES & SERVICES, 23/185, Q1]"></AlternativeJournal>
-                        <AlternativeJournal name="[2024, SJR: 1.263, COMPUTER SCIENCE APPLICATIONS, Q1]"></AlternativeJournal>
+                        <AlternativeJournal name="[2024, SJR: 1.263, Computer Science applications, Q1]"></AlternativeJournal>
                         <SCI />
                         <CoFirstAuther />
                     </li>
@@ -90,7 +90,7 @@ export function Publication() {
                         <Title title="Patient Decision Aids for Breast Cancer Reconstruction: A Systematic Review and Network Meta-Analysis of Randomized Controlled Trials," />
                         <Journal name="Plastic and Reconstructive Surgery" />, vol. 154, no. 5, pp. 929-940, January 2024. 
                         <AlternativeJournal name="[2024, JCR IF: 3.4, SURGERY, 41/312, Q1]"></AlternativeJournal>
-                        <AlternativeJournal name="[2024, SJR: 1.222, SURGERY, Q1]"></AlternativeJournal>
+                        <AlternativeJournal name="[2024, SJR: 1.222, Surgery, Q1]"></AlternativeJournal>
                         <SCI />
                         <CoFirstAuther />
                     </li>
