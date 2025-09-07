@@ -271,6 +271,13 @@ export function Publication() {
                 <ol>
                     <li>
                         <Author>
+                            Yi-Hsiang Chen, Feng-Rui Liao, Jun-Cheng Zhang, Zheng-Hao Huang, and <Professor star />
+                        </Author>
+                        <Title title="Enhancing Small Language Models in Agentic Pipelines with Prompt Engineering and Fine-Tuning" />
+                        Submitted to <Journal name="Taiwan Academic Network Conference (TANET 2025)" />, September 2025.
+                    </li>
+                    <li>
+                        <Author>
                             Sheng-Shan Chen, Kai-Siang Cao, Chung-Kuan Chen, and <Professor star />
                         </Author>
                         <Title title="Retrieval-Augmented Generation for Identifying ATT&CK Technique" />
