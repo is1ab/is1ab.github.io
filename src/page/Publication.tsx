@@ -51,7 +51,7 @@ export function Publication() {
                         </Author>
                         <Title title="De-Identification of Open-Source Intelligence using Finetuned LLaMA-3" />
                         Accepted by <Journal name="High-Confidence Computing" />, September 2025.
-                        <AlternativeJournal name="[2025, JCR IF:- ]"></AlternativeJournal>
+                        <AlternativeJournal name="[2024, JCR IF: 3.0,  Computer Science, Information Systems, Q2]"></AlternativeJournal>
                         <AlternativeJournal name="[2024, SJR: 0.894, Computer Networks and Communications, Q1]"></AlternativeJournal>
                         <SCI />
                     </li>
@@ -61,7 +61,7 @@ export function Publication() {
                         </Author>
                         <Title title="EnhanceCTI: An Enhanced Semantic Filtering and Feature Extraction Framework for Industry-Specific Cyber Threat Intelligence" />
                         Accepted by <Journal name="Computers & Security" />, August 2025. 
-                        <AlternativeJournal name="[2025, JCR IF:- ]"></AlternativeJournal>
+                        <AlternativeJournal name="[2024, JCR IF: 5.4, Computer Science, Information Systems, Q1]"></AlternativeJournal>
                         <AlternativeJournal name="[2024, SJR: 1.445, Computer Science, Q1]"></AlternativeJournal>
                         <SCI />
                     </li>
