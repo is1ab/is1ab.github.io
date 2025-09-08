@@ -214,6 +214,16 @@ export function Member(){
             certificate: "iPAS 資訊安全工程師檢定（初級）",
             website: "/#/member/2025/Yunung"
         },
+        {
+            key: '19',
+            name: "楊育誠",
+            joinDate: "2025.05",
+            role: "碩一，資工碩士",
+            coAdvisor: '',
+            experience: "",
+            certificate: "",
+            website: "/#/member/2025/Victor"
+        },
     ]
     const consultantUserTableItem = [
         {
