@@ -92,13 +92,18 @@ export const WIFIMemberPage = () => {
         },
         {
             title: "Dawg CTF 2025",
-            result: "451/760 Team(Name: _WIFI)",
+            result: "451/760 Team(Name: NTUT_Is1ab)",
             datetime: "2025/04/18 - 2025/04/20"
         },
         {
             title: "NHNC 2025",
             result: "53/473 Team(Name: _WIFI)",
             datetime: "2025/07/05 - 2025/07/07"
+        },
+        {
+            title: "WHYCTF 2025",
+            result: "188/1806 Team(Name: NTUT_Is1ab)",
+            datetime: "2025/08/09 - 2025/08/12"
         }
     ]
     const participates: MemberParticipateType[] = [
@@ -123,12 +128,12 @@ export const WIFIMemberPage = () => {
             datetime: "2024/07/29 - 2024/08/04"
         },
         {
-            title: "HITCON CMT 2024",
+            title: "HITCON CMT 2024 - 會眾",
             datetime: "2024/08/23 - 2024/08/24"
         },
         {
             title: "第九屆臺灣好厲駭 (高階培訓)",
-            datetime: "2024.08 - now"
+            datetime: "2024/08 - 2025/08"
         },
         {
             title: "CYBERDAY 2024 資安產業日 (大專校院資安社團互動體驗區展攤)",
@@ -153,6 +158,14 @@ export const WIFIMemberPage = () => {
         {
             title: "2025 AIS3 Club 北區高中職程式安全黑客松工作坊 - 助教",
             datetime: "2025/05/03 - 2025/05/04"
+        },
+        { 
+            title: "HITCON CMT 2025 - 會眾",
+            datetime: "2025/08/15 - 2025/08/16"
+        },
+        {
+            title: "第十屆 AIS3 好厲駭 (高階培訓)",
+            datetime: "2025/08 - now"
         }
     ]
     const internExperiences: MemberInternType[] = []
@@ -180,7 +193,7 @@ export const WIFIMemberPage = () => {
             zhName="李佳軒"
             enName="Lee, Chia-Hsuan"
             avatar={WIFI}
-            institutes={["國立臺北科技大學 資訊安全碩士學位學程 碩一"]}
+            institutes={["國立臺北科技大學 資訊安全碩士學位學程 碩二"]}
             bio={bio}
             experiences={competitionExperiences}
             certificates={certificates}

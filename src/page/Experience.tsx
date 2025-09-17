@@ -44,7 +44,6 @@ export function Experience(){
                 <h4 className="text-center fw-bold">計畫經歷 Project</h4>
                 <ul>
                     <li>開發具提示注入緩解功能的強化學習式乳癌重建AI決策輔助系統之研究（校際合作 - 萬芳醫院，<Passed/>）</li>
-                    <li>強化醫療生態系數位韌性技術研發及評測計畫（資安院計畫 - 協同主持人，<Progressing/>）</li>
                     <li>建構威脅情資知識圖及攻擊事件自動化辨識技術（資安院計畫，<Finished/>）</li>
                     <li>具網路韌性且可信賴之低軌衛星通訊系統：互聯互通認證、軟體安全、物聯網永續性、保有隱私、假資訊偵測（國科會計畫共同主持人，<Progressing/>）</li>
                     <li>整合多項新穎技術於網路防禦系統以抵抗網路威脅之研究（國科會計畫，<Finished/>）</li>
@@ -72,6 +71,7 @@ export function Experience(){
             <>
                 <h4 className="text-center fw-bold">個人榮譽 Honors</h4>
                 <ul>
+                    <li>榮獲 國立臺北科技大學 電資學院 113學年度 - (院)傑出教學獎 114.09.12</li>
                     <li>榮獲 國立臺北科技大學 112學年度 - 優良導師 113.07.02</li>
                     <li>榮獲 國立臺北科技大學 保管教室整潔評比優良</li>
                     <ul>
