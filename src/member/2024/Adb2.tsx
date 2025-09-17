@@ -122,20 +122,24 @@ export const Adb2MemberPage = () => {
         }
     ]
     const participates: MemberParticipateType[] = [
+        {
+            title: "第十屆臺灣好厲駭 ( 高階培訓 ) - 學員",
+            datetime: "2025.08 - now"
+        },
         { 
             title: "HITCON CMT 2025 - 會眾",
             datetime: "2025.08.15 - 2025.08.16"
         },
         {
             title: "11th AIS3 進階資安攻防競技 - 學員",
-            datetime: "2024.07.28 - 2024.08.03"
+            datetime: "2025.07.28 - 2025.08.03"
         },
         {
             title: "114 年度教育體系資安攻防演練 - 攻擊手",
             datetime: "2025.07.01 - 2025.09.11"
         },
         {
-            title: "AIS3 CLUB 北區黑客松 2025 - 工作人員",
+            title: "AIS3 CLUB 北區黑客松 2025 - 助教",
             datetime: "2025.05.03 - 2025.05.04"
         },
         {
@@ -148,7 +152,7 @@ export const Adb2MemberPage = () => {
         },
         {
             title: "第九屆臺灣好厲駭 ( 高階培訓 ) - 學員",
-            datetime: "2024.08 - now"
+            datetime: "2024.08 - 2025.08"
         },
         {
             title: "Google 資安人才培育計畫 - 學員",
@@ -195,7 +199,7 @@ export const Adb2MemberPage = () => {
                         </div>
                     ),
                     title: "ITSA 程式自學平臺 RCE",
-                    datetime: "2024.07.14"
+                    datetime: "2025.07.14"
                 }
         ]
 
