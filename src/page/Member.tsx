@@ -73,7 +73,7 @@ export function Member(){
             coAdvisor: '',
             experience: "",
             certificate: "iPAS 資訊安全工程師檢定（初級）",
-            website: "/#/Member/2024/Jason"
+            website: "/#/Member/2024/Win"
         },
         {
             key: '5',

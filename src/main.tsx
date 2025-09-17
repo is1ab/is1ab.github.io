@@ -32,7 +32,7 @@ import { WIFIMemberPage } from "./member/2024/WIFI.tsx";
 import { YPPMemberPage } from "./member/2024/ypp.tsx";
 import { YoungMemberPage } from "./member/2024/Young.tsx";
 import { PaulWangMemberPage } from "./member/2024/PaulWang.tsx";
-import { JasonMemberPage } from "./member/2024/Jason.tsx";
+import { WinMemberPage } from "./member/2024/Win.tsx";
 import { JoeMemberPage } from "./member/2024/Joe.tsx";
 import { EasonMemberPage } from "./member/2023/Eason.tsx";
 import { BoboMemberPage } from "./member/2023/Bobo.tsx";
@@ -72,7 +72,7 @@ const router = createHashRouter(
       <Route path="/Member/2023/Eason" element={<EasonMemberPage />}></Route>
       <Route path="/Member/2024/ypp" element={<YPPMemberPage />}></Route>
       <Route path="/Member/2024/Young" element={<YoungMemberPage />}></Route>
-      <Route path="/Member/2024/Jason" element={<JasonMemberPage />}></Route>
+  <Route path="/Member/2024/Win" element={<WinMemberPage />}></Route>
       <Route path="/Member/2023/Bobo" element={<BoboMemberPage />}></Route>
       <Route
         path="/Member/2024/PaulWang"
