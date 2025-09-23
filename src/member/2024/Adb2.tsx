@@ -1,6 +1,6 @@
 import { Sample } from "../Sample"
 import Adb2 from "../../assets/member/Adb2.jpg"
-import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../../type/MemberCertificateType"
+import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType, MemberZeroDayType } from "../../type/MemberCertificateType"
 
 export const Adb2MemberPage = () => {
     const bio = "SGVsbG8sIEknbSBBZGIyLg=="
@@ -15,6 +15,11 @@ export const Adb2MemberPage = () => {
         }
     ]
     const competitionExperiences: MemberCompetitionExperienceType[] = [
+        {
+            title: "WHYCTF 2025",
+            result: "188/1806 Team(Name: NTUT_Is1ab)",
+            datetime: "2025.08.09 - 2025.08.12"
+        },
         {
             title: "AIS3 Pre-exam 2025",
             result: "14/344",
@@ -117,16 +122,24 @@ export const Adb2MemberPage = () => {
         }
     ]
     const participates: MemberParticipateType[] = [
+        {
+            title: "第十屆臺灣好厲駭 ( 高階培訓 ) - 學員",
+            datetime: "2025.08 - now"
+        },
         { 
             title: "HITCON CMT 2025 - 會眾",
             datetime: "2025.08.15 - 2025.08.16"
+        },
+        {
+            title: "11th AIS3 進階資安攻防競技 - 學員",
+            datetime: "2025.07.28 - 2025.08.03"
         },
         {
             title: "114 年度教育體系資安攻防演練 - 攻擊手",
             datetime: "2025.07.01 - 2025.09.11"
         },
         {
-            title: "AIS3 CLUB 北區黑客松 2025 - 工作人員",
+            title: "AIS3 CLUB 北區黑客松 2025 - 助教",
             datetime: "2025.05.03 - 2025.05.04"
         },
         {
@@ -139,7 +152,7 @@ export const Adb2MemberPage = () => {
         },
         {
             title: "第九屆臺灣好厲駭 ( 高階培訓 ) - 學員",
-            datetime: "2024.08 - now"
+            datetime: "2024.08 - 2025.08"
         },
         {
             title: "Google 資安人才培育計畫 - 學員",
@@ -178,12 +191,24 @@ export const Adb2MemberPage = () => {
     const journals: MemberArticleType[] = []
     const conferences: MemberArticleType[] = []
     const techConfs: MemberArticleType[] = []
+    const zeroday: MemberZeroDayType[] = [
+                {
+                    id: ( 
+                        <div>
+                            <a href="https://zeroday.hitcon.org/vulnerability/ZD-2025-00696">ZD-2025-00696</a> 
+                        </div>
+                    ),
+                    title: "ITSA 程式自學平臺 RCE",
+                    datetime: "2025.07.14"
+                }
+        ]
+
     return (
         <Sample
             zhName="陳彥宇"
             enName="Yan-Yu, Chen"
             avatar={Adb2}
-            institutes={["國立臺北科技大學 資訊工程所 碩一"]}
+            institutes={["國立臺北科技大學 資訊工程所 碩二"]}
             bio={bio}
             experiences={competitionExperiences}
             certificates={certificates}
@@ -192,6 +217,7 @@ export const Adb2MemberPage = () => {
             journals={journals}
             conferences={conferences}
             techConfs={techConfs}
+            zeroday={zeroday}
         ></Sample>
     )
 }
