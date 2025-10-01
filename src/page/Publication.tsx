@@ -50,7 +50,7 @@ export function Publication() {
                             Sheng-Shan Chen, Kai-Siang Cao, Chung-Kuan Chen, and <Professor star />
                         </Author>
                         <Title title="Retrieval-Augmented Generation for Identifying ATT&CK Technique" />
-                        Accepted by <Journal name="Communications of the CCISA" />, vol. 31, no. 3, pp. 1-19, August 2025.
+                        Accepted by <Journal name="Communications of the CCISA" />, vol. 31, no. 3, pp. 20-39, August 2025.
                     </li>
                     <li>
                         <Author>
