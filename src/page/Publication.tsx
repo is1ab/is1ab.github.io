@@ -47,6 +47,13 @@ export function Publication() {
                 <ol>
                     <li>
                         <Author>
+                            Sheng-Shan Chen, Kai-Siang Cao, Chung-Kuan Chen, and <Professor star />
+                        </Author>
+                        <Title title="Retrieval-Augmented Generation for Identifying ATT&CK Technique" />
+                        Accepted by <Journal name="Communications of the CCISA" />, vol. 31, no. 3, pp. 1-19, August 2025.
+                    </li>
+                    <li>
+                        <Author>
                             <Professor star />, Sheng-Shan Chen, and Ya-Han Ho
                         </Author>
                         <Title title="De-Identification of Open-Source Intelligence using Finetuned LLaMA-3" />
@@ -282,13 +289,6 @@ export function Publication() {
                         </Author>
                         <Title title="Applying Machine Learning for EDoS Attack Detection and Cost Analysis in Cloud Microservices" />
                         Submitted to <Journal name="Digital Threats: Research and Practice" />, September 2025.
-                    </li>
-                    <li>
-                        <Author>
-                            Sheng-Shan Chen, Kai-Siang Cao, Chung-Kuan Chen, and <Professor star />
-                        </Author>
-                        <Title title="Retrieval-Augmented Generation for Identifying ATT&CK Technique" />
-                        Submitted to <Journal name="Communications of the CCISA" />, September 2025.
                     </li>
                     <li>
                         <Author>
