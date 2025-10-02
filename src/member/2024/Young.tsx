@@ -12,7 +12,11 @@ export const YoungMemberPage = () => {
         {
             title: "Google Cybersecurity Certificate",
             datetime: "2025.06.26"
-        }
+        },
+        {
+            title: "iPAS 資訊安全工程師-中級能力鑑定",
+            datetime: "2025.10.01"
+        },
     ]
     const competitionExperiences: MemberCompetitionExperienceType[] = [
         {
@@ -22,7 +26,7 @@ export const YoungMemberPage = () => {
         },
         {
             title: "MyFirst CTF 2025",
-            result: "4/80 Team 銀獎(Name: Young_Lee)",
+            result: "4/80 銀獎 Team(Name: Young_Lee)",
             datetime: "2025.05.24"
         },
         {
