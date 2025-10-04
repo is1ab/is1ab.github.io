@@ -209,7 +209,7 @@ export function Member(){
     
     const otherStudentTableItem = [
         {
-            name: "黃漢軒",
+            name: "黃漢軒 Clyde",
             note: "技術顧問; 國立陽明交通大學 - 資訊安全研究所"
         },
         {
@@ -231,6 +231,10 @@ export function Member(){
         {
             name: "江赫霆",
             note: "選手; 自學生"
+        },
+        {
+            name: "林逸凡 dkri3c1",
+            note: "選手; 國立臺北科技大學 - 資訊工程學系" 
         },
         {
             name: "張意昌",
