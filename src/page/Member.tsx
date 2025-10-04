@@ -289,6 +289,14 @@ export function Member(){
                     name: "林妍蓁",
                     intern: ""
                 }
+                {
+                    name: "吳哲丞",
+                    intern: ""
+                }
+                {
+                    name: "李馥亘",
+                    intern: ""
+                }
             ],
             note: "保留",
             progress: 0
@@ -302,10 +310,6 @@ export function Member(){
                 },
                 {
                     name: "潘雙永",
-                    intern: ""
-                },
-                {
-                    name: "李馥亘",
                     intern: ""
                 }
             ],
