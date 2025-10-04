@@ -26,7 +26,7 @@ export function Member(){
             website: "/#/Member/2023/Y"
         },
         {
-            key: '0',
+            key: '1',
             name: "許貽昇",
             joinDate: "2023.03",
             role: "碩三，資安碩士",
@@ -36,7 +36,7 @@ export function Member(){
             website: "/#/Member/2023/Eason"
         },
         {
-            key: '1',
+            key: '2',
             name: "吳冠廷",
             joinDate: "2023.12",
             role: "碩二，資安碩士",
@@ -46,7 +46,7 @@ export function Member(){
             website: "/#/Member/2024/Guan4Tou2"
         },
         {
-            key: '2',
+            key: '3',
             name: "李宜鴻",
             joinDate: "2024.11",
             role: "碩二，資安碩士",
@@ -56,7 +56,7 @@ export function Member(){
             website: "/#/Member/2024/Rock"
         },
         {
-            key: '3',
+            key: '4',
             name: "李宇揚",
             joinDate: "2023.12",
             role: "碩二，資安碩士",
@@ -66,7 +66,7 @@ export function Member(){
             website: "/#/Member/2024/Young"
         },
         {
-            key: '4',
+            key: '5',
             name: "黃廷翰",
             joinDate: "2023.12",
             role: "碩二，資安碩士",
@@ -76,7 +76,7 @@ export function Member(){
             website: "/#/Member/2024/Win"
         },
         {
-            key: '5',
+            key: '6',
             name: "陳彥宇",
             joinDate: "2024.01",
             role: "碩二，資工碩士",
@@ -86,7 +86,7 @@ export function Member(){
             website: "/#/Member/2024/Adb2"
         },
         {
-            key: '6',
+            key: '7',
             name: "李佳軒",
             joinDate: "2024.01",
             role: "碩二，資安碩士",
@@ -96,7 +96,7 @@ export function Member(){
             website: "/#/Member/2024/WIFI"
         },
         {
-            key: '7',
+            key: '8',
             name: "王立翔",
             joinDate: "2024.04",
             role: "碩二，資工碩士",
@@ -106,7 +106,7 @@ export function Member(){
             website: "/#/Member/2024/PaulWang"
         },
         {
-            key: '8',
+            key: '9',
             name: "黃奕評",
             joinDate: "2024.06",
             role: "碩二，資安碩士",
@@ -116,7 +116,7 @@ export function Member(){
             website: "/#/Member/2024/ypp"
         },
         {
-            key: '9',
+            key: '10',
             name: "廖哲霈",
             joinDate: "2024.08",
             role: "碩二，資工碩士",
@@ -126,7 +126,7 @@ export function Member(){
             website: "/#/Member/2024/RobertLiao"
         },
         {
-            key: '10',
+            key: '11',
             name: "黃昱翔",
             joinDate: "2025.05",
             role: "碩二，資安碩士",
@@ -136,7 +136,7 @@ export function Member(){
             website: "/#/member/2024/Marco"
         },
         {
-            key: '11',
+            key: '12',
             name: "連羿婷",
             joinDate: "2024.12",
             role: "碩一，資安碩士",
@@ -146,7 +146,7 @@ export function Member(){
             website: "/#/member/2025/Ting"
         },
         {
-            key: '12',
+            key: '13',
             name: "沈柏安",
             joinDate: "2024.12",
             role: "碩一，資安碩士",
@@ -156,7 +156,7 @@ export function Member(){
             website: "/#/member/2025/483"
         },
         {
-            key: '13',
+            key: '14',
             name: "郭竣安",
             joinDate: "2025.01",
             role: "碩一，資安碩士",
@@ -166,7 +166,7 @@ export function Member(){
             website: "/#/member/2025/JunAn"
         },
         {
-            key: '14',
+            key: '15',
             name: "劉章佑",
             joinDate: "2025.01",
             role: "碩一，資安碩士",
@@ -175,15 +175,6 @@ export function Member(){
             certificate: "",
             website: "/#/member/2025/Yueric"
         },
-        /*{
-            key: '15',
-            name: "廖棻俞",
-            joinDate: "2025.01",
-            role: "碩一，資工碩士",
-            coAdvisor: '',
-            experience: "",
-            certificate: ""
-        },*/
         {
             key: '16',
             name: "劉業閎",
@@ -194,18 +185,8 @@ export function Member(){
             certificate: "",
             website: "/#/member/2025/Yeyeye",
         },
-        /*{
-            key: '17',
-            name: "趙尉丞",
-            joinDate: "2025.03",
-            role: "碩一，資安碩士",
-            coAdvisor: '',
-            experience: "",
-            certificate: "",
-            website: "/#/member/2025/Willy"
-        },*/
         {
-            key: '18',
+            key: '17',
             name: "鄭羽農",
             joinDate: "2025.04",
             role: "碩一，資工碩士",
@@ -215,7 +196,7 @@ export function Member(){
             website: "/#/member/2025/Yunung"
         },
         {
-            key: '19',
+            key: '18',
             name: "楊育誠",
             joinDate: "2025.05",
             role: "碩一，資工碩士",
@@ -225,6 +206,30 @@ export function Member(){
             website: "/#/member/2025/Victor"
         },
     ]
+    
+    const otherStudentTableItem = [
+        {
+            name: "白又銘",
+            note: "三重商工 - 與林易民主任共同指導"
+        },
+        {
+            name: "郭思彤",
+            note: "三重商工 - 與林易民主任共同指導"
+        },
+        {
+            name: "劉宜蓁",
+            note: "國立臺北科技大學 - 智慧自動化工程科（專四）"
+        },
+        {
+            name: "陳昱臻",
+            note: "國立東華大學 - 資訊工程學系"
+        },
+        {
+            name: "江赫霆",
+            note: "-"
+        }
+    ]
+    
     const consultantUserTableItem = [
         {
             key: '1',
@@ -323,28 +328,6 @@ export function Member(){
             ],
             note: "輕量化本地程式碼生成模型之設計與優化",
             progress: 5
-        }
-    ]
-    const otherStudentTableItem = [
-        {
-            name: "白又銘",
-            note: "三重商工 - 與林易民主任共同指導"
-        },
-        {
-            name: "郭思彤",
-            note: "三重商工 - 與林易民主任共同指導"
-        },
-        {
-            name: "劉宜蓁",
-            note: "國立臺北科技大學 - 智慧自動化工程科（專四）"
-        },
-        {
-            name: "陳昱臻",
-            note: "國立東華大學 - 資訊工程學系"
-        },
-        {
-            name: "江赫霆",
-            note: "-"
         }
     ]
     const tableColumns: ColumnType<any>[] = [
