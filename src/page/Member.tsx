@@ -207,7 +207,7 @@ export function Member(){
         },
     ]
     
-    const otherStudentTableItem = [
+    /*const otherStudentTableItem = [
         {
             name: "黃漢軒 Clyde",
             note: "技術顧問; 國立陽明交通大學 - 資訊安全研究所"
@@ -240,9 +240,19 @@ export function Member(){
             name: "張意昌",
             note: "物件導向程式設計TA; 國立臺北科技大學 - 資訊工程學系" 
         }
-    ]
+    ]*/
     
-    /*const consultantUserTableItem = [
+    const consultantUserTableItem = [
+        {
+            key: '1',
+            name: "黃漢軒 Clyde",
+            joinDate: "2023.04",
+            role: "技術顧問",
+            coAdvisor: '',
+            ability: "國立陽明交通大學 - 資訊安全研究所",
+            experience: "",
+            certificate: ""
+        },
         {
             key: '1',
             name: "林妍蓁",
@@ -263,7 +273,8 @@ export function Member(){
             experience: "",
             certificate: ""
         },
-    ]*/
+    ]
+    
     const undergraduateStudentTableItem = [
         {
             group: "114#1",
@@ -462,7 +473,7 @@ export function Member(){
             <hr></hr>
             <>
                 <h4 className="text-center fw-bold">合作學生（Others）</h4>
-                <Table columns={otherStudentTableColumns} dataSource={otherStudentTableItem} pagination={false} bordered></Table>
+                <Table columns={consultantUserTableItem} dataSource={masterUserTableItem} pagination={false} bordered></Table>
             </>
             <hr></hr>
             <>
