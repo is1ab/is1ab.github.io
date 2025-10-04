@@ -19,14 +19,14 @@ export function Navbar() {
           onClick: () => navigate("/Alumni"),
         },
         {
-          key: "partner",
-          label: "合作成員 Partner",
-          onClick: () => navigate("/Partner"),
-        },
-        {
           key: "rule",
           label: "實驗室規則 Rules",
           onClick: () => navigate("/Rules"),
+        },
+        {
+          key: "partner",
+          label: "合作夥伴 Partners",
+          onClick: () => navigate("/Partner"),
         },
       ],
     },
@@ -72,15 +72,15 @@ export function Navbar() {
       onClick: () => navigate("/Activities"),
     },
     {
-      key: "rule",
-      label: "實驗室進場規則 Rules",
-      onClick: () => navigate("/Rules"),
-    },
-    /*{
       key: "calendar",
       label: "實驗室活動 Calendar",
       onClick: () => navigate("/Calendar"),
-    },*/
+    },
+    {
+      key: "club",
+      label: "is1ab Club",
+      onClick: () => navigate("/Clubs"),
+    },
   ];
   return (
     <Menu
