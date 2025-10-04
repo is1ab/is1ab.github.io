@@ -206,24 +206,7 @@ export function Member(){
             website: "/#/member/2025/Victor"
         },
     ]
-    
-    /*const otherStudentTableItem = [
-       
-        },
-        {
-            name: "江赫霆",
-            note: "選手; 自學生"
-        },
-        {
-            name: "林逸凡 dkri3c1",
-            note: "選手; 國立臺北科技大學 - 資訊工程學系" 
-        },
-        {
-            name: "張意昌",
-            note: "物件導向程式設計TA; 國立臺北科技大學 - 資訊工程學系" 
-        }
-    ]*/
-    
+        
     const consultantUserTableItem = [
         {
             key: '1',
@@ -266,16 +249,35 @@ export function Member(){
             experience: "",
             certificate: "比賽選手"
         },
-        
         {
-            key: '2',
-            name: "張意昌",
-            joinDate: "2024.09",
+            key: '5',
+            name: "江赫霆",
+            joinDate: "2025.02",
             role: "",
             coAdvisor: '',
-            ability: "程式能力、物件導向程式設計TA",
+            ability: "自學生",
             experience: "",
-            certificate: ""
+            certificate: "比賽選手"
+        },
+        {
+            key: '6',
+            name: "林逸凡 dkri3c1",
+            joinDate: "2025.06",
+            role: "",
+            coAdvisor: '',
+            ability: "國立臺北科技大學 - 資訊工程學系",
+            experience: "網頁攻防技術/滲透",
+            certificate: "比賽選手"
+        },
+        {
+            key: '7',
+            name: "張意昌",
+            joinDate: "2024.06",
+            role: "",
+            coAdvisor: '',
+            ability: "國立臺北科技大學 - 資訊工程學系",
+            experience: "",
+            certificate: "程式能力、物件導向程式設計TA"
         },
     ]
     
