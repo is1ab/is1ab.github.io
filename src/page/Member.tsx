@@ -247,11 +247,12 @@ export function Member(){
             key: '1',
             name: "黃漢軒 Clyde",
             joinDate: "2023.04",
-            role: "技術顧問",
+            role: "",
             coAdvisor: '',
             ability: "國立陽明交通大學 - 資訊安全研究所",
             experience: "",
-            certificate: ""
+            certificate: "技術顧問",
+            website: "https://github.com/c1ydehhx"
         },
         {
             key: '1',
@@ -382,7 +383,7 @@ export function Member(){
             width: '25%'
         },
         {
-            title: "特殊經歷、專長與資安證照",
+            title: "身份",
             render: (_text: string, render: any, _index: number) => {
                 return (
                     <div className="d-flex flex-column">
