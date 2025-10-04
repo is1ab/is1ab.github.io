@@ -244,7 +244,7 @@ export function Member(){
             name: "白又銘/郭思彤/吳宛軒/黃奕文",
             joinDate: "2024.10",
             role: "",
-            coAdvisor: '林易民主任（三重商工）',
+            coAdvisor: '林易民',
             ability: "",
             experience: "",
             certificate: "比賽選手"
