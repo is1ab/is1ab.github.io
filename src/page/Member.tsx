@@ -466,6 +466,11 @@ export function Member(){
             </>
             <hr></hr>
             <>
+                <h4 className="text-center fw-bold">合作學生（Others）</h4>
+                <Table columns={otherStudentTableColumns} dataSource={otherStudentTableItem} pagination={false} bordered></Table>
+            </>
+            <hr></hr>
+            <>
                 <h4 className="text-center fw-bold">顧問團隊（Consultant）</h4>
                 <Table columns={tableColumns} dataSource={consultantUserTableItem} pagination={false} bordered></Table>
             </>
@@ -473,11 +478,6 @@ export function Member(){
             <>
                 <h4 className="text-center fw-bold">專題生（Undergraduate students）</h4>
                 <Table columns={undergraduatedStudentTableColumns} dataSource={undergraduateStudentTableItem} pagination={false} bordered></Table>
-            </>
-            <hr></hr>
-            <>
-                <h4 className="text-center fw-bold">合作學生（Others）</h4>
-                <Table columns={otherStudentTableColumns} dataSource={otherStudentTableItem} pagination={false} bordered></Table>
             </>
         </div>
     )
