@@ -23,6 +23,11 @@ export function Navbar() {
           label: "合作成員 Partner",
           onClick: () => navigate("/Partner"),
         },
+        {
+          key: "rule",
+          label: "實驗室規則 Rules",
+          onClick: () => navigate("/Rules"),
+        },
       ],
     },
     {
@@ -71,11 +76,11 @@ export function Navbar() {
       label: "實驗室進場規則 Rules",
       onClick: () => navigate("/Rules"),
     },
-    {
+    /*{
       key: "calendar",
       label: "實驗室活動 Calendar",
       onClick: () => navigate("/Calendar"),
-    },
+    },*/
   ];
   return (
     <Menu
