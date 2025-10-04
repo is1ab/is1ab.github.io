@@ -473,7 +473,7 @@ export function Member(){
             <hr></hr>
             <>
                 <h4 className="text-center fw-bold">合作學生（Others）</h4>
-                <Table columns={consultantUserTableItem} dataSource={masterUserTableItem} pagination={false} bordered></Table>
+                <Table columns={tableColumns} dataSource={consultantUserTableItem} pagination={false} bordered></Table>
             </>
             <hr></hr>
             <>
