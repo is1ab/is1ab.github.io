@@ -208,25 +208,7 @@ export function Member(){
     ]
     
     /*const otherStudentTableItem = [
-        {
-            name: "黃漢軒 Clyde",
-            note: "技術顧問; 國立陽明交通大學 - 資訊安全研究所"
-        },
-        {
-            name: "白又銘",
-            note: "選手; 三重商工 - 與林易民主任共同指導"
-        },
-        {
-            name: "郭思彤",
-            note: "選手; 三重商工 - 與林易民主任共同指導"
-        },
-        {
-            name: "林妍蓁",
-            note: "選手; 國立臺北科技大學 - 資訊工程學系"
-        },
-        {
-            name: "陳昱臻",
-            note: "選手; 國立東華大學 - 資訊工程學系"
+       
         },
         {
             name: "江赫霆",
@@ -255,15 +237,36 @@ export function Member(){
             website: "https://github.com/c1ydehhx"
         },
         {
-            key: '1',
+            key: '2',
             name: "林妍蓁",
-            joinDate: "2024.06",
+            joinDate: "2023.06",
             role: "",
             coAdvisor: '',
-            ability: "網頁攻防技術",
-            experience: "",
-            certificate: ""
+            ability: "國立臺北科技大學 - 資訊工程學系",
+            experience: "網頁攻防技術",
+            certificate: "比賽選手"
         },
+        {
+            key: '3',
+            name: "陳昱臻",
+            joinDate: "2024.04",
+            role: "",
+            coAdvisor: '',
+            ability: "國立東華大學 - 資訊工程學系",
+            experience: "",
+            certificate: "比賽選手"
+        },
+        {
+            key: '4',
+            name: "白又銘/郭思彤/吳宛軒/黃奕文",
+            joinDate: "2024.10",
+            role: "",
+            coAdvisor: '林易民主任（三重商工）',
+            ability: "",
+            experience: "",
+            certificate: "比賽選手"
+        },
+        
         {
             key: '2',
             name: "張意昌",
@@ -383,7 +386,7 @@ export function Member(){
             width: '25%'
         },
         {
-            title: "身份",
+            title: "特殊經歷&身份",
             render: (_text: string, render: any, _index: number) => {
                 return (
                     <div className="d-flex flex-column">
