@@ -445,7 +445,7 @@ export function Member(){
             width: "25%"
         }
     ]
-    const otherStudentTableColumns: ColumnType<any>[] = [
+    /*const otherStudentTableColumns: ColumnType<any>[] = [
         {
             key: 'name',
             dataIndex: 'name',
@@ -458,7 +458,7 @@ export function Member(){
             title: "備註",
             width: "75%"
         }
-    ]
+    ]*/
     return (
         <div className="member">
             <>
