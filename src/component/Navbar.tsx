@@ -79,7 +79,7 @@ export function Navbar() {
     {
       key: "社團 Club",
       label: "is1ab Club",
-      onClick: () => navigate("https://club.is1ab.com/"),
+      onClick: () => window.location.href = "https://club.is1ab.com/";
     },
   ];
   return (
