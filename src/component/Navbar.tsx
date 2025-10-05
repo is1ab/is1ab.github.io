@@ -77,8 +77,8 @@ export function Navbar() {
       onClick: () => navigate("/Calendar"),
     },
     {
-      key: "社團 Club",
-      label: "is1ab Club",
+      key: "club",
+      label: "社團 Club",
       onClick: () => window.location.href = "https://club.is1ab.com/",
     },
   ];
