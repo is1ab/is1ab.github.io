@@ -77,9 +77,9 @@ export function Navbar() {
       onClick: () => navigate("/Calendar"),
     },
     {
-      key: "club",
+      key: "社團 Club",
       label: "is1ab Club",
-      onClick: () => navigate("/Clubs"),
+      onClick: () => navigate("https://club.is1ab.com/"),
     },
   ];
   return (
