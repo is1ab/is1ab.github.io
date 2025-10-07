@@ -6,7 +6,7 @@ export const RyanMemberPage = () => {
 
     const bio = (
         <div className="d-flex flex-column gap-3">
-            <p>陳勝舢現為國立臺北科技大學資訊工程系博士候選人，並擔任奧義智慧科技 (CyCraft) 的實習資安研究員。他的研究專注於語言模型、網路威脅情資分析、醫療大數據，以及 AI 技術在資訊安全領域的應用。他曾參與多項大型專案，包括與國家資通安全研究院(NICS)、日本情報通信研究院(NICT)、國家衛生研究院(NHRI)及多家大型醫院的合作，並協助指導超過十五位碩士生投入研究。教學經歷包括教育部 AIS3 情資與分析講師、師大資工碩士班高等資安攻防課程講師及三重商工資料處理科培訓講師。</p>
+            <p>陳勝舢現為國立臺北科技大學資訊工程系博士候選人，並擔任奧義智慧科技 (CyCraft) 的實習資安研究員。他的研究專注於深度學習、網路安全、威脅情資分析及醫療資訊等。他曾參與多項大型專案，包括與國家資通安全研究院(NICS)、日本情報通信研究院(NICT)、國家衛生研究院(NHRI)及多家大型醫院的合作，並協助指導超過十五位碩士生投入研究。教學經歷包括教育部 AIS3 情資與分析講師、師大資工碩士班高等資安攻防課程講師及三重商工資料處理科培訓講師。</p>
             <p>更多資訊（著作、專案）請參閱：<a href="https://sectools.tw/about/sean">SecTools.tw</a></p>
             <p><a href="https://sectools.tw" target="_blank"><img src="https://img.shields.io/badge/Visit-SecTools.tw-blue" alt="Visit SecTools.tw" /></a></p>
         </div>
@@ -75,6 +75,10 @@ export const RyanMemberPage = () => {
         }
     ]
     const participates: MemberParticipateType[] = [
+        {
+            title: "擔任 AIS3 2025 典範轉移:AI時代的情資運用及防禦講師 (學生超過百人)",
+            datetime: "2024.08.04"
+        },
         {
             title: "榮獲第九屆臺灣好厲駭高階導師培訓-表現優異獎",
             datetime: "2025.07.19"
@@ -164,6 +168,20 @@ export const RyanMemberPage = () => {
     ]
     const journals: MemberArticleType[] = [
         {
+            authors: "Chin-Yu Sun*, Sheng-Shan Chen, Ya-Han Ho",
+            title: "De-Identification of Open-Source Intelligence Using Finetuned LLaMA-3",
+            target: "Accepted by High-Confidence Computing",
+            details: "September 2025",
+            doi: ""
+        },
+        {
+            authors: "Sheng-Shan Chen, Tun-Wen Pai, Chin-Yu Sun*",
+            title: "EnhanceCTI: Enhanced semantic filtering and feature extraction framework for industry-specific cyber threat intelligence",
+            target: "Computers & Security",
+            details: "2025, 104649, ISSN 0167-4048",
+            doi: "https://doi.org/10.1016/j.cose.2025.104649"
+        },
+        {
             authors: "Nai-Hsuan Hwang, Sheng-Shan Chen, Tun-Wen Pai*, Mary Hsin-Ju Ko, Ya-Lan Yu, and Hui-Ju Chen*",
             title: "Automatic assessment of fine motor development in children through hand-drawn shape images",
             target: "Pediatrics & Neonatology",
@@ -171,7 +189,7 @@ export const RyanMemberPage = () => {
             doi: "https://doi.org/10.1016/j.pedneo.2025.04.001"
         },
         {
-            authors: "Kunji Li、Sheng-Shan Chen, Chin-Yu Sun*",
+            authors: "Kunji Li, Sheng-Shan Chen, Chin-Yu Sun*",
             title: "Analysis and Mitigation Strategies for Prompt Injection Attacks",
             target: "Communications of the CCISA",
             details: "Vol. 30 No. 3 Aug. 2024. https://cccisa.ccisa.org.tw/article/view/3084",
@@ -189,8 +207,8 @@ export const RyanMemberPage = () => {
         {
             authors: "Sheng-Shan Chen, Yi-Xuan Wu, Ying-Xuan Ho, Pang-Po Cheng, and Chin-Yu Sun*",
             title: "RANsomCheck: A CNN-Transformer Model for Malware Detection Based on API Call Sequences",
-            target: "Accepted by 38th International Conference on Industrial, Engineering & Other Applications of Applied Intelligent Systems (IEAAIE 2025)",
-            details: "March 2025"
+            target: "In International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems. Singapore: Springer Nature Singapore",
+            details: "Fukuoka, Japan, 2025, pp.116-127"
         },
         {
             authors: "Sheng-Shan Chen, Ren-Hung Hwang, Chin-Yu Sun, Ying-Dar Lin, Tun-Wen Pai*",

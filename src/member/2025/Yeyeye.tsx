@@ -56,14 +56,29 @@ const competitionExp: MemberCompetitionExperienceType[] = [
 		datetime: "2025/03/28 - 2025/03/30",
 	},
 	{
-		title: "AIS3 Pre-exam CTF 2024",
+		title: "AIS3 Pre-exam CTF 2025",
 		result: "201/493",
-		datetime: "2024/05/25 - 2024/05/27",
+		datetime: "2025/05/25 - 2025/05/27",
 	},
 	{
 		title: "DownUnderCTF 2025",
-		result: "201/493",
-		datetime: "2024/07/18 - 2024/07/20",
+		result: "500/1667  Team(Name: NTUT_Is1ab)",
+		datetime: "2025/07/18 - 2025/07/20",
+	},
+	{
+		title: "WHYCTF 2025",
+		result: "188/1806 Team(Name: NTUT_is1ab)",
+		datetime: "2025/08/09 - 2025/08/11",
+	},
+	{
+		title: "SekaiCTF 2025",
+		result: "199/1060 Team(Name: NTUT_Is1ab)",
+		datetime: "2025/08/16 - 2025/08/18",
+	},
+	{
+		title: "FortID CTF 2025",
+		result: "249/553 Team(Name: NTUT_Is1ab)",
+		datetime: "2025/08/16 - 2025/08/18",
 	},
 ];
 

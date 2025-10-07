@@ -1,8 +1,8 @@
 import { Sample } from "../Sample"
-import Jason from "../../assets/member/Jason.jpeg"
+import Jason from "../../assets/member/Win.jpg"
 import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../../type/MemberCertificateType"
 
-export const JasonMemberPage = () => {
+export const WinMemberPage = () => {
     const bio =
   <div
     style={{
@@ -40,7 +40,7 @@ export const JasonMemberPage = () => {
         <span style={{ color: '#c678dd' }}>Name</span> = <span style={{ color: '#61afef' }}>'黃廷翰'</span>
       </p>
       <p style={{ paddingLeft: '2rem' }}>
-        <span style={{ color: '#c678dd' }}>RealName_en</span> = <span style={{ color: '#61afef' }}>'Huang, Ting-Han'</span>
+        <span style={{ color: '#c678dd' }}>RealName_en</span> = <span style={{ color: '#61afef' }}>'Ting-Han Huang'</span>
       </p>
       <p style={{ paddingLeft: '2rem' }}>
         <span style={{ color: '#c678dd' }}>NickName_en</span> = <span style={{ color: '#61afef' }}>'Win'</span>
@@ -83,10 +83,6 @@ export const JasonMemberPage = () => {
       <p>{'}'}</p>
     </div>
   </div>;
-
-
-
-
 
 
     const certificates: MemberCertificateType[] = [
@@ -218,12 +214,8 @@ export const JasonMemberPage = () => {
         datetime: "2025.03.08"
     },
     {
-        title: "AIS3 CLUB 北區黑客松 2025 - 工作人員",
+        title: "AIS3 CLUB 北區黑客松 2025 - 助教",
         datetime: "2025.05.03 - 2025.05.04"
-    },
-    {
-        title: "AIS3 Pre-exam 2025 - 學員",
-        datetime: "2025.05.24 - 2025.05.26"
     },
     {
         title: "11th AIS3 新型態資安實務暑期課程 進階資安攻防競技組 - 學員",
@@ -234,7 +226,11 @@ export const JasonMemberPage = () => {
         datetime: "2025.08.15 - 2025.08.16"
     },
     {
-        title: "10th AIS3 好厲駭 ( 高階培訓 ) - 學員",
+        title: "CYBERSEC 2025 臺灣資安大會 - 會眾",
+        datetime: "2025.04.15 - 2025.04.17"
+    },
+    {
+        title: "10th AIS3 好厲駭（高階培訓 & 導師深度輔導）- 學員",
         datetime: "2025.08.22 - now"
     }
     ]
@@ -243,12 +239,12 @@ export const JasonMemberPage = () => {
         {
             company: "國立臺北科技大學 推廣教育中心",
             info: "設備網路維護，Python助教",
-            datetime: "2020.08-now"
+            datetime: "2020.08 - now"
         },
         {
             company: "康和綜合證券股份有限公司",
             info: "Full Stack Engineer Intern",
-            datetime: "2024.02.19-2024.08.31"
+            datetime: "2024.02.19 - 2024.08.31"
         }
     ]
     const journals: MemberArticleType[] = []
@@ -257,7 +253,7 @@ export const JasonMemberPage = () => {
     return (
         <Sample
             zhName="黃廷翰"
-            enName="Huang, Ting-Han"
+            enName="Ting-Han Huang"
             avatar={Jason}
             institutes={["國立臺北科技大學 資訊安全碩士學位學程 碩二"]}
             bio={bio}
