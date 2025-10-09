@@ -28,7 +28,7 @@ export function Alumni(){
             title: "評估低軌衛星環境中電磁脈衝攻擊與其緩解機制之設計",
             ability: "藍隊技術",
             experience: "資訊安全碩士學位學程",
-            status: "離校",
+            status: "BCCS 漢昕科技 - 資安事件調查分析與處理",
             website: "/#/Member/2023/Ravin"
         },
         {
