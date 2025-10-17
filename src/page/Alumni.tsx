@@ -143,6 +143,18 @@ export function Alumni(){
     ]
     const undergraduateAlumniStudentTableDatas = [
         {
+            year: "114",
+            name: "張意昌、吳耀東、林品緯、張睿恩",
+            title: "專案型評測系統設計方法",
+            note: "通過大專生計畫編號:114-2813-C-027-053-E、榮獲 2025 北科實務專題競賽 佳作"
+        },
+        {
+            year: "114",
+            name: "陳奕翔、廖峰瑞、張峻誠、黃政豪",
+            title: "透過問題重塑以及微調 LLM 提升程式碼補全能力",
+            note: ""
+        },
+        {
             year: "113",
             name: "陳思群、顏睿寬、許宸瑋",
             title: "結合語言模型與特徵機制之整合式網路入侵偵測告警系統",
