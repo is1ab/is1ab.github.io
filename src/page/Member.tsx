@@ -299,7 +299,7 @@ export function Member(){
                 }
             ],
             note: "保留",
-            progress: 0
+            progress: 3
         },
         {
             group: "114#2",
@@ -314,53 +314,7 @@ export function Member(){
                 }
             ],
             note: "參與SunBird計畫（dcTrack 組）",
-            progress: 0
-        },
-        {
-            group: "113#1",
-            members: [
-                {
-                    name: "張意昌",
-                    intern: ""
-                },
-                {
-                    name: "吳耀東",
-                    intern: ""
-                },
-                {
-                    name: "林品緯",
-                    intern: ""
-                },
-                {
-                    name: "張睿恩",
-                    intern: ""
-                }
-            ],
-            note: "專案型評測系統設計方法（通過大專生計畫 - 編號:114-2813-C-027-053-E）",
-            progress: 5
-        },
-        {
-            group: "113#2",
-            members: [
-                {
-                    name: "陳奕翔",
-                    intern: ""
-                },
-                {
-                    name: "廖峰瑞",
-                    intern: ""
-                },
-                {
-                    name: "張峻誠",
-                    intern: ""
-                },
-                {
-                    name: "黃政豪",
-                    intern: ""
-                }
-            ],
-            note: "輕量化本地程式碼生成模型之設計與優化",
-            progress: 5
+            progress: 2
         }
     ]
     const tableColumns: ColumnType<any>[] = [
