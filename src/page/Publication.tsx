@@ -47,6 +47,13 @@ export function Publication() {
                 <ol>
                     <li>
                         <Author>
+                            Sheng-Shan Chen, Kai-Siang Cao, Chung-Kuan Chen, and <Professor star />
+                        </Author>
+                        <Title title="Retrieval-Augmented Generation for Identifying ATT&CK Technique" />
+                        Accepted by <Journal name="Communications of the CCISA" />, vol. 31, no. 3, pp. 20-39, August 2025.
+                    </li>
+                    <li>
+                        <Author>
                             <Professor star />, Sheng-Shan Chen, and Ya-Han Ho
                         </Author>
                         <Title title="De-Identification of Open-Source Intelligence using Finetuned LLaMA-3" />
@@ -209,6 +216,13 @@ export function Publication() {
                 <ol>
                     <li>
                         <Author>
+                            Yi-Hsiang Chen, Feng-Rui Liao, Jun-Cheng Zhang, Zheng-Hao Huang, and <Professor star />
+                        </Author>
+                        <Title title="Enhancing Small Language Models in Agentic Pipelines with Prompt Engineering and Fine-Tuning" />
+                        Accepted by <Journal name="Taiwan Academic Network Conference (TANET 2025)" />, September 2025.
+                    </li>
+                    <li>
+                        <Author>
                             Sheng-Shan Chen, Yi-Xuan Wu, Ying-Xuan Ho, Pang-Po Cheng, and <Professor star />
                         </Author>
                         <Title title="RANsomCheck: A CNN-Transformer Model for Malware Detection Based on API Call Sequences" />
@@ -271,17 +285,10 @@ export function Publication() {
                 <ol>
                     <li>
                         <Author>
-                            Yi-Hsiang Chen, Feng-Rui Liao, Jun-Cheng Zhang, Zheng-Hao Huang, and <Professor star />
+                            Sheng-Shan Chen, Po-Yao Yen, Yu-Nung Cheng, and <Professor star />
                         </Author>
-                        <Title title="Enhancing Small Language Models in Agentic Pipelines with Prompt Engineering and Fine-Tuning" />
-                        Submitted to <Journal name="Taiwan Academic Network Conference (TANET 2025)" />, September 2025.
-                    </li>
-                    <li>
-                        <Author>
-                            Sheng-Shan Chen, Kai-Siang Cao, Chung-Kuan Chen, and <Professor star />
-                        </Author>
-                        <Title title="Retrieval-Augmented Generation for Identifying ATT&CK Technique" />
-                        Submitted to <Journal name="Communications of the CCISA" />, September 2025.
+                        <Title title="Applying Machine Learning for EDoS Attack Detection and Cost Analysis in Cloud Microservices" />
+                        Submitted to <Journal name="Digital Threats: Research and Practice" />, September 2025.
                     </li>
                     <li>
                         <Author>

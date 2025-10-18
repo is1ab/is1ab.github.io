@@ -28,7 +28,7 @@ export function Alumni(){
             title: "評估低軌衛星環境中電磁脈衝攻擊與其緩解機制之設計",
             ability: "藍隊技術",
             experience: "資訊安全碩士學位學程",
-            status: "離校",
+            status: "BCCS 漢昕科技 - 資安事件調查分析與處理",
             website: "/#/Member/2023/Ravin"
         },
         {
@@ -142,6 +142,18 @@ export function Alumni(){
         }
     ]
     const undergraduateAlumniStudentTableDatas = [
+        {
+            year: "114",
+            name: "張意昌、吳耀東、林品緯、張睿恩",
+            title: "專案型評測系統設計方法",
+            note: "通過大專生計畫編號:114-2813-C-027-053-E、榮獲 2025 北科實務專題競賽 佳作"
+        },
+        {
+            year: "114",
+            name: "陳奕翔、廖峰瑞、張峻誠、黃政豪",
+            title: "透過問題重塑以及微調 LLM 提升程式碼補全能力",
+            note: ""
+        },
         {
             year: "113",
             name: "陳思群、顏睿寬、許宸瑋",
