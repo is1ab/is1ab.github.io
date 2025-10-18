@@ -13,7 +13,7 @@ export const Adb2MemberPage = () => {
             title: "iPAS 資訊安全工程師-初級能力鑑定",
             datetime: "2024.12.04"
         },
-                {
+        {
             title: "iPAS 資訊安全工程師-中級能力鑑定",
             datetime: "2025.10.01"
         }
