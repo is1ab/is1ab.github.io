@@ -29,8 +29,42 @@ export const CHWMemberPage = () => {
             <button type="button" onClick={() => { alert('W3lc0m3 CHW !'); window.location.href = 'https://github.com/Chw41';}}> DON'T click </button>
         </form>
     </div>
-    const certificates: MemberCertificateType[] = []
+    const certificates: MemberCertificateType[] = [
+        {
+            title: "OffSec Certified Professional Plus (OSCP+)",
+            datetime: "2025.09"
+        },
+        {
+            title: "Google Cybersecurity Professional Certificate",
+            datetime: "2024.09"
+        },
+        {
+            title: "iPAS 資訊安全工程師 - 初級能力鑑定",
+            datetime: "2023.11"
+        }
+
+    ]
     const competitionExperiences: MemberCompetitionExperienceType[] = [
+        {
+            title: "HITCON CTF 2025 Quals",
+            result: " Team : 竹狐 ; Rank : 13/717 ",
+            datetime: "2025.08"
+        },
+        {
+            title: "SekaiCTF 2025",
+            result: " Team : TakeKitsune ; Rank : 81/1060 ",
+            datetime: "2025.08"
+        },
+        {
+            title: "WHY2025 CTF",
+            result: " Team : NTUT_Is1ab ; Rank : 188/1806 ",
+            datetime: "2025.08"
+        },
+        {
+            title: "第九屆資安實務導師制度 AIS3 好厲駭培訓",
+            result: " 表現優異獎 ; Mentor: Allen Own ",
+            datetime: "2025.07"
+        },
         {
             title: "DEF CON CTF Qualifier 2025",
             result: " Team : Starburst Beef Stir-Fried BambooFox ; Rank : 31 ",
