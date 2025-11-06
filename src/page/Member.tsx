@@ -135,7 +135,7 @@ export function Member(){
             certificate: "iPAS 資訊安全工程師檢定（初級）",
             website: "/#/member/2024/Marco"
         },
-        {
+        /*{
             key: '12',
             name: "連羿婷",
             joinDate: "2024.12",
@@ -144,7 +144,7 @@ export function Member(){
             experience: "",
             certificate: "",
             website: "/#/member/2025/Ting"
-        },
+        },*/
         {
             key: '13',
             name: "沈柏安",
