@@ -5,31 +5,44 @@ export function Rule(){
             <ul>
                 <li>碩士班</li>
                     <ul>
-                        <li> CTF 選手 4 位</li>
-                        <li> Sunbird計畫 - 測試工程師, 1 位</li>
-                        <li> 萬芳醫院計畫 - Prompt injection, 1 位</li>
-                        <li> 其他計畫, 1 位</li>
+                        <li> CTF 選手, 4 位 </li>
+                        <li> Sunbird計畫 - 測試工程師, 1 位 </li>
+                        <li> 萬芳醫院計畫 - Prompt injection, 1 位 </li>
+                        <li> 其他計畫, 1 位 </li>
                     </ul>
                 <li>大學部</li>
                     <ul>
-                        <li> 專題 - 網路攻防相關, 1組</li>
-                        <li> 專題 - Sunbird計畫, 1組</li>
+                        <li> 專題 - 網路攻防相關, 1組 </li>
+                        <li> 專題 - Sunbird計畫, 1組 </li>
                     </ul>
             </ul>
             <hr></hr>
-            <h4 className="text-center fw-bold">預先具備能力</h4>
+            
+            <h4 className="text-center fw-bold">研究生義務</h4>
             <ul>
-                <li>具資安比賽經驗者或資安證照者佳</li>
-                <li>具程式競賽經驗者佳</li>
-                <li>具研究經驗（論文發表）者佳</li>
-                <li>若無上述經驗，須具備「積極、學習熱忱」特質</li>
+                <li>入學前</li>
+                    <ul>
+                        <li> 暑假期間需參加新生訓練 </li>
+                        <li> 選定攻防組別 </li>
+                        <li> 參與北科資安社團 is1ab club </li>
+                        <li> 每週四需線上參加 Group meeting </li>
+                    </ul>
+                <li>一年級</li>
+                    <ul>
+                        <li> 擔任實驗室相關負責職務 </li>
+                        <li> 餐與攻防組內部討論 </li>
+                        <li> 每週四需實體參加 Group meeting </li>
+                        <li> 參與國內外相關 CTF 比賽 </li>
+                        <li> 參與北科資安社團 is1ab club 活動 </li>
+                        <li> 每年 11 月需協助國科會計畫撰寫 </li>
+                    </ul>
             </ul>
             <hr></hr>
+            
             <h4 className="text-center fw-bold">畢業資格</h4>
             <ul>
                 <li>滿足國立臺北科技大學資訊工程系（以及資安學位學程）之畢業門檻（當屆）</li>
-                <li>完成「一篇」國際研討會論文並完成「投稿」動作</li>
-                <li>取得校內補助的資安證照</li>
+                <li>完成「一篇」國際研討會/期刊論文並完成「投稿」動作</li>
                 <li>參加資安競賽、資安活動、與培訓計畫</li>
             </ul>
             <hr></hr>
