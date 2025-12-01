@@ -3,9 +3,18 @@ export function Rule(){
         <div className="rule">
             <h4 className="text-center fw-bold">實驗室組成</h4>
             <ul>
-                <li>博、碩士班 </li>
-                    <li>4 位 CTF 比賽選手</li>
-                <li>大學部 </li>
+                <li>碩士班</li>
+                    <ul>
+                        <li> CTF 選手 4 位</li>
+                        <li> Sunbird計畫 - 測試工程師, 1 位</li>
+                        <li> 萬芳醫院計畫 - Prompt injection, 1 位</li>
+                        <li> 其他計畫, 1 位</li>
+                    </ul>
+                <li>大學部</li>
+                    <ul>
+                        <li> 專題 - 網路攻防相關, 1組</li>
+                        <li> 專題 - Sunbird計畫, 1組</li>
+                    </ul>
             </ul>
             <hr></hr>
             <h4 className="text-center fw-bold">預先具備能力</h4>
