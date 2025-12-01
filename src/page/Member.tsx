@@ -10,7 +10,7 @@ export function Member(){
             role: "博三",
             coAdvisor: '白敦文',
             experience: "奧義智慧科技股份有限公司實習生",
-            certificate: "",
+            certificate: "行政總管",
             website: "/#/Member/2022/Ryan"
         }
     ]
@@ -42,7 +42,7 @@ export function Member(){
             role: "碩二，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "藍隊組長",
+            certificate: "實驗室安全管理、藍隊組長",
             website: "/#/Member/2024/Guan4Tou2"
         },
         {
@@ -62,7 +62,7 @@ export function Member(){
             role: "碩二，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "",
+            certificate: "實驗室儀器設備管理",
             website: "/#/Member/2024/Young"
         },
         {
@@ -72,7 +72,7 @@ export function Member(){
             role: "碩二，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "",
+            certificate: "實驗室公關",
             website: "/#/Member/2024/Win"
         },
         {
@@ -82,7 +82,7 @@ export function Member(){
             role: "碩二，資工碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "REVERSE組長",
+            certificate: "實驗室網路管理、REVERSE組長",
             website: "/#/Member/2024/Adb2"
         },
         {
@@ -92,7 +92,7 @@ export function Member(){
             role: "碩二，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "",
+            certificate: "實驗室公關",
             website: "/#/Member/2024/WIFI"
         },
         {
@@ -152,7 +152,7 @@ export function Member(){
             role: "碩一，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "",
+            certificate: "實驗室財務/採購管理",
             website: "/#/member/2025/JunAn"
         },
         {
