@@ -21,7 +21,7 @@ export function Member(){
             joinDate: "2023.03",
             role: "碩三，資安碩士",
             coAdvisor: '',
-            experience: "雙聯學位籌備中",
+            experience: "",
             certificate: "應用機器學習技術偵測 EDoS 攻擊於雲端微服務成本分析",
             website: "/#/Member/2023/Y"
         },
@@ -41,8 +41,8 @@ export function Member(){
             joinDate: "2023.12",
             role: "碩二，資安碩士",
             coAdvisor: '',
-            experience: "前保華資安股份有限公司實習生",
-            certificate: "iPAS 資訊安全工程師檢定（初級）",
+            experience: "藍隊組長",
+            certificate: "",
             website: "/#/Member/2024/Guan4Tou2"
         },
         {
@@ -52,7 +52,7 @@ export function Member(){
             role: "碩二，資安碩士",
             coAdvisor: '陳昱圻',
             experience: "美國辛辛那提大學 雙聯學位",
-            certificate: "iPAS 資訊安全工程師檢定（初級）",
+            certificate: "",
             website: "/#/Member/2024/Rock"
         },
         {
@@ -62,7 +62,7 @@ export function Member(){
             role: "碩二，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "iPAS 資訊安全工程師檢定（中級）、iPAS 資訊安全工程師檢定（初級）",
+            certificate: "",
             website: "/#/Member/2024/Young"
         },
         {
@@ -72,7 +72,7 @@ export function Member(){
             role: "碩二，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "iPAS 資訊安全工程師檢定（初級）",
+            certificate: "",
             website: "/#/Member/2024/Win"
         },
         {
@@ -81,8 +81,8 @@ export function Member(){
             joinDate: "2024.01",
             role: "碩二，資工碩士",
             coAdvisor: '',
-            experience: "",
-            certificate: "iPAS 資訊安全工程師檢定（中級）、iPAS 資訊安全工程師檢定（初級）",
+            experience: "REVERSE組長",
+            certificate: "",
             website: "/#/Member/2024/Adb2"
         },
         {
@@ -92,7 +92,7 @@ export function Member(){
             role: "碩二，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "iPAS 資訊安全工程師檢定（中級）、iPAS 資訊安全工程師檢定（初級）",
+            certificate: "",
             website: "/#/Member/2024/WIFI"
         },
         {
@@ -102,7 +102,7 @@ export function Member(){
             role: "碩二，資工碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "iPAS 資訊安全工程師檢定（初級）",
+            certificate: "",
             website: "/#/Member/2024/PaulWang"
         },
         {
@@ -111,7 +111,7 @@ export function Member(){
             joinDate: "2024.06",
             role: "碩二，資安碩士",
             coAdvisor: '',
-            experience: "",
+            experience: "PWN組長",
             certificate: "",
             website: "/#/Member/2024/ypp"
         },
@@ -132,27 +132,17 @@ export function Member(){
             role: "碩二，資安碩士",
             coAdvisor: '',
             experience: "Cymetrics 實習生",
-            certificate: "iPAS 資訊安全工程師檢定（初級）",
+            certificate: "",
             website: "/#/member/2024/Marco"
         },
-        /*{
-            key: '12',
-            name: "連羿婷",
-            joinDate: "2024.12",
-            role: "碩一，資安碩士",
-            coAdvisor: '',
-            experience: "",
-            certificate: "",
-            website: "/#/member/2025/Ting"
-        },*/
         {
             key: '13',
             name: "沈柏安",
             joinDate: "2024.12",
             role: "碩一，資安碩士",
             coAdvisor: '',
-            experience: "",
-            certificate: "iPAS 資訊安全工程師檢定（初級）",
+            experience: "WEB組長",
+            certificate: "",
             website: "/#/member/2025/483"
         },
         {
@@ -190,9 +180,9 @@ export function Member(){
             name: "鄭羽農",
             joinDate: "2025.04",
             role: "碩一，資工碩士",
-            coAdvisor: '郭忠義',
+            coAdvisor: '吳牧恩',
             experience: "",
-            certificate: "iPAS 資訊安全工程師檢定（初級）",
+            certificate: "",
             website: "/#/member/2025/Yunung"
         },
         {
@@ -201,7 +191,7 @@ export function Member(){
             joinDate: "2025.05",
             role: "碩一，資工碩士",
             coAdvisor: '',
-            experience: "",
+            experience: "SunBird計畫",
             certificate: "",
             website: "/#/member/2025/Victor"
         },
@@ -210,7 +200,7 @@ export function Member(){
     const consultantUserTableItem = [
         {
             key: '1',
-            name: "黃漢軒 Clyde",
+            name: "黃漢軒",
             joinDate: "2023.04",
             role: "",
             coAdvisor: '',
@@ -249,7 +239,7 @@ export function Member(){
             experience: "",
             certificate: "比賽選手"
         },
-        {
+        /*{
             key: '5',
             name: "江赫霆",
             joinDate: "2025.02",
@@ -258,10 +248,10 @@ export function Member(){
             ability: "自學生",
             experience: "",
             certificate: "比賽選手"
-        },
+        },*/
         {
             key: '6',
-            name: "林逸凡 dkri3c1",
+            name: "林逸凡",
             joinDate: "2025.06",
             role: "",
             coAdvisor: '',
