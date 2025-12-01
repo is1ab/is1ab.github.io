@@ -67,7 +67,37 @@ export function Rule(){
             </ul>
             <hr></hr>
             
-            <h4 className="text-center fw-bold">指導教授重視</h4>
+            <h4 className="text-center fw-bold"> 實驗室職位 </h4>
+            <ul>
+                <li> 行政總管 </li>
+                    <ul>
+                        <li> 整體運作協調、工作分配、重要決策輔助、協助溝通 </li>
+                    </ul>
+                <li> 財務/採購管理 </li>
+                    <ul>
+                        <li> 實驗室相關採購、經費申請與核銷、款項管理 </li>
+                    </ul>
+                <li> 儀器設備管理 </li>
+                    <ul>
+                        <li> 硬體設備、貴重物品、公有物品管理 </li>
+                    </ul>
+                <li> 網路管理 </li>
+                    <ul>
+                        <li> 網路 IP 分配、NAS/伺服器維護、帳戶權限管理、備份 </li>
+                    </ul>
+                <li> 場地管理 </li>
+                    <ul>
+                        <li> 實驗安全規範、危害評估、衛生管理 </li>
+                    </ul>
+                <li> 活動公關 </li>
+                    <ul>
+                        <li> 維護實驗室網頁、活動接洽、合作單位聯繫窗口、新人管理 </li>
+                    </ul>
+
+            </ul>
+            <hr></hr>
+            
+            <h4 className="text-center fw-bold"> 指導教授重視 </h4>
             <ul>
                 <li> 學術倫理 </li>
                 <li> 守時 </li>
