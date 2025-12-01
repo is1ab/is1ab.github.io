@@ -25,14 +25,14 @@ export function Rule(){
                         <li> 暑假期間需參加 CTF 新生訓練 </li>
                         <li> 選定 CTF 攻防組別 </li>
                         <li> 參與北科資安社團 is1ab club </li>
-                        <li> 每週(四)需線上參加 Group meeting </li>
+                        <li> 每週（四）需線上參加 Group meeting </li>
                     </ul>
                 
                 <li>一年級</li>
                     <ul>
                         <li> 擔任實驗室相關負責職務 </li>
                         <li> 餐與攻防組內部討論 </li>
-                        <li> 每週(四)需實體參加 Group meeting </li>
+                        <li> 每週（四）需實體參加 Group meeting </li>
                         <li> 參與國內外相關 CTF 比賽 </li>
                         <li> 參與北科資安社團 is1ab club 活動 </li>
                         <li> 11-12 月需協助撰寫國科會計畫 </li>
@@ -48,10 +48,10 @@ export function Rule(){
                     <ul>
                         <li> 8-9月 傳承實驗室相關負責職務 </li>
                         <li> 11-12 月需撰寫國科會計畫 </li>
-                        <li> 每周(一)需實體參加碩論進度報告 </li>
-                        <li> 每週(四)需實體參加 Group meeting </li>
+                        <li> 每周（一）需實體參加碩論進度報告 </li>
+                        <li> 每週（四）需實體參加 Group meeting </li>
                         <li> 隔年 4 月口試 </li>
-                        <li> 隔年5-7月期間完成「投稿」動作 </li>
+                        <li> 隔年 5-7 月期間完成「投稿」動作 </li>
                     </ul>
             </ul>
             <hr></hr>
