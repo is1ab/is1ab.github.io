@@ -3,6 +3,7 @@ export function Rule(){
         <div className="rule">
             <h4 className="text-center fw-bold">實驗室組成</h4>
             <ul>
+                <li> 博士班 </li>
                 <li> 碩士班 </li>
                     <ul>
                         <li> CTF 選手, 6 位 </li>
