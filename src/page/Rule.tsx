@@ -8,7 +8,7 @@ export function Rule(){
                         <li> CTF 選手, 6 位 </li>
                         <li> Sunbird 計畫 - 測試工程師, 1 位 </li>
                     </ul>
-                <li> 畢業題目與研究計畫案有關 </li>
+                <li> 碩士畢業題目與研究計畫案有關 </li>
                     <ul>
                         <li> 國科會計畫 - 網路安全相關 </li>
                         <li> 資安院計畫 - 情資、AI相關 </li>
