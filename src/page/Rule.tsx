@@ -80,6 +80,7 @@ export function Rule(){
                         <li> 團隊合作 </li>
                         <li> 出席 </li>
                     </ul>
+                <li> 做事態度 </li>
             </ul>
             <hr></hr>
         </div>
