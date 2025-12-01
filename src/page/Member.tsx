@@ -10,7 +10,7 @@ export function Member(){
             role: "博三",
             coAdvisor: '白敦文',
             experience: "奧義智慧科技股份有限公司實習生",
-            certificate: "CEH",
+            certificate: "",
             website: "/#/Member/2022/Ryan"
         }
     ]
@@ -22,7 +22,7 @@ export function Member(){
             role: "碩三，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "應用機器學習技術偵測 EDoS 攻擊於雲端微服務成本分析",
+            certificate: "",
             website: "/#/Member/2023/Y"
         },
         {
@@ -31,8 +31,8 @@ export function Member(){
             joinDate: "2023.03",
             role: "碩三，資安碩士",
             coAdvisor: '',
-            experience: "奧義智慧科技股份有限公司、研發替代役籌備中",
-            certificate: "使用程式碼屬性圖萃取技術於自動化漏洞挖掘與風險路徑分析",
+            experience: "奧義智慧科技股份有限公司",
+            certificate: "",
             website: "/#/Member/2023/Eason"
         },
         {
@@ -41,8 +41,8 @@ export function Member(){
             joinDate: "2023.12",
             role: "碩二，資安碩士",
             coAdvisor: '',
-            experience: "藍隊組長",
-            certificate: "",
+            experience: "",
+            certificate: "藍隊組長",
             website: "/#/Member/2024/Guan4Tou2"
         },
         {
@@ -81,8 +81,8 @@ export function Member(){
             joinDate: "2024.01",
             role: "碩二，資工碩士",
             coAdvisor: '',
-            experience: "REVERSE組長",
-            certificate: "",
+            experience: "",
+            certificate: "REVERSE組長",
             website: "/#/Member/2024/Adb2"
         },
         {
@@ -111,8 +111,8 @@ export function Member(){
             joinDate: "2024.06",
             role: "碩二，資安碩士",
             coAdvisor: '',
-            experience: "PWN組長",
-            certificate: "",
+            experience: "",
+            certificate: "PWN組長",
             website: "/#/Member/2024/ypp"
         },
         {
@@ -131,7 +131,7 @@ export function Member(){
             joinDate: "2025.05",
             role: "碩二，資安碩士",
             coAdvisor: '',
-            experience: "Cymetrics 實習生",
+            experience: "",
             certificate: "",
             website: "/#/member/2024/Marco"
         },
@@ -141,8 +141,8 @@ export function Member(){
             joinDate: "2024.12",
             role: "碩一，資安碩士",
             coAdvisor: '',
-            experience: "WEB組長",
-            certificate: "",
+            experience: "",
+            certificate: "WEB組長",
             website: "/#/member/2025/483"
         },
         {
@@ -176,24 +176,24 @@ export function Member(){
             website: "/#/member/2025/Yeyeye",
         },
         {
-            key: '17',
-            name: "鄭羽農",
-            joinDate: "2025.04",
-            role: "碩一，資工碩士",
-            coAdvisor: '吳牧恩',
-            experience: "",
-            certificate: "",
-            website: "/#/member/2025/Yunung"
-        },
-        {
             key: '18',
             name: "楊育誠",
             joinDate: "2025.05",
             role: "碩一，資工碩士",
             coAdvisor: '',
-            experience: "SunBird計畫",
+            experience: "執行 SunBird 計畫",
             certificate: "",
             website: "/#/member/2025/Victor"
+        },
+        {
+            key: '19',
+            name: "鄭羽農",
+            joinDate: "2025.04",
+            role: "碩一，資工碩士",
+            coAdvisor: '吳牧恩',
+            experience: "金融領域",
+            certificate: "",
+            //website: "/#/member/2025/Yunung"
         },
     ]
         
