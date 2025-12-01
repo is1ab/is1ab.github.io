@@ -6,7 +6,7 @@ export function Rule(){
                 <li>碩士班</li>
                     <ul>
                         <li> CTF 選手, 4 位 </li>
-                        <li> Sunbird計畫 - 測試工程師, 1 位 </li>
+                        <li> Sunbird 計畫 - 測試工程師, 1 位 </li>
                         <li> 萬芳醫院計畫 - Prompt injection, 1 位 </li>
                         <li> 其他計畫, 1 位 </li>
                     </ul>
@@ -18,41 +18,44 @@ export function Rule(){
             </ul>
             <hr></hr>
             
-            <h4 className="text-center fw-bold">研究生義務</h4>
+            <h4 className="text-center fw-bold"> CTF 研究生義務</h4>
             <ul>
                 <li>入學前</li>
                     <ul>
-                        <li> 暑假期間需參加新生訓練 </li>
-                        <li> 選定攻防組別 </li>
+                        <li> 暑假期間需參加 CTF 新生訓練 </li>
+                        <li> 選定 CTF 攻防組別 </li>
                         <li> 參與北科資安社團 is1ab club </li>
-                        <li> 每週四需線上參加 Group meeting </li>
+                        <li> 每週(四)需線上參加 Group meeting </li>
                     </ul>
+                
                 <li>一年級</li>
                     <ul>
                         <li> 擔任實驗室相關負責職務 </li>
                         <li> 餐與攻防組內部討論 </li>
-                        <li> 每週四需實體參加 Group meeting </li>
+                        <li> 每週(四)需實體參加 Group meeting </li>
                         <li> 參與國內外相關 CTF 比賽 </li>
                         <li> 參與北科資安社團 is1ab club 活動 </li>
-                        <li> 每年 11 月需協助國科會計畫撰寫 </li>
+                        <li> 11-12 月需協助撰寫國科會計畫 </li>
+                    </ul>
+                
+                <li>一年級暑假</li>
+                    <ul>
+                        <li> 參加 AIS3 活動 </li>
+                        <li> 舉辦北聯大 CTF 比賽 </li>
+                    </ul>
+                
+                <li>二年級</li>
+                    <ul>
+                        <li> 8-9月 傳承實驗室相關負責職務 </li>
+                        <li> 11-12 月需撰寫國科會計畫 </li>
+                        <li> 每周(一)需實體參加碩論進度報告 </li>
+                        <li> 每週(四)需實體參加 Group meeting </li>
+                        <li> 隔年 4 月口試 </li>
+                        <li> 隔年5-7月期間完成「投稿」動作 </li>
                     </ul>
             </ul>
             <hr></hr>
             
-            <h4 className="text-center fw-bold">畢業資格</h4>
-            <ul>
-                <li>滿足國立臺北科技大學資訊工程系（以及資安學位學程）之畢業門檻（當屆）</li>
-                <li>完成「一篇」國際研討會/期刊論文並完成「投稿」動作</li>
-                <li>參加資安競賽、資安活動、與培訓計畫</li>
-            </ul>
-            <hr></hr>
-            <h4 className="text-center fw-bold">獎助金相關</h4>
-            <ul>
-                <li>（主）國科會計畫</li>
-                <li>（輔）產學合作案、課程獎助金</li>
-                <li>（輔）校內證照補助、參賽補助</li>
-            </ul>
-            <hr></hr>
             <h4 className="text-center fw-bold">指導教授重視</h4>
             <ul>
                 <li>學術倫理</li>
