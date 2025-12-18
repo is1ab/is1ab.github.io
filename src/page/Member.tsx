@@ -213,7 +213,7 @@ export function Member(){
             coAdvisor: '',
             experience: "威廉通股份有限公司資安實習生",
             certificate: "",
-            //website: "/#/member/2026/..."
+            website: "/#/member/2026/Mercury"
         },
         {
             key: '22',
