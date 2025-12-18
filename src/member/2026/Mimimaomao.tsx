@@ -14,7 +14,7 @@ export const MimimaomaoMemberPage = () => {
  const competitionExperiences: MemberCompetitionExperienceType[] = [
      {
          title: "HITCON Cyber Range 2024 企業組",
-         result: "排名: Qulas #9, Final #7",
+         result: "排名: Quals #9, Final #7",
          datetime: "2024"
      },
      {
@@ -34,7 +34,7 @@ export const MimimaomaoMemberPage = () => {
      }, 
      {
          title: "神盾盃 2025",
-         result: "排名: Qulas #6, Final #9",
+         result: "排名: Quals #6, Final #9",
          datetime: "2025"
      },                   
  ]
