@@ -195,6 +195,46 @@ export function Member(){
             certificate: "",
             //website: "/#/member/2025/Yunung"
         },
+        {
+            key: '20',
+            name: "黃致程",
+            joinDate: "2025.12",
+            role: "碩零，資安碩士",
+            coAdvisor: '',
+            experience: "",
+            certificate: "",
+            //website: "/#/member/2026/..."
+        },
+        {
+            key: '21',
+            name: "黃信誌",
+            joinDate: "2025.12",
+            role: "碩零，資安碩士",
+            coAdvisor: '',
+            experience: "",
+            certificate: "",
+            //website: "/#/member/2026/..."
+        },
+        {
+            key: '22',
+            name: "賴要宏",
+            joinDate: "2025.12",
+            role: "碩零，資安碩士",
+            coAdvisor: '',
+            experience: "",
+            certificate: "",
+            //website: "/#/member/2026/..."
+        },
+        {
+            key: '23',
+            name: "陳威翰",
+            joinDate: "2025.12",
+            role: "碩零，資安碩士",
+            coAdvisor: '',
+            experience: "",
+            certificate: "",
+            //website: "/#/member/2026/..."
+        },
     ]
         
     const consultantUserTableItem = [
