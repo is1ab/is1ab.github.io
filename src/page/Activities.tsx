@@ -1,3 +1,8 @@
+import is1ab2025 from "../assets/activities/2025_is1ab_新生盃.png"
+import gold2025 from "../assets/activities/2025_金盾獎.jpg"
+import hackathon2025 from "../assets/activities/2025_AIS3_黑客松.jpg"
+import aegisfinal2025 from "../assets/activities/2025_神盾盃決賽.jpg"
+
 export function Activities(){
     const ActivitiesItem = (props: {
         time: string
@@ -19,6 +24,33 @@ export function Activities(){
         <div className="activities">
             <h4 className="text-center fw-bold">歷史活動</h4>
             <table className="w-100 table-bordered">
+                <ActivitiesItem
+                    time="2025.11.23"
+                    descriptionItem={
+                        <div>
+                            <p>2025 神盾盃資安競賽決賽</p>
+                            <img src={aegisfinal2025} width="550"/>
+                        </div>
+                    }
+                ></ActivitiesItem>
+                <ActivitiesItem
+                    time="2025.10.18"
+                    descriptionItem={
+                        <div>
+                            <p>2025 資安技能金盾初賽</p>
+                            <img src={gold2025} width="550"/>
+                        </div>
+                    }
+                ></ActivitiesItem>
+                <ActivitiesItem
+                    time="2025.09.15"
+                    descriptionItem={
+                        <div>
+                            <p>2025 is1ab 新生盃</p>
+                            <img src={is1ab2025} width="550"/>
+                        </div>
+                    }
+                ></ActivitiesItem>
                 <ActivitiesItem
                     time="2025.08.15"
                     descriptionItem={
@@ -47,6 +79,15 @@ export function Activities(){
                             <img 
                                 src="https://drive.google.com/thumbnail?id=1d133d1uNoMwPjv2am-L5vdohhj9XuYfs&sz=w550" 
                               />
+                        </div>
+                    }
+                ></ActivitiesItem>
+                <ActivitiesItem
+                    time="2025.05.03"
+                    descriptionItem={
+                        <div>
+                            <p>2025 AIS3 Club 北區高中職程式安全黑客松工作坊</p>
+                            <img src={hackathon2025} width="550"/>
                         </div>
                     }
                 ></ActivitiesItem>
