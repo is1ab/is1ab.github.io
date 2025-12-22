@@ -12,9 +12,23 @@ export const Adb2MemberPage = () => {
         {
             title: "iPAS 資訊安全工程師-初級能力鑑定",
             datetime: "2024.12.04"
+        },
+        {
+            title: "iPAS 資訊安全工程師-中級能力鑑定",
+            datetime: "2025.10.01"
         }
     ]
     const competitionExperiences: MemberCompetitionExperienceType[] = [
+        {
+            title: "picoMini by CMU-Africa",
+            result: "96/2942 Team(Name: BongoCatCat)",
+            datetime: "2025.10.01 - 2025.10.16"
+        },
+        {
+            title: "AEGIS 2025 初賽",
+            result: "7/40 Team(Name: 在小小的實驗室裡挖阿挖阿挖)",
+            datetime: "2025.09.27"
+        },
         {
             title: "WHYCTF 2025",
             result: "188/1806 Team(Name: NTUT_Is1ab)",
@@ -101,7 +115,7 @@ export const Adb2MemberPage = () => {
             datetime: "2024.10.12"
         },
         {
-            title: "AEGIS CTF 神盾盃預賽",
+            title: "AEGIS 2024 初賽",
             result: "N/A",
             datetime: "2024.09.14"
         },
@@ -122,6 +136,18 @@ export const Adb2MemberPage = () => {
         }
     ]
     const participates: MemberParticipateType[] = [
+        {
+            title: "HITCON CTF 2025 決賽現場 - 竹狐(但我沒貢獻所以放這)",
+            datetime: "2025.10.17 - 2025.10.18"
+        },
+        {
+            title: "ACM CCS 2025 - 工作人員",
+            datetime: "2025.10.12 - 2025.10.17"
+        },
+        {
+            title: "HITCON AI Freetalk 2025 - 會眾",
+            datetime: "2025.09.12"
+        },
         {
             title: "第十屆臺灣好厲駭 ( 高階培訓 ) - 學員",
             datetime: "2025.08 - now"

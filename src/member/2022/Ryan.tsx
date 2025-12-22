@@ -168,11 +168,18 @@ export const RyanMemberPage = () => {
     ]
     const journals: MemberArticleType[] = [
         {
+            authors: "Sheng-Shan Chen, Kai-Siang Cao, Chung-Kuan Chen, Chin-Yu Sun*",
+            title: "Retrieval-Augmented Generation for Identifying ATT&CK Technique",
+            target: "Communications of the CCISA",
+            details: "vol. 31, no. 3 , pp. 20-39. https://cccisa.ccisa.org.tw/article/view/3210",
+            doi: ""
+        },
+        {
             authors: "Chin-Yu Sun*, Sheng-Shan Chen, Ya-Han Ho",
             title: "De-Identification of Open-Source Intelligence Using Finetuned LLaMA-3",
-            target: "Accepted by High-Confidence Computing",
-            details: "September 2025",
-            doi: ""
+            target: "High-Confidence Computing",
+            details: "2025, 100357, ISSN 2667-2952",
+            doi: "https://doi.org/10.1016/j.hcc.2025.100357"
         },
         {
             authors: "Sheng-Shan Chen, Tun-Wen Pai, Chin-Yu Sun*",

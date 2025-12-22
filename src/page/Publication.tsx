@@ -285,6 +285,13 @@ export function Publication() {
                 <ol>
                     <li>
                         <Author>
+                            Sheng-Shan Chen, Yi-Sheng Hsu, Chung-Kuan Chen, Tien-Chih Lin, and <Professor star />
+                        </Author>
+                        <Title title="Hybrid Framework for High-Precision Vulnerability Validation Using Code Property Graphs and Large Language Models" />
+                        Submitted to <Journal name="Computers & Security" />, November 2025.
+                    </li>
+                    <li>
+                        <Author>
                             Sheng-Shan Chen, Po-Yao Yen, Yu-Nung Cheng, and <Professor star />
                         </Author>
                         <Title title="Applying Machine Learning for EDoS Attack Detection and Cost Analysis in Cloud Microservices" />
