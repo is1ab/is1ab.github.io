@@ -4,8 +4,9 @@ import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParti
 
 export const MarcoMemberPage = () => {
     const bio = <div className="d-flex flex-column gap-3">
-    <p>專注於資訊安全領域，具備多場 CTF 實戰經驗，涉獵範圍涵蓋 Web、Mobile、OSINT 等多種題型，並曾於多項比賽中獲得佳績。持續累積漏洞揭露紀錄，曾於 HITCON ZeroDay 平台上揭露多起高風險弱點。現就讀於國立臺北科技大學資訊安全碩士學位學程，並於業界實習，實踐學術與實務並進。熱衷於技術研鑽與社群參與，期望在資安領域持續深耕，拓展視野。 - chatGPT</p>
-    <p>更多資料在<a href="https://www.mlgzackfly.com" target="_blank" rel="noopener noreferrer">我的個人網站</a></p>
+    <p>黃昱翔專注於資訊安全工程與攻防實務，具備紅隊與攻擊手角色之實戰經驗，熟悉完整攻擊鏈流程與攻防情境推演。累積多場 CTF 競賽與實戰型攻防演練經驗，技術能力涵蓋 Web 與 Mobile 應用程式安全、OSINT 情資分析、系統層級弱點利用、存取控制繞過與橫向移動等關鍵攻擊面，並於多項具代表性之資安競賽中取得可驗證之成果。長期投入軟體弱點分析與責任式揭露，曾於 HITCON ZeroDay 平台揭露多起高風險與高影響力漏洞，展現成熟的弱點挖掘與風險判斷能力。 - chatGPT</p>
+    <p>更多資料在 <a href="https://www.mlgzackfly.tw" target="_blank" rel="noopener noreferrer">個人網站</a></p>
+    <p> 可以看看 <a href="https://blog.mlgzackfly.com" target="_blank" rel="noopener noreferrer">部落格</a></p>
     </div>
     const certificates: MemberCertificateType[] = [
         {
@@ -14,6 +15,11 @@ export const MarcoMemberPage = () => {
         },
     ]
     const raceExperiences: MemberCompetitionExperienceType[] = [
+        {
+            title: "AIS3 EOF CTF 2026 / 隊名：想對名真的好難",
+            result: "第 29 名（50%）",
+            datetime: "2025"
+        },
         {
             title: "InfoSec Taiwan CTF 2025 / 隊名：Archetype",
             result: "第 26 名（48%）",
@@ -76,6 +82,10 @@ export const MarcoMemberPage = () => {
         }
     ]
     const participates: MemberParticipateType[] = [
+    {
+        "title": "榮獲 DEVCORE 2025 全國資訊安全獎學金",
+        "datetime": "2025"
+    },
     {
         "title": "教育部資訊及科技教育司 - 114年度教育體系資安攻防演練 攻防檢測員",
         "datetime": "2025"
@@ -145,6 +155,42 @@ export const MarcoMemberPage = () => {
     const conferences: MemberArticleType[] = []
     const techConfs: MemberArticleType[] = []
     const zeroday: MemberZeroDayType[] = [
+    {
+        id: (
+            <div>
+                <a href="https://hackerone.com/northerntechhq/thanks?type=team">Northern Tech HackerOne</a>
+            </div>
+        ),
+        title: "Northern Tech HQ BugBounty $200 USD",
+        datetime: "2025.11.20"
+    },
+    {
+        id: (
+            <div>
+                <a href="https://www.cve.org/CVERecord?id=CVE-2025-13468">CVE-2025-13468</a>
+            </div>
+        ),
+        title: "SourceCodester Alumni Management System Delete admin_class.php delete_event authorization",
+        datetime: "2025.11.20"
+    },
+    {
+        id: (
+            <div>
+                <a href="https://zeroday.hitcon.org/vulnerability/ZD-2025-00620">ZD-2025-00620</a>
+            </div>
+        ),
+        title: "馬辣官網 會員系統 Reflected XSS",
+        datetime: "2025.08.22"
+    },
+    {
+        id: (
+            <div>
+                <a href="https://zeroday.hitcon.org/vulnerability/ZD-2025-00615">ZD-2025-00615</a>
+            </div>
+        ),
+        title: "八方雲集 線上教學平台 SQL injection、加密機制失效",
+        datetime: "2025.08.06"
+    },
     {
         id: (
             <div>
