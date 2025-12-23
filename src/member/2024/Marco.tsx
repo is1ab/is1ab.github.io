@@ -162,7 +162,7 @@ export const MarcoMemberPage = () => {
             </div>
         ),
         title: "Northern Tech HQ BugBounty $200 USD",
-        datetime: "2024.11.20"
+        datetime: "2025.11.20"
     },
     {
         id: (
@@ -171,7 +171,7 @@ export const MarcoMemberPage = () => {
             </div>
         ),
         title: "SourceCodester Alumni Management System Delete admin_class.php delete_event authorization",
-        datetime: "2024.11.20"
+        datetime: "2025.11.20"
     },
     {
         id: (
