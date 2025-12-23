@@ -176,6 +176,24 @@ export const MarcoMemberPage = () => {
     {
         id: (
             <div>
+                <a href="https://zeroday.hitcon.org/vulnerability/ZD-2025-00620">ZD-2025-00620</a>
+            </div>
+        ),
+        title: "馬辣官網 會員系統 Reflected XSS",
+        datetime: "2025.08.22"
+    },
+    {
+        id: (
+            <div>
+                <a href="https://zeroday.hitcon.org/vulnerability/ZD-2025-00615">ZD-2025-00615</a>
+            </div>
+        ),
+        title: "八方雲集 線上教學平台 SQL injection、加密機制失效",
+        datetime: "2025.08.06"
+    },
+    {
+        id: (
+            <div>
                 <a href="https://zeroday.hitcon.org/vulnerability/ZD-2024-01519">ZD-2024-01519</a>
             </div>
         ),
