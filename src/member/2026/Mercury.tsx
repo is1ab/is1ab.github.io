@@ -1,6 +1,6 @@
 import { Sample } from "../Sample"
 import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../../type/MemberCertificateType"
-import Mercury from "../../assets/member/Mercury.gif"
+import Mercury from "../../assets/member/Mercury.jpg"
 
 export const MercuryMemberPage = () => {
     const bio = (
@@ -130,6 +130,7 @@ export const MercuryMemberPage = () => {
         <Sample
             zhName="黃信誌"
             enName="Mercury Huang"
+            avatar={Mercury}
             institutes={["國立臺北科技大學 資訊工程所 資訊安全實驗室"]}
             bio={bio}
             experiences={raceExperiences}
