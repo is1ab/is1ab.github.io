@@ -1,5 +1,6 @@
 import { Sample } from "../Sample"
 import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../../type/MemberCertificateType"
+import Mercury from "../../assets/member/Mercury.gif"
 
 export const MercuryMemberPage = () => {
     const bio = (
@@ -115,7 +116,7 @@ export const MercuryMemberPage = () => {
 
         },
         {
-            company: "QNAP 威廉通股份有限公司",
+            company: "QNAP 威聯通股份有限公司",
             info: "資安實習生。Security Bug Bounty 審查、惡意程式逆向分析及資安事件應對",
             datetime: "2025.07 - now"
 
