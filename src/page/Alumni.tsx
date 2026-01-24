@@ -27,7 +27,7 @@ export function Alumni(){
             title: "基於Kyber-KEM技術之安全身份認證協定於低軌衛星通訊系統",
             ability: "密碼學",
             experience: "資訊安全碩士學位學程",
-            status: "離校",
+            status: "台達電子工程股份有限公司-電動車事業群-資安資深工程師",
             certificate: "與 林敬皇 老師共同指導",
             website: "/#/Member/2023/Salt"
         },
@@ -37,7 +37,7 @@ export function Alumni(){
             title: "評估低軌衛星環境中電磁脈衝攻擊與其緩解機制之設計",
             ability: "藍隊技術",
             experience: "資訊安全碩士學位學程",
-            status: "BCCS 漢昕科技 - 資安事件調查分析與處理",
+            status: "BCCS 漢昕科技-資安事件調查分析與處理",
             website: "/#/Member/2023/Ravin"
         },
         {
@@ -66,7 +66,7 @@ export function Alumni(){
             ability: "人工智慧",
             experience: "美國德州大學阿靈頓分校 雙聯學位",
             certificate: "",
-            status: "訊能集思智能科技股份有限公司 - 產品經理"
+            status: "訊能集思智能科技股份有限公司-產品經理"
         },
         {
             name: "李昆積",
@@ -75,7 +75,7 @@ export function Alumni(){
             ability: "Web 攻防技術",
             experience: "資訊工程系 碩士學位",
             certificate: "",
-            status: "安碁資訊股份有限公司 - 滲透測試工程師",
+            status: "安碁資訊股份有限公司-滲透測試工程師",
             website: "/#/Member/2022/kunjili"
         },
         {
@@ -85,7 +85,7 @@ export function Alumni(){
             ability: "密碼學、硬體安全",
             experience: "資訊工程系 碩士學位",
             certificate: "",
-            status: "財團法人資訊工業策進會 - 資安科技研究所/資安維運鑑識組",
+            status: "財團法人資訊工業策進會-資安科技研究所/資安維運鑑識組",
             website: "/#/Member/2022/Cliff"
         },
     ]
