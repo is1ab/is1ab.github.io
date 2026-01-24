@@ -4,12 +4,21 @@ import { ColumnType } from "antd/es/table";
 export function Alumni(){
     const masterAlumniDatas = [
         {
+            name: "顏柏耀",
+            joinDate: "2023.03-2026.01",
+            title: "應用機器學習技術偵測 EDoS 攻擊於雲端微服務成本分析",
+            ability: "Reverse 技術",
+            experience: "資訊安全碩士學位學程",
+            status: "離校",
+            website: "/#/Member/2023/Y"
+        },
+        {
             name: "曹凱翔",
             joinDate: "2023.03-2025.08",
             title: "基於檢索增強生成技術於網路威脅情資之攻擊識別",
             ability: "Web 攻防",
             experience: "資訊安全碩士學位學程",
-            status: "離校",
+            status: "研發替代役",
             website: "/#/Member/2023/Bobo"
         },
         {
@@ -40,15 +49,7 @@ export function Alumni(){
             status: "離校",
             website: "/#/Member/2023/CHW"
         },
-        /*{
-            name: "顏柏耀",
-            joinDate: "2023.03-pres.",
-            title: "應用機器學習技術偵測 EDoS 攻擊於雲端微服務成本分析",
-            ability: "Reverse 技術",
-            experience: "資訊安全碩士學位學程",
-            status: "口試通過",
-            website: "/#/Member/2023/Y"
-        },
+        /*
         {
             name: "許貽昇",
             joinDate: "2023.03-pres.",
