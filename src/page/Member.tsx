@@ -16,16 +16,6 @@ export function Member(){
     ]
     const masterUserTableItem = [
         {
-            key: '0',
-            name: "顏柏耀",
-            joinDate: "2023.03",
-            role: "碩三，資安碩士",
-            coAdvisor: '',
-            experience: "",
-            certificate: "",
-            website: "/#/Member/2023/Y"
-        },
-        {
             key: '1',
             name: "許貽昇",
             joinDate: "2023.03",
