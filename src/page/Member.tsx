@@ -52,7 +52,7 @@ export function Member(){
             role: "碩二，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "實驗室儀器設備管理",
+            certificate: "",
             website: "/#/Member/2024/Young"
         },
         {
@@ -162,7 +162,7 @@ export function Member(){
             role: "碩一，資工碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "",
+            certificate: "實驗室儀器設備管理",
             website: "/#/member/2025/Yeyeye",
         },
         {
