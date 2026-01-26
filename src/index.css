@@ -177,7 +177,8 @@ a {
 }
 
 .marquee-container {
-  height: 100%; /* Adjust this to fit your desired height */
+  height: 100%;
+  /* Adjust this to fit your desired height */
   overflow: hidden;
   position: relative;
 }
@@ -199,10 +200,15 @@ a {
   color: #cf2e2e;
 }
 
+.alternative-journal {
+  color: #4CAF50;
+}
+
 @keyframes scroll {
   0% {
     transform: translateY(0%);
   }
+
   100% {
     transform: translateY(-100%);
   }

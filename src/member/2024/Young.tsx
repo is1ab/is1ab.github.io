@@ -3,7 +3,7 @@ import Young from "../../assets/logo.png"
 import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../../type/MemberCertificateType"
 
 export const YoungMemberPage = () => {
-    const bio = "HI~ 我是李宇揚，可以叫我Young，資安小白努力探索學習中，還請大家多多指教!"
+    const bio = "HI~ 我是李宇揚，可以叫我Young_Lee，資安小白努力探索學習中，還請大家多多指教!"
     const certificates: MemberCertificateType[] = [
         {
             title: "iPAS 資訊安全工程師-初級能力鑑定",
@@ -12,9 +12,23 @@ export const YoungMemberPage = () => {
         {
             title: "Google Cybersecurity Certificate",
             datetime: "2025.06.26"
-        }
+        },
+        {
+            title: "iPAS 資訊安全工程師-中級能力鑑定",
+            datetime: "2025.10.01"
+        },
     ]
     const competitionExperiences: MemberCompetitionExperienceType[] = [
+        {
+            title: "神盾杯初賽 Aegis 2025",
+            result: "7th Team(Name: 在小小的實驗室裡挖阿挖阿挖)",
+            datetime: "2025.09.27"
+        },
+        {
+            title: "WHYCTF 2025",
+            result: "188/1806 Team(Name: NTUT_Is1ab)",
+            datetime: "2025.08.09 - 2025.08.12"
+        },
         {
             title: "AIS3 Pre-exam 2025",
             result: "44/344 Team(Name: Young_Lee)",
@@ -103,6 +117,14 @@ export const YoungMemberPage = () => {
     ]
     const participates: MemberParticipateType[] = [
         {
+            title: "HITCON AI Freetalk 2025",
+            datetime: "2025.09.12"
+        },
+        {
+            title: "HITCON 2025",
+            datetime: "2025.08.15 - 2025.08.16"
+        },
+        {
             title: "CraftCon Taiwan 2025",
             datetime: "2025.07.04"
         },
@@ -130,6 +152,7 @@ export const YoungMemberPage = () => {
             title: "HITCON Carnival 2023",
             datetime: "2023.11.14 - 2023.11.15"
         },
+
     ]
     const internExperiences: MemberInternType[] = [
         {

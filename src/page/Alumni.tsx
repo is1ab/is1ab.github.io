@@ -4,51 +4,52 @@ import { ColumnType } from "antd/es/table";
 export function Alumni(){
     const masterAlumniDatas = [
         {
+            name: "顏柏耀",
+            joinDate: "2023.03-2026.01",
+            title: "應用機器學習技術偵測 EDoS 攻擊於雲端微服務成本分析",
+            ability: "Reverse 技術",
+            experience: "資訊安全碩士學位學程",
+            status: "離校",
+            website: "/#/Member/2023/Y"
+        },
+        {
             name: "曹凱翔",
-            joinDate: "2023.03-pres.",
+            joinDate: "2023.03-2025.08",
             title: "基於檢索增強生成技術於網路威脅情資之攻擊識別",
             ability: "Web 攻防",
             experience: "資訊安全碩士學位學程",
-            status: "口試通過",
+            status: "研發替代役",
             website: "/#/Member/2023/Bobo"
         },
         {
             name: "廖家賢",
-            joinDate: "2023.08-pres.",
+            joinDate: "2023.08-2025.08",
             title: "基於Kyber-KEM技術之安全身份認證協定於低軌衛星通訊系統",
             ability: "密碼學",
             experience: "資訊安全碩士學位學程",
-            status: "口試通過",
+            status: "台達電子工程股份有限公司-電動車事業群-資安資深工程師",
             certificate: "與 林敬皇 老師共同指導",
             website: "/#/Member/2023/Salt"
         },
         {
             name: "林幸慧",
-            joinDate: "2022.12-pres.",
+            joinDate: "2022.12-2025.08",
             title: "評估低軌衛星環境中電磁脈衝攻擊與其緩解機制之設計",
             ability: "藍隊技術",
             experience: "資訊安全碩士學位學程",
-            status: "口試通過",
+            status: "BCCS 漢昕科技-資安事件調查分析與處理",
             website: "/#/Member/2023/Ravin"
         },
         {
             name: "張家維",
-            joinDate: "2022.12-pres.",
+            joinDate: "2022.12-2025.08",
             title: "應用對抗式樣本於 XSS 模糊測試之防禦研究",
             ability: "Web 攻防技術",
             experience: "資訊安全碩士學位學程",
-            status: "口試通過",
+            status: "離校",
             website: "/#/Member/2023/CHW"
         },
-        {
-            name: "顏柏耀",
-            joinDate: "2023.03-pres.",
-            title: "應用機器學習技術偵測 EDoS 攻擊於雲端微服務成本分析",
-            ability: "Reverse 技術",
-            experience: "資訊安全碩士學位學程",
-            status: "口試通過",
-            website: "/#/Member/2023/Y"
-        },
+        /*
         {
             name: "許貽昇",
             joinDate: "2023.03-pres.",
@@ -57,7 +58,7 @@ export function Alumni(){
             experience: "資訊安全碩士學位學程",
             status: "口試通過",
             website: "/#/Member/2023/Eason"
-        },
+        },*/
         {
             name: "陳丹妮",
             joinDate: "2022.09-2024.08",
@@ -65,7 +66,7 @@ export function Alumni(){
             ability: "人工智慧",
             experience: "美國德州大學阿靈頓分校 雙聯學位",
             certificate: "",
-            status: "訊能集思智能科技股份有限公司 - 產品經理"
+            status: "訊能集思智能科技股份有限公司-產品經理"
         },
         {
             name: "李昆積",
@@ -74,7 +75,7 @@ export function Alumni(){
             ability: "Web 攻防技術",
             experience: "資訊工程系 碩士學位",
             certificate: "",
-            status: "安碁資訊股份有限公司 - 滲透測試工程師",
+            status: "安碁資訊股份有限公司-滲透測試工程師",
             website: "/#/Member/2022/kunjili"
         },
         {
@@ -84,7 +85,7 @@ export function Alumni(){
             ability: "密碼學、硬體安全",
             experience: "資訊工程系 碩士學位",
             certificate: "",
-            status: "財團法人資訊工業策進會 - 資安科技研究所/資安維運鑑識組",
+            status: "財團法人資訊工業策進會-資安科技研究所/資安維運鑑識組",
             website: "/#/Member/2022/Cliff"
         },
     ]
@@ -142,6 +143,18 @@ export function Alumni(){
         }
     ]
     const undergraduateAlumniStudentTableDatas = [
+        {
+            year: "114",
+            name: "張意昌、吳耀東、林品緯、張睿恩",
+            title: "專案型評測系統設計方法",
+            note: "通過大專生計畫編號:114-2813-C-027-053-E、榮獲 2025 北科實務專題競賽 佳作"
+        },
+        {
+            year: "114",
+            name: "陳奕翔、廖峰瑞、張峻誠、黃政豪",
+            title: "透過問題重塑以及微調 LLM 提升程式碼補全能力",
+            note: ""
+        },
         {
             year: "113",
             name: "陳思群、顏睿寬、許宸瑋",

@@ -32,7 +32,7 @@ import { WIFIMemberPage } from "./member/2024/WIFI.tsx";
 import { YPPMemberPage } from "./member/2024/ypp.tsx";
 import { YoungMemberPage } from "./member/2024/Young.tsx";
 import { PaulWangMemberPage } from "./member/2024/PaulWang.tsx";
-import { JasonMemberPage } from "./member/2024/Jason.tsx";
+import { WinMemberPage } from "./member/2024/Win.tsx";
 import { JoeMemberPage } from "./member/2024/Joe.tsx";
 import { EasonMemberPage } from "./member/2023/Eason.tsx";
 import { BoboMemberPage } from "./member/2023/Bobo.tsx";
@@ -52,6 +52,12 @@ import { YuericMemberPage } from "./member/2025/Yueric.tsx";
 import { RobertLiaoMemberPage } from "./member/2024/RobertLiao.tsx";
 import { YeyeyeMemberPage } from "./member/2025/Yeyeye.tsx";
 import { WillyMemberPage } from "./member/2025/Willy.tsx";
+import { YunungMemberPage } from "./member/2025/Yunung.tsx";
+import { VictorMemberPage } from "./member/2025/Victor.tsx"
+import { StanleyMemberPage } from "./member/2026/Stanley.tsx";
+import { MercuryMemberPage } from "./member/2026/Mercury.tsx";
+import { MimimaomaoMemberPage } from "./member/2026/Mimimaomao.tsx";
+import { M4RVjNMemberPage } from "./member/2026/M4RVjN.tsx";
 import { MarcoMemberPage } from "./member/2024/Marco.tsx";
 import { TingMemberPage } from "./member/2025/Ting.tsx";
 
@@ -69,7 +75,7 @@ const router = createHashRouter(
       <Route path="/Member/2023/Eason" element={<EasonMemberPage />}></Route>
       <Route path="/Member/2024/ypp" element={<YPPMemberPage />}></Route>
       <Route path="/Member/2024/Young" element={<YoungMemberPage />}></Route>
-      <Route path="/Member/2024/Jason" element={<JasonMemberPage />}></Route>
+      <Route path="/Member/2024/Win" element={<WinMemberPage />}></Route>
       <Route path="/Member/2023/Bobo" element={<BoboMemberPage />}></Route>
       <Route
         path="/Member/2024/PaulWang"
@@ -97,6 +103,13 @@ const router = createHashRouter(
       <Route path="/Member/2025/Willy" element={<WillyMemberPage />}></Route>
       <Route path="/Member/2024/Marco" element={<MarcoMemberPage />}></Route>
       <Route path="/Member/2025/Ting" element={<TingMemberPage />}></Route>
+      <Route path="/Member/2025/Yunung" element={<YunungMemberPage />}></Route>
+      <Route path="/Member/2025/Victor" element={<VictorMemberPage />}></Route>
+      <Route path="/Member/2026/Stanley" element={<StanleyMemberPage />}></Route>
+      <Route path="/Member/2026/Mercury" element={<MercuryMemberPage />}></Route>
+      <Route path="/Member/2026/Mimimaomao" element={<MimimaomaoMemberPage />}></Route>
+      <Route path="/Member/2026/M4RVjN" element={<M4RVjNMemberPage />}></Route>
+
       <Route path="/Alumni" element={<Alumni></Alumni>}></Route>
       <Route path="/Partner" element={<Partner></Partner>}></Route>
       <Route path="/Profile" element={<Profile></Profile>}></Route>
