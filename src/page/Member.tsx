@@ -16,16 +16,6 @@ export function Member(){
     ]
     const masterUserTableItem = [
         {
-            key: '0',
-            name: "顏柏耀",
-            joinDate: "2023.03",
-            role: "碩三，資安碩士",
-            coAdvisor: '',
-            experience: "",
-            certificate: "",
-            website: "/#/Member/2023/Y"
-        },
-        {
             key: '1',
             name: "許貽昇",
             joinDate: "2023.03",
@@ -62,7 +52,7 @@ export function Member(){
             role: "碩二，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "實驗室儀器設備管理",
+            certificate: "",
             website: "/#/Member/2024/Young"
         },
         {
@@ -172,7 +162,7 @@ export function Member(){
             role: "碩一，資工碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "",
+            certificate: "實驗室儀器設備管理",
             website: "/#/member/2025/Yeyeye",
         },
         {
@@ -211,7 +201,7 @@ export function Member(){
             joinDate: "2025.12",
             role: "碩零，資安碩士",
             coAdvisor: '',
-            experience: "威廉通股份有限公司資安實習生",
+            experience: "威聯通股份有限公司資安實習生",
             certificate: "",
             website: "/#/member/2026/Mercury"
         },
