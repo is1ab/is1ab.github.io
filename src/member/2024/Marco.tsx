@@ -10,6 +10,23 @@ export const MarcoMemberPage = () => {
     </div>
     const certificates: MemberCertificateType[] = [
         {
+            title: "Certified Web Exploitation Specialist(CWES)",
+            datetime: "2026.02.02"
+        },
+        {
+
+            title: "Practical Web Pentest Associate (PWPA)",
+            datetime: "2026.01.24"
+        },
+        {
+            title: "eJPT - eLearnSecurity Junior Penetration Tester",
+            datetime: "2026.01.24"
+        },
+        {
+            title: "Certified Web Red Team Analyst (Web-RTA)",
+            datetime: "2026.01.09"
+        },
+        {
             title: "iPAS 資訊安全工程師-初級能力鑑定",
             datetime: "2024.06.01"
         },
