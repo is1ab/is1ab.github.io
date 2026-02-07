@@ -201,7 +201,7 @@ export function Member(){
             joinDate: "2025.12",
             role: "碩零，資安碩士",
             coAdvisor: '',
-            experience: "威聯通股份有限公司資安實習生",
+            experience: "前威聯通股份有限公司資安實習生",
             certificate: "",
             website: "/#/member/2026/Mercury"
         },
