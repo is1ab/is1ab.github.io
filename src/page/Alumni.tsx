@@ -4,6 +4,15 @@ import { ColumnType } from "antd/es/table";
 export function Alumni(){
     const masterAlumniDatas = [
         {
+            name: "許貽昇",
+            joinDate: "2023.03-2026.01",
+            title: "使用程式碼屬性圖萃取技術於自動化漏洞挖掘與風險路徑分析",
+            ability: "PWN 技術",
+            experience: "資訊安全碩士學位學程",
+            status: "奧義智慧科技股份有限公司",
+            website: "/#/Member/2023/Eason"
+        },
+        {
             name: "顏柏耀",
             joinDate: "2023.03-2026.01",
             title: "應用機器學習技術偵測 EDoS 攻擊於雲端微服務成本分析",
@@ -49,16 +58,6 @@ export function Alumni(){
             status: "離校",
             website: "/#/Member/2023/CHW"
         },
-        /*
-        {
-            name: "許貽昇",
-            joinDate: "2023.03-pres.",
-            title: "使用程式碼屬性圖萃取技術於自動化漏洞挖掘與風險路徑分析",
-            ability: "PWN 技術",
-            experience: "資訊安全碩士學位學程",
-            status: "口試通過",
-            website: "/#/Member/2023/Eason"
-        },*/
         {
             name: "陳丹妮",
             joinDate: "2022.09-2024.08",
