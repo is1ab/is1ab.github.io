@@ -287,8 +287,8 @@ export function Publication() {
                         <Author>
                             Sheng-Shan Chen, Yi-Sheng Hsu, Chung-Kuan Chen, Tien-Chih Lin, and <Professor star />
                         </Author>
-                        <Title title="Hybrid Framework for High-Precision Vulnerability Validation Using Code Property Graphs and Large Language Models" />
-                        Submitted to <Journal name="Computers & Security" />, November 2025.
+                        <Title title="Enhancing Static Vulnerability Alert Validation using Large Language Models" />
+                        Submitted to <Journal name="The Journal of Systems & Software" />, November 2025.
                     </li>
                     <li>
                         <Author>
@@ -311,13 +311,13 @@ export function Publication() {
                         <Title title="CTI-KG: A Structured Threat Information Expression-Based Knowledge Graph Construction for Cyber Threat Intelligence Analysts" />
                         Submitted to <Journal name="Computers & Security" />, April 2024.
                     </li>
-                    <li>
+                    /*<li>
                         <Author>
                             Han-Xuan Huang, Tzu-Yi Li, Sheng-Shan Chen, Kuang-Ming Chang, and <Professor star />
                         </Author>
                         <Title title="Security Challenges in Online Judges: Understanding and Mitigating CCA Attacks" />
                         prepared for submission to <Journal name="IEEE Transactions on Network and Service Management" />, 2023.
-                    </li>
+                    </li>*/
                 </ol>
             </>
         </div>
