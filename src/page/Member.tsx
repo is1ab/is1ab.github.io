@@ -16,16 +16,6 @@ export function Member(){
     ]
     const masterUserTableItem = [
         {
-            key: '1',
-            name: "許貽昇",
-            joinDate: "2023.03",
-            role: "碩三，資安碩士",
-            coAdvisor: '',
-            experience: "奧義智慧科技股份有限公司",
-            certificate: "",
-            website: "/#/Member/2023/Eason"
-        },
-        {
             key: '2',
             name: "吳冠廷",
             joinDate: "2023.12",
@@ -319,7 +309,7 @@ export function Member(){
                 }
             ],
             note: "保留",
-            progress: 3
+            progress: 7
         },
         {
             group: "114#2",
@@ -334,7 +324,7 @@ export function Member(){
                 }
             ],
             note: "參與SunBird計畫（dcTrack 組）",
-            progress: 2
+            progress: 5
         }
     ]
     const tableColumns: ColumnType<any>[] = [
