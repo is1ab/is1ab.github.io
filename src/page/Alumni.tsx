@@ -27,7 +27,7 @@ export function Alumni(){
             title: "基於檢索增強生成技術於網路威脅情資之攻擊識別",
             ability: "Web 攻防",
             experience: "資訊安全碩士學位學程",
-            status: "研發替代役",
+            status: "世界先進積體電路股份有限公司-資安工程師(研發替代役)",
             website: "/#/Member/2023/Bobo"
         },
         {
