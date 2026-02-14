@@ -9,7 +9,7 @@ export function Alumni(){
             title: "使用程式碼屬性圖萃取技術於自動化漏洞挖掘與風險路徑分析",
             ability: "PWN 技術",
             experience: "資訊安全碩士學位學程",
-            status: "奧義智慧科技股份有限公司",
+            status: "奧義智慧科技股份有限公司-資安研究員 (研發替代役)",
             website: "/#/Member/2023/Eason"
         },
         {
@@ -27,7 +27,7 @@ export function Alumni(){
             title: "基於檢索增強生成技術於網路威脅情資之攻擊識別",
             ability: "Web 攻防",
             experience: "資訊安全碩士學位學程",
-            status: "世界先進積體電路股份有限公司-資安工程師(研發替代役)",
+            status: "世界先進積體電路股份有限公司-資安工程師 (研發替代役)",
             website: "/#/Member/2023/Bobo"
         },
         {
@@ -55,7 +55,7 @@ export function Alumni(){
             title: "應用對抗式樣本於 XSS 模糊測試之防禦研究",
             ability: "Web 攻防技術",
             experience: "資訊安全碩士學位學程",
-            status: "離校",
+            status: "ABPSecurite 安普新科技",
             website: "/#/Member/2023/CHW"
         },
         {
