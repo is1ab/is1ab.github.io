@@ -51,7 +51,7 @@ export function Publication() {
                         </Author>
                         <Title title="Chatbots for breast cancer education: a systematic review and meta-analysis," />
                         <Journal name="Supportive Care in Cancer" />, vol. 33, no. 55, December 2025.
-                        <AlternativeJournal name="[2024, JCR IF: 3.0, HEALTH CARE SCIENCES & SERVICES, 55/188, Q1]"></AlternativeJournal>
+                        <AlternativeJournal name="[2024, JCR IF: 3.0, HEALTH CARE SCIENCES & SERVICES, 55/188, Q2]"></AlternativeJournal>
                         <AlternativeJournal name="[2024, SJR: 1.109, Oncology, Q1]"></AlternativeJournal>
                         <SCI />
                         <CoFirstAuther />
@@ -69,7 +69,7 @@ export function Publication() {
                         </Author>
                         <Title title="De-Identification of Open-Source Intelligence using Finetuned LLaMA-3" />
                         Accepted by <Journal name="High-Confidence Computing" />, September 2025.
-                        <AlternativeJournal name="[2024, JCR IF: 3.0,  Computer Science, Information Systems, Q2]"></AlternativeJournal>
+                        <AlternativeJournal name="[2024, JCR IF: 3.0, Computer Science, Information Systems, Q2]"></AlternativeJournal>
                         <AlternativeJournal name="[2024, SJR: 0.894, Computer Networks and Communications, Q1]"></AlternativeJournal>
                         <SCI />
                     </li>
