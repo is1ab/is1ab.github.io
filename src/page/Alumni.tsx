@@ -373,7 +373,6 @@ export function Alumni(){
                 <Table columns={phdAlumniColumns} dataSource={phdAlumniDatas} pagination={false} bordered></Table>
             </div>
             <hr />
-        <div className="w-100">
             <div className="overflow-x-auto">
                 <h4 className="text-center fw-bold">碩士生（Master students）</h4>
                 <Table columns={masterAlumniColumns} dataSource={masterAlumniDatas} pagination={false} bordered></Table>
