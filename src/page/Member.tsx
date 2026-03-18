@@ -7,10 +7,9 @@ export function Member(){
             key: '1',
             name: "-",
             joinDate: "-",
-            role: "-",
-            experience: "-",
-            certificate: "-",
-            website: "-"
+            //role: "-",
+            //experience: "-",
+            //certificate: "-",
         }
     ]
     const masterUserTableItem = [
