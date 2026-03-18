@@ -296,6 +296,13 @@ export function Publication() {
                 <ol>
                     <li>
                         <Author>
+                            Sheng-Shan Chen, Ren-Hung Hwang, Ying-Dar Lin, Tun-Wen Pai, and <Professor star />
+                        </Author>
+                        <Title title="Extracting Attack Pattern from WAF Logs and CTIs Using Contrastive Semantic Learning" />
+                        Submitted to <Journal name="IEEE Transactions on Network and Service Management" />, January 2026.
+                    </li>
+                    <li>
+                        <Author>
                             Sheng-Shan Chen, Yi-Sheng Hsu, Chung-Kuan Chen, Tien-Chih Lin, and <Professor star />
                         </Author>
                         <Title title="Enhancing Static Vulnerability Alert Validation using Large Language Models" />
@@ -321,13 +328,6 @@ export function Publication() {
                         </Author>
                         <Title title="CTI-KG: A Structured Threat Information Expression-Based Knowledge Graph Construction for Cyber Threat Intelligence Analysts" />
                         Submitted to <Journal name="Computers & Security" />, April 2024.
-                    </li>
-                    <li>
-                        <Author>
-                            Han-Xuan Huang, Tzu-Yi Li, Sheng-Shan Chen, Kuang-Ming Chang, and <Professor star />
-                        </Author>
-                        <Title title="Security Challenges in Online Judges: Understanding and Mitigating CCA Attacks" />
-                        prepared for submission to <Journal name="IEEE Transactions on Network and Service Management" />, 2023.
                     </li>
                 </ol>
             </>
