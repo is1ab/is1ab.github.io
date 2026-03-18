@@ -3,7 +3,8 @@ import { ColumnType } from "antd/es/table";
 
 export function Member(){
     const phdUserTableItem = [
-        {
+        實驗室招募研究型博士生/產學型博士生
+        /*{
             key: '1',
             name: "陳勝舢",
             joinDate: "2022.07",
@@ -12,7 +13,7 @@ export function Member(){
             experience: "奧義智慧科技股份有限公司實習生",
             certificate: "行政總管",
             website: "/#/Member/2022/Ryan"
-        }
+        }*/
     ]
     const masterUserTableItem = [
         {
