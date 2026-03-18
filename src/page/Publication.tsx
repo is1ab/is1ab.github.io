@@ -47,6 +47,17 @@ export function Publication() {
                 <ol>
                     <li>
                         <Author>
+                        Shih-Jung Lin, <Professor coAuther />, Dan-Ni Chen, Yi-No Kang, Khanh Dinh Hoang, Kee-Hsin Chen, and Chiehfeng Chen
+                        </Author>
+                        <Title title="Chatbots for breast cancer education: a systematic review and meta-analysis," />
+                        <Journal name="Supportive Care in Cancer" />, vol. 33, no. 55, December 2025.
+                        <AlternativeJournal name="[2024, JCR IF: 3.0, HEALTH CARE SCIENCES & SERVICES, 55/188, Q2]"></AlternativeJournal>
+                        <AlternativeJournal name="[2024, SJR: 1.109, Oncology, Q1]"></AlternativeJournal>
+                        <SCI />
+                        <CoFirstAuther />
+                    </li>
+                    <li>
+                        <Author>
                             Sheng-Shan Chen, Kai-Siang Cao, Chung-Kuan Chen, and <Professor star />
                         </Author>
                         <Title title="Retrieval-Augmented Generation for Identifying ATT&CK Technique" />
@@ -58,7 +69,7 @@ export function Publication() {
                         </Author>
                         <Title title="De-Identification of Open-Source Intelligence using Finetuned LLaMA-3" />
                         Accepted by <Journal name="High-Confidence Computing" />, September 2025.
-                        <AlternativeJournal name="[2024, JCR IF: 3.0,  Computer Science, Information Systems, Q2]"></AlternativeJournal>
+                        <AlternativeJournal name="[2024, JCR IF: 3.0, Computer Science, Information Systems, Q2]"></AlternativeJournal>
                         <AlternativeJournal name="[2024, SJR: 0.894, Computer Networks and Communications, Q1]"></AlternativeJournal>
                         <SCI />
                     </li>
@@ -287,8 +298,8 @@ export function Publication() {
                         <Author>
                             Sheng-Shan Chen, Yi-Sheng Hsu, Chung-Kuan Chen, Tien-Chih Lin, and <Professor star />
                         </Author>
-                        <Title title="Hybrid Framework for High-Precision Vulnerability Validation Using Code Property Graphs and Large Language Models" />
-                        Submitted to <Journal name="Computers & Security" />, November 2025.
+                        <Title title="Enhancing Static Vulnerability Alert Validation using Large Language Models" />
+                        Submitted to <Journal name="The Journal of Systems & Software" />, November 2025.
                     </li>
                     <li>
                         <Author>
