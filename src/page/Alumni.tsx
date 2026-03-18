@@ -10,6 +10,7 @@ export function Alumni(){
             ability: "網路威脅情資、人工智慧、藍隊技術",
             experience: "資訊工程博士學位",
             status: "奧義智慧科技股份有限公司-資安研究員 (研發替代役)",
+            certificate: "與白敦文副校長共同指導",
             website: "https://sectools.tw/"
         },
     ]
@@ -48,7 +49,7 @@ export function Alumni(){
             ability: "密碼學",
             experience: "資訊安全碩士學位學程",
             status: "台達電子工程股份有限公司-電動車事業群-資安資深工程師",
-            certificate: "與 林敬皇 老師共同指導",
+            certificate: "與林敬皇助理教授共同指導",
             website: "/#/Member/2023/Salt"
         },
         {
@@ -317,14 +318,14 @@ export function Alumni(){
             joinTime: "2022.09-2024.08",
             title: "含加權要項可驗證分散式聚合函數之低隱私預算差分隱私方案",
             status: "N/A",
-            note: "與楊士萱老師合作指導"
+            note: "與楊士萱副校長合作指導"
         },
         {
             name: "葉子多",
             joinTime: "2022.09-2023.08",
             title: "聯邦式學習上抗個體資料集成員推理攻擊之防禦強化技術",
             status: "美國賓州州立大學 雙聯學位",
-            note: "與楊士萱老師合作指導"
+            note: "與楊士萱副校長合作指導"
         },
         {
             name: "李子儀",
