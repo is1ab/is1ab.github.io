@@ -120,7 +120,7 @@ export function Member(){
             role: "碩一，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "WEB組長",
+            certificate: "實驗室網路管理、WEB組長",
             website: "/#/member/2025/483"
         },
         {
