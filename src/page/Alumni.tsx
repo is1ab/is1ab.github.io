@@ -2,7 +2,7 @@ import { Table } from "antd";
 import { ColumnType } from "antd/es/table";
 
 export function Alumni(){
-    const masterAlumniDatas = [
+    const phdAlumniDatas = [
         {
             name: "陳勝舢",
             joinDate: "2022.07-2026.03",
