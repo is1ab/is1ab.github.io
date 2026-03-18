@@ -10,7 +10,11 @@ export const MarcoMemberPage = () => {
     </div>
     const certificates: MemberCertificateType[] = [
         {
-            title: "Certified Web Exploitation Specialist(CWES)",
+            title: "HTB Certified Junior Cybersecurity Associate (HTB CJCA)",
+            datetime: "2026.03.10"
+        },
+        {
+            title: "HTB Certified Web Exploitation Specialist(HTB CWES)",
             datetime: "2026.02.02"
         },
         {
@@ -19,7 +23,7 @@ export const MarcoMemberPage = () => {
             datetime: "2026.01.24"
         },
         {
-            title: "eJPT - eLearnSecurity Junior Penetration Tester",
+            title: "eLearnSecurity Junior Penetration Tester (eJPT)",
             datetime: "2026.01.24"
         },
         {
