@@ -4,6 +4,17 @@ import { ColumnType } from "antd/es/table";
 export function Alumni(){
     const masterAlumniDatas = [
         {
+            name: "陳勝舢",
+            joinDate: "2022.07-2026.03",
+            title: "應用大型語言模型於網路威脅情資分析之研究",
+            ability: "網路威脅情資、人工智慧、藍隊技術",
+            experience: "資訊工程博士學位",
+            status: "奧義智慧科技股份有限公司-資安研究員 (研發替代役)",
+            website: "https://sectools.tw/"
+        },
+    ]
+    const masterAlumniDatas = [
+        {
             name: "許貽昇",
             joinDate: "2023.03-2026.01",
             title: "使用程式碼屬性圖萃取技術於自動化漏洞挖掘與風險路徑分析",
@@ -87,6 +98,59 @@ export function Alumni(){
             status: "財團法人資訊工業策進會-資安科技研究所/資安維運鑑識組",
             website: "/#/Member/2022/Cliff"
         },
+    ]
+    const phdAlumniColumns: ColumnType<any>[] = [
+        {
+            key: 'name',
+            dataIndex: 'name',
+            title: "姓名",
+            width: "10%",
+            render: (_text: string, render: any, _index: number) => {
+                return (
+                    <>
+                        {render.website === undefined ? <p>{render.name}</p> : <a href={render.website}>{render.name}</a>}
+                    </>
+                )
+            }
+        },
+        {
+            key: 'joinDate',
+            dataIndex: 'joinDate',
+            title: "參與時間",
+            width: "12%"
+        },
+        {
+            key: 'title',
+            dataIndex: 'title',
+            title: "題目",
+            width: "25%"
+        },
+        {
+            key: 'ability',
+            dataIndex: 'ability',
+            title: "專長",
+            width: "12%"
+        },
+        {
+            key: 'note',
+            dataIndex: 'note',
+            title: "備註",
+            width: "23%",
+            render: (_text: string, record: any, _index: number) => {
+                return (
+                    <>
+                        { record.experience == '' ? null : <p className="fst-italic" style={{color: "#0693e3"}}>{record.experience}</p> }
+                        { record.certificate == '' ? null : <p style={{color: "lightgreen"}}>{record.certificate}</p> }
+                    </>
+                )
+            }
+        },
+        {
+            key: 'status',
+            dataIndex: 'status',
+            title: "狀態",
+            width: "18%"
+        }
     ]
     const masterAlumniColumns: ColumnType<any>[] = [
         {
@@ -303,6 +367,12 @@ export function Alumni(){
         },
     ]
     return (
+        <div className="w-100">
+            <div className="overflow-x-auto">
+                <h4 className="text-center fw-bold">博士生（Ph.D. students）</h4>
+                <Table columns={phdAlumniColumns} dataSource={phdAlumniDatas} pagination={false} bordered></Table>
+            </div>
+            <hr />
         <div className="w-100">
             <div className="overflow-x-auto">
                 <h4 className="text-center fw-bold">碩士生（Master students）</h4>
