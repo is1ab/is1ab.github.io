@@ -4,11 +4,11 @@ import { ColumnType } from "antd/es/table";
 export function Member(){
     const phdUserTableItem = [
         {
-            //key: '1',
-            //name: "-",
+            key: '1',
+            name: "-",
             //joinDate: "-",
             //role: "-",
-            //experience: "-",
+            experience: "-",
             //certificate: "-",
         }
     ]
