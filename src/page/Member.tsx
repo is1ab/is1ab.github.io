@@ -160,7 +160,7 @@ export function Member(){
             role: "碩一，資工碩士",
             coAdvisor: '',
             experience: "執行 SunBird 計畫",
-            certificate: "",
+            certificate: "實驗室公關",
             website: "/#/member/2025/Victor"
         },
         {
