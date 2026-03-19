@@ -11,7 +11,7 @@ export function Alumni(){
             experience: "資訊工程博士學位",
             status: "離校中",
             certificate: "與白敦文副校長共同指導",
-            website: "https://sectools.tw/"
+            website: "#/Member/2022/ryan"
         },
     ]
     const masterAlumniDatas = [
