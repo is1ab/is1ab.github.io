@@ -22,6 +22,16 @@ export const StanleyMemberPage = () => {
             title: "北科大 is1ab 新生盃 CTF",
             result: "第 3 / 70 名（4.3%）",
             datetime: "2025.09"
+        },
+        {
+            title: "第 20 屆資安技能金盾獎競賽",
+            result: "鋒芒畢露獎（第五名）",
+            datetime: "2026.01"
+        },
+        {
+            title: "BITSCTF 2026",
+            result: "第 105 / 859 名（12.2%）",
+            datetime: "2026.02"
         }
     ]
 
