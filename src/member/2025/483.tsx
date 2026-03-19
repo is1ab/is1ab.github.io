@@ -10,7 +10,7 @@ import {
 
 export const _483MemberPage = () => {
 	const bio = <>我是沈柏安，你可以稱呼我為 483 。 CTF 比賽 Player Name 通常是 pudding483;<br />
-		Blog : https://pudding483.github.io/</>
+		Blog : <a href="https://pudding483.github.io/">https://pudding483.github.io/</a></>
 	const certificates: MemberCertificateType[] = [
 		{
 			title: "iPAS 資訊安全工程師-初級能力鑑定",
