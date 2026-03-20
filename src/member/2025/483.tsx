@@ -108,6 +108,11 @@ export const _483MemberPage = () => {
 			result: "Player Name: pudding483, Rank: 27/115",
 			datetime: "2026/02/27 ~ 2026/03/01",
 		},
+        {
+			title: "pico CTF 2026",
+			result: "Team Name: NTUT_is1ab, Rank: 261/8747",
+			datetime: "2025/03/10 ~ 2025/03/20",
+		}
 	];
 	const participates: MemberParticipateType[] = [
 		{

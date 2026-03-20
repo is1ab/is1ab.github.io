@@ -50,7 +50,7 @@ export function Member(){
             role: "碩二，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "實驗室公關",
+            certificate: "",
             website: "/#/Member/2024/Win"
         },
         {
@@ -70,7 +70,7 @@ export function Member(){
             role: "碩二，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "實驗室公關",
+            certificate: "",
             website: "/#/Member/2024/WIFI"
         },
         {
@@ -140,7 +140,7 @@ export function Member(){
             role: "碩一，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "",
+            certificate: "實驗室網站管理",
             website: "/#/member/2025/Yueric"
         },
         {
