@@ -78,7 +78,9 @@ export const WinMemberPage = () => {
       <p><span style={{ color: '#ff5555' }}>$ cat /home/vv1n/blog</span></p>
       <p>{'{'}</p>
       <p style={{ paddingLeft: '2rem' }}>
-        <span style={{ color: '#56b6c2' }}>https://blog.vv1n.me</span> - <em>Coming Soon...</em>
+                <a href="https://vv1n.org" target="_blank" rel="noreferrer" style={{ color: '#56b6c2' }}>
+                    https://vv1n.org
+                </a>
       </p>
       <p>{'}'}</p>
     </div>
@@ -97,6 +99,16 @@ export const WinMemberPage = () => {
     ]
     
     const competitionExperiences: MemberCompetitionExperienceType[] = [
+        {
+            title: "AIS3 EOF CTF 2026 決賽",
+            result: "6/15 Team(Name: Islover)",
+            datetime: "2026/01/31 - 2026/02/01"
+        },
+        {
+            title: "AIS3 EOF CTF 2026 初賽",
+            result: "2/7x Team(Name: Islover)",
+            datetime: "2025/12/20 - 2025/12/22"
+        },
         {
             title: "WHYCTF 2025",
             result: "188/1806 Team(Name: NTUT_Is1ab)",
@@ -185,7 +197,7 @@ export const WinMemberPage = () => {
     ]
     
     const participates: MemberParticipateType[] = [
-    {
+        {
         title: "SITCON 2024 - 會眾",
         datetime: "2024.03.09"
     },
@@ -232,6 +244,18 @@ export const WinMemberPage = () => {
     {
         title: "10th AIS3 好厲駭（高階培訓 & 導師深度輔導）- 學員",
         datetime: "2025.08.22 - now"
+    },
+    {
+        title: "Bak3 C00kie 寒假特訓營 - 助教",
+        datetime: "2026.01.27 - 2026.01.28"
+    },
+    {
+        title: "HITCON AI Freetalk 2025 - 會眾",
+        datetime: "2025.09.12"
+    },
+    {
+        title: "SITCON 2026 - 會眾",
+        datetime: "2026.03.28"
     }
     ]
 
