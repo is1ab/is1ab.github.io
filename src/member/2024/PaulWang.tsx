@@ -5,7 +5,7 @@ import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParti
 export const PaulWangMemberPage = () => {
     // const bio = "<br>hello"
     const bio = <div className="d-flex flex-column gap-3">
-                    <p>大家好，我是王立翔，在 IsLab 中參與攻防相關的學術論文研究、也研究逆向工程相關技術、CTF 題目等，歡迎有興趣可以找我討論！</p>
+                    <p>大家好，我是王立翔，在 IsLab 中參與模糊測試的學術論文研究、也研究逆向工程相關技術、CTF 題目等，歡迎有興趣可以找我討論！</p>
                     <p>不定期會將 Crackmes、CTF 比賽的結果寫成 Writeups</p>
                     
                     <p>- <a href="https://www.notion.so/Paul-s-CTF-writeups-1bb9074f33df80e78ba9ee4abfd64528" target="_blank" rel="noopener noreferrer">My General CTFs Writeups</a></p>
@@ -53,7 +53,17 @@ export const PaulWangMemberPage = () => {
             title: "AIS3 Pre-exam 2025",
             result: "36/344",
             datetime: "2025/05/24-2025/05/26"
-        }
+        },
+        {
+            title: "FLARE-On 12",
+            result: "4/9 challenges solved",
+            datetime: "2025"
+        },
+        {
+            title: "Crackmes.one RE CTF 2026",
+            result: "6/12 challenges solved",
+            datetime: "2026"
+        },
     ]
     const participates: MemberParticipateType[] = [
         {
@@ -71,6 +81,10 @@ export const PaulWangMemberPage = () => {
         {
             title: "2025 AIS3 新型態資安暑期課程",
             datetime: "2025/07/28-2025/08/03"
+        },
+        {
+            title: "ACM CCS 2025 - 工作人員",
+            datetime: "2025/10/12-2025/10/17"
         }
     ]
     const internExperiences: MemberInternType[] = []
