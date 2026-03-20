@@ -60,7 +60,7 @@ export function Member(){
             role: "碩二，資工碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "實驗室網路管理、REVERSE組長",
+            certificate: "",
             website: "/#/Member/2024/Adb2"
         },
         {
@@ -80,7 +80,7 @@ export function Member(){
             role: "碩二，資工碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "",
+            certificate: "REVERSE組長",
             website: "/#/Member/2024/PaulWang"
         },
         {

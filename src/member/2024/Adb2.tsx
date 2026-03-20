@@ -20,6 +20,31 @@ export const Adb2MemberPage = () => {
     ]
     const competitionExperiences: MemberCompetitionExperienceType[] = [
         {
+            title: "AIS3 EOF CTF 2026 決賽",
+            result: "N/A Team(Name: Islover)",
+            datetime: "2026/01/31 - 2026/02/01"
+        },
+        {
+            title: "金盾獎 2025 決賽",
+            result: "嶄露頭角獎 Team(Name: 帶一顆骰子來答題)",
+            datetime: "2026/01/09"
+        },
+        {
+            title: "AIS3 EOF CTF 2026 初賽",
+            result: "2/7x Team(Name: Islover)",
+            datetime: "2025/12/20 - 2025/12/22"
+        },
+        {
+            title: "AEGIS 2025 決賽",
+            result: "10/10 Team(Name: 在小小的實驗室裡挖阿挖阿挖)",
+            datetime: "2025/11/22 - 2025/11/23"
+        },        
+        {
+            title: "金盾獎 2025 初賽",
+            result: "入圍決賽 Team(Name: 帶一顆骰子來答題)",
+            datetime: "2025/10/18"
+        },
+        {
             title: "picoMini by CMU-Africa",
             result: "96/2942 Team(Name: BongoCatCat)",
             datetime: "2025.10.01 - 2025.10.16"
@@ -110,7 +135,7 @@ export const Adb2MemberPage = () => {
             datetime: "2024.11.02 - 2024.11.03"
         },
         {
-            title: "資安技能金盾獎競賽 2024 初賽",
+            title: "金盾獎 2024 初賽",
             result: "N/A",
             datetime: "2024.10.12"
         },
@@ -136,6 +161,10 @@ export const Adb2MemberPage = () => {
         }
     ]
     const participates: MemberParticipateType[] = [
+        {
+            title: "Bak3 C00kie 寒假特訓營 - 逆向工程講師",
+            datetime: "2026/01/27 - 2026/01/28"
+        },
         {
             title: "HITCON CTF 2025 決賽現場 - 竹狐(但我沒貢獻所以放這)",
             datetime: "2025.10.17 - 2025.10.18"
