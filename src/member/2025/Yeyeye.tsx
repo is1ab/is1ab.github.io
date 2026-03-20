@@ -13,15 +13,23 @@ const bio = () => {
 	useEffect(() => {
 		const styleTag = document.createElement("style");
 		styleTag.innerHTML = `
-			@keyframes colorChange {
-				0%   { color: rgb(255, 127, 80); } 
-				25%  { color: rgb(218, 165, 32); } 
-				50%  { color: rgb(60, 179, 113); } 
-				75%  { color: rgb(135, 206, 235); }
-				100% { color: rgb(186, 85, 211); } 
+			.yeyeyeBioBlock .yeyeyeRgbText {
+				background: linear-gradient(
+					to right, 
+					#ff7f50, #daa520, #3cb371, #87ceeb, #ba55d3, #ff7f50
+				);
+				background-size: 200% auto;
+				-webkit-background-clip: text;
+				background-clip: text;
+				-webkit-text-fill-color: transparent;
+				
+				animation: shine 4s linear infinite;
 			}
-			.yeyeyeBioBlock .yeyeyeRgbText{
-				animation: colorChange 7s linear infinite forwards;
+
+			@keyframes shine {
+				to {
+					background-position: 200% center;
+				}
 			}
 		`;
 		document.head.appendChild(styleTag);
@@ -99,6 +107,21 @@ const competitionExp: MemberCompetitionExperienceType[] = [
 		title: "AIS3 EOF 2025 (初賽)",
 		result: "33/82 Team(Name: NTUT_ba1si)",
 		datetime: "2025/12/20 - 2025/12/22",
+	},
+	{
+		title: "KnightCTF 2026",
+		result: "426/890 Team Name: NTUT_Is1ab",
+		datetime: "2026/01/15 ~ 2026/01/16",
+	},
+	{
+		title: "Pascal CTF 2026",
+		result: "121/855 Team Name: NTUT_Is1ab",
+		datetime: "2026/01/31 ~ 2026/02/01",
+	},
+	{
+		title: "pico CTF 2026",
+		result: "261/8747 Team Name: NTUT_is1ab",
+		datetime: "2026/03/10 ~ 2026/03/20",
 	}
 ];
 
@@ -122,7 +145,7 @@ const participates: MemberParticipateType[] = [
 	},
 	{
 		title: "HITCON 2025",
-		datetime: "2025/08/15 ~ 2024/08/16",
+		datetime: "2025/08/15 ~ 2025/08/16",
 	},
 ];
 
