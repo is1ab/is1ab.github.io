@@ -1,6 +1,5 @@
 import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../../type/MemberCertificateType"
 import { Sample } from "../Sample"
-import Uriah from "../../assets/member/Sean.png"
 
 export const RyanMemberPage = () => {
 
@@ -292,7 +291,6 @@ export const RyanMemberPage = () => {
         <Sample
             zhName="陳勝舢"
             enName="Sheng-Shan Chen"
-            avatar={Uriah}
             institutes={["國立臺北科技大學 資訊工程系 博士候選人"]}
             bio={bio}
             experiences={competitionExperiences}

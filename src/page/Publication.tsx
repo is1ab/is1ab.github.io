@@ -47,6 +47,17 @@ export function Publication() {
                 <ol>
                     <li>
                         <Author>
+                        Shih-Jung Lin, <Professor coAuther />, Dan-Ni Chen, Yi-No Kang, Khanh Dinh Hoang, Kee-Hsin Chen, and Chiehfeng Chen
+                        </Author>
+                        <Title title="Chatbots for breast cancer education: a systematic review and meta-analysis," />
+                        <Journal name="Supportive Care in Cancer" />, vol. 33, no. 55, December 2025.
+                        <AlternativeJournal name="[2024, JCR IF: 3.0, HEALTH CARE SCIENCES & SERVICES, 55/188, Q2]"></AlternativeJournal>
+                        <AlternativeJournal name="[2024, SJR: 1.109, Oncology, Q1]"></AlternativeJournal>
+                        <SCI />
+                        <CoFirstAuther />
+                    </li>
+                    <li>
+                        <Author>
                             Sheng-Shan Chen, Kai-Siang Cao, Chung-Kuan Chen, and <Professor star />
                         </Author>
                         <Title title="Retrieval-Augmented Generation for Identifying ATT&CK Technique" />
@@ -58,7 +69,7 @@ export function Publication() {
                         </Author>
                         <Title title="De-Identification of Open-Source Intelligence using Finetuned LLaMA-3" />
                         Accepted by <Journal name="High-Confidence Computing" />, September 2025.
-                        <AlternativeJournal name="[2024, JCR IF: 3.0,  Computer Science, Information Systems, Q2]"></AlternativeJournal>
+                        <AlternativeJournal name="[2024, JCR IF: 3.0, Computer Science, Information Systems, Q2]"></AlternativeJournal>
                         <AlternativeJournal name="[2024, SJR: 0.894, Computer Networks and Communications, Q1]"></AlternativeJournal>
                         <SCI />
                     </li>
@@ -285,10 +296,17 @@ export function Publication() {
                 <ol>
                     <li>
                         <Author>
+                            Sheng-Shan Chen, Ren-Hung Hwang, Ying-Dar Lin, Tun-Wen Pai, and <Professor star />
+                        </Author>
+                        <Title title="Extracting Attack Pattern from WAF Logs and CTIs Using Contrastive Semantic Learning" />
+                        Submitted to <Journal name="IEEE Transactions on Network and Service Management" />, January 2026.
+                    </li>
+                    <li>
+                        <Author>
                             Sheng-Shan Chen, Yi-Sheng Hsu, Chung-Kuan Chen, Tien-Chih Lin, and <Professor star />
                         </Author>
-                        <Title title="Hybrid Framework for High-Precision Vulnerability Validation Using Code Property Graphs and Large Language Models" />
-                        Submitted to <Journal name="Computers & Security" />, November 2025.
+                        <Title title="Enhancing Static Vulnerability Alert Validation using Large Language Models" />
+                        Submitted to <Journal name="The Journal of Systems & Software" />, November 2025.
                     </li>
                     <li>
                         <Author>
@@ -310,13 +328,6 @@ export function Publication() {
                         </Author>
                         <Title title="CTI-KG: A Structured Threat Information Expression-Based Knowledge Graph Construction for Cyber Threat Intelligence Analysts" />
                         Submitted to <Journal name="Computers & Security" />, April 2024.
-                    </li>
-                    <li>
-                        <Author>
-                            Han-Xuan Huang, Tzu-Yi Li, Sheng-Shan Chen, Kuang-Ming Chang, and <Professor star />
-                        </Author>
-                        <Title title="Security Challenges in Online Judges: Understanding and Mitigating CCA Attacks" />
-                        prepared for submission to <Journal name="IEEE Transactions on Network and Service Management" />, 2023.
                     </li>
                 </ol>
             </>

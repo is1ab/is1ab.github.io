@@ -2,7 +2,7 @@ import { Sample } from "../Sample";
 import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../../type/MemberCertificateType";
 
 export const VictorMemberPage = () => {
-    const bio = "我是Victor，從零開始的資安新鮮人，邊學邊做，慢慢變強。";
+    const bio = "我是Victor，目前參與sunbird計畫。";
     const certificates: MemberCertificateType[] = [];
     const raceExperiences: MemberCompetitionExperienceType[] = [];
     const participates: MemberParticipateType[] = [];

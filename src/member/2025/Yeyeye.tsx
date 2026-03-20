@@ -62,7 +62,7 @@ const competitionExp: MemberCompetitionExperienceType[] = [
 	},
 	{
 		title: "DownUnderCTF 2025",
-		result: "500/1667  Team(Name: NTUT_Is1ab)",
+		result: "500/1667 Team(Name: NTUT_Is1ab)",
 		datetime: "2025/07/18 - 2025/07/20",
 	},
 	{
@@ -78,8 +78,28 @@ const competitionExp: MemberCompetitionExperienceType[] = [
 	{
 		title: "FortID CTF 2025",
 		result: "249/553 Team(Name: NTUT_Is1ab)",
-		datetime: "2025/08/16 - 2025/08/18",
+		datetime: "2025/09/12 - 2025/09/14",
 	},
+	{
+		title: "AEGIS 2025 (神盾盃初賽)",
+		result: "7/40 Team(Name: 在小小的實驗室裡挖阿挖阿挖)",
+		datetime: "2025/09/27",
+	},
+	{
+		title: "osu!gaming CTF 2025",
+		result: "124/740",
+		datetime: "2025/10/25 - 2025/10/27",
+	},
+	{
+		title: "Patriot CTF 2025",
+		result: "591/1362 Team(Name: Is1ab_Web)",
+		datetime: "2025/11/21 - 2025/11/23",
+	},
+	{
+		title: "AIS3 EOF 2025 (初賽)",
+		result: "33/82 Team(Name: NTUT_ba1si)",
+		datetime: "2025/12/20 - 2025/12/22",
+	}
 ];
 
 // 資安證照／檢定
@@ -99,6 +119,10 @@ const participates: MemberParticipateType[] = [
 	{
 		title: "CYBERSEC 2024 臺灣資安大會",
 		datetime: "2024/05/14 - 2024/05/16",
+	},
+	{
+		title: "HITCON 2025",
+		datetime: "2025/08/15 ~ 2024/08/16",
 	},
 ];
 
@@ -120,7 +144,7 @@ export const YeyeyeMemberPage = () => {
 			zhName="劉業閎"
 			enName="Liu, Yeah Hung"
 			avatar={avatarSrc}
-			institutes={["國立臺北科技大學 資工系碩士班 碩零"]}
+			institutes={["國立臺北科技大學 資工系碩士班 碩一"]}
 			bio={bio()}
 			experiences={competitionExp}
 			certificates={certificates}

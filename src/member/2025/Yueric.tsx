@@ -40,6 +40,26 @@ export const YuericMemberPage = () => {
 			result: "Player Name: Yueric, Rank: 62/1289",
 			datetime: "2025/08/22 ~ 2025/08/24",
 		},
+        {
+			title: "AEGIS 2025 (神盾盃初賽)",
+			result: "Team Name: 在小小的實驗室裡挖阿挖阿挖, Rank: 7/40",
+			datetime: "2025/09/27",
+		},
+        {
+            title: "114年度資安技能金盾獎",
+            result: "進決賽",
+            datetime: "2025.10.18"
+        },
+        {
+			title: "AIS3 EOF 2026 (初賽)",
+			result: "Team Name: NTUT_ba1si, Rank: 33/82",
+			datetime: "2025/12/20 ~ 2025/12/22",
+		},
+        {
+			title: "pico CTF 2026",
+			result: "Team Name: NTUT_is1ab, Rank: 261/8747",
+			datetime: "2026/03/10 ~ 2026/03/20",
+		}
     ]
     const participates: MemberParticipateType[] = [
         {
@@ -63,7 +83,7 @@ export const YuericMemberPage = () => {
         <Sample
             zhName="劉章佑"
             enName="Liu, Zhang-Yu"
-            institutes={["國立臺北科技大學 資訊安全碩士學位學程 碩零"]}
+            institutes={["國立臺北科技大學 資訊安全碩士學位學程 碩一"]}
             bio={bio}
             experiences={competitionExperiences}
             certificates={certificates}

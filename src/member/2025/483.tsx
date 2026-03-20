@@ -9,7 +9,8 @@ import {
 } from "../../type/MemberCertificateType";
 
 export const _483MemberPage = () => {
-	const bio = "我是沈柏安，你可以稱呼我為 483 。 CTF 比賽 Player Name 通常是 pudding483";
+	const bio = <>我是沈柏安，你可以稱呼我為 483 。 CTF 比賽 Player Name 通常是 pudding483;<br />
+		Blog : <a href="https://pudding483.github.io/">https://pudding483.github.io/</a></>
 	const certificates: MemberCertificateType[] = [
 		{
 			title: "iPAS 資訊安全工程師-初級能力鑑定",
@@ -68,10 +69,50 @@ export const _483MemberPage = () => {
 			datetime: "2025/08/09 ~ 2025/08/11",
 		},
 		{
-			title: "Sekai CTF 2025",
+			title: "SEKAI CTF 2025",
 			result: "Team Name: NTUT_Is1ab, Rank: 200/1060",
 			datetime: "2025/08/16 ~ 2025/08/18",
 		},
+		{
+			title: "FortID CTF 2025",
+			result: "Team Name: NTUT_Is1ab, Rank: 249/553",
+			datetime: "2025/09/12 ~ 2025/09/14",
+		},
+		{
+			title: "AEGIS 2025 (神盾盃初賽)",
+			result: "Team Name: 在小小的實驗室裡挖阿挖阿挖, Rank: 7/40",
+			datetime: "2025/09/27",
+		},
+		{
+			title: "Patriot CTF 2025",
+			result: "Team Name: Is1ab_Web, Rank: 591/1362",
+			datetime: "2025/11/21 ~ 2025/11/23",
+		},
+		{
+			title: "AIS3 EOF 2025 (初賽)",
+			result: "Team Name: NTUT_ba1si, Rank: 33/82",
+			datetime: "2025/12/20 ~ 2025/12/22",
+		},
+		{
+			title: "Knight CTF 2026",
+			result: "Team Name: NTUT_Is1ab, Rank: 426/890",
+			datetime: "2026/01/15 ~ 2026/01/16",
+		},
+		{
+			title: "Pascal CTF  2026",
+			result: "Team Name: NTUT_Is1ab, Rank: 121/855",
+			datetime: "2026/01/31 ~ 2026/02/01",
+		},
+		{
+			title: "TSC CTF 2026",
+			result: "Player Name: pudding483, Rank: 27/115",
+			datetime: "2026/02/27 ~ 2026/03/01",
+		},
+        {
+			title: "pico CTF 2026",
+			result: "Team Name: NTUT_is1ab, Rank: 261/8747",
+			datetime: "2026/03/10 ~ 2026/03/20",
+		}
 	];
 	const participates: MemberParticipateType[] = [
 		{
@@ -80,12 +121,20 @@ export const _483MemberPage = () => {
 		},
 		{
 			title: "CYBERSEC 2025 臺灣資安大會",
-			datetime: "2025/04/15 - 2024/04/17",
+			datetime: "2025/04/15 ~ 2025/04/17",
 		},
 		{
 			title: "HITCON 2025",
-			datetime: "2025/08/15 - 2024/08/16",
+			datetime: "2025/08/15 ~ 2025/08/16",
 		},
+		{
+			title: "第十屆臺灣好厲駭 高階學員培訓",
+			datetime: "2025/09 ~ now",
+		},
+		{
+			title: "行政院115年網路攻防演練攻擊手遴選",
+			datetime: "2026/03/19",
+		}
 	];
 	const internExperiences: MemberInternType[] = [];
 	const journals: MemberArticleType[] = [];
@@ -96,7 +145,7 @@ export const _483MemberPage = () => {
 			zhName="沈柏安"
 			enName="Shen, Bo-An"
 			avatar={_483}
-			institutes={["國立臺北科技大學 資訊安全碩士學位學程 碩零"]}
+			institutes={["國立臺北科技大學 資訊安全碩士學位學程 碩一"]}
 			bio={bio}
 			experiences={competitionExperiences}
 			certificates={certificates}

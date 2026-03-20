@@ -1,5 +1,6 @@
 import { Sample } from "../Sample"
 import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../../type/MemberCertificateType"
+import Mercury from "../../assets/member/Mercury.jpg"
 
 export const MercuryMemberPage = () => {
     const bio = (
@@ -70,12 +71,17 @@ export const MercuryMemberPage = () => {
             result: "142nd / 389",
             datetime: "2025.05"
         },
+        {
+            title: "TSCCTF 2026",
+            result: "34th / 115",
+            datetime: "2026.03"
+        }
     ]
 
     const participates: MemberParticipateType[] = [
         {
             title: "臺北市立大學 請假系統後端開發 + 系統維護",
-            datetime: "2023.07 - now"
+            datetime: "2023.07 - 2026.02"
         },
         {
             title: "HITCON 2023",
@@ -100,10 +106,6 @@ export const MercuryMemberPage = () => {
         {
             title: "第九屆 AIS3 好厲駭 高階學員培訓",
             datetime: "2024.09 - 2025.07"
-        },
-        {
-            title: "SITCON 2026 學生計算機年會 製播組",
-            datetime: "2025.09 - now"
         }
     ]
 
@@ -115,9 +117,9 @@ export const MercuryMemberPage = () => {
 
         },
         {
-            company: "QNAP 威廉通股份有限公司",
+            company: "QNAP 威聯通股份有限公司",
             info: "資安實習生。Security Bug Bounty 審查、惡意程式逆向分析及資安事件應對",
-            datetime: "2025.07 - now"
+            datetime: "2025.07 - 2026.01"
 
         }
     ]
@@ -129,6 +131,7 @@ export const MercuryMemberPage = () => {
         <Sample
             zhName="黃信誌"
             enName="Mercury Huang"
+            avatar={Mercury}
             institutes={["國立臺北科技大學 資訊工程所 資訊安全實驗室"]}
             bio={bio}
             experiences={raceExperiences}

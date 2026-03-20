@@ -104,6 +104,46 @@ export const WIFIMemberPage = () => {
             title: "WHYCTF 2025",
             result: "188/1806 Team(Name: NTUT_Is1ab)",
             datetime: "2025/08/09 - 2025/08/12"
+        },
+        {
+            title: " DEF CON CTF Qualifier 2025",
+            result: "31/195 Team(Name: 星爆牛炒竹狐)",
+            datetime: "2025/04/12 - 2025/04/14"
+        },
+        {
+            title: "AEGIS 2025 初賽",
+            result: "7/40 Team(Name: 在小小的實驗室裡挖阿挖阿挖)",
+            datetime: "2025/09/27"
+        },
+        {
+            title: "picoMini by CMU-Africa",
+            result: "96/2942 Team(Name: BongoCatCat)",
+            datetime: "2025/10/01 - 2025/10/16"
+        },
+        {
+            title: "資安技能金盾獎競賽 2025 初賽",
+            result: "入圍決賽 Team(Name: 帶一顆骰子來答題)",
+            datetime: "2025/10/18"
+        },
+        {
+            title: "AEGIS 2025 決賽",
+            result: "9/10 Team(Name: 在小小的實驗室裡挖阿挖阿挖)",
+            datetime: "2025/11/22 - 2025/11/23"
+        },
+        {
+            title: "AIS3 EOF CTF 2026 初賽",
+            result: "2/xx Team(Name: Islover)",
+            datetime: "2025/12/20 - 2025/12/22"
+        },
+        {
+            title: "資安技能金盾獎競賽 2025 決賽暨頒獎典禮",
+            result: "嶄露頭角獎 Team(Name: 帶一顆骰子來答題)",
+            datetime: "2026/01/09"
+        },
+        {
+            title: "AIS3 EOF CTF 2026 決賽",
+            result: "N/A Team(Name: Islover)",
+            datetime: "2026/01/31 - 2026/02/01"
         }
     ]
     const participates: MemberParticipateType[] = [
@@ -166,6 +206,14 @@ export const WIFIMemberPage = () => {
         {
             title: "第十屆 AIS3 好厲駭 (高階培訓)",
             datetime: "2025/08 - now"
+        },
+        {
+            title: "HITCON GIRLS 8th 讀書會",
+            datetime: "2025/11 - now"
+        },
+        {
+            title: "Bak3 C00kie 寒假特訓營 - 助教",
+            datetime: "2026/01/27 - 2026/01/28"
         }
     ]
     const internExperiences: MemberInternType[] = []

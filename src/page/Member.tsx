@@ -5,36 +5,14 @@ export function Member(){
     const phdUserTableItem = [
         {
             key: '1',
-            name: "陳勝舢",
-            joinDate: "2022.07",
-            role: "博三",
-            coAdvisor: '白敦文',
-            experience: "奧義智慧科技股份有限公司實習生",
-            certificate: "行政總管",
-            website: "/#/Member/2022/Ryan"
+            name: "-",
+            //joinDate: "-",
+            //role: "-",
+            experience: "-",
+            //certificate: "-",
         }
     ]
     const masterUserTableItem = [
-        {
-            key: '0',
-            name: "顏柏耀",
-            joinDate: "2023.03",
-            role: "碩三，資安碩士",
-            coAdvisor: '',
-            experience: "",
-            certificate: "",
-            website: "/#/Member/2023/Y"
-        },
-        {
-            key: '1',
-            name: "許貽昇",
-            joinDate: "2023.03",
-            role: "碩三，資安碩士",
-            coAdvisor: '',
-            experience: "奧義智慧科技股份有限公司",
-            certificate: "",
-            website: "/#/Member/2023/Eason"
-        },
         {
             key: '2',
             name: "吳冠廷",
@@ -62,7 +40,7 @@ export function Member(){
             role: "碩二，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "實驗室儀器設備管理",
+            certificate: "",
             website: "/#/Member/2024/Young"
         },
         {
@@ -72,7 +50,7 @@ export function Member(){
             role: "碩二，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "實驗室公關",
+            certificate: "",
             website: "/#/Member/2024/Win"
         },
         {
@@ -82,7 +60,7 @@ export function Member(){
             role: "碩二，資工碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "實驗室網路管理、REVERSE組長",
+            certificate: "",
             website: "/#/Member/2024/Adb2"
         },
         {
@@ -92,7 +70,7 @@ export function Member(){
             role: "碩二，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "實驗室公關",
+            certificate: "",
             website: "/#/Member/2024/WIFI"
         },
         {
@@ -102,7 +80,7 @@ export function Member(){
             role: "碩二，資工碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "",
+            certificate: "REVERSE組長",
             website: "/#/Member/2024/PaulWang"
         },
         {
@@ -142,7 +120,7 @@ export function Member(){
             role: "碩一，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "WEB組長",
+            certificate: "實驗室網路管理、WEB組長",
             website: "/#/member/2025/483"
         },
         {
@@ -162,7 +140,7 @@ export function Member(){
             role: "碩一，資安碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "",
+            certificate: "實驗室網站管理",
             website: "/#/member/2025/Yueric"
         },
         {
@@ -172,7 +150,7 @@ export function Member(){
             role: "碩一，資工碩士",
             coAdvisor: '',
             experience: "",
-            certificate: "",
+            certificate: "實驗室儀器設備管理",
             website: "/#/member/2025/Yeyeye",
         },
         {
@@ -182,7 +160,7 @@ export function Member(){
             role: "碩一，資工碩士",
             coAdvisor: '',
             experience: "執行 SunBird 計畫",
-            certificate: "",
+            certificate: "實驗室公關",
             website: "/#/member/2025/Victor"
         },
         {
@@ -211,7 +189,7 @@ export function Member(){
             joinDate: "2025.12",
             role: "碩零，資安碩士",
             coAdvisor: '',
-            experience: "威廉通股份有限公司資安實習生",
+            experience: "前威聯通股份有限公司資安實習生",
             certificate: "",
             website: "/#/member/2026/Mercury"
         },
@@ -329,7 +307,7 @@ export function Member(){
                 }
             ],
             note: "保留",
-            progress: 3
+            progress: 7
         },
         {
             group: "114#2",
@@ -344,7 +322,7 @@ export function Member(){
                 }
             ],
             note: "參與SunBird計畫（dcTrack 組）",
-            progress: 2
+            progress: 5
         }
     ]
     const tableColumns: ColumnType<any>[] = [
