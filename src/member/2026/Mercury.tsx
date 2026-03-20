@@ -71,6 +71,11 @@ export const MercuryMemberPage = () => {
             result: "142nd / 389",
             datetime: "2025.05"
         },
+        {
+            title: "TSCCTF 2026",
+            result: "34th / 115",
+            datetime: "2026.03"
+        }
     ]
 
     const participates: MemberParticipateType[] = [
