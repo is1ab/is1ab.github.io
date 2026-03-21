@@ -17,6 +17,11 @@ export const M4RVjNMemberPage = () => {
             title: "MyFirstCTF",
             result: "14/80",
             datetime: "2025.05"
+        },
+        {
+            title: "picoCTF 2026",
+            result: "261/8747  Team(Name: NTUT_Is1ab)",
+            datetime: "2026.03"
         }
     ]
 
