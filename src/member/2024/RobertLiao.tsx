@@ -127,7 +127,7 @@ export const RobertLiaoMemberPage = () => {
             journal: "In Proc. EAI SecureComm 2023, Springer LNICST, Hong Kong, October 2023.",
             datetime: "2025.5.15"
         }
-    ]
+    ];
     const journals: MemberArticleType[] = [];
     const conferences: MemberArticleType[] = [];
     const techConfs: MemberArticleType[] = [];
@@ -138,6 +138,7 @@ export const RobertLiaoMemberPage = () => {
             avatar={Uriah}
             institutes={["國立臺北科技大學 資訊工程所 資訊安全實驗室"]}
             bio={bio}
+            presentations={presentations}
             experiences={raceExperiences}
             certificates={certificates}
             participates={participates}
