@@ -1,10 +1,10 @@
 import { Sample } from "../Sample"
 import Rock from "../../assets/member/Rock.jpg"
-import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../../type/MemberCertificateType"
+import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType, MemberPresentationType, MemberZeroDayType } from "../../type/MemberCertificateType"
 export const RockMemberPage = () => {
   const bio = <div className="d-flex flex-column gap-3">
-    <p>"Hi, I'm Rock. 以前大學讀外語系，碩士鬼轉資安，正在練功累積實力，希望大家多多交流指教，想練英文或日文也可以隨時來找我聊聊!"</p>
-    <p><span style={{ color: 'black' }}> 我其實很敢 </span> <span className="secret-text"></span> </p>
+    <p>"Hi, I'm Rock. 大學為外語系畢業，碩士鬼轉資安，正在練功累積實力，希望大家多多交流指教，想練英文或日文也可以隨時來找我聊聊!"</p>
+    <p><span style={{ color: 'black' }}> 我其實不太會做研究，但有在努力做研究 </span> <span className="secret-text"></span> </p>
   </div>
  const certificates: MemberCertificateType[] = [
      {
@@ -43,7 +43,7 @@ export const RockMemberPage = () => {
      {
          company: "叡揚資訊股份有限公司",
          info: "資安實習生",
-         datetime: "2024.10 - now"
+         datetime: "2024.10 - 2025.03"
      },
      {
          company: "華電聯網股份有限公司",
@@ -56,7 +56,15 @@ export const RockMemberPage = () => {
          datetime: "2023.7 - 2023.9"
      }  
  ]
+  const presentations: MemberPresentationType[] = [
+      {
+              title: "Neural Transfer Learning for Repairing Security Vulnerabilities in C Code",
+              authors: "Zimin Chen, Steve Kommrusch, Martin Monperrus",
+              journal: "IEEE Transactions on Software Engineering, 2022",
+              datetime: "2025.02.13"
+      }
 
+  ]
 
  const journals: MemberArticleType[] = []
  const conferences: MemberArticleType[] = []
@@ -66,8 +74,9 @@ export const RockMemberPage = () => {
          zhName="李宜鴻"
          enName="Li, Yi-Hong"
          avatar={Rock}
-         institutes={["國立臺北科技大學 資訊安全碩士學位學程 碩二"]}
+         institutes={["國立臺北科技大學 資訊安全碩士學位學程 碩三/  <br> Master of Computer Science, University of Cincinnati Graduate"]}
          bio={bio}
+         presentations={presentations}
          experiences={competitionExperiences}
          certificates={certificates}
          participates={participates}
