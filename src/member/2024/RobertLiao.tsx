@@ -47,11 +47,6 @@ export const RobertLiaoMemberPage = () => {
             datetime: "2025/12/20 - 2025/12/22"
         },
         {
-            title: " DEF CON CTF Qualifier 2025",
-            result: "31/195 Team(Name: 星爆牛炒竹狐)",
-            datetime: "2025.04.12 - 2025.04.14"
-        },
-        {
             title: " Google CTF 2025",
             result: "N/A",
             datetime: "2025.06.28 - 2025.06.30"
