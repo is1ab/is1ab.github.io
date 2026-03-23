@@ -1,12 +1,12 @@
 import { Sample } from "../Sample"
 import logo from "../../assets/member/Marco.png"
-import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType,MemberZeroDayType } from "../../type/MemberCertificateType"
+import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberPresentationType, MemberCompetitionExperienceType,MemberZeroDayType } from "../../type/MemberCertificateType"
 
 export const MarcoMemberPage = () => {
     const bio = <div className="d-flex flex-column gap-3">
     <p>黃昱翔專注於資訊安全工程與攻防實務，具備紅隊與攻擊手角色之實戰經驗，熟悉完整攻擊鏈流程與攻防情境推演。累積多場 CTF 競賽與實戰型攻防演練經驗，技術能力涵蓋 Web 與 Mobile 應用程式安全、OSINT 情資分析、系統層級弱點利用、存取控制繞過與橫向移動等關鍵攻擊面，並於多項具代表性之資安競賽中取得可驗證之成果。長期投入軟體弱點分析與責任式揭露，曾於 HITCON ZeroDay 平台揭露多起高風險與高影響力漏洞，展現成熟的弱點挖掘與風險判斷能力。 - chatGPT</p>
     <p>更多資料在 <a href="https://www.mlgzackfly.tw" target="_blank" rel="noopener noreferrer">個人網站</a></p>
-    <p> 可以看看 <a href="https://blog.mlgzackfly.com" target="_blank" rel="noopener noreferrer">部落格</a></p>
+    <p> 在我的 <a href="https://blog.mlgzackfly.tw" target="_blank" rel="noopener noreferrer">部落格</a> 中，有一些證照回顧以及靶機的解題過程，可以來看看。</p>
     </div>
     const certificates: MemberCertificateType[] = [
         {
@@ -14,7 +14,7 @@ export const MarcoMemberPage = () => {
             datetime: "2026.03.10"
         },
         {
-            title: "HTB Certified Web Exploitation Specialist(HTB CWES)",
+            title: "HTB Certified Web Exploitation Specialist (HTB CWES)",
             datetime: "2026.02.02"
         },
         {
@@ -36,6 +36,11 @@ export const MarcoMemberPage = () => {
         },
     ]
     const raceExperiences: MemberCompetitionExperienceType[] = [
+        {
+            title: "2026 GiCS第6屆尋找資安女婕思獲獎團隊",
+            result: "指導老師",
+            datetime: "2026"
+        },
         {
             title: "AIS3 EOF CTF 2026 / 隊名：想對名真的好難",
             result: "第 29 名（50%）",
@@ -474,6 +479,14 @@ export const MarcoMemberPage = () => {
         datetime: "2021.07.30"
     }
 ]
+    const presentations: MemberPresentationType[] = [
+        {
+            title: "WAFBooster: Automatic Boosting of WAF Security Against Mutated Malicious Payloads",
+            authors: "Cong Wu, Jing Chen, Simeng Zhu, Wenqi Feng, Ruiying Du, Yang Xiang",
+            journal: "IEEE TRANSACTIONS ON DEPENDABLE AND SECURE COMPUTING",
+            datetime: "2025.09.25, 2025.10.02 ,2025.10.16"
+        }
+    ]
 
     return (
         <Sample
@@ -482,6 +495,7 @@ export const MarcoMemberPage = () => {
             avatar={logo}
             institutes={["國立臺北科技大學 資訊安全碩士學位學程 碩二"]}
             bio={bio}
+            presentations={presentations}
             experiences={raceExperiences}
             certificates={certificates}
             participates={participates}
