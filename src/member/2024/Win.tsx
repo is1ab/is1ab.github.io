@@ -1,6 +1,6 @@
 import { Sample } from "../Sample"
 import Jason from "../../assets/member/Win.jpg"
-import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../../type/MemberCertificateType"
+import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType, MemberPresentationType } from "../../type/MemberCertificateType"
 
 export const WinMemberPage = () => {
     const bio =
