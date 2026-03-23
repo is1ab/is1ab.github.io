@@ -1,6 +1,6 @@
 import Logo from "../assets/logo.png"
 import { Table } from "antd"
-import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType,MemberZeroDayType } from "../type/MemberCertificateType"
+import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType,MemberZeroDayType, MemberPresentationType } from "../type/MemberCertificateType"
 import { useLocation } from "react-router-dom"
 import { useEffect } from "react"
 
@@ -70,6 +70,25 @@ const internColumns = [
     }
 ]
 
+const presentationColumns = [
+    {
+        title: "論文名稱",
+        dataIndex: "title"
+    },
+    {
+        title: "作者",
+        dataIndex: "authors",
+    },
+    {
+        title: "發表刊物",
+        dataIndex: "journal",
+    },
+    {   title: "報告時間",
+        dataIndex: "datetime",
+        className: "text-center"
+    }
+]
+
 export const Sample = (props: {
     zhName: string
     enName?: string | undefined
@@ -80,6 +99,7 @@ export const Sample = (props: {
     certificates: MemberCertificateType[]
     participates: MemberParticipateType[]
     intern: MemberInternType[]
+    presentations?: MemberPresentationType[]
     journals: MemberArticleType[]
     conferences: MemberArticleType[]
     techConfs: MemberArticleType[]
@@ -87,8 +107,9 @@ export const Sample = (props: {
 }) => {
     const { pathname } = useLocation()
     const experiences = props.experiences.sort((a, b) => b.datetime.toString().includes("now") ? 1 : b.datetime.toString().localeCompare(a.datetime.toString()))
-    const certificates = props.certificates.sort((a, b) =>  b.datetime.toString().includes("now") ? 1 : b.datetime.toString().localeCompare(a.datetime.toString()))
-    const participates = props.participates.sort((a, b) =>  b.datetime.toString().includes("now") ? 1 : b.datetime.toString().localeCompare(a.datetime.toString()))
+    const certificates = props.certificates.sort((a, b) => b.datetime.toString().includes("now") ? 1 : b.datetime.toString().localeCompare(a.datetime.toString()))
+    const participates = props.participates.sort((a, b) => b.datetime.toString().includes("now") ? 1 : b.datetime.toString().localeCompare(a.datetime.toString()))
+    const presentations = props.presentations?.sort((a, b) => b.datetime.toString().includes("now") ? 1 : b.datetime.toString().localeCompare(a.datetime.toString()))
     const interns = props.intern.sort((a, b) =>  b.datetime.toString().includes("now") ? 1 : b.datetime.toString().localeCompare(a.datetime.toString()))
     const zerodays = props.zeroday?.sort((a, b) =>  b.datetime.toString().includes("now") ? 1 : b.datetime.toString().localeCompare(a.datetime.toString()))
     const TitleName = () => {
@@ -227,6 +248,24 @@ export const Sample = (props: {
                                 <Table 
                                     columns={internColumns} 
                                     dataSource={interns} 
+                                    bordered 
+                                    pagination={false}
+                                ></Table>
+                            </div>
+                        </div>
+                </div>
+            }
+            { presentations && presentations.length > 0 &&
+                <div className="w-100 d-flex flex-row" style={{gap: "3rem"}}>
+                    
+                        <div className="w-100">
+                            <div className="p-3 w-100" style={{backgroundColor: "#7a1b1b"}}>
+                                <h5 className="fw-bold text-white m-0">論文報告</h5>
+                            </div>
+                            <div className="p-3 w-100">
+                                <Table 
+                                    columns={presentationColumns} 
+                                    dataSource={presentations} 
                                     bordered 
                                     pagination={false}
                                 ></Table>

@@ -33,3 +33,10 @@ export type MemberZeroDayType = {
     title: string | JSX.Element
     datetime: string | JSX.Element
 }
+
+export type MemberPresentationType = {
+    title: string | JSX.Element
+    authors: string
+    journal: string
+    datetime: string | JSX.Element
+}

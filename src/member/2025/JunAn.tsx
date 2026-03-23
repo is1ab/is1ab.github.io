@@ -5,6 +5,26 @@ export const JunAnMemberPage = () => {
     const bio = "我是郭竣安。"
     const certificates: MemberCertificateType[] = []
     const competitionExperiences: MemberCompetitionExperienceType[] = [
+        {
+			title: "pico CTF 2026",
+			result: "隊名: NTUT_Is1ab，排名: 261/8747",
+			datetime: "2026/03/10 ~ 2026/03/20",
+		},
+        {
+			title: "TSC CTF 2026",
+			result: "隊名: Jun-an，排名: 98/115",
+			datetime: "2026/02/27 ~ 2026/03/01",
+		},
+        {
+            title: "AIS3 EOF 2025 (初賽)",
+            result: "隊名：NTUT_ba1si，排名: 33/82",
+            datetime: "2025/12/20 ~ 2025/12/22",
+	    },
+        {
+			title: "SEKAI CTF 2025",
+			result: "隊名：NTUT_Is1ab，排名: 199/1060",
+			datetime: "2025/08/16 ~ 2025/08/18",
+		},
 		{
 			title: "DownUnder CTF 2025",
 			result: "隊名：NTUT_Is1ab，排名: 508/1667",
@@ -58,7 +78,7 @@ export const JunAnMemberPage = () => {
         <Sample
             zhName="郭竣安"
             enName="Kuo, Chun-An"
-            institutes={["國立臺北科技大學 資訊安全碩士學位學程 碩零"]}
+            institutes={["國立臺北科技大學 資訊安全碩士學位學程 碩一"]}
             bio={bio}
             experiences={competitionExperiences}
             certificates={certificates}
