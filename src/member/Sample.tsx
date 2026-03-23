@@ -99,7 +99,7 @@ export const Sample = (props: {
     certificates: MemberCertificateType[]
     participates: MemberParticipateType[]
     intern: MemberInternType[]
-    presentations: MemberPresentationType[]
+    presentations?: MemberPresentationType[]
     journals: MemberArticleType[]
     conferences: MemberArticleType[]
     techConfs: MemberArticleType[]
