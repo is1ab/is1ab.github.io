@@ -1,6 +1,6 @@
 import { Sample } from "../Sample"
 import WIFI from "../../assets/member/WIFI.jpg"
-import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../../type/MemberCertificateType"
+import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType, MemberPresentationType } from "../../type/MemberCertificateType"
 export const WIFIMemberPage = () => {
     const bio = "嗨伊，我是 WIFI。"
     const certificates: MemberCertificateType[] = [
@@ -127,7 +127,7 @@ export const WIFIMemberPage = () => {
         },
         {
             title: "AEGIS 2025 決賽",
-            result: "9/10 Team(Name: 在小小的實驗室裡挖阿挖阿挖)",
+            result: "10/10 Team(Name: 在小小的實驗室裡挖阿挖阿挖)",
             datetime: "2025/11/22 - 2025/11/23"
         },
         {
@@ -214,6 +214,14 @@ export const WIFIMemberPage = () => {
         {
             title: "Bak3 C00kie 寒假特訓營 - 助教",
             datetime: "2026/01/27 - 2026/01/28"
+        }
+    ]
+    const presentations: MemberPresentationType[] = [
+        {
+            title: "File Hijacking Vulnerability : The Elephant in the Room",
+            authors: "Chendong Yu, Yang Xiao, Jie Lu, Yuekang Li, Yeting Li, Lian Li, Yifan Dong, Jian Wang, Jingyi Shi, Defang Bo and Wei Huo",
+            journal: "Network and Distributed System Security (NDSS) Symposium 2024",
+            datetime: "2025.05.08"
         }
     ]
     const internExperiences: MemberInternType[] = []
