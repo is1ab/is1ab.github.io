@@ -3,16 +3,58 @@ import ypp from "../../assets/member/ybb.jpg"
 import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../../type/MemberCertificateType"
 
 export const YPPMemberPage = () => {
-    const bio = <div className="d-flex flex-column gap-3">
-        <p>大學讀 EE，不會 Fourier ; 碩士唸資安，密碼都用 123 </p>
-        <p>如果蒐集 flag 的叫 CTFer，那喜歡蒐集 ちいかわ 的是叫 CYSun, Professor 嗎</p>
-
-    </div>
+    const bio = (
+        <div className="d-flex flex-column gap-3">
+            <span className="text-nowrap">
+                You can contact me via <a href="mailto:ypp0x7@gmail.com">ypp0x7@gmail.com</a>
+            </span>
+        </div>
+    );
     const certificates: MemberCertificateType[] = [
+        {
+            title: "Google Cybersecurity Certificate",
+            datetime: "2025.06"
+        },
+        {
+            title: "iPAS 資訊安全工程師-初級能力鑑定",
+            datetime: "2025.05.17"
+        },
 
     ]
     const competitionExperiences: MemberCompetitionExperienceType[] = [
                
+        {
+            title: "Pascal 2026",
+            result: "121/855 Team(Name: NTUT_Is1ab)",
+            datetime: "2026.02.01 - 2026.02.03"
+        },
+        {
+            title: "knightctf 2026",
+            result: "426/890 Team(Name: NTUT_Is1ab)",
+            datetime: "2026.01.20 - 2026.01.21"
+        },
+        
+        {
+            title: "AEGIS 2025 決賽",
+            result: "10/10 Team(Name: 在小小的實驗室裡挖阿挖阿挖)",
+            datetime: "2025/11/22 - 2025/11/23"
+        },
+
+        {
+            title: "AEGIS 2025 初賽",
+            result: "7/40 Team(Name: 在小小的實驗室裡挖阿挖阿挖)",
+            datetime: "2025.09.27"
+        },
+        {
+            title: "AIS3 Pre-exam 2025",
+            result: "45/344 Team(Name: ypp)",
+            datetime: "2025.05.24 - 2025.05.26"
+        },
+        {
+            title: "WHYCTF 2025",
+            result: "188/1806 Team(Name: NTUT_Is1ab)",
+            datetime: "2025.08.09 - 2025.08.12"
+        },
         {
             title: "DawgCTF 2025",
             result: "223/760 Team(Name: NTUT_Is1ab)",
@@ -85,18 +127,22 @@ export const YPPMemberPage = () => {
         }
     ]
     const participates: MemberParticipateType[] = [
+                {
+            title: "DEVCORE CONFERENCE 2026",
+            datetime: "2026.03.14"
+        }, 
+               {
+            title: "2025 HITCON CTF Ｘ 菁英人才交流活動",
+            datetime: "2025.11.11"
+        }, 
         {
             title: "SITCON 2025",
             datetime: "2025.03.08"
         },
         {
-            title: "HITCON CTF Ｘ 菁英人才交流活動",
+            title: "2024 HITCON CTF Ｘ 菁英人才交流活動",
             datetime: "2024.11.09"
-        },
-        {
-            title: " 2022 AIS3 新型態資安暑期課程",
-            datetime: "2022.07.25 - 2022.07.31"
-        },        
+        },     
         {
             title: "DEVCORE CONFERENCE 2025",
             datetime: "2025.03.15"
@@ -104,7 +150,31 @@ export const YPPMemberPage = () => {
         {
             title: " 奧義社群論壇 - CyCraft C++ 讀書會",
             datetime: "2025.03.22"
-        }
+        },
+        {
+            title: "Bak3 C00kie 寒假特訓營 - 助教",
+            datetime: "2026.01.27 - 2026.01.28"
+        },
+        {
+            title: "Google 資安人才培育計畫 - 學員",
+            datetime: "2025.02.01 - 2025.06.30"
+        },
+        {
+        title: "AIS3 CLUB 北區黑客松 2025 - 助教",
+        datetime: "2025.05.03 - 2025.05.04"
+        },
+        {
+        title: "11th AIS3 新型態資安實務暑期課程學員",
+        datetime: "2025.07.28 - 2025.08.03"
+        },
+        {
+            title: "HITCON 2025 活動組志工",
+            datetime: "2025.08.15 - 2025.08.16"
+        },
+        {
+        title: "10th AIS3 好厲駭（高階培訓 & 導師深度輔導）- 學員",
+        datetime: "2025.08.22 - now"
+        },
 
     ]
     const internExperiences: MemberInternType[] = [
@@ -114,7 +184,7 @@ export const YPPMemberPage = () => {
             datetime: "2023.02 - 2023.06"
         }
     ]
-    
+
     const journals: MemberArticleType[] = []
     const conferences: MemberArticleType[] = []
     const techConfs: MemberArticleType[] = []
@@ -126,12 +196,13 @@ export const YPPMemberPage = () => {
             institutes={["國立臺北科技大學 資訊安全碩士學位學程"]}
             bio={bio}
             experiences={competitionExperiences}
-            certificates={certificates}
             participates={participates}
             intern={internExperiences}
             journals={journals}
             conferences={conferences}
             techConfs={techConfs}
+            certificates={certificates}
+
         ></Sample>
     )
 }
