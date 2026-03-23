@@ -1,6 +1,6 @@
 import { Sample } from "../Sample"
 import Rock from "../../assets/member/Rock.jpg"
-import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType, MemberPresentationType } from "../../type/MemberCertificateType"
+import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType, MemberPresentationType, } from "../../type/MemberCertificateType"
 export const RockMemberPage = () => {
   const bio = <div className="d-flex flex-column gap-3">
     <p>"Hi, I'm Rock. 大學為外語系畢業，碩士鬼轉資安，正在練功累積實力，希望大家多多交流指教，想練英文或日文也可以隨時來找我聊聊!"</p>
@@ -74,7 +74,9 @@ export const RockMemberPage = () => {
          zhName="李宜鴻"
          enName="Li, Yi-Hong"
          avatar={Rock}
-         institutes={["國立臺北科技大學 資訊安全碩士學位學程 碩三/  <br> Master of Computer Science, University of Cincinnati Graduate"]}
+         institutes={[
+              <>國立臺北科技大學 資訊安全碩士學位學程 碩三/ <br /> Master of Computer Science, University of Cincinnati, 2025 Graduate</>
+          ]}
          bio={bio}
          presentations={presentations}
          experiences={competitionExperiences}
