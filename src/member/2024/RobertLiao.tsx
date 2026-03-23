@@ -36,6 +36,31 @@ export const RobertLiaoMemberPage = () => {
             result: "7/40 Team(Name: 在小小的實驗室裡挖阿挖阿挖)",
             datetime: "2025.09.27"
         },
+        {
+            title: "AIS3 Pre-exam 2025",
+            result: "114/344",
+            datetime: "2025.05.24 - 2025.05.26"
+        },
+        {
+            title: "AIS3 EOF CTF 2026 初賽",
+            result: "2/7x Team(Name: Islover)",
+            datetime: "2025/12/20 - 2025/12/22"
+        },
+        {
+            title: " Google CTF 2025",
+            result: "N/A",
+            datetime: "2025.06.28 - 2025.06.30"
+        },
+        {
+            title: " Crypto CTF 2025",
+            result: "N/A",
+            datetime: "2025.06.14 - 2025.06.15"
+        },
+        {
+            title: "picoCTF 2025",
+            result: "N/A",
+            datetime: "2025.03.08 - 2025.03.18"
+        },
     ];
     const participates: MemberParticipateType[] = [
         
@@ -64,6 +89,10 @@ export const RobertLiaoMemberPage = () => {
         {
             title: "HITCON CTF Ｘ 菁英人才交流活動",
             datetime: "2025.10.17 - 2025.10.18"
+        },
+        {
+            title: "北科程式設計社 Lightning Talk - 講者",
+            datetime: "2025.11.25" 
         },
     ];
     const internExperiences: MemberInternType[] = [
