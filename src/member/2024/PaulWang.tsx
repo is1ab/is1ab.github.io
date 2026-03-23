@@ -1,6 +1,6 @@
 import { Sample } from "../Sample"
 import PaulWang from "../../assets/member/PaulWang.jpg"
-import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../../type/MemberCertificateType"
+import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType, MemberPresentationType } from "../../type/MemberCertificateType"
 
 export const PaulWangMemberPage = () => {
     // const bio = "<br>hello"
@@ -55,14 +55,24 @@ export const PaulWangMemberPage = () => {
             datetime: "2025/05/24-2025/05/26"
         },
         {
+            title: "AIS3 EOF CTF 2026 初賽",
+            result: "24/72 Team (隊伍: Is直日)",
+            datetime: "2025/12/20-2025/12/22"
+        },
+        {
+            title: "AEGIS 2025 初賽",
+            result: "7/40 Team(Name: 在小小的實驗室裡挖阿挖阿挖)",
+            datetime: "2025/09/27"
+        },
+        {
             title: "FLARE-On 12",
-            result: "4/9 challenges solved",
-            datetime: "2025"
+            result: "558/4139",
+            datetime: "2025/09/27-2025/10/25"
         },
         {
             title: "Crackmes.one RE CTF 2026",
             result: "6/12 challenges solved",
-            datetime: "2026"
+            datetime: "2026/02/15-2026/02/21"
         },
     ]
     const participates: MemberParticipateType[] = [
@@ -85,12 +95,30 @@ export const PaulWangMemberPage = () => {
         {
             title: "ACM CCS 2025 - 工作人員",
             datetime: "2025/10/12-2025/10/17"
+        },
+        {
+            title: "Bak3 C00kie 寒假特訓營 - 工作人員",
+            datetime: "2026/01/27-2026/01/28"
         }
     ]
     const internExperiences: MemberInternType[] = []
     const journals: MemberArticleType[] = []
     const conferences: MemberArticleType[] = []
     const techConfs: MemberArticleType[] = []
+    const presentations: MemberPresentationType[] = [
+        {
+            title: "Speculative Probing: Hacking Blind in the Spectre Era",
+            authors: "Enes Göktas, Kaveh Razavi, Georgios Portokalidis, Herbert Bos, Cristiano Giuffrida",
+            journal: "CCS 2020",
+            datetime: "2024/11/14"
+        },
+        {
+            title: "ProphetFuzz: Fully Automated Prediction and Fuzzing of High-Risk Option Combinations with Only Documentation via Large Language Model",
+            authors: "Dawei Wang, Geng Zhou, Li Chen, Dan Li, Yukai Miao",
+            journal: "CCS 2024",
+            datetime: "2025/09/11"
+        }
+    ]
     return (
         <Sample
             zhName="王立翔"
@@ -98,6 +126,7 @@ export const PaulWangMemberPage = () => {
             avatar={PaulWang}
             institutes={["國立臺北科技大學 資訊工程所 碩一"]}
             bio={bio}
+            presentations={presentations}
             experiences={competitionExperiences}
             certificates={certificates}
             participates={participates}
