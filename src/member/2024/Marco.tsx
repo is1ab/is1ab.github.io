@@ -179,6 +179,78 @@ export const MarcoMemberPage = () => {
     {
         id: (
             <div>
+                <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00383">ZD-2026-00383</a>
+            </div>
+        ),
+        title: "某單位 內部客戶管理 API 未授權存取，免費帳號即可取得 2,405 間診所完整資料（聯絡人、手機、地址、Email、統編），且 VAT 欄位被濫用儲存明文密碼",
+        datetime: "2026.03.22"
+    },
+    {
+        id: (
+            <div>
+                <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00382">ZD-2026-00382</a>
+            </div>
+        ),
+        title: "某單位 API 未授權存取 — 完整商業數據洩漏（方案定價、客戶合約、購買紀錄）",
+        datetime: "2026.03.22"
+    },
+    {
+        id: (
+            <div>
+                <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00369">ZD-2026-00369</a>
+            </div>
+        ),
+        title: "某單位 端點無需認證，可取得任意診所的 JWT 並讀取真實病患預約紀錄（姓名、身分證、手機、就診科別）",
+        datetime: "2026.03.21"
+    },
+    {
+        id: (
+            <div>
+                <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00354">ZD-2026-00354</a>
+            </div>
+        ),
+        title: "某單位 後端 API 無認證存取，洩露約 3,773 位醫師身分證字號、執照號碼，及 20,956 間醫療院所完整資料",
+        datetime: "2026.03.20"
+    },
+    {
+        id: (
+            <div>
+                <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00344">ZD-2026-00344</a>
+            </div>
+        ),
+        title: "某單位 公開 AI Copilot 端點透過 Prompt Injection 洩露內部公司文件（含銀行帳號）",
+        datetime: "2026.03.19"
+    },
+    {
+        id: (
+            <div>
+                <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00343">ZD-2026-00343</a>
+            </div>
+        ),
+        title: "某單位 管理系統 Webhook Logs API 未授權存取導致即時 LINE 對話洩露",
+        datetime: "2026.03.22"
+    },
+    {
+        id: (
+            <div>
+                <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00331">ZD-2026-00331</a>
+            </div>
+        ),
+        title: "某單位 API 未經認證可存取 128 筆商業折扣碼（含客戶名稱、員工姓名、定價策略）",
+        datetime: "2026.03.18"
+    },
+    {
+        id: (
+            <div>
+                <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00331">ZD-2026-00331</a>
+            </div>
+        ),
+        title: "某單位 API 未經認證可存取 128 筆商業折扣碼（含客戶名稱、員工姓名、定價策略）",
+        datetime: "2026.03.18"
+    },
+    {
+        id: (
+            <div>
                 <a href="https://hackerone.com/northerntechhq/thanks?type=team">Northern Tech HackerOne</a>
             </div>
         ),
