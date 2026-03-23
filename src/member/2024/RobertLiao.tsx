@@ -6,6 +6,7 @@ import {
     MemberInternType,
     MemberParticipateType,
     MemberCompetitionExperienceType,
+    MemberPresentationType
 } from "../../type/MemberCertificateType";
 
 export const RobertLiaoMemberPage = () => {
