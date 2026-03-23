@@ -37,7 +37,7 @@ export const MarcoMemberPage = () => {
     ]
     const raceExperiences: MemberCompetitionExperienceType[] = [
         {
-            title: "2026 GiCS第6屆尋找資安女婕思獲獎團隊",
+            title: "2026 GiCS第6屆尋找資安女婕思",
             result: "指導老師",
             datetime: "2026"
         },
