@@ -20,7 +20,23 @@ export const YoungMemberPage = () => {
     ]
     const competitionExperiences: MemberCompetitionExperienceType[] = [
         {
-            title: "神盾杯初賽 Aegis 2025",
+            title: "AIS3 EOF CTF 2026 決賽",
+            result: "N/A Team(Name: Islover)",
+            datetime: "2026/01/31 - 2026/02/01"
+        },
+        {
+            title: "AIS3 EOF CTF 2026 初賽",
+            result: "2/7x Team(Name: Islover)",
+            datetime: "2025/12/20 - 2025/12/22"
+        },
+        {
+            title: "神盾杯 AEGIS 2025 決賽",
+            result: "10/10 Team(Name: 在小小的實驗室裡挖阿挖阿挖)",
+            datetime: "2025/11/22 - 2025/11/23"
+        },
+        
+        {
+            title: "神盾杯 AEGIS 2025 初賽",
             result: "7th Team(Name: 在小小的實驗室裡挖阿挖阿挖)",
             datetime: "2025.09.27"
         },
