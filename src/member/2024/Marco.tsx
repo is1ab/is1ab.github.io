@@ -247,11 +247,11 @@ export const MarcoMemberPage = () => {
     {
         id: (
             <div>
-                <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00331">ZD-2026-00331</a>
+                <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00325">ZD-2026-00325</a>
             </div>
         ),
-        title: "某單位 API 未經認證可存取 128 筆商業折扣碼（含客戶名稱、員工姓名、定價策略）",
-        datetime: "2026.03.18"
+        title: "某單位 未簽章 Cookie 身份驗證導致任意帳號接管（IDOR）",
+        datetime: "2026.03.13"
     },
     {
         id: (
