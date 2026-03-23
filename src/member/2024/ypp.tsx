@@ -1,6 +1,6 @@
 import { Sample } from "../Sample"
 import ypp from "../../assets/member/ybb.jpg"
-import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../../type/MemberCertificateType"
+import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType, MemberPresentationType } from "../../type/MemberCertificateType"
 
 export const YPPMemberPage = () => {
     const bio = (
@@ -177,6 +177,20 @@ export const YPPMemberPage = () => {
         },
 
     ]
+    const presentations: MemberPresentationType[] = [
+            {
+                title: "SymQEMU: Compilation-based symbolic execution for binaries",
+                authors: "Sebastian Poeplau,Aurelien Francillon",
+                journal: "Network and Distributed System Security (NDSS) Symposium,2021",
+                datetime: "2025.02"
+            },
+            {
+                title: "Predictive Context-sensitive Fuzzing",
+                authors: "Pietro Borrello,Andrea Fioraldi,Daniele Cono D’Elia,Davide Balzarotti,Leonardo Querzoni,Cristiano Giuffrida",
+                journal: "Network and Distributed System Security (NDSS) Symposium,2024",
+                datetime: "2025.09"
+            }
+        ]
     const internExperiences: MemberInternType[] = [
         {
             company: "中國信託商業銀行",
@@ -202,6 +216,7 @@ export const YPPMemberPage = () => {
             conferences={conferences}
             techConfs={techConfs}
             certificates={certificates}
+            presentations={presentations}
 
         ></Sample>
     )

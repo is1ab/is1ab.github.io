@@ -1,6 +1,6 @@
 import { Sample } from "../Sample"
 import Young from "../../assets/logo.png"
-import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../../type/MemberCertificateType"
+import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType,MemberPresentationType} from "../../type/MemberCertificateType"
 
 export const YoungMemberPage = () => {
     const bio = "HI~ 我是李宇揚，可以叫我Young_Lee，資安小白努力探索學習中，還請大家多多指教!"
@@ -170,6 +170,14 @@ export const YoungMemberPage = () => {
         },
 
     ]
+    const presentations: MemberPresentationType[] = [
+                {
+                    title: "MinCloud: Trusted and transferable MinHash-based framework for unknown malware detection for Linux cloud environments",
+                    authors: "Tomer Panker, Aviad Cohen, Tom Landman, Chen Bery, Nir Nissim",
+                    journal: "Journal of Information Security and Applications",
+                    datetime: "2025.05.08"
+                }
+    ]
     const internExperiences: MemberInternType[] = [
         {
             company: "凌群電腦股份有限公司",
@@ -194,6 +202,7 @@ export const YoungMemberPage = () => {
             journals={journals}
             conferences={conferences}
             techConfs={techConfs}
+            presentations={presentations}
         ></Sample>
     )
 }

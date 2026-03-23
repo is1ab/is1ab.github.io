@@ -1,12 +1,12 @@
 import { Sample } from "../Sample"
 import logo from "../../assets/member/Marco.png"
-import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType,MemberZeroDayType } from "../../type/MemberCertificateType"
+import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberPresentationType, MemberCompetitionExperienceType,MemberZeroDayType } from "../../type/MemberCertificateType"
 
 export const MarcoMemberPage = () => {
     const bio = <div className="d-flex flex-column gap-3">
     <p>黃昱翔專注於資訊安全工程與攻防實務，具備紅隊與攻擊手角色之實戰經驗，熟悉完整攻擊鏈流程與攻防情境推演。累積多場 CTF 競賽與實戰型攻防演練經驗，技術能力涵蓋 Web 與 Mobile 應用程式安全、OSINT 情資分析、系統層級弱點利用、存取控制繞過與橫向移動等關鍵攻擊面，並於多項具代表性之資安競賽中取得可驗證之成果。長期投入軟體弱點分析與責任式揭露，曾於 HITCON ZeroDay 平台揭露多起高風險與高影響力漏洞，展現成熟的弱點挖掘與風險判斷能力。 - chatGPT</p>
     <p>更多資料在 <a href="https://www.mlgzackfly.tw" target="_blank" rel="noopener noreferrer">個人網站</a></p>
-    <p> 可以看看 <a href="https://blog.mlgzackfly.com" target="_blank" rel="noopener noreferrer">部落格</a></p>
+    <p> 在我的 <a href="https://blog.mlgzackfly.tw" target="_blank" rel="noopener noreferrer">部落格</a> 中，有一些證照回顧以及靶機的解題過程，可以來看看。</p>
     </div>
     const certificates: MemberCertificateType[] = [
         {
@@ -14,7 +14,7 @@ export const MarcoMemberPage = () => {
             datetime: "2026.03.10"
         },
         {
-            title: "HTB Certified Web Exploitation Specialist(HTB CWES)",
+            title: "HTB Certified Web Exploitation Specialist (HTB CWES)",
             datetime: "2026.02.02"
         },
         {
@@ -36,6 +36,11 @@ export const MarcoMemberPage = () => {
         },
     ]
     const raceExperiences: MemberCompetitionExperienceType[] = [
+        {
+            title: "2026 GiCS第6屆尋找資安女婕思",
+            result: "指導老師",
+            datetime: "2026"
+        },
         {
             title: "AIS3 EOF CTF 2026 / 隊名：想對名真的好難",
             result: "第 29 名（50%）",
@@ -103,6 +108,10 @@ export const MarcoMemberPage = () => {
         }
     ]
     const participates: MemberParticipateType[] = [
+    {
+        "title": "DEVCORE CONFERENCE 2026 會眾",
+        "datetime": "2026"
+    },
     {
         "title": "榮獲 DEVCORE 2025 全國資訊安全獎學金",
         "datetime": "2025"
@@ -176,6 +185,78 @@ export const MarcoMemberPage = () => {
     const conferences: MemberArticleType[] = []
     const techConfs: MemberArticleType[] = []
     const zeroday: MemberZeroDayType[] = [
+    {
+        id: (
+            <div>
+                <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00383">ZD-2026-00383</a>
+            </div>
+        ),
+        title: "某單位 內部客戶管理 API 未授權存取，免費帳號即可取得 2,405 間診所完整資料（聯絡人、手機、地址、Email、統編），且 VAT 欄位被濫用儲存明文密碼",
+        datetime: "2026.03.22"
+    },
+    {
+        id: (
+            <div>
+                <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00382">ZD-2026-00382</a>
+            </div>
+        ),
+        title: "某單位 API 未授權存取 — 完整商業數據洩漏（方案定價、客戶合約、購買紀錄）",
+        datetime: "2026.03.22"
+    },
+    {
+        id: (
+            <div>
+                <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00369">ZD-2026-00369</a>
+            </div>
+        ),
+        title: "某單位 端點無需認證，可取得任意診所的 JWT 並讀取真實病患預約紀錄（姓名、身分證、手機、就診科別）",
+        datetime: "2026.03.21"
+    },
+    {
+        id: (
+            <div>
+                <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00354">ZD-2026-00354</a>
+            </div>
+        ),
+        title: "某單位 後端 API 無認證存取，洩露約 3,773 位醫師身分證字號、執照號碼，及 20,956 間醫療院所完整資料",
+        datetime: "2026.03.20"
+    },
+    {
+        id: (
+            <div>
+                <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00344">ZD-2026-00344</a>
+            </div>
+        ),
+        title: "某單位 公開 AI Copilot 端點透過 Prompt Injection 洩露內部公司文件（含銀行帳號）",
+        datetime: "2026.03.19"
+    },
+    {
+        id: (
+            <div>
+                <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00343">ZD-2026-00343</a>
+            </div>
+        ),
+        title: "某單位 管理系統 Webhook Logs API 未授權存取導致即時 LINE 對話洩露",
+        datetime: "2026.03.22"
+    },
+    {
+        id: (
+            <div>
+                <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00331">ZD-2026-00331</a>
+            </div>
+        ),
+        title: "某單位 API 未經認證可存取 128 筆商業折扣碼（含客戶名稱、員工姓名、定價策略）",
+        datetime: "2026.03.18"
+    },
+    {
+        id: (
+            <div>
+                <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00325">ZD-2026-00325</a>
+            </div>
+        ),
+        title: "某單位 未簽章 Cookie 身份驗證導致任意帳號接管（IDOR）",
+        datetime: "2026.03.13"
+    },
     {
         id: (
             <div>
@@ -402,6 +483,14 @@ export const MarcoMemberPage = () => {
         datetime: "2021.07.30"
     }
 ]
+    const presentations: MemberPresentationType[] = [
+        {
+            title: "WAFBooster: Automatic Boosting of WAF Security Against Mutated Malicious Payloads",
+            authors: "Cong Wu, Jing Chen, Simeng Zhu, Wenqi Feng, Ruiying Du, Yang Xiang",
+            journal: "IEEE TRANSACTIONS ON DEPENDABLE AND SECURE COMPUTING",
+            datetime: "2025.09.25, 2025.10.02 ,2025.10.16"
+        }
+    ]
 
     return (
         <Sample
@@ -410,6 +499,7 @@ export const MarcoMemberPage = () => {
             avatar={logo}
             institutes={["國立臺北科技大學 資訊安全碩士學位學程 碩二"]}
             bio={bio}
+            presentations={presentations}
             experiences={raceExperiences}
             certificates={certificates}
             participates={participates}

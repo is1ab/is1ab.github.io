@@ -6,6 +6,7 @@ import {
     MemberInternType,
     MemberParticipateType,
     MemberCompetitionExperienceType,
+    MemberPresentationType
 } from "../../type/MemberCertificateType";
 
 export const RobertLiaoMemberPage = () => {
@@ -43,22 +44,22 @@ export const RobertLiaoMemberPage = () => {
         },
         {
             title: "AIS3 EOF CTF 2026 初賽",
-            result: "2/7x Team(Name: Islover)",
+            result: "24/72 Team(Name: Is直日)",
             datetime: "2025/12/20 - 2025/12/22"
         },
         {
-            title: " Google CTF 2025",
+            title: "Google CTF 2025",
             result: "N/A",
             datetime: "2025.06.28 - 2025.06.30"
         },
         {
-            title: " Crypto CTF 2025",
+            title: "Crypto CTF 2025",
             result: "N/A",
             datetime: "2025.06.14 - 2025.06.15"
         },
         {
             title: "picoCTF 2025",
-            result: "N/A",
+            result: "1287/10460 (隊伍: NTUT_Is1ab)",
             datetime: "2025.03.08 - 2025.03.18"
         },
     ];
@@ -107,6 +108,26 @@ export const RobertLiaoMemberPage = () => {
             datetime: "2026.02 - ",
         }
     ];
+    const presentations: MemberPresentationType[] = [
+        {
+            title: "KeySpace: Public Key Infrastructure Considerations in Interplanetary Networks",
+            authors: "Joshua Smailes, Filip Futera, Sebastian Köhler, Simon Birnbach, Martin Strohmeier, Ivan Martinovic",
+            journal: "arXiv preprint (arXiv:2408.10963), 2024.",
+            datetime: "2024.11.28"
+        },
+        {
+            title: "High-Risk LEO Satellite Network Path Detection Based on Spatial and Temporal Delay Anomaly Analysis",
+            authors: "Tianyu Zhang, Hewu Li, Jun Liu, Lu Lu, Qian Wu, Shaowen Zheng, Zeqi Lai, Yuanjie Li",
+            journal: "China Communications, vol. 20, no. 7, pp. 57–71, July 2023.",
+            datetime: "2025.5.15"
+        },
+        {
+            title: "Application Scenarios of Confidential Computing in Satellite Internet",
+            authors: "Jie Ren, Lin Lin, Miao Xue, Zelin Wang",
+            journal: "In Proc. EAI SecureComm 2023, Springer LNICST, Hong Kong, October 2023.",
+            datetime: "2025.5.15"
+        }
+    ];
     const journals: MemberArticleType[] = [];
     const conferences: MemberArticleType[] = [];
     const techConfs: MemberArticleType[] = [];
@@ -117,6 +138,7 @@ export const RobertLiaoMemberPage = () => {
             avatar={Uriah}
             institutes={["國立臺北科技大學 資訊工程所 資訊安全實驗室"]}
             bio={bio}
+            presentations={presentations}
             experiences={raceExperiences}
             certificates={certificates}
             participates={participates}
