@@ -262,7 +262,7 @@ export const Adb2MemberPage = () => {
             title: "AdvSQLi: Generating Adversarial SQL Injections Against Real-World WAF-as-a-Service",
             authors: "Zhenqing Qu, Xiang Ling, Ting Wang, Xiang Chen, Shouling Ji, and Chunming Wu",
             journal: "IEEE Transactions on Information Forensics and Security",
-            datetime: "2024.09.19"
+            datetime: "2024.08.22"
         }
     ]
 
