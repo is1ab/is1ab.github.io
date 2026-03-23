@@ -102,12 +102,22 @@ export const WinMemberPage = () => {
         {
             title: "AIS3 EOF CTF 2026 決賽",
             result: "6/15 Team(Name: Islover)",
-            datetime: "2026/01/31 - 2026/02/01"
+            datetime: "2026.01.31 - 2026.02.01"
         },
         {
             title: "AIS3 EOF CTF 2026 初賽",
             result: "2/7x Team(Name: Islover)",
-            datetime: "2025/12/20 - 2025/12/22"
+            datetime: "2025.12.20 - 2025.12.22"
+        },
+        {
+            title: "神盾杯 AEGIS 2025 決賽",
+            result: "10/10 Team(Name: 在小小的實驗室裡挖阿挖阿挖)",
+            datetime: "2025.11.22 - 2025.11.23"
+        },
+        {
+            title: "神盾杯 AEGIS 2025 初賽",
+            result: "7th Team(Name: 在小小的實驗室裡挖阿挖阿挖)",
+            datetime: "2025.09.27"
         },
         {
             title: "WHYCTF 2025",
@@ -274,6 +284,17 @@ export const WinMemberPage = () => {
     const journals: MemberArticleType[] = []
     const conferences: MemberArticleType[] = []
     const techConfs: MemberArticleType[] = []
+    
+    const presentations: MemberPresentationType[] = [
+        {
+            title: "TRACE: Relationship Analysis and Causal Factor Extraction in Cyber Threat Intelligence Reports",
+            authors: "R. Vaitheeshwari, Eric Hsiao-Kuang Wu, Ying-Dar Lin, Ren-Hung Hwang, Po-Ching Lin, Yuan-Cheng Lai, Asad Ali",
+            journal: "IEEE Transactions on Dependable and Secure Computing",
+            datetime: "2025.05.15"
+        }
+    ]
+    
+    
     return (
         <Sample
             zhName="黃廷翰"
@@ -281,6 +302,7 @@ export const WinMemberPage = () => {
             avatar={Jason}
             institutes={["國立臺北科技大學 資訊安全碩士學位學程 碩二"]}
             bio={bio}
+            presentations={presentations}
             experiences={competitionExperiences}
             certificates={certificates}
             participates={participates}
