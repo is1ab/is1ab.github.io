@@ -107,6 +107,26 @@ export const RobertLiaoMemberPage = () => {
             datetime: "2026.02 - ",
         }
     ];
+    const presentations: MemberPresentationType[] = [
+        {
+            title: "KeySpace: Public Key Infrastructure Considerations in Interplanetary Networks",
+            authors: "Joshua Smailes, Filip Futera, Sebastian Köhler, Simon Birnbach, Martin Strohmeier, Ivan Martinovic",
+            journal: "arXiv preprint (arXiv:2408.10963), 2024.",
+            datetime: "2024.11.28"
+        },
+        {
+            title: "High-Risk LEO Satellite Network Path Detection Based on Spatial and Temporal Delay Anomaly Analysis",
+            authors: "Tianyu Zhang, Hewu Li, Jun Liu, Lu Lu, Qian Wu, Shaowen Zheng, Zeqi Lai, Yuanjie Li",
+            journal: "China Communications, vol. 20, no. 7, pp. 57–71, July 2023.",
+            datetime: "2025.5.15"
+        },
+        {
+            title: "Application Scenarios of Confidential Computing in Satellite Internet",
+            authors: "Jie Ren, Lin Lin, Miao Xue, Zelin Wang",
+            journal: "In Proc. EAI SecureComm 2023, Springer LNICST, Hong Kong, October 2023.",
+            datetime: "2025.5.15"
+        }
+    ]
     const journals: MemberArticleType[] = [];
     const conferences: MemberArticleType[] = [];
     const techConfs: MemberArticleType[] = [];
