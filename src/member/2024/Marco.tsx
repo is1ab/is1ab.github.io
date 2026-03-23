@@ -109,6 +109,10 @@ export const MarcoMemberPage = () => {
     ]
     const participates: MemberParticipateType[] = [
     {
+        "title": "DEVCORE CONFERENCE 2026 會眾",
+        "datetime": "2026"
+    },
+    {
         "title": "榮獲 DEVCORE 2025 全國資訊安全獎學金",
         "datetime": "2025"
     },
