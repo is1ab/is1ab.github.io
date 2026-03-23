@@ -1,6 +1,6 @@
 import { Sample } from "../Sample"
 import Adb2 from "../../assets/member/Adb2.jpg"
-import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType, MemberZeroDayType } from "../../type/MemberCertificateType"
+import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType, MemberPresentationType, MemberZeroDayType } from "../../type/MemberCertificateType"
 
 export const Adb2MemberPage = () => {
     const bio = "SGVsbG8sIEknbSBBZGIyLg=="
@@ -247,16 +247,24 @@ export const Adb2MemberPage = () => {
     const conferences: MemberArticleType[] = []
     const techConfs: MemberArticleType[] = []
     const zeroday: MemberZeroDayType[] = [
-                {
-                    id: ( 
-                        <div>
-                            <a href="https://zeroday.hitcon.org/vulnerability/ZD-2025-00696">ZD-2025-00696</a> 
-                        </div>
-                    ),
-                    title: "ITSA 程式自學平臺 RCE",
-                    datetime: "2025.07.14"
-                }
-        ]
+        {
+            id: ( 
+                <div>
+                    <a href="https://zeroday.hitcon.org/vulnerability/ZD-2025-00696">ZD-2025-00696</a> 
+                </div>
+            ),
+            title: "ITSA 程式自學平臺 RCE",
+            datetime: "2025.07.14"
+        }
+    ]
+    const presentations: MemberPresentationType[] = [
+        {
+            title: "AdvSQLi: Generating Adversarial SQL Injections Against Real-World WAF-as-a-Service",
+            authors: "Zhenqing Qu, Xiang Ling, Ting Wang, Xiang Chen, Shouling Ji, and Chunming Wu",
+            journal: "IEEE Transactions on Information Forensics and Security",
+            datetime: "2024.09.19"
+        }
+    ]
 
     return (
         <Sample
@@ -265,6 +273,7 @@ export const Adb2MemberPage = () => {
             avatar={Adb2}
             institutes={["國立臺北科技大學 資訊工程所 碩二"]}
             bio={bio}
+            presentations={presentations}
             experiences={competitionExperiences}
             certificates={certificates}
             participates={participates}
