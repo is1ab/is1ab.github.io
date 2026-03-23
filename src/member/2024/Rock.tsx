@@ -74,7 +74,9 @@ export const RockMemberPage = () => {
          zhName="李宜鴻"
          enName="Li, Yi-Hong"
          avatar={Rock}
-         institutes={["國立臺北科技大學 資訊安全碩士學位學程 碩三/  <br> Master of Computer Science, University of Cincinnati Graduate"]}
+         institutes={[
+  <span>國立臺北科技大學 資訊安全碩士學位學程 碩三/ <br /> Master of Computer Science, University of Cincinnati Graduate</span>
+                    ]}
          bio={bio}
          presentations={presentations}
          experiences={competitionExperiences}
