@@ -255,6 +255,7 @@ export const WIFIMemberPage = () => {
             certificates={certificates}
             participates={participates}
             intern={internExperiences}
+            presentations={presentations}
             journals={journals}
             conferences={conferences}
             techConfs={techConfs}
