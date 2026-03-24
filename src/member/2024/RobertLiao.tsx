@@ -125,7 +125,7 @@ export const RobertLiaoMemberPage = () => {
             title: "Application Scenarios of Confidential Computing in Satellite Internet",
             authors: "Jie Ren, Lin Lin, Miao Xue, Zelin Wang",
             journal: "In Proc. EAI SecureComm 2023, Springer LNICST, Hong Kong, October 2023.",
-            datetime: "2025.5.15"
+            datetime: "2025.10.9"
         }
     ];
     const journals: MemberArticleType[] = [];
