@@ -44,22 +44,22 @@ export const RobertLiaoMemberPage = () => {
         },
         {
             title: "AIS3 EOF CTF 2026 初賽",
-            result: "2/7x Team(Name: Islover)",
+            result: "24/72 Team(Name: Is直日)",
             datetime: "2025/12/20 - 2025/12/22"
         },
         {
-            title: " Google CTF 2025",
+            title: "Google CTF 2025",
             result: "N/A",
             datetime: "2025.06.28 - 2025.06.30"
         },
         {
-            title: " Crypto CTF 2025",
+            title: "Crypto CTF 2025",
             result: "N/A",
             datetime: "2025.06.14 - 2025.06.15"
         },
         {
             title: "picoCTF 2025",
-            result: "N/A",
+            result: "1287/10460 (隊伍: NTUT_Is1ab)",
             datetime: "2025.03.08 - 2025.03.18"
         },
     ];
