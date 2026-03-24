@@ -6,6 +6,7 @@ import {
 	MemberInternType,
 	MemberParticipateType,
 	MemberCompetitionExperienceType,
+	MemberPresentationType
 } from "../../type/MemberCertificateType";
 
 // 個人簡介
@@ -161,6 +162,15 @@ const conferences: MemberArticleType[] = [];
 // 技術會議論文
 const techConfs: MemberArticleType[] = [];
 
+const presentations: MemberPresentationType[] = [
+		{
+			title: "XSSky: Detecting XSS Vulnerabilities through Local Path-Persistent Fuzzing",
+			authors: "Youkun Shi, Yuan Zhang, Tianhao Bai, Feng Xue, Jiarun Dai, Fengyu Liu, Lei Zhang, Xiapu Luo, and Min Yang",
+			journal: "USENIX Security Symposium",
+			datetime: "2025.08.13"
+		}
+	]
+
 export const YeyeyeMemberPage = () => {
 	return (
 		<Sample
@@ -169,6 +179,7 @@ export const YeyeyeMemberPage = () => {
 			avatar={avatarSrc}
 			institutes={["國立臺北科技大學 資工系碩士班 碩一"]}
 			bio={bio()}
+			presentations={presentations}
 			experiences={competitionExp}
 			certificates={certificates}
 			participates={participates}
