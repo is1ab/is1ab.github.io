@@ -110,13 +110,13 @@ export const WinMemberPage = () => {
             datetime: "2025.12.20 - 2025.12.22"
         },
         {
-            title: "神盾杯 AEGIS 2025 決賽",
-            result: "10/10 Team(Name: 在小小的實驗室裡挖阿挖阿挖)",
+            title: "神盾盃 AEGIS 2025 決賽",
+            result: "10/10 Team(Name:在小小的實驗室裡挖阿挖阿挖)",
             datetime: "2025.11.22 - 2025.11.23"
         },
         {
-            title: "神盾杯 AEGIS 2025 初賽",
-            result: "7th Team(Name: 在小小的實驗室裡挖阿挖阿挖)",
+            title: "神盾盃 AEGIS 2025 初賽",
+            result: "7th Team(Name:在小小的實驗室裡挖阿挖阿挖)",
             datetime: "2025.09.27"
         },
         {
