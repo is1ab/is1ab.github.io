@@ -1,5 +1,5 @@
 import { Sample } from "../Sample"
-import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../../type/MemberCertificateType"
+import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType, MemberPresentationType } from "../../type/MemberCertificateType"
 
 export const JunAnMemberPage = () => {
     const bio = "我是郭竣安。"
@@ -74,6 +74,14 @@ export const JunAnMemberPage = () => {
     const journals: MemberArticleType[] = []
     const conferences: MemberArticleType[] = []
     const techConfs: MemberArticleType[] = []
+    const presentations: MemberPresentationType[] = [
+        {
+            title: "A Case Study on Fuzzing Satellite Firmware",
+            authors: "Tobias Scharnowski, Felix Buchmann, Simon Worner,and Thorsten Holz",
+            journal: "Network and Distributed System Security Symposium (NDSS) 2023",
+            datetime: "2026.1.15"
+        }
+    ]
     return (
         <Sample
             zhName="郭竣安"
@@ -87,6 +95,7 @@ export const JunAnMemberPage = () => {
             journals={journals}
             conferences={conferences}
             techConfs={techConfs}
+            presentations={presentations}
         ></Sample>
     )
 }
