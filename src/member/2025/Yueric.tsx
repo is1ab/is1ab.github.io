@@ -1,5 +1,5 @@
 import { Sample } from "../Sample"
-import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../../type/MemberCertificateType"
+import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType, MemberPresentationType} from "../../type/MemberCertificateType"
 
 export const YuericMemberPage = () => {
     const bio = "我是劉章佑。"
@@ -79,6 +79,14 @@ export const YuericMemberPage = () => {
     const journals: MemberArticleType[] = []
     const conferences: MemberArticleType[] = []
     const techConfs: MemberArticleType[] = []
+    const presentations: MemberPresentationType[] = [
+        {
+            title: "Gupacker: Generalized Unpacking framework for Android Malware",
+            authors: "Tao Zheng, Qiyu Hou, Xingshu Chen, Hao Ren, Meng Li, Hongwei Li,and Changxiang Shen",
+            journal: "IEEE TRANSACTIONS ON INFORMATION FORENSICS AND SECURITY (2025)",
+            datetime: "2026.1.22"
+        }
+    ]
     return (
         <Sample
             zhName="劉章佑"
@@ -92,6 +100,7 @@ export const YuericMemberPage = () => {
             journals={journals}
             conferences={conferences}
             techConfs={techConfs}
+            presentations={presentations}
         ></Sample>
     )
 }
