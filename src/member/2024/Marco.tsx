@@ -188,6 +188,24 @@ export const MarcoMemberPage = () => {
     {
         id: (
             <div>
+                <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00409">ZD-2026-00409</a>
+            </div>
+        ),
+        title: "某單位 API JWT 簽名密鑰可猜測，可偽造 Token 繞過所有 API 端點認證",
+        datetime: "2026.03.25"
+    },
+    {
+        id: (
+            <div>
+                <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00407">ZD-2026-00407</a>
+            </div>
+        ),
+        title: "某單位 Kibana 監控平台未經授權公開暴露，洩漏 2.3 億筆數據",
+        datetime: "2026.03.25"
+    },
+    {
+        id: (
+            <div>
                 <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00383">ZD-2026-00383</a>
             </div>
         ),
