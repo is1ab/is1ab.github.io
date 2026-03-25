@@ -10,6 +10,7 @@ export function Course(){
             imgSrc: OOP,
             title: "物件導向程式設計",
             subTitle: "Object-Oriented Programming",
+            link: "https://is1ab.com/#/Course/ObjectOrientedProgramming", 
             description: "這門課將提供學生物件導向設計原理的基礎知識，並加強他們在 C++ 程式設計方面的能力。修習這一門課的學生必須要先有具備程式設計的能力，建議先修習計算機程式設計（I）與計算機程式設計（II）。學生將學習如何利用物件導向的角度撰寫設計要求，同時撰寫單元測試以利於保證軟體品質，學生可從單元測試中監控測試覆蓋率，以利於設計測試案例。同時，這一門課將介紹如何使用 Git 進行版本控制，使用 GitLab 和 Jenkins 進行持續整合（CI）。透過理論講解和實作練習，學生將熟悉物件導向設計原則和 C++ 程式設計，並能夠在開發過程中運用單元測試、Git 和 Jenkins 等工具來提升程式品質和效率。"
         },
         {
