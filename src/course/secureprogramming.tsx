@@ -46,7 +46,7 @@ export function SecureProgramming () {
       </div>
 
       <div className="p-3 w-100" style={{ backgroundColor: "#7a1b1b" }}>
-        <h5 className="fw-bold text-white m-0">學期成績</h5>
+        <h5 className="fw-bold text-white m-0">歷年記錄</h5>
       </div>
       
       <div className="py-3 d-flex flex-column gap-3">
