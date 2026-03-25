@@ -44,6 +44,7 @@ import { RavinMemberPage } from "./member/2023/Ravin.tsx";
 import { KunjiliMemberPage } from "./member/2022/Kunjili.tsx";
 import { CliffMemberPage } from "./member/2022/Cliff.tsx";
 import { SP_2022 } from "./course/2022_SP.tsx";
+import { SP_2024m } from "./course/2024m_SP.tsx";
 import { SP_2024 } from "./course/2024_SP.tsx";
 import { SP_2025 } from "./course/2025_SP.tsx";
 import { SecureProgramming } from "./course/secureprogramming.tsx";
@@ -123,6 +124,7 @@ const router = createHashRouter(
       <Route path="/Activities" element={<Activities></Activities>}></Route>
       <Route path="/Rules" element={<Rule></Rule>}></Route>
       <Route path="/Course/2022/SP" element={<SP_2022></SP_2022>}></Route>
+	  <Route path="/Course/2023m/SP" element={<SP_2024m></SP_2024m>}></Route>
       <Route path="/Course/2024/SP" element={<SP_2024></SP_2024>}></Route>
       <Route path="/Course/2025/SP" element={<SP_2025></SP_2025>}></Route>
 	  <Route path="/Course/SecureProgramming" element={<SecureProgramming></SecureProgramming>}></Route>
