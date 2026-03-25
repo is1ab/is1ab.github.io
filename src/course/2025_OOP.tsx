@@ -1,4 +1,4 @@
-export function OOP_2026() {
+export function OOP_2025() {
   return (
     <div className="d-flex flex-column gap-3">
       <h4 className="text-center">114-1 物件導向程式設計 Object-Oriented Programming</h4>
@@ -8,10 +8,10 @@ export function OOP_2026() {
       </div>
       
       <div className="py-3 d-flex flex-column gap-3">
-        <li>修課人數: 88 人</li>
-        <li>及格人數: 73 人</li>
-        <li>最高分數: 100 分; 最低分數: 28 分</li>
-        <li>平均分數: 76.07 分</li>
+        <li>修課人數: 93 人</li>
+        <li>及格人數: 70 人</li>
+        <li>最高分數: 97 分; 最低分數: 12 分</li>
+        <li>平均分數: 66.16 分</li>
       </div>
                   
     </div>
