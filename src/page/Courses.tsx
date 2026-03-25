@@ -20,7 +20,7 @@ export function Course(){
         },
         {
             imgSrc: SP,
-            title: "安全程式設計",
+            title: "<a href="mailto:cysun@ntut.edu.tw">安全程式設計</a>",
             subTitle: "Secure Programming",
             description: "安全程式設計是資訊安全領域中的關鍵技術。不良的「程式設計習慣」和「不考慮安全保護的程式設計」很容易導致可有心人士所利用。本課程除了建立安全程式設計的基礎知識外，特別著重於同學的實務能力、漏洞測試、與安全程式開發能力。同時，透過分享最新的論文研究與相關技術報告，協助研究生在研究階段獲取最新的領域知識。"
         },
