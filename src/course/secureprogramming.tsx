@@ -52,6 +52,7 @@ export function SecureProgramming () {
       <div className="py-3 d-flex flex-column gap-3">
         <li><a href="https://is1ab.com/#/Course/2025/SP">113-2 (教學評鑑 4.5/5 分，填答率: 83 %)</a></li>
         <li><a href="https://is1ab.com/#/Course/2024/SP">112-2 (教學評鑑 4.65/5 分，填答率: 89 %)</a></li>
+        <li><a href="https://is1ab.com/#/Course/2023m/SP">111-2 (碩士班) (教學評鑑 4.82/5 分，填答率: 68 %)</a></li>
       </div>
             
     </div>
