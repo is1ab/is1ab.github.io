@@ -3,7 +3,8 @@ export const ActivityCard = (props: {
     imgSrc: string,
     title: string,
     description: any,
-    subTitle: string
+    subTitle: string,
+    link?: string
 }) => {
     return (
         <div className="d-flex flex-col">
@@ -13,7 +14,15 @@ export const ActivityCard = (props: {
                 </div>
                 <div className="w-100 activity-card-description-layout" style={{width: "60%"}}>
                     <div>
-                        <h5>{props.title}</h5>
+                        <h5>
+                            {props.link ? (
+                                <a href={props.link} target="_blank" rel="noopener noreferrer">
+                                    {props.title}
+                                </a>
+                            ) : (
+                                props.title
+                            )}
+                        </h5>
                         <div className="d-flex flex-row gap-1 text-white">
                             {props.subTitle == undefined ? null : props.subTitle}
                         </div>
