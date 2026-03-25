@@ -43,6 +43,7 @@ export function Course(){
                             title={activity.title}
                             subTitle={activity.subTitle}
                             description={activity.description}
+                            link={activity.link}
                         />
                     )
                 })}
