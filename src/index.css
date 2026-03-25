@@ -200,6 +200,19 @@ a {
   color: #cf2e2e;
 }
 
+.activity-card-layout {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.activity-card-description-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+
 .alternative-journal {
   color: #4CAF50;
 }

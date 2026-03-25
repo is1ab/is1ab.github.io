@@ -9,7 +9,7 @@ export const ActivityCard = (props: {
         <div className="d-flex flex-col">
             <div className="p-5 w-100 rounded activity-card-layout md:activity-card-layout" style={{backgroundColor: "#424242"}}>
                 <div className="d-flex flex-column justify-content-center" style={{width: "100%"}}>
-                    <Image width={"50%"} src={props.imgSrc}></Image>
+                    <Image width={"100%"} src={props.imgSrc}></Image>
                 </div>
                 <div className="w-100 activity-card-description-layout" style={{width: "60%"}}>
                     <div>
