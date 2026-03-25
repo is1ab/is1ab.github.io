@@ -1,7 +1,7 @@
 import { ActivityCard } from "../component/ActivityCard"
 import ActivityImage3 from "../assets/activity/activity-image-3.png"
 
-export function Activities(){
+export function Course(){
     const ActivityItems = [
         {
             imgSrc: ActivityImage3,
