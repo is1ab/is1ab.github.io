@@ -1,6 +1,6 @@
 import { Sample } from "../Sample"
 import logo from "../../assets/member/Guan4Tou2.png"
-import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType,MemberZeroDayType } from "../../type/MemberCertificateType"
+import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType,MemberZeroDayType,MemberPresentationType } from "../../type/MemberCertificateType"
 
 export const Guan4Tou2MemberPage = () => {
     const bio = <div className="d-flex flex-column gap-3">
@@ -203,6 +203,20 @@ export const Guan4Tou2MemberPage = () => {
                 datetime: "2025.01.06"
             },
     ]
+    const presentations: MemberPresentationType[] = [
+        {
+            title: "PackGenome: Automatically Generating Robust YARA Rules for Accurate Malware Packer Detection",
+            authors: "Shijia Li, Jiang Ming, Pengda Qiu, Qiyuan Chen, Lanqing Liu, Huaifeng Bao, Qiang Wang, Chunfu JiaAuthors Info & Claims",
+            journal: "CCS '23: Proceedings of the 2023 ACM SIGSAC Conference on Computer and Communications Security",
+            datetime: "2024.05.16"
+        },
+        {
+            title: "Teaching an Old LLM Secure Coding: Localized Preference Optimization on Distilled Preferences",
+            authors: "Mohammad Saqib Hasan, Saikat Chakraborty, Santu Karmaker, Niranjan Balasubramanian",
+            journal: "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics",
+            datetime: "2026.03.05"
+        }
+    ]
 
     return (
         <Sample
@@ -219,6 +233,7 @@ export const Guan4Tou2MemberPage = () => {
             conferences={conferences}
             techConfs={techConfs}
             zeroday={zeroday}
+            presentations={presentations}
         ></Sample>
     )
 }
