@@ -1,5 +1,5 @@
 import { ActivityCard } from "../component/ActivityCard"
-import ActivityImage3 from "../assets/activity/secureprogrammaing.png"
+import ActivityImage3 from "../assets/activities/secureprogrammaing.png"
 
 export function Course(){
     const ActivityItems = [
