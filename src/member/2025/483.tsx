@@ -6,6 +6,7 @@ import {
 	MemberInternType,
 	MemberParticipateType,
 	MemberCompetitionExperienceType,
+	MemberPresentationType,
 } from "../../type/MemberCertificateType";
 
 export const _483MemberPage = () => {
@@ -108,10 +109,15 @@ export const _483MemberPage = () => {
 			result: "Player Name: pudding483, Rank: 27/115",
 			datetime: "2026/02/27 ~ 2026/03/01",
 		},
-        {
+		{
 			title: "pico CTF 2026",
 			result: "Team Name: NTUT_is1ab, Rank: 261/8747",
 			datetime: "2026/03/10 ~ 2026/03/20",
+		},
+		{
+			title: "TAMU CTF 2026",
+			result: "Team Name: TakeKitsune, Rank: 186/697",
+			datetime: "2026/03/20 ~ 2026/03/22",
 		}
 	];
 	const participates: MemberParticipateType[] = [
@@ -140,6 +146,14 @@ export const _483MemberPage = () => {
 	const journals: MemberArticleType[] = [];
 	const conferences: MemberArticleType[] = [];
 	const techConfs: MemberArticleType[] = [];
+	const presentations: MemberPresentationType[] = [
+		{
+			title: "TMG-GAN: Generative Adversarial Networks-Based Imbalanced Learning for Network Intrusion Detection",
+			authors: "Hongwei Ding , Yu Sun , Nana Huang, Zhidong Shen , and Xiaohui Cui",
+			journal: "IEEE Transactions on Information Forensics and Security",
+			datetime: "2025/12/18"
+		}
+	];
 	return (
 		<Sample
 			zhName="沈柏安"
@@ -147,6 +161,7 @@ export const _483MemberPage = () => {
 			avatar={_483}
 			institutes={["國立臺北科技大學 資訊安全碩士學位學程 碩一"]}
 			bio={bio}
+			presentations={presentations}
 			experiences={competitionExperiences}
 			certificates={certificates}
 			participates={participates}
