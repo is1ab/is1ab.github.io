@@ -43,10 +43,19 @@ import { CHWMemberPage } from "./member/2023/CHW.tsx";
 import { RavinMemberPage } from "./member/2023/Ravin.tsx";
 import { KunjiliMemberPage } from "./member/2022/Kunjili.tsx";
 import { CliffMemberPage } from "./member/2022/Cliff.tsx";
-import { SP_2022 } from "./course/2022_SP.tsx";
-import { SP_2024 } from "./course/2024_SP.tsx";
-import { SP_2025 } from "./course/2025_SP.tsx";
+
 import { SecureProgramming } from "./course/secureprogramming.tsx";
+import { SP_2025 } from "./course/2025_SP.tsx";
+import { SP_2024 } from "./course/2024_SP.tsx";
+import { SP_2023m } from "./course/2023m_SP.tsx";
+import { SP_2023c } from "./course/2023c_SP.tsx";
+import { SP_2022 } from "./course/2022_SP.tsx";
+
+import { ObjectOrientedProgramming } from "./course/objectorientedprogramming.tsx";
+import { OOP_2026 } from "./course/2026_OOP.tsx";
+import { OOP_2025 } from "./course/2025_OOP.tsx";
+import { OOP_2024 } from "./course/2024_OOP.tsx";
+
 import { _483MemberPage } from "./member/2025/483.tsx";
 import { JunAnMemberPage } from "./member/2025/JunAn.tsx";
 import { YuericMemberPage } from "./member/2025/Yueric.tsx";
@@ -122,10 +131,18 @@ const router = createHashRouter(
       <Route path="/Calendar" element={<Meeting></Meeting>}></Route>
       <Route path="/Activities" element={<Activities></Activities>}></Route>
       <Route path="/Rules" element={<Rule></Rule>}></Route>
-      <Route path="/Course/2022/SP" element={<SP_2022></SP_2022>}></Route>
+
+	  <Route path="/Course/SecureProgramming" element={<SecureProgramming></SecureProgramming>}></Route>
+	  <Route path="/Course/2022/SP" element={<SP_2022></SP_2022>}></Route>
+	  <Route path="/Course/2023m/SP" element={<SP_2023m></SP_2023m>}></Route>
+	  <Route path="/Course/2023c/SP" element={<SP_2023c></SP_2023c>}></Route>
       <Route path="/Course/2024/SP" element={<SP_2024></SP_2024>}></Route>
       <Route path="/Course/2025/SP" element={<SP_2025></SP_2025>}></Route>
-	  <Route path="/Course/SecureProgramming" element={<SecureProgramming></SecureProgramming>}></Route>
+		
+	  <Route path="/Course/ObjectOrientedProgramming" element={<ObjectOrientedProgramming></ObjectOrientedProgramming>}></Route>
+	  <Route path="/Course/2026/OOP" element={<OOP_2026></OOP_2026>}></Route>
+	  <Route path="/Course/2025/OOP" element={<OOP_2025></OOP_2025>}></Route>
+	  <Route path="/Course/2024/OOP" element={<OOP_2024></OOP_2024>}></Route>
     </Route>
   )
 );
