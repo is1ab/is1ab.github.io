@@ -31,7 +31,7 @@ export function ObjectOrientedProgrammingLabs () {
           <iframe
             width="560"
             height="315"
-            src="https://youtu.be/hBlL-MzIP4w"
+            src="https://www.youtube.com/embed/hBlL-MzIP4w"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
