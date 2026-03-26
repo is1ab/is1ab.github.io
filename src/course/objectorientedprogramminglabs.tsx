@@ -50,7 +50,7 @@ export function ObjectOrientedProgrammingLabs () {
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/watch?v=LZhon1BUfaY"
+            src="https://www.youtube.com/embed/LZhon1BUfaY"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -65,7 +65,7 @@ export function ObjectOrientedProgrammingLabs () {
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/watch?v=O0-6IK6S8dQ"
+            src="https://www.youtube.com/embed/O0-6IK6S8dQ"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
