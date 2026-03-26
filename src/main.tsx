@@ -56,6 +56,11 @@ import { OOP_2026 } from "./course/2026_OOP.tsx";
 import { OOP_2025 } from "./course/2025_OOP.tsx";
 import { OOP_2024 } from "./course/2024_OOP.tsx";
 
+import { ObjectOrientedProgrammingLabs } from "./course/objectorientedprogramminglabs.tsx";
+import { OOPL_2026 } from "./course/2026_OOPL.tsx";
+import { OOPL_2025 } from "./course/2025_OOPL.tsx";
+import { OOPL_2024 } from "./course/2024_OOPL.tsx";
+
 import { _483MemberPage } from "./member/2025/483.tsx";
 import { JunAnMemberPage } from "./member/2025/JunAn.tsx";
 import { YuericMemberPage } from "./member/2025/Yueric.tsx";
@@ -143,6 +148,11 @@ const router = createHashRouter(
 	  <Route path="/Course/2026/OOP" element={<OOP_2026></OOP_2026>}></Route>
 	  <Route path="/Course/2025/OOP" element={<OOP_2025></OOP_2025>}></Route>
 	  <Route path="/Course/2024/OOP" element={<OOP_2024></OOP_2024>}></Route>
+
+	  <Route path="/Course/ObjectOrientedProgrammingLabs" element={<ObjectOrientedProgrammingLabs></ObjectOrientedProgrammingLabs>}></Route>
+	  <Route path="/Course/2026/OOPL" element={<OOPL_2026></OOPL_2026>}></Route>
+	  <Route path="/Course/2025/OOPL" element={<OOPL_2025></OOPL_2025>}></Route>
+	  <Route path="/Course/2024/OOPL" element={<OOPL_2024></OOPL_2024>}></Route>
     </Route>
   )
 );
