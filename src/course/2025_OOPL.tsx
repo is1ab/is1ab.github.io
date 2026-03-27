@@ -32,6 +32,36 @@ export function OOPL_2025() {
 
       <div className="row">
       <div className="col-md-6 py-3">
+        <h3>#1 推箱子</h3>
+        <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/laPKN_hNAds"
+            title="#1 推箱子"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+    
+      <div className="col-md-6 py-3">
+        <h3>#2 植物大戰僵屍</h3>
+        <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/54DPezZiEIg"
+            title="#2 植物大戰僵屍"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+      
+      <div className="row">
+      <div className="col-md-6 py-3">
         <h3>SCP Roguelike</h3>
         <div className="ratio ratio-16x9">
           <iframe
