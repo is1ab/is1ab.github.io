@@ -1,5 +1,5 @@
 import { Sample } from "../Sample";
-import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType, MemberPresentationType, MemberZeroDayType } from "../../type/MemberCertificateType"
+import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType, MemberPresentationType } from "../../type/MemberCertificateType"
 
 export const VictorMemberPage = () => {
     const bio = "我是Victor，目前參與sunbird計畫。";
