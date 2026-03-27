@@ -19,6 +19,54 @@ export function OOPL_2025() {
         <h5 className="fw-bold text-white m-0">成果展示</h5>
       </div>
 
+      Dead Cells
+      <div className="w-100">
+        <div className="py-3">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/bTPk2EICwvU"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+      
+      Celeste Pico-8
+      <div className="w-100">
+        <div className="py-3">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/hH6onAsK5Ow"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+      
+      Raiden V
+      <div className="w-100">
+        <div className="py-3">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/OtveSSCT5gY"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+      
       Rabbit and Steel
       <div className="w-100">
         <div className="py-3">
