@@ -90,7 +90,95 @@ export function OOPL_2025() {
       </div>
     </div>
 
+    <div className="row">
+      <div className="col-md-6 py-3">
+        <h3>#6 超級瑪莉歐</h3>
+        <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/P7z0_l-20Nw"
+            title="#6 超級瑪莉歐"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
     
+      <div className="col-md-6 py-3">
+        <h3>#7 Arkanoid</h3>
+        <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/Ub7ujTLzSkE"
+            title="#7 Arkanoid"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div className="row">
+      <div className="col-md-6 py-3">
+        <h3>#8 LINE POP2</h3>
+        <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/XHcvAJtkjbQ"
+            title="#8 LINE POP2"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+    
+      <div className="col-md-6 py-3">
+        <h3>#9 StreetFighter2</h3>
+        <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/O0-6IK6S8dQ"
+            title="#9 StreetFighter2"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div className="row">
+      <div className="col-md-6 py-3">
+        <h3>#10 超級瑪莉歐</h3>
+        <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/P7z0_l-20Nw"
+            title="#10 超級瑪莉歐"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+    
+      <div className="col-md-6 py-3">
+        <h3>#11 Slay the Spire</h3>
+        <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/XV8XC-iT5PU"
+            title="#11 Slay the Spire"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
 
       
       
@@ -124,35 +212,7 @@ export function OOPL_2025() {
       </div>
     </div>
 
-      <div className="row">
-      <div className="col-md-6 py-3">
-        <h3>超級瑪莉歐</h3>
-        <div className="ratio ratio-16x9">
-          <iframe
-            src="https://www.youtube.com/embed/XHkqqkJC4ww"
-            title="Cat Mario"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          ></iframe>
-        </div>
-      </div>
-    
-      <div className="col-md-6 py-3">
-        <h3>超級瑪莉歐</h3>
-        <div className="ratio ratio-16x9">
-          <iframe
-            src="https://www.youtube.com/embed/P7z0_l-20Nw"
-            title="超級瑪莉歐"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          ></iframe>
-        </div>
-      </div>
-    </div>
+      
 
       貓利歐 Cat Mario
       <div className="w-100">
