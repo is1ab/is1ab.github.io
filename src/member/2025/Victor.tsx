@@ -33,6 +33,7 @@ export const VictorMemberPage = () => {
             experiences={raceExperiences}
             certificates={certificates}
             participates={participates}
+            presentations={presentations}
             intern={internExperiences}
             journals={journals}
             conferences={conferences}
