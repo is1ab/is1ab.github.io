@@ -59,6 +59,40 @@ export function OOPL_2025() {
         </div>
       </div>
     </div>
+
+    <div className="row">
+      <div className="col-md-6 py-3">
+        <h3>#3 雪人兄弟</h3>
+        <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/BZr6w2DVpQE"
+            title="#3 雪人兄弟"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+    
+      <div className="col-md-6 py-3">
+        <h3>#4 Pico Park</h3>
+        <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/yOhditHyBEQ"
+            title="#4 Pico Park"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    
+
+      
       
       <div className="row">
       <div className="col-md-6 py-3">
