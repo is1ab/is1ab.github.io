@@ -239,6 +239,96 @@ export function OOPL_2025() {
         </div>
       </div>
     </div>
+
+    <div className="row">
+      <div className="col-md-6 py-3">
+        <h3>#18 Bloons Tower Defense 3</h3>
+        <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/T9QNXvGoIfM"
+            title="#18 Bloons Tower Defense 3"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+    
+      <div className="col-md-6 py-3">
+        <h3>#19 沙威瑪傳奇</h3>
+        <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/5_GH_TfVqAY"
+            title="#19 沙威瑪傳奇"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div className="row">
+      <div className="col-md-6 py-3">
+        <h3>#20 黃金礦工</h3>
+        <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/yMarf-kNIkg"
+            title="#20 黃金礦工"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+    
+      <div className="col-md-6 py-3">
+        <h3>#21 Celeste Pico-8</h3>
+        <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/hH6onAsK5Ow"
+            title="#21 Celeste Pico-8"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div className="row">
+      <div className="col-md-6 py-3">
+        <h3>#22 冰火姐弟</h3>
+        <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/CBtPHynjq-k"
+            title="#22 冰火姐弟"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+    
+      <div className="col-md-6 py-3">
+        <h3>#23 Raiden V</h3>
+        <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/OtveSSCT5gY"
+            title="#23 Raiden V"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
       
       
       <div className="row">
@@ -292,38 +382,6 @@ export function OOPL_2025() {
 
       
 
-      
-      Celeste Pico-8
-      <div className="w-100">
-        <div className="py-3">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/hH6onAsK5Ow"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          ></iframe>
-        </div>
-      </div>
-      
-      Raiden V
-      <div className="w-100">
-        <div className="py-3">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/OtveSSCT5gY"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          ></iframe>
-        </div>
-      </div>
       
       Rabbit and Steel
       <div className="w-100">
