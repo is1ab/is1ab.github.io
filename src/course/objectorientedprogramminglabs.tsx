@@ -19,13 +19,7 @@ export function ObjectOrientedProgrammingLabs () {
       <div className="p-3 w-100" style={{ backgroundColor: "#7a1b1b" }}>
         <h5 className="fw-bold text-white m-0">課程內容</h5>
       </div>
-      
-      <div className="py-3 d-flex flex-column gap-3">
-        <li>遊戲程式設計與製作</li>
-        <li>學生自提物件導向專案</li>
-        <li>Object Oriented Programming</li>
-      </div>
-
+           
       <div className="w-100">
         <div className="py-3">
           <iframe
