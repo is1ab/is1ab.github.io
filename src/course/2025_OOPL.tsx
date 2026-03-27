@@ -180,6 +180,36 @@ export function OOPL_2025() {
       </div>
     </div>
 
+    <div className="row">
+      <div className="col-md-6 py-3">
+        <h3>#12 冰火姐弟</h3>
+        <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/t9KLGEF88u0"
+            title="#12 冰火姐弟"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+    
+      <div className="col-md-6 py-3">
+        <h3>#15 Dead Cells</h3>
+        <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/bTPk2EICwvU"
+            title="#15 Dead Cells"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
       
       
       <div className="row">
@@ -230,37 +260,9 @@ export function OOPL_2025() {
         </div>
       </div>
       
-      Slay the Spire
-      <div className="w-100">
-        <div className="py-3">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/XV8XC-iT5PU"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          ></iframe>
-        </div>
-      </div>
+
       
-      Dead Cells
-      <div className="w-100">
-        <div className="py-3">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/bTPk2EICwvU"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          ></iframe>
-        </div>
-      </div>
+
       
       Celeste Pico-8
       <div className="w-100">
