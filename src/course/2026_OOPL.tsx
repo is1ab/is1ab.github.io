@@ -13,17 +13,14 @@ export function OOPL_2026() {
         <li><a href="mailto:t112820018@ntut.org.tw"> 許景喬</a></li>
         <li><a href="mailto:t112590022@ntut.org.tw"> 陳駿逸</a></li>
       </div>
-            
-    </div>
-      
+                  
       <div className="p-3 w-100" style={{ backgroundColor: "#7a1b1b" }}>
         <h5 className="fw-bold text-white m-0">學期成績</h5>
       </div>
       
       <div className="py-3 d-flex flex-column gap-3">
         <li>進行中</li>
-      </div>
-                  
+      </div>             
     </div>
   );
 }
