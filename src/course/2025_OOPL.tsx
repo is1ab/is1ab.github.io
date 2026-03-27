@@ -30,6 +30,35 @@ export function OOPL_2025() {
         <h5 className="fw-bold text-white m-0">成果展示</h5>
       </div>
 
+      <div className="row">
+      <div className="col-md-6 py-3">
+        <h3>超級瑪莉歐</h3>
+        <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/XHkqqkJC4ww"
+            title="Cat Mario"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+    
+      <div className="col-md-6 py-3">
+        <h3>Slay the Spire</h3>
+        <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/P7z0_l-20Nw"
+            title="超級瑪莉歐"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
 
       貓利歐 Cat Mario
       <div className="w-100">
