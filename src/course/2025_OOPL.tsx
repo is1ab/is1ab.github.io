@@ -32,6 +32,36 @@ export function OOPL_2025() {
 
       <div className="row">
       <div className="col-md-6 py-3">
+        <h3>SCP Roguelike</h3>
+        <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/wxYOaH_ceoM"
+            title="SCP Roguelike"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+    
+      <div className="col-md-6 py-3">
+        <h3>VVVVVV Demo</h3>
+        <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/qOoaAq9HqYU"
+            title="VVVVVV Demo"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+      <div className="row">
+      <div className="col-md-6 py-3">
         <h3>超級瑪莉歐</h3>
         <div className="ratio ratio-16x9">
           <iframe
@@ -46,7 +76,7 @@ export function OOPL_2025() {
       </div>
     
       <div className="col-md-6 py-3">
-        <h3>Slay the Spire</h3>
+        <h3>超級瑪莉歐</h3>
         <div className="ratio ratio-16x9">
           <iframe
             src="https://www.youtube.com/embed/P7z0_l-20Nw"
