@@ -155,7 +155,7 @@ export function OOPL_2025() {
         <h3>#10 超級瑪莉歐</h3>
         <div className="ratio ratio-16x9">
           <iframe
-            src="https://www.youtube.com/embed/P7z0_l-20Nw"
+            src="https://www.youtube.com/embed/XHkqqkJC4ww"
             title="#10 超級瑪莉歐"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -210,6 +210,35 @@ export function OOPL_2025() {
       </div>
     </div>
 
+    <div className="row">
+      <div className="col-md-6 py-3">
+        <h3>#16 像素探險</h3>
+        <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/0cSFS_ESCHQ"
+            title="#16 像素探險"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+    
+      <div className="col-md-6 py-3">
+        <h3>#17 Helltaker</h3>
+        <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/vXxkwkVXeFc"
+            title="#17 Helltaker"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
       
       
       <div className="row">
