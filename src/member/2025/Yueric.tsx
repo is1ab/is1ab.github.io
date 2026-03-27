@@ -3,7 +3,12 @@ import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParti
 
 export const YuericMemberPage = () => {
     const bio = "我是劉章佑。"
-    const certificates: MemberCertificateType[] = []
+    const certificates: MemberCertificateType[] = [
+        {
+            title: "iPAS 資訊安全工程師-初級能力鑑定",
+            datetime: "2025.12.31"
+        }
+    ]
     const competitionExperiences: MemberCompetitionExperienceType[] = [
         {
             title: "2024 CGGC 網路守護者挑戰賽CTF ",
