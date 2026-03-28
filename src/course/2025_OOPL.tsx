@@ -395,7 +395,7 @@ export function OOPL_2025() {
         <h3>#29 貓利歐 Cat Mario</h3>
         <div className="ratio ratio-16x9">
           <iframe
-            src="https://www.youtube.com/embed/i5H0XvVr9jw"
+            src="https://www.youtube.com/embed/mS1RqoxvgCo"
             title="#29 貓利歐 Cat Mario"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -409,7 +409,7 @@ export function OOPL_2025() {
         <h3>#30 小朋友下樓梯</h3>
         <div className="ratio ratio-16x9">
           <iframe
-            src="https://www.youtube.com/embed/mS1RqoxvgCo"
+            src="https://www.youtube.com/embed/g2Ito6cd91Y"
             title="#30 小朋友下樓梯"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -420,16 +420,13 @@ export function OOPL_2025() {
       </div>
     </div>
 
-      
-      
-      
-      <div className="row">
+    <div className="row">
       <div className="col-md-6 py-3">
-        <h3>SCP Roguelike</h3>
+        <h3>#31 Rabbit and Steel</h3>
         <div className="ratio ratio-16x9">
           <iframe
-            src="https://www.youtube.com/embed/wxYOaH_ceoM"
-            title="SCP Roguelike"
+            src="https://www.youtube.com/embed/RVeaaazQheM"
+            title="#31 Rabbit and Steel"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -439,11 +436,11 @@ export function OOPL_2025() {
       </div>
     
       <div className="col-md-6 py-3">
-        <h3>VVVVVV Demo</h3>
+        <h3>#32 SCP Roguelike</h3>
         <div className="ratio ratio-16x9">
           <iframe
-            src="https://www.youtube.com/embed/qOoaAq9HqYU"
-            title="VVVVVV Demo"
+            src="https://www.youtube.com/embed/wxYOaH_ceoM"
+            title="#32 SCP Roguelike"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -452,8 +449,71 @@ export function OOPL_2025() {
         </div>
       </div>
     </div>
+
+    <div className="row">
+      <div className="col-md-6 py-3">
+        <h3>#33 Dino Shift</h3>
+        <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/XKKt7C5M2ig"
+            title="#33 Dino Shift"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+    
+      <div className="col-md-6 py-3">
+        <h3>#34 Helltaker</h3>
+        <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/bflfTjVDzi0"
+            title="#34 Helltaker"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div className="row">
+      <div className="col-md-6 py-3">
+        <h3>#35 I Wanna Be The Boshy</h3>
+        <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/uKUJtmAFQcQ"
+            title="#35 I Wanna Be The Boshy"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+    
+      <div className="col-md-6 py-3">
+        <h3>#36 イニシエダンジョン</h3>
+        <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/9JW75WmcZj0"
+            title="#36 イニシエダンジョン"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+      
+      
+      
   
-      Rabbit and Steel
+      VVVVVV Demo/qOoaAq9HqYU
       <div className="w-100">
         <div className="py-3">
           <iframe
