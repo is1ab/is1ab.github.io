@@ -1,133 +1,69 @@
-import { useState } from "react"
+import { useState } from "react";
 
-type ActivityCardProps = {
-  imgSrc: string
-  title: string
-  description: string
-  subTitle: string
-  link?: string
-}
-
-export const ActivityCard = ({
-  imgSrc,
-  title,
-  description,
-  subTitle,
-  link,
-}: ActivityCardProps) => {
-  const [expanded, setExpanded] = useState(false)
+function YouTubeLiteCard({ videoId, title }) {
+  const [loaded, setLoaded] = useState(false);
+  const thumbnail = `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
 
   return (
-    <div
-      className="rounded overflow-hidden border"
-      style={{
-        backgroundColor: "#424242",
-        borderColor: "#7a1b1b",
-      }}
-    >
-      <div className="row g-0">
-        <div className="col-12 col-lg-5">
-          <div className="p-3 p-md-4 h-100 d-flex align-items-center">
+    <div className="col-md-6 py-3">
+      <h3>{title}</h3>
+
+      <div
+        className="ratio ratio-16x9 rounded overflow-hidden position-relative"
+        style={{ backgroundColor: "#111", cursor: "pointer" }}
+      >
+        {!loaded ? (
+          <button
+            type="button"
+            onClick={() => setLoaded(true)}
+            className="w-100 h-100 border-0 p-0 position-relative"
+            style={{ background: "none" }}
+            aria-label={`播放 ${title}`}
+          >
             <img
-              src={imgSrc}
+              src={thumbnail}
               alt={title}
-              className="img-fluid rounded w-100"
-              style={{
-                aspectRatio: "16 / 9",
-                objectFit: "cover",
-              }}
+              loading="lazy"
+              className="w-100 h-100"
+              style={{ objectFit: "cover" }}
             />
-          </div>
-        </div>
 
-        <div className="col-12 col-lg-7">
-          <div className="p-3 p-md-4 h-100 d-flex flex-column justify-content-center">
-            <div className="mb-3">
-              <h5 className="fw-bold mb-2" style={{ color: "#d32f2f" }}>
-                {link ? (
-                  <a
-                    href={link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-decoration-none"
-                    style={{ color: "#d32f2f" }}
-                  >
-                    {title}
-                  </a>
-                ) : (
-                  title
-                )}
-              </h5>
-
-              {subTitle && (
-                <div
-                  className="mb-3"
-                  style={{
-                    color: "#dddddd",
-                    fontSize: "0.95rem",
-                    fontStyle: "italic",
-                    fontWeight: 400,
-                  }}
-                >
-                  {subTitle}
-                </div>
-              )}
+            <div
+              className="position-absolute top-50 start-50 translate-middle d-flex align-items-center justify-content-center rounded-circle"
+              style={{
+                width: 72,
+                height: 72,
+                backgroundColor: "rgba(0,0,0,0.65)",
+                color: "#fff",
+                fontSize: 28,
+              }}
+            >
+              ▶
             </div>
 
-            <p
-              className="text-white mb-2"
-              style={
-                expanded
-                  ? {
-                      lineHeight: 1.8,
-                      wordBreak: "break-word",
-                    }
-                  : {
-                      lineHeight: 1.8,
-                      wordBreak: "break-word",
-                      display: "-webkit-box",
-                      WebkitLineClamp: 4,
-                      WebkitBoxOrient: "vertical",
-                      overflow: "hidden",
-                    }
-              }
-            >
-              {description}
-            </p>
-
-            <button
-              type="button"
-              onClick={() => setExpanded(!expanded)}
-              className="btn btn-sm align-self-start px-0"
+            <div
+              className="position-absolute bottom-0 start-0 end-0 text-white p-2"
               style={{
-                color: "#ffb3b3",
-                border: "none",
-                background: "transparent",
+                background:
+                  "linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0))",
+                textAlign: "left",
               }}
             >
-              {expanded ? "收起全文" : "查看全文..."}
-            </button>
-
-            {link && (
-              <div className="mt-3">
-                <a
-                  href={link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-sm"
-                  style={{
-                    backgroundColor: "#7a1b1b",
-                    color: "#fff",
-                    border: "none",
-                  }}
-                >
-                  查看課程
-                </a>
-              </div>
-            )}
-          </div>
-        </div>
+              {title}
+            </div>
+          </button>
+        ) : (
+          <iframe
+            src={`https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`}
+            title={title}
+            loading="lazy"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          />
+        )}
       </div>
     </div>
-  )
+  );
 }
