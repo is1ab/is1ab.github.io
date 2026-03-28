@@ -39,13 +39,13 @@ export function ObjectOrientedProgrammingLabs () {
         <h5 className="fw-bold text-white m-0">歷年優秀作品</h5>
       </div>
 
-      <div className="w-100">
-        <div className="py-3">
+      <div className="row">
+      <div className="col-md-6 py-3">
+        <h3>113-2 #39 元氣騎士</h3>
+        <div className="ratio ratio-16x9">
           <iframe
-            width="560"
-            height="315"
             src="https://www.youtube.com/embed/LZhon1BUfaY"
-            title="YouTube video player"
+            title="113-2 #39 元氣騎士"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -53,21 +53,21 @@ export function ObjectOrientedProgrammingLabs () {
           ></iframe>
         </div>
       </div>
-
-      <div className="w-100">
-        <div className="py-3">
+    
+      <div className="col-md-6 py-3">
+        <h3>113-2 #9 StreetFighter2</h3>
+        <div className="ratio ratio-16x9">
           <iframe
-            width="560"
-            height="315"
             src="https://www.youtube.com/embed/O0-6IK6S8dQ"
-            title="YouTube video player"
+            title="113-2 #9 StreetFighter2"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
           ></iframe>
         </div>
-      </div>    
+      </div>
+    </div>
 
       <div className="p-3 w-100" style={{ backgroundColor: "#7a1b1b" }}>
         <h5 className="fw-bold text-white m-0">歷年開課記錄</h5>
