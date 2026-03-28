@@ -59,22 +59,11 @@ export function OOPL_2025() {
         <h5 className="fw-bold text-white m-0">學期成績</h5>
       </div>
       
-      <div className="py-3 d-flex flex-column gap-3">
-        <li>修課人數: 87 人</li>
-        <li>及格人數: 84 人</li>
-        <li>最高分數: 100 分</li>
-        <li>最低分數: 0 分</li>
-        <li>平均分數: 92.07 分</li>
-      </div>
-
-      <div className="p-3 w-100" style={{ backgroundColor: "#7a1b1b" }}>
-        <h5 className="fw-bold text-white m-0">學期成績</h5>
-      </div>
-      
       <div className="row g-3 py-3">
         {[
           { label: "修課人數", value: "87", unit: "人" },
           { label: "及格人數", value: "84", unit: "人" },
+          { label: "通過率", value: "96.55", unit: "%" },
           { label: "最高分數", value: "100", unit: "分" },
           { label: "最低分數", value: "0", unit: "分" },
           { label: "平均分數", value: "92.07", unit: "分", highlight: true },
