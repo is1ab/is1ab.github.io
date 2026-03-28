@@ -59,7 +59,18 @@ export const ActivityCard = ({
                 )}
               </h5>
 
-              {subTitle && <div className="text-white fs-5">{subTitle}</div>}
+              {subTitle && (
+                <div
+                  className="text-white mb-2"
+                  style={{
+                    fontSize: "0.95rem",
+                    fontStyle: "italic",
+                    opacity: 0.9,
+                  }}
+                >
+                  {subTitle}
+                </div>
+              )}
             </div>
 
             <p
