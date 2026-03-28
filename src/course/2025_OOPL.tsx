@@ -11,47 +11,78 @@ function YouTubeLiteCard({ videoId, title }: YouTubeLiteCardProps) {
 
   return (
     <div className="col-12 col-md-6 py-3">
-      <h3>{title}</h3>
+      <h3 style={{ color: "red" }}>{title}</h3>
 
       <div
-        className="ratio ratio-16x9 rounded overflow-hidden position-relative"
-        style={{ backgroundColor: "#111", cursor: "pointer" }}
+        style={{
+          position: "relative",
+          width: "100%",
+          paddingTop: "56.25%", // 16:9
+          backgroundColor: "#111",
+          borderRadius: "8px",
+          overflow: "hidden",
+        }}
       >
         {!loaded ? (
           <button
             type="button"
             onClick={() => setLoaded(true)}
-            className="w-100 h-100 border-0 p-0 position-relative"
-            style={{ background: "none" }}
             aria-label={`播放 ${title}`}
+            style={{
+              position: "absolute",
+              inset: 0,
+              width: "100%",
+              height: "100%",
+              border: "none",
+              padding: 0,
+              background: "transparent",
+              cursor: "pointer",
+            }}
           >
             <img
               src={thumbnail}
               alt={title}
               loading="lazy"
-              className="w-100 h-100"
-              style={{ objectFit: "cover" }}
+              style={{
+                position: "absolute",
+                inset: 0,
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+              }}
             />
 
             <div
-              className="position-absolute top-50 start-50 translate-middle d-flex align-items-center justify-content-center rounded-circle"
               style={{
-                width: 72,
-                height: 72,
+                position: "absolute",
+                top: "50%",
+                left: "50%",
+                transform: "translate(-50%, -50%)",
+                width: "72px",
+                height: "72px",
+                borderRadius: "999px",
                 backgroundColor: "rgba(0,0,0,0.65)",
                 color: "#fff",
-                fontSize: 28,
+                fontSize: "28px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
               }}
             >
               ▶
             </div>
 
             <div
-              className="position-absolute bottom-0 start-0 end-0 text-white p-2"
               style={{
-                background:
-                  "linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0))",
+                position: "absolute",
+                left: 0,
+                right: 0,
+                bottom: 0,
+                color: "#fff",
+                padding: "10px 12px",
                 textAlign: "left",
+                background:
+                  "linear-gradient(to top, rgba(0,0,0,0.85), rgba(0,0,0,0))",
               }}
             >
               {title}
@@ -62,10 +93,16 @@ function YouTubeLiteCard({ videoId, title }: YouTubeLiteCardProps) {
             src={`https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`}
             title={title}
             loading="lazy"
-            frameBorder={0}
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
+            style={{
+              position: "absolute",
+              inset: 0,
+              width: "100%",
+              height: "100%",
+              border: 0,
+            }}
           />
         )}
       </div>
@@ -76,14 +113,14 @@ function YouTubeLiteCard({ videoId, title }: YouTubeLiteCardProps) {
 export function OOPL_2025() {
   const videos: YouTubeLiteCardProps[] = [
     { title: "#1 推箱子", videoId: "laPKN_hNAds" },
-    { title: "#2 植物大戰僵屍", videoId: "54DPezZiEIg" },
+    { title: "#2 植物大戰殭屍", videoId: "54DPezZiEIg" },
     { title: "#3 雪人兄弟", videoId: "BZr6w2DVpQE" },
     { title: "#4 Pico Park", videoId: "yOhditHyBEQ" },
   ];
 
   return (
     <div className="d-flex flex-column gap-3">
-      <h4 className="text-center">
+      <h4 className="text-center" style={{ color: "red" }}>
         113-1 物件導向程式設計實習 Object-Oriented Programming Labs
       </h4>
 
