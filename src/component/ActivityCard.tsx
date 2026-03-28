@@ -69,6 +69,10 @@ export const ActivityCard = ({
               style={{
                 lineHeight: 1.8,
                 wordBreak: "break-word",
+                display: "-webkit-box",
+                WebkitLineClamp: 4,
+                WebkitBoxOrient: "vertical",
+                overflow: "hidden",
               }}
             >
               {description}
