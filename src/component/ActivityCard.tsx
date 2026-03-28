@@ -61,11 +61,12 @@ export const ActivityCard = ({
 
               {subTitle && (
                 <div
-                  className="text-white mb-2"
+                  className="mb-3"
                   style={{
+                    color: "#dddddd",
                     fontSize: "0.95rem",
                     fontStyle: "italic",
-                    opacity: 0.9,
+                    fontWeight: 400,
                   }}
                 >
                   {subTitle}
