@@ -1,5 +1,3 @@
-import { Image } from "antd"
-
 type ActivityCardProps = {
   imgSrc: string
   title: string
