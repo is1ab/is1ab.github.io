@@ -66,17 +66,7 @@ export function ObjectOrientedProgrammingLabs () {
             allowFullScreen
           ></iframe>
         </div>
-      </div>
-    </div>
-
-      <div className="p-3 w-100" style={{ backgroundColor: "#7a1b1b" }}>
-        <h5 className="fw-bold text-white m-0">歷年開課記錄</h5>
-      </div>
-      
-      <div className="py-3 d-flex flex-column gap-3">
-        <li><a href="https://is1ab.com/#/Course/2026/OOPL">114-2 (進行中)</a></li>
-        <li><a href="https://is1ab.com/#/Course/2025/OOPL">113-2 (教學評鑑: 4.29/5 分，填答率: 91 %)</a></li>
-        <li><a href="https://is1ab.com/#/Course/2024/OOPL">112-2 (教學評鑑: 4.52/5 分，填答率: 85 %)</a></li>
+        </div>
       </div>
 
       <div className="p-3 w-100" style={{ backgroundColor: "#7a1b1b" }}>
