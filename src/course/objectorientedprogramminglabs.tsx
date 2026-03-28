@@ -20,13 +20,12 @@ export function ObjectOrientedProgrammingLabs () {
         <h5 className="fw-bold text-white m-0">課程內容</h5>
       </div>
            
-      <div className="w-100">
-        <div className="py-3">
+    
+      <div className="col-md-6 py-3">
+        <div className="ratio ratio-16x9">
           <iframe
-            width="560"
-            height="315"
             src="https://www.youtube.com/embed/hBlL-MzIP4w"
-            title="YouTube video player"
+            title="課程介紹"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
