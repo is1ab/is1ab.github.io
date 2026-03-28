@@ -102,6 +102,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/laPKN_hNAds"
             title="#1 推箱子"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -116,6 +117,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/54DPezZiEIg"
             title="#2 植物大戰僵屍"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -132,6 +134,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/BZr6w2DVpQE"
             title="#3 雪人兄弟"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -146,6 +149,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/yOhditHyBEQ"
             title="#4 Pico Park"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -162,6 +166,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/P7z0_l-20Nw"
             title="#6 超級瑪莉歐"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -176,6 +181,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/Ub7ujTLzSkE"
             title="#7 Arkanoid"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -192,6 +198,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/XHcvAJtkjbQ"
             title="#8 LINE POP2"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -206,6 +213,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/O0-6IK6S8dQ"
             title="#9 StreetFighter2"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -222,6 +230,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/XHkqqkJC4ww"
             title="#10 超級瑪莉歐"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -236,6 +245,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/XV8XC-iT5PU"
             title="#11 Slay the Spire"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -252,6 +262,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/t9KLGEF88u0"
             title="#12 冰火姐弟"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -266,6 +277,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/bTPk2EICwvU"
             title="#15 Dead Cells"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -282,6 +294,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/0cSFS_ESCHQ"
             title="#16 像素探險"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -296,6 +309,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/vXxkwkVXeFc"
             title="#17 Helltaker"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -312,6 +326,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/T9QNXvGoIfM"
             title="#18 Bloons Tower Defense 3"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -326,6 +341,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/5_GH_TfVqAY"
             title="#19 沙威瑪傳奇"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -342,6 +358,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/yMarf-kNIkg"
             title="#20 黃金礦工"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -356,6 +373,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/hH6onAsK5Ow"
             title="#21 Celeste Pico-8"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -372,6 +390,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/CBtPHynjq-k"
             title="#22 冰火姐弟"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -386,6 +405,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/OtveSSCT5gY"
             title="#23 Raiden V"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -402,6 +422,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/LslHtGoy_wo"
             title="#24 魔塔"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -416,6 +437,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/xvRnfvhhz-E"
             title="#25 弓箭傳說"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -432,6 +454,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/i5H0XvVr9jw"
             title="#27 壞壞冰淇淋"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -446,6 +469,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/QrT6H2gMbCs"
             title="#28 要塞守護"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -462,6 +486,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/mS1RqoxvgCo"
             title="#29 貓利歐 Cat Mario"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -476,6 +501,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/g2Ito6cd91Y"
             title="#30 小朋友下樓梯"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -492,6 +518,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/RVeaaazQheM"
             title="#31 Rabbit and Steel"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -506,6 +533,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/wxYOaH_ceoM"
             title="#32 SCP Roguelike"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -522,6 +550,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/XKKt7C5M2ig"
             title="#33 Dino Shift"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -536,6 +565,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/bflfTjVDzi0"
             title="#34 Helltaker"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -552,6 +582,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/uKUJtmAFQcQ"
             title="#35 I Wanna Be The Boshy"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -566,6 +597,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/9JW75WmcZj0"
             title="#36 イニシエダンジョン"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -582,6 +614,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/ltLw5K6TD8s"
             title="#37 Flappy Bird Go"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -596,6 +629,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/LZhon1BUfaY"
             title="#39 元氣騎士"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -612,6 +646,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/lWxqEgSVthI"
             title="#40 超級瑪莉歐"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -626,6 +661,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/y3yFGmxWhbA"
             title="#41 Jetpack Joyride"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -642,6 +678,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/tLQgQC-pIkI"
             title="#42 倉庫番"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -656,6 +693,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/UxZ2-Vs2tzw"
             title="#41 植物大戰殭屍"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -672,6 +710,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/qOoaAq9HqYU"
             title="#45 VVVVVV Demo"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -686,6 +725,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/6xeqeABhcvE"
             title="#46 植物大戰殭屍"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -702,6 +742,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/XS8yBWl7c9A"
             title="#42 Angry Birds"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -716,6 +757,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/k_43rDtv_Qs"
             title="#49 惡魔城 Castlevania"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -732,6 +774,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/pXl74VS701E"
             title="#50 Bloons Tower Defense 2"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -746,6 +789,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/aCL4wka4cNI"
             title="#51 超級瑪莉歐"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -762,6 +806,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/T1_pv5pJkD8"
             title="#52 超級瑪莉歐"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -776,6 +821,7 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/Q3FFleOX7EA"
             title="#55 Helltaker"
+            loading="lazy"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
