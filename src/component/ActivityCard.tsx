@@ -1,3 +1,5 @@
+import { useState } from "react"
+
 type ActivityCardProps = {
   imgSrc: string
   title: string
@@ -13,6 +15,8 @@ export const ActivityCard = ({
   subTitle,
   link,
 }: ActivityCardProps) => {
+  const [expanded, setExpanded] = useState(false)
+
   return (
     <div
       className="rounded overflow-hidden border"
@@ -22,7 +26,6 @@ export const ActivityCard = ({
       }}
     >
       <div className="row g-0">
-        {/* 圖片區 */}
         <div className="col-12 col-lg-5">
           <div className="p-3 p-md-4 h-100 d-flex align-items-center">
             <img
@@ -37,7 +40,6 @@ export const ActivityCard = ({
           </div>
         </div>
 
-        {/* 文字區 */}
         <div className="col-12 col-lg-7">
           <div className="p-3 p-md-4 h-100 d-flex flex-column justify-content-center">
             <div className="mb-3">
@@ -57,26 +59,42 @@ export const ActivityCard = ({
                 )}
               </h5>
 
-              {subTitle && (
-                <div className="text-white fs-5">
-                  {subTitle}
-                </div>
-              )}
+              {subTitle && <div className="text-white fs-5">{subTitle}</div>}
             </div>
 
             <p
-              className="text-white mb-0"
-              style={{
-                lineHeight: 1.8,
-                wordBreak: "break-word",
-                display: "-webkit-box",
-                WebkitLineClamp: 4,
-                WebkitBoxOrient: "vertical",
-                overflow: "hidden",
-              }}
+              className="text-white mb-2"
+              style={
+                expanded
+                  ? {
+                      lineHeight: 1.8,
+                      wordBreak: "break-word",
+                    }
+                  : {
+                      lineHeight: 1.8,
+                      wordBreak: "break-word",
+                      display: "-webkit-box",
+                      WebkitLineClamp: 4,
+                      WebkitBoxOrient: "vertical",
+                      overflow: "hidden",
+                    }
+              }
             >
               {description}
             </p>
+
+            <button
+              type="button"
+              onClick={() => setExpanded(!expanded)}
+              className="btn btn-sm align-self-start px-0"
+              style={{
+                color: "#ffb3b3",
+                border: "none",
+                background: "transparent",
+              }}
+            >
+              {expanded ? "收起全文" : "查看更多"}
+            </button>
 
             {link && (
               <div className="mt-3">
