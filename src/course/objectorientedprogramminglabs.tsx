@@ -78,6 +78,88 @@ export function ObjectOrientedProgrammingLabs () {
         <li><a href="https://is1ab.com/#/Course/2025/OOPL">113-2 (教學評鑑: 4.29/5 分，填答率: 91 %)</a></li>
         <li><a href="https://is1ab.com/#/Course/2024/OOPL">112-2 (教學評鑑: 4.52/5 分，填答率: 85 %)</a></li>
       </div>
+
+      <div className="p-3 w-100" style={{ backgroundColor: "#7a1b1b" }}>
+        <h5 className="fw-bold text-white m-0">歷年開課記錄</h5>
+      </div>
+      
+      <div className="row g-3 py-3">
+        {[
+          {
+            term: "114-2",
+            status: "進行中",
+            href: "https://is1ab.com/#/Course/2026/OOPL",
+          },
+          {
+            term: "113-2",
+            evaluation: "4.29 / 5",
+            responseRate: "91%",
+            href: "https://is1ab.com/#/Course/2025/OOPL",
+          },
+          {
+            term: "112-2",
+            evaluation: "4.52 / 5",
+            responseRate: "85%",
+            href: "https://is1ab.com/#/Course/2024/OOPL",
+          },
+        ].map((item, idx) => (
+          <div className="col-12 col-md-6 col-lg-4" key={idx}>
+            <a
+              href={item.href}
+              className="text-decoration-none"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div
+                className="h-100 p-3 rounded-3 border"
+                style={{
+                  backgroundColor: "#111",
+                  borderColor: "#7a1b1b",
+                  transition: "0.2s",
+                }}
+              >
+                <div className="d-flex justify-content-between align-items-start mb-3">
+                  <h6 className="fw-bold text-white m-0">{item.term}</h6>
+                  {item.status ? (
+                    <span
+                      className="px-2 py-1 rounded-pill small"
+                      style={{
+                        backgroundColor: "#7a1b1b",
+                        color: "white",
+                      }}
+                    >
+                      {item.status}
+                    </span>
+                  ) : (
+                    <span className="text-secondary small">已結束</span>
+                  )}
+                </div>
+      
+                {item.evaluation && (
+                  <div className="mb-2">
+                    <div className="text-secondary small">教學評鑑</div>
+                    <div className="text-white fw-bold">{item.evaluation}</div>
+                  </div>
+                )}
+      
+                {item.responseRate && (
+                  <div className="mb-3">
+                    <div className="text-secondary small">填答率</div>
+                    <div className="text-white fw-bold">{item.responseRate}</div>
+                  </div>
+                )}
+      
+                <div
+                  className="small fw-semibold"
+                  style={{ color: "#ffb3b3" }}
+                >
+                  查看課程 →
+                </div>
+              </div>
+            </a>
+          </div>
+        ))}
+      </div>
             
     </div>
   );
