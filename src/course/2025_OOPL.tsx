@@ -61,9 +61,9 @@ export function OOPL_2025() {
       
       <div className="row g-3 py-3">
         {[
-          { label: "修課人數", value: "87", unit: "人" },
+          { label: "修課人數", value: "95", unit: "人" },
           { label: "及格人數", value: "84", unit: "人" },
-          { label: "通過率", value: "96.55", unit: "%" },
+          { label: "通過率", value: "88.42", unit: "%" },
           { label: "最高分數", value: "100", unit: "分" },
           { label: "最低分數", value: "0", unit: "分" },
           { label: "平均分數", value: "92.07", unit: "分", highlight: true },
