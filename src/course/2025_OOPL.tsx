@@ -13,6 +13,58 @@ export function OOPL_2025() {
         <li><a href="mailto:t111590004@ntut.org.tw"> 張意昌</a></li>
         <li><a href="mailto:t111590009@ntut.org.tw"> 陳世昂</a></li>
       </div>
+
+      <div className="p-3 w-100" style={{ backgroundColor: "#7a1b1b" }}>
+        <h5 className="fw-bold text-white m-0">助教群</h5>
+      </div>
+
+      <div className="row g-3 py-3">
+        {[
+          { name: "黃漢軒", email: "xuan910625.cs13@nycu.edu.tw" },
+          { name: "黃政", email: "t110590003@ntut.org.tw" },
+          { name: "張意昌", email: "t111590004@ntut.org.tw" },
+          { name: "陳世昂", email: "t111590009@ntut.org.tw" },
+        ].map((ta, idx) => (
+          <div className="col-12 col-md-6" key={idx}>
+            <div
+              className="h-100 p-3 rounded-3 border"
+              style={{
+                backgroundColor: "#111",
+                borderColor: "#7a1b1b",
+              }}
+            >
+              <div className="d-flex flex-column gap-2">
+                <div>
+                  <h6 className="mb-1 fw-bold text-white">{ta.name}</h6>
+                  <small className="text-secondary">課程助教</small>
+                </div>
+      
+                <a
+                  href={`mailto:${ta.email}`}
+                  className="text-decoration-none"
+                  style={{ color: "#ffb3b3" }}
+                >
+                  {ta.email}
+                </a>
+      
+                <div>
+                  <a
+                    href={`mailto:${ta.email}`}
+                    className="btn btn-sm"
+                    style={{
+                      backgroundColor: "#7a1b1b",
+                      color: "white",
+                      border: "none",
+                    }}
+                  >
+                    聯絡助教
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
       
       <div className="p-3 w-100" style={{ backgroundColor: "#7a1b1b" }}>
         <h5 className="fw-bold text-white m-0">學期成績</h5>
