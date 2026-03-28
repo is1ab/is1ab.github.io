@@ -93,7 +93,7 @@ export const ActivityCard = ({
                 background: "transparent",
               }}
             >
-              {expanded ? "收起全文" : "查看更多"}
+              {expanded ? "收起全文" : "查看全文"}
             </button>
 
             {link && (
