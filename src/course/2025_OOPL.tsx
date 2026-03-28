@@ -602,36 +602,6 @@ export function OOPL_2025() {
 
     <div className="row">
       <div className="col-md-6 py-3">
-        <h3>#42 倉庫番</h3>
-        <div className="ratio ratio-16x9">
-          <iframe
-            src="https://www.youtube.com/embed/tLQgQC-pIkI"
-            title="#42 倉庫番"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          ></iframe>
-        </div>
-      </div>
-    
-      <div className="col-md-6 py-3">
-        <h3>#43 植物大戰殭屍</h3>
-        <div className="ratio ratio-16x9">
-          <iframe
-            src="https://www.youtube.com/embed/UxZ2-Vs2tzw"
-            title="#41 植物大戰殭屍"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          ></iframe>
-        </div>
-      </div>
-    </div>
-
-    <div className="row">
-      <div className="col-md-6 py-3">
         <h3>#45 VVVVVV Demo</h3>
         <div className="ratio ratio-16x9">
           <iframe
@@ -651,6 +621,36 @@ export function OOPL_2025() {
           <iframe
             src="https://www.youtube.com/embed/6xeqeABhcvE"
             title="#46 植物大戰殭屍"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div className="row">
+      <div className="col-md-6 py-3">
+        <h3>#48 Angry Birds</h3>
+        <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/XS8yBWl7c9A"
+            title="#42 Angry Birds"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+    
+      <div className="col-md-6 py-3">
+        <h3>#49 惡魔城 Castlevania</h3>
+        <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/k_43rDtv_Qs"
+            title="#49 惡魔城 Castlevania"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
