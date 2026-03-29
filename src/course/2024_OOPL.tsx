@@ -163,7 +163,7 @@ export function OOPL_2024() {
   return (
     <div className="d-flex flex-column gap-3">
       <h4 className="text-center" style={{ color: "red" }}>
-        113-1 物件導向程式設計實習 Object-Oriented Programming Labs
+        112-1 物件導向程式設計實習 Object-Oriented Programming Labs
       </h4>
 
       <div className="p-3 w-100" style={{ backgroundColor: "#7a1b1b" }}>
@@ -174,8 +174,6 @@ export function OOPL_2024() {
         {[
           { name: "黃漢軒", email: "xuan910625.cs13@nycu.edu.tw" },
           { name: "黃政", email: "t110590003@ntut.org.tw" },
-          { name: "張意昌", email: "t111590004@ntut.org.tw" },
-          { name: "陳世昂", email: "t111590009@ntut.org.tw" },
         ].map((ta, idx) => (
           <div className="col-12 col-md-6" key={idx}>
             <div
