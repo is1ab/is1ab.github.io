@@ -133,7 +133,7 @@ export function ObjectOrientedProgrammingLabs () {
                 className="h-100 p-3 rounded-3 border"
                 style={{
                   backgroundColor: "#111",
-                  borderColor: "#07f260",
+                  borderColor: "#7a1b1b",
                   transition: "0.2s",
                 }}
               >
@@ -143,7 +143,7 @@ export function ObjectOrientedProgrammingLabs () {
                     <span
                       className="px-2 py-1 rounded-pill small"
                       style={{
-                        backgroundColor: "#07f260",
+                        backgroundColor: "#16cc5b",
                         color: "white",
                       }}
                     >
