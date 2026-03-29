@@ -112,13 +112,15 @@ function YouTubeLiteCard({ videoId, title }: YouTubeLiteCardProps) {
 
 export function OOPL_2024() {
   const videos: YouTubeLiteCardProps[] = [
-    { title: "#1 推箱子", videoId: "laPKN_hNAds" },
-    { title: "#2 植物大戰殭屍", videoId: "54DPezZiEIg" },
-    { title: "#3 雪人兄弟", videoId: "BZr6w2DVpQE" },
-    { title: "#4 Pico Park", videoId: "yOhditHyBEQ" },
-    { title: "#6 超級瑪莉歐", videoId: "P7z0_l-20Nw" },
-    { title: "#7 Arkanoid", videoId: "Ub7ujTLzSkE" },
-    { title: "#8 LINE POP2", videoId: "XHcvAJtkjbQ" },
+    { title: "#1 貓咪大戰爭", videoId: "Bb6ux2hoFPo" },
+    { title: "#2 推箱子", videoId: "ytFvYNvEOW0" },
+    { title: "#3 They crawled from Uranus", videoId: "2WUOA5ck-ns" },
+    { title: "#4 Jumping Frog", videoId: "sBpbBMIdeYw" },
+    { title: "#5 淘金礦工 Gold Miner", videoId: "8izo9X4ZdQ0" }, 
+    { title: "#6 東方紅魔鄉", videoId: "hAmqBIKF29U" },  
+    { title: "#7 Candy Crush", videoId: "tPFcQoSho3Y" },
+    { title: "#8 雷電 Raiden", videoId: "BXp1YJP-3Ks" },
+    
     { title: "#9 StreetFighter2", videoId: "O0-6IK6S8dQ" },
     { title: "#10 超級瑪莉歐", videoId: "XHkqqkJC4ww" },
     { title: "#11 Slay the Spire", videoId: "XV8XC-iT5PU" },
