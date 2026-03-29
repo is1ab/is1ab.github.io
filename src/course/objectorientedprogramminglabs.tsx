@@ -143,7 +143,7 @@ export function ObjectOrientedProgrammingLabs () {
                     <span
                       className="px-2 py-1 rounded-pill small"
                       style={{
-                        backgroundColor: "#7a1b1b",
+                        backgroundColor: "#07f260",
                         color: "white",
                       }}
                     >
