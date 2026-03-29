@@ -133,7 +133,7 @@ export function ObjectOrientedProgrammingLabs () {
                 className="h-100 p-3 rounded-3 border"
                 style={{
                   backgroundColor: "#111",
-                  borderColor: "#7a1b1b",
+                  borderColor: "#07f260",
                   transition: "0.2s",
                 }}
               >
