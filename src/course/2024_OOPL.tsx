@@ -120,9 +120,9 @@ export function OOPL_2024() {
     { title: "#6 東方紅魔鄉", videoId: "hAmqBIKF29U" },  
     { title: "#7 Candy Crush", videoId: "tPFcQoSho3Y" },
     { title: "#8 雷電 Raiden", videoId: "BXp1YJP-3Ks" },
+    { title: "#12 冰火姊弟", videoId: "gCyHimbEtQ8" },
+    { title: "#13 冰火姊弟", videoId: "SwZG6OKOS2M" },
     
-    { title: "#9 StreetFighter2", videoId: "O0-6IK6S8dQ" },
-    { title: "#10 超級瑪莉歐", videoId: "XHkqqkJC4ww" },
     { title: "#11 Slay the Spire", videoId: "XV8XC-iT5PU" },
     { title: "#12 冰火姐弟", videoId: "t9KLGEF88u0" },
     { title: "#15 Dead Cells", videoId: "bTPk2EICwvU" },
