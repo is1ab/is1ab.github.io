@@ -68,6 +68,36 @@ export function ObjectOrientedProgrammingLabs () {
         </div>
       </div>
 
+      <div className="row">
+      <div className="col-md-6 py-3">
+        <h3>112-2 #P01 洛克人 Rockman</h3>
+        <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/2BGA79PKaZ8"
+            title="112-2 #P01 洛克人 Rockman"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+    
+      <div className="col-md-6 py-3">
+        <h3>112-2 #P04 神奇寶貝</h3>
+        <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/N_w3Zr_4Kcw"
+            title="113-2 #P04 神奇寶貝"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+        </div>
+      </div>
+
       <div className="p-3 w-100" style={{ backgroundColor: "#7a1b1b" }}>
         <h5 className="fw-bold text-white m-0">歷年開課記錄</h5>
       </div>
