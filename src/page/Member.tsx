@@ -1,3 +1,8 @@
+import _483 from "../../assets/member/483.jpg"
+// 之後若有其他照片，照這樣繼續加
+// import _JunAn from "../../assets/member/JunAn.jpg"
+// import _Yueric from "../../assets/member/Yueric.jpg"
+
 type MemberItem = {
   key: string
   name: string
@@ -8,6 +13,7 @@ type MemberItem = {
   experience?: string
   certificate?: string
   website?: string
+  avatar?: string
 }
 
 type UndergraduateGroup = {
@@ -33,7 +39,10 @@ function SectionHeader({
       style={{ backgroundColor: "#7a1b1b" }}
     >
       <h4 className="fw-bold text-white m-0 text-center">
-        {title} <span style={{ fontStyle: "italic", fontWeight: 500 }}>({subtitle})</span>
+        {title}{" "}
+        <span style={{ fontStyle: "italic", fontWeight: 500 }}>
+          ({subtitle})
+        </span>
       </h4>
     </div>
   )
@@ -52,31 +61,48 @@ function MemberCard({ member }: { member: MemberItem }) {
       }}
     >
       <div className="d-flex flex-column gap-3">
-        <div>
-          {member.website ? (
-            <a
-              href={member.website}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-decoration-none fw-bold"
+        <div className="d-flex align-items-center gap-3">
+          {member.avatar && (
+            <img
+              src={member.avatar}
+              alt={member.name}
+              className="rounded-circle"
               style={{
-                color: "#ff4d4f",
-                fontSize: "1.15rem",
+                width: "72px",
+                height: "72px",
+                objectFit: "cover",
+                border: "2px solid #7a1b1b",
+                flexShrink: 0,
               }}
-            >
-              {member.name}
-            </a>
-          ) : (
-            <div
-              className="fw-bold"
-              style={{
-                color: "#ff4d4f",
-                fontSize: "1.15rem",
-              }}
-            >
-              {member.name}
-            </div>
+            />
           )}
+
+          <div>
+            {member.website ? (
+              <a
+                href={member.website}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-decoration-none fw-bold"
+                style={{
+                  color: "#ff4d4f",
+                  fontSize: "1.15rem",
+                }}
+              >
+                {member.name}
+              </a>
+            ) : (
+              <div
+                className="fw-bold"
+                style={{
+                  color: "#ff4d4f",
+                  fontSize: "1.15rem",
+                }}
+              >
+                {member.name}
+              </div>
+            )}
+          </div>
         </div>
 
         {hasJoinInfo && (
@@ -340,6 +366,7 @@ export function Member() {
       experience: "",
       certificate: "實驗室網路管理、WEB組長",
       website: "/#/member/2025/483",
+      avatar: _483,
     },
     {
       key: "14",
