@@ -793,8 +793,8 @@ export function Publication() {
 
           .publication .tag-corresponding {
             color: #fca5a5;
-            background: rgba(252, 165, 165, 0.12);
-            border-color: rgba(252, 165, 165, 0.22);
+            background: rgba(96, 165, 250, 0.12);
+            border-color: rgba(96, 165, 250, 0.24);
           }
 
           .publication .tag-submitted {
