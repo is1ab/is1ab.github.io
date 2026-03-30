@@ -51,15 +51,6 @@ li {
   margin: 0;
 }
 
-.publication ol li {
-  color: white;
-  margin: 0;
-  font-size: calc(0.8rem + 0.3vw) !important;
-  font-weight: 400;
-  line-height: 2;
-  margin: 0;
-}
-
 .experience ul li {
   color: white;
   margin: 0;
@@ -69,15 +60,6 @@ li {
   margin: 0;
 }
 
-.sci {
-  color: #fcb900;
-  font-weight: 700;
-}
-
-.co-first-auther {
-  color: #0693e3;
-  font-weight: 700;
-}
 
 .partner ul li {
   color: white;
@@ -212,11 +194,6 @@ a {
   gap: 1rem;
 }
 
-
-.alternative-journal {
-  color: #4CAF50;
-}
-
 @keyframes scroll {
   0% {
     transform: translateY(0%);
@@ -225,4 +202,27 @@ a {
   100% {
     transform: translateY(-100%);
   }
+}
+
+.publication ol li {
+  color: white;
+  margin: 0;
+  font-size: calc(0.8rem + 0.3vw) !important;
+  font-weight: 400;
+  line-height: 2;
+  margin: 0;
+}
+
+.sci {
+  color: #fcb900;
+  font-weight: 700;
+}
+
+.co-first-auther {
+  color: #0693e3;
+  font-weight: 700;
+}
+
+.alternative-journal {
+  color: #4CAF50;
 }
