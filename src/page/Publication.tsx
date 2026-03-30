@@ -871,7 +871,7 @@ export function Publication() {
         `}
       </style>
 
-      <AuthorLegend />
+      
 
       {sections.map((section, index) => (
         <section className="publication-section" key={section.titleEn}>
