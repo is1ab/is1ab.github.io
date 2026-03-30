@@ -1,5 +1,11 @@
 import _483 from "../assets/member/483.jpg"
 import _Guan4Tou2 from "../assets/member/Guan4Tou2.png"
+import _Rock from "../assets/member/Rock.jpg"
+import _Young from "../assets/logo.png"
+import _Jason from "../assets/member/Win.jpg"
+import Adb2 from "../assets/member/Adb2.jpg"
+import WIFI from "../assets/member/WIFI.jpg"
+
 // 之後若有其他照片，照這樣繼續加
 // import _JunAn from "../../assets/member/JunAn.jpg"
 // import _Yueric from "../../assets/member/Yueric.jpg"
@@ -278,6 +284,7 @@ export function Member() {
       experience: "美國辛辛那提大學 雙聯學位",
       certificate: "",
       website: "/#/Member/2024/Rock",
+      avatar: _Rock,
     },
     {
       key: "4",
@@ -288,6 +295,7 @@ export function Member() {
       experience: "",
       certificate: "",
       website: "/#/Member/2024/Young",
+      avatar: _Young,
     },
     {
       key: "5",
@@ -298,6 +306,7 @@ export function Member() {
       experience: "",
       certificate: "",
       website: "/#/Member/2024/Win",
+      avatar: _Win,
     },
     {
       key: "6",
@@ -308,6 +317,7 @@ export function Member() {
       experience: "",
       certificate: "",
       website: "/#/Member/2024/Adb2",
+      avatar: _Adb2,
     },
     {
       key: "7",
@@ -318,6 +328,7 @@ export function Member() {
       experience: "",
       certificate: "",
       website: "/#/Member/2024/WIFI",
+      avatar: _WIFI,
     },
     {
       key: "8",
