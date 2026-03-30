@@ -794,8 +794,8 @@ export function Publication() {
           
           .publication .tag-sjr {
             color: #ffffff;
-            background: rgba(255, 255, 255, 0.06);
-            border-color: rgba(255, 255, 255, 0.08);
+            background: rgba(251, 191, 36, 0.12);
+            border-color: rgba(251, 191, 36, 0.24);
           }
 
           .publication .tag-cofirst {
