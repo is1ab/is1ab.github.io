@@ -7,16 +7,12 @@ import _Adb2 from "../assets/member/Adb2.jpg"
 import _WIFI from "../assets/member/WIFI.jpg"
 import _PaulWang from "../assets/member/PaulWang.jpg"
 import _ypp from "../assets/member/ybb.jpg"
-import _RobertLiao from "../assets/member/robertliao.jpg";
+import _RobertLiao from "../assets/member/robertliao.jpg"
 import _Marco from "../assets/member/Marco.png"
-import _yeyeye from "../assets/member/yeyeye.jpg";
+import _yeyeye from "../assets/member/yeyeye.jpg"
 import _M4RVjN from "../assets/member/M4RVjN.jpg"
 import _Mercury from "../assets/member/Mercury.jpg"
 import _Stanley from "../assets/member/Stanley.png"
-
-// 之後若有其他照片，照這樣繼續加
-// import _JunAn from "../../assets/member/JunAn.jpg"
-// import _Yueric from "../../assets/member/Yueric.jpg"
 
 type MemberItem = {
   key: string
@@ -59,6 +55,85 @@ function SectionHeader({
           ({subtitle})
         </span>
       </h4>
+    </div>
+  )
+}
+
+function RecruitCard() {
+  return (
+    <div
+      className="p-4 rounded-4 border"
+      style={{
+        backgroundColor: "#111",
+        borderColor: "#7a1b1b",
+      }}
+    >
+      <div className="d-flex flex-column gap-3">
+        <div
+          className="fw-bold"
+          style={{
+            color: "#ff4d4f",
+            fontSize: "1.2rem",
+          }}
+        >
+          招募博士生
+        </div>
+
+        <div className="text-light" style={{ lineHeight: 1.8 }}>
+          目前本實驗室誠摯歡迎對資訊安全、系統安全、軟體安全、程式分析或相關研究主題有興趣的同學加入博士班研究。
+        </div>
+
+        <div className="text-secondary small" style={{ lineHeight: 1.8 }}>
+          歡迎先閱讀實驗室研究方向與成員資訊，並來信聯繫討論研究規劃。
+        </div>
+
+        <div className="d-flex flex-wrap gap-2">
+          <span
+            className="px-2 py-1 rounded-pill small"
+            style={{
+              backgroundColor: "rgba(144, 238, 144, 0.12)",
+              color: "lightgreen",
+              border: "1px solid rgba(144, 238, 144, 0.35)",
+            }}
+          >
+            資訊安全
+          </span>
+          <span
+            className="px-2 py-1 rounded-pill small"
+            style={{
+              backgroundColor: "rgba(6, 147, 227, 0.12)",
+              color: "#53b7ff",
+              border: "1px solid rgba(6, 147, 227, 0.35)",
+            }}
+          >
+            系統安全
+          </span>
+          <span
+            className="px-2 py-1 rounded-pill small"
+            style={{
+              backgroundColor: "rgba(255, 77, 79, 0.12)",
+              color: "#ff8a8c",
+              border: "1px solid rgba(255, 77, 79, 0.35)",
+            }}
+          >
+            軟體安全
+          </span>
+        </div>
+
+        <div>
+          <a
+            href="/#/Contact"
+            className="btn btn-sm"
+            style={{
+              backgroundColor: "#7a1b1b",
+              color: "white",
+              border: "none",
+            }}
+          >
+            聯絡我們
+          </a>
+        </div>
+      </div>
     </div>
   )
 }
@@ -179,21 +254,32 @@ function MemberSection({
   title,
   subtitle,
   data,
+  emptyMode = "hide",
 }: {
   title: string
   subtitle: string
   data: MemberItem[]
+  emptyMode?: "hide" | "recruit"
 }) {
   return (
     <section className="mb-5">
       <SectionHeader title={title} subtitle={subtitle} />
-      <div className="row g-3">
-        {data.map((member) => (
-          <div className="col-12 col-md-6 col-xl-4" key={member.key}>
-            <MemberCard member={member} />
+
+      {data.length > 0 ? (
+        <div className="row g-3">
+          {data.map((member) => (
+            <div className="col-12 col-md-6 col-xl-4" key={member.key}>
+              <MemberCard member={member} />
+            </div>
+          ))}
+        </div>
+      ) : emptyMode === "recruit" ? (
+        <div className="row g-3">
+          <div className="col-12 col-lg-8">
+            <RecruitCard />
           </div>
-        ))}
-      </div>
+        </div>
+      ) : null}
     </section>
   )
 }
@@ -263,13 +349,7 @@ function UndergraduateCard({ item }: { item: UndergraduateGroup }) {
 }
 
 export function Member() {
-  const phdUserTableItem: MemberItem[] = [
-    {
-      key: "1",
-      name: "-",
-      experience: "-",
-    },
-  ]
+  const phdUserTableItem: MemberItem[] = []
 
   const masterUserTableItem: MemberItem[] = [
     {
@@ -595,6 +675,7 @@ export function Member() {
         title="博士生"
         subtitle="Ph.D. students"
         data={phdUserTableItem}
+        emptyMode="recruit"
       />
 
       <MemberSection
