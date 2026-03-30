@@ -80,11 +80,11 @@ function RecruitCard() {
         </div>
 
         <div className="text-light" style={{ lineHeight: 1.8 }}>
-          目前本實驗室誠摯歡迎對資訊安全、系統安全、軟體安全、程式分析或相關研究主題有興趣的同學加入博士班研究。
+          本實驗室誠摯歡迎「學術型研究員」、「資安產業工程師」加入博士班團隊。
         </div>
 
         <div className="text-secondary small" style={{ lineHeight: 1.8 }}>
-          歡迎先閱讀實驗室研究方向與成員資訊，並來信聯繫討論研究規劃。
+          歡迎來信聯繫討論研究規劃。
         </div>
 
         <div className="d-flex flex-wrap gap-2">
@@ -96,7 +96,7 @@ function RecruitCard() {
               border: "1px solid rgba(144, 238, 144, 0.35)",
             }}
           >
-            資訊安全
+            研究
           </span>
           <span
             className="px-2 py-1 rounded-pill small"
@@ -106,7 +106,7 @@ function RecruitCard() {
               border: "1px solid rgba(6, 147, 227, 0.35)",
             }}
           >
-            系統安全
+            技術
           </span>
           <span
             className="px-2 py-1 rounded-pill small"
@@ -116,13 +116,13 @@ function RecruitCard() {
               border: "1px solid rgba(255, 77, 79, 0.35)",
             }}
           >
-            軟體安全
+            產學
           </span>
         </div>
 
         <div>
           <a
-            href="/#/Contact"
+            href="mailto:cysun@ntut.edu.tw"
             className="btn btn-sm"
             style={{
               backgroundColor: "#7a1b1b",
