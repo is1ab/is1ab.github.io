@@ -571,26 +571,38 @@ function AuthorLegend() {
   );
 }
 
-function PublicationItem({ item }: { item: PublicationItemType }) {
+function PublicationItem({
+  item,
+  index,
+}: {
+  item: PublicationItemType;
+  index: number;
+}) {
   return (
     <li className="pub-item">
-      <div className="pub-title">“{item.title}”</div>
+      <div className="pub-card">
+        <div className="pub-index">{index + 1}</div>
 
-      <div className="pub-authors">{renderAuthors(item.authors)}</div>
+        <div className="pub-body">
+          <div className="pub-title">“{item.title}”</div>
 
-      <div className="pub-meta">
-        <em>{item.venue}</em>, {item.details}
-      </div>
+          <div className="pub-authors">{renderAuthors(item.authors)}</div>
 
-      {item.tags && item.tags.length > 0 && (
-        <div className="pub-tags">
-          {item.tags.map((tag) => (
-            <span key={tag} className={getTagClassName(tag)}>
-              {tag}
-            </span>
-          ))}
+          <div className="pub-meta">
+            <em>{item.venue}</em>, {item.details}
+          </div>
+
+          {item.tags && item.tags.length > 0 && (
+            <div className="pub-tags">
+              {item.tags.map((tag) => (
+                <span key={tag} className={getTagClassName(tag)}>
+                  {tag}
+                </span>
+              ))}
+            </div>
+          )}
         </div>
-      )}
+      </div>
     </li>
   );
 }
@@ -598,6 +610,254 @@ function PublicationItem({ item }: { item: PublicationItemType }) {
 export function Publication() {
   return (
     <div className="publication">
+      <style>
+        {`
+          .publication {
+            max-width: 1120px;
+            margin: 0 auto;
+            padding: 0 0.75rem 2rem;
+          }
+
+          .publication-section {
+            margin-bottom: 3rem;
+          }
+
+          .publication-heading {
+            color: #cf2e2e !important;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 1rem;
+            letter-spacing: 0.02em;
+            font-size: clamp(1.4rem, 2vw, 2rem);
+          }
+
+          .publication-heading span {
+            color: #ffffff;
+            opacity: 0.92;
+            font-weight: 700;
+            margin-left: 0.35rem;
+            font-style: italic;
+          }
+
+          .author-legend {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: flex-end;
+            margin-bottom: 1.5rem;
+            color: #cbd5e1;
+            font-size: 0.82rem;
+            line-height: 1.6;
+          }
+
+          .legend-item {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.2rem;
+          }
+
+          .publication-list {
+            list-style: none;
+            padding-left: 0;
+            margin: 0;
+          }
+
+          .publication .pub-item {
+            margin: 0 0 1rem 0;
+            padding: 0;
+            border: 0;
+            color: inherit;
+          }
+
+          .publication .pub-card {
+            display: grid;
+            grid-template-columns: 56px 1fr;
+            gap: 1rem;
+            padding: 1.15rem 1.15rem 1.2rem;
+            border-radius: 18px;
+            background: linear-gradient(
+              180deg,
+              rgba(255, 255, 255, 0.03),
+              rgba(255, 255, 255, 0.015)
+            );
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            transition:
+              transform 0.2s ease,
+              box-shadow 0.2s ease,
+              border-color 0.2s ease;
+          }
+
+          .publication .pub-card:hover {
+            transform: translateY(-2px);
+            border-color: rgba(207, 46, 46, 0.45);
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.28);
+          }
+
+          .publication .pub-index {
+            width: 42px;
+            height: 42px;
+            border-radius: 999px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            background: rgba(207, 46, 46, 0.16);
+            border: 1px solid rgba(207, 46, 46, 0.28);
+            font-weight: 800;
+            font-size: 0.95rem;
+            margin-top: 0.15rem;
+          }
+
+          .publication .pub-body {
+            min-width: 0;
+          }
+
+          .publication .pub-title {
+            display: block;
+            color: #f8fafc;
+            font-size: clamp(1.08rem, 1rem + 0.5vw, 1.45rem);
+            font-weight: 800;
+            line-height: 1.45;
+            margin-bottom: 0.5rem;
+          }
+
+          .publication .pub-authors {
+            display: block;
+            color: #d1d5db;
+            font-size: clamp(0.96rem, 0.88rem + 0.22vw, 1.12rem);
+            font-weight: 400;
+            line-height: 1.75;
+            margin-bottom: 0.45rem;
+          }
+
+          .publication .pub-meta {
+            display: block;
+            color: #aeb6c2;
+            font-size: clamp(0.9rem, 0.82rem + 0.18vw, 1rem);
+            font-weight: 400;
+            line-height: 1.7;
+            margin-bottom: 0.8rem;
+          }
+
+          .publication .highlight-author {
+            color: #60a5fa;
+            font-weight: 700;
+          }
+
+          .publication .author-mark {
+            margin-left: 0.08rem;
+            font-size: 0.72em;
+            vertical-align: super;
+            font-weight: 800;
+          }
+
+          .publication .mark-cofirst {
+            color: #60a5fa;
+          }
+
+          .publication .mark-corresponding {
+            color: #fca5a5;
+          }
+
+          .publication .pub-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.55rem;
+          }
+
+          .publication .tag {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.28rem 0.75rem;
+            border-radius: 999px;
+            font-size: 0.78rem;
+            font-weight: 700;
+            line-height: 1.35;
+            color: #d1d5db;
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            white-space: nowrap;
+          }
+
+          .publication .tag-sci {
+            color: #fbbf24;
+            background: rgba(251, 191, 36, 0.12);
+            border-color: rgba(251, 191, 36, 0.24);
+          }
+
+          .publication .tag-cofirst {
+            color: #60a5fa;
+            background: rgba(96, 165, 250, 0.12);
+            border-color: rgba(96, 165, 250, 0.24);
+          }
+
+          .publication .tag-corresponding {
+            color: #fca5a5;
+            background: rgba(252, 165, 165, 0.12);
+            border-color: rgba(252, 165, 165, 0.22);
+          }
+
+          .publication .tag-submitted {
+            color: #86efac;
+            background: rgba(134, 239, 172, 0.12);
+            border-color: rgba(134, 239, 172, 0.22);
+          }
+
+          .publication-divider {
+            border: 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            margin: 2.2rem 0 0;
+          }
+
+          .publication ol li {
+            font-size: inherit !important;
+            line-height: inherit;
+            margin: 0;
+            color: inherit;
+            font-weight: inherit;
+          }
+
+          @media (max-width: 768px) {
+            .publication {
+              max-width: 100%;
+              padding: 0 0.35rem 1.5rem;
+            }
+
+            .author-legend {
+              justify-content: flex-start;
+              margin-bottom: 1rem;
+              font-size: 0.76rem;
+            }
+
+            .publication .pub-card {
+              grid-template-columns: 1fr;
+              gap: 0.8rem;
+              padding: 1rem;
+            }
+
+            .publication .pub-index {
+              width: 36px;
+              height: 36px;
+              font-size: 0.86rem;
+              margin-top: 0;
+            }
+
+            .publication .pub-title {
+              font-size: 1.02rem;
+            }
+
+            .publication .pub-authors,
+            .publication .pub-meta {
+              font-size: 0.92rem;
+            }
+
+            .publication .tag {
+              font-size: 0.72rem;
+            }
+          }
+        `}
+      </style>
+
       <AuthorLegend />
 
       {sections.map((section, index) => (
@@ -611,6 +871,7 @@ export function Publication() {
               <PublicationItem
                 key={`${section.titleEn}-${itemIndex}-${item.title}`}
                 item={item}
+                index={itemIndex}
               />
             ))}
           </ol>
