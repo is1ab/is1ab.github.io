@@ -80,7 +80,7 @@ function RecruitCard() {
         </div>
 
         <div className="text-light" style={{ lineHeight: 1.8 }}>
-          本實驗室誠摯歡迎「學術型研究員」、「資安產業工程師」加入博士班團隊。
+          本實驗室誠摯歡迎「學術型研究員」或「資安產業工程師」加入博士班團隊。
         </div>
 
         <div className="text-secondary small" style={{ lineHeight: 1.8 }}>
@@ -96,7 +96,7 @@ function RecruitCard() {
               border: "1px solid rgba(144, 238, 144, 0.35)",
             }}
           >
-            研究
+            研究組
           </span>
           <span
             className="px-2 py-1 rounded-pill small"
@@ -106,17 +106,7 @@ function RecruitCard() {
               border: "1px solid rgba(6, 147, 227, 0.35)",
             }}
           >
-            技術
-          </span>
-          <span
-            className="px-2 py-1 rounded-pill small"
-            style={{
-              backgroundColor: "rgba(255, 77, 79, 0.12)",
-              color: "#ff8a8c",
-              border: "1px solid rgba(255, 77, 79, 0.35)",
-            }}
-          >
-            產學
+            技術/產學組
           </span>
         </div>
 
