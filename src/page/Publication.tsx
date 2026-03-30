@@ -584,7 +584,7 @@ function PublicationItem({
         <div className="pub-index">{index + 1}</div>
 
         <div className="pub-body">
-          <div className="pub-title">“{item.title}”</div>
+          <div className="pub-title">{item.title}</div>
 
           <div className="pub-authors">{renderAuthors(item.authors)}</div>
 
