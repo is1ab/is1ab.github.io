@@ -3,8 +3,8 @@ import _Guan4Tou2 from "../assets/member/Guan4Tou2.png"
 import _Rock from "../assets/member/Rock.jpg"
 import _Young from "../assets/logo.png"
 import _Jason from "../assets/member/Win.jpg"
-import Adb2 from "../assets/member/Adb2.jpg"
-import WIFI from "../assets/member/WIFI.jpg"
+import _Adb2 from "../assets/member/Adb2.jpg"
+import _WIFI from "../assets/member/WIFI.jpg"
 
 // 之後若有其他照片，照這樣繼續加
 // import _JunAn from "../../assets/member/JunAn.jpg"
