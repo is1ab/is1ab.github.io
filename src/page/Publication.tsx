@@ -503,7 +503,7 @@ const pendingPapers: PublicationItemType[] = [
 const sections: PublicationSectionType[] = [
   { titleZh: "期刊論文", titleEn: "Journal Paper", items: journalPapers },
   { titleZh: "會議論文", titleEn: "Conference Paper", items: conferencePapers },
-  { titleZh: "投稿中", titleEn: "Under Review", items: pendingPapers },
+  { titleZh: "處理中", titleEn: "Pending", items: pendingPapers },
 ];
 
 function AuthorName({ author }: { author: AuthorType }) {
