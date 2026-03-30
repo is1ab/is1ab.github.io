@@ -1,5 +1,5 @@
 import _483 from "../assets/member/483.jpg"
-import _Guan4Tou2 from "../../assets/member/Guan4Tou2.png"
+import logo from "../../assets/member/Guan4Tou2.png"
 // 之後若有其他照片，照這樣繼續加
 // import _JunAn from "../../assets/member/JunAn.jpg"
 // import _Yueric from "../../assets/member/Yueric.jpg"
@@ -267,7 +267,7 @@ export function Member() {
       experience: "",
       certificate: "實驗室安全管理、藍隊組長",
       website: "/#/Member/2024/Guan4Tou2",
-      avatar: _Guan4Tou2,
+      avatar: logo,
     },
     {
       key: "3",
