@@ -512,7 +512,7 @@ function AuthorName({ author }: { author: AuthorType }) {
       {author.name}
       {author.coFirst && <sup className="author-mark mark-cofirst">△</sup>}
       {author.corresponding && (
-        <sup className="author-mark mark-corresponding">*</sup>
+        <sup className="author-mark mark-corresponding">＊</sup>
       )}
     </span>
   );
@@ -565,7 +565,7 @@ function AuthorLegend() {
         <sup className="author-mark mark-cofirst">△</sup> Co-first author
       </span>
       <span className="legend-item">
-        <sup className="author-mark mark-corresponding">*</sup> Corresponding author
+        <sup className="author-mark mark-corresponding">＊</sup> Corresponding author
       </span>
     </div>
   );
