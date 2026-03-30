@@ -2,7 +2,7 @@ import _483 from "../assets/member/483.jpg"
 import _Guan4Tou2 from "../assets/member/Guan4Tou2.png"
 import _Rock from "../assets/member/Rock.jpg"
 import _Young from "../assets/logo.png"
-import _Jason from "../assets/member/Win.jpg"
+import _Win from "../assets/member/Win.jpg"
 import _Adb2 from "../assets/member/Adb2.jpg"
 import _WIFI from "../assets/member/WIFI.jpg"
 
