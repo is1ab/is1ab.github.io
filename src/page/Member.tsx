@@ -80,11 +80,11 @@ function RecruitCard() {
         </div>
 
         <div className="text-light" style={{ lineHeight: 1.8 }}>
-          本實驗室誠摯歡迎「學術型研究員」或「資安產業工程師」加入博士班團隊。
+          誠摯歡迎「學術型研究員」或「資安產業工程師」加入博士班團隊
         </div>
 
         <div className="text-secondary small" style={{ lineHeight: 1.8 }}>
-          歡迎來信聯繫討論研究規劃。
+          歡迎來信聯繫討論研究規劃
         </div>
 
         <div className="d-flex flex-wrap gap-2">
