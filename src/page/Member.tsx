@@ -5,6 +5,14 @@ import _Young from "../assets/logo.png"
 import _Win from "../assets/member/Win.jpg"
 import _Adb2 from "../assets/member/Adb2.jpg"
 import _WIFI from "../assets/member/WIFI.jpg"
+import _PaulWang from "../assets/member/PaulWang.jpg"
+import _ypp from "../assets/member/ybb.jpg"
+import _Uriah from "../assets/member/robertliao.jpg";
+import _Marco from "../assets/member/Marco.png"
+import _yeyeye from "../assets/member/yeyeye.jpg";
+import _M4RVjN from "../assets/member/M4RVjN.jpg"
+import _Mercury from "../assets/member/Mercury.jpg"
+import _Stanley from "../assets/member/Stanley.png"
 
 // 之後若有其他照片，照這樣繼續加
 // import _JunAn from "../../assets/member/JunAn.jpg"
@@ -339,6 +347,7 @@ export function Member() {
       experience: "",
       certificate: "REVERSE組長",
       website: "/#/Member/2024/PaulWang",
+      avatar: _PaulWang,
     },
     {
       key: "9",
@@ -349,6 +358,7 @@ export function Member() {
       experience: "",
       certificate: "PWN組長",
       website: "/#/Member/2024/ypp",
+      avatar: _ypp,
     },
     {
       key: "10",
@@ -359,6 +369,7 @@ export function Member() {
       experience: "",
       certificate: "",
       website: "/#/Member/2024/RobertLiao",
+      avatar: _RobertLiao,
     },
     {
       key: "11",
@@ -369,6 +380,7 @@ export function Member() {
       experience: "",
       certificate: "",
       website: "/#/member/2024/Marco",
+      avatar: _Marco,
     },
     {
       key: "13",
@@ -410,6 +422,7 @@ export function Member() {
       experience: "",
       certificate: "實驗室儀器設備管理",
       website: "/#/member/2025/Yeyeye",
+      avatar: _Yeyeye,
     },
     {
       key: "18",
@@ -420,6 +433,7 @@ export function Member() {
       experience: "執行 SunBird 計畫",
       certificate: "實驗室公關",
       website: "/#/member/2025/Victor",
+      avatar: _Victor,
     },
     {
       key: "19",
@@ -439,6 +453,7 @@ export function Member() {
       experience: "",
       certificate: "",
       website: "/#/member/2026/M4RVjN",
+      avatar: _M4RVjN,
     },
     {
       key: "21",
@@ -449,6 +464,7 @@ export function Member() {
       experience: "前威聯通股份有限公司資安實習生",
       certificate: "",
       website: "/#/member/2026/Mercury",
+      avatar: _Mercury,
     },
     {
       key: "22",
@@ -469,6 +485,7 @@ export function Member() {
       experience: "杜浦數位安全股份有限公司實習生",
       certificate: "",
       website: "/#/member/2026/Stanley",
+      avatar: _Stanley,
     },
   ]
 
