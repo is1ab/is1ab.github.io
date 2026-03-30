@@ -118,7 +118,7 @@ const journalPapers: PublicationItemType[] = [
       "SCI",
       "2024 JCR IF 4.4 · Health Care Sciences & Services · Q1",
       "2024 SJR 1.263 · Computer Science Applications · Q1",
-      "Co-first author",
+      "△ Co-first author",
     ],
   },
   {
@@ -137,7 +137,7 @@ const journalPapers: PublicationItemType[] = [
       "SCI",
       "2024 JCR IF 3.4 · Surgery · Q1",
       "2024 SJR 1.222 · Surgery · Q1",
-      "Co-first author",
+      "△ Co-first author",
     ],
   },
   {
@@ -559,7 +559,7 @@ function getTagClassName(tag: string) {
   return "tag";
 }
 
-function AuthorLegend() {
+/*function AuthorLegend() {
   return (
     <div className="author-legend">
       <span className="legend-item">
@@ -570,7 +570,7 @@ function AuthorLegend() {
       </span>
     </div>
   );
-}
+}*/
 
 function PublicationItem({
   item,
