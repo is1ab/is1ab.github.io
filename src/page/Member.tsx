@@ -7,7 +7,7 @@ import _Adb2 from "../assets/member/Adb2.jpg"
 import _WIFI from "../assets/member/WIFI.jpg"
 import _PaulWang from "../assets/member/PaulWang.jpg"
 import _ypp from "../assets/member/ybb.jpg"
-import _Uriah from "../assets/member/robertliao.jpg";
+import _RobertLiao from "../assets/member/robertliao.jpg";
 import _Marco from "../assets/member/Marco.png"
 import _yeyeye from "../assets/member/yeyeye.jpg";
 import _M4RVjN from "../assets/member/M4RVjN.jpg"
@@ -422,7 +422,7 @@ export function Member() {
       experience: "",
       certificate: "實驗室儀器設備管理",
       website: "/#/member/2025/Yeyeye",
-      avatar: _Yeyeye,
+      avatar: _yeyeye,
     },
     {
       key: "18",
@@ -433,7 +433,6 @@ export function Member() {
       experience: "執行 SunBird 計畫",
       certificate: "實驗室公關",
       website: "/#/member/2025/Victor",
-      avatar: _Victor,
     },
     {
       key: "19",
