@@ -756,7 +756,7 @@ export function Publication() {
           }
 
           .publication .mark-corresponding {
-            color: #fca5a5;
+            color: #60a5fa;
           }
 
           .publication .pub-tags {
