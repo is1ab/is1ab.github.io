@@ -53,7 +53,7 @@ const journalPapers: PublicationItemType[] = [
     title: "Retrieval-Augmented Generation for Identifying ATT&CK Technique",
     venue: "Communications of the CCISA",
     details: "Accepted by vol. 31, no. 3, pp. 20-39, August 2025.",
-    tags: ["Corresponding author"],
+    tags: ["＊ Corresponding author"],
   },
   {
     authors: [
@@ -69,7 +69,7 @@ const journalPapers: PublicationItemType[] = [
       "SCI",
       "2024 JCR IF 3.0 · Computer Science, Information Systems · Q2",
       "2024 SJR 0.894 · Computer Networks and Communications · Q1",
-      "Corresponding author",
+      "＊ Corresponding author",
     ],
   },
   {
@@ -86,7 +86,7 @@ const journalPapers: PublicationItemType[] = [
       "SCI",
       "2024 JCR IF 5.4 · Computer Science, Information Systems · Q1",
       "2024 SJR 1.445 · Computer Science · Q1",
-      "Corresponding author",
+      "＊ Corresponding author",
     ],
   },
   {
@@ -98,7 +98,7 @@ const journalPapers: PublicationItemType[] = [
     title: "Analysis and Mitigation Strategies for Prompt Injection Attacks",
     venue: "Communications of the CCISA",
     details: "vol. 30, no. 3, pp. 1-19, September 2024.",
-    tags: ["Corresponding author"],
+    tags: ["＊ Corresponding author"],
   },
   {
     authors: [
@@ -317,7 +317,7 @@ const conferencePapers: PublicationItemType[] = [
       "Enhancing Small Language Models in Agentic Pipelines with Prompt Engineering and Fine-Tuning",
     venue: "Taiwan Academic Network Conference (TANET 2025)",
     details: "Accepted by September 2025.",
-    tags: ["Corresponding author"],
+    tags: ["＊ Corresponding author"],
   },
   {
     authors: [
@@ -332,7 +332,7 @@ const conferencePapers: PublicationItemType[] = [
     venue:
       "38th International Conference on Industrial, Engineering & Other Applications of Applied Intelligent Systems (IEA/AIE 2025)",
     details: "pp. 116-127, Kitakyushu, Japan, July 1–4, 2025.",
-    tags: ["Corresponding author"],
+    tags: ["＊ Corresponding author"],
   },
   {
     authors: [
@@ -343,7 +343,7 @@ const conferencePapers: PublicationItemType[] = [
       'Note on "Learning with error-based key agreement and authentication scheme for satellite communication"',
     venue: "20th Taiwan Conference on Software Engineering (TCSE 2024)",
     details: "In Proceedings of pp. 354-358, Taipei, Taiwan, July 2024.",
-    tags: ["Corresponding author"],
+    tags: ["＊ Corresponding author"],
   },
   {
     authors: [
@@ -357,7 +357,7 @@ const conferencePapers: PublicationItemType[] = [
       "Enhancing Cyber Threat Intelligence with Named Entity Recognition using BERT-CRF",
     venue: "IEEE Global Communication Conference",
     details: "Kuala Lumpur, Malaysia, December 2023.",
-    tags: ["Corresponding author"],
+    tags: ["＊ Corresponding author"],
   },
   {
     authors: [
@@ -370,7 +370,7 @@ const conferencePapers: PublicationItemType[] = [
     venue:
       "IEEE 36th International System-on-Chip Conference (SOCC 2023) - Design for Secure and Reliable System",
     details: "Accepted by June 2023.",
-    tags: ["Corresponding author"],
+    tags: ["＊ Corresponding author"],
   },
   {
     authors: [
@@ -382,7 +382,7 @@ const conferencePapers: PublicationItemType[] = [
       'Note on "RAKS: robust authentication and key agreement scheme for satellite infrastructure"',
     venue: "IEEE ICCE-TW 2023",
     details: "Accepted by May 2023.",
-    tags: ["Corresponding author"],
+    tags: ["＊ Corresponding author"],
   },
   {
     authors: [
@@ -394,7 +394,7 @@ const conferencePapers: PublicationItemType[] = [
       "Applying the Diamond Model of Intrusion Analysis with Generative Pre-trained Transformer 3",
     venue: "IEEE ICCE-TW 2023",
     details: "Accepted by May 2023.",
-    tags: ["Corresponding author"],
+    tags: ["＊ Corresponding author"],
   },
   {
     authors: [
@@ -558,19 +558,6 @@ function getTagClassName(tag: string) {
 
   return "tag";
 }
-
-/*function AuthorLegend() {
-  return (
-    <div className="author-legend">
-      <span className="legend-item">
-        <sup className="author-mark mark-cofirst">△</sup> Co-first author
-      </span>
-      <span className="legend-item">
-        <sup className="author-mark mark-corresponding">＊</sup> Corresponding author
-      </span>
-    </div>
-  );
-}*/
 
 function PublicationItem({
   item,
