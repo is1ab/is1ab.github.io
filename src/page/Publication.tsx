@@ -792,7 +792,7 @@ export function Publication() {
           }
 
           .publication .tag-corresponding {
-            color: #fca5a5;
+            color: #60a5fa;
             background: rgba(96, 165, 250, 0.12);
             border-color: rgba(96, 165, 250, 0.24);
           }
