@@ -40,7 +40,7 @@ const journalPapers: PublicationItemType[] = [
       "SCI",
       "2024 JCR IF 3.0 · Health Care Sciences & Services · Q2",
       "2024 SJR 1.109 · Oncology · Q1",
-      "Co-first author",
+      "△ Co-first author",
     ],
   },
   {
