@@ -1,4 +1,4 @@
-import _483 from "../../assets/member/483.jpg"
+import _483 from "../assets/member/483.jpg"
 // 之後若有其他照片，照這樣繼續加
 // import _JunAn from "../../assets/member/JunAn.jpg"
 // import _Yueric from "../../assets/member/Yueric.jpg"
