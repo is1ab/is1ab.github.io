@@ -300,7 +300,7 @@ const journalPapers: PublicationItemType[] = [
       "Chaotic Maps-Based Mutual Authentication and Key Agreement using Smart Cards for Wireless Communications",
     venue: "Journal of Information Hiding and Multimedia Signal Processing",
     details: "vol. 4, no. 2, pp. 99-109, April 2013.",
-    tags: ["SCI"],
+    tags: [],
   },
 ];
 
