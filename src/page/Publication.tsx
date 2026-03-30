@@ -549,8 +549,9 @@ function renderAuthors(authors: AuthorType[]): React.ReactNode {
 
 function getTagClassName(tag: string) {
   const lower = tag.toLowerCase();
-
-  if (lower.includes("sci")) return "tag tag-sci";
+  if (lower.includes("jcr")) return "tag tag-jcr";
+  if (lower.includes("sjr")) return "tag tag-sjr";
+  if (lower === "sci") return "tag tag-sci";
   if (lower.includes("co-first")) return "tag tag-cofirst";
   if (lower.includes("corresponding")) return "tag tag-corresponding";
   if (lower.includes("submitted")) return "tag tag-submitted";
@@ -783,6 +784,18 @@ export function Publication() {
             color: #fbbf24;
             background: rgba(251, 191, 36, 0.12);
             border-color: rgba(251, 191, 36, 0.24);
+          }
+
+          .publication .tag-jcr {
+            color: #ffffff;
+            background: rgba(251, 191, 36, 0.12);
+            border-color: rgba(251, 191, 36, 0.24);
+          }
+          
+          .publication .tag-sjr {
+            color: #ffffff;
+            background: rgba(255, 255, 255, 0.06);
+            border-color: rgba(255, 255, 255, 0.08);
           }
 
           .publication .tag-cofirst {
