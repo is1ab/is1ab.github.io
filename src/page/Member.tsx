@@ -1,5 +1,3 @@
-import React from "react"
-
 type MemberItem = {
   key: string
   name: string
