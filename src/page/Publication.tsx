@@ -1,8 +1,14 @@
 import React from "react";
 
+type AuthorType = {
+  name: string;
+  highlight?: boolean;
+  coFirst?: boolean;
+  corresponding?: boolean;
+};
+
 type PublicationItemType = {
-  authors: string[];
-  highlightedAuthors?: string[];
+  authors: AuthorType[];
   title: string;
   venue: string;
   details: string;
@@ -18,15 +24,14 @@ type PublicationSectionType = {
 const journalPapers: PublicationItemType[] = [
   {
     authors: [
-      "Shih-Jung Lin",
-      "Chin-Yu Sun",
-      "Dan-Ni Chen",
-      "Yi-No Kang",
-      "Khanh Dinh Hoang",
-      "Kee-Hsin Chen",
-      "Chiehfeng Chen",
+      { name: "Shih-Jung Lin" },
+      { name: "Chin-Yu Sun", highlight: true, coFirst: true },
+      { name: "Dan-Ni Chen" },
+      { name: "Yi-No Kang" },
+      { name: "Khanh Dinh Hoang" },
+      { name: "Kee-Hsin Chen" },
+      { name: "Chiehfeng Chen" },
     ],
-    highlightedAuthors: ["Chin-Yu Sun"],
     title:
       "Chatbots for breast cancer education: a systematic review and meta-analysis",
     venue: "Supportive Care in Cancer",
@@ -40,20 +45,22 @@ const journalPapers: PublicationItemType[] = [
   },
   {
     authors: [
-      "Sheng-Shan Chen",
-      "Kai-Siang Cao",
-      "Chung-Kuan Chen",
-      "Chin-Yu Sun",
+      { name: "Sheng-Shan Chen" },
+      { name: "Kai-Siang Cao" },
+      { name: "Chung-Kuan Chen" },
+      { name: "Chin-Yu Sun", highlight: true, corresponding: true },
     ],
-    highlightedAuthors: ["Chin-Yu Sun"],
     title: "Retrieval-Augmented Generation for Identifying ATT&CK Technique",
     venue: "Communications of the CCISA",
     details: "Accepted by vol. 31, no. 3, pp. 20-39, August 2025.",
     tags: ["Corresponding author"],
   },
   {
-    authors: ["Chin-Yu Sun", "Sheng-Shan Chen", "Ya-Han Ho"],
-    highlightedAuthors: ["Chin-Yu Sun"],
+    authors: [
+      { name: "Chin-Yu Sun", highlight: true, corresponding: true },
+      { name: "Sheng-Shan Chen" },
+      { name: "Ya-Han Ho" },
+    ],
     title:
       "De-Identification of Open-Source Intelligence using Finetuned LLaMA-3",
     venue: "High-Confidence Computing",
@@ -66,8 +73,11 @@ const journalPapers: PublicationItemType[] = [
     ],
   },
   {
-    authors: ["Sheng-Shan Chen", "Tun-Wen Pai", "Chin-Yu Sun"],
-    highlightedAuthors: ["Chin-Yu Sun"],
+    authors: [
+      { name: "Sheng-Shan Chen" },
+      { name: "Tun-Wen Pai" },
+      { name: "Chin-Yu Sun", highlight: true, corresponding: true },
+    ],
     title:
       "EnhanceCTI: An Enhanced Semantic Filtering and Feature Extraction Framework for Industry-Specific Cyber Threat Intelligence",
     venue: "Computers & Security",
@@ -80,8 +90,11 @@ const journalPapers: PublicationItemType[] = [
     ],
   },
   {
-    authors: ["Kun-Ji Li", "Sheng-Shan Chen", "Chin-Yu Sun"],
-    highlightedAuthors: ["Chin-Yu Sun"],
+    authors: [
+      { name: "Kun-Ji Li" },
+      { name: "Sheng-Shan Chen" },
+      { name: "Chin-Yu Sun", highlight: true, corresponding: true },
+    ],
     title: "Analysis and Mitigation Strategies for Prompt Injection Attacks",
     venue: "Communications of the CCISA",
     details: "vol. 30, no. 3, pp. 1-19, September 2024.",
@@ -89,15 +102,14 @@ const journalPapers: PublicationItemType[] = [
   },
   {
     authors: [
-      "Shih-Jung Lin",
-      "Chin-Yu Sun",
-      "Dan-Ni Chen",
-      "Yi-No Kang",
-      "Nai Ming Lai",
-      "Kee-Hsin Chen",
-      "Chiehfeng Chen",
+      { name: "Shih-Jung Lin" },
+      { name: "Chin-Yu Sun", highlight: true, coFirst: true },
+      { name: "Dan-Ni Chen" },
+      { name: "Yi-No Kang" },
+      { name: "Nai Ming Lai" },
+      { name: "Kee-Hsin Chen" },
+      { name: "Chiehfeng Chen" },
     ],
-    highlightedAuthors: ["Chin-Yu Sun"],
     title:
       "Perioperative Application of Chatbots: A Systematic Review and Meta-Analysis",
     venue: "BMJ Health & Care Informatics",
@@ -111,13 +123,12 @@ const journalPapers: PublicationItemType[] = [
   },
   {
     authors: [
-      "Yunjhen Su",
-      "Chin-Yu Sun",
-      "Wen-Kuan Chiu",
-      "Yi-No Kang",
-      "Chiehfeng Chen",
+      { name: "Yunjhen Su" },
+      { name: "Chin-Yu Sun", highlight: true, coFirst: true },
+      { name: "Wen-Kuan Chiu" },
+      { name: "Yi-No Kang" },
+      { name: "Chiehfeng Chen" },
     ],
-    highlightedAuthors: ["Chin-Yu Sun"],
     title:
       "Patient Decision Aids for Breast Cancer Reconstruction: A Systematic Review and Network Meta-Analysis of Randomized Controlled Trials",
     venue: "Plastic and Reconstructive Surgery",
@@ -130,8 +141,11 @@ const journalPapers: PublicationItemType[] = [
     ],
   },
   {
-    authors: ["Chin-Yu Sun", "Allen C.-H. Wu", "TingTing Hwang"],
-    highlightedAuthors: ["Chin-Yu Sun"],
+    authors: [
+      { name: "Chin-Yu Sun", highlight: true },
+      { name: "Allen C.-H. Wu" },
+      { name: "TingTing Hwang" },
+    ],
     title:
       "A Novel Privacy-Preserving Deep Learning Scheme without a Cryptography Component",
     venue: "Computers & Electrical Engineering",
@@ -139,8 +153,12 @@ const journalPapers: PublicationItemType[] = [
     tags: ["SCI"],
   },
   {
-    authors: ["Chin-Yu Sun", "Hsiao-Ling Wu", "Hung-Min Sun", "TingTing Hwang"],
-    highlightedAuthors: ["Chin-Yu Sun"],
+    authors: [
+      { name: "Chin-Yu Sun", highlight: true },
+      { name: "Hsiao-Ling Wu" },
+      { name: "Hung-Min Sun" },
+      { name: "TingTing Hwang" },
+    ],
     title:
       "A New Attack to Self-Certified Digital Signature for E-commerce Applications",
     venue: "Journal of Information Science and Engineering",
@@ -148,16 +166,22 @@ const journalPapers: PublicationItemType[] = [
     tags: ["SCI"],
   },
   {
-    authors: ["Chin-Chen Chang", "Hsiao-Ling Wu", "Chin-Yu Sun"],
-    highlightedAuthors: ["Chin-Yu Sun"],
+    authors: [
+      { name: "Chin-Chen Chang" },
+      { name: "Hsiao-Ling Wu" },
+      { name: "Chin-Yu Sun", highlight: true },
+    ],
     title: 'Notes on "Secure authentication scheme for IoT and cloud servers"',
     venue: "Pervasive and Mobile Computing",
     details: "vol. 38, pp. 275-278, July 2017.",
     tags: ["SCI"],
   },
   {
-    authors: ["Yanjun Liu", "Chin-Chen Chang", "Chin-Yu Sun"],
-    highlightedAuthors: ["Chin-Yu Sun"],
+    authors: [
+      { name: "Yanjun Liu" },
+      { name: "Chin-Chen Chang" },
+      { name: "Chin-Yu Sun", highlight: true },
+    ],
     title:
       'Notes on "An Anonymous Multi-server Authenticated Key Agreement Scheme Based on Trust Computing Using Smart Card and Biometrics"',
     venue: "International Journal of Network Security",
@@ -165,8 +189,11 @@ const journalPapers: PublicationItemType[] = [
     tags: [],
   },
   {
-    authors: ["Hsiao-Ling Wu", "Chin-Chen Chang", "Chin-Yu Sun"],
-    highlightedAuthors: ["Chin-Yu Sun"],
+    authors: [
+      { name: "Hsiao-Ling Wu" },
+      { name: "Chin-Chen Chang" },
+      { name: "Chin-Yu Sun", highlight: true },
+    ],
     title:
       "A secure authentication scheme with provable correctness for pay-TV systems",
     venue: "Security and Communication Networks",
@@ -174,8 +201,10 @@ const journalPapers: PublicationItemType[] = [
     tags: ["SCI"],
   },
   {
-    authors: ["Chin-Yu Sun", "Ching-Chun Chang"],
-    highlightedAuthors: ["Chin-Yu Sun"],
+    authors: [
+      { name: "Chin-Yu Sun", highlight: true },
+      { name: "Ching-Chun Chang" },
+    ],
     title:
       "Cryptanalysis of a Secure and Efficient Authentication Scheme for Access Control in Mobile Pay-TV Systems",
     venue: "International Journal of Network Security",
@@ -183,65 +212,92 @@ const journalPapers: PublicationItemType[] = [
     tags: [],
   },
   {
-    authors: ["Chin-Chen Chang", "Chin-Yu Sun", "Shih-Chang Chang"],
-    highlightedAuthors: ["Chin-Yu Sun"],
+    authors: [
+      { name: "Chin-Chen Chang" },
+      { name: "Chin-Yu Sun", highlight: true },
+      { name: "Shih-Chang Chang" },
+    ],
     title: "A Strong RSA-based and Certificateless-based Signature Scheme",
     venue: "International Journal of Network Security",
     details: "vol. 18, no. 2, pp. 201-208, March 2016.",
     tags: [],
   },
   {
-    authors: ["Yanjun Liu", "Chin-Chen Chang", "Chin-Yu Sun"],
-    highlightedAuthors: ["Chin-Yu Sun"],
-    title: "A Novel Three-party Authenticated Key Exchange Protocol Based on Secret Sharing",
+    authors: [
+      { name: "Yanjun Liu" },
+      { name: "Chin-Chen Chang" },
+      { name: "Chin-Yu Sun", highlight: true },
+    ],
+    title:
+      "A Novel Three-party Authenticated Key Exchange Protocol Based on Secret Sharing",
     venue: "Journal of Information Hiding and Multimedia Signal Processing",
     details: "vol. 7, no. 4, pp. 741-753, July 2016.",
     tags: [],
   },
   {
-    authors: ["Yanjun Liu", "Chin-Chen Chang", "Chin-Yu Sun"],
-    highlightedAuthors: ["Chin-Yu Sun"],
+    authors: [
+      { name: "Yanjun Liu" },
+      { name: "Chin-Chen Chang" },
+      { name: "Chin-Yu Sun", highlight: true },
+    ],
     title: "A Secure and Efficient Scheme for Digital Gift Certificates",
     venue: "Journal of Information Hiding and Multimedia Signal Processing",
     details: "vol. 6, no. 3, pp. 416-429, May 2015.",
     tags: [],
   },
   {
-    authors: ["Chin-Chen Chang", "Chin-Yu Sun", "Ting-Fang Cheng"],
-    highlightedAuthors: ["Chin-Yu Sun"],
+    authors: [
+      { name: "Chin-Chen Chang" },
+      { name: "Chin-Yu Sun", highlight: true },
+      { name: "Ting-Fang Cheng" },
+    ],
     title: "A dependable storage service system in cloud environment",
     venue: "Security and Communication Networks",
     details: "vol. 8, no. 4, pp. 574-588, March 2015.",
     tags: ["SCI"],
   },
   {
-    authors: ["Chin-Chen Chang", "Yeh-Chieh Chou", "Chin-Yu Sun"],
-    highlightedAuthors: ["Chin-Yu Sun"],
-    title: "Novel and practical scheme based on secret sharing for laptop data protection",
+    authors: [
+      { name: "Chin-Chen Chang" },
+      { name: "Yeh-Chieh Chou" },
+      { name: "Chin-Yu Sun", highlight: true },
+    ],
+    title:
+      "Novel and practical scheme based on secret sharing for laptop data protection",
     venue: "IET Information Security",
     details: "vol. 9, no. 2, pp. 100-107, February 2015.",
     tags: ["SCI"],
   },
   {
-    authors: ["Chin-Chen Chang", "Chin-Yu Sun", "Shih-Chang Chang"],
-    highlightedAuthors: ["Chin-Yu Sun"],
-    title: "Practical secure and high efficient authentication scheme in global mobility networks",
+    authors: [
+      { name: "Chin-Chen Chang" },
+      { name: "Chin-Yu Sun", highlight: true },
+      { name: "Shih-Chang Chang" },
+    ],
+    title:
+      "Practical secure and high efficient authentication scheme in global mobility networks",
     venue: "Journal of Internet Technology",
     details: "vol. 15, no. 7, pp. 1091-1100, December 2014.",
     tags: ["SCI"],
   },
   {
-    authors: ["Chin-Chen Chang", "Chin-Yu Sun"],
-    highlightedAuthors: ["Chin-Yu Sun"],
+    authors: [
+      { name: "Chin-Chen Chang" },
+      { name: "Chin-Yu Sun", highlight: true },
+    ],
     title: "A Secure and Efficient Authentication Scheme for E-coupon Systems",
     venue: "Wireless Personal Communications",
     details: "vol. 77, no. 4, pp. 2981-2996, August 2014.",
     tags: ["SCI"],
   },
   {
-    authors: ["Cheng Guo", "Chin-Chen Chang", "Chin-Yu Sun"],
-    highlightedAuthors: ["Chin-Yu Sun"],
-    title: "Chaotic Maps-Based Mutual Authentication and Key Agreement using Smart Cards for Wireless Communications",
+    authors: [
+      { name: "Cheng Guo" },
+      { name: "Chin-Chen Chang" },
+      { name: "Chin-Yu Sun", highlight: true },
+    ],
+    title:
+      "Chaotic Maps-Based Mutual Authentication and Key Agreement using Smart Cards for Wireless Communications",
     venue: "Journal of Information Hiding and Multimedia Signal Processing",
     details: "vol. 4, no. 2, pp. 99-109, April 2013.",
     tags: ["SCI"],
@@ -251,13 +307,12 @@ const journalPapers: PublicationItemType[] = [
 const conferencePapers: PublicationItemType[] = [
   {
     authors: [
-      "Yi-Hsiang Chen",
-      "Feng-Rui Liao",
-      "Jun-Cheng Zhang",
-      "Zheng-Hao Huang",
-      "Chin-Yu Sun",
+      { name: "Yi-Hsiang Chen" },
+      { name: "Feng-Rui Liao" },
+      { name: "Jun-Cheng Zhang" },
+      { name: "Zheng-Hao Huang" },
+      { name: "Chin-Yu Sun", highlight: true, corresponding: true },
     ],
-    highlightedAuthors: ["Chin-Yu Sun"],
     title:
       "Enhancing Small Language Models in Agentic Pipelines with Prompt Engineering and Fine-Tuning",
     venue: "Taiwan Academic Network Conference (TANET 2025)",
@@ -266,13 +321,12 @@ const conferencePapers: PublicationItemType[] = [
   },
   {
     authors: [
-      "Sheng-Shan Chen",
-      "Yi-Xuan Wu",
-      "Ying-Xuan Ho",
-      "Pang-Po Cheng",
-      "Chin-Yu Sun",
+      { name: "Sheng-Shan Chen" },
+      { name: "Yi-Xuan Wu" },
+      { name: "Ying-Xuan Ho" },
+      { name: "Pang-Po Cheng" },
+      { name: "Chin-Yu Sun", highlight: true, corresponding: true },
     ],
-    highlightedAuthors: ["Chin-Yu Sun"],
     title:
       "RANsomCheck: A CNN-Transformer Model for Malware Detection Based on API Call Sequences",
     venue:
@@ -281,8 +335,10 @@ const conferencePapers: PublicationItemType[] = [
     tags: ["Corresponding author"],
   },
   {
-    authors: ["Chia-Hsien Liao", "Chin-Yu Sun"],
-    highlightedAuthors: ["Chin-Yu Sun"],
+    authors: [
+      { name: "Chia-Hsien Liao" },
+      { name: "Chin-Yu Sun", highlight: true, corresponding: true },
+    ],
     title:
       'Note on "Learning with error-based key agreement and authentication scheme for satellite communication"',
     venue: "20th Taiwan Conference on Software Engineering (TCSE 2024)",
@@ -291,13 +347,12 @@ const conferencePapers: PublicationItemType[] = [
   },
   {
     authors: [
-      "Sheng-Shan Chen",
-      "Ren-Hung Hwang",
-      "Chin-Yu Sun",
-      "Ying-Dar Lin",
-      "Tun-Wen Pai",
+      { name: "Sheng-Shan Chen" },
+      { name: "Ren-Hung Hwang" },
+      { name: "Chin-Yu Sun", highlight: true, corresponding: true },
+      { name: "Ying-Dar Lin" },
+      { name: "Tun-Wen Pai" },
     ],
-    highlightedAuthors: ["Chin-Yu Sun"],
     title:
       "Enhancing Cyber Threat Intelligence with Named Entity Recognition using BERT-CRF",
     venue: "IEEE Global Communication Conference",
@@ -305,8 +360,11 @@ const conferencePapers: PublicationItemType[] = [
     tags: ["Corresponding author"],
   },
   {
-    authors: ["Yuan-Tai Lin", "Chin-Yu Sun", "TingTing Hwang"],
-    highlightedAuthors: ["Chin-Yu Sun"],
+    authors: [
+      { name: "Yuan-Tai Lin" },
+      { name: "Chin-Yu Sun", highlight: true, corresponding: true },
+      { name: "TingTing Hwang" },
+    ],
     title:
       "M-parties partitioning: A Secure Dynamic Cache Partitioning by More Than Two Parties",
     venue:
@@ -315,8 +373,11 @@ const conferencePapers: PublicationItemType[] = [
     tags: ["Corresponding author"],
   },
   {
-    authors: ["Chun-Chieh Tsai", "Chin-Yu Sun", "Shih-Hsuan Yang"],
-    highlightedAuthors: ["Chin-Yu Sun"],
+    authors: [
+      { name: "Chun-Chieh Tsai" },
+      { name: "Chin-Yu Sun", highlight: true, corresponding: true },
+      { name: "Shih-Hsuan Yang" },
+    ],
     title:
       'Note on "RAKS: robust authentication and key agreement scheme for satellite infrastructure"',
     venue: "IEEE ICCE-TW 2023",
@@ -324,8 +385,11 @@ const conferencePapers: PublicationItemType[] = [
     tags: ["Corresponding author"],
   },
   {
-    authors: ["Sheng-Shan Chen", "Tun-Wen Pai", "Chin-Yu Sun"],
-    highlightedAuthors: ["Chin-Yu Sun"],
+    authors: [
+      { name: "Sheng-Shan Chen" },
+      { name: "Tun-Wen Pai" },
+      { name: "Chin-Yu Sun", highlight: true, corresponding: true },
+    ],
     title:
       "Applying the Diamond Model of Intrusion Analysis with Generative Pre-trained Transformer 3",
     venue: "IEEE ICCE-TW 2023",
@@ -333,16 +397,21 @@ const conferencePapers: PublicationItemType[] = [
     tags: ["Corresponding author"],
   },
   {
-    authors: ["Sheng-Shan Chen", "Chin-Yu Sun", "Tun-Wen Pai"],
-    highlightedAuthors: ["Chin-Yu Sun"],
+    authors: [
+      { name: "Sheng-Shan Chen" },
+      { name: "Chin-Yu Sun", highlight: true },
+      { name: "Tun-Wen Pai" },
+    ],
     title: "Using Machine Learning for Efficient Smishing Detection",
     venue: "IEEE ICCE-TW 2023",
     details: "Accepted by May 2023.",
     tags: [],
   },
   {
-    authors: ["Chin-Chen Chang", "Chin-Yu Sun"],
-    highlightedAuthors: ["Chin-Yu Sun"],
+    authors: [
+      { name: "Chin-Chen Chang" },
+      { name: "Chin-Yu Sun", highlight: true },
+    ],
     title:
       "Polynomial-based secret sharing scheme based on the absolute moment block truncation coding technique",
     venue:
@@ -355,13 +424,12 @@ const conferencePapers: PublicationItemType[] = [
 const pendingPapers: PublicationItemType[] = [
   {
     authors: [
-      "Sheng-Shan Chen",
-      "Ren-Hung Hwang",
-      "Ying-Dar Lin",
-      "Tun-Wen Pai",
-      "Chin-Yu Sun",
+      { name: "Sheng-Shan Chen" },
+      { name: "Ren-Hung Hwang" },
+      { name: "Ying-Dar Lin" },
+      { name: "Tun-Wen Pai" },
+      { name: "Chin-Yu Sun", highlight: true, corresponding: true },
     ],
-    highlightedAuthors: ["Chin-Yu Sun"],
     title:
       "Extracting Attack Pattern from WAF Logs and CTIs Using Contrastive Semantic Learning",
     venue: "IEEE Transactions on Network and Service Management",
@@ -370,13 +438,12 @@ const pendingPapers: PublicationItemType[] = [
   },
   {
     authors: [
-      "Sheng-Shan Chen",
-      "Yi-Sheng Hsu",
-      "Chung-Kuan Chen",
-      "Tien-Chih Lin",
-      "Chin-Yu Sun",
+      { name: "Sheng-Shan Chen" },
+      { name: "Yi-Sheng Hsu" },
+      { name: "Chung-Kuan Chen" },
+      { name: "Tien-Chih Lin" },
+      { name: "Chin-Yu Sun", highlight: true, corresponding: true },
     ],
-    highlightedAuthors: ["Chin-Yu Sun"],
     title:
       "Enhancing Static Vulnerability Alert Validation using Large Language Models",
     venue: "The Journal of Systems & Software",
@@ -385,12 +452,11 @@ const pendingPapers: PublicationItemType[] = [
   },
   {
     authors: [
-      "Sheng-Shan Chen",
-      "Po-Yao Yen",
-      "Yu-Nung Cheng",
-      "Chin-Yu Sun",
+      { name: "Sheng-Shan Chen" },
+      { name: "Po-Yao Yen" },
+      { name: "Yu-Nung Cheng" },
+      { name: "Chin-Yu Sun", highlight: true, corresponding: true },
     ],
-    highlightedAuthors: ["Chin-Yu Sun"],
     title:
       "Applying Machine Learning for EDoS Attack Detection and Cost Analysis in Cloud Microservices",
     venue: "Digital Threats: Research and Practice",
@@ -399,17 +465,16 @@ const pendingPapers: PublicationItemType[] = [
   },
   {
     authors: [
-      "Yi-Hsien Chen",
-      "Sheng-Shan Chen",
-      "Chun-Chia Huang",
-      "Sian-Yao Huang",
-      "Chin-Yu Sun",
-      "Hsu-Chun Hsiao",
-      "Chung-Kuan Chen",
-      "Cheng-Lin Yang",
-      "Chun-Ying Huang",
+      { name: "Yi-Hsien Chen" },
+      { name: "Sheng-Shan Chen" },
+      { name: "Chun-Chia Huang" },
+      { name: "Sian-Yao Huang" },
+      { name: "Chin-Yu Sun", highlight: true },
+      { name: "Hsu-Chun Hsiao" },
+      { name: "Chung-Kuan Chen" },
+      { name: "Cheng-Lin Yang" },
+      { name: "Chun-Ying Huang" },
     ],
-    highlightedAuthors: ["Chin-Yu Sun"],
     title:
       "BASGen: An Automated Breach and Attack Simulation Script Generator based on Cyber Threat Intelligence Reports",
     venue:
@@ -419,15 +484,14 @@ const pendingPapers: PublicationItemType[] = [
   },
   {
     authors: [
-      "Sheng-Shan Chen",
-      "Yi-Hsien Chen",
-      "Tun-Wen Pai",
-      "Chung-Kuan Chen",
-      "Keisuke Furumoto",
-      "Takeshi Takahashi",
-      "Chin-Yu Sun",
+      { name: "Sheng-Shan Chen" },
+      { name: "Yi-Hsien Chen" },
+      { name: "Tun-Wen Pai" },
+      { name: "Chung-Kuan Chen" },
+      { name: "Keisuke Furumoto" },
+      { name: "Takeshi Takahashi" },
+      { name: "Chin-Yu Sun", highlight: true, corresponding: true },
     ],
-    highlightedAuthors: ["Chin-Yu Sun"],
     title:
       "CTI-KG: A Structured Threat Information Expression-Based Knowledge Graph Construction for Cyber Threat Intelligence Analysts",
     venue: "Computers & Security",
@@ -442,20 +506,42 @@ const sections: PublicationSectionType[] = [
   { titleZh: "投稿中", titleEn: "Under Review", items: pendingPapers },
 ];
 
-function renderAuthors(
-  authors: string[],
-  highlightedAuthors: string[] = []
-): React.ReactNode {
+function AuthorName({ author }: { author: AuthorType }) {
+  return (
+    <span className={author.highlight ? "highlight-author" : ""}>
+      {author.name}
+      {author.coFirst && <sup className="author-mark mark-cofirst">△</sup>}
+      {author.corresponding && (
+        <sup className="author-mark mark-corresponding">*</sup>
+      )}
+    </span>
+  );
+}
+
+function renderAuthors(authors: AuthorType[]): React.ReactNode {
+  if (authors.length === 1) {
+    return <AuthorName author={authors[0]} />;
+  }
+
+  if (authors.length === 2) {
+    return (
+      <>
+        <AuthorName author={authors[0]} />
+        {" and "}
+        <AuthorName author={authors[1]} />
+      </>
+    );
+  }
+
   return authors.map((author, index) => {
-    const isHighlighted = highlightedAuthors.includes(author);
     const isLast = index === authors.length - 1;
+    const isSecondLast = index === authors.length - 2;
 
     return (
-      <React.Fragment key={`${author}-${index}`}>
-        <span className={isHighlighted ? "highlight-author" : ""}>
-          {author}
-        </span>
-        {!isLast ? ", " : ""}
+      <React.Fragment key={`${author.name}-${index}`}>
+        <AuthorName author={author} />
+        {!isLast && !isSecondLast ? ", " : ""}
+        {isSecondLast ? ", and " : ""}
       </React.Fragment>
     );
   });
@@ -472,14 +558,25 @@ function getTagClassName(tag: string) {
   return "tag";
 }
 
+function AuthorLegend() {
+  return (
+    <div className="author-legend">
+      <span className="legend-item">
+        <sup className="author-mark mark-cofirst">△</sup> Co-first author
+      </span>
+      <span className="legend-item">
+        <sup className="author-mark mark-corresponding">*</sup> Corresponding author
+      </span>
+    </div>
+  );
+}
+
 function PublicationItem({ item }: { item: PublicationItemType }) {
   return (
     <li className="pub-item">
       <div className="pub-title">“{item.title}”</div>
 
-      <div className="pub-authors">
-        {renderAuthors(item.authors, item.highlightedAuthors)}
-      </div>
+      <div className="pub-authors">{renderAuthors(item.authors)}</div>
 
       <div className="pub-meta">
         <em>{item.venue}</em>, {item.details}
@@ -501,6 +598,8 @@ function PublicationItem({ item }: { item: PublicationItemType }) {
 export function Publication() {
   return (
     <div className="publication">
+      <AuthorLegend />
+
       {sections.map((section, index) => (
         <section className="publication-section" key={section.titleEn}>
           <h4 className="publication-heading">
@@ -516,7 +615,9 @@ export function Publication() {
             ))}
           </ol>
 
-          {index !== sections.length - 1 && <hr className="publication-divider" />}
+          {index !== sections.length - 1 && (
+            <hr className="publication-divider" />
+          )}
         </section>
       ))}
     </div>
