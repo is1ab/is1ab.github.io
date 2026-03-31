@@ -1,5 +1,5 @@
 import datas from "../assets/profile.json";
-import teacherPhoto from "../assets/logo.png";
+//import teacherPhoto from "../assets/logo.png";
 
 type ProfileItem = {
   title: string;
@@ -114,19 +114,7 @@ export function Profile() {
         <div className="row g-4 align-items-center">
           <div className="col-12 col-md-4 col-lg-3">
             <div className="d-flex justify-content-center">
-              <img
-                src={teacherPhoto}
-                alt="Chin-Yu Sun"
-                className="img-fluid rounded-4"
-                style={{
-                  width: "100%",
-                  maxWidth: "220px",
-                  aspectRatio: "4 / 5",
-                  objectFit: "cover",
-                  border: "2px solid #7a1b1b",
-                  boxShadow: "0 10px 24px rgba(0,0,0,0.28)",
-                }}
-              />
+              
             </div>
           </div>
 
