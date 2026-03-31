@@ -5,6 +5,11 @@ type ProfileItem = {
   descriptions: string[];
 };
 
+type ExperienceGroup = {
+  organization: string;
+  items: string[];
+};
+
 const profileDatas: ProfileItem[] = [
   {
     title: "姓名（Name）",
@@ -42,20 +47,23 @@ const profileDatas: ProfileItem[] = [
     title: "聯絡電話（Phone）",
     descriptions: ["+886-2-2771-2171 #4245（研究室）"],
   },
-  {
-    title: "實驗室（Lab）",
-    descriptions: ["資訊安全實驗室 (Information Security Lab.)"],
-  },
 ];
 
-const administrativeExperiences = [
-  "國立臺北科技大學",
-  "計算機與網路中心 網路作業組組長（2024/2 - 2026/2）",
-  "宋恭源獎學金 關懷導師（2024/6 - 2025/8）",
-  "計算機與網路發展指導委員（2022/8 - 2024/7）",
-  "院務會議 候補委員（2023/8 - 2024/7）",
-  "系課程委員（2022/8 - 2023/7）",
-  "國立清華大學 資訊工程系 博士後研究員（2021/9 – 2022/7）",
+const administrativeExperiences: ExperienceGroup[] = [
+  {
+    organization: "國立臺北科技大學",
+    items: [
+      "計算機與網路中心 網路作業組組長（2024/2 - 2026/2）",
+      "宋恭源獎學金 關懷導師（2024/6 - 2025/8）",
+      "計算機與網路發展指導委員（2022/8 - 2024/7）",
+      "院務會議 候補委員（2023/8 - 2024/7）",
+      "系課程委員（2022/8 - 2023/7）",
+    ],
+  },
+  {
+    organization: "國立清華大學",
+    items: ["資訊工程系 博士後研究員（2021/9 - 2022/7）"],
+  },
 ];
 
 const academicExperiences = [
@@ -71,6 +79,13 @@ const honors = [
   "112學年度第2學期（113.09.06, 與大一導生）",
   "112學年度第1學期（113.02.16, 與大一導生）",
   "通過 經濟部產業人才能力鑑定證書 資訊安全工程師 - 初級能力鑑定 112.07.31",
+];
+
+const currentRoles = [
+  "中華民國資訊安全學會 北區副秘書長（2024/12 - pres.）",
+  "國立臺北科技大學 資訊工程系 校外實習委員（2024/8 - pres.）",
+  "國立臺北科技大學 資訊工程系 系學審會委員（2023/8 - pres.）",
+  "國立臺北科技大學 資訊工程系 技優學生輔導小組成員（2023/8 - pres.）",
 ];
 
 function getValue(keyword: string) {
@@ -219,10 +234,9 @@ export function Profile() {
               className="text-secondary"
               style={{ fontSize: "1rem", lineHeight: 1.9, maxWidth: "780px" }}
             >
-              <div>中華民國資訊安全學會 北區副秘書長（2024/12 - pres.）</div>
-              <div>國立臺北科技大學 資訊工程系 校外實習委員（2024/8 - pres.）</div>
-              <div>國立臺北科技大學 資訊工程系 系學審會委員（2023/8 - pres.）</div>
-              <div>國立臺北科技大學 資訊工程系 技優學生輔導小組成員（2023/8 - pres.）</div>
+              {currentRoles.map((role, index) => (
+                <div key={`role-${index}`}>{role}</div>
+              ))}
             </div>
           </div>
         </div>
@@ -276,9 +290,24 @@ export function Profile() {
             className="text-white"
             style={{ lineHeight: 1.9, fontSize: "1.05rem" }}
           >
-            {administrativeExperiences.map((item, index) => (
-              <div key={`admin-${index}`} className="mb-2">
-                {item}
+            {administrativeExperiences.map((group, groupIndex) => (
+              <div key={`admin-group-${groupIndex}`} className="mb-3">
+                <div
+                  className="mb-2 fw-semibold"
+                  style={{ color: "#f5f5f5" }}
+                >
+                  {group.organization}
+                </div>
+
+                {group.items.map((item, itemIndex) => (
+                  <div
+                    key={`admin-item-${groupIndex}-${itemIndex}`}
+                    className="mb-2"
+                    style={{ paddingLeft: "2rem", color: "#d6d6d6" }}
+                  >
+                    {item}
+                  </div>
+                ))}
               </div>
             ))}
           </div>
