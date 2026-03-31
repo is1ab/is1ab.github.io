@@ -194,10 +194,10 @@ export function Profile() {
               className="text-secondary"
               style={{ fontSize: "1rem", lineHeight: 1.9, maxWidth: "780px" }}
             >
-              中華民國資訊安全學會 北區副秘書長（2024/12 - pres.）
-              國立臺北科技大學 資訊工程系 校外實習委員（2024/8 - pres.）
-              國立臺北科技大學 資訊工程系 系學審會委員（2023/8 - pres.）
-              國立臺北科技大學 資訊工程系 技優學生輔導小組成員（2023/8 - pres.）
+              <div>中華民國資訊安全學會 北區副秘書長（2024/12 - pres.）</div>
+              <div>國立臺北科技大學 資訊工程系 校外實習委員（2024/8 - pres.）</div>
+              <div>國立臺北科技大學 資訊工程系 系學審會委員（2023/8 - pres.）</div>
+              <div>國立臺北科技大學 資訊工程系 技優學生輔導小組成員（2023/8 - pres.）</div>
             </div>
           </div>
         </div>
