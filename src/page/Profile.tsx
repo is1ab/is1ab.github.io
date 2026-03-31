@@ -1,5 +1,5 @@
 import datas from "../assets/profile.json";
-import teacherPhoto from "../assets/cys.png";
+import teacherPhoto from "../assets/logo.png";
 
 type ProfileItem = {
   title: string;
