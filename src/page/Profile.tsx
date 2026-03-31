@@ -1,4 +1,5 @@
 import datas from "../assets/profile.json";
+//import teacherPhoto from "../assets/profile/teacher.jpg";
 
 type ProfileItem = {
   title: string;
@@ -84,8 +85,27 @@ export function Profile() {
           borderColor: "#7a1b1b",
         }}
       >
-        <div className="row g-4 align-items-start">
-          <div className="col-12 col-lg-8">
+        <div className="row g-4 align-items-center">
+          {/* 左側照片 */}
+          <div className="col-12 col-lg-4">
+            <div className="d-flex justify-content-center">
+              <img
+                src={teacherPhoto}
+                alt="Chin-Yu Sun"
+                className="img-fluid rounded-4"
+                style={{
+                  maxWidth: "280px",
+                  width: "100%",
+                  objectFit: "cover",
+                  border: "2px solid #7a1b1b",
+                  boxShadow: "0 12px 28px rgba(0,0,0,0.28)",
+                }}
+              />
+            </div>
+          </div>
+
+          {/* 中間文字 */}
+          <div className="col-12 col-lg-4">
             <div
               className="fw-bold mb-2"
               style={{
@@ -123,6 +143,7 @@ export function Profile() {
             </div>
           </div>
 
+          {/* 右側聯絡資訊 */}
           <div className="col-12 col-lg-4">
             <div className="d-flex flex-column gap-3">
               <div
