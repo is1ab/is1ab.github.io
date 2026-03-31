@@ -11,20 +11,6 @@ export function Experience(){
     return (
         <div className="experience">
             <>
-                <h4 className="text-center fw-bold">現職 Current Institutional Affiliation/Position</h4>
-                <ul>
-                    <li>國立臺北科技大學 資訊工程系 助理教授（2022/8 - pres.）
-                        <ul>
-                            <li>校外實習委員（2024/8 - pres.）</li>
-                            <li>系學審會委員（2023/8 - pres.）</li>
-                            <li>技優學生輔導小組成員（2023/8 - pres.）</li>
-                        </ul>
-                    </li>
-                    <li>中華民國資訊安全學會 北區副秘書長（2024/12 - pres.）</li>
-                </ul>
-            </>
-            <hr></hr>
-            <>
                 <h4 className="text-center fw-bold">行政經歷 Positions Held</h4>
                 <ul>
                     <li>國立臺北科技大學
