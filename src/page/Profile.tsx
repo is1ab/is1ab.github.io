@@ -56,6 +56,32 @@ function SectionTitle({ title }: { title: string }) {
   );
 }
 
+function InfoMiniCard({
+  label,
+  value,
+}: {
+  label: string;
+  value?: string;
+}) {
+  return (
+    <div
+      className="h-100 rounded-4 p-4"
+      style={{
+        backgroundColor: "#111",
+        border: "1px solid rgba(255,255,255,0.08)",
+      }}
+    >
+      <div className="text-secondary small mb-2">{label}</div>
+      <div
+        className="text-white"
+        style={{ lineHeight: 1.8, fontSize: "1rem", wordBreak: "break-word" }}
+      >
+        {value ? renderDescription(value) : null}
+      </div>
+    </div>
+  );
+}
+
 export function Profile() {
   const profileDatas = datas as ProfileItem[];
 
@@ -86,32 +112,31 @@ export function Profile() {
         }}
       >
         <div className="row g-4 align-items-center">
-          {/* 左側照片 */}
-          <div className="col-12 col-lg-4">
+          <div className="col-12 col-md-4 col-lg-3">
             <div className="d-flex justify-content-center">
               <img
                 src={teacherPhoto}
                 alt="Chin-Yu Sun"
                 className="img-fluid rounded-4"
                 style={{
-                  maxWidth: "280px",
                   width: "100%",
+                  maxWidth: "220px",
+                  aspectRatio: "4 / 5",
                   objectFit: "cover",
                   border: "2px solid #7a1b1b",
-                  boxShadow: "0 12px 28px rgba(0,0,0,0.28)",
+                  boxShadow: "0 10px 24px rgba(0,0,0,0.28)",
                 }}
               />
             </div>
           </div>
 
-          {/* 中間文字 */}
-          <div className="col-12 col-lg-4">
+          <div className="col-12 col-md-8 col-lg-9">
             <div
               className="fw-bold mb-2"
               style={{
                 color: "#ff4d4f",
-                fontSize: "clamp(1.8rem, 3vw, 2.5rem)",
-                lineHeight: 1.2,
+                fontSize: "clamp(2rem, 3vw, 2.8rem)",
+                lineHeight: 1.15,
               }}
             >
               孫勤昱
@@ -129,7 +154,7 @@ export function Profile() {
             </div>
 
             <div
-              className="text-white mb-2"
+              className="text-white mb-3"
               style={{ fontSize: "1.1rem", lineHeight: 1.8 }}
             >
               {positionItem?.descriptions?.[0]}
@@ -137,48 +162,38 @@ export function Profile() {
 
             <div
               className="text-secondary"
-              style={{ fontSize: "1rem", lineHeight: 1.8 }}
+              style={{ fontSize: "1rem", lineHeight: 1.9, maxWidth: "780px" }}
             >
-              {labItem?.descriptions?.[0]}
-            </div>
-          </div>
-
-          {/* 右側聯絡資訊 */}
-          <div className="col-12 col-lg-4">
-            <div className="d-flex flex-column gap-3">
-              <div
-                className="p-3 rounded-4"
-                style={{ backgroundColor: "rgba(255,255,255,0.03)" }}
-              >
-                <div className="text-secondary small mb-1">Email</div>
-                <div className="text-white">
-                  {emailItem?.descriptions?.[0] &&
-                    renderDescription(emailItem.descriptions[0])}
-                </div>
-              </div>
-
-              <div
-                className="p-3 rounded-4"
-                style={{ backgroundColor: "rgba(255,255,255,0.03)" }}
-              >
-                <div className="text-secondary small mb-1">Phone</div>
-                <div className="text-white">
-                  {phoneItem?.descriptions?.[0] &&
-                    renderDescription(phoneItem.descriptions[0])}
-                </div>
-              </div>
-
-              <div
-                className="p-3 rounded-4"
-                style={{ backgroundColor: "rgba(255,255,255,0.03)" }}
-              >
-                <div className="text-secondary small mb-1">Office</div>
-                <div className="text-white">{officeItem?.descriptions?.[0]}</div>
-              </div>
+              研究領域涵蓋資訊安全、網路攻防、密碼學、硬體安全與量子密碼學，並致力於安全技術研究與實務應用。
             </div>
           </div>
         </div>
       </div>
+
+      {/* 聯絡資訊 */}
+      <section className="mb-4">
+        <SectionTitle title="聯絡資訊" />
+        <div className="row g-3">
+          <div className="col-12 col-md-4">
+            <InfoMiniCard
+              label="Email"
+              value={emailItem?.descriptions?.[0]}
+            />
+          </div>
+          <div className="col-12 col-md-4">
+            <InfoMiniCard
+              label="Phone"
+              value={phoneItem?.descriptions?.[0]}
+            />
+          </div>
+          <div className="col-12 col-md-4">
+            <InfoMiniCard
+              label="Office"
+              value={officeItem?.descriptions?.[0]}
+            />
+          </div>
+        </div>
+      </section>
 
       {/* 學歷 */}
       <section className="mb-4">
@@ -190,7 +205,10 @@ export function Profile() {
             borderColor: "#7a1b1b",
           }}
         >
-          <div className="text-white" style={{ lineHeight: 1.9, fontSize: "1.05rem" }}>
+          <div
+            className="text-white"
+            style={{ lineHeight: 1.9, fontSize: "1.05rem" }}
+          >
             {degreeItem?.descriptions?.map((description, index) => (
               <div key={`degree-${index}`}>{description}</div>
             ))}
@@ -228,7 +246,7 @@ export function Profile() {
         </div>
       </section>
 
-      {/* 其他資訊 */}
+      {/* 其他 */}
       <section className="mb-4">
         <SectionTitle title="其他資訊" />
         <div className="row g-3">
