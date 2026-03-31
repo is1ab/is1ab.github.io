@@ -73,12 +73,25 @@ const academicExperiences = [
 ];
 
 const honors = [
-  "榮獲 國立臺北科技大學 電資學院 113學年度 - (院)傑出教學獎 114.09.12",
-  "榮獲 國立臺北科技大學 112學年度 - 優良導師 113.07.02",
-  "榮獲 國立臺北科技大學 保管教室整潔評比優良",
-  "112學年度第2學期（113.09.06, 與大一導生）",
-  "112學年度第1學期（113.02.16, 與大一導生）",
-  "通過 經濟部產業人才能力鑑定證書 資訊安全工程師 - 初級能力鑑定 112.07.31",
+  {
+    title: "榮獲 國立臺北科技大學 電資學院 113學年度 - (院)傑出教學獎 114.09.12",
+    items: [],
+  },
+  {
+    title: "榮獲 國立臺北科技大學 112學年度 - 優良導師 113.07.02",
+    items: [],
+  },
+  {
+    title: "榮獲 國立臺北科技大學 保管教室整潔評比優良",
+    items: [
+      "112學年度第2學期（113.09.06, 與大一導生）",
+      "112學年度第1學期（113.02.16, 與大一導生）",
+    ],
+  },
+  {
+    title: "通過 經濟部產業人才能力鑑定證書 資訊安全工程師 - 初級能力鑑定 112.07.31",
+    items: [],
+  },
 ];
 
 const currentRoles = [
@@ -349,15 +362,25 @@ export function Profile() {
             className="text-white"
             style={{ lineHeight: 1.9, fontSize: "1.05rem" }}
           >
-            {honors.map((item, index) => (
-              <div key={`honor-${index}`} className="mb-2">
-                {item}
+            {honors.map((honor, honorIndex) => (
+              <div key={`honor-${honorIndex}`} className="mb-3">
+                <div className="mb-2">{honor.title}</div>
+      
+                {honor.items.map((item, itemIndex) => (
+                  <div
+                    key={`honor-item-${honorIndex}-${itemIndex}`}
+                    className="mb-2"
+                    style={{ paddingLeft: "2rem", color: "#d6d6d6" }}
+                  >
+                    {item}
+                  </div>
+                ))}
               </div>
             ))}
           </div>
         </div>
       </section>
-
+      
       <section className="mb-4">
         <SectionTitle title="專長" />
         <div
