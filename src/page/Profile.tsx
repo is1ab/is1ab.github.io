@@ -1,4 +1,3 @@
-import datas from "../assets/profile.json";
 import teacherPhoto from "../assets/cys2.png";
 
 type ProfileItem = {
@@ -6,7 +5,48 @@ type ProfileItem = {
   descriptions: string[];
 };
 
-function getValue(profileDatas: ProfileItem[], keyword: string) {
+const profileDatas: ProfileItem[] = [
+  {
+    title: "姓名（Name）",
+    descriptions: ["孫勤昱（Chin-Yu Sun）"],
+  },
+  {
+    title: "職稱（Position）",
+    descriptions: ["國立臺北科技大學 資訊工程系-助理教授（Assistant Professor）"],
+  },
+  {
+    title: "學歷（Degree）",
+    descriptions: ["國立清華大學 資訊工程學系博士（Ph. D., National Tsing Hua University, Taiwan）"],
+  },
+  {
+    title: "專長（Expertise）",
+    descriptions: [
+      "網路安全 – 攻防技術（Network Security and hacking techniques）",
+      "密碼學與其相關應用（Cryptography and its applications）",
+      "資訊安全（Information Security）",
+      "硬體安全（Hardware Security）",
+      "量子密碼學（Quantum Cryptography）",
+    ],
+  },
+  {
+    title: "辦公室（Office）",
+    descriptions: ["宏裕科研大樓 1626室（Hong-Yue Tech. Research Building 1626）"],
+  },
+  {
+    title: "聯繫信箱（Email）",
+    descriptions: ["cysun@ntut.edu.tw"],
+  },
+  {
+    title: "聯絡電話（Phone）",
+    descriptions: ["+886-2-2771-2171 #4245（研究室）"],
+  },
+  {
+    title: "實驗室（Lab）",
+    descriptions: ["資訊安全實驗室 (Information Security Lab.)"],
+  },
+];
+
+function getValue(keyword: string) {
   return profileDatas.find((item) => item.title.includes(keyword));
 }
 
@@ -83,21 +123,17 @@ function InfoMiniCard({
 }
 
 export function Profile() {
-  const profileDatas = datas as ProfileItem[];
-
-  const nameItem = getValue(profileDatas, "姓名");
-  const positionItem = getValue(profileDatas, "職稱");
-  const degreeItem = getValue(profileDatas, "學歷");
-  const expertiseItem = getValue(profileDatas, "專長");
-  const officeItem = getValue(profileDatas, "辦公室");
-  const emailItem = getValue(profileDatas, "信箱");
-  const phoneItem = getValue(profileDatas, "電話");
-  const labItem = getValue(profileDatas, "實驗室");
+  const name = getValue("姓名");
+  const position = getValue("職稱");
+  const degree = getValue("學歷");
+  const expertise = getValue("專長");
+  const office = getValue("辦公室");
+  const email = getValue("信箱");
+  const phone = getValue("電話");
+  const lab = getValue("實驗室");
 
   return (
     <div className="container py-4" style={{ maxWidth: "1100px" }}>
-
-      {/* 主卡 */}
       <div
         className="rounded-4 border p-4 p-md-5 mb-4"
         style={{
@@ -151,7 +187,7 @@ export function Profile() {
               className="text-white mb-3"
               style={{ fontSize: "1.1rem", lineHeight: 1.8 }}
             >
-              {positionItem?.descriptions?.[0]}
+              {position?.descriptions?.[0]}
             </div>
 
             <div
@@ -164,32 +200,21 @@ export function Profile() {
         </div>
       </div>
 
-      {/* 聯絡資訊 */}
       <section className="mb-4">
         <SectionTitle title="聯絡資訊" />
         <div className="row g-3">
           <div className="col-12 col-md-4">
-            <InfoMiniCard
-              label="Email"
-              value={emailItem?.descriptions?.[0]}
-            />
+            <InfoMiniCard label="Email" value={email?.descriptions?.[0]} />
           </div>
           <div className="col-12 col-md-4">
-            <InfoMiniCard
-              label="Phone"
-              value={phoneItem?.descriptions?.[0]}
-            />
+            <InfoMiniCard label="Phone" value={phone?.descriptions?.[0]} />
           </div>
           <div className="col-12 col-md-4">
-            <InfoMiniCard
-              label="Office"
-              value={officeItem?.descriptions?.[0]}
-            />
+            <InfoMiniCard label="Office" value={office?.descriptions?.[0]} />
           </div>
         </div>
       </section>
 
-      {/* 學歷 */}
       <section className="mb-4">
         <SectionTitle title="學歷" />
         <div
@@ -203,14 +228,13 @@ export function Profile() {
             className="text-white"
             style={{ lineHeight: 1.9, fontSize: "1.05rem" }}
           >
-            {degreeItem?.descriptions?.map((description, index) => (
+            {degree?.descriptions?.map((description, index) => (
               <div key={`degree-${index}`}>{description}</div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* 專長 */}
       <section className="mb-4">
         <SectionTitle title="專長" />
         <div
@@ -221,7 +245,7 @@ export function Profile() {
           }}
         >
           <div className="d-flex flex-wrap gap-3">
-            {expertiseItem?.descriptions?.map((description, index) => (
+            {expertise?.descriptions?.map((description, index) => (
               <span
                 key={`expertise-${index}`}
                 className="px-3 py-2 rounded-pill"
@@ -240,11 +264,10 @@ export function Profile() {
         </div>
       </section>
 
-      {/* 其他 */}
       <section className="mb-4">
         <SectionTitle title="其他資訊" />
         <div className="row g-3">
-          {nameItem && (
+          {name && (
             <div className="col-12 col-md-6">
               <div
                 className="h-100 rounded-4 border p-4"
@@ -253,9 +276,9 @@ export function Profile() {
                   borderColor: "#7a1b1b",
                 }}
               >
-                <div className="text-secondary small mb-2">{nameItem.title}</div>
+                <div className="text-secondary small mb-2">{name.title}</div>
                 <div className="text-white" style={{ lineHeight: 1.8 }}>
-                  {nameItem.descriptions.map((description, index) => (
+                  {name.descriptions.map((description, index) => (
                     <div key={`name-${index}`}>{description}</div>
                   ))}
                 </div>
@@ -263,7 +286,7 @@ export function Profile() {
             </div>
           )}
 
-          {labItem && (
+          {lab && (
             <div className="col-12 col-md-6">
               <div
                 className="h-100 rounded-4 border p-4"
@@ -272,9 +295,9 @@ export function Profile() {
                   borderColor: "#7a1b1b",
                 }}
               >
-                <div className="text-secondary small mb-2">{labItem.title}</div>
+                <div className="text-secondary small mb-2">{lab.title}</div>
                 <div className="text-white" style={{ lineHeight: 1.8 }}>
-                  {labItem.descriptions.map((description, index) => (
+                  {lab.descriptions.map((description, index) => (
                     <div key={`lab-${index}`}>{description}</div>
                   ))}
                 </div>
