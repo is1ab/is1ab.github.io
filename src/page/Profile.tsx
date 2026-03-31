@@ -12,7 +12,7 @@ const profileDatas: ProfileItem[] = [
   },
   {
     title: "職稱（Position）",
-    descriptions: ["國立臺北科技大學 資訊工程系-助理教授（Assistant Professor）"],
+    descriptions: ["國立臺北科技大學 資訊工程系 助理教授（2022/8 - pres.）"],
   },
   {
     title: "學歷（Degree）",
@@ -194,7 +194,10 @@ export function Profile() {
               className="text-secondary"
               style={{ fontSize: "1rem", lineHeight: 1.9, maxWidth: "780px" }}
             >
-              研究領域涵蓋資訊安全、網路攻防、密碼學、硬體安全與量子密碼學，並致力於安全技術研究與實務應用。
+              中華民國資訊安全學會 北區副秘書長（2024/12 - pres.）
+              國立臺北科技大學 資訊工程系 校外實習委員（2024/8 - pres.）
+              國立臺北科技大學 資訊工程系 系學審會委員（2023/8 - pres.）
+              國立臺北科技大學 資訊工程系 技優學生輔導小組成員（2023/8 - pres.）
             </div>
           </div>
         </div>
