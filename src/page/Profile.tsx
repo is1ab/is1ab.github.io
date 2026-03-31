@@ -16,7 +16,9 @@ const profileDatas: ProfileItem[] = [
   },
   {
     title: "學歷（Degree）",
-    descriptions: ["國立清華大學 資訊工程學系博士（Ph. D., National Tsing Hua University, Taiwan）"],
+    descriptions: [
+      "國立清華大學 資訊工程學系博士（Ph. D., National Tsing Hua University, Taiwan）",
+    ],
   },
   {
     title: "專長（Expertise）",
@@ -44,6 +46,31 @@ const profileDatas: ProfileItem[] = [
     title: "實驗室（Lab）",
     descriptions: ["資訊安全實驗室 (Information Security Lab.)"],
   },
+];
+
+const administrativeExperiences = [
+  "國立臺北科技大學",
+  "計算機與網路中心 網路作業組組長（2024/2 - 2026/2）",
+  "宋恭源獎學金 關懷導師（2024/6 - 2025/8）",
+  "計算機與網路發展指導委員（2022/8 - 2024/7）",
+  "院務會議 候補委員（2023/8 - 2024/7）",
+  "系課程委員（2022/8 - 2023/7）",
+  "國立清華大學 資訊工程系 博士後研究員（2021/9 – 2022/7）",
+];
+
+const academicExperiences = [
+  "擔任 2024 Taiwan Conference on Software Engineering - 註冊主席",
+  "擔任 2024 Cryptology and Information Security Conference - 協辦/窗口/場地主席",
+  "擔任 2023 IEEE International Conference on Consumer Electronics-Taiwan - Next Generation Cybersecurity - Special Session Chair",
+];
+
+const honors = [
+  "榮獲 國立臺北科技大學 電資學院 113學年度 - (院)傑出教學獎 114.09.12",
+  "榮獲 國立臺北科技大學 112學年度 - 優良導師 113.07.02",
+  "榮獲 國立臺北科技大學 保管教室整潔評比優良",
+  "112學年度第2學期（113.09.06, 與大一導生）",
+  "112學年度第1學期（113.02.16, 與大一導生）",
+  "通過 經濟部產業人才能力鑑定證書 資訊安全工程師 - 初級能力鑑定 112.07.31",
 ];
 
 function getValue(keyword: string) {
@@ -123,14 +150,12 @@ function InfoMiniCard({
 }
 
 export function Profile() {
-  const name = getValue("姓名");
   const position = getValue("職稱");
   const degree = getValue("學歷");
   const expertise = getValue("專長");
   const office = getValue("辦公室");
   const email = getValue("信箱");
   const phone = getValue("電話");
-  const lab = getValue("實驗室");
 
   return (
     <div className="container py-4" style={{ maxWidth: "1100px" }}>
@@ -239,6 +264,72 @@ export function Profile() {
       </section>
 
       <section className="mb-4">
+        <SectionTitle title="行政經歷" />
+        <div
+          className="rounded-4 border p-4"
+          style={{
+            backgroundColor: "#111",
+            borderColor: "#7a1b1b",
+          }}
+        >
+          <div
+            className="text-white"
+            style={{ lineHeight: 1.9, fontSize: "1.05rem" }}
+          >
+            {administrativeExperiences.map((item, index) => (
+              <div key={`admin-${index}`} className="mb-2">
+                {item}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="mb-4">
+        <SectionTitle title="學術經歷" />
+        <div
+          className="rounded-4 border p-4"
+          style={{
+            backgroundColor: "#111",
+            borderColor: "#7a1b1b",
+          }}
+        >
+          <div
+            className="text-white"
+            style={{ lineHeight: 1.9, fontSize: "1.05rem" }}
+          >
+            {academicExperiences.map((item, index) => (
+              <div key={`academic-${index}`} className="mb-2">
+                {item}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="mb-4">
+        <SectionTitle title="個人榮譽" />
+        <div
+          className="rounded-4 border p-4"
+          style={{
+            backgroundColor: "#111",
+            borderColor: "#7a1b1b",
+          }}
+        >
+          <div
+            className="text-white"
+            style={{ lineHeight: 1.9, fontSize: "1.05rem" }}
+          >
+            {honors.map((item, index) => (
+              <div key={`honor-${index}`} className="mb-2">
+                {item}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="mb-4">
         <SectionTitle title="專長" />
         <div
           className="rounded-4 border p-4"
@@ -264,49 +355,6 @@ export function Profile() {
               </span>
             ))}
           </div>
-        </div>
-      </section>
-
-      <section className="mb-4">
-        <SectionTitle title="其他資訊" />
-        <div className="row g-3">
-          {name && (
-            <div className="col-12 col-md-6">
-              <div
-                className="h-100 rounded-4 border p-4"
-                style={{
-                  backgroundColor: "#111",
-                  borderColor: "#7a1b1b",
-                }}
-              >
-                <div className="text-secondary small mb-2">{name.title}</div>
-                <div className="text-white" style={{ lineHeight: 1.8 }}>
-                  {name.descriptions.map((description, index) => (
-                    <div key={`name-${index}`}>{description}</div>
-                  ))}
-                </div>
-              </div>
-            </div>
-          )}
-
-          {lab && (
-            <div className="col-12 col-md-6">
-              <div
-                className="h-100 rounded-4 border p-4"
-                style={{
-                  backgroundColor: "#111",
-                  borderColor: "#7a1b1b",
-                }}
-              >
-                <div className="text-secondary small mb-2">{lab.title}</div>
-                <div className="text-white" style={{ lineHeight: 1.8 }}>
-                  {lab.descriptions.map((description, index) => (
-                    <div key={`lab-${index}`}>{description}</div>
-                  ))}
-                </div>
-              </div>
-            </div>
-          )}
         </div>
       </section>
     </div>
