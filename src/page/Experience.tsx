@@ -9,23 +9,7 @@ export function Experience(){
         return <span className="project-progressing">執行中</span>
     }
     return (
-        <div className="experience">
-            <>
-                <h4 className="text-center fw-bold">行政經歷 Positions Held</h4>
-                <ul>
-                    <li>國立臺北科技大學
-                        <ul>
-                            <li>計算機與網路中心 網路作業組組長（2024/2 - 2026/2）</li>
-                            <li>宋恭源獎學金 關懷導師（2024/6 - 2025/8）</li>
-                            <li>計算機與網路發展指導委員（2022/8 - 2024/7）</li>
-                            <li>院務會議 候補委員（2023/8 - 2024/7）</li>
-                            <li>系課程委員（2022/8 - 2023/7）</li>
-                        </ul>
-                    </li>
-                    <li>國立清華大學 資訊工程系 博士後研究員（2021/9 – 2022/7）</li>
-                </ul>
-            </>
-            <hr></hr>
+        <div className="experience">            
             <>
                 <h4 className="text-center fw-bold">計畫經歷 Project</h4>
                 <ul>
@@ -42,29 +26,6 @@ export function Experience(){
                     <li>數位影像秘密共享之研究及其在移動通訊環境中的應用（協助執行國科會計畫, 2015/8 - 2015/11）</li>
                     <li>安全有效的認證機制及其在電子商務應用之研究（協助執行國科會計畫, 2014/8 - 2015/7）</li>
                     <li>數位影像編輯技術之研究及在多媒體安全之應用（協助執行國科會計畫, 2011/8 - 2014/7）</li>
-                </ul>
-            </>
-            <hr></hr>
-            <>
-                <h4 className="text-center fw-bold">學術經歷 Academic</h4>
-                <ul>
-                    <li>擔任 2024 Taiwan Conference on Software Engineering - 註冊主席</li>
-                    <li>擔任 2024 Cryptology and Information Security Conference - 協辦/窗口/場地主席</li>
-                    <li>擔任 2023 IEEE International Conference on Consumer Electronics-Taiwan - Next Generation Cybersecurity - Special Session Chair</li>
-                </ul>
-            </>
-            <hr></hr>
-            <>
-                <h4 className="text-center fw-bold">個人榮譽 Honors</h4>
-                <ul>
-                    <li>榮獲 國立臺北科技大學 電資學院 113學年度 - (院)傑出教學獎 114.09.12</li>
-                    <li>榮獲 國立臺北科技大學 112學年度 - 優良導師 113.07.02</li>
-                    <li>榮獲 國立臺北科技大學 保管教室整潔評比優良</li>
-                    <ul>
-                        <li>112學年度第2學期（113.09.06, 與大一導生）</li>    
-                        <li>112學年度第1學期（113.02.16, 與大一導生）</li>
-                    </ul>
-                    <li>通過 經濟部產業人才能力鑑定證書 資訊安全工程師 - 初級能力鑑定 112.07.31</li>
                 </ul>
             </>
             <hr></hr>
