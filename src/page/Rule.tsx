@@ -100,8 +100,6 @@ export function Rule() {
     ["教學支援（TA）", "協助課程教學、作業輔導、課堂支援與學生協助。"],
   ];
 
-  const resourceRules = ["推薦信", "補助（比賽 / 出國 / 計畫）", "指導時間與優先度", "對外機會（實習 / 合作）"];
-
   const guidanceRules = [
     "若學生長期未達基本要求或 KPI，將進行個別面談與改善計畫。",
     "若學生無法配合實驗室基本運作，將視情況調整 Track 或工作內容。",
@@ -112,8 +110,6 @@ export function Rule() {
     "如學生擬參與校外實習，應以與資安、資訊技術或職涯發展高度相關者為原則，並須事先取得指導教授同意。",
     "未經同意，不得自行安排可能影響研究進度之長期校外兼職或實習。",
   ];
-
-  const cultureItems = ["學術倫理。", "誠信（嚴禁作弊、抄襲、造假等行為）。", "守時與責任感。", "團隊合作與互助。", "主動學習與持續精進。"];
 
   const unsuitableItems = ["僅希望取得學位而無意提升能力者。", "不願投入時間學習或訓練者。", "無法配合基本團隊運作與責任者。"];
 
@@ -315,35 +311,6 @@ export function Rule() {
               </div>
             </div>
           ))}
-        </div>
-      </div>
-
-      <div className="row g-4 mb-4">
-        <div className="col-12 col-lg-6">
-          <div className="rounded-4 p-4 h-100" style={panelStyle}>
-            <h4 className="fw-bold mb-3" style={{ color: "#ff4d4f" }}>
-              資源分配原則
-            </h4>
-            <div className="mb-2 text-white">以下資源採貢獻導向分配：</div>
-            <ul className="mb-0 ps-4" style={listTextStyle}>
-              {resourceRules.map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ul>
-          </div>
-        </div>
-
-        <div className="col-12 col-lg-6">
-          <div className="rounded-4 p-4 h-100" style={panelStyle}>
-            <h4 className="fw-bold mb-3" style={{ color: "#ff4d4f" }}>
-              實驗室文化
-            </h4>
-            <ul className="mb-0 ps-4" style={listTextStyle}>
-              {cultureItems.map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ul>
-          </div>
         </div>
       </div>
 
