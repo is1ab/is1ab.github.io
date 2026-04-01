@@ -110,9 +110,9 @@ export function Experience() {
 
     if (status === "協助") {
       return {
-        backgroundColor: "rgba(252, 185, 0, 0.12)",
-        color: "#d1cec5",
-        border: "1px solid rgba(252, 185, 0, 0.35)",
+        backgroundColor: "rgba(255, 255, 255, 0.06)",
+        color: "#f3f4f6",
+        border: "1px solid rgba(255, 255, 255, 0.18)",
       };
     }
 
