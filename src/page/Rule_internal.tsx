@@ -1,4 +1,4 @@
-export function Rule() {
+export function RuleInternal() {
   const principles = [
     "先完成學位，再追求加值成果。競賽、專案、實習與社團都不能取代碩士論文與學位進度。",
     "本實驗室不走單一路線，而採取：共通核心訓練、主軌培養、有限度公共任務三者並行。",
