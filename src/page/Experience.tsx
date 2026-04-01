@@ -153,7 +153,7 @@ export function Experience() {
         className="p-3 rounded-4 mb-4 text-center"
         style={{ backgroundColor: "#7a1b1b" }}
       >
-        <h3 className="fw-bold text-white m-0">計畫經歷 Project</h3>
+        <h3 className="fw-bold text-white m-0">計畫 Project</h3>
       </div>
 
       <div className="d-flex flex-column gap-3">
