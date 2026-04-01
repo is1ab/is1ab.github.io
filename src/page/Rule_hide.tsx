@@ -1,0 +1,338 @@
+export function Rule() {
+  const tracks = [
+    {
+      title: "Research Track",
+      subtitle: "研究型",
+      color: {
+        title: "#7dd3fc",
+        bg: "rgba(6, 147, 227, 0.10)",
+        border: "rgba(6, 147, 227, 0.35)",
+      },
+      goal: "培養思考與獨立研究能力",
+      requirements: [
+        "每週閱讀論文並整理重點",
+        "每月進行一次 paper presentation",
+        "持續發展研究題目與方法",
+      ],
+      milestones: [
+        "碩一上：完成文獻整理與研究方向探索",
+        "碩一下：完成研究 proposal",
+        "碩二上：完成論文初稿或投稿版本",
+        "碩二下：完成口試",
+      ],
+      graduation: ["至少完成一篇期刊論文，以投稿為目標，不強制接受"],
+      resources: ["高強度研究指導", "論文共同作者機會", "學術推薦信", "視成果提供國際交流機會"],
+    },
+    {
+      title: "CTF Track",
+      subtitle: "比賽型",
+      color: {
+        title: "#fcd34d",
+        bg: "rgba(252, 185, 0, 0.10)",
+        border: "rgba(252, 185, 0, 0.35)",
+      },
+      goal: "培養實戰能力與產業就業競爭力",
+      requirements: [
+        "每週投入固定 CTF 訓練時間（建議 10 小時以上）",
+        "定期撰寫技術 writeup",
+        "每月進行一次技術分享",
+        "每學期參與 CTF 競賽或實戰活動",
+        "參與社團活動",
+      ],
+      graduation: [
+        "持續參與國內外資安競賽或實戰活動",
+        "至少完成 1 項具技術深度之專題成果（如 exploit、工具、分析報告等）",
+        "須將漏洞挖掘、比賽成果轉化為碩論，內容應與指導教授評估與確認",
+        "參與 AIS3、臺灣好厲駭、漏洞回報或其他等值活動",
+      ],
+      notes: ["比賽參與不等同於碩論成果，仍需符合碩士論文之基本學術要求"],
+      resources: ["CTF 與訓練相關補助", "推薦信（就業推薦）", "資安企業實習"],
+    },
+    {
+      title: "Project Track",
+      subtitle: "專案型",
+      color: {
+        title: "#fda4af",
+        bg: "rgba(255, 77, 79, 0.10)",
+        border: "rgba(255, 77, 79, 0.35)",
+      },
+      goal: "培養實務經驗、系統設計與開發能力",
+      requirements: [
+        "參與實驗室計畫或系統開發",
+        "每月進行一次技術或系統相關報告",
+        "配合專案進度交付成果",
+      ],
+      graduation: [
+        "完成一項具完整設計與實作之系統或專案",
+        "須將專案成果轉化為碩士論文，內容應包含問題定義、方法、實作與評估",
+      ],
+      notes: ["專案參與不等同於論文成果，仍需符合碩士論文之基本學術要求"],
+      resources: ["穩定獎助金或專案補助", "推薦信（就業推薦）", "企業實習"],
+    },
+  ];
+
+  const timeline = [
+    {
+      phase: "入學前",
+      items: ["選擇 Track", "建立基礎能力（CTF/程式/研究方法）", "開始參與實驗室新生訓練及Group meeting（線上）"],
+    },
+    {
+      phase: "碩一上",
+      items: ["確立主軌方向", "提升主軌相關能力", "參與實驗室任務"],
+    },
+    {
+      phase: "碩一下",
+      items: ["執行主軌任務", "提出論文 proposal", "開始主要產出（研究/比賽/專案）"],
+    },
+    {
+      phase: "碩二上",
+      items: ["深化主軌成果（投稿/比賽/開發系統）", "嘗試完成論文初稿"],
+    },
+    {
+      phase: "碩二下",
+      items: ["驗收", "完成論文與口試", "進行傳承"],
+    },
+  ];
+  
+  const guidanceRules = [
+  "若學生長期未達基本要求或 KPI，將進行個別面談與改善計畫",
+  "若學生無法配合實驗室基本運作，將視情況調整 Track 或工作內容",
+  "若經多次輔導仍無改善，指導教授得重新評估指導關係與畢業時程",
+  ];
+  
+  const workStudyRules = [
+    {
+      main: "碩士班期間，學生應以研究訓練、實驗室任務與專業能力養成為優先",
+      sub: [
+        "原則上不建議從事與研究訓練無直接相關，且可能影響學習、研究進度或實驗室運作的校外兼職工作",
+        "校內工讀不在此限",
+        "如學生擬參與校外實習，應以與資安、資訊技術或職涯發展高度相關之內容為原則，並須事先取得指導教授同意",
+        "未經同意，不得自行安排可能影響研究進度之長期校外兼職或實習",
+      ],
+    },
+  ];
+  
+
+  const unsuitableItems = ["僅希望取得學位而無意提升能力者", "不願投入時間學習或訓練者", "無法配合基本團隊運作與責任者"];
+
+  const sectionTitleStyle = {
+    backgroundColor: "#7a1b1b",
+  } as const;
+
+  const panelStyle = {
+    backgroundColor: "#111",
+    border: "1px solid rgba(255,255,255,0.08)",
+  } as const;
+
+  const listTextStyle = {
+    color: "#e5e7eb",
+    lineHeight: 1.9,
+    fontSize: "1rem",
+  } as const;
+
+  return (
+    <div className="container py-4" style={{ maxWidth: "1180px" }}>
+      <div className="rounded-4 p-4 text-center mb-4" style={sectionTitleStyle}>
+        <h2 className="fw-bold text-white m-0">is1ab 運作規範</h2>
+        <div className="text-white mt-2" style={{ opacity: 0.9 }}>
+          Lab Handbook
+        </div>
+      </div>
+
+      <div className="rounded-4 p-4 p-md-5 mb-4" style={panelStyle}>
+        <h4 className="fw-bold mb-3" style={{ color: "#ff4d4f" }}>
+          核心原則
+        </h4>
+        <ul className="mb-0 ps-4" style={listTextStyle}>
+          <li>本實驗室重視主動學習、實作產出與團隊貢獻，並希望每位成員都能在投入中持續成長</li>
+          <li>期待每位學生在畢業時，都能清楚看見自己的成長與成果</li>
+        </ul>
+      </div>
+
+      <div className="row g-4 mb-4">
+        <div className="col-12 col-lg-6">
+          <div className="rounded-4 p-4 h-100" style={panelStyle}>
+            <h4 className="fw-bold mb-3" style={{ color: "#ff4d4f" }}>
+              基本要求
+            </h4>
+            <ul className="mb-0 ps-4" style={listTextStyle}>
+              <li>每週 Group Meeting 必須出席</li>
+              <li>每月至少一次研究或技術分享</li>
+              <li>需維持最低貢獻（依 KPI 制度）</li>
+              <li>必須參與部分實驗室公共事務（實驗室運作、課程助教、系統維護、資安社團等）</li>
+              <li>完成碩士論文並通過口試</li>
+              <li>研究訓練與專業能力養成具有延續性，非僅限於學期期間，學生需自行管理進度</li>
+              <li>知識及技術良好傳承</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="col-12 col-lg-6">
+          <div className="rounded-4 p-4 h-100" style={panelStyle}>
+            <h4 className="fw-bold mb-3" style={{ color: "#ff4d4f" }}>
+              運作與考核機制
+            </h4>
+            <ul className="mb-0 ps-4" style={listTextStyle}>
+              <li>每位學生需選擇一個主軌</li>
+              <li>除主軌研究外，每位學生也需參與至少一項實驗室公共事務，如課程助教、活動協助或社團經營等</li>
+              <li>學生的投入程度與實際貢獻，將影響資源配置、指導安排、推薦支持，以及整體研究進度</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className="rounded-4 p-4 p-md-5 mb-4" style={panelStyle}>
+        <h4 className="fw-bold mb-4" style={{ color: "#ff4d4f" }}>
+          KPI 制度
+        </h4>
+
+        <div className="row g-4">
+          {tracks.map((track, index) => (
+            <div className="col-12 col-lg-4" key={index}>
+              <div
+                className="h-100 rounded-4 p-4"
+                style={{
+                  backgroundColor: track.color.bg,
+                  border: `1px solid ${track.color.border}`,
+                }}
+              >
+                <div className="fw-bold mb-1" style={{ color: track.color.title, fontSize: "1.35rem" }}>
+                  {track.title}
+                </div>
+                <div className="mb-3" style={{ color: "#d1d5db", fontStyle: "italic" }}>
+                  {track.subtitle}
+                </div>
+
+                <div className="mb-3">
+                  <div className="fw-bold mb-2 text-white">目標</div>
+                  <div style={listTextStyle}>{track.goal}</div>
+                </div>
+
+                <div className="mb-3">
+                  <div className="fw-bold mb-2 text-white">基本要求</div>
+                  <ul className="mb-0 ps-4" style={listTextStyle}>
+                    {track.requirements.map((item, i) => (
+                      <li key={i}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+
+                {"milestones" in track && track.milestones && (
+                  <div className="mb-3">
+                    <div className="fw-bold mb-2 text-white">Milestone</div>
+                    <ul className="mb-0 ps-4" style={listTextStyle}>
+                      {track.milestones.map((item, i) => (
+                        <li key={i}>{item}</li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+
+                <div className="mb-3">
+                  <div className="fw-bold mb-2 text-white">
+                    {track.title === "CTF Track" ? "畢業條件（能力導向）" : "畢業條件"}
+                  </div>
+                  <ul className="mb-0 ps-4" style={listTextStyle}>
+                    {track.graduation.map((item, i) => (
+                      <li key={i}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+
+                {"notes" in track && track.notes && (
+                  <div className="mb-3">
+                    <div className="fw-bold mb-2 text-white">說明</div>
+                    <ul className="mb-0 ps-4" style={listTextStyle}>
+                      {track.notes.map((item, i) => (
+                        <li key={i}>{item}</li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+
+                <div>
+                  <div className="fw-bold mb-2 text-white">資源</div>
+                  <ul className="mb-0 ps-4" style={listTextStyle}>
+                    {track.resources.map((item, i) => (
+                      <li key={i}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="rounded-4 p-4 p-md-5 mb-4" style={panelStyle}>
+        <h4 className="fw-bold mb-4" style={{ color: "#ff4d4f" }}>
+          碩士兩年培養流程
+        </h4>
+
+        <div className="row g-4">
+          {timeline.map((phase, index) => (
+            <div className="col-12 col-md-6 col-xl-3" key={index}>
+              <div
+                className="h-100 rounded-4 p-4"
+                style={{
+                  backgroundColor: "rgba(255,255,255,0.03)",
+                  border: "1px solid rgba(255,255,255,0.08)",
+                }}
+              >
+                <div className="fw-bold mb-3" style={{ color: "#ff4d4f" }}>
+                  {phase.phase}
+                </div>
+                <ul className="mb-0 ps-4" style={listTextStyle}>
+                  {phase.items.map((item, i) => (
+                    <li key={i}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+    
+      <div className="rounded-4 p-4 p-md-5 mb-4" style={panelStyle}>
+      <h4 className="fw-bold mb-3" style={{ color: "#ff4d4f" }}>
+        輔導與調整機制
+      </h4>
+      <ul className="mb-0 ps-4" style={listTextStyle}>
+        {guidanceRules.map((item, index) => (
+          <li key={index}>{item}</li>
+        ))}
+      </ul>
+    </div>
+    
+    <div className="rounded-4 p-4 p-md-5 mb-4" style={panelStyle}>
+      <h4 className="fw-bold mb-3" style={{ color: "#ff4d4f" }}>
+        研究期間之兼職與實習原則
+      </h4>
+      <ul className="mb-0 ps-4" style={listTextStyle}>
+        {workStudyRules.map((rule, index) => (
+          <li key={index}>
+            {rule.main}
+            <ul className="mt-2 ps-4" style={listTextStyle}>
+              {rule.sub.map((item, i) => (
+                <li key={i}>{item}</li>
+              ))}
+            </ul>
+          </li>
+        ))}
+      </ul>
+    </div>
+
+      <div className="rounded-4 p-4 p-md-5 mb-4" style={panelStyle}>
+        <h4 className="fw-bold mb-3" style={{ color: "#ff4d4f" }}>
+          不適合加入本實驗室的學生
+        </h4>
+        <ul className="mb-0 ps-4" style={listTextStyle}>
+          {unsuitableItems.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  );
+}
