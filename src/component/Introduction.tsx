@@ -68,11 +68,7 @@ export function Introduction() {
               {" "}
               孫勤昱{" "}
             </a>
-            教授領導。本實驗室致力於培養「具備實戰能力與研究能力」的資安人才，並提供多元且明確的學習發展路徑，協助學生依據自身興趣與專長逐步建立能力。
-          </p>
-
-          <p style={{ fontSize: "1.05rem", lineHeight: 2, color: "#ffffff" }}>
-            實驗室鼓勵學生在理論基礎、技術實作與團隊合作之間取得平衡，並透過專題研究、競賽參與、系統實作與研究討論，逐步培養在資訊安全領域中的獨立思考能力與實務能力。
+            教授領導。本實驗室致力於培養「具備實戰能力與研究能力的資安人才」，提供三種發展路徑：
           </p>
 
           <div className="pt-2">
@@ -133,25 +129,10 @@ export function Introduction() {
                 lineHeight: 1.8,
               }}
             >
-              學生需於入學後一個月內選擇主軌，並接受對應要求。
             </div>
           </div>
 
-          <p style={{ fontSize: "1.05rem", lineHeight: 2, color: "#ffffff" }}>
-            欲加入實驗室之同學，請先行閱讀《
-            <a
-              className="text-decoration-underline"
-              style={{ cursor: "pointer", color: "#ff4d4f" }}
-              onClick={() => navigate("/rules")}
-            >
-              實驗室規則
-            </a>
-            》，再與《
-            <a href="mailto:cysun@ntut.edu.tw" style={{ color: "#ff4d4f" }}>
-              我
-            </a>
-            》聯繫。
-          </p>
+          學生需於入學後一個月內選擇主軌，並接受對應要求。
         </div>
       </div>
     </div>
