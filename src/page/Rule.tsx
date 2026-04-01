@@ -105,17 +105,25 @@ export function Rule() {
   ];
 
   const guidanceRules = [
-    "若學生長期未達基本要求或 KPI，將進行個別面談與改善計畫。",
-    "若學生無法配合實驗室基本運作，將視情況調整 Track 或工作內容。",
-    "若經多次輔導仍無改善，指導教授得依系所規定重新評估指導關係與畢業時程。",
-    "碩士班期間，學生應以研究訓練、實驗室任務與專業能力養成為優先。",
-    "原則上不建議從事與研究訓練無直接相關，且可能影響學習、研究進度與實驗室運作之外部兼職工作。",
-    "校內工讀、研究助理或其他經指導教授同意之校內工作，不在此限。",
-    "如學生擬參與校外實習，應以與資安、資訊技術或職涯發展高度相關者為原則，並須事先取得指導教授同意。",
-    "未經同意，不得自行安排可能影響研究進度之長期校外兼職或實習。",
+  "若學生長期未達基本要求或 KPI，將進行個別面談與改善計畫。",
+  "若學生無法配合實驗室基本運作，將視情況調整 Track 或工作內容。",
+  "若經多次輔導仍無改善，指導教授得依系所規定重新評估指導關係與畢業時程。",
   ];
+  
+  const workStudyRules = [
+    {
+      main: "碩士班期間，學生應以研究訓練、實驗室任務與專業能力養成為優先。",
+      sub: [
+        "原則上不建議從事與研究訓練無直接相關，且可能影響學習、研究進度或實驗室運作的校外兼職工作。",
+        "校內工讀、研究助理，或其他經指導教授同意之校內工作，不在此限。",
+        "如學生擬參與校外實習，應以與資安、資訊技術或職涯發展高度相關之內容為原則，並須事先取得指導教授同意。",
+        "未經同意，不得自行安排可能影響研究進度之長期校外兼職或實習。",
+      ],
+    },
+  ];
+  
 
-  const unsuitableItems = ["僅希望取得學位而無意提升能力者。", "不願投入時間學習或訓練者。", "無法配合基本團隊運作與責任者。"];
+  const unsuitableItems = ["僅希望取得學位而無意提升能力者", "不願投入時間學習或訓練者", "無法配合基本團隊運作與責任者"];
 
   const sectionTitleStyle = {
     backgroundColor: "#7a1b1b",
@@ -319,15 +327,33 @@ export function Rule() {
       </div>
 
       <div className="rounded-4 p-4 p-md-5 mb-4" style={panelStyle}>
-        <h4 className="fw-bold mb-3" style={{ color: "#ff4d4f" }}>
-          輔導與調整機制
-        </h4>
-        <ul className="mb-0 ps-4" style={listTextStyle}>
-          {guidanceRules.map((item, index) => (
-            <li key={index}>{item}</li>
-          ))}
-        </ul>
-      </div>
+      <h4 className="fw-bold mb-3" style={{ color: "#ff4d4f" }}>
+        輔導與調整機制
+      </h4>
+      <ul className="mb-0 ps-4" style={listTextStyle}>
+        {guidanceRules.map((item, index) => (
+          <li key={index}>{item}</li>
+        ))}
+      </ul>
+    </div>
+    
+    <div className="rounded-4 p-4 p-md-5 mb-4" style={panelStyle}>
+      <h4 className="fw-bold mb-3" style={{ color: "#ff4d4f" }}>
+        研究期間之兼職與實習原則
+      </h4>
+      <ul className="mb-0 ps-4" style={listTextStyle}>
+        {workStudyRules.map((rule, index) => (
+          <li key={index}>
+            {rule.main}
+            <ul className="mt-2 ps-4" style={listTextStyle}>
+              {rule.sub.map((item, i) => (
+                <li key={i}>{item}</li>
+              ))}
+            </ul>
+          </li>
+        ))}
+      </ul>
+    </div>
 
       <div className="rounded-4 p-4 p-md-5 mb-4" style={panelStyle}>
         <h4 className="fw-bold mb-3" style={{ color: "#ff4d4f" }}>
