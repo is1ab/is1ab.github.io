@@ -23,6 +23,7 @@ import { News } from "./page/News.tsx";
 import { Meeting } from "./page/Meeting.tsx";
 import { Activities } from "./page/Activities.tsx";
 import { Rule } from "./page/Rule.tsx";
+import { RuleInternal  } from "./page/Rule_internal.tsx";
 import { UriahMemberPage } from "./member/2023/Uriah.tsx";
 import { YMemberPage } from "./member/2023/Y.tsx";
 import { SaltMemberPage } from "./member/2023/Salt.tsx";
@@ -136,6 +137,7 @@ const router = createHashRouter(
       <Route path="/Calendar" element={<Meeting></Meeting>}></Route>
       <Route path="/Activities" element={<Activities></Activities>}></Route>
       <Route path="/Rules" element={<Rule></Rule>}></Route>
+	  <Route path="/Rules_internal" element={<RuleInternal />}></Route>
 
 	  <Route path="/Course/SecureProgramming" element={<SecureProgramming></SecureProgramming>}></Route>
 	  <Route path="/Course/2022/SP" element={<SP_2022></SP_2022>}></Route>
