@@ -93,18 +93,7 @@ export function Rule() {
       items: ["驗收", "完成論文與口試", "進行傳承"],
     },
   ];
-
-  const labRoles = [
-    ["總管", "協調整體運作、工作分配、重要事項追蹤與溝通"],
-    ["財務/採購管理", "經費申請、核銷、採購與款項管理"],
-    ["設備管理", "硬體設備、貴重物品、公有財產管理"],
-    ["網路管理", "IP 分配、NAS / 伺服器維護、帳號權限管理與備份"],
-    ["場地管理", "實驗安全規範、危害評估與環境衛生管理"],
-    ["網站管理", "維護實驗室網頁"],
-    ["公關", "維護實驗室網頁、活動接洽、合作單位聯繫與新人接待"],
-    ["課程助教", "協助課程教學、作業輔導、課堂支援與學生協助"],
-  ];
-
+  
   const guidanceRules = [
   "若學生長期未達基本要求或 KPI，將進行個別面談與改善計畫",
   "若學生無法配合實驗室基本運作，將視情況調整 Track 或工作內容",
@@ -304,29 +293,7 @@ export function Rule() {
         </div>
       </div>
 
-      <div className="rounded-4 p-4 p-md-5 mb-4" style={panelStyle}>
-        <h4 className="fw-bold mb-4" style={{ color: "#ff4d4f" }}>
-          實驗室職位制度
-        </h4>
-
-        <div className="row g-4">
-          {labRoles.map(([title, desc], index) => (
-            <div className="col-12 col-md-6 col-lg-4" key={index}>
-              <div
-                className="h-100 rounded-4 p-4"
-                style={{
-                  backgroundColor: "rgba(255,255,255,0.03)",
-                  border: "1px solid rgba(255,255,255,0.08)",
-                }}
-              >
-                <div className="fw-bold mb-2 text-white">{title}</div>
-                <div style={listTextStyle}>{desc}</div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-
+    
       <div className="rounded-4 p-4 p-md-5 mb-4" style={panelStyle}>
       <h4 className="fw-bold mb-3" style={{ color: "#ff4d4f" }}>
         輔導與調整機制
