@@ -132,9 +132,9 @@ export function Rule() {
   return (
     <div className="container py-4" style={{ maxWidth: "1180px" }}>
       <div className="rounded-4 p-4 text-center mb-4" style={sectionTitleStyle}>
-        <h2 className="fw-bold text-white m-0">Lab Handbook</h2>
+        <h2 className="fw-bold text-white m-0">is1ab 運作規範</h2>
         <div className="text-white mt-2" style={{ opacity: 0.9 }}>
-          資訊安全實驗室（is1ab）運作規範
+          Lab Handbook
         </div>
       </div>
 
@@ -143,9 +143,8 @@ export function Rule() {
           核心原則
         </h4>
         <ul className="mb-0 ps-4" style={listTextStyle}>
-          <li>本實驗室採「貢獻導向」運作。</li>
-          <li>投入程度與可獲得之資源、機會、指導強度成正比。</li>
-          <li>每位學生最終都需能回答：「我的貢獻是什麼？」</li>
+          <li>本實驗室重視主動學習、實作產出與團隊貢獻，並希望每位成員都能在投入中持續成長</li>
+          <li>期待每位學生在畢業時，都能清楚看見自己的成長與成果</li>
         </ul>
       </div>
 
