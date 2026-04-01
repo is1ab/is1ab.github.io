@@ -126,7 +126,7 @@ export function Introduction() {
             </div>
           </div>
           <p style={{ fontSize: "1.05rem", lineHeight: 2, color: "#ffffff" }}>
-          學生需於入學後一個月內選擇主軌，並接受對應要求。
+          學生需於加入後一個月內選擇主軌，並接受對應要求。
           </p> 
         </div>
       </div>
