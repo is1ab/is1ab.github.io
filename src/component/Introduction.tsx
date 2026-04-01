@@ -41,13 +41,7 @@ export function Introduction() {
 
   return (
     <div className="container py-4 introduction" style={{ maxWidth: "1100px" }}>
-      <div
-        className="p-3 rounded-4 mb-4 text-center"
-        style={{ backgroundColor: "#7a1b1b" }}
-      >
-        <h3 className="fw-bold text-white m-0">簡介</h3>
-      </div>
-
+      
       <div
         className="rounded-4 border p-4 p-md-5"
         style={{
