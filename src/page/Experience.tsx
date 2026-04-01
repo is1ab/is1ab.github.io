@@ -29,13 +29,6 @@ export function Experience(){
                 </ul>
             </>
             <hr></hr>
-            <>
-                <h4 className="text-center fw-bold">會員身份 Group/Membership</h4>
-                <ul>
-                    <li>中華民國資訊安全學會 永久會員（2022/9 - pres.）</li>
-                    <li>IEEE Member（No. 93106665）</li>
-                </ul>
-            </>
         </div>
     )
 }
