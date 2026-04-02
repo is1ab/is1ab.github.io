@@ -528,15 +528,16 @@ export function Activities() {
         .timeline-wrap::before {
           content: "";
           position: absolute;
-          left: 132px;
           top: 0;
           bottom: 0;
+          left: 164px;
           width: 1px;
           background: linear-gradient(
             180deg,
-            rgba(255,255,255,0.1) 0%,
-            rgba(255,255,255,0.04) 100%
+            rgba(255,255,255,0.14) 0%,
+            rgba(255,255,255,0.05) 100%
           );
+          z-index: 0;
         }
         
         .timeline-dot {
@@ -546,22 +547,23 @@ export function Activities() {
           background: linear-gradient(180deg, #f87171, #991b1b);
           box-shadow: 0 0 0 6px rgba(185, 28, 28, 0.12);
           position: absolute;
-          left: 132px;
-          top: 18px;
+          left: 164px;
+          top: 20px;
           transform: translateX(-50%);
           z-index: 2;
         }
 
         .timeline-item {
           display: grid;
-          grid-template-columns: 170px minmax(0, 1fr);
-          gap: 22px;
+          grid-template-columns: 190px minmax(0, 1fr);
+          gap: 28px;
           position: relative;
         }
 
         .timeline-rail {
           position: relative;
           padding-top: 12px;
+          min-height: 100%;
         }
 
         .timeline-dot {
@@ -579,7 +581,8 @@ export function Activities() {
 
         .timeline-date {
           display: inline-block;
-          padding: 8px 12px;
+          max-width: 140px;
+          padding: 8px 14px;
           border-radius: 12px;
           background: rgba(255,255,255,0.045);
           border: 1px solid rgba(255,255,255,0.08);
@@ -587,6 +590,9 @@ export function Activities() {
           font-size: 0.95rem;
           font-weight: 700;
           letter-spacing: 0.04em;
+          position: relative;
+          z-index: 3;
+          white-space: nowrap;
         }
 
         .timeline-card {
