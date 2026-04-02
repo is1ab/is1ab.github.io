@@ -221,8 +221,7 @@ function FeaturedActivity({ item }: { item: ActivityItemType }) {
         )}
 
         <p>
-          這裡收錄著實驗室一路走來參與的競賽、培訓、論壇與交流活動。
-          每一次並肩努力、每一段為夢想全力以赴的時光，都成了值得珍藏的回憶。
+          is1ab
         </p>
       </div>
 
