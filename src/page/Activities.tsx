@@ -642,8 +642,8 @@ export function Activities() {
             <div className="activities-kicker">Activities Archive</div>
             <h1 className="activities-title">歷史活動</h1>
             <p className="activities-subtitle">
-              以更清楚的時間軸與圖像展示方式，整理歷年競賽、論壇、課程、培訓與團隊活動。
-              讓訪客可以快速理解活動脈絡，也讓整個頁面更有作品集感。
+              這裡收錄的不只是歷年的活動紀錄，更是一群人為了理想相聚、為了目標持續努力的足跡。
+              透過一張張照片，我們留下共同成長的瞬間，也珍藏那些在追逐夢想路上並肩前行的回憶。
             </p>
           </div>
 
