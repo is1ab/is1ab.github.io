@@ -188,8 +188,7 @@ function FeaturedActivity({ item }: { item: ActivityItemType }) {
         )}
 
         <p>
-          收錄實驗室參與之競賽、培訓、論壇、工作坊與交流活動，透過時間軸方式整理重要紀錄，
-          讓整體成果展示更聚焦、易讀，也更方便後續擴充。
+          is1ab
         </p>
       </div>
 
