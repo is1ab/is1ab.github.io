@@ -414,18 +414,16 @@ export function RuleInternal() {
             <div className="row g-4 align-items-center">
               <div className="col-12 col-xl-8">
                 <div className="d-flex flex-wrap gap-2 mb-3">
-                  <span style={chipStyle}>is1ab Internal</span>
-                  <span style={chipStyle}>Lab Handbook</span>
-                  <span style={chipStyle}>Version 2</span>
+                  <span style={chipStyle}>內部文件</span>
+                  <span style={chipStyle}>Lab Handbook V2</span>
+                  <span style={chipStyle}>2026/04/02</span>
                 </div>
 
                 <h1
                   className="fw-bold text-white mb-3"
                   style={{ fontSize: "clamp(2.1rem, 4vw, 3.8rem)", lineHeight: 1.15 }}
                 >
-                  資訊安全實驗室
-                  <br />
-                  運作手冊
+                  實驗室運作手冊
                 </h1>
 
                 <p
