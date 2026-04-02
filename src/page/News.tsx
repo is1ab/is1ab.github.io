@@ -135,20 +135,6 @@ export function News() {
         <h3 className="fw-bold text-white m-0">榮譽榜 Honors</h3>
       </div>
 
-      {/* 上方介紹區：已移除外框 */}
-      <div
-        className="p-4 p-md-5 mb-4"
-        style={{
-          background:
-            "linear-gradient(180deg, rgba(122,27,27,0.16), rgba(255,255,255,0.02))",
-          borderRadius: "1.5rem",
-        }}
-      >
-                  
-          </div>
-        </div>
-      </div>
-
       <div
         className="rounded-4 border p-4 mb-4"
         style={{
