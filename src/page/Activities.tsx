@@ -244,6 +244,10 @@ function TimelineCard({ item }: { item: ActivityItemType }) {
       </div>
 
       <div className="timeline-card">
+        <div className="timeline-mobile-meta">
+          <div className="timeline-mobile-date">{item.time}</div>
+        </div>
+
         <div className="timeline-card-head">
           <div className={getCategoryClass(item.category)}>{item.category}</div>
           <h3>{item.title}</h3>
@@ -283,8 +287,7 @@ export function Activities() {
           --cyan: #67e8f9;
           --shadow: 0 18px 50px rgba(0,0,0,0.28);
 
-          /* timeline shared vars */
-          --timeline-rail-width: 170px;
+          --timeline-rail-width: 176px;
           --timeline-line-x: 112px;
           --timeline-dot-size: 14px;
           --timeline-gap: 22px;
@@ -475,6 +478,7 @@ export function Activities() {
           flex-wrap: wrap;
           gap: 10px;
           margin-top: 14px;
+          margin-bottom: 18px;
         }
 
         .activity-note {
@@ -574,6 +578,7 @@ export function Activities() {
           gap: var(--timeline-gap);
           position: relative;
           z-index: 1;
+          align-items: start;
         }
 
         .timeline-rail {
@@ -627,6 +632,25 @@ export function Activities() {
           min-width: 0;
         }
 
+        .timeline-mobile-meta {
+          display: none;
+        }
+
+        .timeline-mobile-date {
+          display: inline-flex;
+          align-items: center;
+          min-height: 38px;
+          padding: 7px 12px;
+          border-radius: 999px;
+          background: rgba(185, 28, 28, 0.12);
+          border: 1px solid rgba(255, 95, 109, 0.25);
+          color: #ffd9dc;
+          font-size: 0.88rem;
+          font-weight: 700;
+          line-height: 1;
+          white-space: nowrap;
+        }
+
         .timeline-card-head {
           display: flex;
           flex-direction: column;
@@ -653,7 +677,16 @@ export function Activities() {
 
           .activities-page {
             --timeline-rail-width: 150px;
-            --timeline-line-x: 98px;
+            --timeline-line-x: 96px;
+            --timeline-gap: 18px;
+          }
+
+          .timeline-date-wrap {
+            padding-right: 28px;
+          }
+
+          .timeline-date {
+            font-size: 0.9rem;
           }
         }
 
@@ -700,20 +733,21 @@ export function Activities() {
           }
 
           .timeline-rail {
-            min-height: auto;
-            padding-top: 0;
-          }
-
-          .timeline-date-wrap {
-            padding-right: 0;
-          }
-
-          .timeline-dot {
             display: none;
           }
 
-          .timeline-date {
-            font-size: 0.9rem;
+          .timeline-mobile-meta {
+            display: block;
+            margin-bottom: 14px;
+          }
+
+          .timeline-card-head {
+            margin-bottom: 16px;
+          }
+
+          .timeline-card-head h3 {
+            font-size: 1.18rem;
+            line-height: 1.45;
           }
         }
       `}</style>
