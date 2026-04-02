@@ -146,6 +146,19 @@ const activities: ActivityItemType[] = [
   },
 ];
 
+function getCategoryClass(category: ActivityCategory) {
+  switch (category) {
+    case "比賽":
+      return "activity-pill activity-pill-competition";
+    case "資安活動":
+      return "activity-pill activity-pill-cyber";
+    case "實驗室聚餐":
+      return "activity-pill activity-pill-gathering";
+    default:
+      return "activity-pill";
+  }
+}
+
 function ActivityGallery({
   images,
   title,
@@ -171,29 +184,16 @@ function ActivityGallery({
     <div className={galleryClass}>
       {images.map((img, index) => (
         <div
+          key={`${title}-${index}`}
           className={`activity-gallery-item ${
             index === 0 && images.length % 2 === 1 ? "activity-gallery-item-large" : ""
           }`}
-          key={`${title}-${index}`}
         >
           <img src={img} alt={`${title}-${index + 1}`} />
         </div>
       ))}
     </div>
   );
-}
-
-function getCategoryClass(category: ActivityCategory) {
-  switch (category) {
-    case "比賽":
-      return "activity-pill activity-pill-competition";
-    case "資安活動":
-      return "activity-pill activity-pill-cyber";
-    case "實驗室聚餐":
-      return "activity-pill activity-pill-gathering";
-    default:
-      return "activity-pill";
-  }
 }
 
 function FeaturedActivity({ item }: { item: ActivityItemType }) {
@@ -235,8 +235,8 @@ function TimelineCard({ item }: { item: ActivityItemType }) {
   return (
     <article className="timeline-item">
       <div className="timeline-rail">
-        <div className="timeline-dot" />
         <div className="timeline-date">{item.time}</div>
+        <div className="timeline-dot" />
       </div>
 
       <div className="timeline-card">
@@ -268,15 +268,9 @@ export function Activities() {
     <section className="activities-page">
       <style>{`
         .activities-page {
-          --bg: #06080d;
-          --panel: rgba(255,255,255,0.04);
-          --panel-strong: rgba(255,255,255,0.06);
-          --border: rgba(255,255,255,0.1);
           --text: #f5f7fb;
           --muted: #a7b0c0;
-          --accent: #7c1220;
-          --accent-2: #b91c1c;
-          --cyan: #67e8f9;
+          --border: rgba(255,255,255,0.1);
           --shadow: 0 18px 50px rgba(0,0,0,0.28);
           background:
             radial-gradient(circle at top left, rgba(185, 28, 28, 0.18), transparent 28%),
@@ -378,7 +372,13 @@ export function Activities() {
           content: "";
           position: absolute;
           inset: 0;
-          background: linear-gradient(135deg, rgba(185,28,28,0.08), transparent 40%, transparent 70%, rgba(34,211,238,0.04));
+          background: linear-gradient(
+            135deg,
+            rgba(185,28,28,0.08),
+            transparent 40%,
+            transparent 70%,
+            rgba(34,211,238,0.04)
+          );
           pointer-events: none;
         }
 
@@ -458,6 +458,7 @@ export function Activities() {
           flex-wrap: wrap;
           gap: 10px;
           margin-top: 14px;
+          margin-bottom: 18px;
         }
 
         .activity-note {
@@ -525,32 +526,29 @@ export function Activities() {
           grid-column: span 2;
         }
 
+        .timeline-wrap {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          gap: 24px;
+          isolation: isolate;
+        }
+
         .timeline-wrap::before {
           content: "";
           position: absolute;
           top: 0;
           bottom: 0;
-          left: 164px;
+          left: 170px;
           width: 1px;
           background: linear-gradient(
             180deg,
-            rgba(255,255,255,0.14) 0%,
-            rgba(255,255,255,0.05) 100%
+            rgba(255, 255, 255, 0.18) 0%,
+            rgba(255, 255, 255, 0.08) 35%,
+            rgba(255, 255, 255, 0.18) 100%
           );
-          z-index: 0;
-        }
-        
-        .timeline-dot {
-          width: 14px;
-          height: 14px;
-          border-radius: 999px;
-          background: linear-gradient(180deg, #f87171, #991b1b);
-          box-shadow: 0 0 0 6px rgba(185, 28, 28, 0.12);
-          position: absolute;
-          left: 164px;
-          top: 20px;
-          transform: translateX(-50%);
-          z-index: 2;
+          z-index: 1;
+          pointer-events: none;
         }
 
         .timeline-item {
@@ -558,12 +556,35 @@ export function Activities() {
           grid-template-columns: 190px minmax(0, 1fr);
           gap: 28px;
           position: relative;
+          z-index: 2;
         }
 
         .timeline-rail {
           position: relative;
-          padding-top: 12px;
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-start;
           min-height: 100%;
+          padding-top: 12px;
+          padding-right: 28px;
+        }
+
+        .timeline-date {
+          display: inline-flex;
+          align-items: center;
+          min-height: 48px;
+          padding: 0 18px;
+          border-radius: 18px;
+          background: rgba(255, 255, 255, 0.045);
+          border: 1px solid rgba(255, 255, 255, 0.08);
+          color: #f4f4f5;
+          font-size: 0.95rem;
+          font-weight: 700;
+          letter-spacing: 0.04em;
+          position: relative;
+          z-index: 4;
+          white-space: nowrap;
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
         }
 
         .timeline-dot {
@@ -573,26 +594,10 @@ export function Activities() {
           background: linear-gradient(180deg, #f87171, #991b1b);
           box-shadow: 0 0 0 6px rgba(185, 28, 28, 0.12);
           position: absolute;
-          left: 98px;
-          top: 18px;
-          transform: translateX(-50%);
-          z-index: 2;
-        }
-
-        .timeline-date {
-          display: inline-block;
-          max-width: 140px;
-          padding: 8px 14px;
-          border-radius: 12px;
-          background: rgba(255,255,255,0.045);
-          border: 1px solid rgba(255,255,255,0.08);
-          color: #f4f4f5;
-          font-size: 0.95rem;
-          font-weight: 700;
-          letter-spacing: 0.04em;
-          position: relative;
-          z-index: 3;
-          white-space: nowrap;
+          right: 21px;
+          top: 29px;
+          transform: translate(50%, -50%);
+          z-index: 5;
         }
 
         .timeline-card {
@@ -601,6 +606,8 @@ export function Activities() {
           border-radius: 26px;
           padding: 22px;
           box-shadow: var(--shadow);
+          position: relative;
+          z-index: 3;
         }
 
         .timeline-card-head {
@@ -628,20 +635,7 @@ export function Activities() {
           }
 
           .timeline-wrap::before {
-            display: none;
-          }
-
-          .timeline-item {
-            grid-template-columns: 1fr;
-            gap: 12px;
-          }
-
-          .timeline-rail {
-            padding-top: 0;
-          }
-
-          .timeline-dot {
-            display: none;
+            left: 170px;
           }
         }
 
@@ -678,8 +672,28 @@ export function Activities() {
             max-height: 420px;
           }
 
+          .timeline-wrap::before {
+            display: none;
+          }
+
+          .timeline-item {
+            grid-template-columns: 1fr;
+            gap: 12px;
+          }
+
+          .timeline-rail {
+            padding-top: 0;
+            padding-right: 0;
+          }
+
           .timeline-date {
+            min-height: 44px;
+            padding: 0 16px;
             font-size: 0.9rem;
+          }
+
+          .timeline-dot {
+            display: none;
           }
         }
       `}</style>
@@ -715,10 +729,7 @@ export function Activities() {
 
         <div className="timeline-wrap">
           {rest.map((item, index) => (
-            <TimelineCard
-              key={`${item.time}-${item.title}-${index}`}
-              item={item}
-            />
+            <TimelineCard key={`${item.time}-${item.title}-${index}`} item={item} />
           ))}
         </div>
       </div>
