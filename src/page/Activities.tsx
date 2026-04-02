@@ -1,4 +1,3 @@
-import React from "react";
 import is1ab2025 from "../assets/activities/2025_is1ab_新生盃.png";
 import gold2025 from "../assets/activities/2025_金盾獎.jpg";
 import hackathon2025 from "../assets/activities/2025_AIS3_黑客松.jpg";
