@@ -441,7 +441,7 @@ export function RuleInternal() {
 
                 <div className="row g-3">
                   {[
-                    ["Priority 01", "先完成碩士學位"],
+                    ["Priority 01", "完成碩士學位"],
                     ["Priority 02", "建立可驗證能力"],
                     ["Priority 03", "維持團隊與傳承"],
                   ].map(([title, desc]) => (
@@ -479,7 +479,7 @@ export function RuleInternal() {
                   }}
                 >
                   <div className="fw-bold text-white mb-3" style={{ fontSize: "1.15rem" }}>
-                    這份手冊在處理什麼
+                    本手冊說明實驗室的核心運作原則、訓練架構、評估方式與畢業導向，作為成員培養、任務安排與資源配置的共同依據。
                   </div>
                   <div className="d-grid gap-3">
                     {[
