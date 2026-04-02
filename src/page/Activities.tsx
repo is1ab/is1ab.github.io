@@ -525,17 +525,10 @@ export function Activities() {
           grid-column: span 2;
         }
 
-        .timeline-wrap {
-          position: relative;
-          display: flex;
-          flex-direction: column;
-          gap: 24px;
-        }
-
         .timeline-wrap::before {
           content: "";
           position: absolute;
-          left: 104px;
+          left: 132px;
           top: 0;
           bottom: 0;
           width: 1px;
@@ -544,6 +537,19 @@ export function Activities() {
             rgba(255,255,255,0.1) 0%,
             rgba(255,255,255,0.04) 100%
           );
+        }
+        
+        .timeline-dot {
+          width: 14px;
+          height: 14px;
+          border-radius: 999px;
+          background: linear-gradient(180deg, #f87171, #991b1b);
+          box-shadow: 0 0 0 6px rgba(185, 28, 28, 0.12);
+          position: absolute;
+          left: 132px;
+          top: 18px;
+          transform: translateX(-50%);
+          z-index: 2;
         }
 
         .timeline-item {
