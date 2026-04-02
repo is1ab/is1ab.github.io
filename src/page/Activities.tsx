@@ -772,8 +772,8 @@ export function Activities() {
               <span>時間跨度</span>
             </div>
             <div className="stat-card">
-              <strong>一起走過</strong>
-              <span>共同回憶</span>
+              <strong>CTF/Forum</strong>
+              <span>競賽與交流</span>
             </div>
           </div>
         </header>
