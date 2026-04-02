@@ -840,7 +840,7 @@ export function RuleInternal() {
                 <div className="mb-4">
                   <div style={sectionTitleStyle}>KPI 與考核制度</div>
                   <p style={sectionDescStyle}>
-                    本實驗室採用「月檢視、學期總評」制度。KPI 的目的不是製造壓力，而是讓學生知道自己是否在正確軌道上，
+                    本實驗室採用「週檢視、學期總評」制度。KPI 的目的不是製造壓力，而是讓學生知道自己是否在正確軌道上，
                     並讓教授能及早介入輔導。
                   </p>
                 </div>
