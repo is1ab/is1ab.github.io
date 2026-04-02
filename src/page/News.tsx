@@ -27,7 +27,7 @@ export function News(){
         <div className="news">
             <h4 className="text-center fw-bold">榮譽榜 Honors</h4>
             <div className="d-flex flex-column">
-                <small>若同學（包含本校五專、大學部、研究所）有意願參加「資安」相關競賽，</a></small>
+                <small>若同學（包含本校五專、大學部、研究所）有意願參加「資安」相關競賽，</small>
                 <small>本實驗室有團隊與業師協助，以提供相關課程訓練、解題、來栽培選手，</small>
                 <small>歡迎寄信與我聯繫：cysun@ntut.edu.tw</small>
                 <br/>
