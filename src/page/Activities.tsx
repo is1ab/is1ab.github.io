@@ -3,9 +3,12 @@ import gold2025 from "../assets/activities/2025_金盾獎.jpg";
 import hackathon2025 from "../assets/activities/2025_AIS3_黑客松.jpg";
 import aegisfinal2025 from "../assets/activities/2025_神盾盃決賽.jpg";
 
+type ActivityCategory = "比賽" | "資安活動" | "實驗室聚餐";
+
 type ActivityItemType = {
   time: string;
   title: string;
+  category: ActivityCategory;
   notes?: string[];
   images: string[];
 };
@@ -14,21 +17,25 @@ const activities: ActivityItemType[] = [
   {
     time: "2025.11.23",
     title: "2025 神盾盃資安競賽決賽",
+    category: "比賽",
     images: [aegisfinal2025],
   },
   {
     time: "2025.10.18",
     title: "2025 資安技能金盾初賽",
+    category: "比賽",
     images: [gold2025],
   },
   {
     time: "2025.09.15",
     title: "2025 is1ab 新生盃",
+    category: "比賽",
     images: [is1ab2025],
   },
   {
     time: "2025.08.15",
     title: "HITCON CMT 2025",
+    category: "資安活動",
     images: [
       "https://drive.google.com/thumbnail?id=1AdZbm0KkppfzooqJ2jp-tMBRVeINB-R7&sz=w1200",
       "https://drive.google.com/thumbnail?id=1A6JBMKkfNFeQfLssvF5DmFajsfNaVMTK&sz=w1200",
@@ -38,6 +45,7 @@ const activities: ActivityItemType[] = [
   {
     time: "2025.07.28",
     title: "2025 AIS3 新型態資安暑期課程",
+    category: "資安活動",
     images: [
       "https://drive.google.com/thumbnail?id=1nW4NGygr_16Y93etH7l6-mMz8dyfmPMB&sz=w1200",
       "https://drive.google.com/thumbnail?id=1d133d1uNoMwPjv2am-L5vdohhj9XuYfs&sz=w1200",
@@ -46,11 +54,13 @@ const activities: ActivityItemType[] = [
   {
     time: "2025.05.03",
     title: "2025 AIS3 Club 北區高中職程式安全黑客松工作坊",
+    category: "資安活動",
     images: [hackathon2025],
   },
   {
     time: "2025.02.07",
     title: "AIS3 EOF CTF 2025 Final",
+    category: "比賽",
     images: [
       "https://drive.google.com/thumbnail?id=1xw2zg76QZGzFgUaNnbrb-X_mZ4blyKm2&sz=w1200",
       "https://drive.google.com/thumbnail?id=1qmqxe37jXBu-f9Z1j1FiU1s2oatEUgRk&sz=w1200",
@@ -59,6 +69,7 @@ const activities: ActivityItemType[] = [
   {
     time: "2024.11.23",
     title: "CTF 種子培訓工作坊 獲金獎",
+    category: "比賽",
     images: [
       "https://drive.google.com/thumbnail?id=1PaI1q2ZsJ-ZYb9Bny_qC0wldeI28XipR&sz=w1200",
     ],
@@ -66,6 +77,7 @@ const activities: ActivityItemType[] = [
   {
     time: "2024.10.12",
     title: "資安技能金盾獎競賽 2024 初賽",
+    category: "比賽",
     images: [
       "https://drive.google.com/thumbnail?id=1SgKriQhuqAJcFEwTkiPYwfiHP0lnAukt&sz=w1200",
       "https://drive.google.com/thumbnail?id=1k4FmtOMN7ZarHTWcO21Yub3mhFHJIvFJ&sz=w1200",
@@ -74,6 +86,7 @@ const activities: ActivityItemType[] = [
   {
     time: "2024.04.27",
     title: "尋找資安女婕思（決賽）",
+    category: "比賽",
     notes: ["地點：臺南工業局沙崙資安服務基地"],
     images: [
       "https://drive.google.com/thumbnail?id=1cCYXbABWN5iwEQAzlUE3T_m4TKTev4C8&sz=w1200",
@@ -86,6 +99,7 @@ const activities: ActivityItemType[] = [
   {
     time: "2024.01.21",
     title: "實驗室尾牙：旭集和食集錦 SUNRISE",
+    category: "實驗室聚餐",
     images: [
       "https://drive.google.com/thumbnail?id=1vFuyeIm8p5VD4k4cv1sTfhU6X9J7i8lh&sz=w1200",
       "https://drive.google.com/thumbnail?id=1tFaOtpgW44YZR_KTg8VIqkAbVSmdLuVx&sz=w1200",
@@ -95,6 +109,7 @@ const activities: ActivityItemType[] = [
   {
     time: "2023.07.22",
     title: "第四屆的奧義學院實習生發表會＆AI 資安社群論壇",
+    category: "資安活動",
     images: [
       "https://drive.google.com/thumbnail?id=1U-tNyCVfOmSYE04DhK0_N3ldPQRTUwCJ&sz=w1200",
       "https://drive.google.com/thumbnail?id=1d9m8BnlOPMjzwVASp8uefOHr2lsiSoOy&sz=w1200",
@@ -103,6 +118,7 @@ const activities: ActivityItemType[] = [
   {
     time: "2023.07.17",
     title: "2023 ICCE-TW 會議",
+    category: "資安活動",
     notes: ["Next Generation Cyberseucrity – Session Chair", "學生論文發表"],
     images: [
       "https://drive.google.com/thumbnail?id=1yiEEUdSiLAN3KWsShPzjtmp7QDmSfik7&sz=w1200",
@@ -112,6 +128,7 @@ const activities: ActivityItemType[] = [
   {
     time: "2023.05.06",
     title: "2023 尋找資安女婕思（決賽）",
+    category: "比賽",
     notes: ["地點：臺南工業局沙崙資安服務基地"],
     images: [
       "https://drive.google.com/thumbnail?id=15TaJYXuUWz28ksNQIgD4OX33T-Lv_sOn&sz=w1200",
@@ -120,6 +137,7 @@ const activities: ActivityItemType[] = [
   {
     time: "2023.01.21",
     title: "實驗室尾牙：豐 Food 海陸百匯",
+    category: "實驗室聚餐",
     images: [
       "https://drive.google.com/thumbnail?id=1K8KTOhV-obkkhd5sZl8q5w2V_Z_2J2Qa&sz=w1200",
       "https://drive.google.com/thumbnail?id=1J8OgQPHjn9lR9XzgtfCQQoJfR6MG-Pk5&sz=w1200",
@@ -165,11 +183,24 @@ function ActivityGallery({
   );
 }
 
+function getCategoryClass(category: ActivityCategory) {
+  switch (category) {
+    case "比賽":
+      return "activity-pill activity-pill-competition";
+    case "資安活動":
+      return "activity-pill activity-pill-cyber";
+    case "實驗室聚餐":
+      return "activity-pill activity-pill-gathering";
+    default:
+      return "activity-pill";
+  }
+}
+
 function FeaturedActivity({ item }: { item: ActivityItemType }) {
   return (
     <section className="featured-activity-card">
       <div className="featured-activity-copy">
-        <div className="activity-pill activity-pill-hot">Latest Event</div>
+        <div className={getCategoryClass(item.category)}>{item.category}</div>
 
         <div className="featured-meta">
           <span className="featured-date">{item.time}</span>
@@ -188,7 +219,8 @@ function FeaturedActivity({ item }: { item: ActivityItemType }) {
         )}
 
         <p>
-          is1ab
+          這裡收錄著實驗室一路走來參與的競賽、培訓、論壇與交流活動。
+          每一次並肩努力、每一段為夢想全力以赴的時光，都成了值得珍藏的回憶。
         </p>
       </div>
 
@@ -199,13 +231,7 @@ function FeaturedActivity({ item }: { item: ActivityItemType }) {
   );
 }
 
-function TimelineCard({
-  item,
-  index,
-}: {
-  item: ActivityItemType;
-  index: number;
-}) {
+function TimelineCard({ item }: { item: ActivityItemType }) {
   return (
     <article className="timeline-item">
       <div className="timeline-rail">
@@ -215,7 +241,7 @@ function TimelineCard({
 
       <div className="timeline-card">
         <div className="timeline-card-head">
-          <div className="activity-pill">{index < 1 ? "精選活動" : "活動"}</div>
+          <div className={getCategoryClass(item.category)}>{item.category}</div>
           <h3>{item.title}</h3>
         </div>
 
@@ -400,20 +426,31 @@ export function Activities() {
           align-items: center;
           justify-content: center;
           width: fit-content;
-          padding: 8px 12px;
+          padding: 8px 14px;
           border-radius: 999px;
-          background: rgba(255,255,255,0.06);
-          color: #eef2ff;
-          border: 1px solid rgba(255,255,255,0.1);
-          font-size: 0.82rem;
+          font-size: 0.84rem;
           font-weight: 700;
           letter-spacing: 0.03em;
+          border: 1px solid rgba(255,255,255,0.1);
+          backdrop-filter: blur(8px);
         }
 
-        .activity-pill-hot {
+        .activity-pill-competition {
           background: rgba(185, 28, 28, 0.14);
           color: #ffd5da;
           border: 1px solid rgba(255, 95, 109, 0.28);
+        }
+
+        .activity-pill-cyber {
+          background: rgba(34, 211, 238, 0.12);
+          color: #c8f7ff;
+          border: 1px solid rgba(103, 232, 249, 0.24);
+        }
+
+        .activity-pill-gathering {
+          background: rgba(250, 204, 21, 0.12);
+          color: #fff1b8;
+          border: 1px solid rgba(250, 204, 21, 0.24);
         }
 
         .activity-notes {
@@ -641,8 +678,8 @@ export function Activities() {
             <div className="activities-kicker">Activities Archive</div>
             <h1 className="activities-title">歷史活動</h1>
             <p className="activities-subtitle">
-              這裡收錄的不只是歷年的活動紀錄，更是一群人為了理想相聚、為了目標持續努力的足跡。
-              透過一張張照片，我們留下共同成長的瞬間，也珍藏那些在追逐夢想路上並肩前行的回憶。
+              一路走來，大家因為相同的熱情聚在一起，在一次次挑戰中努力、成長，也在彼此陪伴中慢慢靠近自己的夢想。
+              這些照片記錄下的不只是活動本身，更是那些一起奮鬥、一起歡笑的珍貴時光。
             </p>
           </div>
 
@@ -656,8 +693,8 @@ export function Activities() {
               <span>時間跨度</span>
             </div>
             <div className="stat-card">
-              <strong>CTF / Forum</strong>
-              <span>競賽與交流</span>
+              <strong>一起走過</strong>
+              <span>共同回憶</span>
             </div>
           </div>
         </header>
@@ -669,7 +706,6 @@ export function Activities() {
             <TimelineCard
               key={`${item.time}-${item.title}-${index}`}
               item={item}
-              index={index}
             />
           ))}
         </div>
