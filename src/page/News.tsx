@@ -135,15 +135,65 @@ export function News() {
         <h3 className="fw-bold text-white m-0">榮譽榜 Honors</h3>
       </div>
 
+      {/* 上方介紹區：已移除外框 */}
       <div
-        className="rounded-4 border p-4 p-md-5 mb-4"
+        className="p-4 p-md-5 mb-4"
         style={{
           background:
             "linear-gradient(180deg, rgba(122,27,27,0.16), rgba(255,255,255,0.02))",
-          borderColor: "rgba(255,255,255,0.10)",
+          borderRadius: "1.5rem",
         }}
       >
-        
+        <div className="row g-4 align-items-center">
+          <div className="col-12 col-lg-8">
+            <div
+              className="fw-bold mb-3"
+              style={{
+                color: "#ffffff",
+                fontSize: "clamp(1.3rem, 2vw, 1.8rem)",
+                lineHeight: 1.4,
+              }}
+            >
+              鼓勵學生參與資安競賽與實戰培訓
+            </div>
+
+            <div style={{ color: "#d1d5db", lineHeight: 1.9, fontSize: "1rem" }}>
+              若同學（包含本校五專、大學部、研究所）有意願參加「資安」相關競賽，
+              本實驗室有團隊與業師協助，可提供相關課程訓練、解題與選手培育資源。
+            </div>
+          </div>
+
+          <div className="col-12 col-lg-4">
+            {/* 聯絡方式小框：已移除外框 */}
+            <div
+              className="p-4 h-100"
+              style={{
+                backgroundColor: "rgba(255,255,255,0.03)",
+                borderRadius: "1.5rem",
+              }}
+            >
+              <div className="text-secondary small mb-2">聯絡方式</div>
+              <a
+                href="mailto:cysun@ntut.edu.tw"
+                className="text-decoration-none fw-bold"
+                style={{
+                  color: "#ffffff",
+                  fontSize: "1.05rem",
+                  wordBreak: "break-word",
+                }}
+              >
+                cysun@ntut.edu.tw
+              </a>
+              <div
+                className="mt-2"
+                style={{ color: "#9ca3af", lineHeight: 1.8, fontSize: "0.95rem" }}
+              >
+                歡迎有興趣的同學來信聯繫。
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div
         className="rounded-4 border p-4 mb-4"
