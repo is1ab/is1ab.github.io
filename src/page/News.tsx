@@ -119,6 +119,13 @@ export function News() {
     return Object.entries(groups).sort((a, b) => Number(b[0]) - Number(a[0]));
   }, [filteredItems]);
 
+  const scrollToYear = (year: string) => {
+    const el = document.getElementById(`year-${year}`);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   return (
     <div className="container py-4" style={{ maxWidth: "1120px" }}>
       <div
@@ -186,7 +193,6 @@ export function News() {
         </div>
       </div>
 
-      {/* 篩選與快速定位 */}
       <div
         className="rounded-4 border p-4 mb-4"
         style={{
@@ -220,10 +226,11 @@ export function News() {
             <div className="text-secondary small mb-2">快速定位</div>
             <div className="d-flex flex-wrap gap-2">
               {years.map((year) => (
-                <a
+                <button
                   key={year}
-                  href={`#year-${year}`}
-                  className="text-decoration-none px-3 py-2 rounded-pill fw-bold"
+                  type="button"
+                  onClick={() => scrollToYear(year)}
+                  className="px-3 py-2 rounded-pill fw-bold"
                   style={{
                     backgroundColor:
                       selectedYear === year
@@ -235,17 +242,18 @@ export function News() {
                         ? "1px solid rgba(255, 77, 79, 0.28)"
                         : "1px solid rgba(255,255,255,0.10)",
                     fontSize: "0.92rem",
+                    cursor: "pointer",
+                    outline: "none",
                   }}
                 >
                   {year}
-                </a>
+                </button>
               ))}
             </div>
           </div>
         </div>
       </div>
 
-      {/* 分年顯示 */}
       <div className="d-flex flex-column gap-4">
         {groupedItems.map(([year, items]) => (
           <section key={year} id={`year-${year}`}>
