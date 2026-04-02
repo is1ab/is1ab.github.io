@@ -556,6 +556,16 @@ export function Member() {
       website: "/#/member/2026/Stanley",
       avatar: _Stanley,
     },
+    {
+      key: "24",
+      name: "唐秉毓",
+      joinDate: "2026.04",
+      role: "碩零，資工碩士",
+      coAdvisor: "",
+      experience: "",
+      certificate: "",
+      website: "",
+    },
   ]
 
   const consultantUserTableItem: MemberItem[] = [
