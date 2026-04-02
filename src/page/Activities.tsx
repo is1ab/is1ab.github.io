@@ -215,7 +215,7 @@ function TimelineCard({
 
       <div className="timeline-card">
         <div className="timeline-card-head">
-          <div className="activity-pill">{index < 3 ? "Highlight" : "Activity"}</div>
+          <div className="activity-pill">{index < 1 ? "精選活動" : "活動"}</div>
           <h3>{item.title}</h3>
         </div>
 
