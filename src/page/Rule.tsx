@@ -384,7 +384,7 @@ export function Rule() {
             }}
           >
             <h3 className="fw-bold mb-3" style={sectionTitleStyle}>
-              結語
+              老師的話
             </h3>
             <p className="mb-0" style={listTextStyle}>
               is1ab 期待的不是完美的學生，而是願意投入、願意成長、願意承擔責任的人。
