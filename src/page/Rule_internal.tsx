@@ -479,7 +479,7 @@ export function RuleInternal() {
                   }}
                 >
                   <div className="fw-bold text-white mb-3" style={{ fontSize: "1.15rem" }}>
-                    本手冊說明實驗室的核心運作原則、訓練架構、評估方式與畢業導向，作為成員培養、任務安排與資源配置的共同依據。
+                    本手冊說明實驗室的：
                   </div>
                   <div className="d-grid gap-3">
                     {[
@@ -504,7 +504,7 @@ export function RuleInternal() {
                     ))}
                   </div>
                   <div className="fw-bold text-white mb-3" style={{ fontSize: "1.15rem" }}>
-                    本手冊說明實驗室的核心運作原則、訓練架構、評估方式與畢業導向，作為成員培養、任務安排與資源配置的共同依據。
+                    作為成員培養、任務安排與資源配置的共同依據。
                   </div>
                 </div>
               </div>
