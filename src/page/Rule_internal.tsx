@@ -504,7 +504,7 @@ export function RuleInternal() {
                     ))}
                   </div>
                   <div className="fw-bold text-white mb-3" style={{ fontSize: "1.15rem" }}>
-                    
+                    <br>
                     作為成員培養、任務安排與資源配置的共同依據。
                   </div>
                 </div>
