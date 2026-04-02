@@ -172,7 +172,9 @@ function ActivityGallery({
       {images.map((img, index) => (
         <div
           className={`activity-gallery-item ${
-            index === 0 && images.length % 2 === 1 ? "activity-gallery-item-large" : ""
+            index === 0 && images.length % 2 === 1
+              ? "activity-gallery-item-large"
+              : ""
           }`}
           key={`${title}-${index}`}
         >
@@ -235,8 +237,10 @@ function TimelineCard({ item }: { item: ActivityItemType }) {
   return (
     <article className="timeline-item">
       <div className="timeline-rail">
+        <div className="timeline-date-wrap">
+          <div className="timeline-date">{item.time}</div>
+        </div>
         <div className="timeline-dot" />
-        <div className="timeline-date">{item.time}</div>
       </div>
 
       <div className="timeline-card">
@@ -278,6 +282,13 @@ export function Activities() {
           --accent-2: #b91c1c;
           --cyan: #67e8f9;
           --shadow: 0 18px 50px rgba(0,0,0,0.28);
+
+          /* timeline shared vars */
+          --timeline-rail-width: 170px;
+          --timeline-line-x: 112px;
+          --timeline-dot-size: 14px;
+          --timeline-gap: 22px;
+
           background:
             radial-gradient(circle at top left, rgba(185, 28, 28, 0.18), transparent 28%),
             radial-gradient(circle at top right, rgba(59, 130, 246, 0.08), transparent 22%),
@@ -378,7 +389,13 @@ export function Activities() {
           content: "";
           position: absolute;
           inset: 0;
-          background: linear-gradient(135deg, rgba(185,28,28,0.08), transparent 40%, transparent 70%, rgba(34,211,238,0.04));
+          background: linear-gradient(
+            135deg,
+            rgba(185,28,28,0.08),
+            transparent 40%,
+            transparent 70%,
+            rgba(34,211,238,0.04)
+          );
           pointer-events: none;
         }
 
@@ -521,7 +538,8 @@ export function Activities() {
           auto-rows: 220px;
         }
 
-        .normal-grid:has(.activity-gallery-item:nth-child(3):last-child) .activity-gallery-item:first-child {
+        .normal-grid:has(.activity-gallery-item:nth-child(3):last-child)
+          .activity-gallery-item:first-child {
           grid-column: span 2;
         }
 
@@ -530,49 +548,51 @@ export function Activities() {
           display: flex;
           flex-direction: column;
           gap: 24px;
+          isolation: isolate;
         }
 
         .timeline-wrap::before {
           content: "";
           position: absolute;
-          left: 104px;
           top: 0;
           bottom: 0;
+          left: var(--timeline-line-x);
           width: 1px;
+          transform: translateX(-50%);
           background: linear-gradient(
             180deg,
-            rgba(255,255,255,0.1) 0%,
-            rgba(255,255,255,0.04) 100%
+            rgba(255,255,255,0.12) 0%,
+            rgba(255,255,255,0.05) 100%
           );
+          z-index: 0;
+          pointer-events: none;
         }
 
         .timeline-item {
           display: grid;
-          grid-template-columns: 170px minmax(0, 1fr);
-          gap: 22px;
+          grid-template-columns: var(--timeline-rail-width) minmax(0, 1fr);
+          gap: var(--timeline-gap);
           position: relative;
+          z-index: 1;
         }
 
         .timeline-rail {
           position: relative;
-          padding-top: 12px;
+          min-height: 72px;
+          padding-top: 10px;
         }
 
-        .timeline-dot {
-          width: 14px;
-          height: 14px;
-          border-radius: 999px;
-          background: linear-gradient(180deg, #f87171, #991b1b);
-          box-shadow: 0 0 0 6px rgba(185, 28, 28, 0.12);
-          position: absolute;
-          left: 98px;
-          top: 18px;
-          transform: translateX(-50%);
-          z-index: 2;
+        .timeline-date-wrap {
+          width: 100%;
+          display: flex;
+          justify-content: flex-start;
+          padding-right: 34px;
         }
 
         .timeline-date {
-          display: inline-block;
+          display: inline-flex;
+          align-items: center;
+          min-height: 42px;
           padding: 8px 12px;
           border-radius: 12px;
           background: rgba(255,255,255,0.045);
@@ -581,6 +601,21 @@ export function Activities() {
           font-size: 0.95rem;
           font-weight: 700;
           letter-spacing: 0.04em;
+          line-height: 1;
+          white-space: nowrap;
+        }
+
+        .timeline-dot {
+          position: absolute;
+          left: var(--timeline-line-x);
+          top: 18px;
+          width: var(--timeline-dot-size);
+          height: var(--timeline-dot-size);
+          border-radius: 999px;
+          transform: translateX(-50%);
+          background: linear-gradient(180deg, #f87171, #991b1b);
+          box-shadow: 0 0 0 6px rgba(185, 28, 28, 0.12);
+          z-index: 2;
         }
 
         .timeline-card {
@@ -589,6 +624,7 @@ export function Activities() {
           border-radius: 26px;
           padding: 22px;
           box-shadow: var(--shadow);
+          min-width: 0;
         }
 
         .timeline-card-head {
@@ -615,21 +651,9 @@ export function Activities() {
             grid-template-columns: 1fr;
           }
 
-          .timeline-wrap::before {
-            display: none;
-          }
-
-          .timeline-item {
-            grid-template-columns: 1fr;
-            gap: 12px;
-          }
-
-          .timeline-rail {
-            padding-top: 0;
-          }
-
-          .timeline-dot {
-            display: none;
+          .activities-page {
+            --timeline-rail-width: 150px;
+            --timeline-line-x: 98px;
           }
         }
 
@@ -664,6 +688,28 @@ export function Activities() {
           .activity-single-image img {
             min-height: 220px;
             max-height: 420px;
+          }
+
+          .timeline-wrap::before {
+            display: none;
+          }
+
+          .timeline-item {
+            grid-template-columns: 1fr;
+            gap: 12px;
+          }
+
+          .timeline-rail {
+            min-height: auto;
+            padding-top: 0;
+          }
+
+          .timeline-date-wrap {
+            padding-right: 0;
+          }
+
+          .timeline-dot {
+            display: none;
           }
 
           .timeline-date {
