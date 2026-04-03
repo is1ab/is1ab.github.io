@@ -630,6 +630,26 @@ export function Member() {
       experience: "",
       certificate: "程式能力、物件導向程式設計TA",
     },
+    {
+      key: "8",
+      name: "許景喬",
+      joinDate: "2026.03",
+      role: "",
+      coAdvisor: "",
+      ability: "國立臺北科技大學 - 電資學士班",
+      experience: "",
+      certificate: "程式能力、物件導向程式設計TA",
+    },
+    {
+      key: "8",
+      name: "陳駿逸",
+      joinDate: "2026.03",
+      role: "",
+      coAdvisor: "",
+      ability: "國立臺北科技大學 - 資訊工程學系",
+      experience: "",
+      certificate: "物件導向程式設計TA、比賽選手（見習生）",
+    },
   ]
 
   const undergraduateStudentTableItem: UndergraduateGroup[] = [
