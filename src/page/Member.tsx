@@ -13,6 +13,7 @@ import _yeyeye from "../assets/member/yeyeye.jpg"
 import _M4RVjN from "../assets/member/M4RVjN.jpg"
 import _Mercury from "../assets/member/Mercury.jpg"
 import _Stanley from "../assets/member/Stanley.png"
+import _mimimaomao from "../assets/member/mimimaomao.png"
 
 type MemberItem = {
   key: string
@@ -544,6 +545,7 @@ export function Member() {
       experience: "",
       certificate: "",
       website: "/#/member/2026/Mimimaomao",
+      avatar: _mimimaomao,
     },
     {
       key: "23",
