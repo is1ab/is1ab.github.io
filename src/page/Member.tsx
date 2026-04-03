@@ -663,9 +663,32 @@ export function Member() {
           name: "潘雙永",
           intern: "",
         },
+        {
+          name: "陳岱佑",
+          intern: "",
+        },
       ],
       note: "參與SunBird計畫（dcTrack 組）",
       progress: 5,
+    },
+    {
+      group: "115#1",
+      members: [
+        {
+          name: "張育愼",
+          intern: "",
+        },
+        {
+          name: "江柏勳",
+          intern: "",
+        },
+        {
+          name: "余政澤",
+          intern: "",
+        },
+      ],
+      note: "參與SunBird計畫（dcTrack 組）",
+      progress: 1,
     },
   ]
 
