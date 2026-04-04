@@ -22,12 +22,11 @@ export function Partner() {
       descriptions: ["量子密碼學（先進安全計算實驗室）"],
     },
     {
-      organization: "新北市立三重商工 資料處理科",
+      organization: "新北市立三重商工 資料處理科 & 教育部 商業與管理群科中心委員",
       name: "林易民",
       title: "老師",
       website: "https://www.scvs.ntpc.edu.tw/p/404-1000-802.php",
       descriptions: [
-        "暨教育部 商業與管理群科中心委員",
         "網頁安全、系統安全強化、資安事件分析、培訓網路安全職類選手",
       ],
     },
