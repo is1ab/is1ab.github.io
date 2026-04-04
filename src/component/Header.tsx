@@ -19,7 +19,7 @@ export function Header() {
           position: "absolute",
           inset: 0,
           background:
-            "radial-gradient(circle at 12% 18%, rgba(255,140,0,0.14) 0%, rgba(255,140,0,0.06) 18%, transparent 42%), radial-gradient(circle at 78% 22%, rgba(0,153,255,0.10) 0%, rgba(0,153,255,0.04) 18%, transparent 38%)",
+            "radial-gradient(circle at 12% 18%, rgba(255,140,0,0.10) 0%, rgba(255,140,0,0.04) 18%, transparent 42%), radial-gradient(circle at 78% 22%, rgba(0,153,255,0.08) 0%, rgba(0,153,255,0.03) 18%, transparent 38%)",
           pointerEvents: "none",
         }}
       />
@@ -37,8 +37,8 @@ export function Header() {
           style={{
             display: "flex",
             alignItems: "center",
-            justifyContent: "space-between",
-            gap: "24px",
+            justifyContent: "flex-start",
+            gap: "0px",
             flexWrap: "wrap",
           }}
         >
@@ -48,11 +48,10 @@ export function Header() {
               cursor: "pointer",
               display: "flex",
               alignItems: "flex-start",
-              gap: "16px",
+              gap: "0px",
               minWidth: 0,
             }}
           >
-         
             <div style={{ minWidth: 0 }}>
               <div
                 style={{
@@ -131,64 +130,6 @@ export function Header() {
                   /
                 </span>
                 研究 · 實戰 · 專題
-              </p>
-            </div>
-          </div>
-
-          <div
-            style={{
-              minWidth: "220px",
-              maxWidth: "320px",
-              flex: "1 1 220px",
-              display: "flex",
-              justifyContent: "flex-end",
-            }}
-          >
-            <div
-              style={{
-                width: "100%",
-                maxWidth: "280px",
-                padding: "14px 16px",
-                borderRadius: "16px",
-                background: "rgba(255,255,255,0.03)",
-                border: "1px solid rgba(255,255,255,0.08)",
-                boxShadow: "0 10px 30px rgba(0,0,0,0.18)",
-              }}
-            >
-              <div
-                style={{
-                  fontSize: "0.72rem",
-                  color: "#ff9a2f",
-                  letterSpacing: "0.18em",
-                  fontWeight: 700,
-                  marginBottom: "8px",
-                  textTransform: "uppercase",
-                }}
-              >
-                Lab Identity
-              </div>
-
-              <div
-                style={{
-                  color: "#ffffff",
-                  fontSize: "1.15rem",
-                  fontWeight: 700,
-                  marginBottom: "6px",
-                  letterSpacing: "0.04em",
-                }}
-              >
-                ISLAB
-              </div>
-
-              <p
-                style={{
-                  margin: 0,
-                  color: "rgba(255,255,255,0.68)",
-                  fontSize: "0.92rem",
-                  lineHeight: 1.65,
-                }}
-              >
-                專注於資訊安全研究、CTF 實戰、產學專題與攻防技術培育。
               </p>
             </div>
           </div>
