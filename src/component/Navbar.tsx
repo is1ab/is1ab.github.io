@@ -122,7 +122,7 @@ export function Navbar() {
             role="button"
             aria-label="Go to homepage"
           >
-            <span style={brandSubStyle}>首頁</span>
+            <span style={brandMainStyle}>首頁</span>
           </div>
 
           {isMobile ? (
@@ -295,13 +295,6 @@ const brandMainStyle: CSSProperties = {
   fontWeight: 800,
   lineHeight: 1.1,
   letterSpacing: 0.3,
-};
-
-const brandSubStyle: CSSProperties = {
-  color: "rgba(255,255,255,0.72)",
-  fontSize: 12,
-  marginTop: 4,
-  letterSpacing: 0.2,
 };
 
 const desktopNavStyle: CSSProperties = {
