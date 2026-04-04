@@ -72,7 +72,7 @@ export function Header() {
                     textTransform: "uppercase",
                   }}
                 >
-                  information security 1ab
+                  1nform@tion $ecur!ty 1ab
                 </span>
 
                 <span
