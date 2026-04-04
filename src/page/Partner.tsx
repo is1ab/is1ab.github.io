@@ -8,9 +8,9 @@ export function Partner() {
       descriptions: ["硬體安全"],
     },
     {
-      organization: "鈦昇科技股份有限公司",
+      organization: "瑞儀光電股份有限公司",
       name: "吳曉玲",
-      title: "博士",
+      title: "博士; 資深工程師",
       website: "",
       descriptions: ["通訊安全、密碼學"],
     },
