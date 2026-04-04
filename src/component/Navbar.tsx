@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import type { CSSProperties } from "react";
 import { Button, Drawer, Dropdown, Grid } from "antd";
 import type { MenuProps } from "antd";
@@ -19,7 +19,7 @@ type NavItem = {
   }[];
 };
 
-export default function Navbar() {
+export function Navbar() {
   const navigate = useNavigate();
   const location = useLocation();
   const screens = useBreakpoint();
@@ -78,7 +78,9 @@ export default function Navbar() {
       window.location.href = external;
       return;
     }
-    if (path) navigate(path);
+    if (path) {
+      navigate(path);
+    }
     setDrawerOpen(false);
   };
 
@@ -185,14 +187,16 @@ export default function Navbar() {
         onClose={() => setDrawerOpen(false)}
         open={drawerOpen}
         width={300}
-        bodyStyle={{
-          padding: 0,
-          background: "#0b1220",
-        }}
-        headerStyle={{
-          background: "#0b1220",
-          color: "#fff",
-          borderBottom: "1px solid rgba(255,255,255,0.08)",
+        styles={{
+          body: {
+            padding: 0,
+            background: "#0b1220",
+          },
+          header: {
+            background: "#0b1220",
+            color: "#fff",
+            borderBottom: "1px solid rgba(255,255,255,0.08)",
+          },
         }}
       >
         <div style={mobileNavWrapperStyle}>
