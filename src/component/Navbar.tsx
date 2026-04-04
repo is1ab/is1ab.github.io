@@ -261,19 +261,18 @@ const headerStyle: CSSProperties = {
 };
 
 const containerStyle: CSSProperties = {
-  maxWidth: 1200,
-  margin: "0 auto",
+  width: "100%",
   height: 72,
   padding: "0 20px",
   display: "flex",
   alignItems: "center",
-  justifyContent: "flex-end",
+  justifyContent: "flex-start",
 };
 
 const desktopNavStyle: CSSProperties = {
   display: "flex",
   alignItems: "center",
-  justifyContent: "flex-end",
+  justifyContent: "flex-start",
   gap: 8,
   width: "100%",
   minWidth: 0,
