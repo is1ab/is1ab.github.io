@@ -72,7 +72,7 @@ export function Header() {
                     textTransform: "uppercase",
                   }}
                 >
-                  1nform@tion $ecur!ty 1ab
+                  1nf0rm@tion $ecur!ty 1ab
                 </span>
 
                 <span
