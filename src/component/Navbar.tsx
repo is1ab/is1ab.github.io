@@ -114,7 +114,63 @@ export function Navbar() {
 
   return (
     <>
-      
+      <header style={headerStyle}>
+        <div style={containerStyle}>
+          {isMobile ? (
+            <Button
+              type="text"
+              icon={<MenuOutlined />}
+              onClick={() => setDrawerOpen(true)}
+              style={mobileMenuButtonStyle}
+              aria-label="Open navigation menu"
+            />
+          ) : (
+            <nav style={desktopNavStyle}>
+              {navItems.map((item) => {
+                const active = isPathActive(item);
+
+                if (item.children?.length) {
+                  return (
+                    <Dropdown
+                      key={item.key}
+                      menu={getDropdownMenu(item.children)}
+                      trigger={["hover", "click"]}
+                      placement="bottomCenter"
+                      overlayStyle={{ minWidth: 220 }}
+                    >
+                      <button
+                        type="button"
+                        style={{
+                          ...navButtonStyle,
+                          ...(active ? navButtonActiveStyle : {}),
+                        }}
+                      >
+                        <span>{item.label}</span>
+                        <DownOutlined style={{ fontSize: 11, marginLeft: 6 }} />
+                      </button>
+                    </Dropdown>
+                  );
+                }
+
+                return (
+                  <button
+                    key={item.key}
+                    type="button"
+                    style={{
+                      ...navButtonStyle,
+                      ...(active ? navButtonActiveStyle : {}),
+                    }}
+                    onClick={() => handleNavigate(item.path, item.external)}
+                  >
+                    {item.label}
+                  </button>
+                );
+              })}
+            </nav>
+          )}
+        </div>
+      </header>
+
       <Drawer
         title={<span style={{ fontWeight: 700 }}>選單 Menu</span>}
         placement="right"
@@ -211,25 +267,7 @@ const containerStyle: CSSProperties = {
   padding: "0 20px",
   display: "flex",
   alignItems: "center",
-  justifyContent: "space-between",
-  gap: 24,
-};
-
-const brandStyle: CSSProperties = {
-  display: "flex",
-  flexDirection: "column",
-  justifyContent: "center",
-  cursor: "pointer",
-  minWidth: 120,
-  userSelect: "none",
-};
-
-const brandMainStyle: CSSProperties = {
-  color: "#ffffff",
-  fontSize: 22,
-  fontWeight: 800,
-  lineHeight: 1.1,
-  letterSpacing: 0.3,
+  justifyContent: "flex-end",
 };
 
 const desktopNavStyle: CSSProperties = {
@@ -237,7 +275,7 @@ const desktopNavStyle: CSSProperties = {
   alignItems: "center",
   justifyContent: "flex-end",
   gap: 8,
-  flex: 1,
+  width: "100%",
   minWidth: 0,
 };
 
