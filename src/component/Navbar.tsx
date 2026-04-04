@@ -122,8 +122,7 @@ export function Navbar() {
             role="button"
             aria-label="Go to homepage"
           >
-            <span style={brandMainStyle}>isLab</span>
-            <span style={brandSubStyle}>資訊安全實驗室</span>
+            <span style={brandSubStyle}>首頁</span>
           </div>
 
           {isMobile ? (
