@@ -52,29 +52,7 @@ export function Header() {
               minWidth: 0,
             }}
           >
-            <div
-              aria-hidden="true"
-              style={{
-                width: "56px",
-                height: "56px",
-                borderRadius: "14px",
-                flexShrink: 0,
-                background:
-                  "linear-gradient(135deg, rgba(255,140,0,0.18), rgba(255,140,0,0.05))",
-                border: "1px solid rgba(255,140,0,0.35)",
-                boxShadow: "0 0 0 1px rgba(255,255,255,0.03) inset",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                color: "#ff9a2f",
-                fontWeight: 800,
-                fontSize: "0.95rem",
-                letterSpacing: "0.08em",
-              }}
-            >
-              IS
-            </div>
-
+         
             <div style={{ minWidth: 0 }}>
               <div
                 style={{
