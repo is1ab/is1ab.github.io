@@ -68,7 +68,7 @@ export function Header() {
                     fontSize: "0.72rem",
                     fontWeight: 700,
                     letterSpacing: "0.18em",
-                    color: "#ff9a2f",
+                    color: "#ff0000",
                     textTransform: "uppercase",
                   }}
                 >
