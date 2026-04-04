@@ -72,7 +72,7 @@ export function Header() {
                     textTransform: "uppercase",
                   }}
                 >
-                  Information Security Lab
+                  information security 1ab
                 </span>
 
                 <span
