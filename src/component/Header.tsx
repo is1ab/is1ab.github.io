@@ -91,10 +91,9 @@ export function Header() {
                 </span>
               </div>
 
-              <h1
+              <h1 className="header-title"
                 style={{
                   margin: 0,
-                  color: "#ffffff",
                   fontSize: "clamp(2rem, 4.2vw, 3.2rem)",
                   fontWeight: 800,
                   lineHeight: 1.08,
