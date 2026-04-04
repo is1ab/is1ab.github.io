@@ -109,7 +109,7 @@ export function Header() {
                   height: "3px",
                   borderRadius: "999px",
                   background:
-                    "linear-gradient(90deg, #ff9a2f 0%, rgba(255,154,47,0.22) 100%)",
+                    "linear-gradient(90deg, #ff0000 0%, rgba(255,154,47,0.22) 100%)",
                   marginTop: "12px",
                   marginBottom: "12px",
                 }}
