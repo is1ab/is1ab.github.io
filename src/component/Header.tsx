@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-export default function Header() {
+export function Header() {
   const navigate = useNavigate();
 
   return (
@@ -14,7 +14,6 @@ export default function Header() {
         overflow: "hidden",
       }}
     >
-      {/* 背景光感 */}
       <div
         style={{
           position: "absolute",
@@ -43,7 +42,6 @@ export default function Header() {
             flexWrap: "wrap",
           }}
         >
-          {/* 左側品牌區 */}
           <div
             onClick={() => navigate("/")}
             style={{
@@ -54,7 +52,6 @@ export default function Header() {
               minWidth: 0,
             }}
           >
-            {/* 小型識別方塊 */}
             <div
               aria-hidden="true"
               style={{
@@ -160,7 +157,6 @@ export default function Header() {
             </div>
           </div>
 
-          {/* 右側輔助資訊 */}
           <div
             style={{
               minWidth: "220px",
