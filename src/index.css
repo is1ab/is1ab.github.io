@@ -49,6 +49,10 @@ a {
   color: #cf2e2e !important;
 }
 
+.header-title {
+  color: #fff !important;
+}
+
 /* Common text styles */
 .bold-red {
   color: #cf2e2e;
