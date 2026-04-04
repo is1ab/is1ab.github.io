@@ -114,72 +114,7 @@ export function Navbar() {
 
   return (
     <>
-      <header style={headerStyle}>
-        <div style={containerStyle}>
-          <div
-            style={brandStyle}
-            onClick={() => navigate("/")}
-            role="button"
-            aria-label="Go to homepage"
-          >
-            <span style={brandMainStyle}>首頁</span>
-          </div>
-
-          {isMobile ? (
-            <Button
-              type="text"
-              icon={<MenuOutlined />}
-              onClick={() => setDrawerOpen(true)}
-              style={mobileMenuButtonStyle}
-              aria-label="Open navigation menu"
-            />
-          ) : (
-            <nav style={desktopNavStyle}>
-              {navItems.map((item) => {
-                const active = isPathActive(item);
-
-                if (item.children?.length) {
-                  return (
-                    <Dropdown
-                      key={item.key}
-                      menu={getDropdownMenu(item.children)}
-                      trigger={["hover", "click"]}
-                      placement="bottomCenter"
-                      overlayStyle={{ minWidth: 220 }}
-                    >
-                      <button
-                        type="button"
-                        style={{
-                          ...navButtonStyle,
-                          ...(active ? navButtonActiveStyle : {}),
-                        }}
-                      >
-                        <span>{item.label}</span>
-                        <DownOutlined style={{ fontSize: 11, marginLeft: 6 }} />
-                      </button>
-                    </Dropdown>
-                  );
-                }
-
-                return (
-                  <button
-                    key={item.key}
-                    type="button"
-                    style={{
-                      ...navButtonStyle,
-                      ...(active ? navButtonActiveStyle : {}),
-                    }}
-                    onClick={() => handleNavigate(item.path, item.external)}
-                  >
-                    {item.label}
-                  </button>
-                );
-              })}
-            </nav>
-          )}
-        </div>
-      </header>
-
+      
       <Drawer
         title={<span style={{ fontWeight: 700 }}>選單 Menu</span>}
         placement="right"
