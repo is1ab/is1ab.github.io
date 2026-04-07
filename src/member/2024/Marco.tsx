@@ -4,7 +4,9 @@ import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParti
 
 export const MarcoMemberPage = () => {
     const bio = <div className="d-flex flex-column gap-3">
-    <p>黃昱翔專注於資訊安全工程與攻防實務，具備紅隊與攻擊手角色之實戰經驗，熟悉完整攻擊鏈流程與攻防情境推演。累積多場 CTF 競賽與實戰型攻防演練經驗，技術能力涵蓋 Web 與 Mobile 應用程式安全、OSINT 情資分析、系統層級弱點利用、存取控制繞過與橫向移動等關鍵攻擊面，並於多項具代表性之資安競賽中取得可驗證之成果。長期投入軟體弱點分析與責任式揭露，曾於 HITCON ZeroDay 平台揭露多起高風險與高影響力漏洞，展現成熟的弱點挖掘與風險判斷能力。 - chatGPT</p>
+    <p> HTB CPTS | HTB CWES | HTB CJCA | PWPA | eJPTv2 </p>
+    <p>具備實戰導向之滲透測試與紅隊攻擊能力，專注於 Web 與 API 攻擊面，擅長識別存取控制缺陷、認證繞過及敏感資料外洩風險。累計揭露 40+ 項漏洞（含 CVE），多起案例成功取得高敏感資料（涵蓋醫療、商業與個資），影響規模達數萬至數億筆資料。</p>
+    <p>具備從弱點發掘至攻擊鏈建構之完整能力（Initial Access → Privilege Escalation → Data Exfiltration），能模擬真實攻擊者行為並驗證實際影響，將技術弱點轉化為具體風險情境與修補建議。 - chatGPT</p>
     <p>更多資料在 <a href="https://www.mlgzackfly.tw" target="_blank" rel="noopener noreferrer">個人網站</a></p>
     <p> 在我的 <a href="https://blog.mlgzackfly.tw" target="_blank" rel="noopener noreferrer">部落格</a> 中，有一些證照回顧以及靶機的解題過程，可以來看看。</p>
     </div>
@@ -192,6 +194,33 @@ export const MarcoMemberPage = () => {
     {
         id: (
             <div>
+                <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00491">ZD-2026-00491</a>
+            </div>
+        ),
+        title: "某單位 商品目錄頁面 keyword 參數反射型 XSS 漏洞",
+        datetime: "2026.03.25"
+    },
+    {
+        id: (
+            <div>
+                <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00490">ZD-2026-00490</a>
+            </div>
+        ),
+        title: "某單位 結帳流程備註（remark）欄位儲存型跨站腳本攻擊（Stored XSS）",
+        datetime: "2026.03.25"
+    },
+    {
+        id: (
+            <div>
+                <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00489">ZD-2026-00489</a>
+            </div>
+        ),
+        title: "某單位 會員資料維護頁面 nickname /name 欄位儲存型跨站腳本攻擊（Stored XSS）",
+        datetime: "2026.03.25"
+    },
+    {
+        id: (
+            <div>
                 <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00409">ZD-2026-00409</a>
             </div>
         ),
@@ -276,7 +305,7 @@ export const MarcoMemberPage = () => {
                 <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00325">ZD-2026-00325</a>
             </div>
         ),
-        title: "某單位 未簽章 Cookie 身份驗證導致任意帳號接管（IDOR）",
+        title: "情趣用品界第一把交椅 E大 未簽章 Cookie 身份驗證導致任意帳號接管（IDOR）",
         datetime: "2026.03.13"
     },
     {
