@@ -10,6 +10,10 @@ export const MarcoMemberPage = () => {
     </div>
     const certificates: MemberCertificateType[] = [
         {
+            title: "HTB Certified Penetration Testing Specialist (CPTS)",
+            datetime: "2026.04.07"
+        },
+        {
             title: "HTB Certified Junior Cybersecurity Associate (HTB CJCA)",
             datetime: "2026.03.10"
         },
