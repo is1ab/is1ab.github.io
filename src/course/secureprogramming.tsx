@@ -46,23 +46,14 @@ export function SecureProgramming () {
       </div>
 
       <div className="p-3 w-100" style={{ backgroundColor: "#7a1b1b" }}>
-        <h5 className="fw-bold text-white m-0">歷年記錄</h5>
+        <h5 className="fw-bold text-white m-0">歷年開課記錄</h5>
       </div>
       
       <div className="py-3 d-flex flex-column gap-3">
-        <li>修課人數: 53 人</li>
-        <li>及格人數: 52 人</li>
-        <li>最高分數: 100 分; 最低分數: 0 分; 平均分數: 87.25 分</li>
-        <li>IPAS 證照通過率: 28/32 = 88 %</li>
-      </div>
-            
-      <div className="p-3 w-100" style={{ backgroundColor: "#7a1b1b" }}>
-        <h5 className="fw-bold text-white m-0">教學評鑑</h5>
-      </div>
-      
-      <div className="py-3 d-flex flex-column gap-3">
-        <li>評量分數: 4.5/5 分</li>
-        <li>填答率: 83 %</li>
+        <li><a href="https://is1ab.com/#/Course/2025/SP">113-2 (教學評鑑 4.5/5 分，填答率: 83 %)</a></li>
+        <li><a href="https://is1ab.com/#/Course/2024/SP">112-2 (教學評鑑 4.65/5 分，填答率: 89 %)</a></li>
+        <li><a href="https://is1ab.com/#/Course/2023m/SP">111-2 (碩士班) (教學評鑑 4.82/5 分，填答率: 68 %)</a></li>
+        <li><a href="https://is1ab.com/#/Course/2023c/SP">111-2 (大學部) (教學評鑑 4.68/5 分，填答率: 89 %)</a></li>
       </div>
             
     </div>

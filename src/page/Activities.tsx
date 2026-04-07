@@ -1,236 +1,796 @@
-import is1ab2025 from "../assets/activities/2025_is1ab_新生盃.png"
-import gold2025 from "../assets/activities/2025_金盾獎.jpg"
-import hackathon2025 from "../assets/activities/2025_AIS3_黑客松.jpg"
-import aegisfinal2025 from "../assets/activities/2025_神盾盃決賽.jpg"
+import is1ab2025 from "../assets/activities/2025_is1ab_新生盃.png";
+import gold2025 from "../assets/activities/2025_金盾獎.jpg";
+import hackathon2025 from "../assets/activities/2025_AIS3_黑客松.jpg";
+import aegisfinal2025 from "../assets/activities/2025_神盾盃決賽.jpg";
 
-export function Activities(){
-    const ActivitiesItem = (props: {
-        time: string
-        descriptionItem: JSX.Element
-    }) => {
-        return (
-            <tr>
-                <td className="border border-1">
-                    {props.time}
-                </td>
-                <td className="border border-1">
-                    {props.descriptionItem}
-                </td>
-            </tr>
-        )
-    }
+type ActivityCategory = "比賽" | "資安活動" | "實驗室聚餐";
 
+type ActivityItemType = {
+  time: string;
+  title: string;
+  category: ActivityCategory;
+  notes?: string[];
+  images: string[];
+};
+
+const activities: ActivityItemType[] = [
+  {
+    time: "2025.11.23",
+    title: "2025 神盾盃資安競賽決賽",
+    category: "比賽",
+    images: [aegisfinal2025],
+  },
+  {
+    time: "2025.10.18",
+    title: "2025 資安技能金盾初賽",
+    category: "比賽",
+    images: [gold2025],
+  },
+  {
+    time: "2025.09.15",
+    title: "2025 is1ab 新生盃",
+    category: "比賽",
+    images: [is1ab2025],
+  },
+  {
+    time: "2025.08.15",
+    title: "HITCON CMT 2025",
+    category: "資安活動",
+    images: [
+      "https://drive.google.com/thumbnail?id=1AdZbm0KkppfzooqJ2jp-tMBRVeINB-R7&sz=w1200",
+      "https://drive.google.com/thumbnail?id=1A6JBMKkfNFeQfLssvF5DmFajsfNaVMTK&sz=w1200",
+      "https://drive.google.com/thumbnail?id=1u_O3Kii-NsOE_6bF19IUiiK3L21L0foO&sz=w1200",
+    ],
+  },
+  {
+    time: "2025.07.28",
+    title: "2025 AIS3 新型態資安暑期課程",
+    category: "資安活動",
+    images: [
+      "https://drive.google.com/thumbnail?id=1nW4NGygr_16Y93etH7l6-mMz8dyfmPMB&sz=w1200",
+      "https://drive.google.com/thumbnail?id=1d133d1uNoMwPjv2am-L5vdohhj9XuYfs&sz=w1200",
+    ],
+  },
+  {
+    time: "2025.05.03",
+    title: "2025 AIS3 Club 北區高中職程式安全黑客松工作坊",
+    category: "資安活動",
+    images: [hackathon2025],
+  },
+  {
+    time: "2025.02.07",
+    title: "AIS3 EOF CTF 2025 Final",
+    category: "比賽",
+    images: [
+      "https://drive.google.com/thumbnail?id=1xw2zg76QZGzFgUaNnbrb-X_mZ4blyKm2&sz=w1200",
+      "https://drive.google.com/thumbnail?id=1qmqxe37jXBu-f9Z1j1FiU1s2oatEUgRk&sz=w1200",
+    ],
+  },
+  {
+    time: "2024.11.23",
+    title: "CTF 種子培訓工作坊 獲金獎",
+    category: "比賽",
+    images: [
+      "https://drive.google.com/thumbnail?id=1PaI1q2ZsJ-ZYb9Bny_qC0wldeI28XipR&sz=w1200",
+    ],
+  },
+  {
+    time: "2024.10.12",
+    title: "資安技能金盾獎競賽 2024 初賽",
+    category: "比賽",
+    images: [
+      "https://drive.google.com/thumbnail?id=1SgKriQhuqAJcFEwTkiPYwfiHP0lnAukt&sz=w1200",
+      "https://drive.google.com/thumbnail?id=1k4FmtOMN7ZarHTWcO21Yub3mhFHJIvFJ&sz=w1200",
+    ],
+  },
+  {
+    time: "2024.04.27",
+    title: "尋找資安女婕思（決賽）",
+    category: "比賽",
+    notes: ["地點：臺南工業局沙崙資安服務基地"],
+    images: [
+      "https://drive.google.com/thumbnail?id=1cCYXbABWN5iwEQAzlUE3T_m4TKTev4C8&sz=w1200",
+      "https://drive.google.com/thumbnail?id=1nNHcaqCG09UlzrngE_V3EpYwTyZ8rd-U&sz=w1200",
+      "https://drive.google.com/thumbnail?id=1GmBs6XNTuTnJDPUIyOjZSGo45nLDM7lJ&sz=w1200",
+      "https://drive.google.com/thumbnail?id=1uf6vptHMCvgUr1XoQrRgIoNNW-8K4loi&sz=w1200",
+      "https://drive.google.com/thumbnail?id=1yKOkoovnrws5AKuXma7cTLJ1bJyXHpQ4&sz=w1200",
+    ],
+  },
+  {
+    time: "2024.01.21",
+    title: "實驗室尾牙：旭集和食集錦 SUNRISE",
+    category: "實驗室聚餐",
+    images: [
+      "https://drive.google.com/thumbnail?id=1vFuyeIm8p5VD4k4cv1sTfhU6X9J7i8lh&sz=w1200",
+      "https://drive.google.com/thumbnail?id=1tFaOtpgW44YZR_KTg8VIqkAbVSmdLuVx&sz=w1200",
+      "https://drive.google.com/thumbnail?id=1z9d2b27Myzkm8qCHuvhtOtysF9N5oTzp&sz=w1200",
+    ],
+  },
+  {
+    time: "2023.07.22",
+    title: "第四屆的奧義學院實習生發表會＆AI 資安社群論壇",
+    category: "資安活動",
+    images: [
+      "https://drive.google.com/thumbnail?id=1U-tNyCVfOmSYE04DhK0_N3ldPQRTUwCJ&sz=w1200",
+      "https://drive.google.com/thumbnail?id=1d9m8BnlOPMjzwVASp8uefOHr2lsiSoOy&sz=w1200",
+    ],
+  },
+  {
+    time: "2023.07.17",
+    title: "2023 ICCE-TW 會議",
+    category: "資安活動",
+    notes: ["Next Generation Cyberseucrity – Session Chair", "學生論文發表"],
+    images: [
+      "https://drive.google.com/thumbnail?id=1yiEEUdSiLAN3KWsShPzjtmp7QDmSfik7&sz=w1200",
+      "https://drive.google.com/thumbnail?id=10oIneb4zj9dSslUC33p902vGavLlZNWc&sz=w1200",
+    ],
+  },
+  {
+    time: "2023.05.06",
+    title: "2023 尋找資安女婕思（決賽）",
+    category: "比賽",
+    notes: ["地點：臺南工業局沙崙資安服務基地"],
+    images: [
+      "https://drive.google.com/thumbnail?id=15TaJYXuUWz28ksNQIgD4OX33T-Lv_sOn&sz=w1200",
+    ],
+  },
+  {
+    time: "2023.01.21",
+    title: "實驗室尾牙：豐 Food 海陸百匯",
+    category: "實驗室聚餐",
+    images: [
+      "https://drive.google.com/thumbnail?id=1K8KTOhV-obkkhd5sZl8q5w2V_Z_2J2Qa&sz=w1200",
+      "https://drive.google.com/thumbnail?id=1J8OgQPHjn9lR9XzgtfCQQoJfR6MG-Pk5&sz=w1200",
+      "https://drive.google.com/thumbnail?id=15WvGOpe1sUNYyK9zjRgQJaH3Ers1RSnu&sz=w1200",
+    ],
+  },
+];
+
+function ActivityGallery({
+  images,
+  title,
+  featured = false,
+}: {
+  images: string[];
+  title: string;
+  featured?: boolean;
+}) {
+  if (images.length === 1) {
     return (
-        <div className="activities">
-            <h4 className="text-center fw-bold">歷史活動</h4>
-            <table className="w-100 table-bordered">
-                <ActivitiesItem
-                    time="2025.11.23"
-                    descriptionItem={
-                        <div>
-                            <p>2025 神盾盃資安競賽決賽</p>
-                            <img src={aegisfinal2025} width="550"/>
-                        </div>
-                    }
-                ></ActivitiesItem>
-                <ActivitiesItem
-                    time="2025.10.18"
-                    descriptionItem={
-                        <div>
-                            <p>2025 資安技能金盾初賽</p>
-                            <img src={gold2025} width="550"/>
-                        </div>
-                    }
-                ></ActivitiesItem>
-                <ActivitiesItem
-                    time="2025.09.15"
-                    descriptionItem={
-                        <div>
-                            <p>2025 is1ab 新生盃</p>
-                            <img src={is1ab2025} width="550"/>
-                        </div>
-                    }
-                ></ActivitiesItem>
-                <ActivitiesItem
-                    time="2025.08.15"
-                    descriptionItem={
-                        <div>
-                            <p>HITCON CMT 2025</p>
-                            <img 
-                                src="https://drive.google.com/thumbnail?id=1AdZbm0KkppfzooqJ2jp-tMBRVeINB-R7&sz=w550" 
-                              />
-                            <img 
-                                src="https://drive.google.com/thumbnail?id=1A6JBMKkfNFeQfLssvF5DmFajsfNaVMTK&sz=w550" 
-                              />
-                            <img 
-                                src="https://drive.google.com/thumbnail?id=1u_O3Kii-NsOE_6bF19IUiiK3L21L0foO&sz=w550" 
-                              />
-                        </div>
-                    }
-                ></ActivitiesItem>
-                <ActivitiesItem
-                    time="2025.07.28"
-                    descriptionItem={
-                        <div>
-                            <p>2025 AIS3 新型態資安暑期課程</p>
-                            <img 
-                                src="https://drive.google.com/thumbnail?id=1nW4NGygr_16Y93etH7l6-mMz8dyfmPMB&sz=w550" 
-                              />
-                            <img 
-                                src="https://drive.google.com/thumbnail?id=1d133d1uNoMwPjv2am-L5vdohhj9XuYfs&sz=w550" 
-                              />
-                        </div>
-                    }
-                ></ActivitiesItem>
-                <ActivitiesItem
-                    time="2025.05.03"
-                    descriptionItem={
-                        <div>
-                            <p>2025 AIS3 Club 北區高中職程式安全黑客松工作坊</p>
-                            <img src={hackathon2025} width="550"/>
-                        </div>
-                    }
-                ></ActivitiesItem>
-                <ActivitiesItem
-                    time="2025.02.07"
-                    descriptionItem={
-                        <div>
-                            <p>AIS3 EOF CTF 2025 final</p>
-                            <img 
-                                src="https://drive.google.com/thumbnail?id=1xw2zg76QZGzFgUaNnbrb-X_mZ4blyKm2&sz=w550" 
-                              />
-                            <img 
-                                src="https://drive.google.com/thumbnail?id=1qmqxe37jXBu-f9Z1j1FiU1s2oatEUgRk&sz=w550" 
-                              />
-                        </div>
-                    }
-                ></ActivitiesItem>
-                <ActivitiesItem
-                    time="2024.11.23"
-                    descriptionItem={
-                        <div>
-                            <p>CTF 種子培訓工作坊 獲金獎</p>
-                            <img 
-                                src="https://drive.google.com/thumbnail?id=1PaI1q2ZsJ-ZYb9Bny_qC0wldeI28XipR&sz=w550" 
-                              />
-                        </div>
-                    }
-                ></ActivitiesItem>
-                <ActivitiesItem
-                    time="2024.10.12"
-                    descriptionItem={
-                        <div>
-                            <p>資安技能金盾獎競賽 2024 初賽</p>
-                            <img 
-                                src="https://drive.google.com/thumbnail?id=1SgKriQhuqAJcFEwTkiPYwfiHP0lnAukt&sz=w550" 
-                              />
-                            <img 
-                                src="https://drive.google.com/thumbnail?id=1k4FmtOMN7ZarHTWcO21Yub3mhFHJIvFJ&sz=w450" 
-                              />
-                        </div>
-                    }
-                ></ActivitiesItem>
-                 <ActivitiesItem
-                    time="2024.04.27"
-                    descriptionItem={
-                        <div>
-                            <p>尋找資安女婕思（決賽）</p>
-                            <p>＊地點：臺南工業局沙崙資安服務基地</p>
-                            <img 
-                                src="https://drive.google.com/thumbnail?id=1cCYXbABWN5iwEQAzlUE3T_m4TKTev4C8&sz=w550" 
-                              />
-                            <img 
-                                src="https://drive.google.com/thumbnail?id=1nNHcaqCG09UlzrngE_V3EpYwTyZ8rd-U&sz=w450" 
-                              />
-                            <img 
-                                src="https://drive.google.com/thumbnail?id=1GmBs6XNTuTnJDPUIyOjZSGo45nLDM7lJ&sz=w550" 
-                              />
-                            <img 
-                                src="https://drive.google.com/thumbnail?id=1uf6vptHMCvgUr1XoQrRgIoNNW-8K4loi&sz=w550" 
-                              />
-                            <img 
-                                src="https://drive.google.com/thumbnail?id=1yKOkoovnrws5AKuXma7cTLJ1bJyXHpQ4&sz=w550" 
-                              />
-                        </div>
-                    }
-                ></ActivitiesItem>
-                <ActivitiesItem
-                    time="2024.01.21"
-                    descriptionItem={
-                        <div>
-                            <p>實驗室尾牙：旭集和食集錦 SUNRISE</p>
-                            <img 
-                                src="https://drive.google.com/thumbnail?id=1vFuyeIm8p5VD4k4cv1sTfhU6X9J7i8lh&sz=w550" 
-                              />
-                            <img 
-                                src="https://drive.google.com/thumbnail?id=1tFaOtpgW44YZR_KTg8VIqkAbVSmdLuVx&sz=w550" 
-                              />
-                            <img 
-                                src="https://drive.google.com/thumbnail?id=1z9d2b27Myzkm8qCHuvhtOtysF9N5oTzp&sz=w550" 
-                              />
-                        </div>
-                    }
-                ></ActivitiesItem>
-                <ActivitiesItem
-                    time="2023.07.22"
-                    descriptionItem={
-                        <div>
-                            <p>第四屆的奧義學院實習生發表會＆AI 資安社群論壇</p>
-                            <img 
-                                src="https://drive.google.com/thumbnail?id=1U-tNyCVfOmSYE04DhK0_N3ldPQRTUwCJ&sz=w550" 
-                              />
-                            <img 
-                                src="https://drive.google.com/thumbnail?id=1d9m8BnlOPMjzwVASp8uefOHr2lsiSoOy&sz=w550" 
-                              />
-                        </div>
-                    }
-                ></ActivitiesItem>
-                <ActivitiesItem
-                    time="2023.07.17"
-                    descriptionItem={
-                        <div>
-                            <p> 2023 ICCE-TW 會議</p>
-                            <p>＊Next Generation Cyberseucrity – Session Chair</p>
-                            <p>＊學生論文發表</p>
-                            <img 
-                                src="https://drive.google.com/thumbnail?id=1yiEEUdSiLAN3KWsShPzjtmp7QDmSfik7&sz=w450" 
-                              />
-                            <img 
-                                src="https://drive.google.com/thumbnail?id=10oIneb4zj9dSslUC33p902vGavLlZNWc&sz=w450" 
-                              />
-                        </div>
-                    }
-                ></ActivitiesItem>
-                <ActivitiesItem
-                    time="2023.05.06"
-                    descriptionItem={
-                        <div>
-                            <p>2023 尋找資安女婕思（決賽）</p>
-                            <p>＊地點：臺南工業局沙崙資安服務基地</p>
-                            <img 
-                                src="https://drive.google.com/thumbnail?id=15TaJYXuUWz28ksNQIgD4OX33T-Lv_sOn&sz=w550" 
-                              />
-                        </div>
-                    }
-                ></ActivitiesItem>
-                <ActivitiesItem
-                    time="2023.01.21"
-                    descriptionItem={
-                        <div>
-                            <p>實驗室尾牙：豐 Food 海陸百匯</p>
-                            <img 
-                                src="https://drive.google.com/thumbnail?id=1K8KTOhV-obkkhd5sZl8q5w2V_Z_2J2Qa&sz=w450" 
-                              />
-                            <img 
-                                src="https://drive.google.com/thumbnail?id=1J8OgQPHjn9lR9XzgtfCQQoJfR6MG-Pk5&sz=w450" 
-                              />
-                            <img 
-                                src="https://drive.google.com/thumbnail?id=15WvGOpe1sUNYyK9zjRgQJaH3Ers1RSnu&sz=w550" 
-                              />
-                        </div>
-                    }
-                ></ActivitiesItem>
-            </table>
+      <div className="activity-single-image">
+        <img src={images[0]} alt={title} />
+      </div>
+    );
+  }
+
+  const galleryClass = featured
+    ? "activity-gallery featured-grid"
+    : "activity-gallery normal-grid";
+
+  return (
+    <div className={galleryClass}>
+      {images.map((img, index) => (
+        <div
+          className={`activity-gallery-item ${
+            index === 0 && images.length % 2 === 1
+              ? "activity-gallery-item-large"
+              : ""
+          }`}
+          key={`${title}-${index}`}
+        >
+          <img src={img} alt={`${title}-${index + 1}`} />
         </div>
-    )
+      ))}
+    </div>
+  );
 }
+
+function getCategoryClass(category: ActivityCategory) {
+  switch (category) {
+    case "比賽":
+      return "activity-pill activity-pill-competition";
+    case "資安活動":
+      return "activity-pill activity-pill-cyber";
+    case "實驗室聚餐":
+      return "activity-pill activity-pill-gathering";
+    default:
+      return "activity-pill";
+  }
+}
+
+function FeaturedActivity({ item }: { item: ActivityItemType }) {
+  return (
+    <section className="featured-activity-card">
+      <div className="featured-activity-copy">
+        <div className={getCategoryClass(item.category)}>{item.category}</div>
+
+        <div className="featured-meta">
+          <span className="featured-date">{item.time}</span>
+        </div>
+
+        <h2>{item.title}</h2>
+
+        {item.notes && item.notes.length > 0 && (
+          <div className="activity-notes">
+            {item.notes.map((note, index) => (
+              <div className="activity-note" key={index}>
+                {note}
+              </div>
+            ))}
+          </div>
+        )}
+
+        <p>
+          is1ab
+        </p>
+      </div>
+
+      <div className="featured-activity-visual">
+        <ActivityGallery images={item.images} title={item.title} featured />
+      </div>
+    </section>
+  );
+}
+
+function TimelineCard({ item }: { item: ActivityItemType }) {
+  return (
+    <article className="timeline-item">
+      <div className="timeline-rail">
+        <div className="timeline-date-wrap">
+          <div className="timeline-date">{item.time}</div>
+        </div>
+        <div className="timeline-dot" />
+      </div>
+
+      <div className="timeline-card">
+        <div className="timeline-mobile-meta">
+          <div className="timeline-mobile-date">{item.time}</div>
+        </div>
+
+        <div className="timeline-card-head">
+          <div className={getCategoryClass(item.category)}>{item.category}</div>
+          <h3>{item.title}</h3>
+        </div>
+
+        {item.notes && item.notes.length > 0 && (
+          <div className="activity-notes">
+            {item.notes.map((note, noteIndex) => (
+              <div className="activity-note" key={noteIndex}>
+                {note}
+              </div>
+            ))}
+          </div>
+        )}
+
+        <ActivityGallery images={item.images} title={item.title} />
+      </div>
+    </article>
+  );
+}
+
+export function Activities() {
+  const [featured, ...rest] = activities;
+
+  return (
+    <section className="activities-page">
+      <style>{`
+        .activities-page {
+          --bg: #06080d;
+          --panel: rgba(255,255,255,0.04);
+          --panel-strong: rgba(255,255,255,0.06);
+          --border: rgba(255,255,255,0.1);
+          --text: #f5f7fb;
+          --muted: #a7b0c0;
+          --accent: #7c1220;
+          --accent-2: #b91c1c;
+          --cyan: #67e8f9;
+          --shadow: 0 18px 50px rgba(0,0,0,0.28);
+
+          --timeline-rail-width: 176px;
+          --timeline-line-x: 112px;
+          --timeline-dot-size: 14px;
+          --timeline-gap: 22px;
+
+          background:
+            radial-gradient(circle at top left, rgba(185, 28, 28, 0.18), transparent 28%),
+            radial-gradient(circle at top right, rgba(59, 130, 246, 0.08), transparent 22%),
+            linear-gradient(180deg, #070a10 0%, #04060a 100%);
+          color: var(--text);
+          padding: 48px 20px 88px;
+        }
+
+        .activities-shell {
+          max-width: 1240px;
+          margin: 0 auto;
+        }
+
+        .activities-hero {
+          display: grid;
+          grid-template-columns: 1.15fr 0.85fr;
+          gap: 24px;
+          align-items: end;
+          margin-bottom: 32px;
+        }
+
+        .activities-kicker {
+          display: inline-flex;
+          align-items: center;
+          gap: 10px;
+          padding: 10px 14px;
+          border-radius: 999px;
+          font-size: 0.9rem;
+          font-weight: 700;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+          color: #ffd9dc;
+          background: rgba(185, 28, 28, 0.12);
+          border: 1px solid rgba(255, 95, 109, 0.25);
+          margin-bottom: 18px;
+        }
+
+        .activities-title {
+          margin: 0;
+          font-size: clamp(2rem, 4vw, 3.6rem);
+          line-height: 1.08;
+          letter-spacing: -0.03em;
+          font-weight: 800;
+        }
+
+        .activities-subtitle {
+          margin: 18px 0 0;
+          max-width: 760px;
+          color: var(--muted);
+          font-size: 1rem;
+          line-height: 1.9;
+        }
+
+        .activities-stats {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 12px;
+        }
+
+        .stat-card {
+          background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.03));
+          border: 1px solid var(--border);
+          border-radius: 22px;
+          padding: 18px;
+          box-shadow: var(--shadow);
+          backdrop-filter: blur(8px);
+        }
+
+        .stat-card strong {
+          display: block;
+          font-size: 1.5rem;
+          line-height: 1;
+          margin-bottom: 8px;
+          font-weight: 800;
+        }
+
+        .stat-card span {
+          color: var(--muted);
+          font-size: 0.92rem;
+        }
+
+        .featured-activity-card {
+          display: grid;
+          grid-template-columns: minmax(300px, 0.9fr) minmax(0, 1.1fr);
+          gap: 26px;
+          background: linear-gradient(180deg, rgba(255,255,255,0.055), rgba(255,255,255,0.03));
+          border: 1px solid var(--border);
+          border-radius: 30px;
+          padding: 28px;
+          box-shadow: var(--shadow);
+          backdrop-filter: blur(8px);
+          overflow: hidden;
+          position: relative;
+          margin-bottom: 34px;
+        }
+
+        .featured-activity-card::before {
+          content: "";
+          position: absolute;
+          inset: 0;
+          background: linear-gradient(
+            135deg,
+            rgba(185,28,28,0.08),
+            transparent 40%,
+            transparent 70%,
+            rgba(34,211,238,0.04)
+          );
+          pointer-events: none;
+        }
+
+        .featured-activity-copy {
+          position: relative;
+          z-index: 1;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+
+        .featured-meta {
+          margin: 16px 0 10px;
+        }
+
+        .featured-date {
+          font-size: 1rem;
+          font-weight: 700;
+          color: #fca5a5;
+          letter-spacing: 0.08em;
+        }
+
+        .featured-activity-copy h2 {
+          margin: 0 0 14px;
+          font-size: clamp(1.7rem, 3vw, 2.8rem);
+          line-height: 1.18;
+          font-weight: 800;
+          letter-spacing: -0.02em;
+        }
+
+        .featured-activity-copy p {
+          margin: 18px 0 0;
+          color: var(--muted);
+          line-height: 1.9;
+          font-size: 0.98rem;
+        }
+
+        .featured-activity-visual {
+          position: relative;
+          z-index: 1;
+        }
+
+        .activity-pill {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          width: fit-content;
+          padding: 8px 14px;
+          border-radius: 999px;
+          font-size: 0.84rem;
+          font-weight: 700;
+          letter-spacing: 0.03em;
+          border: 1px solid rgba(255,255,255,0.1);
+          backdrop-filter: blur(8px);
+        }
+
+        .activity-pill-competition {
+          background: rgba(185, 28, 28, 0.14);
+          color: #ffd5da;
+          border: 1px solid rgba(255, 95, 109, 0.28);
+        }
+
+        .activity-pill-cyber {
+          background: rgba(34, 211, 238, 0.12);
+          color: #c8f7ff;
+          border: 1px solid rgba(103, 232, 249, 0.24);
+        }
+
+        .activity-pill-gathering {
+          background: rgba(250, 204, 21, 0.12);
+          color: #fff1b8;
+          border: 1px solid rgba(250, 204, 21, 0.24);
+        }
+
+        .activity-notes {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+          margin-top: 14px;
+          margin-bottom: 18px;
+        }
+
+        .activity-note {
+          padding: 10px 14px;
+          border-radius: 14px;
+          background: rgba(34, 211, 238, 0.08);
+          border: 1px solid rgba(103, 232, 249, 0.2);
+          color: #bdf3ff;
+          font-size: 0.92rem;
+          line-height: 1.6;
+        }
+
+        .activity-single-image,
+        .activity-gallery-item {
+          border-radius: 22px;
+          overflow: hidden;
+          border: 1px solid rgba(255,255,255,0.09);
+          background: rgba(255,255,255,0.03);
+        }
+
+        .activity-single-image img,
+        .activity-gallery-item img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: transform 0.45s ease;
+        }
+
+        .activity-single-image:hover img,
+        .activity-gallery-item:hover img {
+          transform: scale(1.03);
+        }
+
+        .activity-single-image {
+          min-height: 300px;
+          max-height: 620px;
+        }
+
+        .activity-single-image img {
+          min-height: 300px;
+          max-height: 620px;
+        }
+
+        .activity-gallery {
+          display: grid;
+          gap: 14px;
+        }
+
+        .featured-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          auto-rows: 250px;
+        }
+
+        .featured-grid .activity-gallery-item-large {
+          grid-row: span 2;
+        }
+
+        .normal-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          auto-rows: 220px;
+        }
+
+        .normal-grid:has(.activity-gallery-item:nth-child(3):last-child)
+          .activity-gallery-item:first-child {
+          grid-column: span 2;
+        }
+
+        .timeline-wrap {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          gap: 24px;
+          isolation: isolate;
+        }
+
+        .timeline-wrap::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: var(--timeline-line-x);
+          width: 1px;
+          transform: translateX(-50%);
+          background: linear-gradient(
+            180deg,
+            rgba(255,255,255,0.12) 0%,
+            rgba(255,255,255,0.05) 100%
+          );
+          z-index: 0;
+          pointer-events: none;
+        }
+
+        .timeline-item {
+          display: grid;
+          grid-template-columns: var(--timeline-rail-width) minmax(0, 1fr);
+          gap: var(--timeline-gap);
+          position: relative;
+          z-index: 1;
+          align-items: start;
+        }
+
+        .timeline-rail {
+          position: relative;
+          min-height: 72px;
+          padding-top: 10px;
+        }
+
+        .timeline-date-wrap {
+          width: 100%;
+          display: flex;
+          justify-content: flex-start;
+          padding-right: 34px;
+        }
+
+        .timeline-date {
+          display: inline-flex;
+          align-items: center;
+          min-height: 42px;
+          padding: 8px 12px;
+          border-radius: 12px;
+          background: rgba(255,255,255,0.045);
+          border: 1px solid rgba(255,255,255,0.08);
+          color: #f4f4f5;
+          font-size: 0.95rem;
+          font-weight: 700;
+          letter-spacing: 0.04em;
+          line-height: 1;
+          white-space: nowrap;
+        }
+
+        .timeline-dot {
+          position: absolute;
+          left: var(--timeline-line-x);
+          top: 18px;
+          width: var(--timeline-dot-size);
+          height: var(--timeline-dot-size);
+          border-radius: 999px;
+          transform: translateX(-50%);
+          background: linear-gradient(180deg, #f87171, #991b1b);
+          box-shadow: 0 0 0 6px rgba(185, 28, 28, 0.12);
+          z-index: 2;
+        }
+
+        .timeline-card {
+          background: linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.03));
+          border: 1px solid var(--border);
+          border-radius: 26px;
+          padding: 22px;
+          box-shadow: var(--shadow);
+          min-width: 0;
+        }
+
+        .timeline-mobile-meta {
+          display: none;
+        }
+
+        .timeline-mobile-date {
+          display: inline-flex;
+          align-items: center;
+          min-height: 38px;
+          padding: 7px 12px;
+          border-radius: 999px;
+          background: rgba(185, 28, 28, 0.12);
+          border: 1px solid rgba(255, 95, 109, 0.25);
+          color: #ffd9dc;
+          font-size: 0.88rem;
+          font-weight: 700;
+          line-height: 1;
+          white-space: nowrap;
+        }
+
+        .timeline-card-head {
+          display: flex;
+          flex-direction: column;
+          gap: 12px;
+          margin-bottom: 18px;
+        }
+
+        .timeline-card-head h3 {
+          margin: 0;
+          font-size: clamp(1.2rem, 2vw, 1.65rem);
+          line-height: 1.35;
+          font-weight: 800;
+          letter-spacing: -0.02em;
+        }
+
+        @media (max-width: 991px) {
+          .activities-hero {
+            grid-template-columns: 1fr;
+          }
+
+          .featured-activity-card {
+            grid-template-columns: 1fr;
+          }
+
+          .activities-page {
+            --timeline-rail-width: 150px;
+            --timeline-line-x: 96px;
+            --timeline-gap: 18px;
+          }
+
+          .timeline-date-wrap {
+            padding-right: 28px;
+          }
+
+          .timeline-date {
+            font-size: 0.9rem;
+          }
+        }
+
+        @media (max-width: 767px) {
+          .activities-page {
+            padding: 32px 14px 72px;
+          }
+
+          .activities-stats {
+            grid-template-columns: 1fr;
+          }
+
+          .featured-activity-card,
+          .timeline-card {
+            padding: 18px;
+            border-radius: 22px;
+          }
+
+          .featured-grid,
+          .normal-grid {
+            grid-template-columns: 1fr;
+            auto-rows: 220px;
+          }
+
+          .featured-grid .activity-gallery-item-large,
+          .normal-grid .activity-gallery-item:first-child {
+            grid-column: auto;
+            grid-row: auto;
+          }
+
+          .activity-single-image,
+          .activity-single-image img {
+            min-height: 220px;
+            max-height: 420px;
+          }
+
+          .timeline-wrap::before {
+            display: none;
+          }
+
+          .timeline-item {
+            grid-template-columns: 1fr;
+            gap: 12px;
+          }
+
+          .timeline-rail {
+            display: none;
+          }
+
+          .timeline-mobile-meta {
+            display: block;
+            margin-bottom: 14px;
+          }
+
+          .timeline-card-head {
+            margin-bottom: 16px;
+          }
+
+          .timeline-card-head h3 {
+            font-size: 1.18rem;
+            line-height: 1.45;
+          }
+        }
+      `}</style>
+
+      <div className="activities-shell">
+        <header className="activities-hero">
+          <div>
+            <div className="activities-kicker">Activities Archive</div>
+            <h1 className="activities-title">歷史活動</h1>
+            <p className="activities-subtitle">
+              一路走來，大家因為相同的熱情聚在一起，在一次次挑戰中努力、成長，也在彼此陪伴中慢慢靠近自己的夢想。
+              這些照片記錄下的不只是活動本身，更是那些一起奮鬥、一起歡笑的珍貴時光。
+            </p>
+          </div>
+
+          <div className="activities-stats">
+            <div className="stat-card">
+              <strong>{activities.length}</strong>
+              <span>活動紀錄</span>
+            </div>
+            <div className="stat-card">
+              <strong>2023–2025</strong>
+              <span>時間跨度</span>
+            </div>
+            <div className="stat-card">
+              <strong>CTF/Forum</strong>
+              <span>競賽與交流</span>
+            </div>
+          </div>
+        </header>
+
+        {featured && <FeaturedActivity item={featured} />}
+
+        <div className="timeline-wrap">
+          {rest.map((item, index) => (
+            <TimelineCard
+              key={`${item.time}-${item.title}-${index}`}
+              item={item}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default Activities;
