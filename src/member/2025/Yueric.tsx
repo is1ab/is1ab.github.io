@@ -7,6 +7,10 @@ export const YuericMemberPage = () => {
         {
             title: "iPAS 資訊安全工程師-初級能力鑑定",
             datetime: "2025.12.31"
+        },
+        {
+            title: "iPAS 資訊安全工程師-中級能力鑑定",
+            datetime: "2026.6.30"
         }
     ]
     const competitionExperiences: MemberCompetitionExperienceType[] = [
