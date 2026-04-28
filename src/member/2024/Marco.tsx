@@ -12,7 +12,7 @@ export const MarcoMemberPage = () => {
     </div>
     const certificates: MemberCertificateType[] = [
         {
-            title: "HTB Certified Penetration Testing Specialist (CPTS)",
+            title: "HTB Certified Penetration Testing Specialist (HTB CPTS)",
             datetime: "2026.04.07"
         },
         {
@@ -194,11 +194,20 @@ export const MarcoMemberPage = () => {
     {
         id: (
             <div>
+                <a href="https://www.asustor.com/security/security_advisory_detail?id=54">CVE-2026-6643</a>
+            </div>
+        ),
+        title: "CWE-121 Stack-based buffer overflow in ASUSTOR Inc. ADM",
+        datetime: "2026.04.20"
+    },
+    {
+        id: (
+            <div>
                 <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00491">ZD-2026-00491</a>
             </div>
         ),
-        title: "某單位 商品目錄頁面 keyword 參數反射型 XSS 漏洞",
-        datetime: "2026.04.07"
+        title: "[bounty] 情趣用品界第一把交椅 E大 商品目錄頁面 keyword 參數反射型 XSS 漏洞",
+        datetime: "2026.04.02"
     },
     {
         id: (
@@ -206,8 +215,8 @@ export const MarcoMemberPage = () => {
                 <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00490">ZD-2026-00490</a>
             </div>
         ),
-        title: "某單位 結帳流程備註（remark）欄位儲存型跨站腳本攻擊（Stored XSS）",
-        datetime: "2026.04.07"
+        title: "[bounty] 情趣用品界第一把交椅 E大 結帳流程備註（remark）欄位儲存型跨站腳本攻擊（Stored XSS）",
+        datetime: "2026.04.02"
     },
     {
         id: (
@@ -215,8 +224,8 @@ export const MarcoMemberPage = () => {
                 <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00489">ZD-2026-00489</a>
             </div>
         ),
-        title: "某單位 會員資料維護頁面 nickname /name 欄位儲存型跨站腳本攻擊（Stored XSS）",
-        datetime: "2026.04.07"
+        title: "[bounty] 情趣用品界第一把交椅 E大 會員資料維護頁面 nickname /name 欄位儲存型跨站腳本攻擊（Stored XSS）",
+        datetime: "2026.04.02"
     },
     {
         id: (
@@ -305,7 +314,7 @@ export const MarcoMemberPage = () => {
                 <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00325">ZD-2026-00325</a>
             </div>
         ),
-        title: "情趣用品界第一把交椅 E大 未簽章 Cookie 身份驗證導致任意帳號接管（IDOR）",
+        title: "[bounty] 情趣用品界第一把交椅 E大 未簽章 Cookie 身份驗證導致任意帳號接管（IDOR）",
         datetime: "2026.03.13"
     },
     {
