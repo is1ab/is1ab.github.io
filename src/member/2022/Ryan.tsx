@@ -5,7 +5,7 @@ export const RyanMemberPage = () => {
 
     const bio = (
         <div className="d-flex flex-column gap-3">
-            <p>陳勝舢現為國立臺北科技大學資訊工程系博士候選人，並擔任奧義智慧科技 (CyCraft) 的實習資安研究員。他的研究專注於深度學習、網路安全、威脅情資分析及醫療資訊等。他曾參與多項大型專案，包括與國家資通安全研究院(NICS)、日本情報通信研究院(NICT)、國家衛生研究院(NHRI)及多家大型醫院的合作，並協助指導超過十五位碩士生投入研究。教學經歷包括教育部 AIS3 情資與分析講師、師大資工碩士班高等資安攻防課程講師及三重商工資料處理科培訓講師。</p>
+            <p>陳勝舢現為國立臺北科技大學資訊工程系博士候選人，獲國科會千里馬計畫前往澳洲蒙納許大學訪問研究。他的研究專注於深度學習、網路安全、威脅情資分析及醫療資訊等。他曾參與多項大型專案，包括與國家資通安全研究院(NICS)、日本情報通信研究院(NICT)、國家衛生研究院(NHRI)及多家大型醫院的合作。教學經歷包括教育部 AIS3 情資與分析講師、師大資工碩士班高等資安攻防課程講師及三重商工資料處理科培訓講師。</p>
             <p>更多資訊（著作、專案）請參閱：<a href="https://sectools.tw/about/sean">SecTools.tw</a></p>
             <p><a href="https://sectools.tw" target="_blank"><img src="https://img.shields.io/badge/Visit-SecTools.tw-blue" alt="Visit SecTools.tw" /></a></p>
         </div>
