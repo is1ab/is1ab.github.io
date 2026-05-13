@@ -194,6 +194,15 @@ export const MarcoMemberPage = () => {
     {
         id: (
             <div>
+                <a href="https://www.cve.org/CVERecord?id=CVE-2026-44736">CVE-2026-44736</a>
+            </div>
+        ),
+        title: "Relations API Filter Bypasses Visibility Scope, Leaking Cross-Project Work Package Subjects",
+        datetime: "2026.05.13"
+    },
+    {
+        id: (
+            <div>
                 <a href="https://www.asustor.com/security/security_advisory_detail?id=54">CVE-2026-6643</a>
             </div>
         ),
