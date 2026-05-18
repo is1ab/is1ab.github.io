@@ -260,7 +260,7 @@ export const MarcoMemberPage = () => {
                 <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00383">ZD-2026-00383</a>
             </div>
         ),
-        title: "[bounty] 某單位 AlleyPin 翔評互動 內部客戶管理 API 未授權存取，免費帳號即可取得大量診所完整資料（聯絡人、手機、地址、Email、統編），且 VAT 欄位被濫用儲存明文密碼",
+        title: "[bounty] 某單位 內部客戶管理 API 未授權存取，免費帳號即可取得大量診所完整資料（聯絡人、手機、地址、Email、統編），且 VAT 欄位被濫用儲存明文密碼",
         datetime: "2026.03.22"
     },
     {
