@@ -260,7 +260,7 @@ export const MarcoMemberPage = () => {
                 <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00383">ZD-2026-00383</a>
             </div>
         ),
-        title: "[bounty] 某單位 內部客戶管理 API 未授權存取，免費帳號即可取得 2,405 間診所完整資料（聯絡人、手機、地址、Email、統編），且 VAT 欄位被濫用儲存明文密碼",
+        title: "[bounty] 某單位 AlleyPin 翔評互動 內部客戶管理 API 未授權存取，免費帳號即可取得大量診所完整資料（聯絡人、手機、地址、Email、統編），且 VAT 欄位被濫用儲存明文密碼",
         datetime: "2026.03.22"
     },
     {
@@ -287,7 +287,7 @@ export const MarcoMemberPage = () => {
                 <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00354">ZD-2026-00354</a>
             </div>
         ),
-        title: "[bounty] 某單位 後端 API 無認證存取，洩露約 3,773 位醫師身分證字號、執照號碼，及 20,956 間醫療院所完整資料",
+        title: "[bounty] 某單位 洩露大量醫師身分證字號、執照號碼及醫療院所完整資料",
         datetime: "2026.03.20"
     },
     {
@@ -325,15 +325,6 @@ export const MarcoMemberPage = () => {
         ),
         title: "[bounty] 情趣用品界第一把交椅 E大 未簽章 Cookie 身份驗證導致任意帳號接管（IDOR）",
         datetime: "2026.03.13"
-    },
-    {
-        id: (
-            <div>
-                <a href="https://hackerone.com/northerntechhq/thanks?type=team">Northern Tech HackerOne</a>
-            </div>
-        ),
-        title: "Northern Tech HQ BugBounty $200 USD",
-        datetime: "2025.11.20"
     },
     {
         id: (
