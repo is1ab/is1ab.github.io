@@ -73,7 +73,12 @@ export const YuericMemberPage = () => {
 			title: "Dawg CTF 2026",
 			result: "Team Name: NTUT_is1ab, Rank: 430/1108",
 			datetime: "2026/04/11 ~ 2026/04/13",
-		}
+		},
+        {
+			title: "AIS3 Pre-exam CTF 2026",
+			result: "Player Name: Yueric, Rank: 59/329",
+			datetime: "2026/05/16 ~ 2026/05/18",
+		},
     ]
     const participates: MemberParticipateType[] = [
         {
