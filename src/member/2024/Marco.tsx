@@ -251,7 +251,7 @@ export const MarcoMemberPage = () => {
                 <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00409">ZD-2026-00409</a>
             </div>
         ),
-        title: "[bounty] 某單位 API JWT 簽名密鑰可猜測，可偽造 Token 繞過所有 API 端點認證",
+        title: "[bounty] AlleyPin 翔評互動 API JWT 簽名密鑰可猜測，可偽造 Token 繞過所有 API 端點認證",
         datetime: "2026.03.25"
     },
     {
