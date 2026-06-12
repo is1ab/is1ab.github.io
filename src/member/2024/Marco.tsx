@@ -43,7 +43,7 @@ export const MarcoMemberPage = () => {
     ]
     const raceExperiences: MemberCompetitionExperienceType[] = [
         {
-            title: "2026 GiCS第6屆尋找資安女婕思",
+            title: "2026 GiCS第6屆尋找資安女婕思（第二名）",
             result: "指導老師",
             datetime: "2026"
         },
@@ -194,6 +194,15 @@ export const MarcoMemberPage = () => {
     {
         id: (
             <div>
+                <a href="https://www.cve.org/CVERecord?id=CVE-2026-44736">CVE-2026-44736</a>
+            </div>
+        ),
+        title: "Relations API Filter Bypasses Visibility Scope, Leaking Cross-Project Work Package Subjects",
+        datetime: "2026.05.13"
+    },
+    {
+        id: (
+            <div>
                 <a href="https://www.asustor.com/security/security_advisory_detail?id=54">CVE-2026-6643</a>
             </div>
         ),
@@ -230,10 +239,19 @@ export const MarcoMemberPage = () => {
     {
         id: (
             <div>
+                <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00436">ZD-2026-00436</a>
+            </div>
+        ),
+        title: "五福旅遊 Cloudflare WAF 繞過：Origin Server 直接暴露，可存取支付系統、會員系統、B2B/B2E 等 10+ 個內部服務",
+        datetime: "2026.05.27"
+    },
+    {
+        id: (
+            <div>
                 <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00409">ZD-2026-00409</a>
             </div>
         ),
-        title: "某單位 API JWT 簽名密鑰可猜測，可偽造 Token 繞過所有 API 端點認證",
+        title: "[bounty] AlleyPin 翔評互動 API JWT 簽名密鑰可猜測，可偽造 Token 繞過所有 API 端點認證",
         datetime: "2026.03.25"
     },
     {
@@ -242,7 +260,7 @@ export const MarcoMemberPage = () => {
                 <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00407">ZD-2026-00407</a>
             </div>
         ),
-        title: "某單位 Kibana 監控平台未經授權公開暴露，洩漏 2.3 億筆數據",
+        title: "中天新聞 Kibana 監控平台未經授權公開暴露，洩漏 2.3 億筆數據",
         datetime: "2026.03.25"
     },
     {
@@ -251,7 +269,7 @@ export const MarcoMemberPage = () => {
                 <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00383">ZD-2026-00383</a>
             </div>
         ),
-        title: "某單位 內部客戶管理 API 未授權存取，免費帳號即可取得 2,405 間診所完整資料（聯絡人、手機、地址、Email、統編），且 VAT 欄位被濫用儲存明文密碼",
+        title: "[bounty] AlleyPin 翔評互動 內部客戶管理 API 未授權存取，免費帳號即可取得大量診所完整資料（聯絡人、手機、地址、Email、統編），且 VAT 欄位被濫用儲存明文密碼",
         datetime: "2026.03.22"
     },
     {
@@ -260,7 +278,7 @@ export const MarcoMemberPage = () => {
                 <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00382">ZD-2026-00382</a>
             </div>
         ),
-        title: "某單位 API 未授權存取 — 完整商業數據洩漏（方案定價、客戶合約、購買紀錄）",
+        title: "[bounty] AlleyPin 翔評互動 API 未授權存取 — 完整商業數據洩漏（方案定價、客戶合約、購買紀錄）",
         datetime: "2026.03.22"
     },
     {
@@ -269,7 +287,7 @@ export const MarcoMemberPage = () => {
                 <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00369">ZD-2026-00369</a>
             </div>
         ),
-        title: "某單位 端點無需認證，可取得任意診所的 JWT 並讀取真實病患預約紀錄（姓名、身分證、手機、就診科別）",
+        title: "[bounty] AlleyPin 翔評互動 端點無需認證，可取得任意診所的 JWT 並讀取真實病患預約紀錄（姓名、身分證、手機、就診科別）",
         datetime: "2026.03.21"
     },
     {
@@ -278,7 +296,7 @@ export const MarcoMemberPage = () => {
                 <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00354">ZD-2026-00354</a>
             </div>
         ),
-        title: "某單位 後端 API 無認證存取，洩露約 3,773 位醫師身分證字號、執照號碼，及 20,956 間醫療院所完整資料",
+        title: "[bounty] AlleyPin 翔評互動 洩露大量醫師身分證字號、執照號碼及醫療院所完整資料",
         datetime: "2026.03.20"
     },
     {
@@ -287,7 +305,7 @@ export const MarcoMemberPage = () => {
                 <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00344">ZD-2026-00344</a>
             </div>
         ),
-        title: "某單位 公開 AI Copilot 端點透過 Prompt Injection 洩露內部公司文件（含銀行帳號）",
+        title: "[bounty] AlleyPin 翔評互動 公開 AI Copilot 端點透過 Prompt Injection 洩露內部公司文件（含銀行帳號）",
         datetime: "2026.03.19"
     },
     {
@@ -296,7 +314,7 @@ export const MarcoMemberPage = () => {
                 <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00343">ZD-2026-00343</a>
             </div>
         ),
-        title: "某單位 管理系統 Webhook Logs API 未授權存取導致即時 LINE 對話洩露",
+        title: "[bounty] AlleyPin 翔評互動 管理系統 Webhook Logs API 未授權存取導致即時 LINE 對話洩露",
         datetime: "2026.03.22"
     },
     {
@@ -305,7 +323,7 @@ export const MarcoMemberPage = () => {
                 <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00331">ZD-2026-00331</a>
             </div>
         ),
-        title: "某單位 API 未經認證可存取 128 筆商業折扣碼（含客戶名稱、員工姓名、定價策略）",
+        title: "[bounty] AlleyPin 翔評互動 API 未經認證可存取所有商業折扣碼（含客戶名稱、員工姓名、定價策略）",
         datetime: "2026.03.18"
     },
     {
@@ -316,15 +334,6 @@ export const MarcoMemberPage = () => {
         ),
         title: "[bounty] 情趣用品界第一把交椅 E大 未簽章 Cookie 身份驗證導致任意帳號接管（IDOR）",
         datetime: "2026.03.13"
-    },
-    {
-        id: (
-            <div>
-                <a href="https://hackerone.com/northerntechhq/thanks?type=team">Northern Tech HackerOne</a>
-            </div>
-        ),
-        title: "Northern Tech HQ BugBounty $200 USD",
-        datetime: "2025.11.20"
     },
     {
         id: (
