@@ -2,6 +2,9 @@ import is1ab2025 from "../assets/activities/2025_is1ab_新生盃.png";
 import gold2025 from "../assets/activities/2025_金盾獎.jpg";
 import hackathon2025 from "../assets/activities/2025_AIS3_黑客松.jpg";
 import aegisfinal2025 from "../assets/activities/2025_神盾盃決賽.jpg";
+import eoffinal2026 from "../assets/activities/2026_AIS3_EOF決賽.jpg";
+import goldfinal2025 from "../assets/activities/2025_金盾獎決賽.jpg";
+import Cookie from "../assets/activities/2026_餅乾社資安教學.jpg";
 
 type ActivityCategory = "比賽" | "資安活動" | "實驗室聚餐";
 
@@ -14,6 +17,24 @@ type ActivityItemType = {
 };
 
 const activities: ActivityItemType[] = [
+  {
+    time: "2026.1.31",
+    title: "2026 AIS3 EOF決賽",
+    category: "比賽",
+    images: [eoffinal2026],
+  },
+  {
+    time: "2026.1.27",
+    title: "2026 寒假特訓營 Bak3 C00kie 協辦",
+    category: "資安活動",
+    images: [Cookie],
+  },
+  {
+    time: "2026.1.09",
+    title: "2025 金盾獎決賽",
+    category: "比賽",
+    images: [goldfinal2025],
+  },
   {
     time: "2025.11.23",
     title: "2025 神盾盃資安競賽決賽",
@@ -768,7 +789,7 @@ export function Activities() {
               <span>活動紀錄</span>
             </div>
             <div className="stat-card">
-              <strong>2023–2025</strong>
+              <strong>2023–2026</strong>
               <span>時間跨度</span>
             </div>
             <div className="stat-card">
