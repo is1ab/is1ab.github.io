@@ -4,7 +4,7 @@ import hackathon2025 from "../assets/activities/2025_AIS3_黑客松.jpg";
 import aegisfinal2025 from "../assets/activities/2025_神盾盃決賽.jpg";
 import eoffinal2026 from "../assets/activities/2026_AIS3_EOF決賽.jpg";
 import goldfinal2025 from "../assets/activities/2025_金盾獎決賽.jpg";
-import Cookie from "../assets/activities/2026_餅乾社資安教學.jpg";
+import bak3Cookie from "../assets/activities/2026_餅乾社資安教學.jpg";
 
 type ActivityCategory = "比賽" | "資安活動" | "實驗室聚餐";
 
@@ -27,7 +27,7 @@ const activities: ActivityItemType[] = [
     time: "2026.1.27",
     title: "2026 寒假特訓營 Bak3 C00kie 協辦",
     category: "資安活動",
-    images: [Cookie],
+    images: [bak3Cookie],
   },
   {
     time: "2026.1.09",
