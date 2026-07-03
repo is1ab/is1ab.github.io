@@ -251,7 +251,7 @@ export function Alumni() {
       title: "應用大型語言模型於網路威脅情資分析之研究",
       ability: "網路威脅情資、人工智慧、藍隊技術",
       experience: "資訊工程博士學位",
-      status: "離校中",
+      status: "奧義智慧科技股份有限公司-資安研究員",
       certificate: "與白敦文副校長共同指導",
       website: "/#/Member/2022/ryan",
     },
