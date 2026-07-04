@@ -277,7 +277,7 @@ export function Alumni() {
       website: "/#/Member/2024/Rock",
     },
     {
-      name: "李宇楊",
+      name: "李宇揚",
       joinDate: "2023.12-2026.08",
       title: "",
       ability: "PWN 技術",
