@@ -20,6 +20,11 @@ export const Adb2MemberPage = () => {
     ]
     const competitionExperiences: MemberCompetitionExperienceType[] = [
         {
+            title: "DEF CON CTF Qualifier 2026",
+            result: "26/686 Team(Name: IB2XD)",
+            datetime: "2026.05.23 - 2026.05.25"
+        },
+        {
             title: "AIS3 EOF CTF 2026 決賽",
             result: "N/A Team(Name: Islover)",
             datetime: "2026/01/31 - 2026/02/01"
@@ -161,6 +166,14 @@ export const Adb2MemberPage = () => {
         }
     ]
     const participates: MemberParticipateType[] = [
+        {
+            title: "115 年度教育體系資安攻防演練 - 攻擊手",
+            datetime: "2026.07.07 - 2026.09.17"
+        },
+        {
+            title: "115 年度國家資通安全研究院攻防演練 - 攻擊手",
+            datetime: "2026.04.13 - 2026.09.15"
+        },
         {
             title: "Bak3 C00kie 寒假特訓營 - 逆向工程講師",
             datetime: "2026/01/27 - 2026/01/28"
