@@ -82,8 +82,12 @@ export const YuericMemberPage = () => {
     ]
     const participates: MemberParticipateType[] = [
         {
+            title: "115 年度教育體系資安攻防演練 - 攻擊手",
+            datetime: "2026.07.07 - 2026.09.17"
+        },
+        {
             title: "第十屆臺灣好厲駭 高階學員培訓",
-            datetime: "2025.09 ~ now"
+            datetime: "2025.09 ~ 2026.08"
         },
         {
             title: "第九屆臺灣好厲駭 高階學員培訓",
@@ -104,7 +108,13 @@ export const YuericMemberPage = () => {
             authors: "Tao Zheng, Qiyu Hou, Xingshu Chen, Hao Ren, Meng Li, Hongwei Li,and Changxiang Shen",
             journal: "IEEE TRANSACTIONS ON INFORMATION FORENSICS AND SECURITY (2025)",
             datetime: "2026.1.22"
-        }
+        },
+        {
+            title: "Variability-Aware Fuzzing",
+            authors: "Meah Tahmeed Ahmed, Arnab Dev, Shiyi Wei",
+            journal: "International Conference on Software Engineering (2026)",
+            datetime: "2026.6.26, 2026.7.03"
+        },
     ]
     return (
         <Sample
