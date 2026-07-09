@@ -454,7 +454,7 @@ export function Member() {
       joinDate: "2025.12",
       role: "碩零，資安碩士",
       coAdvisor: "",
-      experience: "杜浦數位安全股份有限公司實習生",
+      experience: "",
       certificate: "",
       website: "/#/member/2026/Stanley",
       avatar: _Stanley,
