@@ -24,6 +24,23 @@ type PublicationSectionType = {
 const journalPapers: PublicationItemType[] = [
   {
     authors: [
+      { name: "Sheng-Shan Chen" },
+      { name: "Yi-Sheng Hsu" },
+      { name: "Tien-Chih Lin" },
+      { name: "Chung-Kuan Chen" },
+      { name: "Chin-Yu Sun", highlight: true, corresponding: true },
+    ],
+    title:
+      "Enhancing Static Vulnerability Alert Validation using Large Language Models",
+    venue: "The Journal of Systems & Software",
+    details: "Accepted by July 2026.",
+    tags: [
+      "SCI",
+      "2025 SJR 0.950 · Software · Q1",
+    ],
+  },
+  {
+    authors: [
       { name: "Shih-Jung Lin" },
       { name: "Chin-Yu Sun", highlight: true, coFirst: true },
       { name: "Dan-Ni Chen" },
@@ -52,7 +69,7 @@ const journalPapers: PublicationItemType[] = [
     ],
     title: "Retrieval-Augmented Generation for Identifying ATT&CK Technique",
     venue: "Communications of the CCISA",
-    details: "Accepted by vol. 31, no. 3, pp. 20-39, August 2025.",
+    details: "vol. 31, no. 3, pp. 20-39, August 2025.",
     tags: ["＊ Corresponding author"],
   },
   {
@@ -434,20 +451,6 @@ const pendingPapers: PublicationItemType[] = [
       "Extracting Attack Pattern from WAF Logs and CTIs Using Contrastive Semantic Learning",
     venue: "IEEE Transactions on Network and Service Management",
     details: "Submitted in January 2026.",
-    tags: ["Submitted"],
-  },
-  {
-    authors: [
-      { name: "Sheng-Shan Chen" },
-      { name: "Yi-Sheng Hsu" },
-      { name: "Chung-Kuan Chen" },
-      { name: "Tien-Chih Lin" },
-      { name: "Chin-Yu Sun", highlight: true, corresponding: true },
-    ],
-    title:
-      "Enhancing Static Vulnerability Alert Validation using Large Language Models",
-    venue: "The Journal of Systems & Software",
-    details: "Submitted in November 2025.",
     tags: ["Submitted"],
   },
   {
