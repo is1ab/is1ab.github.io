@@ -56,8 +56,8 @@ const journalPapers: PublicationItemType[] = [
     details: "vol. 33, no. 55, December 2025.",
     tags: [
       "SCI",
-      "2024 JCR IF 3.0 · Health Care Sciences & Services · Q2",
-      "2024 SJR 1.109 · Oncology · Q1",
+      "2025 JCR IF 3.4 · Health Care Sciences & Services · Q2",
+      "2025 SJR 1.030 · Oncology · Q1",
       "△ Co-first author",
     ],
   },
@@ -85,8 +85,8 @@ const journalPapers: PublicationItemType[] = [
     details: "Accepted by September 2025.",
     tags: [
       "SCI",
-      "2024 JCR IF 3.0 · Computer Science, Information Systems · Q2",
-      "2024 SJR 0.894 · Computer Networks and Communications · Q1",
+      "2025 JCR IF 9.0 · Computer Science, Information Systems · Q1",
+      "2025 SJR 1.521 · Computer Networks and Communications · Q1",
       "＊ Corresponding author",
     ],
   },
@@ -102,8 +102,8 @@ const journalPapers: PublicationItemType[] = [
     details: "Accepted by August 2025.",
     tags: [
       "SCI",
-      "2024 JCR IF 5.4 · Computer Science, Information Systems · Q1",
-      "2024 SJR 1.445 · Computer Science · Q1",
+      "2025 JCR IF 6.8 · Computer Science, Information Systems · Q1",
+      "2025 SJR 1.598 · Computer Science · Q1",
       "＊ Corresponding author",
     ],
   },
