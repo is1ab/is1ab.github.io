@@ -36,6 +36,7 @@ const journalPapers: PublicationItemType[] = [
     details: "Accepted by July 2026.",
     tags: [
       "SCI",
+      "2025 JCR IF 3.8 · COMPUTER SCIENCE, SOFTWARE ENGINEERING · Q2",
       "2025 SJR 0.950 · Software · Q1",
     ],
   },
