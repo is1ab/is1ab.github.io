@@ -32,7 +32,7 @@ const journalPapers: PublicationItemType[] = [
     ],
     title:
       "Enhancing Static Vulnerability Alert Validation using Large Language Models",
-    venue: "The Journal of Systems & Software",
+    venue: "Journal of Systems & Software",
     details: "Accepted by July 2026.",
     tags: [
       "SCI",
