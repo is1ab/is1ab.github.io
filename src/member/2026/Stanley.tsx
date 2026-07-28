@@ -9,12 +9,12 @@ export const StanleyMemberPage = () => {
 
     const raceExperiences: MemberCompetitionExperienceType[] = [
         {
-            title: "AIS3 新型態資安暑期課程",
+            title: "2025 AIS3 新型態資安暑期課程",
             result: "最佳專題",
             datetime: "2025.07"
         },
         {
-            title: "AIS3 pre-exam 初賽",
+            title: "2025 AIS3 pre-exam",
             result: "57 / 344（16.6%）",
             datetime: "2025.05"
         },
@@ -32,7 +32,12 @@ export const StanleyMemberPage = () => {
             title: "BITSCTF 2026",
             result: "第 105 / 859 名（12.2%）",
             datetime: "2026.02"
-        }
+        },
+        {
+            title: "2026 AIS3 pre-exam",
+            result: "39 / 329（8.4%）",
+            datetime: "2026.05"
+        },
     ]
 
     const participates: MemberParticipateType[] = [
@@ -50,15 +55,15 @@ export const StanleyMemberPage = () => {
         },
         {
             title: "第十屆 AIS3 好厲駭 高階學員培訓",
-            datetime: "2025.09 - 現在"
+            datetime: "2025.09 - 2026.08"
         },
         {
             title: "大同大學 科學開源服務社（副社長／講師／助教）",
-            datetime: "2023.08 - 現在"
+            datetime: "2023.08 - 2026.06"
         },
         {
             title: "SITCON 2026 學生計算機年會 製播組",
-            datetime: "2025.09 - 現在"
+            datetime: "2025.09 - 2026.03"
         }
     ]
 
@@ -66,7 +71,7 @@ export const StanleyMemberPage = () => {
         {
             company: "TeamT5 杜浦數位安全",
             info: "威脅情資研究員，惡意程式分析與威脅情資",
-            datetime: "2025.09 - 現在"
+            datetime: "2025.09 - 2026.06"
 
         }
     ]
