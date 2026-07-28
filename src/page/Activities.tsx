@@ -5,6 +5,8 @@ import aegisfinal2025 from "../assets/activities/2025_神盾盃決賽.jpg";
 import eoffinal2026 from "../assets/activities/2026_AIS3_EOF決賽.jpg";
 import goldfinal2025 from "../assets/activities/2025_金盾獎決賽.jpg";
 import bak3Cookie from "../assets/activities/2026_餅乾社資安教學.jpg";
+import ais3camp from "../assets/activities/2026_AIS3_暑期營隊.jpg";
+import ais3camp_1 from "../assets/activities/2026_AIS3_暑期營隊講師.jpg";
 
 type ActivityCategory = "比賽" | "資安活動" | "實驗室聚餐";
 
@@ -17,6 +19,18 @@ type ActivityItemType = {
 };
 
 const activities: ActivityItemType[] = [
+  {
+    time: "2026.7.20 ~ 2026.7.26",
+    title: "2026 AIS3 暑期營隊",
+    category: "資安活動",
+    images: [ais3camp],
+  },
+  {
+    time: "2026.7.22",
+    title: "2026 AIS3 暑期營隊講師",
+    category: "資安活動",
+    images: [ais3camp_1],
+  },
   {
     time: "2026.1.31",
     title: "2026 AIS3 EOF決賽",
