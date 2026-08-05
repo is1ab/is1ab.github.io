@@ -22,12 +22,12 @@ type ActivityItemType = {
 const activities: ActivityItemType[] = [
   {
     time: "2026.7.31",
-    title: "is1ab 慶功宴/感謝宴",
+    title: "is1ab 慶功宴",
     category: "實驗室聚餐",
     images: [Celebrationbanquet2026],
   },
   {
-    time: "2026.7.20 ~ 2026.7.26",
+    time: "2026.7.20",
     title: "2026 AIS3 新型態資安暑期課程",
     category: "資安活動",
     images: [ais3camp],
