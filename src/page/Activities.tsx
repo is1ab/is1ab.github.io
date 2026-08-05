@@ -1,3 +1,4 @@
+import Celebrationbanquet2026 from "../assets/activities/2026慶功宴.jpg";
 import is1ab2025 from "../assets/activities/2025_is1ab_新生盃.png";
 import gold2025 from "../assets/activities/2025_金盾獎.jpg";
 import hackathon2025 from "../assets/activities/2025_AIS3_黑客松.jpg";
@@ -19,6 +20,12 @@ type ActivityItemType = {
 };
 
 const activities: ActivityItemType[] = [
+  {
+    time: "2026.7.31",
+    title: "is1ab 慶功宴/感謝宴",
+    category: "實驗室聚餐",
+    images: [Celebrationbanquet2026],
+  },
   {
     time: "2026.7.20 ~ 2026.7.26",
     title: "2026 AIS3 新型態資安暑期課程",
