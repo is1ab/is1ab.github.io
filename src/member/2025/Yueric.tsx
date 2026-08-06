@@ -79,11 +79,20 @@ export const YuericMemberPage = () => {
 			result: "Player Name: Yueric, Rank: 59/329",
 			datetime: "2026/05/16 ~ 2026/05/18",
 		},
+        {
+            title: "L3akCTF 2026",
+			result: "Team Name: CHW, Rank: 25/710",
+			datetime: "2026/08/01 ~ 2026/08/03",
+        }
     ]
     const participates: MemberParticipateType[] = [
         {
             title: "115 年度教育體系資安攻防演練 - 攻擊手",
             datetime: "2026.07.07 - 2026.09.17"
+        },
+        {
+            title: "HITCON CMT 2026",
+            datetime: "2025.08.21 ~ 2025.08.22"
         },
         {
             title: "第十屆臺灣好厲駭 高階學員培訓",
