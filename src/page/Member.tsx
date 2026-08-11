@@ -515,16 +515,6 @@ export function Member() {
       certificate: "比賽選手",
     },
     {
-      key: "4",
-      name: "白又銘/郭思彤/吳宛軒/黃奕文",
-      joinDate: "2024.10",
-      role: "",
-      coAdvisor: "林易民",
-      ability: "",
-      experience: "",
-      certificate: "比賽選手",
-    },
-    {
       key: "6",
       name: "林逸凡",
       joinDate: "2025.06",
@@ -533,16 +523,6 @@ export function Member() {
       ability: "國立臺北科技大學 - 資訊工程學系",
       experience: "網頁攻防技術/滲透",
       certificate: "比賽選手",
-    },
-    {
-      key: "7",
-      name: "張意昌",
-      joinDate: "2024.06",
-      role: "",
-      coAdvisor: "",
-      ability: "國立臺北科技大學 - 資訊工程學系",
-      experience: "",
-      certificate: "程式能力、物件導向程式設計TA",
     },
     {
       key: "8",
@@ -567,44 +547,6 @@ export function Member() {
   ]
 
   const undergraduateStudentTableItem: UndergraduateGroup[] = [
-    {
-      group: "114#1",
-      members: [
-        {
-          name: "林妍蓁",
-          intern: "",
-        },
-        {
-          name: "吳哲丞",
-          intern: "",
-        },
-        {
-          name: "李馥亘",
-          intern: "",
-        },
-      ],
-      note: "保留",
-      progress: 7,
-    },
-    {
-      group: "114#2",
-      members: [
-        {
-          name: "林希芸",
-          intern: "",
-        },
-        {
-          name: "潘雙永",
-          intern: "",
-        },
-        {
-          name: "陳岱佑",
-          intern: "",
-        },
-      ],
-      note: "參與SunBird計畫（dcTrack 組）",
-      progress: 5,
-    },
     {
       group: "115#1",
       members: [
