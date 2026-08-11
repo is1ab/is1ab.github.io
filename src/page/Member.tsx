@@ -344,6 +344,17 @@ export function Member() {
 
   const masterUserTableItem: MemberItem[] = [
     {
+      key: "1",
+      name: "吳冠廷",
+      joinDate: "2023.12",
+      role: "碩三，資訊安全碩士學位學程",
+      coAdvisor: "",
+      experience: "",
+      certificate: "",
+      website: "/#/Member/2024/Guan4Tou2",
+      avatar: _Guan4Tou2,
+    },
+    /*{
       key: "11",
       name: "黃昱翔",
       joinDate: "2025.05",
@@ -353,9 +364,9 @@ export function Member() {
       certificate: "",
       website: "/#/member/2024/Marco",
       avatar: _Marco,
-    },
+    },*/
     {
-      key: "13",
+      key: "2",
       name: "沈柏安",
       joinDate: "2024.12",
       role: "碩一，資安碩士",
@@ -376,7 +387,7 @@ export function Member() {
       website: "/#/member/2025/JunAn",
     },
     {
-      key: "15",
+      key: "3",
       name: "劉章佑",
       joinDate: "2025.01",
       role: "碩一，資安碩士",
@@ -386,7 +397,7 @@ export function Member() {
       website: "/#/member/2025/Yueric",
     },
     {
-      key: "16",
+      key: "4",
       name: "劉業閎",
       joinDate: "2025.03",
       role: "碩一，資工碩士",
@@ -397,7 +408,7 @@ export function Member() {
       avatar: _yeyeye,
     },
     {
-      key: "18",
+      key: "5",
       name: "楊育誠",
       joinDate: "2025.05",
       role: "碩一，資工碩士",
@@ -407,7 +418,7 @@ export function Member() {
       website: "/#/member/2025/Victor",
     },
     {
-      key: "19",
+      key: "6",
       name: "鄭羽農",
       joinDate: "2025.04",
       role: "碩一，資工碩士",
@@ -416,7 +427,7 @@ export function Member() {
       certificate: "",
     },
     {
-      key: "20",
+      key: "7",
       name: "黃致程",
       joinDate: "2025.12",
       role: "碩零，資安碩士",
@@ -427,7 +438,7 @@ export function Member() {
       avatar: _M4RVjN,
     },
     {
-      key: "21",
+      key: "8",
       name: "黃信誌",
       joinDate: "2025.12",
       role: "碩零，資安碩士",
@@ -438,7 +449,7 @@ export function Member() {
       avatar: _Mercury,
     },
     {
-      key: "22",
+      key: "9",
       name: "賴要宏",
       joinDate: "2025.12",
       role: "碩零，資安碩士",
@@ -449,7 +460,7 @@ export function Member() {
       avatar: _mimimaomao,
     },
     {
-      key: "23",
+      key: "10",
       name: "陳威翰",
       joinDate: "2025.12",
       role: "碩零，資安碩士",
@@ -460,7 +471,7 @@ export function Member() {
       avatar: _Stanley,
     },
     {
-      key: "24",
+      key: "11",
       name: "唐秉毓",
       joinDate: "2026.04",
       role: "碩零，資工碩士",
