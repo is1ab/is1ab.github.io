@@ -430,7 +430,7 @@ export function Alumni() {
       year: "115",
       name: "林妍蓁、吳哲丞、李馥亘",
       title: "基於 LLM 多代理協作之自動化滲透測試與任務規劃研究",
-      note: "通過大專生計畫編號:114-2813-C-027-053-E、榮獲 2025 北科實務專題競賽 佳作",
+      note: "通過大專生計畫編號:115-2813-C-027-064-E、榮獲 2026 北科實務專題競賽 佳作",
     },
     {
       year: "115",
@@ -483,6 +483,20 @@ export function Alumni() {
   ]
 
   const othersStudentTableDatas: OtherStudentItem[] = [
+    {
+      name: "張意昌",
+      joinTime: "2024.06-2026.08",
+      title: "程式能力、物件導向程式設計TA",
+      status: "國立臺北科技大學資訊工程系（大學部）",
+      note: "N/A",
+    },
+    {
+      name: "白又銘/郭思彤/吳宛軒/黃奕文",
+      joinTime: "2023.10-2026.08",
+      title: "資安比賽選手",
+      status: "N/A",
+      note: "與林易民老師合作指導",
+    },
     {
       name: "黃政",
       joinTime: "2023.04-2025.08",
