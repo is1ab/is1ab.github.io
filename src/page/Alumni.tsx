@@ -288,7 +288,7 @@ export function Alumni() {
     {
       name: "李宜鴻",
       joinDate: "2024.11-2026.08",
-      title: "",
+      title: "結合機器學習與共識投票機制防禦 RAG 知識庫投毒攻擊之框架",
       ability: "人工智慧",
       experience: "資訊安全碩士學位學程",
       status: "",
