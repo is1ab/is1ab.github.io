@@ -259,6 +259,24 @@ export function Alumni() {
 
   const masterAlumniDatas: AlumniItem[] = [
     {
+      name: "陳彥宇",
+      joinDate: "2024.1-2026.08",
+      title: "結合攻擊分類與信用評分機制之提示詞注入防禦系統 - 以醫療諮詢對話系統為例",
+      ability: "Reverse 技術",
+      experience: "資訊工程系 碩士學位",
+      status: "離校準備中",
+      website: "/#/Member/2024/Adb2",
+    },
+    {
+      name: "李宇揚",
+      joinDate: "2023.12-2026.08",
+      title: "基於大型語言模型與有向無環圖進行多階段攻擊路徑推理之自動化滲透測試框架",
+      ability: "PWN 技術",
+      experience: "資訊安全碩士學位學程",
+      status: "離校準備中",
+      website: "/#/Member/2024/Young",
+    },
+    /*{
       name: "吳冠廷",
       joinDate: "2023.12-2026.08",
       title: "",
@@ -266,7 +284,7 @@ export function Alumni() {
       experience: "資訊安全碩士學位學程",
       status: "",
       website: "/#/Member/2024/Guan4Tou2",
-    },
+    },*/
     {
       name: "李宜鴻",
       joinDate: "2024.11-2026.08",
@@ -277,15 +295,6 @@ export function Alumni() {
       website: "/#/Member/2024/Rock",
     },
     {
-      name: "李宇揚",
-      joinDate: "2023.12-2026.08",
-      title: "",
-      ability: "PWN 技術",
-      experience: "資訊安全碩士學位學程",
-      status: "",
-      website: "/#/Member/2024/Young",
-    },
-    {
       name: "黃廷翰",
       joinDate: "2023.12-2026.08",
       title: "",
@@ -293,15 +302,6 @@ export function Alumni() {
       experience: "資訊安全碩士學位學程",
       status: "",
       website: "/#/Member/2024/Win",
-    },
-    {
-      name: "陳彥宇",
-      joinDate: "2024.1-2026.08",
-      title: "",
-      ability: "Reverse 技術",
-      experience: "資訊工程系 碩士學位",
-      status: "",
-      website: "/#/Member/2024/Adb2",
     },
     {
       name: "李佳軒",
@@ -426,6 +426,18 @@ export function Alumni() {
   ]
 
   const undergraduateAlumniStudentTableDatas: UndergraduateAlumniItem[] = [
+    {
+      year: "115",
+      name: "林妍蓁、吳哲丞、李馥亘",
+      title: "基於 LLM 多代理協作之自動化滲透測試與任務規劃研究",
+      note: "通過大專生計畫編號:114-2813-C-027-053-E、榮獲 2025 北科實務專題競賽 佳作",
+    },
+    {
+      year: "115",
+      name: "林希芸、潘雙永、陳岱佑",
+      title: "基於 LLM 多代理協作之自動化滲透測試與任務規劃研究",
+      note: "執行 SunBird 計畫（dcTrack 組）",
+    },
     {
       year: "114",
       name: "張意昌、吳耀東、林品緯、張睿恩",
