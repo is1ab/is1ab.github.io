@@ -1,5 +1,5 @@
 import { Sample } from "../Sample"
-import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType, MemberPresentationType} from "../../type/MemberCertificateType"
+import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType, MemberPresentationType,MemberZeroDayType} from "../../type/MemberCertificateType"
 
 export const YuericMemberPage = () => {
     const bio = "我是劉章佑。"
@@ -91,8 +91,16 @@ export const YuericMemberPage = () => {
             datetime: "2026.07.07 - 2026.09.17"
         },
         {
+            title: "第十一屆臺灣好厲駭 高階學員培訓",
+            datetime: "2026.09 ~ now"
+        },
+        {
             title: "HITCON CMT 2026",
-            datetime: "2025.08.21 ~ 2025.08.22"
+            datetime: "2026.08.21 ~ 2026.08.22"
+        },
+        {
+            "title": "CYBERSEC 2026 會眾",
+            "datetime": "2026"
         },
         {
             title: "第十屆臺灣好厲駭 高階學員培訓",
@@ -111,6 +119,17 @@ export const YuericMemberPage = () => {
     const journals: MemberArticleType[] = []
     const conferences: MemberArticleType[] = []
     const techConfs: MemberArticleType[] = []
+    const zeroday: MemberZeroDayType[] = [
+        {
+            id: (
+                <div>
+                    <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00921">ZD-2026-00921</a>
+                </div>
+            ),
+            title: "大同大學 門禁系統終端機 弱密碼",
+            datetime: "2026.08.14"
+        }
+    ]
     const presentations: MemberPresentationType[] = [
         {
             title: "Gupacker: Generalized Unpacking framework for Android Malware",
@@ -139,6 +158,7 @@ export const YuericMemberPage = () => {
             conferences={conferences}
             techConfs={techConfs}
             presentations={presentations}
+            zeroday={zeroday}
         ></Sample>
     )
 }
