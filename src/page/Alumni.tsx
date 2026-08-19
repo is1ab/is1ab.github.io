@@ -259,6 +259,15 @@ export function Alumni() {
 
   const masterAlumniDatas: AlumniItem[] = [
     {
+      name: "李宜鴻",
+      joinDate: "2024.11-2026.08",
+      title: "結合機器學習與共識投票機制防禦 RAG 知識庫投毒攻擊之框架",
+      ability: "人工智慧",
+      experience: "資訊安全碩士學位學程",
+      status: "離校準備中",
+      website: "/#/Member/2024/Rock",
+    },
+    {
       name: "陳彥宇",
       joinDate: "2024.1-2026.08",
       title: "結合攻擊分類與信用評分機制之提示詞注入防禦系統 - 以醫療諮詢對話系統為例",
@@ -286,15 +295,6 @@ export function Alumni() {
       website: "/#/Member/2024/Guan4Tou2",
     },*/
     {
-      name: "李宜鴻",
-      joinDate: "2024.11-2026.08",
-      title: "結合機器學習與共識投票機制防禦 RAG 知識庫投毒攻擊之框架",
-      ability: "人工智慧",
-      experience: "資訊安全碩士學位學程",
-      status: "離校準備中",
-      website: "/#/Member/2024/Rock",
-    },
-    {
       name: "黃奕評",
       joinDate: "2024.6-2026.08",
       title: "基於記憶體操作的資料流與數值狀態回饋之灰箱模糊測試",
@@ -313,24 +313,23 @@ export function Alumni() {
       website: "/#/Member/2024/PaulWang",
     },
     {
-      name: "黃廷翰",
-      joinDate: "2023.12-2026.08",
-      title: "",
-      ability: "Web 攻防",
-      experience: "資訊安全碩士學位學程",
-      status: "",
-      website: "/#/Member/2024/Win",
-    },
-    {
       name: "李佳軒",
       joinDate: "2024.1-2026.08",
-      title: "",
+      title: "結合多源分析工具與 SHAP 之可解釋惡意程式分類系統",
       ability: "PWN 技術",
       experience: "資訊安全碩士學位學程",
-      status: "",
+      status: "離校準備中",
       website: "/#/Member/2024/WIFI",
     },
-    
+    {
+      name: "黃廷翰",
+      joinDate: "2023.12-2026.08",
+      title: "基於多模態威脅情資融合之 APT 族群分類與行為分析",
+      ability: "Web 攻防",
+      experience: "資訊安全碩士學位學程",
+      status: "離校準備中",
+      website: "/#/Member/2024/Win",
+    },
     {
       name: "廖哲霈",
       joinDate: "2024.8-2026.08",
