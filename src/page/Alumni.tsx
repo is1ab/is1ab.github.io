@@ -330,7 +330,7 @@ export function Alumni() {
       status: "離校準備中",
       website: "/#/Member/2024/Win",
     },
-    {
+    /*{
       name: "廖哲霈",
       joinDate: "2024.8-2026.08",
       title: "",
@@ -338,7 +338,7 @@ export function Alumni() {
       experience: "資訊工程系 碩士學位",
       status: "",
       website: "/#/Member/2024/RobertLiao",
-    },
+    },*/
     {
       name: "許貽昇",
       joinDate: "2023.03-2026.01",
