@@ -143,12 +143,18 @@ export const YuericMemberPage = () => {
             journal: "International Conference on Software Engineering (2026)",
             datetime: "2026.6.26, 2026.7.03"
         },
+        {
+            title: "FunFuzz: Greybox Fuzzing with Function Significance",
+            authors: "Ruixiang Qian, Quanjun Zhang, Chunrong Fang, Lihua Guo, Zhenyu Chen",
+            journal: "ACM Transactions on Software Engineering and Methodology (2025)",
+            datetime: "2026.8.28"
+        },
     ]
     return (
         <Sample
             zhName="劉章佑"
             enName="Liu, Zhang-Yu"
-            institutes={["國立臺北科技大學 資訊安全碩士學位學程 碩一"]}
+            institutes={["國立臺北科技大學 資訊安全碩士學位學程 碩二"]}
             bio={bio}
             experiences={competitionExperiences}
             certificates={certificates}
