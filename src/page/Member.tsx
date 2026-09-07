@@ -14,6 +14,7 @@ import _M4RVjN from "../assets/member/M4RVjN.jpg"
 import _Mercury from "../assets/member/Mercury.jpg"
 import _Stanley from "../assets/member/Stanley.png"
 import _mimimaomao from "../assets/member/mimimaomao.png"
+import _MOBS from "../assets/member/MOBS.jpg"
 
 type MemberItem = {
   key: string
@@ -490,6 +491,17 @@ export function Member() {
       experience: "",
       certificate: "",
       website: "",
+    },
+    {
+      key: "12",
+      name: "施震瑋",
+      joinDate: "2026.9",
+      role: "碩一，資工碩士",
+      coAdvisor: "",
+      experience: "",
+      certificate: "",
+      website: "/#/member/2026/MOBS",
+      avatar: _MOBS,
     },
   ]
 
