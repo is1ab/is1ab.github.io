@@ -5,10 +5,11 @@ import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParti
 export const MarcoMemberPage = () => {
     const bio = <div className="d-flex flex-column gap-3">
     <p> HTB CPTS | HTB CWES | HTB CJCA | PWPA | eJPTv2 </p>
-    <p>具備實戰導向之滲透測試與紅隊攻擊能力，專注於 Web 與 API 攻擊面，擅長識別存取控制缺陷、認證繞過及敏感資料外洩風險。累計揭露 40+ 項漏洞（含 CVE），多起案例成功取得高敏感資料（涵蓋醫療、商業與個資），影響規模達數萬至數億筆資料。</p>
-    <p>具備從弱點發掘至攻擊鏈建構之完整能力（Initial Access → Privilege Escalation → Data Exfiltration），能模擬真實攻擊者行為並驗證實際影響，將技術弱點轉化為具體風險情境與修補建議。 - chatGPT</p>
+    <p>資安工程師，專精 API 安全評估與存取控制漏洞挖掘。曾獨立對醫療 SaaS 平台進行系統性安全研究，通報包含 JWT 認證繞過及大量資料外洩在內的 8 個高風險漏洞；具備從逆向工程、攻擊面拓展到完整利用鏈建構的實戰經驗。</p>
+    <p>持續進行負責任的漏洞揭露（Responsible Disclosure），透過 HITCON ZeroDay 平台揭露多起高風險安全弱點，協助企業與組織提升資訊安全防護能力。 </p>
+    <p>現為登豐數位科技（iTOP）赤の侵入者；先前於 AIFT（OneDegree）擔任 Security Engineer Intern，負責弱點掃描、滲透測試與安全檢測服務，具備從偵察、弱點驗證到報告撰寫的完整實戰經驗。</p>
     <p>更多資料在 <a href="https://www.mlgzackfly.tw" target="_blank" rel="noopener noreferrer">個人網站</a></p>
-    <p> 在我的 <a href="https://blog.mlgzackfly.tw" target="_blank" rel="noopener noreferrer">部落格</a> 中，有一些證照回顧以及靶機的解題過程，可以來看看。</p>
+    <p>在我的 <a href="https://blog.mlgzackfly.tw" target="_blank" rel="noopener noreferrer">部落格</a> 中，有一些證照回顧以及靶機的解題過程，可以來看看。</p>
     </div>
     const certificates: MemberCertificateType[] = [
         {
@@ -182,15 +183,38 @@ export const MarcoMemberPage = () => {
 
     const internExperiences: MemberInternType[] = [
         {
+            company: "登豐數位科技（iTOP）",
+            info: "赤の侵入者",
+            datetime: "2026.09 - now",
+        },
+        {
             company: "AIFT (OneDegree)",
             info: "Security Engineering Intern, Cymetrics",
-            datetime: "2025.03 - Present",
+            datetime: "2025.03 - 2026.08",
         },
     ]
     const journals: MemberArticleType[] = []        
     const conferences: MemberArticleType[] = []
     const techConfs: MemberArticleType[] = []
     const zeroday: MemberZeroDayType[] = [
+    {
+        id: (
+            <div>
+                <a href="https://www.twcert.org.tw/tw/cp-132-11100-407c5-1.html">CVE-2026-19426</a>
+            </div>
+        ),
+        title: "葆光系統｜POS餐飲系統 - Missing Authentication",
+        datetime: "2026.08.12"
+    },
+    {
+        id: (
+            <div>
+                <a href="https://www.twcert.org.tw/tw/cp-132-11098-0fb4a-1.html">CVE-2026-19425</a>
+            </div>
+        ),
+        title: "威茗國際｜旅行社管理系統 - SQL Injection",
+        datetime: "2026.08.11"
+    },
     {
         id: (
             <div>
