@@ -1,11 +1,11 @@
 import { Sample } from "../Sample"
 import MOBSPhoto from "/src/assets/member/MOBS.jpg"
-import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType,MemberRaceExperienceType } from "../../type/MemberCertificateType"
+import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType,MemberCompetitionExperienceType } from "../../type/MemberCertificateType"
 
 export const MOBSMemberPage = () => {
     const bio = "大家好，我是MOBS。" 
     const certificates: MemberCertificateType[] = []
-    const raceExperiences: MemberRaceExperienceType[] = []
+    const raceExperiences: MemberCompetitionExperienceType[] = []
     const participates: MemberParticipateType[] = []
     const internExperiences: MemberInternType[] = []
 
