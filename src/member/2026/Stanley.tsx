@@ -10,7 +10,7 @@ export const StanleyMemberPage = () => {
     const raceExperiences: MemberCompetitionExperienceType[] = [
         {
             title: "2025 AIS3 新型態資安暑期課程",
-            result: "最佳專題",
+            result: "最佳專題獎",
             datetime: "2025.07"
         },
         {
@@ -38,6 +38,11 @@ export const StanleyMemberPage = () => {
             result: "39 / 329（8.4%）",
             datetime: "2026.05"
         },
+        {
+            title: "2026 AIS3 新型態資安暑期課程",
+            result: "最佳專題獎",
+            datetime: "2026.07"
+        },
     ]
 
     const participates: MemberParticipateType[] = [
@@ -64,6 +69,10 @@ export const StanleyMemberPage = () => {
         {
             title: "SITCON 2026 學生計算機年會 製播組",
             datetime: "2025.09 - 2026.03"
+        },
+        {
+            title: "AIS3 新型態資安暑期課程 – AI 資安應用實作與模型安全組",
+            datetime: "2026.07"
         }
     ]
 
