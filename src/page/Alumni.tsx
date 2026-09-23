@@ -491,6 +491,13 @@ export function Alumni() {
       note: "N/A",
     },
     {
+      name: "黃漢軒",
+      joinTime: "2023.04-2026.08",
+      title: "系統安全、程式能力、物件導向程式設計TA",
+      status: "臺灣積體電路 IT Engineer",
+      note: "實習經驗：前中華民國電腦技能基金會實習生",
+    },
+    {
       name: "白又銘/郭思彤/吳宛軒/黃奕文",
       joinTime: "2023.10-2026.08",
       title: "資安比賽選手",
@@ -517,13 +524,6 @@ export function Alumni() {
       title: "女婕思選手、藍隊技能、安全程式設計",
       status: "國立清華大學 資訊安全研究所",
       note: "N/A",
-    },
-    {
-      name: "黃漢軒",
-      joinTime: "2023.04-pres.",
-      title: "系統安全、程式能力、物件導向程式設計TA",
-      status: "國立陽明交通大學 資訊安全研究所",
-      note: "實習經驗：前中華民國電腦技能基金會實習生",
     },
     {
       name: "張洸銘",

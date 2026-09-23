@@ -507,17 +507,6 @@ export function Member() {
 
   const consultantUserTableItem: MemberItem[] = [
     {
-      key: "1",
-      name: "黃漢軒",
-      joinDate: "2023.04",
-      role: "",
-      coAdvisor: "",
-      ability: "國立陽明交通大學 - 資訊安全研究所",
-      experience: "",
-      certificate: "技術顧問",
-      website: "https://github.com/c1ydehhx",
-    },
-    {
       key: "2",
       name: "林妍蓁",
       joinDate: "2023.06",
