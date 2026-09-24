@@ -83,6 +83,11 @@ export const YuericMemberPage = () => {
             title: "L3akCTF 2026",
 			result: "Team Name: CHW, Rank: 25/710",
 			datetime: "2026/08/01 ~ 2026/08/03",
+        },
+        {
+            title: "AEGIS 2026 (神盾盃初賽)",
+			result: "Team Name: oO卍乂 煞氣a Is1ab 乂卍Oo, Rank: 27/56",
+			datetime: "2026/09/17 ~ 2026/09/19",
         }
     ]
     const participates: MemberParticipateType[] = [
