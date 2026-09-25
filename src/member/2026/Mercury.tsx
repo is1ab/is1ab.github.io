@@ -75,6 +75,11 @@ export const MercuryMemberPage = () => {
             title: "TSCCTF 2026",
             result: "34th / 115",
             datetime: "2026.03"
+        },
+        {
+            title: "AEGIS 2026 (神盾盃初賽)",
+			result: "Team Name: oO卍乂 煞氣a Is1ab 乂卍Oo, Rank: 27/56",
+			datetime: "2026.09",
         }
     ]
 
