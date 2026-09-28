@@ -25,6 +25,25 @@ const journalPapers: PublicationItemType[] = [
   {
     authors: [
       { name: "Sheng-Shan Chen" },
+      { name: "Ren-Hung Hwang" },
+      { name: "Ying-Dar Lin" },
+      { name: "Tun-Wen Pai" },
+      { name: "Chin-Yu Sun", highlight: true, corresponding: true },
+    ],
+    title:
+      "Extracting Attack Pattern from WAF Logs and CTIs Using Contrastive Semantic Learning",
+    venue: "IEEE Transactions on Network and Service Management",
+    details: "Accepted by September 2026.",
+    tags: [
+      "SCI",
+      "2025 JCR IF 5.7 · Computer Science, Information Systems · Q1",
+      "2025 SJR 1.389 · Computer Networks and Communications · Q1",
+      "＊ Corresponding author",
+    ],
+  },
+  {
+    authors: [
+      { name: "Sheng-Shan Chen" },
       { name: "Yi-Sheng Hsu" },
       { name: "Tien-Chih Lin" },
       { name: "Chung-Kuan Chen" },
@@ -441,20 +460,6 @@ const conferencePapers: PublicationItemType[] = [
 ];
 
 const pendingPapers: PublicationItemType[] = [
-  {
-    authors: [
-      { name: "Sheng-Shan Chen" },
-      { name: "Ren-Hung Hwang" },
-      { name: "Ying-Dar Lin" },
-      { name: "Tun-Wen Pai" },
-      { name: "Chin-Yu Sun", highlight: true, corresponding: true },
-    ],
-    title:
-      "Extracting Attack Pattern from WAF Logs and CTIs Using Contrastive Semantic Learning",
-    venue: "IEEE Transactions on Network and Service Management",
-    details: "Submitted in January 2026.",
-    tags: ["Submitted"],
-  },
   {
     authors: [
       { name: "Sheng-Shan Chen" },
