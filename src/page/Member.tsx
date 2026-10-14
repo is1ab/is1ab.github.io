@@ -456,7 +456,7 @@ export function Member() {
       role: "碩一，資安碩士",
       coAdvisor: "",
       experience: "前威聯通股份有限公司資安實習生",
-      certificate: "",
+      certificate: "PWN組長",
       website: "/#/member/2026/Mercury",
       avatar: _Mercury,
     },
