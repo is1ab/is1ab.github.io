@@ -1,11 +1,18 @@
 import { Sample } from "../Sample"
 import M4RVjN from "../../assets/member/M4RVjN.jpg"
-import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType } from "../../type/MemberCertificateType"
+import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParticipateType, MemberCompetitionExperienceType, MemberZeroDayType } from "../../type/MemberCertificateType"
 
 export const M4RVjNMemberPage = () => {
-    const bio = "我是 M4RVjN，小時候都在課本塗鴉，現在正努力跟上大家。"
+    const bio = <div>
+    <p>我是 M4RVjN，小時候都在課本塗鴉，現在正努力跟上大家。</p>
+    <p>My Blog : <a href="https://m4rvjn.github.io" target="_blank" rel="noopener noreferrer">https://m4rvjn.github.io</a></p>
+    </div>
 
     const certificates: MemberCertificateType[] = [
+        {
+            title: "HTB CWES",
+            datetime: "2026.10"
+        },
         {
             title: "iPAS 資訊安全工程師-初級能力鑑定",
             datetime: "2024.12"
@@ -15,7 +22,7 @@ export const M4RVjNMemberPage = () => {
     const raceExperiences: MemberCompetitionExperienceType[] = [
         {
             title: "MyFirstCTF",
-            result: "14/80",
+            result: "14/80 潛力獎",
             datetime: "2025.05"
         },
         {
@@ -41,13 +48,60 @@ export const M4RVjNMemberPage = () => {
             company: "開啟資安系統股份有限公司",
             info: "資安檢測服務處 實習生",
             datetime: "2024.09 - 2025.09"
-
         }
     ]
 
     const journals: MemberArticleType[] = []
     const conferences: MemberArticleType[] = []
     const techConfs: MemberArticleType[] = []
+    const zeroday: MemberZeroDayType[] = [
+        {
+            id: ( 
+                <div>
+                    <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-01236">ZD-2026-01236</a> 
+                </div>
+            ),
+            title: "明志科技大學校園入口網站個人設定功能存在 Stored XSS",
+            datetime: "2024.10.14"
+        },
+        {
+            id: ( 
+                <div>
+                    <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-01235">ZD-2026-01236</a> 
+                </div>
+            ),
+            title: "明志科技大學校園入口網站未驗證的密碼修改",
+            datetime: "2026.10.14"
+        },
+        {
+            id: ( 
+                <div>
+                    <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00410">ZD-2026-00410</a> 
+                </div>
+            ),
+            title: "明志科技大學校園入口網站利用競爭條件繞過帳號鎖定機制",
+            datetime: "2026.04.28"
+        },
+        {
+            id: ( 
+                <div>
+                    <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00327">ZD-2026-00327</a> 
+                </div>
+            ),
+            title: "明志科技大學校園入口網站修改密碼身分驗證繞過",
+            datetime: "2026.04.04"
+        },
+        {
+            id: ( 
+                <div>
+                    <a href="https://zeroday.hitcon.org/vulnerability/ZD-2026-00326">ZD-2026-00326</a> 
+                </div>
+            ),
+            title: "明志科技大學校園入口網站 GET-based CSRF 密碼竄改漏洞",
+            datetime: "2026.04.04"
+        }
+    ]
+
     return (
         <Sample
             zhName="黃致程"
@@ -62,6 +116,7 @@ export const M4RVjNMemberPage = () => {
             journals={journals}
             conferences={conferences}
             techConfs={techConfs}
+            zeroday={zeroday}
         ></Sample>
     )
 }
