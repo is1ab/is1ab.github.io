@@ -59,7 +59,7 @@ export const StanleyMemberPage = () => {
             datetime: "2025.07"
         },
         {
-            title: "第十屆 AIS3 好厲駭 高階學員培訓",
+            title: "第十屆 AIS3 好厲駭 高階學員培訓 + 導師培訓",
             datetime: "2025.09 - 2026.08"
         },
         {
@@ -73,6 +73,10 @@ export const StanleyMemberPage = () => {
         {
             title: "AIS3 新型態資安暑期課程 – AI 資安應用實作與模型安全組",
             datetime: "2026.07"
+        },
+        {
+            title: "第十一屆 AIS3 好厲駭 高階學員培訓 + 導師培訓",
+            datetime: "2026.09 - 現在"
         }
     ]
 
