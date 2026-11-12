@@ -110,6 +110,10 @@ export const MimimaomaoMemberPage = () => {
             datetime: "2025.09 ~ 2026.07"
         },        
         {
+            title: "第十一屆臺灣好厲駭 高階學員培訓",
+            datetime: "2026.09 ~ now"
+        },        
+        {
             title: "逢甲大學黑客社 10th 網管",
             datetime: "2023.08 ~ 2024.07"
         },
