@@ -15,6 +15,7 @@ import _Mercury from "../assets/member/Mercury.jpg"
 import _Stanley from "../assets/member/Stanley.png"
 import _mimimaomao from "../assets/member/mimimaomao.png"
 import _MOBS from "../assets/member/MOBS.jpg"
+import _Yusef from "../assets/member/Yusef.jpg"
 
 type MemberItem = {
   key: string
@@ -490,7 +491,8 @@ export function Member() {
       coAdvisor: "",
       experience: "",
       certificate: "",
-      website: "",
+      website: "/#/member/2026/Yusef",
+      avatar: _Yusef,
     },
     {
       key: "12",
