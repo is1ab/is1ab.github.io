@@ -70,6 +70,31 @@ export const MimimaomaoMemberPage = () => {
          result: "排名: 6 ( 佳作 )",
          datetime: "2026"
      },          
+     {
+         title: "AWS AI Virtual League 2026 Track-2 (APAC)",
+         result: "排名: Quals #3, Final #4",
+         datetime: "2026"
+     },
+     {
+         title: "HITCON CTF 2026",
+         result: "排名: Worlds #12",
+         datetime: "2026"
+     },
+     {
+         title: "AWS AI Everywhere Hackathon 2026 娛樂直播組",
+         result: "排名: 2",
+         datetime: "2026"
+     },
+     {
+         title: "神盾盃 2026 國際資安邀請賽",
+         result: "排名: Quals #8, Final #10",
+         datetime: "2026"
+     },
+     {
+         title: "115 年度資安精英攻防實戰演練",
+         result: "銅質獎",
+         datetime: "2026"
+     },
 
  ]
  
