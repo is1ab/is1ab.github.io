@@ -3,7 +3,13 @@ import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParti
 import mimimaomao from "../../assets/member/mimimaomao.png"
 
 export const MimimaomaoMemberPage = () => {
- const bio = "我是 Mimimaomao 主要專注於資訊安全與雲端領域，平時會參與 CTF 與競賽，熟悉 Forensics、藍隊等技術方向，同時也具備 AWS 雲端實務經驗，如 : Lambda、Cognito、IAM 等。未來希望深入研究雲端安全與攻防技術。 https://mimao.dev/"
+ const bio = (
+     <>
+         我是 Mimimaomao 主要專注於資訊安全與雲端領域，平時會參與 CTF 與競賽，熟悉 Forensics、藍隊等技術方向，同時也具備 AWS 雲端實務經驗，如 : Lambda、Cognito、IAM 等。未來希望深入研究雲端安全與攻防技術。
+         <br />
+         個人網站：<a href="https://mimao.dev/" target="_blank" rel="noopener noreferrer">https://mimao.dev/</a>
+     </>
+ )
  const certificates: MemberCertificateType[] = [
      {
          title: "Cisco Certified Network Associate (CCNA)",
@@ -26,7 +32,7 @@ export const MimimaomaoMemberPage = () => {
 
  const competitionExperiences: MemberCompetitionExperienceType[] = [
      {
-         title: "HITCON Cyber Range 2024 企業組",
+         title: "HITCON Cyber Range 2024 企業組 (藍隊競賽)",
          result: "排名: Quals #9, Final #7",
          datetime: "2024"
      },
@@ -70,6 +76,31 @@ export const MimimaomaoMemberPage = () => {
          result: "排名: 6 ( 佳作 )",
          datetime: "2026"
      },          
+     {
+         title: "AWS AI Virtual League 2026 Track-2 (APAC)",
+         result: "排名: Quals #3, Final #4",
+         datetime: "2026"
+     },
+     {
+         title: "HITCON CTF 2026",
+         result: "排名: Worlds #12",
+         datetime: "2026"
+     },
+     {
+         title: "AWS AI Everywhere Hackathon 2026 娛樂直播組",
+         result: "排名: 2",
+         datetime: "2026"
+     },
+     {
+         title: "神盾盃 2026 國際資安邀請賽",
+         result: "排名: Quals #8, Final #10",
+         datetime: "2026"
+     },
+     {
+         title: "115 年度資安精英攻防實戰演練",
+         result: "銅質獎",
+         datetime: "2026"
+     },
 
  ]
  
@@ -77,6 +108,10 @@ export const MimimaomaoMemberPage = () => {
         {
             title: "第十屆臺灣好厲駭 高階學員培訓",
             datetime: "2025.09 ~ 2026.07"
+        },        
+        {
+            title: "第十一屆臺灣好厲駭 高階學員培訓",
+            datetime: "2026.09 ~ now"
         },        
         {
             title: "逢甲大學黑客社 10th 網管",
@@ -104,7 +139,7 @@ export const MimimaomaoMemberPage = () => {
      {
          company: "逢甲大學雲創學院",
          info: "雲端開發工程師",
-         datetime: "2024.12 - now"
+         datetime: "2024.12 - 2026"
      },     
  ]
 
