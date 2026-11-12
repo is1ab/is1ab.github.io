@@ -3,7 +3,13 @@ import { MemberArticleType, MemberCertificateType, MemberInternType, MemberParti
 import mimimaomao from "../../assets/member/mimimaomao.png"
 
 export const MimimaomaoMemberPage = () => {
- const bio = "我是 Mimimaomao 主要專注於資訊安全與雲端領域，平時會參與 CTF 與競賽，熟悉 Forensics、藍隊等技術方向，同時也具備 AWS 雲端實務經驗，如 : Lambda、Cognito、IAM 等。未來希望深入研究雲端安全與攻防技術。 https://mimao.dev/"
+ const bio = (
+     <>
+         我是 Mimimaomao 主要專注於資訊安全與雲端領域，平時會參與 CTF 與競賽，熟悉 Forensics、藍隊等技術方向，同時也具備 AWS 雲端實務經驗，如 : Lambda、Cognito、IAM 等。未來希望深入研究雲端安全與攻防技術。
+         <br />
+         個人網站：<a href="https://mimao.dev/" target="_blank" rel="noopener noreferrer">https://mimao.dev/</a>
+     </>
+ )
  const certificates: MemberCertificateType[] = [
      {
          title: "Cisco Certified Network Associate (CCNA)",
@@ -26,7 +32,7 @@ export const MimimaomaoMemberPage = () => {
 
  const competitionExperiences: MemberCompetitionExperienceType[] = [
      {
-         title: "HITCON Cyber Range 2024 企業組",
+         title: "HITCON Cyber Range 2024 企業組 (藍隊競賽)",
          result: "排名: Quals #9, Final #7",
          datetime: "2024"
      },
@@ -129,7 +135,7 @@ export const MimimaomaoMemberPage = () => {
      {
          company: "逢甲大學雲創學院",
          info: "雲端開發工程師",
-         datetime: "2024.12 - now"
+         datetime: "2024.12 - 2026"
      },     
  ]
 
