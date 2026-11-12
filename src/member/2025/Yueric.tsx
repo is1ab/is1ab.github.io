@@ -92,7 +92,7 @@ export const YuericMemberPage = () => {
         {
             title: "115年度資安技能金盾獎",
             result: "",
-            datetime: "2025.10.17"
+            datetime: "2026.10.17"
         },
         {
 			title: "HITCON CTF 2026",
