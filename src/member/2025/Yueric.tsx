@@ -88,7 +88,18 @@ export const YuericMemberPage = () => {
             title: "AEGIS 2026 (神盾盃初賽)",
 			result: "Team Name: oO卍乂 煞氣a Is1ab 乂卍Oo, Rank: 27/56",
 			datetime: "2026/09/17 ~ 2026/09/19",
-        }
+        },
+        {
+            title: "115年度資安技能金盾獎",
+            result: "",
+            datetime: "2025.10.17"
+        },
+        {
+			title: "HITCON CTF 2026",
+			result: "Player Name: HackerS1r1ab, Rank: 12/1541",
+			datetime: "2026/10/23 ~ 2026/10/25",
+		}
+
     ]
     const participates: MemberParticipateType[] = [
         {
