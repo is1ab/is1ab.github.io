@@ -8,6 +8,9 @@ import goldfinal2025 from "../assets/activities/2025_金盾獎決賽.jpg";
 import bak3Cookie from "../assets/activities/2026_餅乾社資安教學.jpg";
 import ais3camp from "../assets/activities/2026_AIS3_暑期營隊.jpg";
 import ais3camp_1 from "../assets/activities/2026_AIS3_暑期營隊講師.jpg";
+import gold2026 from "../assets/activities/2026_金盾獎.jpg";
+import aegisfinal2026 from "../assets/activities/2026_神盾盃決賽.jpg";
+import cyberElite2026 from "../assets/activities/115資安菁英攻防.jpg";
 
 type ActivityCategory = "比賽" | "資安活動" | "實驗室聚餐";
 
@@ -20,6 +23,24 @@ type ActivityItemType = {
 };
 
 const activities: ActivityItemType[] = [
+  {
+    time: "2026.11.08",
+    title: "2026 神盾杯決賽",
+    category: "比賽",
+    images: [aegisfinal2026],
+  },
+  {
+    time: "2026.10.21",
+    title: "115年資安菁英攻防實戰演練",
+    category: "比賽",
+    images: [cyberElite2026],
+  },
+  {
+    time: "2026.10.17",
+    title: "2026 金盾獎初賽",
+    category: "比賽",
+    images: [gold2026],
+  },
   {
     time: "2026.7.31",
     title: "is1ab 慶功宴",
