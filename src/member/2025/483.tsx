@@ -130,7 +130,7 @@ export const _483MemberPage = () => {
         },
         {
             title: 'AIS3 MyFirst CTF 2026',
-            result: 'Player Name: pudding483, Rank: 59/329',
+            result: 'Player Name: pudding483, Rank: 13/100',
             datetime: '2026/05/16 09:30 ~ 17:30',
         },
         {
@@ -157,6 +157,11 @@ export const _483MemberPage = () => {
             title: 'AEGIS 2026 (神盾盃初賽)',
             result: 'Team Name: oO卍乂 煞氣a Is1ab 乂卍Oo, Rank: 27/56',
             datetime: '2026/09/17 ~ 2026/09/19',
+        },
+        {
+            title: '115 年度資安精英攻防實戰演練',
+            result: '銅質獎 (Rank: 3)',
+            datetime: '2026/10/21',
         },
         {
             title: 'HITCON CTF 2026',
@@ -234,7 +239,7 @@ export const _483MemberPage = () => {
             zhName="沈柏安"
             enName="Shen, Bo-An"
             avatar={_483}
-            institutes={['國立臺北科技大學 資訊安全碩士學位學程 碩一']}
+            institutes={['國立臺北科技大學 資訊安全碩士學位學程 碩二']}
             bio={bio}
             presentations={presentations}
             experiences={competitionExperiences}
