@@ -144,9 +144,24 @@ export const _483MemberPage = () => {
             datetime: '2026/06/27 ~ 2026/06/29',
         },
         {
-            title: 'No Hack No CTF 2025',
+            title: 'No Hack No CTF 2026',
             result: 'Team Name: NTUT_Is1ab, Rank: 195/844',
             datetime: '2026/07/04 ~ 2026/07/06',
+        },
+        {
+            title: '2026 AIS3 新型態資安暑期課程 專題',
+            result: '最佳專題獎',
+            datetime: '2026/07',
+        },
+        {
+            title: 'AEGIS 2026 (神盾盃初賽)',
+            result: 'Team Name: oO卍乂 煞氣a Is1ab 乂卍Oo, Rank: 27/56',
+            datetime: '2026/09/17 ~ 2026/09/19',
+        },
+        {
+            title: 'HITCON CTF 2026',
+            result: 'Team Name: HackerS1r1ab, Rank: 12/1541',
+            datetime: '2026/10/23 ~ 2026/10/25',
         },
     ];
     const participates: MemberParticipateType[] = [
@@ -167,12 +182,24 @@ export const _483MemberPage = () => {
             datetime: '2025/09 ~ now',
         },
         {
-            title: '行政院115年網路攻防演練攻擊手',
+            title: '115 年度行政院網路攻防演練攻擊手',
             datetime: '2026/04/13 ~ 2026/09/15',
         },
         {
             title: '115 年度教育體系資安攻防演練 - 攻擊手',
             datetime: '2026/03/19 ~ 2026/09/17',
+        },
+        {
+            title: '2026 AIS3 新型態資安暑期課程',
+            datetime: '2026/07/20 ~ 2026/07/26',
+        },
+        {
+            title: 'HITCON 2026',
+            datetime: '2026/08/21 ~ 2026/08/22',
+        },
+        {
+            title: '第十一屆臺灣好厲駭 高階學員培訓',
+            datetime: '2026/09 ~ now',
         },
     ];
     const internExperiences: MemberInternType[] = [];
@@ -193,6 +220,13 @@ export const _483MemberPage = () => {
                 'He Kong, Die Hu, Jingguo Ge, Liangxiong Li, Tong Li,and Bingzhen Wu',
             journal: 'arXiv : Computer Science > Software Engineering (2025)',
             datetime: '2026/06/11',
+        },
+        {
+            title: 'PTFusion: LLM-driven context-aware knowledge fusion for web penetration testing',
+            authors:
+                'Wenhao Wang, Hao Gu, Zhixuan Wu, Hao Chen, Xingguo Chen, Fan Shi',
+            journal: 'Information Fusion 2026',
+            datetime: '2026/10',
         },
     ];
     return (
