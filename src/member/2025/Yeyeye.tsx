@@ -123,7 +123,17 @@ const competitionExp: MemberCompetitionExperienceType[] = [
 		title: "pico CTF 2026",
 		result: "261/8747 Team Name: NTUT_is1ab",
 		datetime: "2026/03/10 ~ 2026/03/20",
-	}
+	},
+	{
+		title: 'AIS3 MyFirst CTF 2026',
+		result: '19/100',
+		datetime: '2026/05/16 09:30 ~ 17:30',
+	},
+	{
+		title: 'AIS3 Pre-exam CTF 2026',
+		result: '89/329',
+		datetime: '2026/05/16 ~ 2026/05/18',
+	},
 ];
 
 // 資安證照／檢定
@@ -168,6 +178,18 @@ const presentations: MemberPresentationType[] = [
 			authors: "Youkun Shi, Yuan Zhang, Tianhao Bai, Feng Xue, Jiarun Dai, Fengyu Liu, Lei Zhang, Xiapu Luo, and Min Yang",
 			journal: "USENIX Security Symposium",
 			datetime: "2025.08.13"
+		},
+		{
+			title: "BWAFSQLi: Bypassing Web Application Firewall with Adversarial SQL Injections",
+			authors: "BING ZHANG, CHAO LIU, RONG REN, QIAN WANG, and JIADONG REN",
+			journal: "ACM Transactions on Software Engineering and Methodology",
+			datetime: "2026.08.21"
+		},
+		{
+			title: "SQLiFuzz: Uncovering SQL Injection in Any Web Applications",
+			authors: "I PUTU ARYA DHARMAADI, VAN-THUAN PHAM, FADI MOHSEN, and FATIH TURKMEN",
+			journal: "ACM Transactions on Software Engineering and Methodology",
+			datetime: "2026.06.30"
 		}
 	]
 
@@ -177,7 +199,7 @@ export const YeyeyeMemberPage = () => {
 			zhName="劉業閎"
 			enName="Liu, Yeah Hung"
 			avatar={avatarSrc}
-			institutes={["國立臺北科技大學 資工系碩士班 碩一"]}
+			institutes={["國立臺北科技大學 資工系碩士班 碩二"]}
 			bio={bio()}
 			presentations={presentations}
 			experiences={competitionExp}
