@@ -16,6 +16,7 @@ import _Stanley from "../assets/member/Stanley.png"
 import _mimimaomao from "../assets/member/mimimaomao.png"
 import _MOBS from "../assets/member/MOBS.jpg"
 import _Yusef from "../assets/member/Yusef.jpg"
+import JunAn from "../assets/member/JunAn.jpg"
 
 type MemberItem = {
   key: string
@@ -398,6 +399,7 @@ export function Member() {
       experience: "",
       certificate: "實驗室財務/採購管理",
       website: "/#/member/2025/JunAn",
+      avatar: JunAn,
     },
     {
       key: "3",
