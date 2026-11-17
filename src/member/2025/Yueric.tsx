@@ -115,6 +115,10 @@ export const YuericMemberPage = () => {
             datetime: "2026.08.21 ~ 2026.08.22"
         },
         {
+            title: "2026 AIS3 新型態資安暑期課程",
+            datetime: "2026.07.20 ~ 2026.07.26"
+        },
+        {
             "title": "CYBERSEC 2026 會眾",
             "datetime": "2026"
         },
