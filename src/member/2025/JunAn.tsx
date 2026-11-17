@@ -133,7 +133,7 @@ export const JunAnMemberPage = () => {
             authors: "Tobias Scharnowski, Simeon Hoffmann, Moritz Bley, Simon Wörner, Daniel Klischies, Felix Buchmann, Nils Ole Tippenhauer, Thorsten Holz, and Marius Muench",
             journal: "USENIX Security Symposium 2025",
             datetime: "2026.07.03"
-        }
+		},
         {
             title: "A Case Study on Fuzzing Satellite Firmware",
             authors: "Tobias Scharnowski, Felix Buchmann, Simon Worner,and Thorsten Holz",
