@@ -27,6 +27,10 @@ export const MimimaomaoMemberPage = () => {
          title: "AWS Certified CloudOps Engineer - Associate",
          datetime: "2026.08"
      },               
+     {
+         title: "AWS Certified Machine Learning Engineer - Associate",
+         datetime: "2026.11"
+     },               
  ]
 
 
