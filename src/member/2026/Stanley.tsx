@@ -71,6 +71,10 @@ export const StanleyMemberPage = () => {
             datetime: "2025.09 - 2026.03"
         },
         {
+            title: "東京都市大學 櫻花交換計畫",
+            datetime: "2025.12"
+        },
+        {
             title: "AIS3 新型態資安暑期課程 – AI 資安應用實作與模型安全組",
             datetime: "2026.07"
         },
